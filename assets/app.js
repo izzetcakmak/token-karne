@@ -24,6 +24,7 @@ function applyLang() {
   $('#ca').placeholder = T('hero.ph');
   paintTitle();
   renderHowCards();
+  renderQuestionList();
   /* notlar tarama aninda uretiliyor — dil degisince yeniden hesapla (ag istegi yok) */
   if (S) { S.checks = computeChecks(S.chain, S.ca, S.D, S.sec, S.X, S.RF); render(); }
 }
@@ -961,6 +962,25 @@ function renderHowCards() {
     '<div class="how-card"><span class="em">' + em[i - 1] + '</span>' +
     '<h4>' + T('how.c' + i + '.t') + '</h4><p>' + T('how.c' + i + '.d') + '</p></div>').join('');
 }
+/* landing sayfasindaki 12 soru listesi — hangi soruyu kim cevapliyor */
+const HOW_SRC = {
+  1: ['auto', 'DexScreener'], 2: ['auto', 'GoPlus · RugCheck'], 3: ['auto', 'GoPlus · RugCheck'],
+  4: ['auto', 'GoPlus · RugCheck'], 5: ['auto', 'GoPlus'], 6: ['guess', 'RugCheck · Bubblemaps'],
+  7: ['auto', 'RugCheck · GMGN'], 8: ['auto', 'X'], 9: ['guess', 'X · TweetScout'],
+  10: ['guess', 'DexScreener'], 11: ['auto', 'DexScreener'], 12: ['you', null]
+};
+function renderQuestionList() {
+  const el = $('#howQuestions'); if (!el) return;
+  const cols = ['var(--magenta)', 'var(--cyan)', 'var(--lime)', 'var(--yellow)', 'var(--orange)', 'var(--violet)'];
+  el.innerHTML = QUESTIONS.map(q => {
+    const [kind, src] = HOW_SRC[q.n];
+    const label = src || (LANG === 'tr' ? 'sen' : 'you');
+    return '<div class="ql"><span class="n" style="background:' + cols[(q.n - 1) % 6] + '">' + q.n + '</span>' +
+      '<span class="t">' + esc(q[LANG] || q.tr) + '</span>' +
+      '<span class="s ' + kind + '">' + esc(label) + '</span></div>';
+  }).join('');
+}
+
 function paintTitle() {
   const el = $('#bigtitle');
   const word = LANG === 'tr' ? 'KARNE' : 'SCORECARD';

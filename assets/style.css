@@ -328,7 +328,7 @@ a.src:hover{background:var(--cyan);color:var(--black)}
 .flag.ok{background:var(--lime);color:var(--black)}
 
 /* ---------- history ---------- */
-.history{margin-top:26px}
+.history{margin-top:26px;padding-bottom:34px}
 .history h3{font-size:20px;margin-bottom:10px;opacity:.9}
 .hist-list{display:flex;gap:9px;flex-wrap:wrap}
 .hist{
@@ -350,6 +350,29 @@ a.src:hover{background:var(--cyan);color:var(--black)}
 .how-card h4{font-size:19px;margin-bottom:7px}
 .how-card p{font-size:14px;line-height:1.5;opacity:.86}
 .how-card .em{font-size:30px;margin-bottom:8px;display:block}
+.qlist{
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(330px,1fr));
+  gap:8px;margin-top:26px;
+}
+.ql{
+  display:flex;gap:11px;align-items:center;background:var(--ink);
+  border:3px solid var(--black);border-radius:13px;padding:10px 13px;
+  box-shadow:var(--shadow-xs);transition:.15s;
+}
+.ql:hover{transform:translate(-2px,-2px);box-shadow:var(--shadow-sm)}
+.ql .n{
+  font-family:var(--font-d);font-size:16px;width:29px;height:29px;flex:none;
+  display:grid;place-items:center;border:2px solid var(--black);border-radius:8px;color:var(--black);
+}
+.ql .t{font-weight:700;font-size:14px;line-height:1.3;flex:1}
+.ql .s{
+  font-size:9px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;flex:none;
+  padding:4px 8px;border-radius:999px;border:2px solid var(--black);background:var(--ink-3);color:var(--cream);
+}
+.ql .s.auto{background:var(--lime);color:var(--black)}
+.ql .s.guess{background:var(--yellow);color:var(--black)}
+.ql .s.you{background:var(--orange);color:var(--black)}
+
 .scale{display:grid;gap:9px;margin-top:24px}
 .scale-row{
   display:flex;gap:13px;align-items:center;background:var(--ink);border:3px solid var(--black);
