@@ -398,6 +398,12 @@ function aggregate(allPairs) {
 }
 
 /* ---------------- scoring ---------------- */
+/* Olgun varlik testi: buyuk piyasa degeri + eski havuz + cok holder */
+function isMature(D, sec) {
+  const ageDays = D.created ? (Date.now() - D.created) / 864e5 : 0;
+  return (D.mcap || 0) > 5e7 && ageDays > 180 && (sec.holderCount || 0) > 20000;
+}
+
 function snapKey(chain, ca) { return 'tk_snap_' + chain + '_' + ca.toLowerCase(); }
 function ansKey(chain, ca)  { return 'tk_ans_'  + chain + '_' + ca.toLowerCase(); }
 
@@ -514,10 +520,14 @@ function computeChecks(chain, ca, D, sec, X, RF) {
     : { linkLabel: 'DexScreener' };
 
   if (!D.handle) {
-    const key = D.community ? 'n.x.community' : 'n.x.none';
+    /* Yeni bir launch'ta "sosyal yok" delildir: puan yok.
+       5 yillik, yuz binlerce holder'i olan bir tokende ise bu delil degil,
+       DexScreener'da kayit olmamasidir — cevabi kullaniciya birak. */
+    const key = D.community ? 'n.x.community' : (isMature(D, sec) ? 'n.x.nodata' : 'n.x.none');
     const cl = D.community ? { link: D.community, linkLabel: 'X Community' } : xLinks;
-    put(8, false, T(key), cl);
-    put(9, false, T(key), cl);
+    const v = isMature(D, sec) && !D.community ? null : false;
+    put(8, v, T(key), Object.assign({ kind: v === null ? 'you' : 'auto' }, cl));
+    put(9, v, T(key), Object.assign({ kind: v === null ? 'you' : 'auto' }, cl));
   } else if (!X || X.ok === false) {
     /* hesap cekilemedi: silinmis/askida olabilir -> kirmizi, ama elle cevrilebilir */
     const missing = X && X.missing;
