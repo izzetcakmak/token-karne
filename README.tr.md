@@ -1,5 +1,7 @@
 # 📋 Token Karnesi
 
+**[tokenkarnesi.xyz](https://tokenkarnesi.xyz)**
+
 Memecoinler için 12 soruluk karne. Kontrat adresini yapıştır, tek ekranda net bir hüküm al:
 **büyük gir, normal gir, küçük gir ya da geç.**
 

@@ -1,5 +1,7 @@
 # 📋 Token Karnesi
 
+**[tokenkarnesi.xyz](https://tokenkarnesi.xyz)**
+
 A 12-question scorecard for memecoins. Paste a contract address, get one screen with a
 plain verdict: **size up, size normal, size small, or skip.**
 
