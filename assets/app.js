@@ -101,6 +101,31 @@ const BURN_ADDR = new Set([
   '11111111111111111111111111111111',
   '1nc1nerator11111111111111111111111111111111'
 ]);
+/* Borsa / saklama / havuz cuzdanlari.
+   Bunlar musteri parasi tutar, balina pozisyonu degildir; yogunlasma
+   hesabina katilirsa PEPE gibi kurumsal tokenler haksiz yere "dagilim bozuk"
+   cikar. Dislaniyor ama kullaniciya ayrica gosteriliyor.
+   Liste ezberden degil OLCUMDEN cikti: 15 buyuk ETH tokeni (PEPE, SHIB, LINK,
+   UNI, AAVE, CRV, LDO, APE, SAND, MANA, GRT, COMP, ENS...) ve 7 buyuk Solana
+   tokeni (BONK, WIF, JUP, RAY, PYTH, JTO, POPCAT) tarandi; birbiriyle alakasiz
+   en az 3 tokenin ilk 10'unda ayni anda gorunen adresler alindi. Tek bir balina
+   bunu yapamaz — bunlar borsa/saklama/havuz cuzdanlaridir.
+   Yanindaki sayi: kac buyuk tokenin ilk 10'unda gorundugu. */
+const KNOWN_ENTITY = {
+  /* --- Ethereum --- */
+  '0x5a52e96bacdabb82fd05763e25335261b270efcb': 10,
+  '0xf977814e90da44bfa03b6295a0616a897441acec': 9,
+  '0x611f7bf868a6212f871e89f7e44684045ddfb09d': 5,
+  '0x76ec5a0d3632b2133d9f1980903305b62678fbd3': 4,
+  '0x1d48963dd8fada6ab5c2c7b92eba81ecc5030270': 4,
+  /* --- Solana --- */
+  '9WzDXwBbmkg8ZTbNMqUxvQRAyrZzDsGYdLVL9zYtAWWM': 4,
+  '3gd3dqgtJ4jWfBfLYTX67DALFetjc5iS72sCgRhCkW2u': 4,
+  '4xLpwxgYuPwPvtQjE94RLS4WZ4aD8NJYYKr2AJk99Qdg': 3,
+  '51yZyDSnec4xnUv7XLRVYcDyV4x3wUtzrDcRaYbmQU5j': 3
+};
+const entityOf = a => KNOWN_ENTITY[a] || KNOWN_ENTITY[String(a || '').toLowerCase()] || null;
+
 /* bilinen Solana AMM / launchpad otoriteleri — top10 hesabindan dislanir */
 const SOL_AMM = new Set([
   '5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1', // Raydium authority V4
@@ -241,8 +266,18 @@ async function fetchSecurity(chain, ca) {
     if (t) {
       out.ok = true; out.sources.push('GoPlus');
       const on = v => String(v) === '1';
-      out.mintable  = on(t.is_mintable) || on(t.can_take_back_ownership);
-      out.freezable = on(t.transfer_pausable) || on(t.is_blacklisted) || on(t.cannot_sell_all) || on(t.trading_cooldown);
+      /* Sahiplik sifir adrese birakildiysa owner'a bagli yetkiler (mint,
+         blacklist, pause) kodda dursa bile cagrilamaz. GoPlus fonksiyonun
+         VARLIGINI bildiriyor, kullanilabilirligini degil. */
+      const ownerAddr = String(t.owner_address || '').toLowerCase();
+      const renounced = (ownerAddr === '' || BURN_ADDR.has(ownerAddr)) &&
+                        !on(t.can_take_back_ownership) && !on(t.hidden_owner);
+      out.ownerRenounced = renounced;
+      out.mintableCode  = on(t.is_mintable);
+      out.freezableCode = on(t.transfer_pausable) || on(t.is_blacklisted);
+      out.mintable  = out.mintableCode && !renounced;
+      /* cannot_sell_all / trading_cooldown owner'a bagli degil, her hâlükârda sayilir */
+      out.freezable = (out.freezableCode && !renounced) || on(t.cannot_sell_all) || on(t.trading_cooldown);
       out.holderCount = t.holder_count != null ? Number(t.holder_count) : null;
       out.creator = t.creator_address || null;
       out.creatorPct = t.creator_percent != null ? Number(t.creator_percent) * 100 : null;
@@ -255,15 +290,19 @@ async function fetchSecurity(chain, ca) {
         locked: String(h.is_locked) === '1', contract: String(h.is_contract) === '1',
         tag: h.tag || '', isLp: pairs.has(String(h.address || '').toLowerCase())
       }));
-      /* LP kilit: kilitli + yakilmis LP token yuzdesi */
-      let lp = 0, sawLp = false;
+      /* LP kilit: kilitli + yakilmis + tokenin KENDI kontratinda duran LP.
+         Sonuncusu yaygin bir yakma deseni (orn. PEPE): LP tokenleri token
+         kontratina gonderilir, cekecek fonksiyon olmadigi icin fiilen olur. */
+      let lp = 0, sawLp = false, selfLp = 0;
+      const self = String(ca).toLowerCase();
       (t.lp_holders || []).forEach(h => {
         sawLp = true;
         const p = Number(h.percent) * 100;
         const a = String(h.address || '').toLowerCase();
+        if (a === self) { selfLp += p; lp += p; return; }
         if (String(h.is_locked) === '1' || BURN_ADDR.has(a) || /burn|lock|null/i.test(h.tag || '')) lp += p;
       });
-      if (sawLp) out.lpLockedPct = Math.min(lp, 100);
+      if (sawLp) { out.lpLockedPct = Math.min(lp, 100); out.lpSelfPct = selfLp; }
 
       const F = out.flags;
       if (on(t.is_honeypot)) F.push({ lvl: 'bad', k: 'fl.honeypot' });
@@ -281,16 +320,25 @@ async function fetchSecurity(chain, ca) {
     }
   }
 
-  /* ilk 10 cuzdan — LP / yakma / kilit adresleri haric */
+  /* ilk 10 cuzdan — LP / yakma / kilit / borsa adresleri haric */
+  const cex = [];
+  const selfAddr = String(ca).toLowerCase();
   const clean = out.topHolders.filter(h => {
     const a = String(h.addr || '').toLowerCase();
     if (BURN_ADDR.has(a) || BURN_ADDR.has(h.addr)) return false;
+    if (a === selfAddr) return false;                       /* tokenin kendi kontrati */
     if (h.isLp || h.locked) return false;
     if (SOL_AMM.has(h.addr)) return false;
-    if (/uniswap|pancake|raydium|orca|meteora|pool|lock|burn|null|vault/i.test(h.tag)) return false;
+    const ent = entityOf(h.addr);
+    if (ent) { cex.push({ addr: h.addr, pct: h.pct, name: null, seen: ent }); return false; }
+    if (/uniswap|pancake|raydium|orca|meteora|pool|lock|burn|null|vault|binance|coinbase|okx|kraken|bybit|kucoin|gate|bitfinex|huobi|exchange/i.test(h.tag)) {
+      cex.push({ addr: h.addr, pct: h.pct, name: h.tag });
+      return false;
+    }
     return true;
   });
   out.cleanHolders = clean;
+  out.cexHolders = cex;
   if (clean.length) out.top10Pct = clean.slice(0, 10).reduce((s, h) => s + (h.pct || 0), 0);
   return out;
 }
@@ -364,25 +412,35 @@ function computeChecks(chain, ca, D, sec, X, RF) {
 
   /* 2 — LP kilit / burn */
   const lp = sec.lpLockedPct;
-  put(2, lp == null ? null : lp >= 50,
-      lp == null ? T('n.lp.unknown') : (lp >= 50 ? T('n.lp.burn', { v: lp.toFixed(1) }) : T('n.lp.no')),
+  let n2;
+  if (lp == null) n2 = T('n.lp.unknown');
+  else if (lp < 50) n2 = T('n.lp.no');
+  else if (sec.lpSelfPct > 40) n2 = T('n.lp.self', { v: lp.toFixed(1) });
+  else n2 = T('n.lp.burn', { v: lp.toFixed(1) });
+  put(2, lp == null ? null : lp >= 50, n2,
       { link: chain === 'solana' ? 'https://rugcheck.xyz/tokens/' + ca : null, linkLabel: chain === 'solana' ? 'RugCheck' : 'GoPlus' });
 
-  /* 3 — mint */
+  /* 3 — mint (sahiplik birakildiysa koddaki fonksiyon cagrilamaz) */
   put(3, sec.mintable == null ? null : !sec.mintable,
-      sec.mintable == null ? T('n.lp.unknown') : (sec.mintable ? T('n.mint.on') : T('n.mint.off')),
+      sec.mintable == null ? T('n.lp.unknown')
+        : sec.mintable ? T('n.mint.on')
+        : (sec.mintableCode && sec.ownerRenounced ? T('n.mint.renounced') : T('n.mint.off')),
       { linkLabel: sec.sources.join(' + ') || null });
 
   /* 4 — freeze / pause */
   put(4, sec.freezable == null ? null : !sec.freezable,
-      sec.freezable == null ? T('n.lp.unknown') : (sec.freezable ? T('n.freeze.on') : T('n.freeze.off')),
+      sec.freezable == null ? T('n.lp.unknown')
+        : sec.freezable ? T('n.freeze.on')
+        : (sec.freezableCode && sec.ownerRenounced ? T('n.freeze.renounced') : T('n.freeze.off')),
       { linkLabel: sec.sources.join(' + ') || null });
 
-  /* 5 — ilk 10 cuzdan */
+  /* 5 — ilk 10 cuzdan (borsa cuzdanlari haric) */
   const t10 = sec.top10Pct;
+  const cexN = (sec.cexHolders || []).length;
   put(5, t10 == null ? null : t10 < 20,
-      t10 == null ? T('n.top10.no') : T('n.top10', { v: t10.toFixed(1) }),
-      { holders: (sec.cleanHolders || []).slice(0, 3) });
+      t10 == null ? T('n.top10.no')
+        : T('n.top10', { v: t10.toFixed(1) }) + (cexN ? ' ' + T('n.top10.cex', { n: cexN }) : ''),
+      { holders: (sec.cleanHolders || []).slice(0, 3), cex: (sec.cexHolders || []).slice(0, 4) });
 
   /* 6 — dagilim / kumelenme: RugCheck insider grafigi + kumelenme heuristigi */
   let r6 = [], v6 = null;
@@ -710,6 +768,30 @@ function renderChains() {
   $$('#chains .chain-btn').forEach(b => b.onclick = () => { if (b.dataset.ch !== S.chain) run(S.ca, b.dataset.ch); });
 }
 
+/* Bu 12 soru YENI cikmis memecoinleri elemek icin tasarlandi. Olgun bir
+   varlik ya da kopru tokeni tarandiginda bazi maddeler dogasi geregi "hayir"
+   doner (LP kilidi, hacim/likidite orani, sosyal hesap yasi). Skoru degistirmiyoruz
+   — kullaniciya baglami soyluyoruz. */
+function contextNotes() {
+  const { D, sec } = S;
+  const ageDays = D.created ? (Date.now() - D.created) / 864e5 : 0;
+  const out = [];
+  /* Adinda "Peg/Wrapped/Bridged" gecmeyen kopru tokenleri de var
+     (BSC'deki "XRP Token" gibi). Baska zincirin yerli varligi olan bir
+     sembol EVM'de goruluyorsa o bir sarmalayicidir. */
+  const FOREIGN = new Set(['XRP', 'ADA', 'DOT', 'LTC', 'BCH', 'ATOM', 'TRX', 'XLM', 'ALGO', 'VET',
+    'FIL', 'ICP', 'ETC', 'NEAR', 'HBAR', 'XMR', 'DASH', 'ZEC', 'BTC', 'BTCB', 'WBTC', 'CBBTC',
+    'DOGE', 'SOL', 'TON', 'SUI', 'APT', 'KAS', 'XTZ', 'EOS', 'IOTA']);
+  const symU = String(D.sym || '').toUpperCase();
+  const nativeHere = (symU === 'SOL' && S.chain === 'solana') || (symU === 'TRX' && S.chain === 'tron');
+  const bridged = /\bwrapped\b|\bbridged\b|-peg\b|\bpeg\b/i.test((D.name || '') + ' ' + (D.sym || '')) ||
+                  (FOREIGN.has(symU) && !nativeHere);
+  const mature = (D.mcap || 0) > 5e7 && ageDays > 180 && (sec.holderCount || 0) > 20000;
+  if (mature) out.push(T('ctx.mature', { m: usd(D.mcap), d: nf(Math.round(ageDays)), h: compact(sec.holderCount) }));
+  if (bridged) out.push(T('ctx.bridged'));
+  return out;
+}
+
 function renderVerdict() {
   const { yes, unknown, max } = scoreNow();
   const v = verdictOf(yes);
@@ -723,7 +805,12 @@ function renderVerdict() {
       (max !== yes ? ' <b>(' + (LANG === 'tr' ? 'en fazla' : 'up to') + ' ' + max + '/12)</b>' : '') + '</div>'
     : '';
 
-  $('#verdict').innerHTML =
+  const ctx = contextNotes();
+  const ctxHtml = ctx.length
+    ? '<div class="ctx-note"><span class="ctx-ico">🧭</span><div>' + ctx.join('<br><br>') + '</div></div>'
+    : '';
+
+  $('#verdict').innerHTML = ctxHtml +
     '<div class="verdict">' +
       '<div class="v-score" style="background:' + v.bg + '">' +
         '<div class="v-num">' + yes + '</div><div class="v-den">/ 12</div>' +
@@ -772,6 +859,15 @@ function renderQuestions() {
       holders = '<div style="display:flex;gap:5px;flex-wrap:wrap;margin-top:-4px">' + c.holders.map(h =>
         '<a class="src addr" href="' + esc(explorerUrl(S.chain, h.addr)) + '" target="_blank" rel="noopener">' +
         esc(short(h.addr)) + ' · ' + h.pct.toFixed(1) + '%</a>').join('') + '</div>';
+    }
+    /* yogunlasma hesabindan dislanan borsa cuzdanlari */
+    if (c.cex && c.cex.length) {
+      holders += '<div style="display:flex;gap:5px;flex-wrap:wrap;margin-top:-4px">' + c.cex.map(h => {
+        const why = h.seen ? T('cex.seen', { n: h.seen }) : esc(h.name || '');
+        return '<a class="src addr" style="background:var(--ink-3);opacity:.8" title="' + esc(why) + '" href="' +
+          esc(explorerUrl(S.chain, h.addr)) + '" target="_blank" rel="noopener">🏦 ' +
+          esc(h.name || T('cex.label')) + ' · ' + h.pct.toFixed(1) + '%</a>';
+      }).join('') + '</div>';
     }
     /* devin onceki tokenleri */
     if (c.prevTokens && c.prevTokens.length) {
