@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Token Karnesi — 12 soru, tek ekran, net karar</title>
+<meta name="description" content="Bir kontrat adresi yapıştır, 12 soruluk hile listesiyle tokenin karnesini gör. Likidite, mint/freeze yetkisi, holder dağılımı, dev geçmişi, hacim — hepsi tek ekranda.">
+<meta property="og:title" content="Token Karnesi — 12 soru, tek ekran, net karar">
+<meta property="og:description" content="CA yapıştır, 12 soruluk kontrol listesiyle skoru gör: gir, küçük gir ya da geç.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://tokenkarnesi.xyz/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📋</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Manrope:wght@400;600;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<div class="aurora"><div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div></div>
+<div class="grid-lines"></div>
+
+<header>
+  <nav class="nav">
+    <a href="./" class="brand"><em>📋</em>TOKEN <span class="k">KARNESİ</span></a>
+    <span class="spacer"></span>
+    <a class="nl" href="#nasil" data-i18n="nav.how">Nasıl çalışır</a>
+    <a class="nl" href="https://www.izzetc.com" target="_blank" rel="noopener">izzetc.com</a>
+    <button class="pill-btn" id="lang">EN</button>
+  </nav>
+</header>
+
+<main>
+  <!-- ============ HERO ============ -->
+  <section class="hero wrap">
+    <span class="eyebrow" data-i18n="hero.eyebrow">12 soru · 12 puan · sıfır duygu</span>
+    <h1 class="title" id="bigtitle"></h1>
+    <p class="lead" data-i18n="hero.lead">Bir kontrat adresi yapıştır. Likidite, mint/freeze yetkisi, holder dağılımı, dev geçmişi ve hacim tek ekranda toplansın. Sonunda tek bir cevap: <b>büyük gir, normal gir, küçük gir ya da geç.</b></p>
+
+    <div class="search">
+      <div class="search-row">
+        <input id="ca" spellcheck="false" autocomplete="off" placeholder="0x... veya Solana mint adresi">
+        <button class="go" id="go" data-i18n="hero.cta">KARNEYİ ÇIKAR</button>
+      </div>
+      <div class="examples">
+        <span data-i18n="hero.try">Denemelik:</span>
+        <button class="ex" data-ca="DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263">BONK · Solana</button>
+        <button class="ex" data-ca="0x532f27101965dd16442E59d40670FaF5eBB142E4">BRETT · Base</button>
+        <button class="ex" data-ca="0x6982508145454Ce325dDbE47a25d4ec3d2311933">PEPE · ETH</button>
+      </div>
+      <div class="err" id="err" hidden></div>
+    </div>
+
+    <div class="loading" id="loading" hidden>
+      <div class="load-card">
+        <div class="load-title"><span class="spinner"></span><span data-i18n="load.title">Karne hazırlanıyor…</span></div>
+        <ul class="steps" id="steps"></ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ RESULT ============ -->
+  <section class="wrap" id="result" hidden>
+    <div id="tokencard"></div>
+    <div class="chains" id="chains" hidden></div>
+    <div id="verdict"></div>
+
+    <div class="qhead">
+      <h2 data-i18n="q.head">12 SORU</h2>
+      <span class="sub" data-i18n="q.sub">Otomatik gelen cevabı beğenmediysen üstüne bas, değiştir — puan anında güncellenir.</span>
+    </div>
+    <div class="qgrid" id="qgrid"></div>
+
+    <div id="flags"></div>
+    <div class="history" id="history" hidden>
+      <h3 data-i18n="hist.title">Son baktıkların</h3>
+      <div class="hist-list" id="histList"></div>
+    </div>
+  </section>
+
+  <!-- ============ HOW ============ -->
+  <section class="how" id="nasil">
+    <div class="wrap">
+      <span class="eyebrow" data-i18n="how.eyebrow">Hile listesi</span>
+      <h2 data-i18n="how.title">100x aramanın kestirme yolu</h2>
+      <p class="lead" data-i18n="how.lead">Her soruya evet ise 1 puan, hayır ise 0. Duyguyla değil, listeyle karar ver. Karne 10 soruyu senin yerine dolduruyor; sosyal hesap ve hikâye kısmı sana kalıyor.</p>
+
+      <div class="how-grid" id="howGrid"></div>
+
+      <div class="scale">
+        <div class="scale-row">
+          <span class="scale-badge" style="background:var(--lime)">11-12</span>
+          <span class="t" data-i18n="scale.1t">Nadir görülür.</span>
+          <span class="d" data-i18n="scale.1d">Pozisyonu normalden büyük tut.</span>
+        </div>
+        <div class="scale-row">
+          <span class="scale-badge" style="background:var(--cyan)">9-10</span>
+          <span class="t" data-i18n="scale.2t">Temiz.</span>
+          <span class="d" data-i18n="scale.2d">Normal gir.</span>
+        </div>
+        <div class="scale-row">
+          <span class="scale-badge" style="background:var(--yellow)">7-8</span>
+          <span class="t" data-i18n="scale.3t">Riskli.</span>
+          <span class="d" data-i18n="scale.3d">Küçük gir, yakın takip et.</span>
+        </div>
+        <div class="scale-row">
+          <span class="scale-badge" style="background:var(--magenta);color:#fff">≤ 6</span>
+          <span class="t" data-i18n="scale.4t">Geç.</span>
+          <span class="d" data-i18n="scale.4d">Tartışma yok, pazarlık yok.</span>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p><span data-i18n="foot.by">Yapan</span> <a href="https://www.izzetc.com" target="_blank" rel="noopener">izzetc</a> · <a href="https://x.com/izzetcakmak35" target="_blank" rel="noopener">@izzetcakmak35</a></p>
+    <p class="disclaimer" data-i18n="foot.disc">Bu araç yatırım tavsiyesi değildir. Veriler DexScreener, GoPlus ve RugCheck genel API'lerinden anlık çekilir; hatalı, eksik ya da gecikmeli olabilir. Skor bir kontrol listesidir, garanti değil. Kendi araştırmanı yap.</p>
+  </div>
+</footer>
+
+<div id="toast"></div>
+<canvas id="pngCanvas" width="1200" height="675" style="display:none"></canvas>
+
+<script src="assets/i18n.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
