@@ -215,6 +215,17 @@ h1.title span:hover{transform:translateY(-13px) rotate(-9deg) scale(1.16)}
 .chain-btn:hover{transform:translateY(-2px)}
 .chain-btn.sel{background:var(--cyan);color:var(--black);box-shadow:var(--shadow-xs)}
 
+/* ---------- baglam uyarisi ---------- */
+.ctx-note{
+  margin-top:22px;display:flex;gap:13px;align-items:flex-start;
+  background:var(--yellow);color:var(--black);
+  border:var(--edge) solid var(--black);border-radius:var(--r);
+  box-shadow:var(--shadow);padding:16px 18px;
+  font-weight:700;font-size:14.5px;line-height:1.5;
+}
+.ctx-note b{font-weight:800}
+.ctx-ico{font-size:26px;flex:none;line-height:1.1}
+
 /* ---------- verdict ---------- */
 .verdict{
   margin-top:22px;border:var(--edge) solid var(--black);border-radius:var(--r);
