@@ -31,7 +31,7 @@ const I18N = {
     'hist.title': 'Son baktıkların',
     'how.eyebrow': 'Hile listesi',
     'how.title': '100x aramanın kestirme yolu',
-    'how.lead': 'Her soruya evet ise 1 puan, hayır ise 0. Duyguyla değil, listeyle karar ver. Karne soruların çoğunu senin yerine dolduruyor; sosyal hesap ve hikâye kısmı sana kalıyor.',
+    'how.lead': 'Her soruya evet ise 1 puan, hayır ise 0. Duyguyla değil, listeyle karar ver. Karne 11 soruyu senin yerine dolduruyor; 12. soruyu (hikâye) kimseye soramazsın, o sende.',
     'scale.1t': 'Nadir görülür.', 'scale.1d': 'Pozisyonu normalden büyük tut.',
     'scale.2t': 'Temiz.',         'scale.2d': 'Normal gir.',
     'scale.3t': 'Riskli.',        'scale.3d': 'Küçük gir, yakın takip et.',
@@ -41,9 +41,9 @@ const I18N = {
 
     // --- how cards ---
     'how.c1.t': 'CA yapıştır', 'how.c1.d': 'Solana mint ya da EVM kontrat adresi. Zinciri kendi bulur; token birden fazla zincirdeyse seçim çıkar.',
-    'how.c2.t': 'Veri çekilir', 'how.c2.d': 'DexScreener likidite/hacim, GoPlus ve RugCheck ise mint, freeze, LP kilidi ve holder dağılımını verir.',
-    'how.c3.t': 'Sen tamamlarsın', 'how.c3.d': 'Sosyal hesabın yaşı, takipçi kalitesi ve hikâye senin işin. Tek tıkla TweetScout, GMGN, Bubblemaps açılır.',
-    'how.c4.t': 'Karar çıkar', 'how.c4.d': '12 üzerinden skor + net bir hüküm. Karneyi PNG indir ya da doğrudan X\'te paylaş.',
+    'how.c2.t': 'Zincir okunur', 'how.c2.d': 'DexScreener likidite/hacim; GoPlus ve RugCheck mint, freeze, LP kilidi ve holder dağılımını verir. Şişirilmiş sahte havuzlar sayılmaz.',
+    'how.c3.t': 'Dev ve X taranır', 'how.c3.d': 'Geliştiricinin eski coinleri hâlâ yaşıyor mu, X hesabı kaç günlük, takipçileri organik mi — hepsi otomatik ölçülür.',
+    'how.c4.t': 'Karar çıkar', 'how.c4.d': '12 üzerinden skor + net bir hüküm. Beğenmediğin cevabı çevir, karneyi PNG indir ya da X\'te paylaş.',
 
     // --- verdicts ---
     'v.rare': 'NADİR', 'v.rare.a': 'Bu skoru nadiren görürsün. Pozisyonu normalden büyük tut — ama yine de stop\'unu koy.',
@@ -75,6 +75,7 @@ const I18N = {
     // --- steps ---
     'st.dex': 'DexScreener: havuz, likidite, hacim',
     'st.sec': 'GoPlus / RugCheck: mint, freeze, LP, holderlar',
+    'st.social': 'X hesabı ve dev geçmişi',
     'st.calc': 'Puanlar hesaplanıyor',
 
     // --- flags ---
@@ -97,6 +98,7 @@ const I18N = {
     'fl.freshpool': 'Havuz çok yeni (< 24 saat)',
     'fl.lowliq': 'Likidite çok ince',
     'fl.ghostliq': 'Şişirilmiş havuz, sayılmadı:',
+    'fl.xgone': 'X hesabına ulaşılamıyor (silinmiş/askıda olabilir)',
 
     // --- question notes ---
     'n.liq': 'Toplam likidite <b>{v}</b> · eşik $30.000',
@@ -113,6 +115,22 @@ const I18N = {
     'n.bubble.ok': 'Belirgin bir kümelenme yok. En büyük cüzdan %{v}. Yine de Bubblemaps\'te gözünle bak.',
     'n.bubble.bad': 'Şüpheli dağılım: {r}. Bubblemaps\'te balonlara bak.',
     'n.dev.hp': 'GoPlus: bu geliştiricinin <b>{v}</b> honeypot tokeni var.',
+    'n.dev.prevok': 'Bu dev daha önce <b>{n}</b> token çıkarmış, hepsi hâlâ ayakta (en büyüğü {m}).',
+    'n.dev.prevbad': 'Bu dev daha önce <b>{n}</b> token çıkarmış, <b>{d}</b> tanesi ölmüş (20 bin doların altında). En iyisi {m} olmuş.',
+    'n.dev.first': 'RugCheck: bu dev cüzdanının başka tokeni yok, ilk çıkışı. Dev: <b>{v}</b>',
+    'n.dev.nohp': 'GoPlus: bu geliştiriciden çıkmış bilinen bir honeypot yok. Terk edilmiş token geçmişi EVM tarafında okunamıyor — GMGN\'de doğrula.',
+    'r6.insiders': 'RugCheck <b>{n}</b> bağlantılı (insider) cüzdan görüyor, en büyük küme {s} cüzdan',
+    'r6.insiderTop': 'ilk 10 cüzdanın {n} tanesi insider işaretli',
+    'r9.fast': 'günde ~{v} takipçi kazanmış',
+    'r9.notweets': 'sadece {t} tweet ama {f} takipçi',
+    'r9.followfarm': '{v} kişiyi takip ediyor (takip çiftliği düzeni)',
+    'r9.tiny': 'topu topu {v} takipçi',
+    'n.x.old': '<b>{v}</b> hesabı {j} tarihinde açılmış — <b>{d} günlük</b>.',
+    'n.x.new': '<b>{v}</b> hesabı {j} tarihinde açılmış — daha <b>{d} günlük</b>. Bir haftadan yeni.',
+    'n.x.gone': '<b>{v}</b> hesabına ulaşılamıyor: silinmiş, ismi değişmiş ya da askıya alınmış olabilir.',
+    'n.x.err': '<b>{v}</b> hesabının verisi çekilemedi. TweetScout\'ta elle bak.',
+    'n.x.real': '{f} takipçi · {g} takip · {t} tweet · günde ~{p} takipçi. Belirgin bir bot düzeni yok.',
+    'n.x.bots': '{f} takipçi · {g} takip · {t} tweet. Şüpheli: {r}.',
     'n.dev.ok': 'Bilinen bir honeypot geçmişi yok. Dev cüzdanını GMGN\'de aç, geçmiş coinlerine bak.',
     'n.dev.check': 'Geliştirici cüzdanı: <b>{v}</b> — GMGN\'de geçmiş tokenlerine bak.',
     'n.dev.unknown': 'Geliştirici adresi okunamadı. GMGN\'de tokenin dev sekmesine bak.',
@@ -143,7 +161,7 @@ const I18N = {
     'hist.title': 'Recently checked',
     'how.eyebrow': 'The cheat sheet',
     'how.title': 'The shortcut to finding your 100x',
-    'how.lead': 'Yes is 1 point, no is 0. Decide with a list, not with feelings. The scorecard fills in most of it for you; the socials and the story are on you.',
+    'how.lead': 'Yes is 1 point, no is 0. Decide with a list, not with feelings. The scorecard answers 11 of them for you; question 12 (the story) is one you cannot outsource.',
     'scale.1t': 'Rare.',   'scale.1d': 'Size the position bigger than usual.',
     'scale.2t': 'Clean.',  'scale.2d': 'Enter normal.',
     'scale.3t': 'Risky.',  'scale.3d': 'Enter small, watch it closely.',
@@ -152,9 +170,9 @@ const I18N = {
     'foot.disc': 'Not financial advice. Data is pulled live from the public DexScreener, GoPlus and RugCheck APIs and can be wrong, missing or delayed. The score is a checklist, not a guarantee. Do your own research.',
 
     'how.c1.t': 'Paste the CA', 'how.c1.d': 'Solana mint or EVM contract. The chain is detected automatically; if the token lives on several, you pick.',
-    'how.c2.t': 'Data gets pulled', 'how.c2.d': 'DexScreener for liquidity and volume, GoPlus and RugCheck for mint, freeze, LP lock and holder spread.',
-    'how.c3.t': 'You finish it', 'how.c3.d': 'Account age, follower quality and the story are yours to judge. One click opens TweetScout, GMGN and Bubblemaps.',
-    'how.c4.t': 'You get a verdict', 'how.c4.d': 'A score out of 12 and a plain call. Download the card as PNG or post it straight to X.',
+    'how.c2.t': 'The chain is read', 'how.c2.d': 'DexScreener for liquidity and volume; GoPlus and RugCheck for mint, freeze, LP lock and holder spread. Inflated fake pools are not counted.',
+    'how.c3.t': 'Dev and X are scanned', 'how.c3.d': 'Are the dev\'s older coins still alive, how old is the X account, do the followers look organic — all measured automatically.',
+    'how.c4.t': 'You get a verdict', 'how.c4.d': 'A score out of 12 and a plain call. Flip any answer you disagree with, download the card as PNG or post it to X.',
 
     'v.rare': 'RARE', 'v.rare.a': 'You rarely see this score. Size the position bigger than usual — still set your stop.',
     'v.clean': 'CLEAN', 'v.clean.a': 'The list is clean. Enter with a normal position.',
@@ -180,6 +198,7 @@ const I18N = {
 
     'st.dex': 'DexScreener: pool, liquidity, volume',
     'st.sec': 'GoPlus / RugCheck: mint, freeze, LP, holders',
+    'st.social': 'X account and dev history',
     'st.calc': 'Scoring',
 
     'fl.title': 'Extra red flags',
@@ -201,6 +220,7 @@ const I18N = {
     'fl.freshpool': 'Pool is very fresh (< 24h)',
     'fl.lowliq': 'Liquidity is very thin',
     'fl.ghostliq': 'Inflated pool, excluded:',
+    'fl.xgone': 'X account unreachable (deleted or suspended)',
 
     'n.liq': 'Total liquidity <b>{v}</b> · threshold $30,000',
     'n.liq.none': 'No liquidity data.',
@@ -216,6 +236,22 @@ const I18N = {
     'n.bubble.ok': 'No obvious clustering. Biggest wallet {v}%. Still eyeball it on Bubblemaps.',
     'n.bubble.bad': 'Suspicious spread: {r}. Go look at the bubbles.',
     'n.dev.hp': 'GoPlus: this dev has <b>{v}</b> honeypot tokens.',
+    'n.dev.prevok': 'This dev launched <b>{n}</b> token(s) before and they are all still alive (biggest {m}).',
+    'n.dev.prevbad': 'This dev launched <b>{n}</b> tokens before, <b>{d}</b> of them died (under $20k). Best one peaked around {m}.',
+    'n.dev.first': 'RugCheck: this dev wallet has no other token, this is their first. Dev: <b>{v}</b>',
+    'n.dev.nohp': 'GoPlus: no known honeypot from this dev. Abandoned-token history is not readable on EVM — verify on GMGN.',
+    'r6.insiders': 'RugCheck sees <b>{n}</b> linked (insider) wallets, biggest cluster {s} wallets',
+    'r6.insiderTop': '{n} of the top 10 wallets are flagged as insiders',
+    'r9.fast': 'gained ~{v} followers per day',
+    'r9.notweets': 'only {t} tweets but {f} followers',
+    'r9.followfarm': 'follows {v} accounts (follow-farm pattern)',
+    'r9.tiny': 'only {v} followers in total',
+    'n.x.old': '<b>{v}</b> was created on {j} — <b>{d} days old</b>.',
+    'n.x.new': '<b>{v}</b> was created on {j} — only <b>{d} days old</b>. Younger than a week.',
+    'n.x.gone': '<b>{v}</b> cannot be reached: deleted, renamed or suspended.',
+    'n.x.err': 'Could not fetch <b>{v}</b>. Check it manually on TweetScout.',
+    'n.x.real': '{f} followers · {g} following · {t} tweets · ~{p} followers/day. No obvious bot pattern.',
+    'n.x.bots': '{f} followers · {g} following · {t} tweets. Suspicious: {r}.',
     'n.dev.ok': 'No known honeypot history. Open the dev wallet on GMGN and check their old coins.',
     'n.dev.check': 'Dev wallet: <b>{v}</b> — check their past tokens on GMGN.',
     'n.dev.unknown': 'Dev address unreadable. Check the dev tab on GMGN.',

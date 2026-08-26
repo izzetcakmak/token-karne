@@ -14,15 +14,15 @@ No backend. Everything is fetched straight from the browser against public APIs.
 | 3 | Is mint authority revoked? | GoPlus / RugCheck | ✅ |
 | 4 | Is freeze authority revoked? | GoPlus / RugCheck | ✅ |
 | 5 | Do the top 10 wallets hold less than 20%? | GoPlus holders | ✅ |
-| 6 | Are the wallets unlinked, distribution clean? | heuristic + Bubblemaps | ⚠️ estimate |
-| 7 | Has the dev never rugged before? | GoPlus creator + GMGN | ⚠️ EVM hint, else yours |
-| 8 | Is the social account older than a week? | TweetScout | 👤 yours |
-| 9 | Are the followers real? | TweetScout | 👤 yours |
+| 6 | Are the wallets unlinked, distribution clean? | RugCheck insider graph + heuristic | ⚠️ estimate |
+| 7 | Has the dev never rugged before? | RugCheck creatorTokens / GoPlus | ✅ Solana: past tokens + their mcap |
+| 8 | Is the social account older than a week? | fxtwitter (public) | ✅ real join date |
+| 9 | Are the followers real? | fxtwitter + heuristic | ⚠️ estimate |
 | 10 | Did holders grow in the last 24h? | GoPlus + local snapshot | ⚠️ proxy, real on re-check |
 | 11 | Is 24h volume ≥ half of liquidity? | DexScreener | ✅ |
 | 12 | Can you tell the story in one sentence? | you | 👤 yours |
 
-Every answer can be flipped by hand — the score recalculates instantly and your
+Only question 12 is left to you by design. Every answer can be flipped by hand — the score recalculates instantly and your
 overrides are remembered per token in `localStorage`.
 
 **Scale:** 11-12 rare (size up) · 9-10 clean (normal) · 7-8 risky (small, watch it) · ≤6 skip.
@@ -42,8 +42,9 @@ overrides are remembered per token in `localStorage`.
 
 * [DexScreener](https://docs.dexscreener.com/api/reference) — pools, liquidity, volume, socials
 * [GoPlus Security](https://docs.gopluslabs.io/) — EVM + Solana token security, holders, LP
-* [RugCheck](https://api.rugcheck.xyz/swagger/index.html) — Solana risks and LP lock
-* Bubblemaps / GMGN / TweetScout — deep links for the manual questions
+* [RugCheck](https://api.rugcheck.xyz/swagger/index.html) — Solana risks, LP lock, insider graph, the dev's previous tokens
+* [fxtwitter](https://github.com/FixTweet/FxTwitter) — public X profile data: join date, followers, following, tweets
+* Bubblemaps / GMGN / TweetScout — deep links to double-check by eye
 
 ## Run it
 

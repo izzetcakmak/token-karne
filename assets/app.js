@@ -24,7 +24,8 @@ function applyLang() {
   $('#ca').placeholder = T('hero.ph');
   paintTitle();
   renderHowCards();
-  if (S) render();
+  /* notlar tarama aninda uretiliyor — dil degisince yeniden hesapla (ag istegi yok) */
+  if (S) { S.checks = computeChecks(S.chain, S.ca, S.D, S.sec, S.X, S.RF); render(); }
 }
 
 /* ---------------- format helpers ---------------- */
@@ -125,6 +126,57 @@ async function jget(url, ms = 15000) {
 async function fetchDex(ca) {
   const d = await jget('https://api.dexscreener.com/latest/dex/tokens/' + encodeURIComponent(ca));
   return (d && d.pairs) || [];
+}
+
+/* X hesabi: fxtwitter herkese acik ve CORS * veriyor (anahtar gerekmiyor).
+   Dusunce: hesap yasi (soru 8) ve takipci kalitesi (soru 9) buradan cikiyor. */
+async function fetchSocial(handle) {
+  if (!handle) return null;
+  const norm = u => ({
+    ok: true, handle: u.screen_name || handle,
+    id: u.id, followers: u.followers, following: u.following,
+    tweets: u.tweets, likes: u.likes, name: u.name, avatar: u.avatar_url,
+    joined: u.joined ? new Date(u.joined) : null,
+    verified: !!(u.verification && u.verification.verified),
+    vtype: (u.verification && u.verification.type) || null,
+    site: (u.website && u.website.url) || null
+  });
+  try {
+    const d = await jget('https://api.fxtwitter.com/' + encodeURIComponent(handle), 12000);
+    if (d && d.user) return norm(d.user);
+    return { ok: false, handle, missing: true };
+  } catch (e) {
+    /* yedek: vxtwitter */
+    try {
+      const v = await jget('https://api.vxtwitter.com/' + encodeURIComponent(handle), 10000);
+      if (v && v.id) return {
+        ok: true, handle: v.screen_name || handle, id: String(v.id),
+        followers: v.followers_count, following: v.following_count, tweets: v.tweets_count || null,
+        name: v.name, avatar: v.profile_image_url,
+        joined: v.created_at ? new Date(v.created_at) : null, verified: !!v.verified, vtype: null, site: null
+      };
+    } catch (e2) {}
+    return { ok: false, handle, missing: /404/.test(String(e)) };
+  }
+}
+
+/* RugCheck tam raporu (Solana): dev gecmisi + insider kumeleri.
+   Taze memecoinlerde 10-60KB; dev tokenlerde buyuyebilir, o yuzden timeout'lu. */
+async function fetchRugFull(ca) {
+  try {
+    const d = await jget('https://api.rugcheck.xyz/v1/tokens/' + ca + '/report', 20000);
+    if (!d) return null;
+    return {
+      creator: d.creator || null,
+      creatorTokens: Array.isArray(d.creatorTokens) ? d.creatorTokens : [],
+      insiders: Number(d.graphInsidersDetected || 0),
+      networks: Array.isArray(d.insiderNetworks) ? d.insiderNetworks : [],
+      launchpad: (d.launchpad && d.launchpad.name) || null,
+      totalHolders: d.totalHolders || null,
+      rugged: !!d.rugged,
+      topHolders: Array.isArray(d.topHolders) ? d.topHolders : []
+    };
+  } catch (e) { return null; }
 }
 
 /* GoPlus + RugCheck -> tek bir normalize guvenlik objesi */
@@ -292,7 +344,7 @@ function aggregate(allPairs) {
 function snapKey(chain, ca) { return 'tk_snap_' + chain + '_' + ca.toLowerCase(); }
 function ansKey(chain, ca)  { return 'tk_ans_'  + chain + '_' + ca.toLowerCase(); }
 
-function computeChecks(chain, ca, D, sec) {
+function computeChecks(chain, ca, D, sec, X, RF) {
   const C = {};
   const put = (n, v, note, opt) => { C[n] = Object.assign({ n, v, note, kind: 'auto' }, opt || {}); };
 
@@ -323,9 +375,17 @@ function computeChecks(chain, ca, D, sec) {
       t10 == null ? T('n.top10.no') : T('n.top10', { v: t10.toFixed(1) }),
       { holders: (sec.cleanHolders || []).slice(0, 3) });
 
-  /* 6 — dagilim / kumelenme (heuristik) */
+  /* 6 — dagilim / kumelenme: RugCheck insider grafigi + kumelenme heuristigi */
   let r6 = [], v6 = null;
   const ch = sec.cleanHolders || [];
+  if (RF && RF.insiders > 0) {
+    const biggest = RF.networks.reduce((m, n) => Math.max(m, n.size || n.activeAccounts || 0), 0);
+    r6.push(T('r6.insiders', { n: nf(RF.insiders), s: nf(biggest) }));
+  }
+  if (RF && RF.topHolders && RF.topHolders.some(h => h.insider)) {
+    const c = RF.topHolders.filter(h => h.insider).length;
+    r6.push(T('r6.insiderTop', { n: c }));
+  }
   if (ch.length) {
     const big = ch[0].pct;
     if (big > 5) r6.push((LANG === 'tr' ? 'tek cüzdanda %' : 'one wallet at ') + big.toFixed(1) + (LANG === 'tr' ? '' : '%'));
@@ -340,34 +400,80 @@ function computeChecks(chain, ca, D, sec) {
     }
     if (cluster >= 3) r6.push(cluster + (LANG === 'tr' ? ' cüzdan neredeyse aynı miktarı tutuyor' : ' wallets hold nearly identical amounts'));
     if (sec.creatorPct != null && sec.creatorPct > 3) r6.push((LANG === 'tr' ? 'dev %' : 'dev holds ') + sec.creatorPct.toFixed(1) + (LANG === 'tr' ? ' tutuyor' : '%'));
-    v6 = r6.length === 0;
   }
+  if (ch.length || RF) v6 = r6.length === 0;
   const bub = BUBBLE_CHAIN[chain];
   put(6, v6,
-      v6 === null ? T('n.top10.no') : (v6 ? T('n.bubble.ok', { v: ch[0].pct.toFixed(1) }) : T('n.bubble.bad', { r: r6.join(', ') })),
-      { kind: 'guess', link: bub ? 'https://app.bubblemaps.io/' + bub + '/token/' + ca : 'https://app.bubblemaps.io/', linkLabel: 'Bubblemaps' });
+      v6 === null ? T('n.top10.no')
+        : (v6 ? T('n.bubble.ok', { v: ch.length ? ch[0].pct.toFixed(1) : '—' }) : T('n.bubble.bad', { r: r6.join(', ') })),
+      { kind: RF && RF.insiders > 0 ? 'auto' : 'guess',
+        link: bub ? 'https://app.bubblemaps.io/' + bub + '/token/' + ca : 'https://app.bubblemaps.io/', linkLabel: 'Bubblemaps' });
 
-  /* 7 — dev gecmisi */
+  /* 7 — dev gecmisi: Solana'da RugCheck'in creatorTokens listesi, EVM'de GoPlus honeypot sayaci */
   const gm = GMGN_CHAIN[chain];
   const gmgnUrl = gm ? 'https://gmgn.ai/' + gm + '/token/' + ca : 'https://gmgn.ai/';
+  const devUrl = sec.creator ? (gm ? 'https://gmgn.ai/' + gm + '/address/' + sec.creator : gmgnUrl) : gmgnUrl;
+  const devExtra = sec.creator
+    ? { extraLink: explorerUrl(chain, sec.creator), extraLabel: short(sec.creator) }
+    : {};
   if (sec.creatorHoneypots != null && sec.creatorHoneypots > 0) {
-    put(7, false, T('n.dev.hp', { v: sec.creatorHoneypots }), { link: gmgnUrl, linkLabel: 'GMGN' });
-  } else if (sec.creator) {
-    put(7, null, T('n.dev.check', { v: short(sec.creator) }),
-        { kind: 'you', link: gm ? 'https://gmgn.ai/' + gm + '/address/' + sec.creator : gmgnUrl, linkLabel: 'GMGN',
-          extraLink: explorerUrl(chain, sec.creator), extraLabel: LANG === 'tr' ? 'Dev cüzdanı' : 'Dev wallet' });
+    put(7, false, T('n.dev.hp', { v: sec.creatorHoneypots }), Object.assign({ link: devUrl, linkLabel: 'GMGN' }, devExtra));
+  } else if (RF && RF.creatorTokens && RF.creatorTokens.length) {
+    /* onceki tokenler: 20 bin dolarin altina dusmusler "olmus" sayilir */
+    const prev = RF.creatorTokens.slice().sort((a, b) => (b.marketCap || 0) - (a.marketCap || 0));
+    const dead = prev.filter(t => (t.marketCap || 0) < 20000);
+    const best = prev[0];
+    const ok = dead.length === 0 && prev.length < 3;
+    put(7, ok,
+        T(ok ? 'n.dev.prevok' : 'n.dev.prevbad', {
+          n: prev.length, d: dead.length, m: usd(best.marketCap || 0)
+        }),
+        Object.assign({ link: devUrl, linkLabel: 'GMGN', prevTokens: prev.slice(0, 4) }, devExtra));
+  } else if (RF) {
+    put(7, true, T('n.dev.first', { v: short(sec.creator || '') }), Object.assign({ link: devUrl, linkLabel: 'GMGN' }, devExtra));
+  } else if (sec.creatorHoneypots === 0) {
+    put(7, true, T('n.dev.nohp'), Object.assign({ kind: 'guess', link: devUrl, linkLabel: 'GMGN' }, devExtra));
   } else {
     put(7, null, T('n.dev.unknown'), { kind: 'you', link: gmgnUrl, linkLabel: 'GMGN' });
   }
 
-  /* 8 / 9 — sosyal */
+  /* 8 / 9 — X hesabi: yas ve takipci kalitesi (fxtwitter) */
   const tsUrl = D.handle ? 'https://app.tweetscout.io/search?q=' + D.handle : 'https://app.tweetscout.io/';
+  const xLinks = D.handle
+    ? { link: tsUrl, linkLabel: 'TweetScout', extraLink: 'https://x.com/' + D.handle, extraLabel: '@' + D.handle }
+    : { linkLabel: 'DexScreener' };
+
   if (!D.handle) {
-    put(8, false, T('n.x.none'), { linkLabel: 'DexScreener' });
-    put(9, false, T('n.x.none'), { linkLabel: 'DexScreener' });
+    put(8, false, T('n.x.none'), xLinks);
+    put(9, false, T('n.x.none'), xLinks);
+  } else if (!X || X.ok === false) {
+    /* hesap cekilemedi: silinmis/askida olabilir -> kirmizi, ama elle cevrilebilir */
+    const missing = X && X.missing;
+    put(8, missing ? false : null, T(missing ? 'n.x.gone' : 'n.x.err', { v: '@' + D.handle }), Object.assign({ kind: missing ? 'auto' : 'you' }, xLinks));
+    put(9, missing ? false : null, T(missing ? 'n.x.gone' : 'n.x.err', { v: '@' + D.handle }), Object.assign({ kind: missing ? 'auto' : 'you' }, xLinks));
   } else {
-    put(8, null, T('n.x.found', { v: '@' + D.handle }), { kind: 'you', link: tsUrl, linkLabel: 'TweetScout', extraLink: 'https://x.com/' + D.handle, extraLabel: '@' + D.handle });
-    put(9, null, T('n.x.followers', { v: '@' + D.handle }), { kind: 'you', link: tsUrl, linkLabel: 'TweetScout', extraLink: 'https://x.com/' + D.handle, extraLabel: '@' + D.handle });
+    const ageDays = X.joined ? (Date.now() - X.joined.getTime()) / 864e5 : null;
+    const joinedTxt = X.joined ? X.joined.toLocaleDateString(LANG === 'tr' ? 'tr-TR' : 'en-US', { year: 'numeric', month: 'short', day: 'numeric' }) : '—';
+    put(8, ageDays == null ? null : ageDays >= 7,
+        T(ageDays == null ? 'n.x.err' : (ageDays >= 7 ? 'n.x.old' : 'n.x.new'),
+          { v: '@' + X.handle, d: ageDays == null ? '—' : Math.floor(ageDays), j: joinedTxt }),
+        Object.assign({ x: X }, xLinks));
+
+    /* takipci kalitesi heuristigi */
+    const r9 = [];
+    const fpd = ageDays && ageDays > 0 ? X.followers / ageDays : null;
+    const orgVerified = X.verified && (X.vtype === 'organization' || X.vtype === 'government');
+    if (fpd && fpd > 2500 && ageDays < 60 && !orgVerified) r9.push(T('r9.fast', { v: nf(Math.round(fpd)) }));
+    if (X.tweets != null && X.tweets < 15 && X.followers > 5000) r9.push(T('r9.notweets', { t: nf(X.tweets), f: nf(X.followers) }));
+    if (X.following > 2000 && X.following > X.followers * 1.5) r9.push(T('r9.followfarm', { v: nf(X.following) }));
+    if (X.followers < 200) r9.push(T('r9.tiny', { v: nf(X.followers) }));
+    const v9 = r9.length === 0;
+    put(9, v9,
+        T(v9 ? 'n.x.real' : 'n.x.bots', {
+          f: nf(X.followers), g: nf(X.following), t: X.tweets != null ? nf(X.tweets) : '—',
+          p: fpd ? nf(Math.round(fpd)) : '—', r: r9.join(', ')
+        }),
+        Object.assign({ kind: 'guess', x: X }, xLinks));
   }
 
   /* 10 — holder artisi (snapshot varsa gercek, yoksa 24s akis proxy) */
@@ -432,16 +538,31 @@ async function run(caRaw, forcedChain) {
 
     step(1);
     const D = aggregate(byChain[chain]);
-    let sec;
-    try { sec = await fetchSecurity(chain, ca); }
-    catch (e) { sec = { ok: false, sources: [], mintable: null, freezable: null, lpLockedPct: null, top10Pct: null, topHolders: [], cleanHolders: [], holderCount: null, creator: null, creatorHoneypots: null, flags: [], supported: !!GOPLUS_CHAIN[chain] }; }
+    const [secR, xR, rfR] = await Promise.allSettled([
+      fetchSecurity(chain, ca),
+      (step(2), fetchSocial(D.handle)),
+      chain === 'solana' ? fetchRugFull(ca) : Promise.resolve(null)
+    ]);
+    const sec = secR.status === 'fulfilled' ? secR.value
+      : { ok: false, sources: [], mintable: null, freezable: null, lpLockedPct: null, top10Pct: null, topHolders: [], cleanHolders: [], holderCount: null, creator: null, creatorHoneypots: null, flags: [], supported: !!GOPLUS_CHAIN[chain] };
+    const X = xR.status === 'fulfilled' ? xR.value : null;
+    const RF = rfR.status === 'fulfilled' ? rfR.value : null;
 
-    step(2);
-    const checks = computeChecks(chain, ca, D, sec);
+    /* rugcheck tam raporu gelirse dev adresi ve holder sayisi ondan tamamlanir */
+    if (RF) {
+      if (!sec.creator && RF.creator) sec.creator = RF.creator;
+      if (sec.holderCount == null && RF.totalHolders) sec.holderCount = RF.totalHolders;
+      if (RF.rugged) sec.flags.push({ lvl: 'bad', k: 'fl.rugged' });
+      sec.launchpad = RF.launchpad;
+    }
+    if (X && X.ok === false) sec.flags.push({ lvl: 'bad', k: 'fl.xgone' });
+
+    step(3);
+    const checks = computeChecks(chain, ca, D, sec, X, RF);
     let saved = {};
     try { saved = JSON.parse(localStorage.getItem(ansKey(chain, ca)) || '{}'); } catch (e) {}
 
-    S = { ca, chain, chains, byChain, D, sec, checks, overrides: saved };
+    S = { ca, chain, chains, byChain, D, sec, X, RF, checks, overrides: saved };
     pushHistory();
     setUrl(ca, chain);
     await new Promise(r => setTimeout(r, 220));
@@ -461,7 +582,7 @@ async function run(caRaw, forcedChain) {
 function showErr(m) { const e = $('#err'); e.textContent = m; e.hidden = false; }
 function showSteps() {
   $('#loading').hidden = false;
-  $('#steps').innerHTML = ['st.dex', 'st.sec', 'st.calc']
+  $('#steps').innerHTML = ['st.dex', 'st.sec', 'st.social', 'st.calc']
     .map(k => '<li><span class="dot"></span>' + T(k) + '</li>').join('');
 }
 function step(i) {
@@ -528,6 +649,7 @@ function renderToken() {
   const badges = [];
   badges.push('<span class="chip">' + esc(chain) + '</span>');
   if (D.best && D.best.dexId) badges.push('<span class="chip v">' + esc(D.best.dexId) + '</span>');
+  if (sec.launchpad) badges.push('<span class="chip o">🚀 ' + esc(sec.launchpad) + '</span>');
   if (sec.sources.length) badges.push('<span class="chip l">' + esc(sec.sources.join(' + ')) + '</span>');
   if (D.handle) badges.push('<span class="chip y">@' + esc(D.handle) + '</span>');
   if (!sec.supported) badges.push('<span class="chip r">' + (LANG === 'tr' ? 'güvenlik verisi yok' : 'no security data') + '</span>');
@@ -621,9 +743,9 @@ function renderQuestions() {
     const overridden = Object.prototype.hasOwnProperty.call(S.overrides, q.n);
 
     let srcChip;
-    if (overridden) srcChip = '<span class="src you">' + (LANG === 'tr' ? 'senin cevabın' : 'your answer') + '</span>';
+    if (overridden) srcChip = '<span class="src own">' + (LANG === 'tr' ? 'senin cevabın' : 'your answer') + '</span>';
     else if (c.kind === 'you') srcChip = '<span class="src you">' + T('src.you') + '</span>';
-    else if (c.kind === 'guess') srcChip = '<span class="src" style="background:var(--yellow);color:#000">' + T('src.guess') + '</span>';
+    else if (c.kind === 'guess') srcChip = '<span class="src guess">' + T('src.guess') + '</span>';
     else srcChip = '<span class="src auto">' + T('src.auto') + '</span>';
 
     const links = [];
@@ -635,6 +757,27 @@ function renderQuestions() {
       holders = '<div style="display:flex;gap:5px;flex-wrap:wrap;margin-top:-4px">' + c.holders.map(h =>
         '<a class="src addr" href="' + esc(explorerUrl(S.chain, h.addr)) + '" target="_blank" rel="noopener">' +
         esc(short(h.addr)) + ' · ' + h.pct.toFixed(1) + '%</a>').join('') + '</div>';
+    }
+    /* devin onceki tokenleri */
+    if (c.prevTokens && c.prevTokens.length) {
+      holders += '<div style="display:flex;gap:5px;flex-wrap:wrap;margin-top:-4px">' + c.prevTokens.map(t => {
+        const dead = (t.marketCap || 0) < 20000;
+        const d = t.createdAt ? new Date(t.createdAt).toLocaleDateString(LANG === 'tr' ? 'tr-TR' : 'en-US', { month: 'short', year: '2-digit' }) : '';
+        return '<a class="src addr" style="' + (dead ? 'background:var(--magenta);color:#fff' : 'background:var(--lime);color:#000') + '" href="' +
+          esc('https://dexscreener.com/solana/' + t.mint) + '" target="_blank" rel="noopener">' +
+          (dead ? '💀 ' : '✅ ') + esc(short(t.mint)) + ' · ' + usd(t.marketCap || 0) + (d ? ' · ' + d : '') + '</a>';
+      }).join('') + '</div>';
+    }
+    /* X profil ozeti */
+    if (c.x && c.x.ok) {
+      const xj = c.x.joined ? c.x.joined.toLocaleDateString(LANG === 'tr' ? 'tr-TR' : 'en-US', { month: 'short', year: 'numeric' }) : '—';
+      holders += '<div style="display:flex;gap:5px;flex-wrap:wrap;margin-top:-4px">' +
+        '<span class="src addr">👥 ' + nf(c.x.followers) + '</span>' +
+        '<span class="src addr">➡️ ' + nf(c.x.following) + '</span>' +
+        (c.x.tweets != null ? '<span class="src addr">✍️ ' + nf(c.x.tweets) + '</span>' : '') +
+        '<span class="src addr">📅 ' + esc(xj) + '</span>' +
+        (c.x.verified ? '<span class="src" style="background:var(--cyan);color:#000">✔ ' + esc(c.x.vtype || 'verified') + '</span>' : '') +
+        '</div>';
     }
 
     return '<div class="q ' + cls + '" style="animation-delay:' + (q.n * 22) + 'ms">' +

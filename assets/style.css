@@ -291,14 +291,17 @@ h1.title span:hover{transform:translateY(-13px) rotate(-9deg) scale(1.16)}
 .q-note b{color:var(--cyan)}
 .q-foot{display:flex;gap:7px;align-items:center;flex-wrap:wrap;margin-top:auto}
 .src{
-  font-size:10px;font-weight:800;letter-spacing:.09em;text-transform:uppercase;
+  font-size:10px;font-weight:800;letter-spacing:.02em;
   padding:4px 9px;border-radius:999px;border:2px solid var(--black);background:var(--ink-3);color:var(--cream);
   text-decoration:none;transition:.15s;
 }
 a.src:hover{background:var(--cyan);color:var(--black)}
+.src.auto,.src.you,.src.guess,.src.own{text-transform:uppercase;letter-spacing:.09em}
 .src.auto{background:var(--lime);color:var(--black)}
 .src.you{background:var(--orange);color:var(--black)}
-.src.addr{text-transform:none;letter-spacing:0;font-family:var(--font-m);font-weight:700}
+.src.guess{background:var(--yellow);color:var(--black)}
+.src.own{background:var(--violet);color:#fff}
+.src.addr{letter-spacing:0;font-family:var(--font-m);font-weight:700}
 .toggle{display:flex;gap:0;margin-left:auto;border:3px solid var(--black);border-radius:10px;overflow:hidden;flex:none}
 .toggle button{
   cursor:pointer;border:none;background:var(--ink-3);color:var(--cream);
