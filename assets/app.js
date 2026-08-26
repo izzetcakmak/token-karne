@@ -323,11 +323,19 @@ function aggregate(allPairs) {
   const created = pairs.reduce((m, p) => Math.min(m, p.pairCreatedAt || Infinity), Infinity);
   const info = (pairs.find(p => p.info && (p.info.socials || p.info.imageUrl)) || {}).info || {};
   const socials = info.socials || [];
-  const tw = socials.find(s => /twitter|^x$/i.test(s.type || '') || /(twitter|x)\.com/i.test(s.url || ''));
-  let handle = null;
-  if (tw) { const m = String(tw.url).match(/(?:twitter|x)\.com\/([A-Za-z0-9_]+)/i); if (m) handle = m[1]; }
+  /* x.com/i/communities/... , /intent/... , /search?... gibi linkler profil degil */
+  const RESERVED = new Set(['i', 'intent', 'search', 'hashtag', 'home', 'explore', 'messages', 'notifications', 'share', 'status', 'compose']);
+  const twAll = socials.filter(s => /twitter|^x$/i.test(s.type || '') || /(twitter|x)\.com/i.test(s.url || ''));
+  let handle = null, community = null, tw = null;
+  twAll.forEach(s => {
+    const m = String(s.url || '').match(/(?:twitter|x)\.com\/(@?[A-Za-z0-9_]{1,15})(?:[/?#]|$)/i);
+    if (!m) return;
+    const h = m[1].replace('@', '');
+    if (RESERVED.has(h.toLowerCase())) { if (/communit/i.test(s.url)) community = s.url; return; }
+    if (!handle) { handle = h; tw = s; }
+  });
   return {
-    liq, vol, buys, sells, best, info, socials, twitter: tw ? tw.url : null, handle,
+    liq, vol, buys, sells, best, info, socials, twitter: tw ? tw.url : null, handle, community,
     pairCount: pairs.length, ghostPairs: allPairs.length - pairs.length, ghostLiq,
     created: created === Infinity ? null : created,
     price: best ? Number(best.priceUsd) : null,
@@ -401,11 +409,14 @@ function computeChecks(chain, ca, D, sec, X, RF) {
     if (cluster >= 3) r6.push(cluster + (LANG === 'tr' ? ' cüzdan neredeyse aynı miktarı tutuyor' : ' wallets hold nearly identical amounts'));
     if (sec.creatorPct != null && sec.creatorPct > 3) r6.push((LANG === 'tr' ? 'dev %' : 'dev holds ') + sec.creatorPct.toFixed(1) + (LANG === 'tr' ? ' tutuyor' : '%'));
   }
-  if (ch.length || RF) v6 = r6.length === 0;
+  /* elde gercek bir sinyal yoksa "temiz" deme — bos veri iyi haber degildir */
+  const has6 = ch.length > 0 || (RF && (RF.insiders > 0 || (RF.topHolders && RF.topHolders.length > 0)));
+  if (has6) v6 = r6.length === 0;
   const bub = BUBBLE_CHAIN[chain];
   put(6, v6,
       v6 === null ? T('n.top10.no')
-        : (v6 ? T('n.bubble.ok', { v: ch.length ? ch[0].pct.toFixed(1) : '—' }) : T('n.bubble.bad', { r: r6.join(', ') })),
+        : (v6 ? (ch.length ? T('n.bubble.ok', { v: ch[0].pct.toFixed(1) }) : T('n.bubble.ok2'))
+              : T('n.bubble.bad', { r: r6.join(', ') })),
       { kind: RF && RF.insiders > 0 ? 'auto' : 'guess',
         link: bub ? 'https://app.bubblemaps.io/' + bub + '/token/' + ca : 'https://app.bubblemaps.io/', linkLabel: 'Bubblemaps' });
 
@@ -444,8 +455,10 @@ function computeChecks(chain, ca, D, sec, X, RF) {
     : { linkLabel: 'DexScreener' };
 
   if (!D.handle) {
-    put(8, false, T('n.x.none'), xLinks);
-    put(9, false, T('n.x.none'), xLinks);
+    const key = D.community ? 'n.x.community' : 'n.x.none';
+    const cl = D.community ? { link: D.community, linkLabel: 'X Community' } : xLinks;
+    put(8, false, T(key), cl);
+    put(9, false, T(key), cl);
   } else if (!X || X.ok === false) {
     /* hesap cekilemedi: silinmis/askida olabilir -> kirmizi, ama elle cevrilebilir */
     const missing = X && X.missing;
@@ -460,13 +473,14 @@ function computeChecks(chain, ca, D, sec, X, RF) {
         Object.assign({ x: X }, xLinks));
 
     /* takipci kalitesi heuristigi */
+    /* Not: kucuk hesap != bot hesap. Soru "takipciler gercek mi", "cok mu" degil —
+       o yuzden sadece satin alinmis takipci desenleri cezalandiriliyor. */
     const r9 = [];
-    const fpd = ageDays && ageDays > 0 ? X.followers / ageDays : null;
+    const fpd = ageDays ? X.followers / Math.max(ageDays, 1) : null;
     const orgVerified = X.verified && (X.vtype === 'organization' || X.vtype === 'government');
-    if (fpd && fpd > 2500 && ageDays < 60 && !orgVerified) r9.push(T('r9.fast', { v: nf(Math.round(fpd)) }));
+    if (fpd && fpd > 3000 && X.followers > 20000 && ageDays < 90 && !orgVerified) r9.push(T('r9.fast', { v: nf(Math.round(fpd)) }));
     if (X.tweets != null && X.tweets < 15 && X.followers > 5000) r9.push(T('r9.notweets', { t: nf(X.tweets), f: nf(X.followers) }));
     if (X.following > 2000 && X.following > X.followers * 1.5) r9.push(T('r9.followfarm', { v: nf(X.following) }));
-    if (X.followers < 200) r9.push(T('r9.tiny', { v: nf(X.followers) }));
     const v9 = r9.length === 0;
     put(9, v9,
         T(v9 ? 'n.x.real' : 'n.x.bots', {
