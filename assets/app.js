@@ -90,6 +90,7 @@ const EXPLORER = {
   avalanche: a => 'https://snowscan.xyz/address/' + a,
   solana: a => 'https://solscan.io/account/' + a,
   blast: a => 'https://blastscan.io/address/' + a,
+  robinhood: a => 'https://robinhoodchain.blockscout.com/address/' + a,
   sonic: a => 'https://sonicscan.org/address/' + a
 };
 const explorerUrl = (chain, a) => (EXPLORER[chain] ? EXPLORER[chain](a) : 'https://dexscreener.com/' + chain);
@@ -205,15 +206,201 @@ async function fetchRugFull(ca) {
   } catch (e) { return null; }
 }
 
+/* ============================================================
+   ZINCIRDEN OKUMA (GoPlus'in kapsamadigi EVM aglari icin)
+   GoPlus her agi desteklemiyor. Desteklemedigi yerde "veri yok" deyip
+   kullaniciya birakmak yerine dogrudan zincire soruyoruz:
+   - eth_getCode + selector taramasi -> mint / pause / blacklist var mi
+   - owner() -> sahiplik birakilmis mi (yetkiler cagrilabilir mi)
+   - LP pair totalSupply/balanceOf -> LP yakilmis mi (sadece V2 tipi havuz)
+   - Blockscout -> ilk 50 holder ve holder sayisi
+   ============================================================ */
+/* Blockscout limitine takilirsan oturum icinde son basarili veriyi kullan */
+const OC_CACHE = {};
+const ONCHAIN = {
+  robinhood: { rpc: 'https://rpc.mainnet.chain.robinhood.com', scout: 'https://robinhoodchain.blockscout.com' }
+};
+
+/* Solidity dispatcher tablosunda PUSH4 olarak duran fonksiyon imzalari */
+const SEL = {
+  mint: ['40c10f19', 'a0712d68', '6a627842', '449a52f8'],
+  freeze: ['8456cb59', 'f9f92be4', '0ecb93c0', 'e4997dc5', 'd936547e', '1e89d545'],
+  owner: ['8da5cb5b', '893d20e8'],
+  renounce: ['715018a6']
+};
+
+async function rpc(url, method, params, ms = 12000) {
+  const c = new AbortController();
+  const t = setTimeout(() => c.abort(), ms);
+  try {
+    const r = await fetch(url, {
+      method: 'POST', signal: c.signal,
+      headers: { 'content-type': 'application/json' },
+      body: JSON.stringify({ jsonrpc: '2.0', id: 1, method, params })
+    });
+    const d = await r.json();
+    return d && d.result != null ? d.result : null;
+  } catch (e) { return null; } finally { clearTimeout(t); }
+}
+const ethCall = (url, to, data) => rpc(url, 'eth_call', [{ to, data }, 'latest']);
+
+/* Blockscout ornekleri yogunlukta 500 dondurebiliyor — bir kez daha dene */
+async function jgetRetry(url, ms = 12000, tries = 2) {
+  for (let i = 0; i < tries; i++) {
+    try { return await jget(url, ms); }
+    catch (e) { if (i === tries - 1) throw e; await new Promise(r => setTimeout(r, 700)); }
+  }
+}
+const isZeroWord = h => !h || /^0x0*$/.test(h);
+
+async function fetchOnChain(chain, ca, pairs) {
+  const cfg = ONCHAIN[chain];
+  if (!cfg) return null;
+  const out = { ok: false, sources: [], flags: [], supported: true, onchain: true,
+                pairSet: new Set((pairs || []).map(p => String(p.pairAddress || '').toLowerCase())) };
+
+  /* --- 1) kontrat bytecode'u: hangi tehlikeli fonksiyonlar var --- */
+  const code = (await rpc(cfg.rpc, 'eth_getCode', [ca, 'latest'])) || '';
+  if (code && code.length > 4) {
+    out.ok = true; out.sources.push(LANG === 'tr' ? 'zincir' : 'on-chain');
+    const lc = code.toLowerCase();
+    const has = list => list.some(s => lc.includes(s));
+    out.mintableCode = has(SEL.mint);
+    out.freezableCode = has(SEL.freeze);
+    const hasOwner = has(SEL.owner);
+    out.proxyLike = code.length < 400;   /* minimal proxy / delege eden kontrat */
+
+    /* --- 2) sahiplik birakilmis mi --- */
+    let renounced = !hasOwner;           /* owner() yoksa cagrilacak yetki de yok */
+    if (hasOwner) {
+      const o = await ethCall(cfg.rpc, ca, '0x8da5cb5b') || await ethCall(cfg.rpc, ca, '0x893d20e8');
+      out.owner = o && o.length >= 42 ? '0x' + o.slice(-40) : null;
+      renounced = isZeroWord(o) || (out.owner && BURN_ADDR.has(out.owner.toLowerCase()));
+    }
+    out.ownerRenounced = renounced;
+    out.mintable  = !!out.mintableCode && !renounced;
+    out.freezable = !!out.freezableCode && !renounced;
+    if (out.proxyLike) out.flags.push({ lvl: 'warn', k: 'fl.proxy' });
+  }
+
+  /* --- 3) LP: sadece V2 tipi havuzlarda LP token vardir --- */
+  const v2 = (pairs || []).filter(p => !(p.labels || []).some(l => /v3|v4/i.test(l)) && /^0x[a-fA-F0-9]{40}$/.test(p.pairAddress))
+    .sort((a, b) => liqOf(b) - liqOf(a))[0];
+  const anyPair = (pairs || []).slice().sort((a, b) => liqOf(b) - liqOf(a))[0];
+  if (v2) {
+    const [ts, dead, zero] = await Promise.all([
+      ethCall(cfg.rpc, v2.pairAddress, '0x18160ddd'),
+      ethCall(cfg.rpc, v2.pairAddress, '0x70a08231000000000000000000000000000000000000000000000000000000000000dead'),
+      ethCall(cfg.rpc, v2.pairAddress, '0x70a082310000000000000000000000000000000000000000000000000000000000000000')
+    ]);
+    const n = h => (h && h !== '0x') ? Number(BigInt(h)) : 0;
+    const total = n(ts);
+    if (total > 0) out.lpLockedPct = Math.min(((n(dead) + n(zero)) / total) * 100, 100);
+  }
+  /* V2 okunamadiysa ve havuzlar konsantre likidite tipindeyse LP token yok demektir */
+  if (out.lpLockedPct == null && anyPair && (pairs || []).some(p => (p.labels || []).some(l => /v3|v4/i.test(l)))) {
+    out.concentratedLp = true;
+  }
+
+  /* --- 4) Blockscout: holder listesi ve sayisi --- */
+  if (cfg.scout) {
+    try {
+      /* Blockscout uclari ara ara 500 donuyor; her birini ayri ayri degerlendir
+         ve toplam arzi zincirden oku ki holder yuzdeleri tek uca bagli kalmasin. */
+      const [tokR, holdR, addrR, supR] = await Promise.allSettled([
+        jgetRetry(cfg.scout + '/api/v2/tokens/' + ca, 12000),
+        jgetRetry(cfg.scout + '/api/v2/tokens/' + ca + '/holders', 12000),
+        jgetRetry(cfg.scout + '/api/v2/addresses/' + ca, 12000),
+        ethCall(cfg.rpc, ca, '0x18160ddd')
+      ]);
+      const val = r => r.status === 'fulfilled' ? r.value : null;
+      const tok = val(tokR), hold = val(holdR), addr = val(addrR), supHex = val(supR);
+
+      if (addr) {
+        out.creator = addr.creator_address_hash || null;
+        if (addr.is_verified === false) out.flags.push({ lvl: 'warn', k: 'fl.notopen' });
+      }
+      if (tok) {
+        if (tok.holders_count != null) out.holderCount = Number(tok.holders_count);
+        else if (tok.holders != null) out.holderCount = Number(tok.holders);
+      }
+      let supply = 0;
+      if (supHex && supHex !== '0x') { try { supply = Number(BigInt(supHex)); } catch (e) {} }
+      if (!supply && tok && tok.total_supply) supply = Number(tok.total_supply);
+
+      if (hold && Array.isArray(hold.items) && supply > 0) {
+        out.ok = true;
+        out.sources.push('Blockscout');
+        out.topHolders = hold.items.map(h => {
+          const a = (h.address || {});
+          return {
+            addr: a.hash, pct: (Number(h.value) / supply) * 100,
+            contract: !!a.is_contract, tag: a.name || a.implementation_name || '',
+            locked: /lock|vest|vesting|timelock/i.test(a.name || '')
+          };
+        });
+        /* holder sayisi okunamadiysa en azindan listeden bir alt sinir ver */
+        if (out.holderCount == null && hold.next_page_params) out.holderCount = null;
+      }
+    } catch (e) {}
+  }
+  /* Blockscout bir istekte 500 donerse onceki basarili veriye dus */
+  const key = chain + ':' + String(ca).toLowerCase();
+  const prev = OC_CACHE[key];
+  if (prev) {
+    if (!(out.topHolders || []).length && (prev.topHolders || []).length) {
+      out.topHolders = prev.topHolders;
+      if (!out.sources.includes('Blockscout')) out.sources.push('Blockscout');
+    }
+    if (out.holderCount == null) out.holderCount = prev.holderCount;
+    if (!out.creator) out.creator = prev.creator;
+  }
+  if ((out.topHolders || []).length || out.holderCount != null || out.creator) {
+    OC_CACHE[key] = { topHolders: out.topHolders, holderCount: out.holderCount, creator: out.creator };
+  }
+  return out.ok ? out : null;
+}
+
 /* GoPlus + RugCheck -> tek bir normalize guvenlik objesi */
-async function fetchSecurity(chain, ca) {
+/* ilk 10 cuzdan — LP / yakma / kilit / borsa adresleri haric */
+function finishHolders(out, ca) {
+  const cex = [];
+  const selfAddr = String(ca).toLowerCase();
+  const clean = out.topHolders.filter(h => {
+    const a = String(h.addr || '').toLowerCase();
+    if (BURN_ADDR.has(a) || BURN_ADDR.has(h.addr)) return false;
+    if (a === selfAddr) return false;                       /* tokenin kendi kontrati */
+    if (h.isLp || h.locked) return false;
+    if (out.pairSet && out.pairSet.has(a)) return false;
+    if (SOL_AMM.has(h.addr)) return false;
+    const ent = entityOf(h.addr);
+    if (ent) { cex.push({ addr: h.addr, pct: h.pct, name: null, seen: ent }); return false; }
+    if (/uniswap|pancake|raydium|orca|meteora|pool|lock|burn|null|vault|binance|coinbase|okx|kraken|bybit|kucoin|gate|bitfinex|huobi|exchange/i.test(h.tag)) {
+      cex.push({ addr: h.addr, pct: h.pct, name: h.tag });
+      return false;
+    }
+    return true;
+  });
+  out.cleanHolders = clean;
+  out.cexHolders = cex;
+  if (clean.length) out.top10Pct = clean.slice(0, 10).reduce((s, h) => s + (h.pct || 0), 0);
+  return out;
+}
+
+async function fetchSecurity(chain, ca, pairs) {
   const out = {
     ok: false, sources: [], mintable: null, freezable: null, lpLockedPct: null,
     top10Pct: null, topHolders: [], holderCount: null, creator: null,
     creatorHoneypots: null, creatorPct: null, flags: [], supported: true
   };
   const gp = GOPLUS_CHAIN[chain];
-  if (!gp) { out.supported = false; return out; }
+  if (!gp) {
+    /* GoPlus bu agi kapsamiyor -> zincirden kendimiz okuyalim */
+    const oc = await fetchOnChain(chain, ca, pairs);
+    if (!oc) { out.supported = false; return out; }
+    Object.assign(out, oc);
+    return finishHolders(out, ca);
+  }
 
   if (chain === 'solana') {
     const [g, r] = await Promise.allSettled([
@@ -320,29 +507,8 @@ async function fetchSecurity(chain, ca) {
     }
   }
 
-  /* ilk 10 cuzdan — LP / yakma / kilit / borsa adresleri haric */
-  const cex = [];
-  const selfAddr = String(ca).toLowerCase();
-  const clean = out.topHolders.filter(h => {
-    const a = String(h.addr || '').toLowerCase();
-    if (BURN_ADDR.has(a) || BURN_ADDR.has(h.addr)) return false;
-    if (a === selfAddr) return false;                       /* tokenin kendi kontrati */
-    if (h.isLp || h.locked) return false;
-    if (SOL_AMM.has(h.addr)) return false;
-    const ent = entityOf(h.addr);
-    if (ent) { cex.push({ addr: h.addr, pct: h.pct, name: null, seen: ent }); return false; }
-    if (/uniswap|pancake|raydium|orca|meteora|pool|lock|burn|null|vault|binance|coinbase|okx|kraken|bybit|kucoin|gate|bitfinex|huobi|exchange/i.test(h.tag)) {
-      cex.push({ addr: h.addr, pct: h.pct, name: h.tag });
-      return false;
-    }
-    return true;
-  });
-  out.cleanHolders = clean;
-  out.cexHolders = cex;
-  if (clean.length) out.top10Pct = clean.slice(0, 10).reduce((s, h) => s + (h.pct || 0), 0);
-  return out;
+  return finishHolders(out, ca);
 }
-
 /* ---------------- dex aggregation ---------------- */
 /* Sahte likidite tuzagi: bir havuz degersiz bir token ile eslenirse
    DexScreener oraya milyonlarca dolarlik "likidite" ve sacma bir fiyat yazar.
@@ -416,10 +582,16 @@ function computeChecks(chain, ca, D, sec, X, RF) {
       D.liq > 0 ? T('n.liq', { v: usd(D.liq) }) : T('n.liq.none'),
       { link: D.best ? D.best.url : null, linkLabel: 'DexScreener' });
 
+  /* Zincir guvenlik API'lerinin kapsaminda degilse 2-7 arasi sorular icin
+     "okunamadi" degil, "bu zincirde veri yok" demek gerekiyor. */
+  const noSec = sec.supported === false;
+  const unk = noSec ? T('n.nosec', { c: chain }) : T('n.lp.unknown');
+
   /* 2 — LP kilit / burn */
   const lp = sec.lpLockedPct;
   let n2;
-  if (lp == null) n2 = T('n.lp.unknown');
+  if (lp == null && sec.concentratedLp) n2 = T('n.lp.v3');
+  else if (lp == null) n2 = unk;
   else if (lp < 50) n2 = T('n.lp.no');
   else if (sec.lpSelfPct > 40) n2 = T('n.lp.self', { v: lp.toFixed(1) });
   else n2 = T('n.lp.burn', { v: lp.toFixed(1) });
@@ -428,15 +600,17 @@ function computeChecks(chain, ca, D, sec, X, RF) {
 
   /* 3 — mint (sahiplik birakildiysa koddaki fonksiyon cagrilamaz) */
   put(3, sec.mintable == null ? null : !sec.mintable,
-      sec.mintable == null ? T('n.lp.unknown')
+      sec.mintable == null ? unk
         : sec.mintable ? T('n.mint.on')
+        : (sec.onchain && !sec.mintableCode) ? T('n.mint.nocode')
         : (sec.mintableCode && sec.ownerRenounced ? T('n.mint.renounced') : T('n.mint.off')),
       { linkLabel: sec.sources.join(' + ') || null });
 
   /* 4 — freeze / pause */
   put(4, sec.freezable == null ? null : !sec.freezable,
-      sec.freezable == null ? T('n.lp.unknown')
+      sec.freezable == null ? unk
         : sec.freezable ? T('n.freeze.on')
+        : (sec.onchain && !sec.freezableCode) ? T('n.freeze.nocode')
         : (sec.freezableCode && sec.ownerRenounced ? T('n.freeze.renounced') : T('n.freeze.off')),
       { linkLabel: sec.sources.join(' + ') || null });
 
@@ -444,7 +618,7 @@ function computeChecks(chain, ca, D, sec, X, RF) {
   const t10 = sec.top10Pct;
   const cexN = (sec.cexHolders || []).length;
   put(5, t10 == null ? null : t10 < 20,
-      t10 == null ? T('n.top10.no')
+      t10 == null ? (noSec ? unk : T('n.top10.no'))
         : T('n.top10', { v: t10.toFixed(1) }) + (cexN ? ' ' + T('n.top10.cex', { n: cexN }) : ''),
       { holders: (sec.cleanHolders || []).slice(0, 3), cex: (sec.cexHolders || []).slice(0, 4) });
 
@@ -461,7 +635,7 @@ function computeChecks(chain, ca, D, sec, X, RF) {
   }
   if (ch.length) {
     const big = ch[0].pct;
-    if (big > 5) r6.push((LANG === 'tr' ? 'tek cüzdanda %' : 'one wallet at ') + big.toFixed(1) + (LANG === 'tr' ? '' : '%'));
+    if (big > 20) r6.push((LANG === 'tr' ? 'tek cüzdanda %' : 'one wallet at ') + big.toFixed(1) + (LANG === 'tr' ? '' : '%'));
     const sizable = ch.filter(h => h.pct >= 0.8).slice(0, 10);
     let cluster = 0;
     for (let i = 0; i < sizable.length; i++) {
@@ -479,7 +653,7 @@ function computeChecks(chain, ca, D, sec, X, RF) {
   if (has6) v6 = r6.length === 0;
   const bub = BUBBLE_CHAIN[chain];
   put(6, v6,
-      v6 === null ? T('n.top10.no')
+      v6 === null ? (noSec ? unk : T('n.top10.no'))
         : (v6 ? (ch.length ? T('n.bubble.ok', { v: ch[0].pct.toFixed(1) }) : T('n.bubble.ok2'))
               : T('n.bubble.bad', { r: r6.join(', ') })),
       { kind: RF && RF.insiders > 0 ? 'auto' : 'guess',
@@ -622,7 +796,7 @@ async function run(caRaw, forcedChain) {
     step(1);
     const D = aggregate(byChain[chain]);
     const [secR, xR, rfR] = await Promise.allSettled([
-      fetchSecurity(chain, ca),
+      fetchSecurity(chain, ca, byChain[chain]),
       (step(2), fetchSocial(D.handle)),
       chain === 'solana' ? fetchRugFull(ca) : Promise.resolve(null)
     ]);
@@ -797,6 +971,7 @@ function contextNotes() {
   const bridged = /\bwrapped\b|\bbridged\b|-peg\b|\bpeg\b/i.test((D.name || '') + ' ' + (D.sym || '')) ||
                   (FOREIGN.has(symU) && !nativeHere);
   const mature = (D.mcap || 0) > 5e7 && ageDays > 180 && (sec.holderCount || 0) > 20000;
+  if (sec.supported === false) out.push(T('ctx.nosec', { c: S.chain }));
   if (mature) out.push(T('ctx.mature', { m: usd(D.mcap), d: nf(Math.round(ageDays)), h: compact(sec.holderCount) }));
   if (bridged) out.push(T('ctx.bridged'));
   return out;
@@ -815,6 +990,13 @@ function renderVerdict() {
       (max !== yes ? ' <b>(' + (LANG === 'tr' ? 'en fazla' : 'up to') + ' ' + max + '/12)</b>' : '') + '</div>'
     : '';
 
+  /* Cok sayida soru cevapsizsa ortada hüküm verecek veri yok demektir;
+     "GEÇ" damgasi basmak veri yoklugunu suclama gibi gosterir. */
+  const tooMany = unknown >= 4;
+  const V = tooMany
+    ? { key: 'nodata', bg: 'var(--violet)', fg: '#fff' }
+    : v;
+
   const ctx = contextNotes();
   const ctxHtml = ctx.length
     ? '<div class="ctx-note"><span class="ctx-ico">🧭</span><div>' + ctx.join('<br><br>') + '</div></div>'
@@ -822,14 +1004,15 @@ function renderVerdict() {
 
   $('#verdict').innerHTML = ctxHtml +
     '<div class="verdict">' +
-      '<div class="v-score" style="background:' + v.bg + '">' +
-        '<div class="v-num">' + yes + '</div><div class="v-den">/ 12</div>' +
-        '<div class="v-label">' + T('v.label') + '</div>' +
+      '<div class="v-score" style="background:' + V.bg + '">' +
+        '<div class="v-num"' + (tooMany ? ' style="color:#fff"' : '') + '>' + yes + '</div>' +
+        '<div class="v-den"' + (tooMany ? ' style="color:#fff"' : '') + '>/ 12</div>' +
+        '<div class="v-label"' + (tooMany ? ' style="color:#fff"' : '') + '>' + T('v.label') + '</div>' +
       '</div>' +
       '<div class="v-body">' +
-        '<div class="v-stamp" style="background:' + v.bg + ';color:' + v.fg + '">' + T('v.' + v.key) + '</div>' +
+        '<div class="v-stamp" style="background:' + V.bg + ';color:' + V.fg + '">' + T('v.' + V.key) + '</div>' +
         '<div class="v-bars">' + bars.join('') + '</div>' +
-        '<div class="v-advice">' + T('v.' + v.key + '.a') + '</div>' + todo +
+        '<div class="v-advice">' + T('v.' + V.key + '.a') + '</div>' + todo +
         '<div class="v-actions">' +
           '<button class="act x" id="shareX">𝕏 ' + T('act.x') + '</button>' +
           '<button class="act png" id="dlPng">⬇️ ' + T('act.png') + '</button>' +
