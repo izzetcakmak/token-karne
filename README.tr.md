@@ -12,10 +12,10 @@ Backend yok. Her şey doğrudan tarayıcıdan, herkese açık API'lerden çekili
 | # | Soru | Kaynak | Otomatik mi? |
 |---|------|--------|--------------|
 | 1 | Likidite havuzu 30 bin doların üstünde mi? | DexScreener | ✅ |
-| 2 | Likidite kilitli ya da yakılmış mı? | GoPlus / RugCheck | ✅ |
-| 3 | Mint yetkisi kapalı mı? | GoPlus / RugCheck | ✅ |
-| 4 | Freeze yetkisi kapalı mı? | GoPlus / RugCheck | ✅ |
-| 5 | İlk 10 cüzdan arzın %20'sinden azını mı tutuyor? | GoPlus holder listesi | ✅ |
+| 2 | Likidite kilitli ya da yakılmış mı? | GoPlus / RugCheck / zincir | ✅ V2 havuzda; V3/V4'te LP token yok, nedeni yazılır |
+| 3 | Mint yetkisi kapalı mı? | GoPlus / RugCheck / bytecode | ✅ |
+| 4 | Freeze yetkisi kapalı mı? | GoPlus / RugCheck / bytecode | ✅ |
+| 5 | İlk 10 cüzdan arzın %20'sinden azını mı tutuyor? | GoPlus / Blockscout | ✅ borsa ve havuz cüzdanları hariç |
 | 6 | Cüzdanlar bağsız mı, dağılım temiz mi? | RugCheck insider grafiği + sezgisel | ⚠️ tahmin |
 | 7 | Geliştirici daha önce coin çıkarıp bırakmamış mı? | RugCheck creatorTokens / GoPlus | ✅ Solana'da eski tokenler + mcap'leri |
 | 8 | Sosyal hesap bir haftadan eski mi? | fxtwitter (public) | ✅ gerçek açılış tarihi |
@@ -39,6 +39,12 @@ Tasarımı gereği sadece 12. soru sana kalıyor. Her cevabı elle çevirebilirs
   böylece piyasa değeri asla karşı tokene ait olmaz.
 * **Top-10'daki LP/yakma adresleri.** Havuz cüzdanları, yakma adresleri, kilitli
   pozisyonlar ve bilinen AMM otoriteleri yoğunlaşma hesabından çıkarılır.
+
+* **Kapsam dışı zincirler.** GoPlus bir ağı desteklemiyorsa veriler doğrudan zincirden okunur:
+  `eth_getCode` ile bytecode'da mint/pause/blacklist selector'leri aranır, `owner()` ile
+  sahipliğin bırakılıp bırakılmadığı sorulur, LP pair'in `totalSupply` ve `0xdead` bakiyesinden
+  yakma oranı hesaplanır, holder listesi Blockscout'tan alınır. Şu an Robinhood Chain bağlı;
+  yeni ağ eklemek `ONCHAIN` tablosuna bir satır.
 
 ## Veri kaynakları
 

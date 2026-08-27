@@ -12,10 +12,10 @@ No backend. Everything is fetched straight from the browser against public APIs.
 | # | Question | Source | Automated? |
 |---|----------|--------|-----------|
 | 1 | Is the liquidity pool above $30k? | DexScreener | ✅ |
-| 2 | Is liquidity locked or burned? | GoPlus / RugCheck | ✅ |
-| 3 | Is mint authority revoked? | GoPlus / RugCheck | ✅ |
-| 4 | Is freeze authority revoked? | GoPlus / RugCheck | ✅ |
-| 5 | Do the top 10 wallets hold less than 20%? | GoPlus holders | ✅ |
+| 2 | Is liquidity locked or burned? | GoPlus / RugCheck / chain | ✅ on V2 pools; V3/V4 have no LP token, explained |
+| 3 | Is mint authority revoked? | GoPlus / RugCheck / bytecode | ✅ |
+| 4 | Is freeze authority revoked? | GoPlus / RugCheck / bytecode | ✅ |
+| 5 | Do the top 10 wallets hold less than 20%? | GoPlus / Blockscout | ✅ exchange and pool wallets excluded |
 | 6 | Are the wallets unlinked, distribution clean? | RugCheck insider graph + heuristic | ⚠️ estimate |
 | 7 | Has the dev never rugged before? | RugCheck creatorTokens / GoPlus | ✅ Solana: past tokens + their mcap |
 | 8 | Is the social account older than a week? | fxtwitter (public) | ✅ real join date |
@@ -39,6 +39,12 @@ overrides are remembered per token in `localStorage`.
   market cap never belongs to the other side of the pair.
 * **LP/burn addresses in the top-10.** Pool vaults, burn addresses, locked positions and
   known AMM authorities are stripped before the concentration is calculated.
+
+* **Chains GoPlus does not cover.** The data is read straight from the chain instead:
+  `eth_getCode` scans the bytecode for mint/pause/blacklist selectors, `owner()` tells whether
+  ownership is renounced, the LP pair's `totalSupply` and `0xdead` balance give the burn ratio,
+  and holders come from Blockscout. Robinhood Chain is wired up; adding a network is one row
+  in the `ONCHAIN` table.
 
 ## Data sources
 
