@@ -60,6 +60,9 @@ so a score on the board matches the scorecard you get when you click through.
 BOARD_LIMIT=45 BOARD_MIN=9 node scripts/scan.js   # run it by hand
 ```
 
+The repo is public, so GitHub Actions minutes are free; change the cadence from the
+cron line in `.github/workflows/scan.yml`.
+
 ## Data sources
 
 * [DexScreener](https://docs.dexscreener.com/api/reference) — pools, liquidity, volume, socials

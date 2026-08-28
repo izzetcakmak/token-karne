@@ -60,6 +60,9 @@ böylece tahtadaki puanla tıklayınca çıkan karne birbirini tutar.
 BOARD_LIMIT=45 BOARD_MIN=9 node scripts/scan.js   # elle çalıştırmak için
 ```
 
+Repo public olduğu için GitHub Actions dakikaları ücretsiz; tarama sıklığını
+`.github/workflows/scan.yml` içindeki cron satırından değiştirebilirsin.
+
 ## Veri kaynakları
 
 * [DexScreener](https://docs.dexscreener.com/api/reference) — havuz, likidite, hacim, sosyaller
