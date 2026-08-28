@@ -46,6 +46,20 @@ overrides are remembered per token in `localStorage`.
   and holders come from Blockscout. Robinhood Chain is wired up; adding a network is one row
   in the `ONCHAIN` table.
 
+## The Board (automated scan)
+
+A GitHub Actions job (`scripts/scan.js`) runs every 6 hours, pulls DexScreener's boosted and
+newly profiled tokens and scores them **with the site's own engine**; whatever clears the bar is
+written to `data/board.json` and rendered on the home page. No backend: the job commits to the
+repo and Pages serves the file.
+
+The engine has a single source — the same `analyze()` the browser uses is executed under Node,
+so a score on the board matches the scorecard you get when you click through.
+
+```bash
+BOARD_LIMIT=45 BOARD_MIN=9 node scripts/scan.js   # run it by hand
+```
+
 ## Data sources
 
 * [DexScreener](https://docs.dexscreener.com/api/reference) — pools, liquidity, volume, socials

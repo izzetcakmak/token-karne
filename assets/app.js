@@ -25,6 +25,7 @@ function applyLang() {
   paintTitle();
   renderHowCards();
   renderQuestionList();
+  renderBoard();
   /* notlar tarama aninda uretiliyor — dil degisince yeniden hesapla (ag istegi yok) */
   if (S) { S.checks = computeChecks(S.chain, S.ca, S.D, S.sec, S.X, S.RF); render(); }
 }
@@ -765,6 +766,63 @@ function computeChecks(chain, ca, D, sec, X, RF) {
 const isEvm = a => /^0x[a-fA-F0-9]{40}$/.test(a);
 const isSol = a => /^[1-9A-HJ-NP-Za-km-z]{32,44}$/.test(a);
 
+/* Tek kaynak: hem sitedeki tarama hem GitHub Actions'taki tarayici (scripts/scan.js)
+   bu fonksiyonu kullanir. Ikisi ayrisirsa liste ile karne birbirini tutmaz. */
+async function analyze(ca, forcedChain, onStep) {
+  const step2 = onStep || function () {};
+  step2(0);
+  const all = await fetchDex(ca);
+  if (!all.length) return { notFound: true };
+
+  /* SADECE tokenin base tarafinda oldugu havuzlar: aksi halde fiyat/mcap
+     karsi tokene ait olur (BONK/xyz havuzunda mcap xyz'nin olur) */
+  const lc = ca.toLowerCase();
+  const baseSide = all.filter(p => p.baseToken && String(p.baseToken.address).toLowerCase() === lc);
+  const pairs = baseSide.length ? baseSide : all;
+
+  /* zincire gore grupla, en likit zinciri sec */
+  const byChain = {};
+  pairs.forEach(p => { (byChain[p.chainId] = byChain[p.chainId] || []).push(p); });
+  const chains = Object.keys(byChain).sort((a, b) =>
+    byChain[b].reduce((s, p) => s + ((p.liquidity && p.liquidity.usd) || 0), 0) -
+    byChain[a].reduce((s, p) => s + ((p.liquidity && p.liquidity.usd) || 0), 0));
+  const chain = forcedChain && byChain[forcedChain] ? forcedChain : chains[0];
+
+  step2(1);
+  const D = aggregate(byChain[chain]);
+  const [secR, xR, rfR] = await Promise.allSettled([
+    fetchSecurity(chain, ca, byChain[chain]),
+    (step2(2), fetchSocial(D.handle)),
+    chain === 'solana' ? fetchRugFull(ca) : Promise.resolve(null)
+  ]);
+  const sec = secR.status === 'fulfilled' ? secR.value
+    : { ok: false, sources: [], mintable: null, freezable: null, lpLockedPct: null, top10Pct: null, topHolders: [], cleanHolders: [], holderCount: null, creator: null, creatorHoneypots: null, flags: [], supported: !!GOPLUS_CHAIN[chain] };
+  const X = xR.status === 'fulfilled' ? xR.value : null;
+  const RF = rfR.status === 'fulfilled' ? rfR.value : null;
+
+  if (RF) {
+    if (!sec.creator && RF.creator) sec.creator = RF.creator;
+    if (sec.holderCount == null && RF.totalHolders) sec.holderCount = RF.totalHolders;
+    if (RF.rugged) sec.flags.push({ lvl: 'bad', k: 'fl.rugged' });
+    sec.launchpad = RF.launchpad;
+  }
+  if (X && X.ok === false) sec.flags.push({ lvl: 'bad', k: 'fl.xgone' });
+
+  step2(3);
+  const checks = computeChecks(chain, ca, D, sec, X, RF);
+  return { ca, chain, chains, byChain, D, sec, X, RF, checks };
+}
+
+/* checks -> otomatik cevaplanabilen sorulardan puan */
+function autoScore(checks) {
+  let yes = 0, unknown = 0;
+  for (let n = 1; n <= 12; n++) {
+    const v = checks[n] ? checks[n].v : null;
+    if (v === true) yes++; else if (v === null || v === undefined) unknown++;
+  }
+  return { yes, unknown };
+}
+
 async function run(caRaw, forcedChain) {
   const ca = String(caRaw || '').trim();
   $('#err').hidden = true;
@@ -775,47 +833,9 @@ async function run(caRaw, forcedChain) {
   $('#result').hidden = true;
   showSteps();
   try {
-    step(0);
-    const all = await fetchDex(ca);
-    if (!all.length) { $('#loading').hidden = true; $('#go').disabled = false; return showErr(T('e.notfound')); }
-
-    /* SADECE tokenin base tarafinda oldugu havuzlar: aksi halde fiyat/mcap
-       karsi tokene ait olur (BONK/xyz havuzunda mcap xyz'nin olur) */
-    const lc = ca.toLowerCase();
-    const baseSide = all.filter(p => p.baseToken && String(p.baseToken.address).toLowerCase() === lc);
-    const pairs = baseSide.length ? baseSide : all;
-
-    /* zincire gore grupla, en likit zinciri sec */
-    const byChain = {};
-    pairs.forEach(p => { (byChain[p.chainId] = byChain[p.chainId] || []).push(p); });
-    const chains = Object.keys(byChain).sort((a, b) =>
-      byChain[b].reduce((s, p) => s + ((p.liquidity && p.liquidity.usd) || 0), 0) -
-      byChain[a].reduce((s, p) => s + ((p.liquidity && p.liquidity.usd) || 0), 0));
-    const chain = forcedChain && byChain[forcedChain] ? forcedChain : chains[0];
-
-    step(1);
-    const D = aggregate(byChain[chain]);
-    const [secR, xR, rfR] = await Promise.allSettled([
-      fetchSecurity(chain, ca, byChain[chain]),
-      (step(2), fetchSocial(D.handle)),
-      chain === 'solana' ? fetchRugFull(ca) : Promise.resolve(null)
-    ]);
-    const sec = secR.status === 'fulfilled' ? secR.value
-      : { ok: false, sources: [], mintable: null, freezable: null, lpLockedPct: null, top10Pct: null, topHolders: [], cleanHolders: [], holderCount: null, creator: null, creatorHoneypots: null, flags: [], supported: !!GOPLUS_CHAIN[chain] };
-    const X = xR.status === 'fulfilled' ? xR.value : null;
-    const RF = rfR.status === 'fulfilled' ? rfR.value : null;
-
-    /* rugcheck tam raporu gelirse dev adresi ve holder sayisi ondan tamamlanir */
-    if (RF) {
-      if (!sec.creator && RF.creator) sec.creator = RF.creator;
-      if (sec.holderCount == null && RF.totalHolders) sec.holderCount = RF.totalHolders;
-      if (RF.rugged) sec.flags.push({ lvl: 'bad', k: 'fl.rugged' });
-      sec.launchpad = RF.launchpad;
-    }
-    if (X && X.ok === false) sec.flags.push({ lvl: 'bad', k: 'fl.xgone' });
-
-    step(3);
-    const checks = computeChecks(chain, ca, D, sec, X, RF);
+    const A = await analyze(ca, forcedChain, step);
+    if (A.notFound) { $('#loading').hidden = true; $('#go').disabled = false; return showErr(T('e.notfound')); }
+    const { chain, chains, byChain, D, sec, X, RF, checks } = A;
     let saved = {};
     try { saved = JSON.parse(localStorage.getItem(ansKey(chain, ca)) || '{}'); } catch (e) {}
 
@@ -1114,6 +1134,47 @@ function renderFlags() {
   $('#flags').innerHTML = '<div class="flags"><h3>' + T('fl.title') + '</h3><div class="flag-list">' + items.join('') + '</div></div>';
 }
 
+/* ---------------- tahta ----------------
+   data/board.json'i GitHub Actions dolduruyor (scripts/scan.js).
+   Site sadece okuyor; tiklayinca token kendi karnesiyle acilir. */
+let BOARD = null;
+async function loadBoard() {
+  try { BOARD = await jget('data/board.json?t=' + Math.floor(Date.now() / 6e5), 10000); }
+  catch (e) { BOARD = null; }
+  renderBoard();
+}
+function renderBoard() {
+  const sec = $('#board'); if (!sec) return;
+  if (!BOARD || !Array.isArray(BOARD.items)) { sec.hidden = true; return; }
+  sec.hidden = false;
+  const age = BOARD.updatedAt ? ago(Date.now() - BOARD.updatedAt) : '—';
+  $('#boardSub').textContent = T('board.sub', { n: BOARD.threshold || 9, t: age, s: nf(BOARD.scanned || 0) });
+
+  if (!BOARD.items.length) {
+    $('#boardList').innerHTML = '<div class="board-empty">' + T('board.empty', { n: BOARD.threshold || 9 }) + '</div>';
+    return;
+  }
+  const rows = BOARD.items.map((it, i) => {
+    const v = verdictOf(it.score);
+    const bars = (it.answers || []).map(a =>
+      '<span class="bb ' + (a === 1 ? 'y' : a === 0 ? 'n' : '') + '"></span>').join('');
+    const st = (k, val) => '<span><i>' + k + '</i>' + val + '</span>';
+    return '<a class="brow" href="?ca=' + esc(it.ca) + '&chain=' + esc(it.chain) + '">' +
+      '<span class="rank">' + (i + 1) + '</span>' +
+      '<span class="bscore" style="background:' + v.bg + (v.key === 'skip' ? ';color:#fff' : '') + '">' + it.score + '</span>' +
+      '<span class="bid"><span class="bsym">' + esc(it.sym || '?') + '</span>' +
+        '<span class="bname">' + esc((it.name || '').slice(0, 26)) + ' · ' + esc(it.chain) + '</span></span>' +
+      '<span class="bbars">' + bars + '</span>' +
+      '<span class="bstats">' +
+        st(T('s.liq'), usd(it.liq)) + st(T('s.vol'), usd(it.vol)) +
+        st(T('s.holders'), it.holders != null ? compact(it.holders) : '—') +
+        st(T('s.age'), it.createdAt ? ago(Date.now() - it.createdAt) : '—') +
+      '</span></a>';
+  }).join('');
+  $('#boardList').innerHTML = '<div class="board-list">' + rows + '</div>' +
+    '<div class="board-foot">' + T('board.foot') + '</div>';
+}
+
 /* ---------------- history ---------------- */
 function pushHistory() {
   if (!S) return;
@@ -1281,6 +1342,7 @@ function boot() {
   paintTitle();
   applyLang();
   renderHistory();
+  loadBoard();
 
   $('#go').onclick = () => run($('#ca').value);
   $('#ca').addEventListener('keydown', e => { if (e.key === 'Enter') run($('#ca').value); });

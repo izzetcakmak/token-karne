@@ -338,6 +338,43 @@ a.src:hover{background:var(--cyan);color:var(--black)}
 .flag.warn{background:var(--orange);color:var(--black)}
 .flag.ok{background:var(--lime);color:var(--black)}
 
+/* ---------- tahta ---------- */
+.board-sec{padding-top:10px}
+.board-list{display:grid;gap:10px}
+.brow{
+  display:flex;gap:14px;align-items:center;flex-wrap:wrap;
+  background:var(--ink-2);border:var(--edge) solid var(--black);border-radius:16px;
+  padding:12px 15px;box-shadow:var(--shadow-sm);transition:.15s;text-decoration:none;color:var(--cream);
+}
+.brow:hover{transform:translate(-3px,-3px);box-shadow:8px 8px 0 var(--black)}
+.brow .rank{
+  font-family:var(--font-d);font-size:17px;width:30px;height:30px;flex:none;
+  display:grid;place-items:center;border:3px solid var(--black);border-radius:9px;
+  background:var(--ink-3);color:var(--cream);
+}
+.brow .bscore{
+  font-family:var(--font-d);font-size:22px;border:3px solid var(--black);border-radius:11px;
+  padding:4px 12px;color:var(--black);flex:none;box-shadow:2px 2px 0 var(--black);
+}
+.brow .bsym{display:block;font-family:var(--font-d);font-size:20px;letter-spacing:-.02em;line-height:1.05}
+.brow .bname{display:block;font-size:12px;opacity:.65;font-weight:700;margin-top:2px}
+.brow .bid{min-width:120px;flex:0 1 auto}
+.brow .bstats{display:flex;gap:14px;flex-wrap:wrap;margin-left:auto;font-size:12px;font-weight:800}
+.brow .bstats i{font-style:normal;opacity:.55;display:block;font-size:10px;letter-spacing:.08em;text-transform:uppercase}
+.brow .bbars{display:flex;gap:3px;flex-wrap:wrap;flex:none}
+.brow .bb{width:11px;height:11px;border:2px solid var(--black);border-radius:3px;background:var(--ink-3)}
+.brow .bb.y{background:var(--lime)}
+.brow .bb.n{background:var(--magenta)}
+.board-empty{
+  background:var(--ink-2);border:var(--edge) solid var(--black);border-radius:var(--r);
+  padding:18px;box-shadow:var(--shadow-sm);font-weight:700;line-height:1.55;
+}
+.board-foot{margin-top:12px;font-size:12px;opacity:.65;line-height:1.6}
+@media(max-width:640px){
+  .brow .bstats{margin-left:0;width:100%}
+  .brow .bsym{min-width:auto}
+}
+
 /* ---------- history ---------- */
 .history{margin-top:26px;padding-bottom:34px}
 .history h3{font-size:20px;margin-bottom:10px;opacity:.9}

@@ -46,6 +46,20 @@ Tasarımı gereği sadece 12. soru sana kalıyor. Her cevabı elle çevirebilirs
   yakma oranı hesaplanır, holder listesi Blockscout'tan alınır. Şu an Robinhood Chain bağlı;
   yeni ağ eklemek `ONCHAIN` tablosuna bir satır.
 
+## Tahta (otomatik tarama)
+
+GitHub Actions'ta 6 saatte bir çalışan bir iş (`scripts/scan.js`), DexScreener'ın öne çıkan ve
+yeni profil açan tokenlerini çekip **sitenin kendi puanlama motoruyla** tarar; barajı geçenleri
+`data/board.json`'a yazar, site de ana sayfada gösterir. Backend yok: iş repoya commit atar,
+Pages dosyayı sunar.
+
+Motor tek kaynaktan gelir — tarayıcıdaki `analyze()` fonksiyonunun aynısı Node'da çalıştırılır,
+böylece tahtadaki puanla tıklayınca çıkan karne birbirini tutar.
+
+```bash
+BOARD_LIMIT=45 BOARD_MIN=9 node scripts/scan.js   # elle çalıştırmak için
+```
+
 ## Veri kaynakları
 
 * [DexScreener](https://docs.dexscreener.com/api/reference) — havuz, likidite, hacim, sosyaller
