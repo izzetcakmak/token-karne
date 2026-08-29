@@ -1138,9 +1138,20 @@ function renderFlags() {
    data/board.json'i GitHub Actions dolduruyor (scripts/scan.js).
    Site sadece okuyor; tiklayinca token kendi karnesiyle acilir. */
 let BOARD = null;
+/* Tahtayi iki kaynaktan okuyoruz ve YENI olani gosteriyoruz:
+   1) siteyle birlikte deploy edilen data/board.json — her zaman erisilebilir
+   2) repodaki guncel hali (GitHub Actions taramayi oraya commit ediyor)
+   Ikincisi sayesinde tarama sonucu, site yeniden deploy edilmeyi beklemeden gorunur. */
+const BOARD_RAW = 'https://raw.githubusercontent.com/izzetcakmak/token-karne/main/data/board.json';
 async function loadBoard() {
-  try { BOARD = await jget('data/board.json?t=' + Math.floor(Date.now() / 6e5), 10000); }
-  catch (e) { BOARD = null; }
+  const bust = '?t=' + Math.floor(Date.now() / 3e5);   /* 5 dakikalik onbellek kirici */
+  const [localR, rawR] = await Promise.allSettled([
+    jget('data/board.json' + bust, 10000),
+    jget(BOARD_RAW + bust, 8000)
+  ]);
+  const ok = r => (r.status === 'fulfilled' && r.value && Array.isArray(r.value.items)) ? r.value : null;
+  const local = ok(localR), raw = ok(rawR);
+  BOARD = (raw && local) ? ((raw.updatedAt || 0) > (local.updatedAt || 0) ? raw : local) : (raw || local);
   renderBoard();
 }
 function renderBoard() {
