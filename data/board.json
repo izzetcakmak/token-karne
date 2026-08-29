@@ -1,7 +1,7 @@
 {
- "updatedAt": 1787927409304,
+ "updatedAt": 1788006128510,
  "threshold": 9,
- "scanned": 32,
+ "scanned": 40,
  "items": [
   {
    "ca": "GCr352ouzNZkNQd3KZqs6jFuQb8LiYnWsEJSUpSfpump",
@@ -25,10 +25,10 @@
     1,
     null
    ],
-   "liq": 117334,
-   "vol": 1756312,
-   "mcap": 1451475,
-   "holders": 4983,
+   "liq": 121490,
+   "vol": 1903499,
+   "mcap": 1422810,
+   "holders": 5340,
    "createdAt": 1787655035000,
    "handle": "gasspastoken",
    "launchpad": "Pump.Fun",
@@ -38,14 +38,14 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/44ffdfyfclkasjxdpvqhbkbso2e2cbu2sjfhzvqynpek",
-   "scannedAt": 1787927358626
+   "scannedAt": 1788006032546
   },
   {
-   "ca": "A4FJQGuSmykD6erkywPrSkzCrGsxQPRFh3SAXN63pump",
+   "ca": "5mFZZzyUawGknigAxf3zkQQtSpnYqSGUg5bRz3b3pump",
    "chain": "solana",
-   "sym": "kash",
-   "name": "apewifkash",
-   "img": "https://cdn.dexscreener.com/cms/images/5p7iwWPnCeEfMSzm?width=800&height=800&quality=95&format=auto",
+   "sym": "CHILLAPE",
+   "name": "Chill Ape",
+   "img": "https://cdn.dexscreener.com/cms/images/tBi1GUVwruW2ngbW?width=800&height=800&quality=95&format=auto",
    "score": 10,
    "unknown": 2,
    "answers": [
@@ -62,27 +62,27 @@
     1,
     null
    ],
-   "liq": 48675,
-   "vol": 1451168,
-   "mcap": 288251,
-   "holders": 2715,
-   "createdAt": 1787914687000,
-   "handle": "apewifkash",
+   "liq": 54803,
+   "vol": 982149,
+   "mcap": 390317,
+   "holders": 1669,
+   "createdAt": 1787989764000,
+   "handle": "chillappe",
    "launchpad": "Pump.Fun",
    "flags": 0,
    "sources": [
     "GoPlus",
     "RugCheck"
    ],
-   "url": "https://dexscreener.com/solana/2pj2vspgdmdrzmutu4u9gcka82yyq4y2v2yj66m4oujc",
-   "scannedAt": 1787927315563
+   "url": "https://dexscreener.com/solana/j76thqrvr7iomkj4ryjeif5e28my98czvdvzxcmty4me",
+   "scannedAt": 1788006099287
   },
   {
-   "ca": "GNGhPhcLt5HJ6WjUHQSYoY3KhBFsksxu6FpvLpCFpump",
+   "ca": "DTdDsWkaXimkyMQgr6mKTiTfsuFQBM6dHS478N6Apump",
    "chain": "solana",
-   "sym": "invest",
-   "name": "ape in invest",
-   "img": "https://cdn.dexscreener.com/cms/images/oyJKLjj7YAgtNbNP?width=800&height=800&quality=95&format=auto",
+   "sym": "BAILEY",
+   "name": "BAILEY",
+   "img": "https://cdn.dexscreener.com/cms/images/YqrC-Lco_N5HpuE-?width=800&height=800&quality=95&format=auto",
    "score": 10,
    "unknown": 1,
    "answers": [
@@ -99,63 +99,27 @@
     1,
     null
    ],
-   "liq": 44908,
-   "vol": 996014,
-   "mcap": 268190,
-   "holders": 1317,
-   "createdAt": 1787914194000,
-   "handle": "apeininvestsol",
+   "liq": 36832,
+   "vol": 1621952,
+   "mcap": 174892,
+   "holders": 5840,
+   "createdAt": 1787984559000,
+   "handle": "baileydogonsol",
    "launchpad": "Pump.Fun",
    "flags": 0,
    "sources": [
     "GoPlus",
     "RugCheck"
    ],
-   "url": "https://dexscreener.com/solana/7ziungfoeopu1xwwfbdbfxtremlb7wytemkzctr7n9hn",
-   "scannedAt": 1787927377767
+   "url": "https://dexscreener.com/solana/h2fkr9v7hnbeu3hpuvxr1luw9g9g7hierd567immgxbm",
+   "scannedAt": 1788006110821
   },
   {
-   "ca": "0x7d03759E5B41E36899833cb2E008455d69A24444",
-   "chain": "bsc",
-   "sym": "priceless",
-   "name": "priceless",
-   "img": "https://cdn.dexscreener.com/cms/images/6RackrQPX19fEOB8?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    1,
-    1,
-    0,
-    1,
-    null
-   ],
-   "liq": 96615,
-   "vol": 225203,
-   "mcap": 172837,
-   "holders": 23363,
-   "createdAt": 1757345211000,
-   "handle": "PricelessBSC_",
-   "launchpad": null,
-   "flags": 0,
-   "sources": [
-    "GoPlus"
-   ],
-   "url": "https://dexscreener.com/bsc/0x3dc2878f9f60476dbbb18af7531fbe1a603c8dc0",
-   "scannedAt": 1787927311762
-  },
-  {
-   "ca": "9QFfgxdSqH5zT7j6rZb1y6SZhw2aFtcQu2r6BuYpump",
+   "ca": "2Fob54QUhUbP9jv6h5XAh3PgB1kcULR6LXbxSzuwpump",
    "chain": "solana",
-   "sym": "goldcoin",
-   "name": "goldcoin",
-   "img": "https://cdn.dexscreener.com/cms/images/0mwl2uziKsp24KOX?width=800&height=800&quality=95&format=auto",
+   "sym": "sAGENT",
+   "name": "SUPER AGENTOS ",
+   "img": "https://cdn.dexscreener.com/cms/images/UZSLP6DSdURNRQXD?width=800&height=800&quality=95&format=auto",
    "score": 9,
    "unknown": 1,
    "answers": [
@@ -172,27 +136,27 @@
     1,
     null
    ],
-   "liq": 48258,
-   "vol": 39004,
-   "mcap": 88888,
-   "holders": 5480,
-   "createdAt": 1760659604000,
-   "handle": "Goldcoin__Sol",
-   "launchpad": null,
+   "liq": 62451,
+   "vol": 1652546,
+   "mcap": 405111,
+   "holders": 1890,
+   "createdAt": 1784081822000,
+   "handle": "AgentOS_Tech",
+   "launchpad": "Pump.Fun",
    "flags": 0,
    "sources": [
     "GoPlus",
     "RugCheck"
    ],
-   "url": "https://dexscreener.com/solana/8eye7ykjbjfcucrv3d3tgsd7f2ngujackvsf9ka8efwv",
-   "scannedAt": 1787927364445
+   "url": "https://dexscreener.com/solana/6qedjur5ifszhntrxj9epzz2p7b9x4jxv9axzvitx7bh",
+   "scannedAt": 1788006084539
   },
   {
    "ca": "5CwpF2UsgWvNKeDQaKZPjQCd6jM4K32yNVRVCuh1pump",
    "chain": "solana",
    "sym": "KURO",
    "name": "Kuro",
-   "img": "https://cdn.dexscreener.com/cms/images/v-X-SThlxL-Z9Pxl?width=800&height=800&quality=95&format=auto",
+   "img": "https://cdn.dexscreener.com/cms/images/ChALmVyNFXR6vXwy?width=800&height=800&quality=95&format=auto",
    "score": 9,
    "unknown": 1,
    "answers": [
@@ -209,12 +173,12 @@
     1,
     null
    ],
-   "liq": 46382,
-   "vol": 1567206,
-   "mcap": 259768,
-   "holders": 1104,
-   "createdAt": 1787883485000,
-   "handle": "GetTurtled",
+   "liq": 45446,
+   "vol": 526253,
+   "mcap": 230734,
+   "holders": 1041,
+   "createdAt": 1787884142000,
+   "handle": "kurothecatsol",
    "launchpad": "Pump.Fun",
    "flags": 0,
    "sources": [
@@ -222,7 +186,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/77jqogiwz2apjq6qfqcwwsfwha1lsmgcfsplmpidgfd6",
-   "scannedAt": 1787927313658
+   "scannedAt": 1788006042991
+  },
+  {
+   "ca": "EpFTb2XcGiMyGLykZ9VYmyPWz2AHEwAggqSbwJpypump",
+   "chain": "solana",
+   "sym": "Imagine",
+   "name": "Imagine Game Studio",
+   "img": "https://cdn.dexscreener.com/cms/images/qvVOMZ3yZdEa5hMs?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 33350,
+   "vol": 89201,
+   "mcap": 117029,
+   "holders": 888,
+   "createdAt": 1786733722000,
+   "handle": "imaginegamelabs",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/4uuzpgttnksnd8cwad3wxsxpcppxckvoywykhldfmon1",
+   "scannedAt": 1788006105015
   }
  ]
 }
