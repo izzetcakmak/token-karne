@@ -1,0 +1,51 @@
+name: Tahta taramasi
+
+on:
+  schedule:
+    - cron: '17 */6 * * *'      # 6 saatte bir
+  workflow_dispatch:            # elle de tetiklenebilir
+    inputs:
+      limit:
+        description: 'Bu turda taranacak token sayisi'
+        required: false
+        default: '45'
+      min:
+        description: 'Tahtaya girme puani (12 uzerinden)'
+        required: false
+        default: '9'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: board-scan
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Tokenleri tara ve puanla
+        env:
+          BOARD_LIMIT: ${{ github.event.inputs.limit || '45' }}
+          BOARD_MIN: ${{ github.event.inputs.min || '9' }}
+        run: node scripts/scan.js
+
+      - name: Degisiklik varsa isle
+        run: |
+          if git diff --quiet -- data/board.json; then
+            echo "tahta degismedi, commit yok"
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/board.json
+          git commit -m "chore: tahta guncellendi (otomatik tarama)"
+          git push
