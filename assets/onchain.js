@@ -49,7 +49,7 @@ function encodeAllowance(owner, spender) {
   return '0xdd62ed3e' + encodeAddress(owner) + encodeAddress(spender);
 }
 
-async function ethCall(to, data) {
+async function arcEthCall(to, data) {
   const res = await fetch('https://rpc.testnet.arc.io', {
     method: 'POST',
     headers: { 'content-type': 'application/json' },
@@ -109,7 +109,7 @@ async function refreshChainScore() {
   const scoreBox = document.getElementById('arcChainScore');
   if (!scoreBox || !window.S) return;
 
-  const hex = await ethCall(CONTRACT_ADDR, encodeGetScore(S.ca));
+  const hex = await arcEthCall(CONTRACT_ADDR, encodeGetScore(S.ca));
   if (!hex || hex === '0x') {
     scoreBox.innerHTML = '<span class="arc-no-score">' +
       (LANG === 'tr' ? 'Bu token için zincirde kayıtlı skor yok.' : 'No on-chain score recorded for this token.') +
@@ -184,7 +184,7 @@ async function saveScoreOnChain() {
     await switchToArc();
 
     // allowance kontrolü
-    const allowHex = await ethCall(USDC_ADDR, encodeAllowance(walletAddr, CONTRACT_ADDR));
+    const allowHex = await arcEthCall(USDC_ADDR, encodeAllowance(walletAddr, CONTRACT_ADDR));
     const allowance = allowHex ? BigInt('0x' + allowHex.replace('0x', '').padStart(64, '0').slice(-64)) : 0n;
 
     if (allowance < FEE_RAW) {
