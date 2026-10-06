@@ -468,3 +468,88 @@ footer a:hover{text-decoration:underline}
   .go{width:100%}
   .search{padding:13px}
 }
+
+/* ============ ARC ONCHAIN BLOĞU ============ */
+.arc-block{
+  border:3px solid var(--black);
+  border-radius:var(--r);
+  background:var(--ink-2);
+  padding:24px;
+  margin:28px 0;
+  box-shadow:var(--shadow);
+}
+.arc-header{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  font-family:'Bricolage Grotesque',sans-serif;
+  font-weight:800;
+  font-size:15px;
+  color:var(--cream);
+  margin-bottom:14px;
+}
+.arc-logo{font-size:22px}
+.arc-header span:nth-child(2){flex:1}
+.arc-wallet-btn{
+  font-size:13px;
+  padding:6px 14px;
+  border:2px solid var(--black);
+  background:var(--ink-3);
+  color:var(--cream);
+  border-radius:999px;
+  cursor:pointer;
+  transition:background .15s;
+}
+.arc-wallet-btn:hover{background:var(--violet);color:#fff}
+.arc-wallet-btn.connected{background:var(--lime);color:var(--black)}
+.arc-status{
+  font-size:13px;
+  color:rgba(255,246,233,.6);
+  margin-bottom:16px;
+  line-height:1.5;
+}
+.arc-chain-score{margin-bottom:16px;min-height:10px}
+.arc-score-card{
+  border:2px solid var(--black);
+  border-radius:14px;
+  background:var(--ink-3);
+  padding:16px 20px;
+}
+.arc-score-title{
+  font-size:12px;
+  font-weight:700;
+  color:rgba(255,246,233,.5);
+  text-transform:uppercase;
+  letter-spacing:.08em;
+  margin-bottom:8px;
+}
+.arc-score-num{
+  font-family:'Bricolage Grotesque',sans-serif;
+  font-weight:800;
+  font-size:48px;
+  color:var(--cyan);
+  line-height:1;
+  margin-bottom:8px;
+}
+.arc-score-num span{font-size:22px;opacity:.6;margin-left:4px}
+.arc-score-bars{display:flex;gap:5px;flex-wrap:wrap;margin-bottom:10px}
+.arc-score-meta{font-size:12px;color:rgba(255,246,233,.5)}
+.arc-score-meta a{color:var(--cyan);text-decoration:none}
+.arc-no-score{font-size:13px;color:rgba(255,246,233,.35);font-style:italic}
+.arc-save-btn{
+  width:100%;
+  padding:14px 24px;
+  border:3px solid var(--black);
+  border-radius:14px;
+  background:var(--cyan);
+  color:var(--black);
+  font-family:'Bricolage Grotesque',sans-serif;
+  font-weight:800;
+  font-size:15px;
+  cursor:pointer;
+  box-shadow:var(--shadow-sm);
+  transition:transform .1s, box-shadow .1s;
+}
+.arc-save-btn:hover{transform:translate(-2px,-2px);box-shadow:10px 10px 0 var(--black)}
+.arc-save-btn:active{transform:translate(2px,2px);box-shadow:3px 3px 0 var(--black)}
+.arc-save-btn:disabled{background:var(--ink-3);color:rgba(255,246,233,.4);cursor:not-allowed;transform:none;box-shadow:var(--shadow-sm)}
