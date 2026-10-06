@@ -3,6 +3,8 @@ name: Tahta taramasi
 on:
   schedule:
     - cron: '17 */6 * * *'      # 6 saatte bir
+  push:
+    branches: [main]            # her push'ta da calis (workflow aktif kalsin)
   workflow_dispatch:            # elle de tetiklenebilir
     inputs:
       limit:
