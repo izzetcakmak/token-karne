@@ -909,8 +909,8 @@ function render() {
   renderToken();
   renderChains();
   renderVerdict();
-  renderQuestions();
   renderFlags();
+  renderQuestions();
   renderHistory();
 }
 

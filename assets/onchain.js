@@ -285,26 +285,19 @@ function injectArcUI() {
 /* ---- boot ---- */
 document.addEventListener('DOMContentLoaded', function () {
 
-  // #result görünür hale gelince ve CA değişince Arc bloğunu göster
-  let lastResultHidden = true;
-  let lastQgridCount = 0;
+  // #flags dolduğunda (render() sonrası) Arc bloğunu göster
+  let lastFlagsHtml = '';
   setInterval(function () {
     const resultEl = document.getElementById('result');
-    if (!resultEl) return;
-    const nowHidden = resultEl.hidden;
-    const qgrid = document.getElementById('qgrid');
-    const nowCount = qgrid ? qgrid.children.length : 0;
-
-    // Sonuç yeni göründüyse veya içerik değiştiyse (yeni token)
-    if ((!nowHidden && lastResultHidden) || (!nowHidden && nowCount !== lastQgridCount)) {
-      lastResultHidden = nowHidden;
-      lastQgridCount = nowCount;
+    if (!resultEl || resultEl.hidden) return;
+    const flagsEl = document.getElementById('flags');
+    const nowHtml = flagsEl ? flagsEl.innerHTML : '';
+    if (nowHtml && nowHtml !== lastFlagsHtml) {
+      lastFlagsHtml = nowHtml;
       const box = document.getElementById('arcBlock');
       if (box) box.innerHTML = ''; // yeniden oluştur
       injectArcUI();
     }
-    lastResultHidden = nowHidden;
-    lastQgridCount = nowCount;
   }, 400);
 
   // Zaten bağlı cüzdan varsa al
