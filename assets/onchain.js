@@ -1,6 +1,6 @@
 /* =============================================================
    TOKEN KARNESİ — Arc Testnet onchain entegrasyonu
-   Contract: 0x65ab5145236b7a34377ae700d4de8b2aac6d2bdd (Arc Testnet)
+   Contract: 0x1115a8e4b230321dde500cb73762941862e885e4 (Arc Testnet)
    USDC (Arc Testnet): 0x3600000000000000000000000000000000000000
    Fee: 0.10 USDC per query (100_000 — 6 decimals)
    ============================================================= */
@@ -13,7 +13,7 @@ var ARC_TESTNET = {
   blockExplorerUrls: ['https://explorer.testnet.arc.io']
 };
 
-var CONTRACT_ADDR = '0x65ab5145236b7a34377ae700d4de8b2aac6d2bdd';
+var CONTRACT_ADDR = '0x1115a8e4b230321dde500cb73762941862e885e4';
 var USDC_ADDR     = '0x3600000000000000000000000000000000000000';
 var FEE_RAW       = BigInt('100000'); // 0.10 USDC (6 desimal)
 
