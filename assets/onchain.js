@@ -44,6 +44,16 @@ function arcEncodeAllowance(owner, spender) {
 function arcEncodeFee() { return '0xddca3f43'; }
 
 async function arcEthCall(to, data) {
+  // Cüzdan bağlıysa provider üzerinden çağır (CORS yok)
+  if (window.ethereum) {
+    try {
+      return await window.ethereum.request({
+        method: 'eth_call',
+        params: [{ to: to, data: data }, 'latest']
+      });
+    } catch(e) { /* fallback */ }
+  }
+  // Fallback: doğrudan RPC (sadece cüzdan yoksa)
   var res = await fetch('https://rpc.testnet.arc.io', {
     method: 'POST',
     headers: { 'content-type': 'application/json' },
@@ -53,18 +63,16 @@ async function arcEthCall(to, data) {
   return j.result || null;
 }
 
-/* tx onaylanana kadar bekle */
+/* tx onaylanana kadar bekle — MetaMask provider üzerinden (CORS yok) */
 async function arcWaitForTx(txHash, maxMs) {
   maxMs = maxMs || 60000;
   var start = Date.now();
   while (Date.now() - start < maxMs) {
-    var res = await fetch('https://rpc.testnet.arc.io', {
-      method: 'POST',
-      headers: { 'content-type': 'application/json' },
-      body: JSON.stringify({ jsonrpc: '2.0', id: 1, method: 'eth_getTransactionReceipt', params: [txHash] })
+    var receipt = await window.ethereum.request({
+      method: 'eth_getTransactionReceipt',
+      params: [txHash]
     });
-    var j = await res.json();
-    if (j.result && j.result.status) return j.result;
+    if (receipt && receipt.status) return receipt;
     await new Promise(function(r) { setTimeout(r, 1500); });
   }
   throw new Error('Tx timeout');
