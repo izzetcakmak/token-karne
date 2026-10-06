@@ -553,3 +553,20 @@ footer a:hover{text-decoration:underline}
 .arc-save-btn:hover{transform:translate(-2px,-2px);box-shadow:10px 10px 0 var(--black)}
 .arc-save-btn:active{transform:translate(2px,2px);box-shadow:3px 3px 0 var(--black)}
 .arc-save-btn:disabled{background:var(--ink-3);color:rgba(255,246,233,.4);cursor:not-allowed;transform:none;box-shadow:var(--shadow-sm)}
+
+/* ---- Ödeme Modalı ---- */
+.arc-modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:9999;display:flex;align-items:center;justify-content:center;padding:1rem}
+.arc-modal{background:var(--paper);border:3px solid var(--black);box-shadow:8px 8px 0 var(--black);border-radius:4px;width:100%;max-width:480px;overflow:hidden}
+.arc-modal-header{display:flex;align-items:center;justify-content:space-between;padding:.75rem 1rem;border-bottom:2px solid var(--black);font-weight:700;font-size:1rem}
+.arc-modal-close{background:none;border:none;cursor:pointer;font-size:1.2rem;line-height:1;padding:.2rem .4rem}
+.arc-modal-close:hover{background:var(--ink-3);border-radius:3px}
+.arc-modal-body{padding:1.25rem 1rem}
+.arc-modal-body p{margin:0 0 .75rem;line-height:1.5;font-size:.95rem}
+.arc-modal-ca{font-family:monospace;font-size:.8rem;background:var(--ink-3);padding:.4rem .6rem;border-radius:3px;word-break:break-all;margin-bottom:.75rem}
+.arc-pay-status{font-size:.88rem;color:var(--ink-2);min-height:1.2em;margin-top:.5rem}
+.arc-pay-status.err{color:#c0392b}
+.arc-modal-footer{padding:.75rem 1rem;border-top:2px solid var(--black)}
+.arc-pay-btn{width:100%;padding:.8rem;background:#f5c842;border:2px solid var(--black);box-shadow:4px 4px 0 var(--black);border-radius:3px;font-weight:700;font-size:1rem;cursor:pointer;transition:transform .1s,box-shadow .1s}
+.arc-pay-btn:hover{transform:translate(-2px,-2px);box-shadow:6px 6px 0 var(--black)}
+.arc-pay-btn:active{transform:translate(2px,2px);box-shadow:2px 2px 0 var(--black)}
+.arc-pay-btn:disabled{background:var(--ink-3);cursor:not-allowed;transform:none;box-shadow:4px 4px 0 var(--black)}
