@@ -48,10 +48,10 @@ overrides are remembered per token in `localStorage`.
 
 ## The Board (automated scan)
 
-A GitHub Actions job (`scripts/scan.js`) runs every 6 hours, pulls DexScreener's boosted and
+A GitHub Actions job (`scripts/scan.js`) runs every 10 minutes, pulls DexScreener's boosted and
 newly profiled tokens and scores them **with the site's own engine**; whatever clears the bar is
 written to `data/board.json` and rendered on the home page. No backend: the job commits to the
-repo and Pages serves the file.
+repo and Vercel redeploys the site on every commit.
 
 The engine has a single source — the same `analyze()` the browser uses is executed under Node,
 so a score on the board matches the scorecard you get when you click through.
