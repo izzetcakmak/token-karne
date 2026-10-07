@@ -221,23 +221,34 @@ async function connectAndLoadBalance(state) {
     if (!accounts || !accounts[0]) throw new Error('Hesap bulunamadı');
     state.walletAddr = accounts[0];
 
-    // Arc Testnet'e geç
+    // Arc Testnet'e geç — önce ekle (zaten varsa hata yemeyiz), sonra geç
+    var arcChainParams = {
+      chainId: ARC_TESTNET_CHAIN_ID,
+      chainName: 'Arc Testnet',
+      rpcUrls: ['https://rpc.testnet.arc.network'],
+      nativeCurrency: { name: 'USDC', symbol: 'USDC', decimals: 18 },
+      blockExplorerUrls: ['https://explorer.testnet.arc.io'],
+    };
+    try {
+      // Önce eklemeyi dene — zaten ekliyse sessizce geçer
+      await window.ethereum.request({
+        method: 'wallet_addEthereumChain',
+        params: [arcChainParams],
+      });
+    } catch (addErr) {
+      // Zaten ekli veya kullanıcı reddetti — devam et
+    }
     try {
       await window.ethereum.request({
         method: 'wallet_switchEthereumChain',
         params: [{ chainId: ARC_TESTNET_CHAIN_ID }],
       });
     } catch (swErr) {
-      if (swErr.code === 4902) {
+      // Son çare: tekrar ekle+geç
+      if (swErr.code === 4902 || (swErr.message && swErr.message.toLowerCase().includes('unrecognized'))) {
         await window.ethereum.request({
           method: 'wallet_addEthereumChain',
-          params: [{
-            chainId: ARC_TESTNET_CHAIN_ID,
-            chainName: 'Arc Testnet',
-            rpcUrls: [ARC_RPC],
-            nativeCurrency: { name: 'USDC', symbol: 'USDC', decimals: 18 },
-            blockExplorerUrls: ['https://explorer.testnet.arc.io'],
-          }],
+          params: [arcChainParams],
         });
       } else { throw swErr; }
     }
