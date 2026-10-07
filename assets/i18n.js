@@ -182,7 +182,7 @@ const I18N = {
     'q.sub': 'Do not like an auto answer? Tap it and flip it — the score updates instantly.',
     'hist.title': 'Recently checked',
     'board.title': 'THE BOARD',
-    'board.sub': 'The site scans freshly launched tokens on its own every 6 hours; whatever scores {n} or above lands here. Last scan {t} ago, {s} tokens checked.',
+    'board.sub': 'The site scans freshly launched tokens on its own every 10 minutes; whatever scores {n} or above lands here. Last scan {t} ago, {s} tokens checked.',
     'board.empty': 'Nothing cleared the {n}-point bar this round. That is normal — the bar does not drop just to fill the list.',
     'board.foot': 'This is not a recommendation list, it is the output of an automated scan. Scores reflect the data at scan time; click through and run a fresh scorecard before acting. No scan can answer question 12 (the story) for you.',
     'how.eyebrow': 'The cheat sheet',
