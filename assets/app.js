@@ -1143,26 +1143,52 @@ let BOARD = null;
    2) repodaki guncel hali (GitHub Actions taramayi oraya commit ediyor)
    Ikincisi sayesinde tarama sonucu, site yeniden deploy edilmeyi beklemeden gorunur. */
 const BOARD_RAW = 'https://raw.githubusercontent.com/izzetcakmak/token-karne/main/data/board.json';
+let boardBusy = false;
 async function loadBoard() {
-  const bust = '?t=' + Math.floor(Date.now() / 3e5);   /* 5 dakikalik onbellek kirici */
-  const [localR, rawR] = await Promise.allSettled([
-    jget('data/board.json' + bust, 10000),
-    jget(BOARD_RAW + bust, 8000)
-  ]);
-  const ok = r => (r.status === 'fulfilled' && r.value && Array.isArray(r.value.items)) ? r.value : null;
-  const local = ok(localR), raw = ok(rawR);
-  BOARD = (raw && local) ? ((raw.updatedAt || 0) > (local.updatedAt || 0) ? raw : local) : (raw || local);
-  renderBoard();
+  if (boardBusy) return;
+  boardBusy = true;
+  try {
+    const bust = '?t=' + Date.now();   /* her istekte taze: tarayici onbellegine takilmasin */
+    const [localR, rawR] = await Promise.allSettled([
+      jget('data/board.json' + bust, 10000),
+      jget(BOARD_RAW + bust, 8000)
+    ]);
+    const ok = r => (r.status === 'fulfilled' && r.value && Array.isArray(r.value.items)) ? r.value : null;
+    const local = ok(localR), raw = ok(rawR);
+    const next = (raw && local) ? ((raw.updatedAt || 0) > (local.updatedAt || 0) ? raw : local) : (raw || local);
+    if (!next) { if (!BOARD) renderBoard(); return; }
+    const prevAt = BOARD ? (BOARD.updatedAt || 0) : null;
+    if (prevAt !== null && (next.updatedAt || 0) <= prevAt) { renderBoardSub(); return; }  /* veri ayni: sadece saati tazele */
+    BOARD = next;
+    renderBoard();
+    if (prevAt !== null) toast(T('board.fresh'));   /* sayfa acikken yeni tarama geldi */
+  } finally { boardBusy = false; }
 }
+
+/* Tahta sayfa acikken kendi kendine yenilensin — F5 gerekmesin.
+   30 sn'de bir "X dk once" metni, 60 sn'de bir veri; sekme gorunmuyorken bekler,
+   geri gelince hemen bakar. */
+function startBoardAutoRefresh() {
+  setInterval(renderBoardSub, 30e3);
+  setInterval(() => { if (!document.hidden) loadBoard(); }, 60e3);
+  document.addEventListener('visibilitychange', () => { if (!document.hidden) loadBoard(); });
+}
+
+function renderBoardSub() {
+  const el = $('#boardSub'); if (!el || !BOARD) return;
+  const age = BOARD.updatedAt ? ago(Date.now() - BOARD.updatedAt) : '—';
+  const loc = LANG === 'tr' ? 'tr-TR' : 'en-US';
+  const scanTime = BOARD.updatedAt ? new Date(BOARD.updatedAt).toLocaleTimeString(loc, { hour: '2-digit', minute: '2-digit' }) : '';
+  const scanDate = BOARD.updatedAt ? new Date(BOARD.updatedAt).toLocaleDateString(loc, { day: '2-digit', month: '2-digit' }) : '';
+  const timeStr = scanTime ? ' (' + scanDate + ' ' + scanTime + ')' : '';
+  el.textContent = T('board.sub', { n: BOARD.threshold || 9, t: age + timeStr, s: nf(BOARD.scanned || 0) });
+}
+
 function renderBoard() {
   const sec = $('#board'); if (!sec) return;
   if (!BOARD || !Array.isArray(BOARD.items)) { sec.hidden = true; return; }
   sec.hidden = false;
-  const age = BOARD.updatedAt ? ago(Date.now() - BOARD.updatedAt) : '—';
-  const scanTime = BOARD.updatedAt ? new Date(BOARD.updatedAt).toLocaleTimeString(LANG === 'tr' ? 'tr-TR' : 'en-US', { hour: '2-digit', minute: '2-digit' }) : '';
-  const scanDate = BOARD.updatedAt ? new Date(BOARD.updatedAt).toLocaleDateString(LANG === 'tr' ? 'tr-TR' : 'en-US', { day: '2-digit', month: '2-digit' }) : '';
-  const timeStr = scanTime ? ' (' + scanDate + ' ' + scanTime + ')' : '';
-  $('#boardSub').textContent = T('board.sub', { n: BOARD.threshold || 9, t: age + timeStr, s: nf(BOARD.scanned || 0) });
+  renderBoardSub();
 
   if (!BOARD.items.length) {
     $('#boardList').innerHTML = '<div class="board-empty">' + T('board.empty', { n: BOARD.threshold || 9 }) + '</div>';
@@ -1357,6 +1383,7 @@ function boot() {
   applyLang();
   renderHistory();
   loadBoard();
+  startBoardAutoRefresh();
 
   $('#go').onclick = () => run($('#ca').value);
   $('#ca').addEventListener('keydown', e => { if (e.key === 'Enter') run($('#ca').value); });
