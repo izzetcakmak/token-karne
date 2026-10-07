@@ -1159,7 +1159,10 @@ function renderBoard() {
   if (!BOARD || !Array.isArray(BOARD.items)) { sec.hidden = true; return; }
   sec.hidden = false;
   const age = BOARD.updatedAt ? ago(Date.now() - BOARD.updatedAt) : '—';
-  $('#boardSub').textContent = T('board.sub', { n: BOARD.threshold || 9, t: age, s: nf(BOARD.scanned || 0) });
+  const scanTime = BOARD.updatedAt ? new Date(BOARD.updatedAt).toLocaleTimeString(LANG === 'tr' ? 'tr-TR' : 'en-US', { hour: '2-digit', minute: '2-digit' }) : '';
+  const scanDate = BOARD.updatedAt ? new Date(BOARD.updatedAt).toLocaleDateString(LANG === 'tr' ? 'tr-TR' : 'en-US', { day: '2-digit', month: '2-digit' }) : '';
+  const timeStr = scanTime ? ' (' + scanDate + ' ' + scanTime + ')' : '';
+  $('#boardSub').textContent = T('board.sub', { n: BOARD.threshold || 9, t: age + timeStr, s: nf(BOARD.scanned || 0) });
 
   if (!BOARD.items.length) {
     $('#boardList').innerHTML = '<div class="board-empty">' + T('board.empty', { n: BOARD.threshold || 9 }) + '</div>';
