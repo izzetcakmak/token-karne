@@ -1161,13 +1161,21 @@ async function loadBoard() {
     ]);
     const ok = r => (r.status === 'fulfilled' && r.value && Array.isArray(r.value.items)) ? r.value : null;
     const local = ok(localR), raw = ok(rawR);
-    const next = (raw && local) ? ((raw.updatedAt || 0) > (local.updatedAt || 0) ? raw : local) : (raw || local);
+    /* Once dolu olan, sonra yeni olan: kaynak kesintisinde bir taraf bos bir
+       tahta tasiyabilir; bos ama "daha yeni" diye onu secmek listeyi siler. */
+    const rank = b => (b.items.length ? 1e15 : 0) + (b.updatedAt || 0);
+    const next = (raw && local) ? (rank(raw) >= rank(local) ? raw : local) : (raw || local);
     if (!next) { if (!BOARD) renderBoard(); return; }
+    /* "degisti mi" anahtari: tarama zamani + bayatlik durumu + son deneme.
+       Kaynak kesintisinde tarama zamani ayni kalir ama bayat uyarisi degisir;
+       o yuzden sadece updatedAt'e bakmak yetmez. */
+    const key = b => (b.updatedAt || 0) + '|' + (b.stale ? 1 : 0) + '|' + (b.lastAttemptAt || 0);
     const prevAt = BOARD ? (BOARD.updatedAt || 0) : null;
-    if (prevAt !== null && (next.updatedAt || 0) <= prevAt) { renderBoardSub(); return; }  /* veri ayni: sadece saati tazele */
+    if (BOARD && key(next) === key(BOARD)) { renderBoardSub(); return; }  /* veri ayni: sadece saati tazele */
+    const newerScan = prevAt !== null && (next.updatedAt || 0) > prevAt;
     BOARD = next;
     renderBoard();
-    if (prevAt !== null) toast(T('board.fresh'));   /* sayfa acikken yeni tarama geldi */
+    if (newerScan) toast(T('board.fresh'));   /* sayfa acikken yeni tarama geldi */
   } finally { boardBusy = false; }
 }
 
@@ -1196,8 +1204,15 @@ function renderBoard() {
   sec.hidden = false;
   renderBoardSub();
 
+  /* Kaynak cevap vermedigi icin korunmus eski liste: once uyari, sonra liste */
+  const staleNote = BOARD.stale
+    ? '<div class="board-empty board-stale">⚠️ ' + T('board.stale', {
+        t: BOARD.lastAttemptAt ? ago(Date.now() - BOARD.lastAttemptAt) : '—',
+        s: BOARD.updatedAt ? ago(Date.now() - BOARD.updatedAt) : '—'
+      }) + '</div>'
+    : '';
   if (!BOARD.items.length) {
-    $('#boardList').innerHTML = '<div class="board-empty">' + T('board.empty', { n: BOARD.threshold || 9 }) + '</div>';
+    $('#boardList').innerHTML = staleNote + '<div class="board-empty">' + T('board.empty', { n: BOARD.threshold || 9 }) + '</div>';
     return;
   }
   const rows = BOARD.items.map((it, i) => {
@@ -1217,7 +1232,7 @@ function renderBoard() {
         st(T('s.age'), it.createdAt ? ago(Date.now() - it.createdAt) : '—') +
       '</span></a>';
   }).join('');
-  $('#boardList').innerHTML = '<div class="board-list">' + rows + '</div>' +
+  $('#boardList').innerHTML = staleNote + '<div class="board-list">' + rows + '</div>' +
     '<div class="board-foot">' + T('board.foot') + '</div>';
 }
 

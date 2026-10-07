@@ -370,6 +370,7 @@ a.src:hover{background:var(--cyan);color:var(--black)}
   padding:18px;box-shadow:var(--shadow-sm);font-weight:700;line-height:1.55;
 }
 .board-foot{margin-top:12px;font-size:12px;opacity:.65;line-height:1.6}
+.board-stale{background:var(--yellow);color:var(--black);margin-bottom:12px;font-size:13.5px}
 @media(max-width:640px){
   .brow .bstats{margin-left:0;width:100%}
   .brow .bsym{min-width:auto}
