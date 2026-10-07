@@ -21,7 +21,7 @@ const I18N = {
   tr: {
     'nav.how': 'Nasıl çalışır',
     'hero.eyebrow': '12 soru · 12 puan · sıfır duygu',
-    'hero.lead': 'Bir kontrat adresi yapıştır. Likidite, mint/freeze yetkisi, holder dağılımı, dev geçmişi ve hacim tek ekranda toplansın. Sonunda tek bir cevap: <b>büyük gir, normal gir, küçük gir ya da geç.</b>',
+    'hero.lead': 'Bir kontrat adresi yapıştır. Likidite, mint/freeze yetkisi, holder dağılımı, dev geçmişi ve hacim tek ekranda toplansın.',
     'hero.cta': 'KARNEYİ ÇIKAR',
     'hero.try': 'Denemelik:',
     'hero.ph': '0x... veya Solana mint adresi',
@@ -174,7 +174,7 @@ const I18N = {
   en: {
     'nav.how': 'How it works',
     'hero.eyebrow': '12 questions · 12 points · zero emotion',
-    'hero.lead': 'Paste a contract address. Liquidity, mint/freeze authority, holder spread, dev history and volume — all on one screen. One answer at the end: <b>size up, size normal, size small, or skip.</b>',
+    'hero.lead': 'Paste a contract address. Liquidity, mint/freeze authority, holder spread, dev history and volume — all on one screen.',
     'hero.cta': 'RUN THE SCORECARD',
     'hero.try': 'Try one:',
     'hero.ph': '0x... or a Solana mint address',
