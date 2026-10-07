@@ -962,7 +962,7 @@ function renderToken() {
       '<div class="ca-line"><span>' + esc(ca) + '</span><button class="copy" id="copyCa">COPY</button></div>' +
     '</div>';
   $('#copyCa').onclick = () => { navigator.clipboard.writeText(ca); toast(T('toast.copy')); };
-  $('#tcBuyBtn').onclick = () => { if (typeof arcOpenBuy === 'function') arcOpenBuy(ca, chain, D.sym, buyUrl); };
+  $('#tcBuyBtn').onclick = () => { if (typeof arcOpenBuyModal === 'function') arcOpenBuyModal(ca, D.sym, chain, ca); };
 }
 const l = (href, txt) => '<a class="lnk" href="' + esc(href) + '" target="_blank" rel="noopener">' + txt + '</a>';
 const stat = (k, v) => '<div class="stat"><div class="k">' + k + '</div><div class="v">' + v + '</div></div>';
@@ -1047,7 +1047,7 @@ function renderVerdict() {
       '</div>' +
     '</div>';
 
-  $('#verdictBuyBtn').onclick = () => { if (typeof arcOpenBuy === 'function') arcOpenBuy(S.ca, S.chain, S.D.sym, S.D.best ? S.D.best.url : null); };
+  $('#verdictBuyBtn').onclick = () => { if (typeof arcOpenBuyModal === 'function') arcOpenBuyModal(S.ca, S.D.sym, S.chain, S.ca); };
   $('#shareX').onclick = shareX;
   $('#dlPng').onclick = downloadPng;
   $('#cpLink').onclick = () => { navigator.clipboard.writeText(shareUrl()); toast(T('toast.copy')); };
