@@ -940,13 +940,16 @@ function renderToken() {
   if (D.website) links.push(l(D.website, '🌐 ' + (LANG === 'tr' ? 'Site' : 'Website')));
   links.push(l(explorerUrl(chain, ca), '🔎 Explorer'));
 
+  const buyUrl = D.best ? D.best.url : null;
+  const buyBtn = '<button class="buy-btn" id="tcBuyBtn">💸 ' + (LANG === 'tr' ? 'AL' : 'BUY') + '</button>';
+
   $('#tokencard').innerHTML =
     '<div class="tokencard">' +
       '<div class="tc-top">' + logo +
         '<div class="tc-id"><div class="tc-sym">' + esc(D.sym) + '</div>' +
           '<div class="tc-name">' + esc(D.name) + '</div>' +
           '<div class="tc-badges">' + badges.join('') + '</div></div>' +
-        '<div class="tc-price"><div class="p">' + price(D.price) + '</div>' + chg + '</div>' +
+        '<div class="tc-price"><div class="p">' + price(D.price) + '</div>' + chg + buyBtn + '</div>' +
       '</div>' +
       '<div class="tc-stats">' +
         stat(T('s.liq'), usd(D.liq)) + stat(T('s.vol'), usd(D.vol)) +
@@ -959,6 +962,7 @@ function renderToken() {
       '<div class="ca-line"><span>' + esc(ca) + '</span><button class="copy" id="copyCa">COPY</button></div>' +
     '</div>';
   $('#copyCa').onclick = () => { navigator.clipboard.writeText(ca); toast(T('toast.copy')); };
+  $('#tcBuyBtn').onclick = () => { if (typeof arcOpenBuy === 'function') arcOpenBuy(ca, chain, D.sym, buyUrl); };
 }
 const l = (href, txt) => '<a class="lnk" href="' + esc(href) + '" target="_blank" rel="noopener">' + txt + '</a>';
 const stat = (k, v) => '<div class="stat"><div class="k">' + k + '</div><div class="v">' + v + '</div></div>';
@@ -1034,6 +1038,7 @@ function renderVerdict() {
         '<div class="v-bars">' + bars.join('') + '</div>' +
         '<div class="v-advice">' + T('v.' + V.key + '.a') + '</div>' + todo +
         '<div class="v-actions">' +
+          '<button class="act buy" id="verdictBuyBtn">💸 ' + (LANG === 'tr' ? 'AL' : 'BUY') + '</button>' +
           '<button class="act x" id="shareX">𝕏 ' + T('act.x') + '</button>' +
           '<button class="act png" id="dlPng">⬇️ ' + T('act.png') + '</button>' +
           '<button class="act link" id="cpLink">🔗 ' + T('act.link') + '</button>' +
@@ -1042,6 +1047,7 @@ function renderVerdict() {
       '</div>' +
     '</div>';
 
+  $('#verdictBuyBtn').onclick = () => { if (typeof arcOpenBuy === 'function') arcOpenBuy(S.ca, S.chain, S.D.sym, S.D.best ? S.D.best.url : null); };
   $('#shareX').onclick = shareX;
   $('#dlPng').onclick = downloadPng;
   $('#cpLink').onclick = () => { navigator.clipboard.writeText(shareUrl()); toast(T('toast.copy')); };

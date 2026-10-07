@@ -333,3 +333,88 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 });
+
+/* ============================================================
+   arcOpenBuy — AL butonu
+   Arc zinciri → swap modal (yakında)
+   Diğer zincirler → DexScreener buy linki
+   ============================================================ */
+function arcOpenBuy(ca, chain, sym, dexUrl) {
+  var tr = (typeof LANG !== 'undefined' && LANG === 'tr');
+  var isArc = (chain === 'arc' || chain === 'arc-testnet' || chain === 'arc_testnet');
+
+  if (isArc) {
+    // Arc swap modal — cüzdan bağlı değilse önce bağla
+    arcShowSwapModal(ca, sym);
+  } else {
+    // Diğer zincirler: DexScreener buy linkine yönlendir
+    var url = dexUrl || ('https://dexscreener.com/search?q=' + encodeURIComponent(ca));
+    window.open(url, '_blank', 'noopener');
+  }
+}
+
+/* Arc swap modal */
+function arcShowSwapModal(ca, sym) {
+  var tr = (typeof LANG !== 'undefined' && LANG === 'tr');
+  var existing = document.getElementById('arcSwapModal');
+  if (existing) existing.remove();
+
+  var modal = document.createElement('div');
+  modal.id = 'arcSwapModal';
+  modal.className = 'arc-modal-overlay';
+  modal.innerHTML =
+    '<div class="arc-modal">' +
+      '<div class="arc-modal-header">' +
+        '<span>⛓️ ' + (tr ? 'Arc\'ta Satın Al' : 'Buy on Arc') + '</span>' +
+        '<button class="arc-modal-close" id="arcSwapClose">✕</button>' +
+      '</div>' +
+      '<div class="arc-modal-body">' +
+        '<p>' + (tr
+          ? 'Arc Testnet üzerinde <b>' + esc2(sym) + '</b> satın almak için cüzdanını bağla ve USDC ile işlem yap.'
+          : 'Connect your wallet to buy <b>' + esc2(sym) + '</b> on Arc Testnet using USDC.') + '</p>' +
+        '<div class="arc-modal-ca">' + esc2(ca) + '</div>' +
+        '<div id="arcSwapStatus" class="arc-pay-status"></div>' +
+      '</div>' +
+      '<div class="arc-modal-footer" style="display:flex;gap:.5rem;flex-wrap:wrap">' +
+        '<button class="arc-pay-btn" id="arcSwapConnectBtn" style="flex:1">' +
+          (tr ? '🦊 Cüzdan Bağla' : '🦊 Connect Wallet') +
+        '</button>' +
+        '<a class="arc-pay-btn" id="arcSwapDexBtn" href="https://dexscreener.com/search?q=' + encodeURIComponent(ca) + '" target="_blank" rel="noopener" style="flex:1;text-align:center;text-decoration:none;display:block">' +
+          '📈 DexScreener' +
+        '</a>' +
+      '</div>' +
+    '</div>';
+
+  document.body.appendChild(modal);
+
+  document.getElementById('arcSwapClose').onclick = function() { modal.remove(); };
+  modal.addEventListener('click', function(e) { if (e.target === modal) modal.remove(); });
+
+  var connectBtn = document.getElementById('arcSwapConnectBtn');
+  var statusEl = document.getElementById('arcSwapStatus');
+
+  // Zaten bağlıysa düğmeyi güncelle
+  if (arcWalletAddr) {
+    connectBtn.textContent = arcWalletAddr.slice(0,6) + '…' + arcWalletAddr.slice(-4);
+    connectBtn.disabled = true;
+    statusEl.textContent = tr ? '✅ Cüzdan bağlı. Swap özelliği yakında!' : '✅ Wallet connected. Swap coming soon!';
+  }
+
+  connectBtn.onclick = async function() {
+    if (arcWalletAddr) return;
+    try {
+      var ok = await arcConnect();
+      if (ok) {
+        connectBtn.textContent = arcWalletAddr.slice(0,6) + '…' + arcWalletAddr.slice(-4);
+        connectBtn.disabled = true;
+        statusEl.textContent = tr ? '✅ Cüzdan bağlı. Swap özelliği yakında!' : '✅ Wallet connected. Swap coming soon!';
+      }
+    } catch(e) {
+      statusEl.textContent = tr ? 'Bağlantı başarısız.' : 'Connection failed.';
+    }
+  };
+}
+
+function esc2(s) {
+  return String(s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}

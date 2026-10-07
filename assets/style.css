@@ -570,3 +570,10 @@ footer a:hover{text-decoration:underline}
 .arc-pay-btn:hover{transform:translate(-2px,-2px);box-shadow:6px 6px 0 var(--black)}
 .arc-pay-btn:active{transform:translate(2px,2px);box-shadow:2px 2px 0 var(--black)}
 .arc-pay-btn:disabled{background:var(--ink-3);cursor:not-allowed;transform:none;box-shadow:4px 4px 0 var(--black)}
+
+/* ---- Buy butonu ---- */
+.buy-btn{background:#00c48c;color:#fff;border:2px solid var(--black);box-shadow:3px 3px 0 var(--black);border-radius:3px;padding:.3rem .75rem;font-weight:700;font-size:.85rem;cursor:pointer;transition:transform .1s,box-shadow .1s;white-space:nowrap}
+.buy-btn:hover{transform:translate(-1px,-1px);box-shadow:5px 5px 0 var(--black)}
+.buy-btn:active{transform:translate(1px,1px);box-shadow:1px 1px 0 var(--black)}
+.act.buy{background:#00c48c;color:#fff;border-color:var(--black)}
+.act.buy:hover{background:#00a876}
