@@ -1,5 +1,5 @@
 {
- "updatedAt": 1791386649967,
+ "updatedAt": 1791387081854,
  "threshold": 9,
  "scanned": 45,
  "items": [
@@ -25,10 +25,10 @@
     1,
     null
    ],
-   "liq": 238351,
-   "vol": 5859745,
-   "mcap": 6125095,
-   "holders": 4322,
+   "liq": 240019,
+   "vol": 5863724,
+   "mcap": 6210463,
+   "holders": 4465,
    "createdAt": 1791356563000,
    "handle": "everythingrwas",
    "launchpad": "Pump.Fun",
@@ -38,7 +38,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/fcfej9ujfnfcsiazgduesecmj2np6myxdm5h2jpfzbdc",
-   "scannedAt": 1791386559783
+   "scannedAt": 1791387004401
   },
   {
    "ca": "45VHsie7CwFfPKWCw28PCdZdJWMA5Y6k56wDam9Hpump",
@@ -62,10 +62,10 @@
     1,
     null
    ],
-   "liq": 146142,
-   "vol": 2923622,
-   "mcap": 2326286,
-   "holders": 7476,
+   "liq": 145382,
+   "vol": 2939941,
+   "mcap": 2301668,
+   "holders": 7481,
    "createdAt": 1791322572000,
    "handle": "Ferarrinu",
    "launchpad": "Pump.Fun",
@@ -75,7 +75,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/a2asuorcetj9kwkmzhf3pvsslgzrnmnghiqku8uegqmj",
-   "scannedAt": 1791386561624
+   "scannedAt": 1791387006325
   },
   {
    "ca": "ADPN2aqzY5RhkBC7bNQWFhTFFEYKY4drHUQG887Cpump",
@@ -99,10 +99,10 @@
     1,
     null
    ],
-   "liq": 122069,
-   "vol": 3313694,
-   "mcap": 1611587,
-   "holders": 12171,
+   "liq": 119302,
+   "vol": 3322477,
+   "mcap": 1540240,
+   "holders": 12160,
    "createdAt": 1791323794000,
    "handle": "playcatcraft",
    "launchpad": "Pump.Fun",
@@ -112,7 +112,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/7mqdgteiad4tkupg9hstypqnestntrauehh1zj1awp8x",
-   "scannedAt": 1791386563127
+   "scannedAt": 1791387007813
   },
   {
    "ca": "FAopSovS2WFJK5qEAmcuwAVH98CvmBwT6Lpq4EK2pump",
@@ -136,10 +136,10 @@
     1,
     null
    ],
-   "liq": 96056,
-   "vol": 4573511,
-   "mcap": 952905,
-   "holders": 4558,
+   "liq": 93029,
+   "vol": 4590666,
+   "mcap": 894468,
+   "holders": 4540,
    "createdAt": 1791312476000,
    "handle": "AIOPadX",
    "launchpad": "Pump.Fun",
@@ -149,7 +149,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/f2p22sfcg4gkja2upyqzef9bpw3rsec5q2wmvewuibl7",
-   "scannedAt": 1791386566725
+   "scannedAt": 1791387009293
   },
   {
    "ca": "0x7AB8d02CBb51Ff7223fDe700eAaa2a91Bf750314",
@@ -173,9 +173,9 @@
     0,
     null
    ],
-   "liq": 443545,
-   "vol": 193358,
-   "mcap": 6856200,
+   "liq": 443677,
+   "vol": 191996,
+   "mcap": 6859467,
    "holders": 6714,
    "createdAt": 1787522174000,
    "handle": "tartprotocol",
@@ -185,7 +185,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x30000a407fabebe29439f8e437050512ff6661be",
-   "scannedAt": 1791386573592
+   "scannedAt": 1791387011252
   },
   {
    "ca": "5GefefPX1mDs6ZJB1apYmz6fCTCiNJpHturZ9bvFpump",
@@ -209,9 +209,9 @@
     1,
     null
    ],
-   "liq": 97787,
-   "vol": 127445,
-   "mcap": 988990,
+   "liq": 97734,
+   "vol": 128415,
+   "mcap": 987972,
    "holders": 2682,
    "createdAt": 1788551378000,
    "handle": "Pumpoweenonpump",
@@ -222,7 +222,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/8nvfb1unnk9adtl5hoof8hahf2rt4glpwx9cteadikhg",
-   "scannedAt": 1791386564635
+   "scannedAt": 1791387013065
   },
   {
    "ca": "J9qzFhTLYnmf3tZYvHBaF96rH3YKToELAAVMzz66pump",
@@ -246,10 +246,10 @@
     1,
     null
    ],
-   "liq": 66444,
-   "vol": 4646481,
-   "mcap": 424211,
-   "holders": 13475,
+   "liq": 61919,
+   "vol": 4749377,
+   "mcap": 367814,
+   "holders": 13526,
    "createdAt": 1791315438000,
    "handle": "sndwitch_sol",
    "launchpad": "Pump.Fun",
@@ -259,7 +259,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/hu22ubatza7ajmkdjasyodhtffw6xvs6d9bsxlt9ugdb",
-   "scannedAt": 1791386570033
+   "scannedAt": 1791387014851
   },
   {
    "ca": "0x0D0B469508d9F30cd481D10D4cd695481ff503b9",
@@ -295,7 +295,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0xb2124c5c89cff74dc231a6468ebb8d30de627884",
-   "scannedAt": 1791386571987
+   "scannedAt": 1791387016586
   }
  ]
 }
