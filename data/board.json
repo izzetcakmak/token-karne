@@ -1,5 +1,5 @@
 {
- "updatedAt": 1791394051421,
+ "updatedAt": 1791394950615,
  "threshold": 9,
  "scanned": 45,
  "items": [
@@ -25,9 +25,9 @@
     1,
     null
    ],
-   "liq": 253853,
-   "vol": 519474,
-   "mcap": 5048921,
+   "liq": 254780,
+   "vol": 523359,
+   "mcap": 5089767,
    "holders": 14118,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -38,7 +38,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1791393980907
+   "scannedAt": 1791394882832
   },
   {
    "ca": "0x3783dCeFE8811c1293cC0C71cB57109845490e06",
@@ -62,9 +62,9 @@
     1,
     null
    ],
-   "liq": 229797,
-   "vol": 5553193,
-   "mcap": 8481672,
+   "liq": 233483,
+   "vol": 5920337,
+   "mcap": 8781987,
    "holders": 1732,
    "createdAt": 1791364601000,
    "handle": "baiagent",
@@ -74,7 +74,44 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0xcaa7aaabad69c42b102047cb9a6fe641446428ca",
-   "scannedAt": 1791393982345
+   "scannedAt": 1791394884275
+  },
+  {
+   "ca": "45VHsie7CwFfPKWCw28PCdZdJWMA5Y6k56wDam9Hpump",
+   "chain": "solana",
+   "sym": "RARINU",
+   "name": "Ferrari Inu",
+   "img": "https://cdn.dexscreener.com/cms/images/KXdS2YaVij7sqGJu?width=800&height=800&quality=95&format=auto",
+   "score": 10,
+   "unknown": 2,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    null,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 112600,
+   "vol": 3255444,
+   "mcap": 1376011,
+   "holders": 7881,
+   "createdAt": 1791322572000,
+   "handle": "Ferarrinu",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/a2asuorcetj9kwkmzhf3pvsslgzrnmnghiqku8uegqmj",
+   "scannedAt": 1791394891488
   },
   {
    "ca": "ADPN2aqzY5RhkBC7bNQWFhTFFEYKY4drHUQG887Cpump",
@@ -98,10 +135,10 @@
     1,
     null
    ],
-   "liq": 104124,
-   "vol": 3516481,
-   "mcap": 1166862,
-   "holders": 12084,
+   "liq": 104465,
+   "vol": 3621146,
+   "mcap": 1170528,
+   "holders": 12214,
    "createdAt": 1791323794000,
    "handle": "playcatcraft",
    "launchpad": "Pump.Fun",
@@ -111,44 +148,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/7mqdgteiad4tkupg9hstypqnestntrauehh1zj1awp8x",
-   "scannedAt": 1791393985448
-  },
-  {
-   "ca": "FAopSovS2WFJK5qEAmcuwAVH98CvmBwT6Lpq4EK2pump",
-   "chain": "solana",
-   "sym": "A1",
-   "name": "AIOPAD",
-   "img": "https://cdn.dexscreener.com/cms/images/SKAvObn4w9IqHNgi?width=800&height=800&quality=95&format=auto",
-   "score": 10,
-   "unknown": 2,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    null,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 54947,
-   "vol": 5108999,
-   "mcap": 312007,
-   "holders": 3967,
-   "createdAt": 1791312476000,
-   "handle": "AIOPadX",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/f2p22sfcg4gkja2upyqzef9bpw3rsec5q2wmvewuibl7",
-   "scannedAt": 1791393986873
+   "scannedAt": 1791394885691
   },
   {
    "ca": "0x7AB8d02CBb51Ff7223fDe700eAaa2a91Bf750314",
@@ -172,9 +172,9 @@
     0,
     null
    ],
-   "liq": 456948,
-   "vol": 182762,
-   "mcap": 7233169,
+   "liq": 457218,
+   "vol": 183560,
+   "mcap": 7252250,
    "holders": 6776,
    "createdAt": 1787522174000,
    "handle": "tartprotocol",
@@ -184,7 +184,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x30000a407fabebe29439f8e437050512ff6661be",
-   "scannedAt": 1791393988303
+   "scannedAt": 1791394888533
   },
   {
    "ca": "E6vtwCUtcNJdQEPGY8vWKahtu2sfwxQ4j68pUKm7pump",
@@ -208,10 +208,10 @@
     1,
     null
    ],
-   "liq": 243092,
-   "vol": 5920635,
-   "mcap": 6340111,
-   "holders": 5233,
+   "liq": 241847,
+   "vol": 5927787,
+   "mcap": 6280999,
+   "holders": 5235,
    "createdAt": 1791356563000,
    "handle": "everythingrwas",
    "launchpad": "Pump.Fun",
@@ -221,44 +221,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/fcfej9ujfnfcsiazgduesecmj2np6myxdm5h2jpfzbdc",
-   "scannedAt": 1791393989765
-  },
-  {
-   "ca": "45VHsie7CwFfPKWCw28PCdZdJWMA5Y6k56wDam9Hpump",
-   "chain": "solana",
-   "sym": "RARINU",
-   "name": "Ferrari Inu",
-   "img": "https://cdn.dexscreener.com/cms/images/KXdS2YaVij7sqGJu?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 2,
-   "answers": [
-    1,
-    0,
-    1,
-    1,
-    null,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 129392,
-   "vol": 3215798,
-   "mcap": 1809322,
-   "holders": 7867,
-   "createdAt": 1791322572000,
-   "handle": "Ferarrinu",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/a2asuorcetj9kwkmzhf3pvsslgzrnmnghiqku8uegqmj",
-   "scannedAt": 1791393984038
+   "scannedAt": 1791394890082
   },
   {
    "ca": "5GefefPX1mDs6ZJB1apYmz6fCTCiNJpHturZ9bvFpump",
@@ -282,9 +245,9 @@
     1,
     null
    ],
-   "liq": 97758,
-   "vol": 152769,
-   "mcap": 984026,
+   "liq": 93028,
+   "vol": 159693,
+   "mcap": 892677,
    "holders": 2682,
    "createdAt": 1788551378000,
    "handle": "Pumpoweenonpump",
@@ -295,7 +258,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/8nvfb1unnk9adtl5hoof8hahf2rt4glpwx9cteadikhg",
-   "scannedAt": 1791393991243
+   "scannedAt": 1791394892922
   },
   {
    "ca": "8erE7RkkoiGYJtCyQdfwMpnNA8cAkY14Xe6RYjjHAdKP",
@@ -319,9 +282,9 @@
     1,
     null
    ],
-   "liq": 66837,
-   "vol": 61012,
-   "mcap": 565514,
+   "liq": 66918,
+   "vol": 61075,
+   "mcap": 566848,
    "holders": 2301,
    "createdAt": 1790006001000,
    "handle": "catsol2026",
@@ -332,7 +295,81 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/7sy6brhdbkjdcyfrdd1m49hinsxrqk2bzs3rt6juanch",
-   "scannedAt": 1791393992659
+   "scannedAt": 1791394894327
+  },
+  {
+   "ca": "CioPfvQWpVF2eTzpBj72x2zPyqgJRgvi36PqdLCCpump",
+   "chain": "solana",
+   "sym": "TON618",
+   "name": "TON 618",
+   "img": "https://cdn.dexscreener.com/cms/images/oBqgX_Tr90YEXVgJ?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 2,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    null,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 61746,
+   "vol": 1180631,
+   "mcap": 388186,
+   "holders": 3344,
+   "createdAt": 1791313356000,
+   "handle": "ton618_si",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/34w9reb7ax8dsv3hizt28nxztkfwwttarw2nwcsxyqrx",
+   "scannedAt": 1791394900026
+  },
+  {
+   "ca": "FAopSovS2WFJK5qEAmcuwAVH98CvmBwT6Lpq4EK2pump",
+   "chain": "solana",
+   "sym": "A1",
+   "name": "AIOPAD",
+   "img": "https://cdn.dexscreener.com/cms/images/SKAvObn4w9IqHNgi?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 2,
+   "answers": [
+    1,
+    0,
+    1,
+    1,
+    null,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 57154,
+   "vol": 5131896,
+   "mcap": 336406,
+   "holders": 3949,
+   "createdAt": 1791312476000,
+   "handle": "AIOPadX",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/f2p22sfcg4gkja2upyqzef9bpw3rsec5q2wmvewuibl7",
+   "scannedAt": 1791394887126
   },
   {
    "ca": "J9qzFhTLYnmf3tZYvHBaF96rH3YKToELAAVMzz66pump",
@@ -356,10 +393,10 @@
     1,
     null
    ],
-   "liq": 55041,
-   "vol": 5283022,
-   "mcap": 281867,
-   "holders": 13453,
+   "liq": 54527,
+   "vol": 5317466,
+   "mcap": 276395,
+   "holders": 13489,
    "createdAt": 1791315438000,
    "handle": "sndwitch_sol",
    "launchpad": "Pump.Fun",
@@ -369,7 +406,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/hu22ubatza7ajmkdjasyodhtffw6xvs6d9bsxlt9ugdb",
-   "scannedAt": 1791393994074
+   "scannedAt": 1791394895740
   },
   {
    "ca": "0x0D0B469508d9F30cd481D10D4cd695481ff503b9",
@@ -405,7 +442,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0xb2124c5c89cff74dc231a6468ebb8d30de627884",
-   "scannedAt": 1791393995549
+   "scannedAt": 1791394897212
   }
  ]
 }
