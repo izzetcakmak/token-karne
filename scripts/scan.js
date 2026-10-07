@@ -138,6 +138,27 @@ async function scoreOne(ca, chain) {
     .slice(0, KEEP);
 
   fs.mkdirSync(path.dirname(OUT), { recursive: true });
+
+  /* Kaynak (DexScreener) cevap vermediginde tahtayi SILME.
+     7 Eki 2026'da API bir sure bos dondu; her tur sifir sonuc yazdi ve site
+     "baraji gecen cikmadi" dedi — yanlis bir mesaj, cunku kimse elenmemisti,
+     veri yoktu. Boyle bir turda son basarili tahta korunur, sadece "bayat"
+     isaretlenir; site de bunu kullaniciya soyler. */
+  const attempted = Math.min(queue.length, LIMIT);
+  const degraded = results.length === 0 || (items.length === 0 && results.length < attempted * 0.3);
+  if (degraded) {
+    let prev = null;
+    try { prev = JSON.parse(fs.readFileSync(OUT, 'utf8')); } catch (e) {}
+    if (prev && Array.isArray(prev.items) && prev.items.length) {
+      prev.stale = true;
+      prev.lastAttemptAt = Date.now();
+      prev.lastAttemptScanned = results.length;
+      fs.writeFileSync(OUT, JSON.stringify(prev, null, 1) + '\n');
+      console.log(`\nUYARI: tarama sonucsuz (${results.length}/${attempted}); onceki tahta (${prev.items.length} token) korundu, bayat isaretlendi.`);
+      return;
+    }
+  }
+
   fs.writeFileSync(OUT, JSON.stringify({
     updatedAt: Date.now(),
     threshold: ESIK,
