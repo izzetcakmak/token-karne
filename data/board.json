@@ -1,45 +1,8 @@
 {
- "updatedAt": 1791412054591,
+ "updatedAt": 1791412270845,
  "threshold": 9,
  "scanned": 45,
  "items": [
-  {
-   "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
-   "chain": "solana",
-   "sym": "MISTAKE",
-   "name": "Make No Mistakes",
-   "img": "https://cdn.dexscreener.com/cms/images/S3VS6ZPJzJ-72iRm?width=800&height=800&quality=95&format=auto",
-   "score": 10,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    null
-   ],
-   "liq": 247404,
-   "vol": 555811,
-   "mcap": 4812963,
-   "holders": 14084,
-   "createdAt": 1789093171000,
-   "handle": "nomistakesfun",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1791411970757
-  },
   {
    "ca": "45VHsie7CwFfPKWCw28PCdZdJWMA5Y6k56wDam9Hpump",
    "chain": "solana",
@@ -62,10 +25,10 @@
     1,
     null
    ],
-   "liq": 156067,
-   "vol": 3556328,
-   "mcap": 2567162,
-   "holders": 8120,
+   "liq": 151175,
+   "vol": 3542803,
+   "mcap": 2410115,
+   "holders": 8117,
    "createdAt": 1791322572000,
    "handle": "Ferarrinu",
    "launchpad": "Pump.Fun",
@@ -75,7 +38,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/a2asuorcetj9kwkmzhf3pvsslgzrnmnghiqku8uegqmj",
-   "scannedAt": 1791411972280
+   "scannedAt": 1791412198405
   },
   {
    "ca": "FAopSovS2WFJK5qEAmcuwAVH98CvmBwT6Lpq4EK2pump",
@@ -99,10 +62,10 @@
     1,
     null
    ],
-   "liq": 148829,
-   "vol": 6164337,
-   "mcap": 2047287,
-   "holders": 4278,
+   "liq": 149886,
+   "vol": 6257614,
+   "mcap": 2069934,
+   "holders": 4294,
    "createdAt": 1791312476000,
    "handle": "AIOPadX",
    "launchpad": "Pump.Fun",
@@ -112,7 +75,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/f2p22sfcg4gkja2upyqzef9bpw3rsec5q2wmvewuibl7",
-   "scannedAt": 1791411966792
+   "scannedAt": 1791412199813
   },
   {
    "ca": "H74CYmXgMkYHYuSRsZt6RJb4NYp2u72Vw8BS5huApump",
@@ -136,9 +99,9 @@
     1,
     null
    ],
-   "liq": 341740,
-   "vol": 485069,
-   "mcap": 2227010,
+   "liq": 342122,
+   "vol": 484952,
+   "mcap": 2229729,
    "holders": 10177,
    "createdAt": 1760756416000,
    "handle": "theLMAOcoin",
@@ -149,7 +112,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/afayrfh7huynkv5mbvbnrhwx29m9jzul3ysgtqz69auv",
-   "scannedAt": 1791411968472
+   "scannedAt": 1791412201400
+  },
+  {
+   "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
+   "chain": "solana",
+   "sym": "MISTAKE",
+   "name": "Make No Mistakes",
+   "img": "https://cdn.dexscreener.com/cms/images/S3VS6ZPJzJ-72iRm?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    null
+   ],
+   "liq": 248574,
+   "vol": 554157,
+   "mcap": 4858181,
+   "holders": 14084,
+   "createdAt": 1789093171000,
+   "handle": "nomistakesfun",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
+   "scannedAt": 1791412196985
   },
   {
    "ca": "CscZaq5twomhUkvCY8Jdd1tge32L4Yj9FbkFFEZQpump",
@@ -173,9 +173,9 @@
     1,
     null
    ],
-   "liq": 153064,
-   "vol": 1783615,
-   "mcap": 507975,
+   "liq": 154434,
+   "vol": 1773361,
+   "mcap": 515630,
    "holders": 7121,
    "createdAt": 1791027343000,
    "handle": "Yersiniapestisz",
@@ -186,7 +186,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/9gbxhym9gxdzh3u6unw71yxaixabkg8k7eegywh2wqgg",
-   "scannedAt": 1791411974426
+   "scannedAt": 1791412202824
   },
   {
    "ca": "5GefefPX1mDs6ZJB1apYmz6fCTCiNJpHturZ9bvFpump",
@@ -210,9 +210,9 @@
     1,
     null
    ],
-   "liq": 102907,
-   "vol": 227553,
-   "mcap": 1091859,
+   "liq": 102903,
+   "vol": 227825,
+   "mcap": 1091979,
    "holders": 2682,
    "createdAt": 1788551378000,
    "handle": "Pumpoweenonpump",
@@ -223,7 +223,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/8nvfb1unnk9adtl5hoof8hahf2rt4glpwx9cteadikhg",
-   "scannedAt": 1791411976014
+   "scannedAt": 1791412204250
   },
   {
    "ca": "8erE7RkkoiGYJtCyQdfwMpnNA8cAkY14Xe6RYjjHAdKP",
@@ -247,9 +247,9 @@
     1,
     null
    ],
-   "liq": 65997,
-   "vol": 58211,
-   "mcap": 551499,
+   "liq": 66088,
+   "vol": 58249,
+   "mcap": 552892,
    "holders": 2301,
    "createdAt": 1790006001000,
    "handle": "catsol2026",
@@ -260,7 +260,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/7sy6brhdbkjdcyfrdd1m49hinsxrqk2bzs3rt6juanch",
-   "scannedAt": 1791411977984
+   "scannedAt": 1791412205710
   },
   {
    "ca": "CioPfvQWpVF2eTzpBj72x2zPyqgJRgvi36PqdLCCpump",
@@ -284,9 +284,9 @@
     1,
     null
    ],
-   "liq": 54885,
-   "vol": 1185736,
-   "mcap": 330658,
+   "liq": 52825,
+   "vol": 1183912,
+   "mcap": 308746,
    "holders": 3611,
    "createdAt": 1791314892000,
    "handle": "ton618_si",
@@ -297,7 +297,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/34w9reb7ax8dsv3hizt28nxztkfwwttarw2nwcsxyqrx",
-   "scannedAt": 1791411979640
+   "scannedAt": 1791412207124
   }
  ]
 }
