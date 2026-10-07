@@ -30,7 +30,7 @@ const I18N = {
     'q.sub': 'Otomatik gelen cevabı beğenmediysen üstüne bas, değiştir — puan anında güncellenir.',
     'hist.title': 'Son baktıkların',
     'board.title': 'TAHTA',
-    'board.sub': 'Site 6 saatte bir yeni çıkan tokenleri kendi kendine tarıyor; {n} ve üzeri puan alanlar buraya düşüyor. Son tarama {t} önce, {s} token bakıldı.',
+    'board.sub': 'Site 10 dakikada bir yeni çıkan tokenleri kendi kendine tarıyor; {n} ve üzeri puan alanlar buraya düşüyor. Son tarama {t} önce, {s} token bakıldı.',
     'board.empty': 'Bu turda {n} puan barajını geçen token çıkmadı. Normal — liste dolsun diye baraj düşürülmüyor.',
     'board.foot': 'Bu bir tavsiye listesi değil, otomatik bir tarama çıktısı. Puanlar taramanın yapıldığı andaki veriye ait; tıklayıp güncel karneyi çıkarmadan hareket etme. 12. soruyu (hikâye) hiçbir tarama senin yerine cevaplayamaz.',
     'how.eyebrow': 'Hile listesi',
