@@ -1,5 +1,5 @@
 {
- "updatedAt": 1791377136493,
+ "updatedAt": 1791378406420,
  "threshold": 9,
  "scanned": 45,
  "items": [
@@ -25,10 +25,10 @@
     1,
     null
    ],
-   "liq": 253502,
-   "vol": 5728691,
-   "mcap": 6882444,
-   "holders": 3134,
+   "liq": 245685,
+   "vol": 5745058,
+   "mcap": 6491278,
+   "holders": 3139,
    "createdAt": 1791356563000,
    "handle": "everythingrwas",
    "launchpad": "Pump.Fun",
@@ -38,7 +38,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/fcfej9ujfnfcsiazgduesecmj2np6myxdm5h2jpfzbdc",
-   "scannedAt": 1791377081753
+   "scannedAt": 1791378336101
+  },
+  {
+   "ca": "ADPN2aqzY5RhkBC7bNQWFhTFFEYKY4drHUQG887Cpump",
+   "chain": "solana",
+   "sym": "CATCRAFT",
+   "name": "CATCRAFT",
+   "img": "https://cdn.dexscreener.com/cms/images/hvsp8Tt8oiP96-P1?width=800&height=800&quality=95&format=auto",
+   "score": 10,
+   "unknown": 2,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    null,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 166491,
+   "vol": 2816106,
+   "mcap": 2996941,
+   "holders": 11762,
+   "createdAt": 1791323794000,
+   "handle": "playcatcraft",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/7mqdgteiad4tkupg9hstypqnestntrauehh1zj1awp8x",
+   "scannedAt": 1791378343256
   },
   {
    "ca": "45VHsie7CwFfPKWCw28PCdZdJWMA5Y6k56wDam9Hpump",
@@ -62,10 +99,10 @@
     1,
     null
    ],
-   "liq": 139174,
-   "vol": 2612401,
-   "mcap": 2114670,
-   "holders": 7238,
+   "liq": 136615,
+   "vol": 2642807,
+   "mcap": 2044708,
+   "holders": 7225,
    "createdAt": 1791322572000,
    "handle": "Ferarrinu",
    "launchpad": "Pump.Fun",
@@ -75,7 +112,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/a2asuorcetj9kwkmzhf3pvsslgzrnmnghiqku8uegqmj",
-   "scannedAt": 1791377065163
+   "scannedAt": 1791378337496
   },
   {
    "ca": "FAopSovS2WFJK5qEAmcuwAVH98CvmBwT6Lpq4EK2pump",
@@ -99,10 +136,10 @@
     1,
     null
    ],
-   "liq": 102896,
-   "vol": 4031688,
-   "mcap": 1104744,
-   "holders": 4700,
+   "liq": 103614,
+   "vol": 4083665,
+   "mcap": 1121989,
+   "holders": 4582,
    "createdAt": 1791312476000,
    "handle": "AIOPadX",
    "launchpad": "Pump.Fun",
@@ -112,44 +149,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/f2p22sfcg4gkja2upyqzef9bpw3rsec5q2wmvewuibl7",
-   "scannedAt": 1791377066589
-  },
-  {
-   "ca": "9Hxn3sgPfg649bUFoV68fogYekS98grDGDsoLt9KMyfL",
-   "chain": "solana",
-   "sym": "Playground",
-   "name": "Google Playground",
-   "img": "https://cdn.dexscreener.com/cms/images/saopFWow9B4LlOD2?width=800&height=800&quality=95&format=auto",
-   "score": 10,
-   "unknown": 2,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    null,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 38969,
-   "vol": 307737,
-   "mcap": 209536,
-   "holders": 1770,
-   "createdAt": 1791375865000,
-   "handle": "chikaarmy1x",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/2pdplymbevxhsers85jjz7wigsttkqdmjjizzclqhnna",
-   "scannedAt": 1791377135292
+   "scannedAt": 1791378338977
   },
   {
    "ca": "9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump",
@@ -173,10 +173,10 @@
     1,
     null
    ],
-   "liq": 272147,
-   "vol": 3083544,
-   "mcap": 2231915,
-   "holders": 9240,
+   "liq": 271402,
+   "vol": 3077769,
+   "mcap": 2390381,
+   "holders": 9312,
    "createdAt": 1791150590000,
    "handle": "gomo_family",
    "launchpad": "Pump.Fun",
@@ -186,44 +186,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5a7qurjlart146jajjype5nh6vlyfpn2qrhuslqbsczy",
-   "scannedAt": 1791377068000
-  },
-  {
-   "ca": "ADPN2aqzY5RhkBC7bNQWFhTFFEYKY4drHUQG887Cpump",
-   "chain": "solana",
-   "sym": "CATCRAFT",
-   "name": "CATCRAFT",
-   "img": "https://cdn.dexscreener.com/cms/images/hvsp8Tt8oiP96-P1?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 2,
-   "answers": [
-    1,
-    0,
-    1,
-    1,
-    null,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 150820,
-   "vol": 2703960,
-   "mcap": 2462924,
-   "holders": 11499,
-   "createdAt": 1791323794000,
-   "handle": "playcatcraft",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/7mqdgteiad4tkupg9hstypqnestntrauehh1zj1awp8x",
-   "scannedAt": 1791377069905
+   "scannedAt": 1791378341814
   },
   {
    "ca": "5GefefPX1mDs6ZJB1apYmz6fCTCiNJpHturZ9bvFpump",
@@ -247,9 +210,9 @@
     1,
     null
    ],
-   "liq": 94856,
-   "vol": 90889,
-   "mcap": 925683,
+   "liq": 96487,
+   "vol": 94802,
+   "mcap": 960839,
    "holders": 2451,
    "createdAt": 1788551378000,
    "handle": "Pumpoweenonpump",
@@ -260,7 +223,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/8nvfb1unnk9adtl5hoof8hahf2rt4glpwx9cteadikhg",
-   "scannedAt": 1791377071326
+   "scannedAt": 1791378344648
   },
   {
    "ca": "8erE7RkkoiGYJtCyQdfwMpnNA8cAkY14Xe6RYjjHAdKP",
@@ -284,9 +247,9 @@
     1,
     null
    ],
-   "liq": 68902,
-   "vol": 58523,
-   "mcap": 601141,
+   "liq": 68744,
+   "vol": 58651,
+   "mcap": 598369,
    "holders": 2301,
    "createdAt": 1790006001000,
    "handle": "catsol2026",
@@ -297,7 +260,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/7sy6brhdbkjdcyfrdd1m49hinsxrqk2bzs3rt6juanch",
-   "scannedAt": 1791377072741
+   "scannedAt": 1791378346069
+  },
+  {
+   "ca": "J9qzFhTLYnmf3tZYvHBaF96rH3YKToELAAVMzz66pump",
+   "chain": "solana",
+   "sym": "SNDWITCH",
+   "name": "Sand Witch Kitten",
+   "img": "https://cdn.dexscreener.com/cms/images/MuTi483V4c1C_JTs?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 2,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    null,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 67314,
+   "vol": 3919505,
+   "mcap": 451872,
+   "holders": 13547,
+   "createdAt": 1791315438000,
+   "handle": "sndwitch_sol",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/hu22ubatza7ajmkdjasyodhtffw6xvs6d9bsxlt9ugdb",
+   "scannedAt": 1791378385476
   },
   {
    "ca": "0x0D0B469508d9F30cd481D10D4cd695481ff503b9",
@@ -333,7 +333,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0xb2124c5c89cff74dc231a6468ebb8d30de627884",
-   "scannedAt": 1791377077166
+   "scannedAt": 1791378347501
   }
  ]
 }
