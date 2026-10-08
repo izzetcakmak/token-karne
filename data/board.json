@@ -1,5 +1,5 @@
 {
- "updatedAt": 1791427658062,
+ "updatedAt": 1791428656082,
  "threshold": 9,
  "scanned": 45,
  "items": [
@@ -25,9 +25,9 @@
     1,
     null
    ],
-   "liq": 248678,
-   "vol": 874626,
-   "mcap": 4803449,
+   "liq": 251984,
+   "vol": 987612,
+   "mcap": 4926623,
    "holders": 14084,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -38,7 +38,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1791427587734
+   "scannedAt": 1791428557030
   },
   {
    "ca": "0x9811ea1264592CdD442Ca4216808DC81C645ac7B",
@@ -62,9 +62,9 @@
     1,
     null
    ],
-   "liq": 139997,
-   "vol": 5961476,
-   "mcap": 3124564,
+   "liq": 136219,
+   "vol": 6310234,
+   "mcap": 2961214,
    "holders": 2462,
    "createdAt": 1791411970000,
    "handle": "bibibsc_x",
@@ -74,44 +74,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x5672a308f53e69fd52f5066209107fb4e1db975c",
-   "scannedAt": 1791427589230
-  },
-  {
-   "ca": "45VHsie7CwFfPKWCw28PCdZdJWMA5Y6k56wDam9Hpump",
-   "chain": "solana",
-   "sym": "RARINU",
-   "name": "Ferrari Inu",
-   "img": "https://cdn.dexscreener.com/cms/images/KXdS2YaVij7sqGJu?width=800&height=800&quality=95&format=auto",
-   "score": 10,
-   "unknown": 2,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    null,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 126008,
-   "vol": 3462588,
-   "mcap": 1642630,
-   "holders": 8450,
-   "createdAt": 1791322572000,
-   "handle": "Ferarrinu",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/a2asuorcetj9kwkmzhf3pvsslgzrnmnghiqku8uegqmj",
-   "scannedAt": 1791427596496
+   "scannedAt": 1791428567541
   },
   {
    "ca": "H74CYmXgMkYHYuSRsZt6RJb4NYp2u72Vw8BS5huApump",
@@ -135,9 +98,9 @@
     1,
     null
    ],
-   "liq": 360391,
-   "vol": 547575,
-   "mcap": 2456114,
+   "liq": 360201,
+   "vol": 550770,
+   "mcap": 2455305,
    "holders": 10177,
    "createdAt": 1760756416000,
    "handle": "theLMAOcoin",
@@ -148,7 +111,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/afayrfh7huynkv5mbvbnrhwx29m9jzul3ysgtqz69auv",
-   "scannedAt": 1791427592220
+   "scannedAt": 1791428571709
   },
   {
    "ca": "9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump",
@@ -172,10 +135,10 @@
     1,
     null
    ],
-   "liq": 154849,
-   "vol": 2064085,
-   "mcap": 761503,
-   "holders": 10422,
+   "liq": 158275,
+   "vol": 2054597,
+   "mcap": 807340,
+   "holders": 10427,
    "createdAt": 1791150590000,
    "handle": "gomo_family",
    "launchpad": "Pump.Fun",
@@ -185,7 +148,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5a7qurjlart146jajjype5nh6vlyfpn2qrhuslqbsczy",
-   "scannedAt": 1791427593628
+   "scannedAt": 1791428573671
   },
   {
    "ca": "CscZaq5twomhUkvCY8Jdd1tge32L4Yj9FbkFFEZQpump",
@@ -209,9 +172,9 @@
     1,
     null
    ],
-   "liq": 138233,
-   "vol": 1551561,
-   "mcap": 481589,
+   "liq": 138149,
+   "vol": 1549814,
+   "mcap": 478408,
    "holders": 6748,
    "createdAt": 1791027343000,
    "handle": "Yersiniapestisz",
@@ -222,7 +185,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/9gbxhym9gxdzh3u6unw71yxaixabkg8k7eegywh2wqgg",
-   "scannedAt": 1791427595042
+   "scannedAt": 1791428575812
+  },
+  {
+   "ca": "45VHsie7CwFfPKWCw28PCdZdJWMA5Y6k56wDam9Hpump",
+   "chain": "solana",
+   "sym": "RARINU",
+   "name": "Ferrari Inu",
+   "img": "https://cdn.dexscreener.com/cms/images/KXdS2YaVij7sqGJu?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 2,
+   "answers": [
+    1,
+    0,
+    1,
+    1,
+    null,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 125402,
+   "vol": 3455950,
+   "mcap": 1627252,
+   "holders": 8496,
+   "createdAt": 1791322572000,
+   "handle": "Ferarrinu",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/a2asuorcetj9kwkmzhf3pvsslgzrnmnghiqku8uegqmj",
+   "scannedAt": 1791428569365
   },
   {
    "ca": "5GefefPX1mDs6ZJB1apYmz6fCTCiNJpHturZ9bvFpump",
@@ -246,9 +246,9 @@
     1,
     null
    ],
-   "liq": 105467,
-   "vol": 267996,
-   "mcap": 1137086,
+   "liq": 106091,
+   "vol": 269424,
+   "mcap": 1151516,
    "holders": 2872,
    "createdAt": 1788551378000,
    "handle": "Pumpoweenonpump",
@@ -259,7 +259,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/8nvfb1unnk9adtl5hoof8hahf2rt4glpwx9cteadikhg",
-   "scannedAt": 1791427597906
+   "scannedAt": 1791428578093
   }
  ]
 }
