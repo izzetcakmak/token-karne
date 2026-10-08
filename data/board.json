@@ -1,5 +1,5 @@
 {
- "updatedAt": 1791437446055,
+ "updatedAt": 1791438508167,
  "threshold": 9,
  "scanned": 45,
  "items": [
@@ -25,9 +25,9 @@
     1,
     null
    ],
-   "liq": 78449,
-   "vol": 8025013,
-   "mcap": 982864,
+   "liq": 67358,
+   "vol": 8150100,
+   "mcap": 724167,
    "holders": 1938,
    "createdAt": 1791411970000,
    "handle": "bibibsc_x",
@@ -37,7 +37,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x5672a308f53e69fd52f5066209107fb4e1db975c",
-   "scannedAt": 1791437363480
+   "scannedAt": 1791438425791
   },
   {
    "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
@@ -61,9 +61,9 @@
     1,
     null
    ],
-   "liq": 248206,
-   "vol": 1280314,
-   "mcap": 4787612,
+   "liq": 244657,
+   "vol": 1284096,
+   "mcap": 4665373,
    "holders": 4914,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -74,7 +74,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1791437365051
+   "scannedAt": 1791438427438
   },
   {
    "ca": "H74CYmXgMkYHYuSRsZt6RJb4NYp2u72Vw8BS5huApump",
@@ -98,9 +98,9 @@
     1,
     null
    ],
-   "liq": 351742,
-   "vol": 580021,
-   "mcap": 2363411,
+   "liq": 353400,
+   "vol": 581039,
+   "mcap": 2396245,
    "holders": 10765,
    "createdAt": 1760756416000,
    "handle": "theLMAOcoin",
@@ -111,44 +111,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/afayrfh7huynkv5mbvbnrhwx29m9jzul3ysgtqz69auv",
-   "scannedAt": 1791437368395
-  },
-  {
-   "ca": "9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump",
-   "chain": "solana",
-   "sym": "GOMO",
-   "name": "Gomo App",
-   "img": "https://cdn.dexscreener.com/cms/images/oKyBDuIHI7W2lUnK?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 2,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    null,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 136341,
-   "vol": 1901465,
-   "mcap": 535456,
-   "holders": 10527,
-   "createdAt": 1791150590000,
-   "handle": "gomo_family",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/5a7qurjlart146jajjype5nh6vlyfpn2qrhuslqbsczy",
-   "scannedAt": 1791437370241
+   "scannedAt": 1791438429494
   },
   {
    "ca": "CscZaq5twomhUkvCY8Jdd1tge32L4Yj9FbkFFEZQpump",
@@ -172,9 +135,9 @@
     1,
     null
    ],
-   "liq": 134604,
-   "vol": 1375958,
-   "mcap": 470831,
+   "liq": 135921,
+   "vol": 1374540,
+   "mcap": 484406,
    "holders": 6748,
    "createdAt": 1791027343000,
    "handle": "Yersiniapestisz",
@@ -185,7 +148,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/9gbxhym9gxdzh3u6unw71yxaixabkg8k7eegywh2wqgg",
-   "scannedAt": 1791437371690
+   "scannedAt": 1791438433112
+  },
+  {
+   "ca": "9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump",
+   "chain": "solana",
+   "sym": "GOMO",
+   "name": "Gomo App",
+   "img": "https://cdn.dexscreener.com/cms/images/oKyBDuIHI7W2lUnK?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 2,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    null,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 128727,
+   "vol": 1928755,
+   "mcap": 508840,
+   "holders": 10569,
+   "createdAt": 1791150590000,
+   "handle": "gomo_family",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/5a7qurjlart146jajjype5nh6vlyfpn2qrhuslqbsczy",
+   "scannedAt": 1791438431172
   },
   {
    "ca": "5GefefPX1mDs6ZJB1apYmz6fCTCiNJpHturZ9bvFpump",
@@ -209,9 +209,9 @@
     1,
     null
    ],
-   "liq": 105427,
-   "vol": 273636,
-   "mcap": 1144137,
+   "liq": 104262,
+   "vol": 273871,
+   "mcap": 1119764,
    "holders": 2872,
    "createdAt": 1788551378000,
    "handle": "Pumpoweenonpump",
@@ -222,7 +222,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/8nvfb1unnk9adtl5hoof8hahf2rt4glpwx9cteadikhg",
-   "scannedAt": 1791437373197
+   "scannedAt": 1791438435026
   },
   {
    "ca": "45VHsie7CwFfPKWCw28PCdZdJWMA5Y6k56wDam9Hpump",
@@ -246,10 +246,10 @@
     1,
     null
    ],
-   "liq": 74012,
-   "vol": 3488824,
-   "mcap": 574122,
-   "holders": 8228,
+   "liq": 72981,
+   "vol": 3482796,
+   "mcap": 559301,
+   "holders": 8183,
    "createdAt": 1791322572000,
    "handle": "Ferarrinu",
    "launchpad": "Pump.Fun",
@@ -259,7 +259,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/a2asuorcetj9kwkmzhf3pvsslgzrnmnghiqku8uegqmj",
-   "scannedAt": 1791437366676
+   "scannedAt": 1791438437442
   }
  ]
 }
