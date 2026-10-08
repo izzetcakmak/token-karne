@@ -9,16 +9,17 @@
 
 'use strict';
 
-// ── Sabitler ──────────────────────────────────────────────────
-var ARC_TESTNET_CHAIN_ID = '0x4CFBA2'; // 5042002
-var ARC_RPC = 'https://rpc.testnet.arc.network';
+// ── Sabitler (ARC MAINNET) ─────────────────────────────────────
+var ARC_CHAIN_ID = '0x13BA'; // Arc Mainnet: 5050
+var ARC_RPC = 'https://rpc.mainnet.arc.network';
+var ARC_EXPLORER = 'https://explorer.arc.io';
 var ARC_USDC = '0x3600000000000000000000000000000000000000';
-var ARC_TOKEN_MESSENGER_V2 = '0x8FE6B999Dc680CcFDD5Bf7EB0974218be2542DAA';
-var ARC_MESSAGE_TRANSMITTER_V2 = '0xE737e5cEBEEBa77EFE34D4aa090756590b1CE275';
+var ARC_TOKEN_MESSENGER_V2 = '0x28b5a0e9C621a5BadaA536219b3a228C8168cf5d';
+var ARC_MESSAGE_TRANSMITTER_V2 = '0x81D40F21F12A8F0E3252Bccb954D722d4c464B64';
 var ARC_DOMAIN = 26;
-var SOLANA_DEVNET_DOMAIN = 5;
+var SOLANA_MAINNET_DOMAIN = 5;
 var SOLANA_USDC_MINT = 'EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v';
-var IRIS_API = 'https://iris-api-sandbox.circle.com';
+var IRIS_API = 'https://iris-api.circle.com';
 var JUPITER_PROXY = '/api/jupiter';
 var USDC_DECIMALS_ERC20 = 6;
 
@@ -221,34 +222,31 @@ async function connectAndLoadBalance(state) {
     if (!accounts || !accounts[0]) throw new Error('Hesap bulunamadı');
     state.walletAddr = accounts[0];
 
-    // Arc Testnet'e geç — önce ekle (zaten varsa hata yemeyiz), sonra geç
+    // Arc Mainnet'e geç
     var arcChainParams = {
-      chainId: ARC_TESTNET_CHAIN_ID,
-      chainName: 'Arc Testnet',
-      rpcUrls: ['https://rpc.testnet.arc.network'],
+      chainId: ARC_CHAIN_ID,
+      chainName: 'Arc',
+      rpcUrls: [ARC_RPC],
       nativeCurrency: { name: 'USDC', symbol: 'USDC', decimals: 18 },
-      blockExplorerUrls: ['https://explorer.testnet.arc.io'],
+      blockExplorerUrls: [ARC_EXPLORER],
     };
-    try {
-      // Önce eklemeyi dene — zaten ekliyse sessizce geçer
-      await window.ethereum.request({
-        method: 'wallet_addEthereumChain',
-        params: [arcChainParams],
-      });
-    } catch (addErr) {
-      // Zaten ekli veya kullanıcı reddetti — devam et
-    }
+    // Önce switch dene — zaten ekliyse çalışır
     try {
       await window.ethereum.request({
         method: 'wallet_switchEthereumChain',
-        params: [{ chainId: ARC_TESTNET_CHAIN_ID }],
+        params: [{ chainId: ARC_CHAIN_ID }],
       });
     } catch (swErr) {
-      // Son çare: tekrar ekle+geç
-      if (swErr.code === 4902 || (swErr.message && swErr.message.toLowerCase().includes('unrecognized'))) {
+      // Bilinmeyen chain (4902) veya unrecognized — ağı ekle
+      if (swErr.code === 4902 || (swErr.message && (swErr.message.includes('4902') || swErr.message.toLowerCase().includes('unrecognized') || swErr.message.toLowerCase().includes('not been added')))) {
         await window.ethereum.request({
           method: 'wallet_addEthereumChain',
           params: [arcChainParams],
+        });
+        // Ekledikten sonra tekrar switch
+        await window.ethereum.request({
+          method: 'wallet_switchEthereumChain',
+          params: [{ chainId: ARC_CHAIN_ID }],
         });
       } else { throw swErr; }
     }
@@ -302,7 +300,7 @@ async function getSolanaAddress(provider) {
     var resp = await provider.request({
       method: 'wallet_invokeMethod',
       params: {
-        scope: 'solana:EtWTRABZaYq6iMfeYKouRu166VU2xqa1',  // devnet
+        scope: 'solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp',  
         request: {
           method: 'getAccounts',
           params: [],
@@ -410,11 +408,11 @@ async function executeBuy(state) {
     // ── ADIM 2: depositForBurn (CCTP) ────────────────────────
     setStep(steps, 'step-burn', 'active');
     var mintRecipientBytes32 = solanaAddressToBytes32(state.solanaAddr);
-    var MAX_FEE = 0n; // testnet'te fee yok
+    var MAX_FEE = 0n; // fee 0 — Circle varsayılan minimum uygular
     var MIN_FINALITY = 1000; // confirmed
     var burnData = encodeDepositForBurn(
       amountUSDC,
-      SOLANA_DEVNET_DOMAIN,
+      SOLANA_MAINNET_DOMAIN,
       mintRecipientBytes32,
       ARC_USDC,
       '0x0000000000000000000000000000000000000000000000000000000000000000',
@@ -532,7 +530,7 @@ async function signSolanaTransaction(base64Tx, solanaAddress) {
   var result = await provider.request({
     method: 'wallet_invokeMethod',
     params: {
-      scope: 'solana:EtWTRABZaYq6iMfeYKouRu166VU2xqa1', // devnet
+      scope: 'solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp', 
       request: {
         method: 'signAndSendTransaction',
         params: {
@@ -547,7 +545,7 @@ async function signSolanaTransaction(base64Tx, solanaAddress) {
   var signResult = await provider.request({
     method: 'wallet_invokeMethod',
     params: {
-      scope: 'solana:EtWTRABZaYq6iMfeYKouRu166VU2xqa1',
+      scope: 'solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp',
       request: {
         method: 'signTransaction',
         params: {
