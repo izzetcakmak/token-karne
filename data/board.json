@@ -1,5 +1,5 @@
 {
- "updatedAt": 1791422211592,
+ "updatedAt": 1791424290120,
  "threshold": 9,
  "scanned": 45,
  "items": [
@@ -25,9 +25,9 @@
     1,
     null
    ],
-   "liq": 262659,
-   "vol": 633883,
-   "mcap": 5372309,
+   "liq": 277341,
+   "vol": 705380,
+   "mcap": 5993428,
    "holders": 14084,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -38,44 +38,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1791422133419
-  },
-  {
-   "ca": "45VHsie7CwFfPKWCw28PCdZdJWMA5Y6k56wDam9Hpump",
-   "chain": "solana",
-   "sym": "RARINU",
-   "name": "Ferrari Inu",
-   "img": "https://cdn.dexscreener.com/cms/images/KXdS2YaVij7sqGJu?width=800&height=800&quality=95&format=auto",
-   "score": 10,
-   "unknown": 2,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    null,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 156855,
-   "vol": 3458542,
-   "mcap": 2546026,
-   "holders": 8331,
-   "createdAt": 1791322572000,
-   "handle": "Ferarrinu",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/a2asuorcetj9kwkmzhf3pvsslgzrnmnghiqku8uegqmj",
-   "scannedAt": 1791422136760
+   "scannedAt": 1791424211689
   },
   {
    "ca": "0x9811ea1264592CdD442Ca4216808DC81C645ac7B",
@@ -99,9 +62,9 @@
     1,
     null
    ],
-   "liq": 145253,
-   "vol": 3991826,
-   "mcap": 3371638,
+   "liq": 172797,
+   "vol": 4733857,
+   "mcap": 4774874,
    "holders": 1370,
    "createdAt": 1791411970000,
    "handle": "bibibsc_x",
@@ -111,7 +74,44 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x5672a308f53e69fd52f5066209107fb4e1db975c",
-   "scannedAt": 1791422134934
+   "scannedAt": 1791424215130
+  },
+  {
+   "ca": "45VHsie7CwFfPKWCw28PCdZdJWMA5Y6k56wDam9Hpump",
+   "chain": "solana",
+   "sym": "RARINU",
+   "name": "Ferrari Inu",
+   "img": "https://cdn.dexscreener.com/cms/images/KXdS2YaVij7sqGJu?width=800&height=800&quality=95&format=auto",
+   "score": 10,
+   "unknown": 2,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    null,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 159120,
+   "vol": 3432539,
+   "mcap": 2621511,
+   "holders": 8326,
+   "createdAt": 1791322572000,
+   "handle": "Ferarrinu",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/a2asuorcetj9kwkmzhf3pvsslgzrnmnghiqku8uegqmj",
+   "scannedAt": 1791424213274
   },
   {
    "ca": "FAopSovS2WFJK5qEAmcuwAVH98CvmBwT6Lpq4EK2pump",
@@ -135,10 +135,10 @@
     1,
     null
    ],
-   "liq": 30988,
-   "vol": 6273497,
-   "mcap": 93950,
-   "holders": 4266,
+   "liq": 34780,
+   "vol": 6074585,
+   "mcap": 116744,
+   "holders": 4200,
    "createdAt": 1791312476000,
    "handle": "AIOPadX",
    "launchpad": "Pump.Fun",
@@ -148,7 +148,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/f2p22sfcg4gkja2upyqzef9bpw3rsec5q2wmvewuibl7",
-   "scannedAt": 1791422138342
+   "scannedAt": 1791424216744
   },
   {
    "ca": "H74CYmXgMkYHYuSRsZt6RJb4NYp2u72Vw8BS5huApump",
@@ -172,9 +172,9 @@
     1,
     null
    ],
-   "liq": 348951,
-   "vol": 496273,
-   "mcap": 2302717,
+   "liq": 347950,
+   "vol": 495530,
+   "mcap": 2296003,
    "holders": 10177,
    "createdAt": 1760756416000,
    "handle": "theLMAOcoin",
@@ -185,7 +185,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/afayrfh7huynkv5mbvbnrhwx29m9jzul3ysgtqz69auv",
-   "scannedAt": 1791422139831
+   "scannedAt": 1791424218260
   },
   {
    "ca": "9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump",
@@ -209,10 +209,10 @@
     1,
     null
    ],
-   "liq": 173598,
-   "vol": 2100690,
-   "mcap": 930255,
-   "holders": 10355,
+   "liq": 166803,
+   "vol": 2077092,
+   "mcap": 782177,
+   "holders": 10413,
    "createdAt": 1791150590000,
    "handle": "gomo_family",
    "launchpad": "Pump.Fun",
@@ -222,7 +222,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5a7qurjlart146jajjype5nh6vlyfpn2qrhuslqbsczy",
-   "scannedAt": 1791422141550
+   "scannedAt": 1791424220200
   },
   {
    "ca": "CscZaq5twomhUkvCY8Jdd1tge32L4Yj9FbkFFEZQpump",
@@ -246,9 +246,9 @@
     1,
     null
    ],
-   "liq": 156005,
-   "vol": 1623349,
-   "mcap": 579546,
+   "liq": 148176,
+   "vol": 1607487,
+   "mcap": 544587,
    "holders": 6748,
    "createdAt": 1791027343000,
    "handle": "Yersiniapestisz",
@@ -259,7 +259,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/9gbxhym9gxdzh3u6unw71yxaixabkg8k7eegywh2wqgg",
-   "scannedAt": 1791422143172
+   "scannedAt": 1791424221792
   },
   {
    "ca": "5GefefPX1mDs6ZJB1apYmz6fCTCiNJpHturZ9bvFpump",
@@ -283,9 +283,9 @@
     1,
     null
    ],
-   "liq": 103584,
-   "vol": 239112,
-   "mcap": 1098048,
+   "liq": 105053,
+   "vol": 255885,
+   "mcap": 1132064,
    "holders": 2872,
    "createdAt": 1788551378000,
    "handle": "Pumpoweenonpump",
@@ -296,7 +296,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/8nvfb1unnk9adtl5hoof8hahf2rt4glpwx9cteadikhg",
-   "scannedAt": 1791422144913
+   "scannedAt": 1791424223836
+  },
+  {
+   "ca": "CioPfvQWpVF2eTzpBj72x2zPyqgJRgvi36PqdLCCpump",
+   "chain": "solana",
+   "sym": "TON618",
+   "name": "TON 618",
+   "img": "https://cdn.dexscreener.com/cms/images/oBqgX_Tr90YEXVgJ?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 2,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    null,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 40499,
+   "vol": 1178954,
+   "mcap": 181336,
+   "holders": 3736,
+   "createdAt": 1791314892000,
+   "handle": "ton618_si",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/34w9reb7ax8dsv3hizt28nxztkfwwttarw2nwcsxyqrx",
+   "scannedAt": 1791424288919
   }
  ]
 }
