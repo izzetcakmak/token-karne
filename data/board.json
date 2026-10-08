@@ -1,8 +1,44 @@
 {
- "updatedAt": 1791446167851,
+ "updatedAt": 1791447280802,
  "threshold": 9,
  "scanned": 45,
  "items": [
+  {
+   "ca": "0x7AB8d02CBb51Ff7223fDe700eAaa2a91Bf750314",
+   "chain": "bsc",
+   "sym": "TART",
+   "name": "TartSwap",
+   "img": "https://cdn.dexscreener.com/cms/images/kDVz5vcKSnLS1iEe?width=800&height=800&quality=95&format=auto",
+   "score": 10,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 482989,
+   "vol": 251453,
+   "mcap": 8030937,
+   "holders": 6924,
+   "createdAt": 1787522174000,
+   "handle": "tartprotocol",
+   "launchpad": null,
+   "flags": 0,
+   "sources": [
+    "GoPlus"
+   ],
+   "url": "https://dexscreener.com/bsc/0x30000a407fabebe29439f8e437050512ff6661be",
+   "scannedAt": 1791447206615
+  },
   {
    "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
    "chain": "solana",
@@ -25,9 +61,9 @@
     1,
     null
    ],
-   "liq": 258424,
-   "vol": 1281663,
-   "mcap": 5202858,
+   "liq": 270593,
+   "vol": 1292655,
+   "mcap": 5714998,
    "holders": 4914,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -38,43 +74,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1791446085046
-  },
-  {
-   "ca": "0x7AB8d02CBb51Ff7223fDe700eAaa2a91Bf750314",
-   "chain": "bsc",
-   "sym": "TART",
-   "name": "TartSwap",
-   "img": "https://cdn.dexscreener.com/cms/images/kDVz5vcKSnLS1iEe?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    null
-   ],
-   "liq": 501391,
-   "vol": 238006,
-   "mcap": 8641772,
-   "holders": 6924,
-   "createdAt": 1787522174000,
-   "handle": "tartprotocol",
-   "launchpad": null,
-   "flags": 0,
-   "sources": [
-    "GoPlus"
-   ],
-   "url": "https://dexscreener.com/bsc/0x30000a407fabebe29439f8e437050512ff6661be",
-   "scannedAt": 1791446081328
+   "scannedAt": 1791447204646
   },
   {
    "ca": "H74CYmXgMkYHYuSRsZt6RJb4NYp2u72Vw8BS5huApump",
@@ -98,9 +98,9 @@
     1,
     null
    ],
-   "liq": 352216,
-   "vol": 581171,
-   "mcap": 2379968,
+   "liq": 351095,
+   "vol": 581580,
+   "mcap": 2369167,
    "holders": 10765,
    "createdAt": 1760756416000,
    "handle": "theLMAOcoin",
@@ -111,7 +111,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/afayrfh7huynkv5mbvbnrhwx29m9jzul3ysgtqz69auv",
-   "scannedAt": 1791446083211
+   "scannedAt": 1791447208088
   },
   {
    "ca": "9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump",
@@ -135,10 +135,10 @@
     1,
     null
    ],
-   "liq": 151273,
-   "vol": 1878678,
-   "mcap": 922847,
-   "holders": 10843,
+   "liq": 149431,
+   "vol": 1865533,
+   "mcap": 888483,
+   "holders": 10842,
    "createdAt": 1791150590000,
    "handle": "gomo_family",
    "launchpad": "Pump.Fun",
@@ -148,7 +148,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5a7qurjlart146jajjype5nh6vlyfpn2qrhuslqbsczy",
-   "scannedAt": 1791446086759
+   "scannedAt": 1791447209995
   },
   {
    "ca": "CscZaq5twomhUkvCY8Jdd1tge32L4Yj9FbkFFEZQpump",
@@ -172,9 +172,9 @@
     1,
     null
    ],
-   "liq": 139714,
-   "vol": 1302941,
-   "mcap": 510098,
+   "liq": 134161,
+   "vol": 1301933,
+   "mcap": 473372,
    "holders": 6748,
    "createdAt": 1791027343000,
    "handle": "Yersiniapestisz",
@@ -185,7 +185,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/9gbxhym9gxdzh3u6unw71yxaixabkg8k7eegywh2wqgg",
-   "scannedAt": 1791446088272
+   "scannedAt": 1791447211741
   },
   {
    "ca": "5GefefPX1mDs6ZJB1apYmz6fCTCiNJpHturZ9bvFpump",
@@ -209,9 +209,9 @@
     1,
     null
    ],
-   "liq": 101312,
-   "vol": 265076,
-   "mcap": 1060919,
+   "liq": 100289,
+   "vol": 255005,
+   "mcap": 1042667,
    "holders": 2872,
    "createdAt": 1788551378000,
    "handle": "Pumpoweenonpump",
@@ -222,7 +222,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/8nvfb1unnk9adtl5hoof8hahf2rt4glpwx9cteadikhg",
-   "scannedAt": 1791446089733
+   "scannedAt": 1791447213193
+  },
+  {
+   "ca": "7fxxzRh3Sotcto3qduvjFv6jyR3doPRd8vpDeQiUpump",
+   "chain": "solana",
+   "sym": "Organisme",
+   "name": "Organisme",
+   "img": "https://cdn.dexscreener.com/cms/images/dTzEDJl7QyBfC-jB?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 2,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    null,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 39535,
+   "vol": 491462,
+   "mcap": 193369,
+   "holders": 2802,
+   "createdAt": 1791442467000,
+   "handle": "organisme_trade",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/52qg1opv3yuscwk8z4887fwurwrgr1h2xtcpvetfycbt",
+   "scannedAt": 1791447214698
   }
  ]
 }
