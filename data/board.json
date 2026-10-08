@@ -1,5 +1,5 @@
 {
- "updatedAt": 1791493176298,
+ "updatedAt": 1791494453731,
  "threshold": 9,
  "scanned": 45,
  "items": [
@@ -25,9 +25,9 @@
     1,
     null
    ],
-   "liq": 512112,
-   "vol": 683232,
-   "mcap": 9617206,
+   "liq": 512023,
+   "vol": 681492,
+   "mcap": 9609558,
    "holders": 7890,
    "createdAt": 1787522174000,
    "handle": "tartprotocol",
@@ -37,7 +37,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x30000a407fabebe29439f8e437050512ff6661be",
-   "scannedAt": 1791493102818
+   "scannedAt": 1791494375530
   },
   {
    "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
@@ -45,11 +45,11 @@
    "sym": "MISTAKE",
    "name": "Make No Mistakes",
    "img": "https://cdn.dexscreener.com/cms/images/S3VS6ZPJzJ-72iRm?width=800&height=800&quality=95&format=auto",
-   "score": 9,
+   "score": 10,
    "unknown": 1,
    "answers": [
     1,
-    0,
+    1,
     1,
     1,
     1,
@@ -61,9 +61,9 @@
     1,
     null
    ],
-   "liq": 265800,
-   "vol": 3634480,
-   "mcap": 5560615,
+   "liq": 256044,
+   "vol": 3682881,
+   "mcap": 5150773,
    "holders": 5633,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -74,7 +74,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1791493105881
+   "scannedAt": 1791494377192
   },
   {
    "ca": "8ZCmwpW3MtC5UpNcZf7U4HMvRNTo71syU11BDiAFpump",
@@ -98,10 +98,10 @@
     1,
     null
    ],
-   "liq": 169463,
-   "vol": 4249282,
-   "mcap": 3178137,
-   "holders": 5680,
+   "liq": 161823,
+   "vol": 4351190,
+   "mcap": 2890271,
+   "holders": 5744,
    "createdAt": 1791466106000,
    "handle": "GaryCatX",
    "launchpad": "Pump.Fun",
@@ -111,7 +111,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/2uzutqejcxcr1eswmdgtpqewm5pcekewrsnvrpc1ehs1",
-   "scannedAt": 1791493107317
+   "scannedAt": 1791494378614
   },
   {
    "ca": "9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump",
@@ -135,10 +135,10 @@
     1,
     null
    ],
-   "liq": 126640,
-   "vol": 882439,
-   "mcap": 606936,
-   "holders": 10811,
+   "liq": 125297,
+   "vol": 852981,
+   "mcap": 585166,
+   "holders": 10817,
    "createdAt": 1791150590000,
    "handle": "gomo_family",
    "launchpad": "Pump.Fun",
@@ -148,43 +148,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5a7qurjlart146jajjype5nh6vlyfpn2qrhuslqbsczy",
-   "scannedAt": 1791493108756
-  },
-  {
-   "ca": "0xfE7aA5D845fC2130efEad8328d504d327793a038",
-   "chain": "bsc",
-   "sym": "GiggleHero",
-   "name": "Giggle Hero",
-   "img": "https://cdn.dexscreener.com/cms/images/oGYTBDjKqZWsZmK4?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 117151,
-   "vol": 7073598,
-   "mcap": 4647612,
-   "holders": 5016,
-   "createdAt": 1791476686000,
-   "handle": "gigglehero_x",
-   "launchpad": null,
-   "flags": 0,
-   "sources": [
-    "GoPlus"
-   ],
-   "url": "https://dexscreener.com/bsc/0x70ca598124f9a9e5d9e8521b92ed424a560d5617",
-   "scannedAt": 1791493110259
+   "scannedAt": 1791494380038
   },
   {
    "ca": "0x7fb4758cB0C617c0baB1BAf80525Fab958637777",
@@ -208,9 +172,9 @@
     1,
     null
    ],
-   "liq": 99713,
-   "vol": 307172,
-   "mcap": 649941,
+   "liq": 100379,
+   "vol": 307950,
+   "mcap": 658422,
    "holders": 2082,
    "createdAt": 1787777934000,
    "handle": "BNBOBNB",
@@ -220,14 +184,50 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x7f7cac531dfad516b9bd55e63de2f773d00999cc",
-   "scannedAt": 1791493111724
+   "scannedAt": 1791494382942
   },
   {
-   "ca": "CmCHvr99aXrLDQB7jAtFtsBwg3DnXqq4spcTEMt7pump",
+   "ca": "0xfE7aA5D845fC2130efEad8328d504d327793a038",
+   "chain": "bsc",
+   "sym": "GiggleHero",
+   "name": "Giggle Hero",
+   "img": "https://cdn.dexscreener.com/cms/images/oGYTBDjKqZWsZmK4?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 96289,
+   "vol": 7314742,
+   "mcap": 3147342,
+   "holders": 5262,
+   "createdAt": 1791476686000,
+   "handle": "gigglehero_x",
+   "launchpad": null,
+   "flags": 0,
+   "sources": [
+    "GoPlus"
+   ],
+   "url": "https://dexscreener.com/bsc/0x70ca598124f9a9e5d9e8521b92ed424a560d5617",
+   "scannedAt": 1791494381467
+  },
+  {
+   "ca": "FgnSJwFoote99diZUhtRV9Ajcfwzjj6hDx82TDhVpump",
    "chain": "solana",
-   "sym": "OWLNIGHT",
-   "name": "Owl Nighter",
-   "img": "https://cdn.dexscreener.com/cms/images/d2dQRXO-jGdSGc7e?width=800&height=800&quality=95&format=auto",
+   "sym": "puter",
+   "name": "catonputer",
+   "img": "https://cdn.dexscreener.com/cms/images/IrjLWlJlymQXKYkW?width=800&height=800&quality=95&format=auto",
    "score": 9,
    "unknown": 2,
    "answers": [
@@ -236,6 +236,43 @@
     1,
     1,
     null,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 60943,
+   "vol": 1627232,
+   "mcap": 439336,
+   "holders": 3938,
+   "createdAt": 1791484093000,
+   "handle": "catonputerfun",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/687hwjawqxvnrgy7xfeyrpxunvvsarecu7aqb5eeajbp",
+   "scannedAt": 1791494406244
+  },
+  {
+   "ca": "6hTLdzZaaCjmqtn7RtaEMQsCbXT5Pg8q76tRViEGpump",
+   "chain": "solana",
+   "sym": "ABU",
+   "name": "Abu Shalab",
+   "img": "https://cdn.dexscreener.com/cms/images/Di5fRzZVLruW9Tlo?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    0,
     0,
     1,
     1,
@@ -244,20 +281,20 @@
     1,
     null
    ],
-   "liq": 72658,
-   "vol": 1836786,
-   "mcap": 632416,
-   "holders": 7422,
-   "createdAt": 1791478718000,
-   "handle": "owlnight_meme",
+   "liq": 41370,
+   "vol": 110424,
+   "mcap": 171792,
+   "holders": 1006,
+   "createdAt": 1790981217000,
+   "handle": "AbuShalab_",
    "launchpad": "Pump.Fun",
    "flags": 0,
    "sources": [
     "GoPlus",
     "RugCheck"
    ],
-   "url": "https://dexscreener.com/solana/bgt9hrwedn8tjwhrw14zyshxrg5sxhjmhrvsrtw1pdcy",
-   "scannedAt": 1791493113385
+   "url": "https://dexscreener.com/solana/2qwf4dn1jnqhcpayjqnkvakezzuuig4xdnbncsk1pgcw",
+   "scannedAt": 1791494388042
   }
  ]
 }
