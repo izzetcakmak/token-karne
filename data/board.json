@@ -1,5 +1,5 @@
 {
- "updatedAt": 1791495272386,
+ "updatedAt": 1791496126584,
  "threshold": 9,
  "scanned": 45,
  "items": [
@@ -25,9 +25,9 @@
     1,
     null
    ],
-   "liq": 510590,
-   "vol": 685577,
-   "mcap": 9565724,
+   "liq": 506265,
+   "vol": 694275,
+   "mcap": 9408441,
    "holders": 8121,
    "createdAt": 1787522174000,
    "handle": "tartprotocol",
@@ -37,7 +37,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x30000a407fabebe29439f8e437050512ff6661be",
-   "scannedAt": 1791495201736
+   "scannedAt": 1791496047935
   },
   {
    "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
@@ -61,9 +61,9 @@
     1,
     null
    ],
-   "liq": 253999,
-   "vol": 3707814,
-   "mcap": 5065460,
+   "liq": 248877,
+   "vol": 3765865,
+   "mcap": 4853902,
    "holders": 5633,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -74,44 +74,43 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1791495203520
+   "scannedAt": 1791496049555
   },
   {
-   "ca": "4sN5ek6KwNH39pgAusxz29YtcRBqvWH9baCUnP4cpump",
-   "chain": "solana",
-   "sym": "Schrodinger",
-   "name": "Quantum Cat",
-   "img": "https://cdn.dexscreener.com/cms/images/OYlv8v4sEUylS_u5?width=800&height=800&quality=95&format=auto",
+   "ca": "0xfE7aA5D845fC2130efEad8328d504d327793a038",
+   "chain": "bsc",
+   "sym": "GiggleHero",
+   "name": "Giggle Hero",
+   "img": "https://cdn.dexscreener.com/cms/images/oGYTBDjKqZWsZmK4?width=800&height=800&quality=95&format=auto",
    "score": 10,
-   "unknown": 2,
+   "unknown": 1,
    "answers": [
     1,
     1,
     1,
     1,
-    null,
     1,
     1,
     1,
+    0,
     1,
     1,
     1,
     null
    ],
-   "liq": 45177,
-   "vol": 483177,
-   "mcap": 269334,
-   "holders": 3801,
-   "createdAt": 1791490733000,
-   "handle": "QuantumCatSCH",
-   "launchpad": "Pump.Fun",
+   "liq": 78897,
+   "vol": 7661598,
+   "mcap": 2119728,
+   "holders": 5262,
+   "createdAt": 1791476686000,
+   "handle": "gigglehero_x",
+   "launchpad": null,
    "flags": 0,
    "sources": [
-    "GoPlus",
-    "RugCheck"
+    "GoPlus"
    ],
-   "url": "https://dexscreener.com/solana/5zhrypzzwdif8qgrxpeiovgf8t9kl5uubidf3cya83ts",
-   "scannedAt": 1791495213785
+   "url": "https://dexscreener.com/bsc/0x70ca598124f9a9e5d9e8521b92ed424a560d5617",
+   "scannedAt": 1791496057591
   },
   {
    "ca": "8ZCmwpW3MtC5UpNcZf7U4HMvRNTo71syU11BDiAFpump",
@@ -135,10 +134,10 @@
     1,
     null
    ],
-   "liq": 163676,
-   "vol": 4407584,
-   "mcap": 2951246,
-   "holders": 5746,
+   "liq": 164439,
+   "vol": 4470397,
+   "mcap": 2970565,
+   "holders": 5749,
    "createdAt": 1791466106000,
    "handle": "GaryCatX",
    "launchpad": "Pump.Fun",
@@ -148,7 +147,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/2uzutqejcxcr1eswmdgtpqewm5pcekewrsnvrpc1ehs1",
-   "scannedAt": 1791495204949
+   "scannedAt": 1791496053131
   },
   {
    "ca": "9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump",
@@ -172,10 +171,10 @@
     1,
     null
    ],
-   "liq": 127703,
-   "vol": 835385,
-   "mcap": 612497,
-   "holders": 10818,
+   "liq": 130239,
+   "vol": 821987,
+   "mcap": 647713,
+   "holders": 10814,
    "createdAt": 1791150590000,
    "handle": "gomo_family",
    "launchpad": "Pump.Fun",
@@ -185,7 +184,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5a7qurjlart146jajjype5nh6vlyfpn2qrhuslqbsczy",
-   "scannedAt": 1791495206370
+   "scannedAt": 1791496054637
   },
   {
    "ca": "0x7fb4758cB0C617c0baB1BAf80525Fab958637777",
@@ -209,9 +208,9 @@
     1,
     null
    ],
-   "liq": 101445,
-   "vol": 309539,
-   "mcap": 673040,
+   "liq": 99259,
+   "vol": 310527,
+   "mcap": 644781,
    "holders": 2082,
    "createdAt": 1787777934000,
    "handle": "BNBOBNB",
@@ -221,43 +220,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x7f7cac531dfad516b9bd55e63de2f773d00999cc",
-   "scannedAt": 1791495207833
-  },
-  {
-   "ca": "0xfE7aA5D845fC2130efEad8328d504d327793a038",
-   "chain": "bsc",
-   "sym": "GiggleHero",
-   "name": "Giggle Hero",
-   "img": "https://cdn.dexscreener.com/cms/images/oGYTBDjKqZWsZmK4?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 96138,
-   "vol": 7452682,
-   "mcap": 3139564,
-   "holders": 5262,
-   "createdAt": 1791476686000,
-   "handle": "gigglehero_x",
-   "launchpad": null,
-   "flags": 0,
-   "sources": [
-    "GoPlus"
-   ],
-   "url": "https://dexscreener.com/bsc/0x70ca598124f9a9e5d9e8521b92ed424a560d5617",
-   "scannedAt": 1791495209274
+   "scannedAt": 1791496056112
   },
   {
    "ca": "CmCHvr99aXrLDQB7jAtFtsBwg3DnXqq4spcTEMt7pump",
@@ -281,10 +244,10 @@
     1,
     null
    ],
-   "liq": 75594,
-   "vol": 1924454,
-   "mcap": 678975,
-   "holders": 7380,
+   "liq": 71672,
+   "vol": 1960986,
+   "mcap": 610138,
+   "holders": 7323,
    "createdAt": 1791478718000,
    "handle": "owlnight_meme",
    "launchpad": "Pump.Fun",
@@ -294,7 +257,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/bgt9hrwedn8tjwhrw14zyshxrg5sxhjmhrvsrtw1pdcy",
-   "scannedAt": 1791495238695
+   "scannedAt": 1791496059242
   },
   {
    "ca": "6hTLdzZaaCjmqtn7RtaEMQsCbXT5Pg8q76tRViEGpump",
@@ -318,9 +281,9 @@
     1,
     null
    ],
-   "liq": 42410,
-   "vol": 111073,
-   "mcap": 180145,
+   "liq": 43374,
+   "vol": 110353,
+   "mcap": 187527,
    "holders": 1076,
    "createdAt": 1790981217000,
    "handle": "AbuShalab_",
@@ -331,7 +294,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/2qwf4dn1jnqhcpayjqnkvakezzuuig4xdnbncsk1pgcw",
-   "scannedAt": 1791495212361
+   "scannedAt": 1791496061028
   }
  ]
 }
