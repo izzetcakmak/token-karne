@@ -1,5 +1,5 @@
 {
- "updatedAt": 1791474157046,
+ "updatedAt": 1791475036456,
  "threshold": 9,
  "scanned": 45,
  "items": [
@@ -25,9 +25,9 @@
     1,
     null
    ],
-   "liq": 534891,
-   "vol": 523665,
-   "mcap": 10302084,
+   "liq": 534820,
+   "vol": 542810,
+   "mcap": 10304343,
    "holders": 7082,
    "createdAt": 1787522174000,
    "handle": "tartprotocol",
@@ -37,7 +37,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x30000a407fabebe29439f8e437050512ff6661be",
-   "scannedAt": 1791474037654
+   "scannedAt": 1791474953073
   },
   {
    "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
@@ -61,9 +61,9 @@
     1,
     null
    ],
-   "liq": 284968,
-   "vol": 1692369,
-   "mcap": 6613315,
+   "liq": 293337,
+   "vol": 1885543,
+   "mcap": 6988064,
    "holders": 5633,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -74,7 +74,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1791474040282
+   "scannedAt": 1791474954734
   },
   {
    "ca": "AW1uyuM7hxzwqBoes88BbWKJPF3Sg7Kbu3TqR42spump",
@@ -98,10 +98,10 @@
     1,
     null
    ],
-   "liq": 35697,
-   "vol": 431167,
-   "mcap": 174848,
-   "holders": 1008,
+   "liq": 36291,
+   "vol": 439777,
+   "mcap": 180318,
+   "holders": 1078,
    "createdAt": 1791466563000,
    "handle": "PlayPadGames",
    "launchpad": "Pump.Fun",
@@ -111,7 +111,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/2jt75f3jpm8vynwu5vixmruwkwf6qulursesfh7hkplg",
-   "scannedAt": 1791474041974
+   "scannedAt": 1791474956777
   },
   {
    "ca": "H74CYmXgMkYHYuSRsZt6RJb4NYp2u72Vw8BS5huApump",
@@ -135,9 +135,9 @@
     1,
     null
    ],
-   "liq": 338437,
-   "vol": 592798,
-   "mcap": 2328547,
+   "liq": 331609,
+   "vol": 594666,
+   "mcap": 2220737,
    "holders": 11083,
    "createdAt": 1760756416000,
    "handle": "theLMAOcoin",
@@ -148,7 +148,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/afayrfh7huynkv5mbvbnrhwx29m9jzul3ysgtqz69auv",
-   "scannedAt": 1791474045318
+   "scannedAt": 1791474958777
+  },
+  {
+   "ca": "9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump",
+   "chain": "solana",
+   "sym": "GOMO",
+   "name": "Gomo App",
+   "img": "https://cdn.dexscreener.com/cms/images/oKyBDuIHI7W2lUnK?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 2,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    null,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 123739,
+   "vol": 1151551,
+   "mcap": 630019,
+   "holders": 10782,
+   "createdAt": 1791150590000,
+   "handle": "gomo_family",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/5a7qurjlart146jajjype5nh6vlyfpn2qrhuslqbsczy",
+   "scannedAt": 1791475017450
   },
   {
    "ca": "0x7fb4758cB0C617c0baB1BAf80525Fab958637777",
@@ -172,9 +209,9 @@
     1,
     null
    ],
-   "liq": 96785,
-   "vol": 232286,
-   "mcap": 615985,
+   "liq": 92373,
+   "vol": 237455,
+   "mcap": 559499,
    "holders": 1979,
    "createdAt": 1787777934000,
    "handle": "BNBOBNB",
@@ -184,7 +221,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x7f7cac531dfad516b9bd55e63de2f773d00999cc",
-   "scannedAt": 1791474057761
+   "scannedAt": 1791474960267
   }
  ]
 }
