@@ -1,19 +1,18 @@
 {
- "updatedAt": 1791432726824,
+ "updatedAt": 1791434378129,
  "threshold": 9,
  "scanned": 45,
  "items": [
   {
-   "ca": "0x9811ea1264592CdD442Ca4216808DC81C645ac7B",
-   "chain": "bsc",
-   "sym": "BIBI",
-   "name": "Binance Bibi",
-   "img": "https://cdn.dexscreener.com/cms/images/anZwfDlNBHbV4_X8?width=800&height=800&quality=95&format=auto",
+   "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
+   "chain": "solana",
+   "sym": "MISTAKE",
+   "name": "Make No Mistakes",
+   "img": "https://cdn.dexscreener.com/cms/images/S3VS6ZPJzJ-72iRm?width=800&height=800&quality=95&format=auto",
    "score": 10,
-   "unknown": 2,
+   "unknown": 1,
    "answers": [
     1,
-    null,
     1,
     1,
     1,
@@ -22,22 +21,24 @@
     1,
     1,
     1,
+    0,
     1,
     null
    ],
-   "liq": 131966,
-   "vol": 7541995,
-   "mcap": 2791268,
-   "holders": 2462,
-   "createdAt": 1791411970000,
-   "handle": "bibibsc_x",
-   "launchpad": null,
+   "liq": 266752,
+   "vol": 1205548,
+   "mcap": 5547870,
+   "holders": 4914,
+   "createdAt": 1789093171000,
+   "handle": "nomistakesfun",
+   "launchpad": "Pump.Fun",
    "flags": 0,
    "sources": [
-    "GoPlus"
+    "GoPlus",
+    "RugCheck"
    ],
-   "url": "https://dexscreener.com/bsc/0x5672a308f53e69fd52f5066209107fb4e1db975c",
-   "scannedAt": 1791432651447
+   "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
+   "scannedAt": 1791434304980
   },
   {
    "ca": "45VHsie7CwFfPKWCw28PCdZdJWMA5Y6k56wDam9Hpump",
@@ -61,10 +62,10 @@
     1,
     null
    ],
-   "liq": 104410,
-   "vol": 3434153,
-   "mcap": 1137135,
-   "holders": 8384,
+   "liq": 91711,
+   "vol": 3454373,
+   "mcap": 881216,
+   "holders": 8302,
    "createdAt": 1791322572000,
    "handle": "Ferarrinu",
    "launchpad": "Pump.Fun",
@@ -74,7 +75,43 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/a2asuorcetj9kwkmzhf3pvsslgzrnmnghiqku8uegqmj",
-   "scannedAt": 1791432653343
+   "scannedAt": 1791434301839
+  },
+  {
+   "ca": "0x9811ea1264592CdD442Ca4216808DC81C645ac7B",
+   "chain": "bsc",
+   "sym": "BIBI",
+   "name": "Binance Bibi",
+   "img": "https://cdn.dexscreener.com/cms/images/anZwfDlNBHbV4_X8?width=800&height=800&quality=95&format=auto",
+   "score": 10,
+   "unknown": 2,
+   "answers": [
+    1,
+    null,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 58517,
+   "vol": 7845254,
+   "mcap": 547753,
+   "holders": 2462,
+   "createdAt": 1791411970000,
+   "handle": "bibibsc_x",
+   "launchpad": null,
+   "flags": 0,
+   "sources": [
+    "GoPlus"
+   ],
+   "url": "https://dexscreener.com/bsc/0x5672a308f53e69fd52f5066209107fb4e1db975c",
+   "scannedAt": 1791434300203
   },
   {
    "ca": "H74CYmXgMkYHYuSRsZt6RJb4NYp2u72Vw8BS5huApump",
@@ -98,9 +135,9 @@
     1,
     null
    ],
-   "liq": 353767,
-   "vol": 576354,
-   "mcap": 2390471,
+   "liq": 350941,
+   "vol": 578480,
+   "mcap": 2356378,
    "holders": 10765,
    "createdAt": 1760756416000,
    "handle": "theLMAOcoin",
@@ -111,44 +148,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/afayrfh7huynkv5mbvbnrhwx29m9jzul3ysgtqz69auv",
-   "scannedAt": 1791432655245
-  },
-  {
-   "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
-   "chain": "solana",
-   "sym": "MISTAKE",
-   "name": "Make No Mistakes",
-   "img": "https://cdn.dexscreener.com/cms/images/S3VS6ZPJzJ-72iRm?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    null
-   ],
-   "liq": 280780,
-   "vol": 1133950,
-   "mcap": 6132362,
-   "holders": 14084,
-   "createdAt": 1789093171000,
-   "handle": "nomistakesfun",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1791432649898
+   "scannedAt": 1791434303334
   },
   {
    "ca": "9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump",
@@ -172,10 +172,10 @@
     1,
     null
    ],
-   "liq": 149810,
-   "vol": 1945635,
-   "mcap": 777597,
-   "holders": 10433,
+   "liq": 147471,
+   "vol": 1901232,
+   "mcap": 746959,
+   "holders": 10439,
    "createdAt": 1791150590000,
    "handle": "gomo_family",
    "launchpad": "Pump.Fun",
@@ -185,7 +185,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5a7qurjlart146jajjype5nh6vlyfpn2qrhuslqbsczy",
-   "scannedAt": 1791432657178
+   "scannedAt": 1791434306469
   },
   {
    "ca": "CscZaq5twomhUkvCY8Jdd1tge32L4Yj9FbkFFEZQpump",
@@ -209,9 +209,9 @@
     1,
     null
    ],
-   "liq": 133786,
-   "vol": 1516963,
-   "mcap": 444936,
+   "liq": 132873,
+   "vol": 1485880,
+   "mcap": 444727,
    "holders": 6748,
    "createdAt": 1791027343000,
    "handle": "Yersiniapestisz",
@@ -222,7 +222,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/9gbxhym9gxdzh3u6unw71yxaixabkg8k7eegywh2wqgg",
-   "scannedAt": 1791432658656
+   "scannedAt": 1791434308391
   },
   {
    "ca": "5GefefPX1mDs6ZJB1apYmz6fCTCiNJpHturZ9bvFpump",
@@ -246,9 +246,9 @@
     1,
     null
    ],
-   "liq": 105438,
-   "vol": 271159,
-   "mcap": 1144426,
+   "liq": 104486,
+   "vol": 272310,
+   "mcap": 1125949,
    "holders": 2872,
    "createdAt": 1788551378000,
    "handle": "Pumpoweenonpump",
@@ -259,7 +259,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/8nvfb1unnk9adtl5hoof8hahf2rt4glpwx9cteadikhg",
-   "scannedAt": 1791432660129
+   "scannedAt": 1791434309871
   }
  ]
 }
