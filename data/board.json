@@ -1,5 +1,5 @@
 {
- "updatedAt": 1791501302673,
+ "updatedAt": 1791502297609,
  "threshold": 9,
  "scanned": 45,
  "items": [
@@ -25,10 +25,10 @@
     1,
     null
    ],
-   "liq": 512952,
-   "vol": 734415,
-   "mcap": 9598500,
-   "holders": 8121,
+   "liq": 513008,
+   "vol": 741560,
+   "mcap": 9598001,
+   "holders": 8418,
    "createdAt": 1787522174000,
    "handle": "tartprotocol",
    "launchpad": null,
@@ -37,7 +37,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x30000a407fabebe29439f8e437050512ff6661be",
-   "scannedAt": 1791501231864
+   "scannedAt": 1791502213378
   },
   {
    "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
@@ -61,9 +61,9 @@
     1,
     null
    ],
-   "liq": 238876,
-   "vol": 3866984,
-   "mcap": 4456634,
+   "liq": 238992,
+   "vol": 3860926,
+   "mcap": 4455330,
    "holders": 5633,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -74,7 +74,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1791501233552
+   "scannedAt": 1791502215339
+  },
+  {
+   "ca": "5MS2zt6GU3KU4r8qn2gZc8W2yKdtPkLVxFDRe8WJpump",
+   "chain": "solana",
+   "sym": "ECSTACRAFT",
+   "name": "ECSTACRAFT",
+   "img": "https://cdn.dexscreener.com/cms/images/0oKGOWC7huU6cqXp?width=800&height=800&quality=95&format=auto",
+   "score": 10,
+   "unknown": 2,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    null,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 78094,
+   "vol": 3020946,
+   "mcap": 577057,
+   "holders": 2364,
+   "createdAt": 1791499180000,
+   "handle": "ecstacraft",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/j6mdru9cyxqaxasthhpf8ym1gyrfwrmqfwptwlvhgs7n",
+   "scannedAt": 1791502231398
   },
   {
    "ca": "Y9ccqrALa5Yr3Bxzv8NQe37KP1Yy9uTCSJuap4Cpump",
@@ -98,10 +135,10 @@
     1,
     null
    ],
-   "liq": 69126,
-   "vol": 1842813,
-   "mcap": 390062,
-   "holders": 5649,
+   "liq": 63601,
+   "vol": 1996742,
+   "mcap": 312816,
+   "holders": 6083,
    "createdAt": 1791488781000,
    "handle": "Pumpfun",
    "launchpad": "Pump.Fun",
@@ -111,44 +148,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/ctxjku4mhxomksq7alkfobs5fwgbqd4maga2unfmermi",
-   "scannedAt": 1791501234974
-  },
-  {
-   "ca": "2fRNsk65Gzx5hMNQDvuGYSxbVygdZiAe2UwmkwnVpump",
-   "chain": "solana",
-   "sym": "tok",
-   "name": "TikTok dog",
-   "img": "https://cdn.dexscreener.com/cms/images/21a-BeururJdwmTO?width=800&height=800&quality=95&format=auto",
-   "score": 10,
-   "unknown": 2,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    null,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 37681,
-   "vol": 220574,
-   "mcap": 196560,
-   "holders": 2030,
-   "createdAt": 1791500444000,
-   "handle": "tokdogsolworld",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/gvepm44spx8yavswzmybb5piyba4txgrkkipbuc4gmzg",
-   "scannedAt": 1791501242105
+   "scannedAt": 1791502216990
   },
   {
    "ca": "8ZCmwpW3MtC5UpNcZf7U4HMvRNTo71syU11BDiAFpump",
@@ -172,10 +172,10 @@
     1,
     null
    ],
-   "liq": 146433,
-   "vol": 4841473,
-   "mcap": 2337900,
-   "holders": 5748,
+   "liq": 143736,
+   "vol": 4902065,
+   "mcap": 2247471,
+   "holders": 5752,
    "createdAt": 1791466106000,
    "handle": "GaryCatX",
    "launchpad": "Pump.Fun",
@@ -185,7 +185,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/2uzutqejcxcr1eswmdgtpqewm5pcekewrsnvrpc1ehs1",
-   "scannedAt": 1791501236398
+   "scannedAt": 1791502220895
   },
   {
    "ca": "9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump",
@@ -209,10 +209,10 @@
     1,
     null
    ],
-   "liq": 122552,
-   "vol": 796722,
-   "mcap": 723728,
-   "holders": 10842,
+   "liq": 127053,
+   "vol": 792316,
+   "mcap": 754334,
+   "holders": 10840,
    "createdAt": 1791150590000,
    "handle": "gomo_family",
    "launchpad": "Pump.Fun",
@@ -222,7 +222,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5a7qurjlart146jajjype5nh6vlyfpn2qrhuslqbsczy",
-   "scannedAt": 1791501237819
+   "scannedAt": 1791502222506
   },
   {
    "ca": "0x7fb4758cB0C617c0baB1BAf80525Fab958637777",
@@ -246,10 +246,10 @@
     1,
     null
    ],
-   "liq": 96794,
-   "vol": 322032,
-   "mcap": 609238,
-   "holders": 2063,
+   "liq": 97040,
+   "vol": 322827,
+   "mcap": 615345,
+   "holders": 2060,
    "createdAt": 1787777934000,
    "handle": "BNBOBNB",
    "launchpad": null,
@@ -258,22 +258,22 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x7f7cac531dfad516b9bd55e63de2f773d00999cc",
-   "scannedAt": 1791501239249
+   "scannedAt": 1791502224076
   },
   {
-   "ca": "CmCHvr99aXrLDQB7jAtFtsBwg3DnXqq4spcTEMt7pump",
+   "ca": "5GefefPX1mDs6ZJB1apYmz6fCTCiNJpHturZ9bvFpump",
    "chain": "solana",
-   "sym": "OWLNIGHT",
-   "name": "Owl Nighter",
-   "img": "https://cdn.dexscreener.com/cms/images/d2dQRXO-jGdSGc7e?width=800&height=800&quality=95&format=auto",
+   "sym": "Pumpoween",
+   "name": "Pumpoween",
+   "img": "https://cdn.dexscreener.com/cms/images/o6qYdn_9zPxDDdf4?width=800&height=800&quality=95&format=auto",
    "score": 9,
-   "unknown": 2,
+   "unknown": 1,
    "answers": [
     1,
     1,
     1,
     1,
-    null,
+    0,
     0,
     1,
     1,
@@ -282,20 +282,20 @@
     1,
     null
    ],
-   "liq": 70021,
-   "vol": 2311535,
-   "mcap": 571336,
-   "holders": 9124,
-   "createdAt": 1791478718000,
-   "handle": "owlnight_meme",
+   "liq": 96775,
+   "vol": 95084,
+   "mcap": 1025638,
+   "holders": 2041,
+   "createdAt": 1788551378000,
+   "handle": "Pumpoweenonpump",
    "launchpad": "Pump.Fun",
    "flags": 0,
    "sources": [
     "GoPlus",
     "RugCheck"
    ],
-   "url": "https://dexscreener.com/solana/bgt9hrwedn8tjwhrw14zyshxrg5sxhjmhrvsrtw1pdcy",
-   "scannedAt": 1791501276775
+   "url": "https://dexscreener.com/solana/8nvfb1unnk9adtl5hoof8hahf2rt4glpwx9cteadikhg",
+   "scannedAt": 1791502229491
   },
   {
    "ca": "6hTLdzZaaCjmqtn7RtaEMQsCbXT5Pg8q76tRViEGpump",
@@ -319,9 +319,9 @@
     1,
     null
    ],
-   "liq": 43624,
-   "vol": 136064,
-   "mcap": 188773,
+   "liq": 44308,
+   "vol": 127027,
+   "mcap": 194054,
    "holders": 1076,
    "createdAt": 1790981217000,
    "handle": "AbuShalab_",
@@ -332,7 +332,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/2qwf4dn1jnqhcpayjqnkvakezzuuig4xdnbncsk1pgcw",
-   "scannedAt": 1791501240682
+   "scannedAt": 1791502228019
   }
  ]
 }
