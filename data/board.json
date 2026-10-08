@@ -1,8 +1,45 @@
 {
- "updatedAt": 1791444918720,
+ "updatedAt": 1791446167851,
  "threshold": 9,
  "scanned": 45,
  "items": [
+  {
+   "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
+   "chain": "solana",
+   "sym": "MISTAKE",
+   "name": "Make No Mistakes",
+   "img": "https://cdn.dexscreener.com/cms/images/S3VS6ZPJzJ-72iRm?width=800&height=800&quality=95&format=auto",
+   "score": 10,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    null
+   ],
+   "liq": 258424,
+   "vol": 1281663,
+   "mcap": 5202858,
+   "holders": 4914,
+   "createdAt": 1789093171000,
+   "handle": "nomistakesfun",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
+   "scannedAt": 1791446085046
+  },
   {
    "ca": "0x7AB8d02CBb51Ff7223fDe700eAaa2a91Bf750314",
    "chain": "bsc",
@@ -25,9 +62,9 @@
     0,
     null
    ],
-   "liq": 505999,
-   "vol": 235737,
-   "mcap": 8787275,
+   "liq": 501391,
+   "vol": 238006,
+   "mcap": 8641772,
    "holders": 6924,
    "createdAt": 1787522174000,
    "handle": "tartprotocol",
@@ -37,7 +74,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x30000a407fabebe29439f8e437050512ff6661be",
-   "scannedAt": 1791444851159
+   "scannedAt": 1791446081328
   },
   {
    "ca": "H74CYmXgMkYHYuSRsZt6RJb4NYp2u72Vw8BS5huApump",
@@ -61,9 +98,9 @@
     1,
     null
    ],
-   "liq": 352903,
-   "vol": 582930,
-   "mcap": 2384989,
+   "liq": 352216,
+   "vol": 581171,
+   "mcap": 2379968,
    "holders": 10765,
    "createdAt": 1760756416000,
    "handle": "theLMAOcoin",
@@ -74,44 +111,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/afayrfh7huynkv5mbvbnrhwx29m9jzul3ysgtqz69auv",
-   "scannedAt": 1791444852698
-  },
-  {
-   "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
-   "chain": "solana",
-   "sym": "MISTAKE",
-   "name": "Make No Mistakes",
-   "img": "https://cdn.dexscreener.com/cms/images/S3VS6ZPJzJ-72iRm?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    null
-   ],
-   "liq": 254851,
-   "vol": 1286080,
-   "mcap": 5049655,
-   "holders": 4914,
-   "createdAt": 1789093171000,
-   "handle": "nomistakesfun",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1791444849751
+   "scannedAt": 1791446083211
   },
   {
    "ca": "9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump",
@@ -135,10 +135,10 @@
     1,
     null
    ],
-   "liq": 150452,
-   "vol": 1875944,
-   "mcap": 855508,
-   "holders": 10821,
+   "liq": 151273,
+   "vol": 1878678,
+   "mcap": 922847,
+   "holders": 10843,
    "createdAt": 1791150590000,
    "handle": "gomo_family",
    "launchpad": "Pump.Fun",
@@ -148,7 +148,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5a7qurjlart146jajjype5nh6vlyfpn2qrhuslqbsczy",
-   "scannedAt": 1791444855944
+   "scannedAt": 1791446086759
   },
   {
    "ca": "CscZaq5twomhUkvCY8Jdd1tge32L4Yj9FbkFFEZQpump",
@@ -172,9 +172,9 @@
     1,
     null
    ],
-   "liq": 139134,
-   "vol": 1308998,
-   "mcap": 495721,
+   "liq": 139714,
+   "vol": 1302941,
+   "mcap": 510098,
    "holders": 6748,
    "createdAt": 1791027343000,
    "handle": "Yersiniapestisz",
@@ -185,7 +185,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/9gbxhym9gxdzh3u6unw71yxaixabkg8k7eegywh2wqgg",
-   "scannedAt": 1791444854261
+   "scannedAt": 1791446088272
   },
   {
    "ca": "5GefefPX1mDs6ZJB1apYmz6fCTCiNJpHturZ9bvFpump",
@@ -209,9 +209,9 @@
     1,
     null
    ],
-   "liq": 101472,
-   "vol": 271616,
-   "mcap": 1061799,
+   "liq": 101312,
+   "vol": 265076,
+   "mcap": 1060919,
    "holders": 2872,
    "createdAt": 1788551378000,
    "handle": "Pumpoweenonpump",
@@ -222,7 +222,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/8nvfb1unnk9adtl5hoof8hahf2rt4glpwx9cteadikhg",
-   "scannedAt": 1791444857349
+   "scannedAt": 1791446089733
   }
  ]
 }
