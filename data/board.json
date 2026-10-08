@@ -1,5 +1,5 @@
 {
- "updatedAt": 1791456472925,
+ "updatedAt": 1791457050804,
  "threshold": 9,
  "scanned": 45,
  "items": [
@@ -25,9 +25,9 @@
     1,
     null
    ],
-   "liq": 490497,
-   "vol": 262869,
-   "mcap": 8322308,
+   "liq": 490549,
+   "vol": 263465,
+   "mcap": 8338257,
    "holders": 6944,
    "createdAt": 1787522174000,
    "handle": "tartprotocol",
@@ -37,7 +37,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x30000a407fabebe29439f8e437050512ff6661be",
-   "scannedAt": 1791456391767
+   "scannedAt": 1791456965527
   },
   {
    "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
@@ -61,9 +61,9 @@
     1,
     null
    ],
-   "liq": 287610,
-   "vol": 1303136,
-   "mcap": 6471908,
+   "liq": 286949,
+   "vol": 1302372,
+   "mcap": 6439032,
    "holders": 4914,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -74,7 +74,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1791456395253
+   "scannedAt": 1791456967989
   },
   {
    "ca": "H74CYmXgMkYHYuSRsZt6RJb4NYp2u72Vw8BS5huApump",
@@ -98,9 +98,9 @@
     1,
     null
    ],
-   "liq": 350140,
-   "vol": 597982,
-   "mcap": 2362599,
+   "liq": 348600,
+   "vol": 598074,
+   "mcap": 2337405,
    "holders": 10765,
    "createdAt": 1760756416000,
    "handle": "theLMAOcoin",
@@ -111,7 +111,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/afayrfh7huynkv5mbvbnrhwx29m9jzul3ysgtqz69auv",
-   "scannedAt": 1791456393758
+   "scannedAt": 1791456969493
   },
   {
    "ca": "9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump",
@@ -135,9 +135,9 @@
     1,
     null
    ],
-   "liq": 151704,
-   "vol": 1664204,
-   "mcap": 871165,
+   "liq": 152020,
+   "vol": 1651602,
+   "mcap": 887896,
    "holders": 10830,
    "createdAt": 1791150590000,
    "handle": "gomo_family",
@@ -148,7 +148,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5a7qurjlart146jajjype5nh6vlyfpn2qrhuslqbsczy",
-   "scannedAt": 1791456397362
+   "scannedAt": 1791456970972
   },
   {
    "ca": "5GefefPX1mDs6ZJB1apYmz6fCTCiNJpHturZ9bvFpump",
@@ -172,9 +172,9 @@
     1,
     null
    ],
-   "liq": 96008,
-   "vol": 227489,
-   "mcap": 960440,
+   "liq": 96021,
+   "vol": 227381,
+   "mcap": 960285,
    "holders": 1823,
    "createdAt": 1788551378000,
    "handle": "Pumpoweenonpump",
@@ -185,7 +185,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/8nvfb1unnk9adtl5hoof8hahf2rt4glpwx9cteadikhg",
-   "scannedAt": 1791456399300
+   "scannedAt": 1791456972435
   }
  ]
 }
