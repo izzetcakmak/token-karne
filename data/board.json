@@ -1,5 +1,5 @@
 {
- "updatedAt": 1791586658014,
+ "updatedAt": 1791587638494,
  "threshold": 9,
  "scanned": 45,
  "items": [
@@ -25,9 +25,9 @@
     1,
     null
    ],
-   "liq": 621518,
-   "vol": 986962,
-   "mcap": 13786163,
+   "liq": 636567,
+   "vol": 990692,
+   "mcap": 14426210,
    "holders": 10877,
    "createdAt": 1787522174000,
    "handle": "tartprotocol",
@@ -37,7 +37,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x30000a407fabebe29439f8e437050512ff6661be",
-   "scannedAt": 1791586580537
+   "scannedAt": 1791587560623
   },
   {
    "ca": "5yuiTSNd32qxBM4rkuxqNd6gaSLBqCykJEaKwK4Jpump",
@@ -61,10 +61,10 @@
     1,
     null
    ],
-   "liq": 56118,
-   "vol": 718482,
-   "mcap": 408479,
-   "holders": 5373,
+   "liq": 55767,
+   "vol": 757962,
+   "mcap": 402792,
+   "holders": 5752,
    "createdAt": 1791571624000,
    "handle": "SuperWhaleCoin",
    "launchpad": "Pump.Fun",
@@ -74,14 +74,14 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/ayhexwrxqtpt9zkjc3ysiela1kcquakgxw6o8utqfv2",
-   "scannedAt": 1791586582581
+   "scannedAt": 1791587562903
   },
   {
-   "ca": "7mS3UP5vh4GD5jA3XjCZyT2KVwBhLNanjRn17Wfpump",
+   "ca": "7q5EzCuaTYdhJrjzttUcisDH4Uk7NNEtPGvorkKkpump",
    "chain": "solana",
-   "sym": "Q/ACC",
-   "name": "Quantum Accelerationism",
-   "img": "https://cdn.dexscreener.com/cms/images/CQKJNZudf0sp82nc?width=800&height=800&quality=95&format=auto",
+   "sym": "CATFLIX",
+   "name": "Catflix",
+   "img": "https://cdn.dexscreener.com/cms/images/yFI_DQvfnrCvM6Ak?width=800&height=800&quality=95&format=auto",
    "score": 10,
    "unknown": 2,
    "answers": [
@@ -98,20 +98,20 @@
     1,
     null
    ],
-   "liq": 31616,
-   "vol": 507614,
-   "mcap": 129309,
-   "holders": 2487,
-   "createdAt": 1791580249000,
-   "handle": "Q_ACConx",
+   "liq": 37477,
+   "vol": 215734,
+   "mcap": 196830,
+   "holders": 5202,
+   "createdAt": 1791586393000,
+   "handle": "CatflixSolWtf",
    "launchpad": "Pump.Fun",
    "flags": 0,
    "sources": [
     "GoPlus",
     "RugCheck"
    ],
-   "url": "https://dexscreener.com/solana/qt7hgbwov9vpcbemtkalqkcufv7jjla2zxmxruhzczn",
-   "scannedAt": 1791586584051
+   "url": "https://dexscreener.com/solana/7rgmvpcuromfybww5dhq7fifms4nq2fucer3ef5iwrs9",
+   "scannedAt": 1791587578128
   },
   {
    "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
@@ -135,9 +135,9 @@
     1,
     null
    ],
-   "liq": 168614,
-   "vol": 704882,
-   "mcap": 2223430,
+   "liq": 168026,
+   "vol": 699610,
+   "mcap": 2210260,
    "holders": 12272,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -148,7 +148,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1791586585672
+   "scannedAt": 1791587565878
   },
   {
    "ca": "0x7d03759E5B41E36899833cb2E008455d69A24444",
@@ -172,9 +172,9 @@
     0,
     null
    ],
-   "liq": 116629,
-   "vol": 54663,
-   "mcap": 207811,
+   "liq": 116652,
+   "vol": 54319,
+   "mcap": 207850,
    "holders": 72636,
    "createdAt": 1757345211000,
    "handle": "PricelessBSC_",
@@ -184,7 +184,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x3dc2878f9f60476dbbb18af7531fbe1a603c8dc0",
-   "scannedAt": 1791586587599
+   "scannedAt": 1791587567913
   },
   {
    "ca": "9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump",
@@ -208,9 +208,9 @@
     1,
     null
    ],
-   "liq": 115078,
-   "vol": 425991,
-   "mcap": 718048,
+   "liq": 113571,
+   "vol": 428751,
+   "mcap": 731045,
    "holders": 4120,
    "createdAt": 1791150590000,
    "handle": "gomo_family",
@@ -221,7 +221,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5a7qurjlart146jajjype5nh6vlyfpn2qrhuslqbsczy",
-   "scannedAt": 1791586589490
+   "scannedAt": 1791587569469
   },
   {
    "ca": "AyYNfPtftg2zDP4ZbgcoQMggQtwLh4zpfVVmUJs2thto",
@@ -245,9 +245,9 @@
     1,
     null
    ],
-   "liq": 67598,
-   "vol": 36332,
-   "mcap": 233945,
+   "liq": 68212,
+   "vol": 36780,
+   "mcap": 238538,
    "holders": 2983,
    "createdAt": 1789657930000,
    "handle": "tilcayo",
@@ -258,7 +258,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/asgoadvedl8zjn6kluimsh9m8x2yyaezpsuspvxhj3ly",
-   "scannedAt": 1791586591426
+   "scannedAt": 1791587571077
   },
   {
    "ca": "7SsZWPvLHpMizSGD8RByEbjUA8VatHWAts4UpjB4pump",
@@ -282,10 +282,10 @@
     1,
     null
    ],
-   "liq": 61321,
-   "vol": 1374704,
-   "mcap": 469286,
-   "holders": 5433,
+   "liq": 64816,
+   "vol": 1409437,
+   "mcap": 521859,
+   "holders": 5889,
    "createdAt": 1791559797000,
    "handle": "QCoin_Sol",
    "launchpad": "Pump.Fun",
@@ -295,7 +295,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/6nnqpx13zkshe66rrc4pnhkxpciem4pkraej5my88uam",
-   "scannedAt": 1791586593009
+   "scannedAt": 1791587573030
   },
   {
    "ca": "8DXqVUopcdviLvujTcpwEqkKzB43Arp6E1axzsEE5Btq",
@@ -319,9 +319,9 @@
     1,
     null
    ],
-   "liq": 50366,
-   "vol": 94556,
-   "mcap": 201513,
+   "liq": 50102,
+   "vol": 94158,
+   "mcap": 199614,
    "holders": 2380,
    "createdAt": 1790542136000,
    "handle": "moincoinfun",
@@ -332,44 +332,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/cbr2ul7ktbr8muutj3fycurzerp28ga2p1vpumeky1je",
-   "scannedAt": 1791586594911
-  },
-  {
-   "ca": "EGvw8HD3sMZM7LBArJ535kKWSZb99jnBLo8YZSPjpump",
-   "chain": "solana",
-   "sym": "QM",
-   "name": "Quantum Money",
-   "img": "https://cdn.dexscreener.com/cms/images/dZfzimZM6tN1aBvN?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 2,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    null,
-    1,
-    1,
-    0,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 40841,
-   "vol": 601209,
-   "mcap": 218993,
-   "holders": 3101,
-   "createdAt": 1791583254000,
-   "handle": "QuantumMoneyX",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/5z9aftfvdeeszhie6ftbmx3uxcyw1f1sejhzxh34jqgz",
-   "scannedAt": 1791586596838
+   "scannedAt": 1791587574842
   }
  ]
 }
