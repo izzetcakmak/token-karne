@@ -1,5 +1,5 @@
 {
- "updatedAt": 1791525573526,
+ "updatedAt": 1791527872010,
  "threshold": 9,
  "scanned": 45,
  "items": [
@@ -25,9 +25,9 @@
     1,
     null
    ],
-   "liq": 535280,
-   "vol": 926521,
-   "mcap": 10425603,
+   "liq": 536096,
+   "vol": 944530,
+   "mcap": 10444407,
    "holders": 9283,
    "createdAt": 1787522174000,
    "handle": "tartprotocol",
@@ -37,7 +37,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x30000a407fabebe29439f8e437050512ff6661be",
-   "scannedAt": 1791525492069
+   "scannedAt": 1791527799273
   },
   {
    "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
@@ -61,9 +61,9 @@
     1,
     null
    ],
-   "liq": 196102,
-   "vol": 3350882,
-   "mcap": 2999251,
+   "liq": 197025,
+   "vol": 3355384,
+   "mcap": 3017675,
    "holders": 11001,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -74,43 +74,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1791525495834
-  },
-  {
-   "ca": "0xf7E575Be59e38a0Bd0984a6DE368029E57B48ae5",
-   "chain": "bsc",
-   "sym": "BAI",
-   "name": "Binance AI",
-   "img": "https://cdn.dexscreener.com/cms/images/l3o_JbK0SNcD1LWP?width=800&height=800&quality=95&format=auto",
-   "score": 10,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 64236,
-   "vol": 5731346,
-   "mcap": 1405725,
-   "holders": 4316,
-   "createdAt": 1791501209000,
-   "handle": "binanceaionx",
-   "launchpad": null,
-   "flags": 0,
-   "sources": [
-    "GoPlus"
-   ],
-   "url": "https://dexscreener.com/bsc/0x0faae4212bdf3e6c3dcb9d254af6996a1edc702b",
-   "scannedAt": 1791525494193
+   "scannedAt": 1791527800800
   },
   {
    "ca": "Y9ccqrALa5Yr3Bxzv8NQe37KP1Yy9uTCSJuap4Cpump",
@@ -134,10 +98,10 @@
     1,
     null
    ],
-   "liq": 36641,
-   "vol": 2465050,
-   "mcap": 137519,
-   "holders": 6819,
+   "liq": 37639,
+   "vol": 2470564,
+   "mcap": 144129,
+   "holders": 6831,
    "createdAt": 1791488781000,
    "handle": "Pumpfun",
    "launchpad": "Pump.Fun",
@@ -147,7 +111,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/ctxjku4mhxomksq7alkfobs5fwgbqd4maga2unfmermi",
-   "scannedAt": 1791525508844
+   "scannedAt": 1791527804194
   },
   {
    "ca": "8ZCmwpW3MtC5UpNcZf7U4HMvRNTo71syU11BDiAFpump",
@@ -171,10 +135,10 @@
     1,
     null
    ],
-   "liq": 115843,
-   "vol": 5979465,
-   "mcap": 1426580,
-   "holders": 7017,
+   "liq": 109190,
+   "vol": 6072057,
+   "mcap": 1262153,
+   "holders": 6855,
    "createdAt": 1791466106000,
    "handle": "GaryCatX",
    "launchpad": "Pump.Fun",
@@ -184,7 +148,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/2uzutqejcxcr1eswmdgtpqewm5pcekewrsnvrpc1ehs1",
-   "scannedAt": 1791525497808
+   "scannedAt": 1791527805650
   },
   {
    "ca": "0x7fb4758cB0C617c0baB1BAf80525Fab958637777",
@@ -208,9 +172,9 @@
     1,
     null
    ],
-   "liq": 105358,
-   "vol": 350319,
-   "mcap": 720529,
+   "liq": 100553,
+   "vol": 352828,
+   "mcap": 655349,
    "holders": 2077,
    "createdAt": 1787777934000,
    "handle": "BNBOBNB",
@@ -220,7 +184,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x7f7cac531dfad516b9bd55e63de2f773d00999cc",
-   "scannedAt": 1791525499833
+   "scannedAt": 1791527807221
   },
   {
    "ca": "5GefefPX1mDs6ZJB1apYmz6fCTCiNJpHturZ9bvFpump",
@@ -244,10 +208,10 @@
     1,
     null
    ],
-   "liq": 94437,
-   "vol": 114625,
-   "mcap": 975755,
-   "holders": 2041,
+   "liq": 95186,
+   "vol": 114218,
+   "mcap": 988575,
+   "holders": 2586,
    "createdAt": 1788551378000,
    "handle": "Pumpoweenonpump",
    "launchpad": "Pump.Fun",
@@ -257,7 +221,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/8nvfb1unnk9adtl5hoof8hahf2rt4glpwx9cteadikhg",
-   "scannedAt": 1791525501479
+   "scannedAt": 1791527808684
   },
   {
    "ca": "CmCHvr99aXrLDQB7jAtFtsBwg3DnXqq4spcTEMt7pump",
@@ -281,10 +245,10 @@
     1,
     null
    ],
-   "liq": 80973,
-   "vol": 4198632,
-   "mcap": 695226,
-   "holders": 15850,
+   "liq": 76565,
+   "vol": 4294479,
+   "mcap": 618594,
+   "holders": 15909,
    "createdAt": 1791478718000,
    "handle": "owlnight_meme",
    "launchpad": "Pump.Fun",
@@ -294,7 +258,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/bgt9hrwedn8tjwhrw14zyshxrg5sxhjmhrvsrtw1pdcy",
-   "scannedAt": 1791525503131
+   "scannedAt": 1791527810132
+  },
+  {
+   "ca": "DsgtDh4kgo5BZjaeC8b8DRir9eHFpbDdwB8aioyDpump",
+   "chain": "solana",
+   "sym": "OctoBul",
+   "name": "OctoBul",
+   "img": "https://cdn.dexscreener.com/cms/images/PYWIzxMBNHxMGso2?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 2,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    null,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 49274,
+   "vol": 2384454,
+   "mcap": 260088,
+   "holders": 2788,
+   "createdAt": 1791515454000,
+   "handle": "the_octobul",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/4e1knnnc2g7gnrsc4x7w85hsga1qy7bshbq6vuwhea68",
+   "scannedAt": 1791527826349
   },
   {
    "ca": "B3wB91NRRW7XzssWqeMoDpCGCdhNvMNb9ZSWXfKrpump",
@@ -318,10 +319,10 @@
     1,
     null
    ],
-   "liq": 41487,
-   "vol": 721776,
-   "mcap": 220999,
-   "holders": 7540,
+   "liq": 40096,
+   "vol": 746784,
+   "mcap": 206037,
+   "holders": 7591,
    "createdAt": 1791502663000,
    "handle": "SuperCapybaraX",
    "launchpad": "Pump.Fun",
@@ -331,7 +332,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/bwqva2dxcsg5vz7fixawidfqphuhip8fwazkskfsenv8",
-   "scannedAt": 1791525506862
+   "scannedAt": 1791527811930
   }
  ]
 }
