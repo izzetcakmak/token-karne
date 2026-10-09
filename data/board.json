@@ -1,5 +1,5 @@
 {
- "updatedAt": 1791578494692,
+ "updatedAt": 1791579381866,
  "threshold": 9,
  "scanned": 45,
  "items": [
@@ -25,9 +25,9 @@
     1,
     null
    ],
-   "liq": 612461,
-   "vol": 988003,
-   "mcap": 13489160,
+   "liq": 616091,
+   "vol": 976137,
+   "mcap": 13633358,
    "holders": 10511,
    "createdAt": 1787522174000,
    "handle": "tartprotocol",
@@ -37,7 +37,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x30000a407fabebe29439f8e437050512ff6661be",
-   "scannedAt": 1791578427117
+   "scannedAt": 1791579313285
   },
   {
    "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
@@ -61,9 +61,9 @@
     1,
     null
    ],
-   "liq": 167913,
-   "vol": 1053957,
-   "mcap": 2216008,
+   "liq": 167817,
+   "vol": 1016296,
+   "mcap": 2210227,
    "holders": 12272,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -74,43 +74,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1791578433151
-  },
-  {
-   "ca": "0x7d03759E5B41E36899833cb2E008455d69A24444",
-   "chain": "bsc",
-   "sym": "priceless",
-   "name": "priceless",
-   "img": "https://cdn.dexscreener.com/cms/images/6RackrQPX19fEOB8?width=800&height=800&quality=95&format=auto",
-   "score": 10,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 116278,
-   "vol": 58664,
-   "mcap": 207426,
-   "holders": 72634,
-   "createdAt": 1757345211000,
-   "handle": "PricelessBSC_",
-   "launchpad": null,
-   "flags": 0,
-   "sources": [
-    "GoPlus"
-   ],
-   "url": "https://dexscreener.com/bsc/0x3dc2878f9f60476dbbb18af7531fbe1a603c8dc0",
-   "scannedAt": 1791578428601
+   "scannedAt": 1791579315094
   },
   {
    "ca": "5yuiTSNd32qxBM4rkuxqNd6gaSLBqCykJEaKwK4Jpump",
@@ -134,10 +98,10 @@
     1,
     null
    ],
-   "liq": 58681,
-   "vol": 486073,
-   "mcap": 454175,
-   "holders": 2824,
+   "liq": 57474,
+   "vol": 526908,
+   "mcap": 434445,
+   "holders": 3140,
    "createdAt": 1791571624000,
    "handle": "SuperWhaleCoin",
    "launchpad": "Pump.Fun",
@@ -147,7 +111,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/ayhexwrxqtpt9zkjc3ysiela1kcquakgxw6o8utqfv2",
-   "scannedAt": 1791578430284
+   "scannedAt": 1791579318140
   },
   {
    "ca": "Y9ccqrALa5Yr3Bxzv8NQe37KP1Yy9uTCSJuap4Cpump",
@@ -171,10 +135,10 @@
     1,
     null
    ],
-   "liq": 47360,
-   "vol": 2598659,
-   "mcap": 185123,
-   "holders": 7053,
+   "liq": 45958,
+   "vol": 2503073,
+   "mcap": 173386,
+   "holders": 7045,
    "createdAt": 1791491570000,
    "handle": "Pumpfun",
    "launchpad": "Pump.Fun",
@@ -184,7 +148,43 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/ctxjku4mhxomksq7alkfobs5fwgbqd4maga2unfmermi",
-   "scannedAt": 1791578431689
+   "scannedAt": 1791579319560
+  },
+  {
+   "ca": "0x7d03759E5B41E36899833cb2E008455d69A24444",
+   "chain": "bsc",
+   "sym": "priceless",
+   "name": "priceless",
+   "img": "https://cdn.dexscreener.com/cms/images/6RackrQPX19fEOB8?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    null
+   ],
+   "liq": 116482,
+   "vol": 58113,
+   "mcap": 207797,
+   "holders": 72634,
+   "createdAt": 1757345211000,
+   "handle": "PricelessBSC_",
+   "launchpad": null,
+   "flags": 0,
+   "sources": [
+    "GoPlus"
+   ],
+   "url": "https://dexscreener.com/bsc/0x3dc2878f9f60476dbbb18af7531fbe1a603c8dc0",
+   "scannedAt": 1791579316669
   },
   {
    "ca": "9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump",
@@ -208,9 +208,9 @@
     1,
     null
    ],
-   "liq": 107479,
-   "vol": 458057,
-   "mcap": 582343,
+   "liq": 107410,
+   "vol": 454557,
+   "mcap": 583184,
    "holders": 4085,
    "createdAt": 1791150590000,
    "handle": "gomo_family",
@@ -221,7 +221,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5a7qurjlart146jajjype5nh6vlyfpn2qrhuslqbsczy",
-   "scannedAt": 1791578434568
+   "scannedAt": 1791579320978
   },
   {
    "ca": "7SsZWPvLHpMizSGD8RByEbjUA8VatHWAts4UpjB4pump",
@@ -245,10 +245,10 @@
     1,
     null
    ],
-   "liq": 71811,
-   "vol": 1076736,
-   "mcap": 642676,
-   "holders": 5038,
+   "liq": 76025,
+   "vol": 1104007,
+   "mcap": 715741,
+   "holders": 5366,
    "createdAt": 1791559797000,
    "handle": "QCoin_Sol",
    "launchpad": "Pump.Fun",
@@ -258,7 +258,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/6nnqpx13zkshe66rrc4pnhkxpciem4pkraej5my88uam",
-   "scannedAt": 1791578435978
+   "scannedAt": 1791579322392
   },
   {
    "ca": "8DXqVUopcdviLvujTcpwEqkKzB43Arp6E1axzsEE5Btq",
@@ -282,9 +282,9 @@
     1,
     null
    ],
-   "liq": 54757,
-   "vol": 80991,
-   "mcap": 237505,
+   "liq": 55705,
+   "vol": 81351,
+   "mcap": 245281,
    "holders": 2380,
    "createdAt": 1790542136000,
    "handle": "moincoinfun",
@@ -295,7 +295,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/cbr2ul7ktbr8muutj3fycurzerp28ga2p1vpumeky1je",
-   "scannedAt": 1791578437388
+   "scannedAt": 1791579323814
   },
   {
    "ca": "ThJsrUYige56LCtKbsZSUxx1HFyX1gMjfZTV8xppump",
@@ -319,10 +319,10 @@
     1,
     null
    ],
-   "liq": 41749,
-   "vol": 431775,
-   "mcap": 236418,
-   "holders": 3018,
+   "liq": 35302,
+   "vol": 549088,
+   "mcap": 166717,
+   "holders": 3164,
    "createdAt": 1791576254000,
    "handle": "QuantumBreakX",
    "launchpad": "Pump.Fun",
@@ -332,7 +332,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/33c1kvf1s3ugsittr72s6gw3nokcpd5nb2fupgqnrs8a",
-   "scannedAt": 1791578438791
+   "scannedAt": 1791579325226
   }
  ]
 }
