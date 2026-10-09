@@ -1,5 +1,5 @@
 {
- "updatedAt": 1791542833806,
+ "updatedAt": 1791543441611,
  "threshold": 9,
  "scanned": 45,
  "items": [
@@ -25,10 +25,10 @@
     1,
     null
    ],
-   "liq": 537204,
-   "vol": 1040900,
-   "mcap": 10470064,
-   "holders": 9782,
+   "liq": 537131,
+   "vol": 1044548,
+   "mcap": 10470723,
+   "holders": 9994,
    "createdAt": 1787522174000,
    "handle": "tartprotocol",
    "launchpad": null,
@@ -37,14 +37,51 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x30000a407fabebe29439f8e437050512ff6661be",
-   "scannedAt": 1791542758596
+   "scannedAt": 1791543339937
   },
   {
-   "ca": "Y9ccqrALa5Yr3Bxzv8NQe37KP1Yy9uTCSJuap4Cpump",
+   "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
    "chain": "solana",
-   "sym": "Animal",
-   "name": "Animal Coin",
-   "img": "https://cdn.dexscreener.com/cms/images/ug4EtT147nYJoIHd?width=800&height=800&quality=95&format=auto",
+   "sym": "MISTAKE",
+   "name": "Make No Mistakes",
+   "img": "https://cdn.dexscreener.com/cms/images/S3VS6ZPJzJ-72iRm?width=800&height=800&quality=95&format=auto",
+   "score": 10,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    null
+   ],
+   "liq": 193389,
+   "vol": 3321724,
+   "mcap": 2932264,
+   "holders": 11737,
+   "createdAt": 1789093171000,
+   "handle": "nomistakesfun",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
+   "scannedAt": 1791543343817
+  },
+  {
+   "ca": "DK1enXZB5wKaDtvTGPy1dt6qh2kvhkZnFKEGg4Ypump",
+   "chain": "solana",
+   "sym": "TRUMPSI",
+   "name": "Trump Super Intelligence",
+   "img": "https://cdn.dexscreener.com/cms/images/778y5OMycMjp7NNd?width=800&height=800&quality=95&format=auto",
    "score": 10,
    "unknown": 2,
    "answers": [
@@ -61,57 +98,20 @@
     1,
     null
    ],
-   "liq": 35015,
-   "vol": 2529256,
-   "mcap": 127543,
-   "holders": 6870,
-   "createdAt": 1791488781000,
-   "handle": "Pumpfun",
+   "liq": 36440,
+   "vol": 272635,
+   "mcap": 183368,
+   "holders": 1700,
+   "createdAt": 1791539721000,
+   "handle": "thetrumpsicoin",
    "launchpad": "Pump.Fun",
    "flags": 0,
    "sources": [
     "GoPlus",
     "RugCheck"
    ],
-   "url": "https://dexscreener.com/solana/ctxjku4mhxomksq7alkfobs5fwgbqd4maga2unfmermi",
-   "scannedAt": 1791542764230
-  },
-  {
-   "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
-   "chain": "solana",
-   "sym": "MISTAKE",
-   "name": "Make No Mistakes",
-   "img": "https://cdn.dexscreener.com/cms/images/S3VS6ZPJzJ-72iRm?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    null
-   ],
-   "liq": 193789,
-   "vol": 3323495,
-   "mcap": 2938896,
-   "holders": 11737,
-   "createdAt": 1789093171000,
-   "handle": "nomistakesfun",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1791542760787
+   "url": "https://dexscreener.com/solana/2h59qwesujz6tb8dwr9k6rusjelk7mrsovlqqvyjigdb",
+   "scannedAt": 1791543368743
   },
   {
    "ca": "0x7fb4758cB0C617c0baB1BAf80525Fab958637777",
@@ -135,9 +135,9 @@
     1,
     null
    ],
-   "liq": 102562,
-   "vol": 359559,
-   "mcap": 682459,
+   "liq": 102676,
+   "vol": 359436,
+   "mcap": 683703,
    "holders": 2074,
    "createdAt": 1787777934000,
    "handle": "BNBOBNB",
@@ -147,7 +147,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x7f7cac531dfad516b9bd55e63de2f773d00999cc",
-   "scannedAt": 1791542768575
+   "scannedAt": 1791543345772
   },
   {
    "ca": "9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump",
@@ -171,9 +171,9 @@
     1,
     null
    ],
-   "liq": 101710,
-   "vol": 431188,
-   "mcap": 541396,
+   "liq": 102093,
+   "vol": 430751,
+   "mcap": 549812,
    "holders": 11004,
    "createdAt": 1791150590000,
    "handle": "gomo_family",
@@ -184,7 +184,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5a7qurjlart146jajjype5nh6vlyfpn2qrhuslqbsczy",
-   "scannedAt": 1791542767132
+   "scannedAt": 1791543348046
   },
   {
    "ca": "8ZCmwpW3MtC5UpNcZf7U4HMvRNTo71syU11BDiAFpump",
@@ -208,10 +208,10 @@
     1,
     null
    ],
-   "liq": 97742,
-   "vol": 6853530,
-   "mcap": 996001,
-   "holders": 5845,
+   "liq": 93608,
+   "vol": 6883598,
+   "mcap": 916083,
+   "holders": 5792,
    "createdAt": 1791466106000,
    "handle": "GaryCatX",
    "launchpad": "Pump.Fun",
@@ -221,7 +221,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/2uzutqejcxcr1eswmdgtpqewm5pcekewrsnvrpc1ehs1",
-   "scannedAt": 1791542765658
+   "scannedAt": 1791543353888
   },
   {
    "ca": "5GefefPX1mDs6ZJB1apYmz6fCTCiNJpHturZ9bvFpump",
@@ -245,9 +245,9 @@
     1,
     null
    ],
-   "liq": 92535,
-   "vol": 110158,
-   "mcap": 940109,
+   "liq": 92786,
+   "vol": 110146,
+   "mcap": 947913,
    "holders": 2586,
    "createdAt": 1788551378000,
    "handle": "Pumpoweenonpump",
@@ -258,7 +258,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/8nvfb1unnk9adtl5hoof8hahf2rt4glpwx9cteadikhg",
-   "scannedAt": 1791542769960
+   "scannedAt": 1791543359568
   },
   {
    "ca": "6hTLdzZaaCjmqtn7RtaEMQsCbXT5Pg8q76tRViEGpump",
@@ -282,9 +282,9 @@
     1,
     null
    ],
-   "liq": 62229,
-   "vol": 314365,
-   "mcap": 369420,
+   "liq": 62280,
+   "vol": 316437,
+   "mcap": 370867,
    "holders": 1370,
    "createdAt": 1790981217000,
    "handle": "AbuShalab_",
@@ -295,7 +295,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/2qwf4dn1jnqhcpayjqnkvakezzuuig4xdnbncsk1pgcw",
-   "scannedAt": 1791542772924
+   "scannedAt": 1791543361158
   },
   {
    "ca": "CmCHvr99aXrLDQB7jAtFtsBwg3DnXqq4spcTEMt7pump",
@@ -319,10 +319,10 @@
     1,
     null
    ],
-   "liq": 60938,
-   "vol": 5076856,
-   "mcap": 381988,
-   "holders": 15914,
+   "liq": 61703,
+   "vol": 5092472,
+   "mcap": 391557,
+   "holders": 15948,
    "createdAt": 1791478718000,
    "handle": "owlnight_meme",
    "launchpad": "Pump.Fun",
@@ -332,14 +332,14 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/bgt9hrwedn8tjwhrw14zyshxrg5sxhjmhrvsrtw1pdcy",
-   "scannedAt": 1791542771535
+   "scannedAt": 1791543366889
   },
   {
-   "ca": "DK1enXZB5wKaDtvTGPy1dt6qh2kvhkZnFKEGg4Ypump",
+   "ca": "Y9ccqrALa5Yr3Bxzv8NQe37KP1Yy9uTCSJuap4Cpump",
    "chain": "solana",
-   "sym": "TRUMPSI",
-   "name": "Trump Super Intelligence",
-   "img": "https://cdn.dexscreener.com/cms/images/778y5OMycMjp7NNd?width=800&height=800&quality=95&format=auto",
+   "sym": "Animal",
+   "name": "Animal Coin",
+   "img": "https://cdn.dexscreener.com/cms/images/ug4EtT147nYJoIHd?width=800&height=800&quality=95&format=auto",
    "score": 9,
    "unknown": 2,
    "answers": [
@@ -356,20 +356,20 @@
     1,
     null
    ],
-   "liq": 37889,
-   "vol": 241027,
-   "mcap": 197745,
-   "holders": 1387,
-   "createdAt": 1791539721000,
-   "handle": "thetrumpsicoin",
+   "liq": 35183,
+   "vol": 2529995,
+   "mcap": 129111,
+   "holders": 6875,
+   "createdAt": 1791488781000,
+   "handle": "Pumpfun",
    "launchpad": "Pump.Fun",
    "flags": 0,
    "sources": [
     "GoPlus",
     "RugCheck"
    ],
-   "url": "https://dexscreener.com/solana/2h59qwesujz6tb8dwr9k6rusjelk7mrsovlqqvyjigdb",
-   "scannedAt": 1791542762821
+   "url": "https://dexscreener.com/solana/ctxjku4mhxomksq7alkfobs5fwgbqd4maga2unfmermi",
+   "scannedAt": 1791543341531
   }
  ]
 }
