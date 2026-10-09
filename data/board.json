@@ -1,5 +1,5 @@
 {
- "updatedAt": 1791575002613,
+ "updatedAt": 1791575672212,
  "threshold": 9,
  "scanned": 45,
  "items": [
@@ -25,9 +25,9 @@
     1,
     null
    ],
-   "liq": 605846,
-   "vol": 992266,
-   "mcap": 13233413,
+   "liq": 603138,
+   "vol": 989883,
+   "mcap": 13147881,
    "holders": 10511,
    "createdAt": 1787522174000,
    "handle": "tartprotocol",
@@ -37,7 +37,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x30000a407fabebe29439f8e437050512ff6661be",
-   "scannedAt": 1791574921149
+   "scannedAt": 1791575593442
   },
   {
    "ca": "0x7d03759E5B41E36899833cb2E008455d69A24444",
@@ -61,9 +61,9 @@
     1,
     null
    ],
-   "liq": 116245,
-   "vol": 60802,
-   "mcap": 207224,
+   "liq": 115964,
+   "vol": 60361,
+   "mcap": 206811,
    "holders": 72639,
    "createdAt": 1757345211000,
    "handle": "PricelessBSC_",
@@ -73,7 +73,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x3dc2878f9f60476dbbb18af7531fbe1a603c8dc0",
-   "scannedAt": 1791574924374
+   "scannedAt": 1791575595515
   },
   {
    "ca": "5yuiTSNd32qxBM4rkuxqNd6gaSLBqCykJEaKwK4Jpump",
@@ -97,10 +97,10 @@
     1,
     null
    ],
-   "liq": 50828,
-   "vol": 338430,
-   "mcap": 347668,
-   "holders": 1564,
+   "liq": 53459,
+   "vol": 385913,
+   "mcap": 382586,
+   "holders": 1804,
    "createdAt": 1791571624000,
    "handle": "SuperWhaleCoin",
    "launchpad": "Pump.Fun",
@@ -110,7 +110,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/ayhexwrxqtpt9zkjc3ysiela1kcquakgxw6o8utqfv2",
-   "scannedAt": 1791574926085
+   "scannedAt": 1791575597007
   },
   {
    "ca": "Y9ccqrALa5Yr3Bxzv8NQe37KP1Yy9uTCSJuap4Cpump",
@@ -134,10 +134,10 @@
     1,
     null
    ],
-   "liq": 42593,
-   "vol": 2790577,
-   "mcap": 147470,
-   "holders": 7045,
+   "liq": 41081,
+   "vol": 2791948,
+   "mcap": 137046,
+   "holders": 7042,
    "createdAt": 1791488781000,
    "handle": "Pumpfun",
    "launchpad": "Pump.Fun",
@@ -147,7 +147,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/ctxjku4mhxomksq7alkfobs5fwgbqd4maga2unfmermi",
-   "scannedAt": 1791574927616
+   "scannedAt": 1791575599264
   },
   {
    "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
@@ -171,9 +171,9 @@
     1,
     null
    ],
-   "liq": 163950,
-   "vol": 1263273,
-   "mcap": 2113954,
+   "liq": 166556,
+   "vol": 1224768,
+   "mcap": 2184949,
    "holders": 12272,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -184,7 +184,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1791574922827
+   "scannedAt": 1791575601492
   },
   {
    "ca": "9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump",
@@ -208,9 +208,9 @@
     1,
     null
    ],
-   "liq": 111414,
-   "vol": 464157,
-   "mcap": 616536,
+   "liq": 111233,
+   "vol": 463461,
+   "mcap": 611011,
    "holders": 4085,
    "createdAt": 1791150590000,
    "handle": "gomo_family",
@@ -221,44 +221,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5a7qurjlart146jajjype5nh6vlyfpn2qrhuslqbsczy",
-   "scannedAt": 1791574929669
-  },
-  {
-   "ca": "7SsZWPvLHpMizSGD8RByEbjUA8VatHWAts4UpjB4pump",
-   "chain": "solana",
-   "sym": "QCOIN",
-   "name": "Quantum Coin",
-   "img": "https://cdn.dexscreener.com/cms/images/AhOCi8Dh3Uequlgh?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 2,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    null,
-    1,
-    1,
-    0,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 89713,
-   "vol": 905893,
-   "mcap": 1017050,
-   "holders": 5482,
-   "createdAt": 1791559797000,
-   "handle": "QCoin_Sol",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/6nnqpx13zkshe66rrc4pnhkxpciem4pkraej5my88uam",
-   "scannedAt": 1791574931184
+   "scannedAt": 1791575603552
   },
   {
    "ca": "5GefefPX1mDs6ZJB1apYmz6fCTCiNJpHturZ9bvFpump",
@@ -282,9 +245,9 @@
     1,
     null
    ],
-   "liq": 86889,
-   "vol": 126692,
-   "mcap": 835708,
+   "liq": 86289,
+   "vol": 126193,
+   "mcap": 828043,
    "holders": 2663,
    "createdAt": 1788551378000,
    "handle": "Pumpoweenonpump",
@@ -295,7 +258,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/8nvfb1unnk9adtl5hoof8hahf2rt4glpwx9cteadikhg",
-   "scannedAt": 1791574933005
+   "scannedAt": 1791575606637
+  },
+  {
+   "ca": "7SsZWPvLHpMizSGD8RByEbjUA8VatHWAts4UpjB4pump",
+   "chain": "solana",
+   "sym": "QCOIN",
+   "name": "Quantum Coin",
+   "img": "https://cdn.dexscreener.com/cms/images/AhOCi8Dh3Uequlgh?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 2,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    null,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 84355,
+   "vol": 930864,
+   "mcap": 902247,
+   "holders": 5790,
+   "createdAt": 1791559797000,
+   "handle": "QCoin_Sol",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/6nnqpx13zkshe66rrc4pnhkxpciem4pkraej5my88uam",
+   "scannedAt": 1791575605012
   },
   {
    "ca": "8DXqVUopcdviLvujTcpwEqkKzB43Arp6E1axzsEE5Btq",
@@ -319,9 +319,9 @@
     1,
     null
    ],
-   "liq": 54517,
-   "vol": 81531,
-   "mcap": 235086,
+   "liq": 54292,
+   "vol": 81096,
+   "mcap": 234182,
    "holders": 2375,
    "createdAt": 1790542136000,
    "handle": "moincoinfun",
@@ -332,7 +332,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/cbr2ul7ktbr8muutj3fycurzerp28ga2p1vpumeky1je",
-   "scannedAt": 1791574936327
+   "scannedAt": 1791575608098
   }
  ]
 }
