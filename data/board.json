@@ -1,5 +1,5 @@
 {
- "updatedAt": 1791586103127,
+ "updatedAt": 1791586658014,
  "threshold": 9,
  "scanned": 45,
  "items": [
@@ -25,10 +25,10 @@
     1,
     null
    ],
-   "liq": 620879,
-   "vol": 991031,
-   "mcap": 13809750,
-   "holders": 10703,
+   "liq": 621518,
+   "vol": 986962,
+   "mcap": 13786163,
+   "holders": 10877,
    "createdAt": 1787522174000,
    "handle": "tartprotocol",
    "launchpad": null,
@@ -37,7 +37,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x30000a407fabebe29439f8e437050512ff6661be",
-   "scannedAt": 1791586035178
+   "scannedAt": 1791586580537
   },
   {
    "ca": "5yuiTSNd32qxBM4rkuxqNd6gaSLBqCykJEaKwK4Jpump",
@@ -61,10 +61,10 @@
     1,
     null
    ],
-   "liq": 55399,
-   "vol": 711562,
-   "mcap": 398251,
-   "holders": 5200,
+   "liq": 56118,
+   "vol": 718482,
+   "mcap": 408479,
+   "holders": 5373,
    "createdAt": 1791571624000,
    "handle": "SuperWhaleCoin",
    "launchpad": "Pump.Fun",
@@ -74,7 +74,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/ayhexwrxqtpt9zkjc3ysiela1kcquakgxw6o8utqfv2",
-   "scannedAt": 1791586038378
+   "scannedAt": 1791586582581
   },
   {
    "ca": "7mS3UP5vh4GD5jA3XjCZyT2KVwBhLNanjRn17Wfpump",
@@ -98,10 +98,10 @@
     1,
     null
    ],
-   "liq": 32054,
-   "vol": 491202,
-   "mcap": 133206,
-   "holders": 2436,
+   "liq": 31616,
+   "vol": 507614,
+   "mcap": 129309,
+   "holders": 2487,
    "createdAt": 1791580249000,
    "handle": "Q_ACConx",
    "launchpad": "Pump.Fun",
@@ -111,7 +111,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/qt7hgbwov9vpcbemtkalqkcufv7jjla2zxmxruhzczn",
-   "scannedAt": 1791586056166
+   "scannedAt": 1791586584051
   },
   {
    "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
@@ -135,9 +135,9 @@
     1,
     null
    ],
-   "liq": 168000,
-   "vol": 707924,
-   "mcap": 2205792,
+   "liq": 168614,
+   "vol": 704882,
+   "mcap": 2223430,
    "holders": 12272,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -148,7 +148,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1791586036974
+   "scannedAt": 1791586585672
   },
   {
    "ca": "0x7d03759E5B41E36899833cb2E008455d69A24444",
@@ -172,9 +172,9 @@
     0,
     null
    ],
-   "liq": 116581,
-   "vol": 54911,
-   "mcap": 207723,
+   "liq": 116629,
+   "vol": 54663,
+   "mcap": 207811,
    "holders": 72636,
    "createdAt": 1757345211000,
    "handle": "PricelessBSC_",
@@ -184,7 +184,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x3dc2878f9f60476dbbb18af7531fbe1a603c8dc0",
-   "scannedAt": 1791586039845
+   "scannedAt": 1791586587599
   },
   {
    "ca": "9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump",
@@ -208,9 +208,9 @@
     1,
     null
    ],
-   "liq": 115118,
-   "vol": 437022,
-   "mcap": 699597,
+   "liq": 115078,
+   "vol": 425991,
+   "mcap": 718048,
    "holders": 4120,
    "createdAt": 1791150590000,
    "handle": "gomo_family",
@@ -221,7 +221,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5a7qurjlart146jajjype5nh6vlyfpn2qrhuslqbsczy",
-   "scannedAt": 1791586041252
+   "scannedAt": 1791586589490
   },
   {
    "ca": "AyYNfPtftg2zDP4ZbgcoQMggQtwLh4zpfVVmUJs2thto",
@@ -246,9 +246,9 @@
     null
    ],
    "liq": 67598,
-   "vol": 36455,
+   "vol": 36332,
    "mcap": 233945,
-   "holders": 2980,
+   "holders": 2983,
    "createdAt": 1789657930000,
    "handle": "tilcayo",
    "launchpad": "Pump.Fun",
@@ -258,7 +258,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/asgoadvedl8zjn6kluimsh9m8x2yyaezpsuspvxhj3ly",
-   "scannedAt": 1791586042739
+   "scannedAt": 1791586591426
   },
   {
    "ca": "7SsZWPvLHpMizSGD8RByEbjUA8VatHWAts4UpjB4pump",
@@ -282,10 +282,10 @@
     1,
     null
    ],
-   "liq": 60322,
-   "vol": 1359029,
-   "mcap": 454607,
-   "holders": 5287,
+   "liq": 61321,
+   "vol": 1374704,
+   "mcap": 469286,
+   "holders": 5433,
    "createdAt": 1791559797000,
    "handle": "QCoin_Sol",
    "launchpad": "Pump.Fun",
@@ -295,7 +295,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/6nnqpx13zkshe66rrc4pnhkxpciem4pkraej5my88uam",
-   "scannedAt": 1791586044147
+   "scannedAt": 1791586593009
   },
   {
    "ca": "8DXqVUopcdviLvujTcpwEqkKzB43Arp6E1axzsEE5Btq",
@@ -319,9 +319,9 @@
     1,
     null
    ],
-   "liq": 50452,
-   "vol": 94666,
-   "mcap": 202048,
+   "liq": 50366,
+   "vol": 94556,
+   "mcap": 201513,
    "holders": 2380,
    "createdAt": 1790542136000,
    "handle": "moincoinfun",
@@ -332,7 +332,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/cbr2ul7ktbr8muutj3fycurzerp28ga2p1vpumeky1je",
-   "scannedAt": 1791586045552
+   "scannedAt": 1791586594911
   },
   {
    "ca": "EGvw8HD3sMZM7LBArJ535kKWSZb99jnBLo8YZSPjpump",
@@ -356,10 +356,10 @@
     1,
     null
    ],
-   "liq": 48799,
-   "vol": 506981,
-   "mcap": 310239,
-   "holders": 2857,
+   "liq": 40841,
+   "vol": 601209,
+   "mcap": 218993,
+   "holders": 3101,
    "createdAt": 1791583254000,
    "handle": "QuantumMoneyX",
    "launchpad": "Pump.Fun",
@@ -369,7 +369,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5z9aftfvdeeszhie6ftbmx3uxcyw1f1sejhzxh34jqgz",
-   "scannedAt": 1791586046950
+   "scannedAt": 1791586596838
   }
  ]
 }
