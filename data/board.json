@@ -1,5 +1,5 @@
 {
- "updatedAt": 1791544291284,
+ "updatedAt": 1791545470741,
  "threshold": 9,
  "scanned": 45,
  "items": [
@@ -25,9 +25,9 @@
     1,
     null
    ],
-   "liq": 539231,
-   "vol": 1041418,
-   "mcap": 10550679,
+   "liq": 538440,
+   "vol": 1041143,
+   "mcap": 10541549,
    "holders": 9994,
    "createdAt": 1787522174000,
    "handle": "tartprotocol",
@@ -37,7 +37,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x30000a407fabebe29439f8e437050512ff6661be",
-   "scannedAt": 1791544216481
+   "scannedAt": 1791545394898
   },
   {
    "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
@@ -61,9 +61,9 @@
     1,
     null
    ],
-   "liq": 194532,
-   "vol": 3320485,
-   "mcap": 2963001,
+   "liq": 184320,
+   "vol": 3318060,
+   "mcap": 2652323,
    "holders": 11737,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -74,7 +74,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1791544218211
+   "scannedAt": 1791545396696
   },
   {
    "ca": "Y9ccqrALa5Yr3Bxzv8NQe37KP1Yy9uTCSJuap4Cpump",
@@ -98,10 +98,10 @@
     1,
     null
    ],
-   "liq": 37388,
-   "vol": 2534259,
-   "mcap": 144564,
-   "holders": 6877,
+   "liq": 47570,
+   "vol": 2571886,
+   "mcap": 225317,
+   "holders": 6917,
    "createdAt": 1791488781000,
    "handle": "Pumpfun",
    "launchpad": "Pump.Fun",
@@ -111,7 +111,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/ctxjku4mhxomksq7alkfobs5fwgbqd4maga2unfmermi",
-   "scannedAt": 1791544229728
+   "scannedAt": 1791545398223
   },
   {
    "ca": "DK1enXZB5wKaDtvTGPy1dt6qh2kvhkZnFKEGg4Ypump",
@@ -135,10 +135,10 @@
     1,
     null
    ],
-   "liq": 35473,
-   "vol": 318067,
-   "mcap": 173274,
-   "holders": 2039,
+   "liq": 43233,
+   "vol": 368251,
+   "mcap": 250590,
+   "holders": 2371,
    "createdAt": 1791539721000,
    "handle": "thetrumpsicoin",
    "launchpad": "Pump.Fun",
@@ -148,43 +148,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/2h59qwesujz6tb8dwr9k6rusjelk7mrsovlqqvyjigdb",
-   "scannedAt": 1791544219637
-  },
-  {
-   "ca": "0x7fb4758cB0C617c0baB1BAf80525Fab958637777",
-   "chain": "bsc",
-   "sym": "BNBO",
-   "name": "币恩宝",
-   "img": "https://cdn.dexscreener.com/cms/images/GS4YWy8bgnbAm85N?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 101114,
-   "vol": 360120,
-   "mcap": 664404,
-   "holders": 2079,
-   "createdAt": 1787777934000,
-   "handle": "BNBOBNB",
-   "launchpad": null,
-   "flags": 0,
-   "sources": [
-    "GoPlus"
-   ],
-   "url": "https://dexscreener.com/bsc/0x7f7cac531dfad516b9bd55e63de2f773d00999cc",
-   "scannedAt": 1791544221115
+   "scannedAt": 1791545399621
   },
   {
    "ca": "9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump",
@@ -208,9 +172,9 @@
     1,
     null
    ],
-   "liq": 99059,
-   "vol": 435469,
-   "mcap": 509509,
+   "liq": 100646,
+   "vol": 437146,
+   "mcap": 521813,
    "holders": 4085,
    "createdAt": 1791150590000,
    "handle": "gomo_family",
@@ -221,7 +185,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5a7qurjlart146jajjype5nh6vlyfpn2qrhuslqbsczy",
-   "scannedAt": 1791544222530
+   "scannedAt": 1791545402454
   },
   {
    "ca": "8ZCmwpW3MtC5UpNcZf7U4HMvRNTo71syU11BDiAFpump",
@@ -245,10 +209,10 @@
     1,
     null
    ],
-   "liq": 96447,
-   "vol": 6917616,
-   "mcap": 968951,
-   "holders": 5716,
+   "liq": 100500,
+   "vol": 6966621,
+   "mcap": 1044824,
+   "holders": 5637,
    "createdAt": 1791466106000,
    "handle": "GaryCatX",
    "launchpad": "Pump.Fun",
@@ -258,14 +222,14 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/2uzutqejcxcr1eswmdgtpqewm5pcekewrsnvrpc1ehs1",
-   "scannedAt": 1791544223945
+   "scannedAt": 1791545404023
   },
   {
-   "ca": "5GefefPX1mDs6ZJB1apYmz6fCTCiNJpHturZ9bvFpump",
-   "chain": "solana",
-   "sym": "Pumpoween",
-   "name": "Pumpoween",
-   "img": "https://cdn.dexscreener.com/cms/images/o6qYdn_9zPxDDdf4?width=800&height=800&quality=95&format=auto",
+   "ca": "0x7fb4758cB0C617c0baB1BAf80525Fab958637777",
+   "chain": "bsc",
+   "sym": "BNBO",
+   "name": "币恩宝",
+   "img": "https://cdn.dexscreener.com/cms/images/GS4YWy8bgnbAm85N?width=800&height=800&quality=95&format=auto",
    "score": 9,
    "unknown": 1,
    "answers": [
@@ -282,20 +246,19 @@
     1,
     null
    ],
-   "liq": 92779,
-   "vol": 109850,
-   "mcap": 947274,
-   "holders": 2586,
-   "createdAt": 1788551378000,
-   "handle": "Pumpoweenonpump",
-   "launchpad": "Pump.Fun",
+   "liq": 97569,
+   "vol": 362504,
+   "mcap": 619228,
+   "holders": 2079,
+   "createdAt": 1787777934000,
+   "handle": "BNBOBNB",
+   "launchpad": null,
    "flags": 0,
    "sources": [
-    "GoPlus",
-    "RugCheck"
+    "GoPlus"
    ],
-   "url": "https://dexscreener.com/solana/8nvfb1unnk9adtl5hoof8hahf2rt4glpwx9cteadikhg",
-   "scannedAt": 1791544225361
+   "url": "https://dexscreener.com/bsc/0x7f7cac531dfad516b9bd55e63de2f773d00999cc",
+   "scannedAt": 1791545401070
   },
   {
    "ca": "6hTLdzZaaCjmqtn7RtaEMQsCbXT5Pg8q76tRViEGpump",
@@ -319,9 +282,9 @@
     1,
     null
    ],
-   "liq": 68921,
-   "vol": 352595,
-   "mcap": 449572,
+   "liq": 74850,
+   "vol": 438656,
+   "mcap": 519971,
    "holders": 1370,
    "createdAt": 1790981217000,
    "handle": "AbuShalab_",
@@ -332,7 +295,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/2qwf4dn1jnqhcpayjqnkvakezzuuig4xdnbncsk1pgcw",
-   "scannedAt": 1791544226842
+   "scannedAt": 1791545407541
   },
   {
    "ca": "CmCHvr99aXrLDQB7jAtFtsBwg3DnXqq4spcTEMt7pump",
@@ -356,10 +319,10 @@
     1,
     null
    ],
-   "liq": 61550,
-   "vol": 5116082,
-   "mcap": 388997,
-   "holders": 15885,
+   "liq": 61134,
+   "vol": 5149260,
+   "mcap": 381852,
+   "holders": 15753,
    "createdAt": 1791478718000,
    "handle": "owlnight_meme",
    "launchpad": "Pump.Fun",
@@ -369,7 +332,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/bgt9hrwedn8tjwhrw14zyshxrg5sxhjmhrvsrtw1pdcy",
-   "scannedAt": 1791544228315
+   "scannedAt": 1791545409006
   }
  ]
 }
