@@ -1,5 +1,5 @@
 {
- "updatedAt": 1791581991647,
+ "updatedAt": 1791582598099,
  "threshold": 9,
  "scanned": 45,
  "items": [
@@ -25,9 +25,9 @@
     1,
     null
    ],
-   "liq": 644548,
-   "vol": 986033,
-   "mcap": 14884367,
+   "liq": 646186,
+   "vol": 982350,
+   "mcap": 14949184,
    "holders": 10703,
    "createdAt": 1787522174000,
    "handle": "tartprotocol",
@@ -37,7 +37,44 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x30000a407fabebe29439f8e437050512ff6661be",
-   "scannedAt": 1791581902995
+   "scannedAt": 1791582527054
+  },
+  {
+   "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
+   "chain": "solana",
+   "sym": "MISTAKE",
+   "name": "Make No Mistakes",
+   "img": "https://cdn.dexscreener.com/cms/images/S3VS6ZPJzJ-72iRm?width=800&height=800&quality=95&format=auto",
+   "score": 10,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    null
+   ],
+   "liq": 169036,
+   "vol": 841449,
+   "mcap": 2239120,
+   "holders": 12272,
+   "createdAt": 1789093171000,
+   "handle": "nomistakesfun",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
+   "scannedAt": 1791582530226
   },
   {
    "ca": "5yuiTSNd32qxBM4rkuxqNd6gaSLBqCykJEaKwK4Jpump",
@@ -61,10 +98,10 @@
     1,
     null
    ],
-   "liq": 57258,
-   "vol": 617694,
-   "mcap": 428268,
-   "holders": 3948,
+   "liq": 58296,
+   "vol": 636264,
+   "mcap": 442909,
+   "holders": 4139,
    "createdAt": 1791571624000,
    "handle": "SuperWhaleCoin",
    "launchpad": "Pump.Fun",
@@ -74,44 +111,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/ayhexwrxqtpt9zkjc3ysiela1kcquakgxw6o8utqfv2",
-   "scannedAt": 1791581907352
+   "scannedAt": 1791582528722
   },
   {
-   "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
+   "ca": "7mS3UP5vh4GD5jA3XjCZyT2KVwBhLNanjRn17Wfpump",
    "chain": "solana",
-   "sym": "MISTAKE",
-   "name": "Make No Mistakes",
-   "img": "https://cdn.dexscreener.com/cms/images/S3VS6ZPJzJ-72iRm?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
+   "sym": "Q/ACC",
+   "name": "Quantum Accelerationism",
+   "img": "https://cdn.dexscreener.com/cms/images/CQKJNZudf0sp82nc?width=800&height=800&quality=95&format=auto",
+   "score": 10,
+   "unknown": 2,
    "answers": [
     1,
-    0,
+    1,
+    1,
+    1,
+    null,
     1,
     1,
     1,
     1,
     1,
-    1,
-    1,
-    0,
     1,
     null
    ],
-   "liq": 167212,
-   "vol": 897799,
-   "mcap": 2191507,
-   "holders": 12272,
-   "createdAt": 1789093171000,
-   "handle": "nomistakesfun",
+   "liq": 31043,
+   "vol": 277296,
+   "mcap": 136114,
+   "holders": 1882,
+   "createdAt": 1791580249000,
+   "handle": "Q_ACConx",
    "launchpad": "Pump.Fun",
    "flags": 0,
    "sources": [
     "GoPlus",
     "RugCheck"
    ],
-   "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1791581904681
+   "url": "https://dexscreener.com/solana/qt7hgbwov9vpcbemtkalqkcufv7jjla2zxmxruhzczn",
+   "scannedAt": 1791582537545
   },
   {
    "ca": "0x7d03759E5B41E36899833cb2E008455d69A24444",
@@ -135,9 +172,9 @@
     0,
     null
    ],
-   "liq": 116749,
-   "vol": 56590,
-   "mcap": 208268,
+   "liq": 116852,
+   "vol": 56273,
+   "mcap": 208492,
    "holders": 72634,
    "createdAt": 1757345211000,
    "handle": "PricelessBSC_",
@@ -147,7 +184,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x3dc2878f9f60476dbbb18af7531fbe1a603c8dc0",
-   "scannedAt": 1791581908882
+   "scannedAt": 1791582531741
   },
   {
    "ca": "9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump",
@@ -171,10 +208,10 @@
     1,
     null
    ],
-   "liq": 110850,
-   "vol": 451903,
-   "mcap": 620380,
-   "holders": 4085,
+   "liq": 110909,
+   "vol": 449099,
+   "mcap": 621368,
+   "holders": 4120,
    "createdAt": 1791150590000,
    "handle": "gomo_family",
    "launchpad": "Pump.Fun",
@@ -184,7 +221,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5a7qurjlart146jajjype5nh6vlyfpn2qrhuslqbsczy",
-   "scannedAt": 1791581910713
+   "scannedAt": 1791582533166
+  },
+  {
+   "ca": "AyYNfPtftg2zDP4ZbgcoQMggQtwLh4zpfVVmUJs2thto",
+   "chain": "solana",
+   "sym": "Tilcayo",
+   "name": "Leopardus tilcayo",
+   "img": "https://cdn.dexscreener.com/cms/images/IWEYf7wsi23lYWKo?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 69453,
+   "vol": 35086,
+   "mcap": 246778,
+   "holders": 2980,
+   "createdAt": 1789657930000,
+   "handle": "tilcayo",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/asgoadvedl8zjn6kluimsh9m8x2yyaezpsuspvxhj3ly",
+   "scannedAt": 1791582572983
   },
   {
    "ca": "7SsZWPvLHpMizSGD8RByEbjUA8VatHWAts4UpjB4pump",
@@ -208,10 +282,10 @@
     1,
     null
    ],
-   "liq": 57865,
-   "vol": 1205570,
-   "mcap": 418881,
-   "holders": 6427,
+   "liq": 63765,
+   "vol": 1223028,
+   "mcap": 505393,
+   "holders": 4890,
    "createdAt": 1791559797000,
    "handle": "QCoin_Sol",
    "launchpad": "Pump.Fun",
@@ -221,7 +295,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/6nnqpx13zkshe66rrc4pnhkxpciem4pkraej5my88uam",
-   "scannedAt": 1791581912415
+   "scannedAt": 1791582534612
   },
   {
    "ca": "8DXqVUopcdviLvujTcpwEqkKzB43Arp6E1axzsEE5Btq",
@@ -245,9 +319,9 @@
     1,
     null
    ],
-   "liq": 50871,
-   "vol": 83845,
-   "mcap": 205781,
+   "liq": 50886,
+   "vol": 83826,
+   "mcap": 205887,
    "holders": 2380,
    "createdAt": 1790542136000,
    "handle": "moincoinfun",
@@ -258,7 +332,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/cbr2ul7ktbr8muutj3fycurzerp28ga2p1vpumeky1je",
-   "scannedAt": 1791581913903
+   "scannedAt": 1791582536120
   }
  ]
 }
