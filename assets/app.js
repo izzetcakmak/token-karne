@@ -92,7 +92,8 @@ const EXPLORER = {
   solana: a => 'https://solscan.io/account/' + a,
   blast: a => 'https://blastscan.io/address/' + a,
   robinhood: a => 'https://robinhoodchain.blockscout.com/address/' + a,
-  sonic: a => 'https://sonicscan.org/address/' + a
+  sonic: a => 'https://sonicscan.org/address/' + a,
+  arc: a => 'https://explorer.arc.io/address/' + a
 };
 const explorerUrl = (chain, a) => (EXPLORER[chain] ? EXPLORER[chain](a) : 'https://dexscreener.com/' + chain);
 /* Arc tokenleri A NEW ONE'da alınıp satılır; token sayfası swap'ı açar */
@@ -158,6 +159,66 @@ async function fetchDex(ca) {
   return (d && d.pairs) || [];
 }
 
+/* ---------------- Arc: A NEW ONE bonding curve ----------------
+   DexScreener Arc'i indekslemiyor. A NEW ONE'da cikan bir token icin fiyat,
+   likidite ve yas anewone.xyz'nin herkese acik floor.json'undan okunur ve
+   DexScreener'in havuz bicimine cevrilir; akisin geri kalani aynen calisir. */
+const ANEWONE_SUPPLY = 1e9;              /* her launch 1 milyar token basar */
+async function fetchArcFloor(ca) {
+  if (!isEvm(ca)) return null;
+  let d = null;
+  try { d = await jget('https://anewone.xyz/data/floor.json', 12000); } catch (e) { return null; }
+  if (!d || !Array.isArray(d.tokens)) return null;
+  const lc = ca.toLowerCase();
+  const t = d.tokens.find(x => String(x.addr).toLowerCase() === lc);
+  if (!t) return null;
+
+  const n18 = s => Number(BigInt(s || '0')) / 1e18;
+  const vUsdc = n18(t.vUsdc), tRes = n18(t.tReserve), raised = n18(t.raised);
+  const priceUsd = tRes > 0 ? vUsdc / tRes : 0;   /* egrinin anlik fiyati: sanal USDC / kalan token */
+  const agg = (d.index && d.index.agg && d.index.agg[lc]) || {};
+  let meta = {};
+  if (t.metadataURI) { try { meta = (await jget(t.metadataURI, 8000)) || {}; } catch (e) {} }
+  const links = meta.links || {};
+  const socials = [];
+  if (links.twitter || links.x) socials.push({ type: 'twitter', url: links.twitter || links.x });
+  const ageMs = d.tip && t.createdBlock ? (d.tip - t.createdBlock) * (d.blockTimeSec || 0.5) * 1000 : null;
+
+  const pair = {
+    chainId: 'arc', dexId: 'anewone', url: anewoneUrl(t.addr), pairAddress: null, labels: [],
+    baseToken: { address: t.addr, name: t.name, symbol: t.symbol },
+    quoteToken: { symbol: 'USDC' },
+    priceUsd: String(priceUsd), marketCap: priceUsd * ANEWONE_SUPPLY, fdv: priceUsd * ANEWONE_SUPPLY,
+    liquidity: { usd: raised }, volume: { h24: 0 }, txns: { h24: { buys: 0, sells: 0 } },
+    pairCreatedAt: ageMs != null ? Date.now() - ageMs : null,
+    info: { imageUrl: meta.image || null, websites: [{ url: anewoneUrl(t.addr) }], socials }
+  };
+  const creator = t.creator ? String(t.creator).toLowerCase() : null;
+  const otherLaunches = creator
+    ? d.tokens.filter(x => x.creator && String(x.creator).toLowerCase() === creator && String(x.addr).toLowerCase() !== lc)
+    : [];
+  return { pair, creator: t.creator || null, raised, graduated: !!t.graduated, gradTarget: n18(d.gradTarget),
+           volAll: n18(agg.volAll), trades: agg.trades || 0, otherLaunches, description: meta.description || '' };
+}
+
+/* Egri havuz degildir: LP tokeni yok, 24 saatlik hacim yok. DexScreener
+   varsayimiyla yazilan 1, 2, 7 ve 11 numarali sorular egriye gore duzeltilir. */
+function arcAdjustChecks(C, A, D) {
+  const lbl = { link: D.best.url, linkLabel: 'A NEW ONE' };
+  Object.assign(C[1], { note: T('n.liq.curve', { v: usd(A.raised), g: usd(A.gradTarget) }) }, lbl);
+  C[2] = Object.assign({ n: 2, v: A.graduated ? null : true, kind: 'guess', note: T(A.graduated ? 'n.lp.grad' : 'n.lp.curve') }, lbl);
+  if (C[7].v === null) {
+    const o = A.otherLaunches.length;
+    C[7] = Object.assign({ n: 7, v: o === 0 ? true : null, kind: o === 0 ? 'guess' : 'you',
+      note: T(o === 0 ? 'n.dev.first' : 'n.dev.anewone',
+        { v: short(A.creator || ''), n: o, l: A.otherLaunches.slice(0, 4).map(x => x.symbol).join(', ') }),
+      extraLink: A.creator ? explorerUrl('arc', A.creator) : null, extraLabel: short(A.creator || '') }, lbl);
+  }
+  C[11] = Object.assign({ n: 11, v: null, kind: 'you', note: T('n.vol.curve', { v: usd(A.volAll), t: nf(A.trades) }) }, lbl);
+  /* X hesabi DexScreener'dan degil, tokenin A NEW ONE metadata'sindan okunur */
+  if (!D.handle && !D.community) [8, 9].forEach(n => Object.assign(C[n], { note: T('n.x.none.arc') }, lbl));
+}
+
 /* X hesabi: fxtwitter herkese acik ve CORS * veriyor (anahtar gerekmiyor).
    Dusunce: hesap yasi (soru 8) ve takipci kalitesi (soru 9) buradan cikiyor. */
 async function fetchSocial(handle) {
@@ -221,7 +282,9 @@ async function fetchRugFull(ca) {
 /* Blockscout limitine takilirsan oturum icinde son basarili veriyi kullan */
 const OC_CACHE = {};
 const ONCHAIN = {
-  robinhood: { rpc: 'https://rpc.mainnet.chain.robinhood.com', scout: 'https://robinhoodchain.blockscout.com' }
+  robinhood: { rpc: 'https://rpc.mainnet.chain.robinhood.com', scout: 'https://robinhoodchain.blockscout.com' },
+  /* explorer.arc.io'nun API'si Cloudflare dogrulamasinin arkasinda; holder listesi yok */
+  arc: { rpc: 'https://rpc.mainnet.arc.io', scout: null }
 };
 
 /* Solidity dispatcher tablosunda PUSH4 olarak duran fonksiyon imzalari */
@@ -773,8 +836,13 @@ const isSol = a => /^[1-9A-HJ-NP-Za-km-z]{32,44}$/.test(a);
 async function analyze(ca, forcedChain, onStep) {
   const step2 = onStep || function () {};
   step2(0);
-  const all = await fetchDex(ca);
-  if (!all.length) return { notFound: true };
+  let all = await fetchDex(ca);
+  let arc = null;
+  if (!all.length) {
+    arc = await fetchArcFloor(ca);
+    if (!arc) return { notFound: true };
+    all = [arc.pair];
+  }
 
   /* SADECE tokenin base tarafinda oldugu havuzlar: aksi halde fiyat/mcap
      karsi tokene ait olur (BONK/xyz havuzunda mcap xyz'nin olur) */
@@ -792,6 +860,7 @@ async function analyze(ca, forcedChain, onStep) {
 
   step2(1);
   const D = aggregate(byChain[chain]);
+  if (arc) D.vol = null;                 /* egride 24 saatlik hacim okunmuyor; "$0" degil "—" */
   const [secR, xR, rfR] = await Promise.allSettled([
     fetchSecurity(chain, ca, byChain[chain]),
     (step2(2), fetchSocial(D.handle)),
@@ -809,10 +878,16 @@ async function analyze(ca, forcedChain, onStep) {
     sec.launchpad = RF.launchpad;
   }
   if (X && X.ok === false) sec.flags.push({ lvl: 'bad', k: 'fl.xgone' });
+  if (arc) {
+    if (!sec.creator) sec.creator = arc.creator;
+    sec.launchpad = 'A NEW ONE';
+    sec.supported = true;
+  }
 
   step2(3);
   const checks = computeChecks(chain, ca, D, sec, X, RF);
-  return { ca, chain, chains, byChain, D, sec, X, RF, checks };
+  if (arc) arcAdjustChecks(checks, arc, D);
+  return { ca, chain, chains, byChain, D, sec, X, RF, checks, arc };
 }
 
 /* checks -> otomatik cevaplanabilen sorulardan puan */
@@ -837,11 +912,11 @@ async function run(caRaw, forcedChain) {
   try {
     const A = await analyze(ca, forcedChain, step);
     if (A.notFound) { $('#loading').hidden = true; $('#go').disabled = false; return showErr(T('e.notfound')); }
-    const { chain, chains, byChain, D, sec, X, RF, checks } = A;
+    const { chain, chains, byChain, D, sec, X, RF, checks, arc } = A;
     let saved = {};
     try { saved = JSON.parse(localStorage.getItem(ansKey(chain, ca)) || '{}'); } catch (e) {}
 
-    S = { ca, chain, chains, byChain, D, sec, X, RF, checks, overrides: saved };
+    S = { ca, chain, chains, byChain, D, sec, X, RF, checks, arc, overrides: saved };
     pushHistory();
     setUrl(ca, chain);
     await new Promise(r => setTimeout(r, 220));
@@ -927,19 +1002,19 @@ function renderToken() {
 
   const badges = [];
   badges.push('<span class="chip">' + esc(chain) + '</span>');
-  if (D.best && D.best.dexId) badges.push('<span class="chip v">' + esc(D.best.dexId) + '</span>');
+  if (D.best && D.best.dexId && D.best.dexId !== 'anewone') badges.push('<span class="chip v">' + esc(D.best.dexId) + '</span>');
   if (sec.launchpad) badges.push('<span class="chip o">🚀 ' + esc(sec.launchpad) + '</span>');
   if (sec.sources.length) badges.push('<span class="chip l">' + esc(sec.sources.join(' + ')) + '</span>');
   if (D.handle) badges.push('<span class="chip y">@' + esc(D.handle) + '</span>');
   if (!sec.supported) badges.push('<span class="chip r">' + (LANG === 'tr' ? 'güvenlik verisi yok' : 'no security data') + '</span>');
 
   const links = [];
-  if (D.best) links.push(l(D.best.url, '📈 DexScreener'));
+  if (D.best) links.push(l(D.best.url, D.best.dexId === 'anewone' ? '🚀 A NEW ONE' : '📈 DexScreener'));
   if (chain === 'solana') links.push(l('https://rugcheck.xyz/tokens/' + ca, '🛡️ RugCheck'));
   if (BUBBLE_CHAIN[chain]) links.push(l('https://app.bubblemaps.io/' + BUBBLE_CHAIN[chain] + '/token/' + ca, '🫧 Bubblemaps'));
   if (GMGN_CHAIN[chain]) links.push(l('https://gmgn.ai/' + GMGN_CHAIN[chain] + '/token/' + ca, '🐸 GMGN'));
   if (D.handle) links.push(l('https://app.tweetscout.io/search?q=' + D.handle, '🐦 TweetScout'));
-  if (D.website) links.push(l(D.website, '🌐 ' + (LANG === 'tr' ? 'Site' : 'Website')));
+  if (D.website && !(D.best && D.website === D.best.url)) links.push(l(D.website, '🌐 ' + (LANG === 'tr' ? 'Site' : 'Website')));
   links.push(l(explorerUrl(chain, ca), '🔎 Explorer'));
 
   const buyUrl = D.best ? D.best.url : null;
@@ -997,6 +1072,10 @@ function contextNotes() {
   const bridged = /\bwrapped\b|\bbridged\b|-peg\b|\bpeg\b/i.test((D.name || '') + ' ' + (D.sym || '')) ||
                   (FOREIGN.has(symU) && !nativeHere);
   const mature = (D.mcap || 0) > 5e7 && ageDays > 180 && (sec.holderCount || 0) > 20000;
+  if (S.arc) out.push(T('ctx.arc', {
+    r: usd(S.arc.raised), g: usd(S.arc.gradTarget),
+    d: S.arc.description ? '<br><br><i>' + esc(S.arc.description) + '</i>' : ''
+  }));
   if (sec.supported === false) out.push(T('ctx.nosec', { c: S.chain }));
   if (mature) out.push(T('ctx.mature', { m: usd(D.mcap), d: nf(Math.round(ageDays)), h: compact(sec.holderCount) }));
   if (bridged) out.push(T('ctx.bridged'));
