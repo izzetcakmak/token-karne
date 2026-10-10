@@ -571,3 +571,39 @@ footer a:hover{text-decoration:underline}
 .buy-btn:active{transform:translate(1px,1px);box-shadow:1px 1px 0 var(--black)}
 .act.buy{background:#00c48c;color:#fff;border-color:var(--black)}
 .act.buy:hover{background:#00a876}
+
+/* ---- Odeme kapilari (assets/pay.js) ---- */
+.pay-card{display:grid;gap:12px}
+.pay-kicker{font-family:var(--font-d);font-weight:800;font-size:1.25rem;letter-spacing:-.02em}
+.pay-lead{margin:0;font-weight:600;line-height:1.5;color:rgba(255,246,233,.85)}
+.pay-row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.pay-btn{
+  font-family:var(--font-d);font-weight:800;font-size:16px;letter-spacing:-.01em;cursor:pointer;
+  background:var(--yellow);color:var(--black);border:3px solid var(--black);border-radius:14px;
+  padding:13px 22px;box-shadow:var(--shadow-sm);transition:.15s;white-space:nowrap;
+}
+.pay-btn:hover{transform:translate(-2px,-2px);box-shadow:7px 7px 0 var(--black)}
+.pay-btn:active{transform:translate(3px,3px);box-shadow:0 0 0 var(--black)}
+.pay-btn:disabled{opacity:.55;cursor:wait;transform:none;box-shadow:var(--shadow-sm)}
+.pay-cancel{
+  background:transparent;color:var(--cream);border:2px solid rgba(255,246,233,.35);border-radius:999px;
+  padding:9px 16px;font-weight:800;font-size:13px;cursor:pointer;transition:.15s;
+}
+.pay-cancel:hover{border-color:var(--cream);background:rgba(255,246,233,.08)}
+.pay-status{font-size:.88rem;color:rgba(255,246,233,.6);min-height:1.2em;line-height:1.45}
+.pay-status.err{color:#ff6b6b}
+.pay-status.ok{color:var(--lime)}
+.pay-status a{color:var(--cyan);font-weight:700}
+.board-lock{
+  background:var(--ink-2);border:var(--edge) solid var(--black);border-radius:var(--r);
+  padding:22px 24px;box-shadow:var(--shadow);display:grid;gap:12px;
+}
+.board-lock .lock-em{font-size:2.2rem;line-height:1}
+.board-lock h3{font-family:var(--font-d);font-size:1.5rem;margin:0;letter-spacing:-.02em}
+.board-lock p{margin:0;line-height:1.55;font-weight:600;color:rgba(255,246,233,.85)}
+.board-lock .pay-expired{color:var(--yellow)}
+.pay-left{
+  display:inline-flex;align-items:center;gap:6px;background:var(--lime);color:var(--black);
+  border:2px solid var(--black);border-radius:999px;padding:5px 12px;font-weight:800;font-size:12px;
+  font-variant-numeric:tabular-nums;box-shadow:3px 3px 0 var(--black);white-space:nowrap;
+}
