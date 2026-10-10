@@ -261,23 +261,13 @@ async function connectAndLoadBalance(state) {
       } else { throw swErr; }
     }
 
-    // Solana hesabı al (MetaMask multichain)
+    // Solana hesabı al — sadece MetaMask multichain destekliyorsa
     try {
-      var solAccounts = await window.ethereum.request({
-        method: 'wallet_getSnaps',
-      });
-      // MetaMask Solana hesabı — multichain API
-      var solResp = await window.ethereum.request({
-        method: 'wallet_requestSnaps',
-        params: {},
-      });
-      // Solana address'i al
-      var provider = window.ethereum;
-      var solAddr = await getSolanaAddress(provider);
+      var solAddr = await getSolanaAddress(window.ethereum);
       state.solanaAddr = solAddr;
     } catch (e) {
-      // Solana hesabı erişilemiyor olabilir, devam et
       console.warn('Solana adresi alınamadı:', e.message);
+      state.solanaAddr = null;
     }
 
     // USDC bakiyesi
@@ -288,8 +278,10 @@ async function connectAndLoadBalance(state) {
     connectBtn.style.display = 'none';
     var balEl = document.getElementById('arcBuyBalance');
     balEl.style.display = 'block';
-    balEl.innerHTML = '💰 Arc Testnet USDC Bakiyeniz: <strong>$' + balFormatted + '</strong>'
-      + (state.solanaAddr ? '<br>🔑 Solana Adres: <code>' + state.solanaAddr.slice(0, 8) + '...' + state.solanaAddr.slice(-4) + '</code>' : '');
+    balEl.innerHTML = '💰 Arc USDC Bakiyeniz: <strong>$' + balFormatted + '</strong>'
+      + (state.solanaAddr
+        ? '<br>🔑 Solana: <code>' + state.solanaAddr.slice(0, 8) + '...' + state.solanaAddr.slice(-4) + '</code>'
+        : '<br><label style="font-size:.8rem;color:#aaa">Solana alım adresi (Phantom/MetaMask Solana):<br><input id="arcSolAddrInput" placeholder="Base58 adres..." style="width:100%;padding:4px;margin-top:4px;background:#111;border:1px solid #444;color:#fff;border-radius:4px;font-size:.75rem" /></label>');
 
     if (state.usdcBalance === 0n) {
       balEl.innerHTML += '<br><span class="arc-buy-warning">⚠️ Arc Testnet USDC yok. <a href="https://studio.arc.io" target="_blank">Faucet\'ten alın</a> veya <a href="https://app.arc.io/bridge" target="_blank">köprüleyin</a>.</span>';
@@ -303,28 +295,21 @@ async function connectAndLoadBalance(state) {
   }
 }
 
-// ── Solana adresi al (MetaMask multichain) ────────────────────
+// ── Solana adresi al ─────────────────────────────────────────
+// MetaMask multichain destekliyorsa otomatik alır, yoksa null döner
+// (Kullanıcı swap adımında manuel girer)
 async function getSolanaAddress(provider) {
+  // Sadece MetaMask'ta dene
+  if (!provider || !provider.isMetaMask) return null;
   try {
-    // MetaMask v13.5+ multichain: her account'ın Solana adresi var
     var resp = await provider.request({
       method: 'wallet_invokeMethod',
       params: {
-        scope: 'solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp',  
-        request: {
-          method: 'getAccounts',
-          params: [],
-        },
+        scope: 'solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp',
+        request: { method: 'getAccounts', params: [] },
       },
     });
     if (resp && resp[0] && resp[0].address) return resp[0].address;
-  } catch (e) {}
-  // Fallback: CAIP-25
-  try {
-    var accounts = await provider.request({ method: 'eth_accounts' });
-    // MetaMask Solana address — aynı SRP'den türetilmiş, accounts[0] ile eşleşiyor
-    // Kullanıcıya sor
-    return null;
   } catch (e) {}
   return null;
 }
@@ -377,10 +362,15 @@ async function executeBuy(state) {
     return;
   }
 
-  // Solana adresi kontrolü
+  // Solana adresi — otomatik alınamazsa input'tan oku
   if (!state.solanaAddr) {
-    showBuyError('MetaMask Solana adresi bulunamadı. MetaMask\'ı güncelleyip Solana hesabı oluşturun.');
-    return;
+    var inputEl = document.getElementById('arcSolAddrInput');
+    var manualAddr = inputEl ? inputEl.value.trim() : '';
+    if (!manualAddr || manualAddr.length < 32) {
+      showBuyError('Solana alım adresinizi girin (Phantom veya MetaMask Solana hesabı).');
+      return;
+    }
+    state.solanaAddr = manualAddr;
   }
 
   document.getElementById('arcBuyStep1').style.display = 'none';
