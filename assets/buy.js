@@ -9,6 +9,15 @@
 
 'use strict';
 
+function detectBuyWallet() {
+  var p = window.ethereum;
+  if (!p) return { name: 'Cüzdan', icon: '🔗' };
+  if (p.isRabby)     return { name: 'Rabby',   icon: '🐰' };
+  if (p.isOkxWallet) return { name: 'OKX',     icon: '⭕' };
+  if (p.isMetaMask)  return { name: 'MetaMask', icon: '🦊' };
+  return { name: 'Cüzdan', icon: '🔗' };
+}
+
 // ── Sabitler (ARC MAINNET) ─────────────────────────────────────
 var ARC_CHAIN_ID = '0x13B2'; // Arc Mainnet: 5050
 var ARC_RPC = 'https://rpc.mainnet.arc.network';
@@ -112,7 +121,7 @@ function createBuyModal(tokenCA, tokenSymbol, chain, solanaCA) {
         <!-- Adım 1: Cüzdan bağla + bakiye -->
         <div id="arcBuyStep1">
           <div class="arc-buy-info">Arc Testnet USDC bakiyeniz kullanılarak Solana ağında <strong>${esc2(tokenSymbol)}</strong> satın alınacak.</div>
-          <button class="arc-buy-btn" id="arcBuyConnectBtn">🦊 MetaMask ile Bağlan</button>
+          <button class="arc-buy-btn" id="arcBuyConnectBtn" id="arcBuyConnectBtn">🔗 Cüzdan Bağla</button>
           <div id="arcBuyBalance" class="arc-buy-balance" style="display:none"></div>
           <div id="arcBuyAmountSection" style="display:none">
             <div class="arc-buy-label">Ne kadar harcamak istiyorsunuz?</div>
@@ -211,9 +220,12 @@ function createBuyModal(tokenCA, tokenSymbol, chain, solanaCA) {
 async function connectAndLoadBalance(state) {
   var connectBtn = document.getElementById('arcBuyConnectBtn');
   if (!window.ethereum) {
-    showBuyError('MetaMask bulunamadı. Lütfen MetaMask yükleyin.');
+    showBuyError('EVM cüzdanı bulunamadı. MetaMask, Rabby veya OKX Web3 Wallet yükleyin.');
     return;
   }
+  // Buton metnini cüzdana göre güncelle
+  var wInfo = detectBuyWallet();
+  connectBtn.textContent = wInfo.icon + ' ' + wInfo.name + ' ile Bağlan';
   connectBtn.disabled = true;
   connectBtn.textContent = 'Bağlanıyor...';
   try {
@@ -289,7 +301,7 @@ async function connectAndLoadBalance(state) {
   } catch (err) {
     showBuyError('Bağlantı hatası: ' + err.message);
     connectBtn.disabled = false;
-    connectBtn.textContent = '🦊 MetaMask ile Bağlan';
+    connectBtn.textContent = '🔗 Cüzdan Bağla';
   }
 }
 

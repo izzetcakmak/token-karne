@@ -63,7 +63,17 @@ async function arcEthCall(to, data) {
   return j.result || null;
 }
 
-/* tx onaylanana kadar bekle — MetaMask provider üzerinden (CORS yok) */
+/* ── Cüzdan algılama ────────────────────────────────────────── */
+function detectWallet() {
+  var p = window.ethereum;
+  if (!p) return { name: 'EVM Cüzdan', icon: '🔗' };
+  if (p.isRabby)       return { name: 'Rabby',   icon: '🐰' };
+  if (p.isOkxWallet)   return { name: 'OKX',     icon: '⭕' };
+  if (p.isMetaMask)    return { name: 'MetaMask', icon: '🦊' };
+  return { name: 'Cüzdan', icon: '🔗' };
+}
+
+/* tx onaylanana kadar bekle — provider üzerinden (CORS yok) */
 async function arcWaitForTx(txHash, maxMs) {
   maxMs = maxMs || 60000;
   var start = Date.now();
@@ -96,8 +106,8 @@ async function arcSwitchToArc() {
 async function arcConnect() {
   if (!window.ethereum) {
     alert(arcLang() === 'tr'
-      ? 'MetaMask veya EVM uyumlu bir cüzdan bulunamadı.'
-      : 'No EVM wallet found. Please install MetaMask.');
+      ? 'EVM cüzdanı bulunamadı. MetaMask, Rabby veya OKX Web3 Wallet yükleyin.'
+      : 'No EVM wallet found. Please install MetaMask, Rabby or OKX Web3 Wallet.');
     return false;
   }
   var accounts = await window.ethereum.request({ method: 'eth_requestAccounts' });
@@ -131,7 +141,7 @@ function arcShowPayModal(caValue, onSuccess) {
       '</div>' +
       '<div class="arc-modal-footer">' +
         '<button id="arcPayBtn" class="arc-pay-btn">' +
-          (tr ? '🦊 Cüzdanı Bağla ve 0.10 USDC Öde' : '🦊 Connect Wallet & Pay 0.10 USDC') +
+          (detectWallet().icon + ' ' + (tr ? 'Cüzdanı Bağla ve 0.10 USDC Öde' : 'Connect Wallet & Pay 0.10 USDC')) +
         '</button>' +
       '</div>' +
     '</div>';
@@ -377,7 +387,7 @@ function arcShowSwapModal(ca, sym) {
       '</div>' +
       '<div class="arc-modal-footer" style="display:flex;gap:.5rem;flex-wrap:wrap">' +
         '<button class="arc-pay-btn" id="arcSwapConnectBtn" style="flex:1">' +
-          (tr ? '🦊 Cüzdan Bağla' : '🦊 Connect Wallet') +
+          (detectWallet().icon + ' ' + (tr ? 'Cüzdan Bağla' : 'Connect Wallet')) +
         '</button>' +
         '<a class="arc-pay-btn" id="arcSwapDexBtn" href="https://dexscreener.com/search?q=' + encodeURIComponent(ca) + '" target="_blank" rel="noopener" style="flex:1;text-align:center;text-decoration:none;display:block">' +
           '📈 DexScreener' +
