@@ -1,5 +1,5 @@
 {
- "updatedAt": 1791596999248,
+ "updatedAt": 1791598215429,
  "threshold": 9,
  "scanned": 45,
  "items": [
@@ -25,9 +25,9 @@
     1,
     null
    ],
-   "liq": 645721,
-   "vol": 973701,
-   "mcap": 14770227,
+   "liq": 648541,
+   "vol": 973688,
+   "mcap": 14899607,
    "holders": 11074,
    "createdAt": 1787522174000,
    "handle": "tartprotocol",
@@ -37,7 +37,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x30000a407fabebe29439f8e437050512ff6661be",
-   "scannedAt": 1791596920042
+   "scannedAt": 1791598132534
   },
   {
    "ca": "5yuiTSNd32qxBM4rkuxqNd6gaSLBqCykJEaKwK4Jpump",
@@ -61,10 +61,10 @@
     1,
     null
    ],
-   "liq": 50069,
-   "vol": 982627,
-   "mcap": 320397,
-   "holders": 7373,
+   "liq": 52200,
+   "vol": 1004792,
+   "mcap": 345675,
+   "holders": 7369,
    "createdAt": 1791571624000,
    "handle": "SuperWhaleCoin",
    "launchpad": "Pump.Fun",
@@ -74,7 +74,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/ayhexwrxqtpt9zkjc3ysiela1kcquakgxw6o8utqfv2",
-   "scannedAt": 1791596922180
+   "scannedAt": 1791598134334
   },
   {
    "ca": "BQAeeSowpwEx8Km8GcporcbuLKq4a7EQceH3F2qZpump",
@@ -98,10 +98,10 @@
     1,
     null
    ],
-   "liq": 205103,
-   "vol": 2767202,
-   "mcap": 4955437,
-   "holders": 6532,
+   "liq": 210620,
+   "vol": 2842612,
+   "mcap": 5200597,
+   "holders": 6656,
    "createdAt": 1791587622000,
    "handle": "qOMPUTEx",
    "launchpad": "Pump.Fun",
@@ -111,7 +111,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/7f7q1oktpuyg7oyyhxzauszcnmkhri18bxbvx7dhazpb",
-   "scannedAt": 1791596924156
+   "scannedAt": 1791598136521
   },
   {
    "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
@@ -135,9 +135,9 @@
     1,
     null
    ],
-   "liq": 166635,
-   "vol": 640293,
-   "mcap": 2163909,
+   "liq": 167597,
+   "vol": 631391,
+   "mcap": 2182269,
    "holders": 12272,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -148,7 +148,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1791596925759
+   "scannedAt": 1791598138765
   },
   {
    "ca": "9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump",
@@ -172,9 +172,9 @@
     1,
     null
    ],
-   "liq": 123228,
-   "vol": 506759,
-   "mcap": 725345,
+   "liq": 127000,
+   "vol": 510590,
+   "mcap": 753956,
    "holders": 4120,
    "createdAt": 1791150590000,
    "handle": "gomo_family",
@@ -185,7 +185,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5a7qurjlart146jajjype5nh6vlyfpn2qrhuslqbsczy",
-   "scannedAt": 1791596927440
+   "scannedAt": 1791598140406
   },
   {
    "ca": "0x7d03759E5B41E36899833cb2E008455d69A24444",
@@ -209,9 +209,9 @@
     0,
     null
    ],
-   "liq": 118529,
-   "vol": 54014,
-   "mcap": 214186,
+   "liq": 118823,
+   "vol": 53878,
+   "mcap": 214753,
    "holders": 72635,
    "createdAt": 1757345211000,
    "handle": "PricelessBSC_",
@@ -221,7 +221,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x3dc2878f9f60476dbbb18af7531fbe1a603c8dc0",
-   "scannedAt": 1791596929256
+   "scannedAt": 1791598142050
   },
   {
    "ca": "0xccB655BF8A03b57d80aa3835a39de5242605eA4D",
@@ -245,9 +245,9 @@
     1,
     null
    ],
-   "liq": 83854,
-   "vol": 117749,
-   "mcap": 614292,
+   "liq": 83335,
+   "vol": 118087,
+   "mcap": 605794,
    "holders": 1854,
    "createdAt": 1791515759000,
    "handle": "MYC_TOKEN",
@@ -257,7 +257,44 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/base/0x973a9cd3008ac2e83172b811726e6219cfb33195",
-   "scannedAt": 1791596930740
+   "scannedAt": 1791598143969
+  },
+  {
+   "ca": "5hz8ATWNFTSpmS61U3iy4jvVHx7puooTPCtsztdKpump",
+   "chain": "solana",
+   "sym": "SQI",
+   "name": "Super Quantum Inu",
+   "img": "https://cdn.dexscreener.com/cms/images/OXU9d_VYf3H6MaIn?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 2,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    null,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 79479,
+   "vol": 422507,
+   "mcap": 822320,
+   "holders": 4844,
+   "createdAt": 1791596816000,
+   "handle": "SuperQuantumInu",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/2azchmbktiz6ug9dyczrz79hok3m3hwy3qayzyd3cxk9",
+   "scannedAt": 1791598146199
   }
  ]
 }
