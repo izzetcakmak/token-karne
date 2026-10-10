@@ -1,18 +1,16 @@
-# Token Karnesi — Proje Notları
+# Token Karnesi — AGENTS.md
 
-## Deploy Edilmiş Contract'lar
+## Deployed Contracts
 
-### TokenKarnesi
-- **Ağ:** Arc Testnet
-- **Adres:** `0x65ab5145236b7a34377ae700d4de8b2aac6d2bdd`
-- **Explorer:** https://explorer.testnet.arc.io/address/0x65ab5145236b7a34377ae700d4de8b2aac6d2bdd
-- **Deploy Tarihi:** 2026-09-19
-- **USDC (Arc Testnet):** `0x3600000000000000000000000000000000000000`
-- **Fee:** 100000 (0.10 USDC, 6 decimals)
-- **Owner:** Platform deployer cüzdanı (`0x5B12Ce46C7194aD57d143bC22847224047b1Ef42`)
+| Contract | Network | Address | Explorer |
+|---|---|---|---|
+| TokenKarnesi | Arc Mainnet | `0x3b6BB772b7Ac34d9f7357d6F66867C2c29f2034f` | https://explorer.arc.io/address/0x3b6BB772b7Ac34d9f7357d6F66867C2c29f2034f |
+| TokenKarnesi | Arc Testnet | `0x1115a8e4b230321dde500cb73762941862e885e4` | https://explorer.testnet.arc.io/address/0x1115a8e4b230321dde500cb73762941862e885e4 |
 
-## Önemli Notlar
+## Owner
+`0xD4F1254C803662c46D9c21f80F4F3c15FF57e2c9`
 
-- Owner fonksiyonları (`withdraw`, `setFee`) platform cüzdanı tarafından çağrılabilir.
-- Kendi cüzdanınla owner olmak için `transferOwnership` çağırman gerekir.
-- Testnet USDC almak için Arc Studio sidebar'ındaki "Get test USDC" butonunu kullan.
+## Notes
+- Fee: 0.10 USDC (100_000, 6 decimals) per score submission
+- USDC on Arc: `0x3600000000000000000000000000000000000000`
+- withdraw() → owner adresine birikmiş USDC gönderir

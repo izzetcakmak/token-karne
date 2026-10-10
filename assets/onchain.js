@@ -1,19 +1,19 @@
 /* =============================================================
-   TOKEN KARNESİ — Arc Testnet onchain entegrasyonu
-   Contract: 0x1115a8e4b230321dde500cb73762941862e885e4 (Arc Testnet)
-   USDC (Arc Testnet): 0x3600000000000000000000000000000000000000
+   TOKEN KARNESİ — Arc Mainnet onchain entegrasyonu
+   Contract: 0x3b6BB772b7Ac34d9f7357d6F66867C2c29f2034f (Arc Mainnet)
+   USDC (Arc): 0x3600000000000000000000000000000000000000
    Fee: 0.10 USDC per query (100_000 — 6 decimals)
    ============================================================= */
 
 var ARC_TESTNET = {
-  chainId: '0x4CEF52',
-  chainName: 'Arc Testnet',
+  chainId: '0x13B2',
+  chainName: 'Arc',
   nativeCurrency: { name: 'USDC', symbol: 'USDC', decimals: 18 },
-  rpcUrls: ['https://rpc.testnet.arc.io'],
-  blockExplorerUrls: ['https://explorer.testnet.arc.io']
+  rpcUrls: ['https://rpc.mainnet.arc.io'],
+  blockExplorerUrls: ['https://explorer.arc.io']
 };
 
-var CONTRACT_ADDR = '0x1115a8e4b230321dde500cb73762941862e885e4';
+var CONTRACT_ADDR = '0x3b6BB772b7Ac34d9f7357d6F66867C2c29f2034f';
 var USDC_ADDR     = '0x3600000000000000000000000000000000000000';
 var FEE_RAW       = BigInt('100000'); // 0.10 USDC (6 desimal)
 
@@ -54,7 +54,7 @@ async function arcEthCall(to, data) {
     } catch(e) { /* fallback */ }
   }
   // Fallback: doğrudan RPC (sadece cüzdan yoksa)
-  var res = await fetch('https://rpc.testnet.arc.io', {
+  var res = await fetch('https://rpc.mainnet.arc.io', {
     method: 'POST',
     headers: { 'content-type': 'application/json' },
     body: JSON.stringify({ jsonrpc: '2.0', id: 1, method: 'eth_call', params: [{ to: to, data: data }, 'latest'] })
@@ -223,7 +223,7 @@ async function arcRefreshScore(ca) {
         '<div class="arc-score-bars">' + bars + '</div>' +
         '<div class="arc-score-meta">' +
           (tr ? 'Kaydeden: ' : 'By: ') +
-          '<a href="https://explorer.testnet.arc.io/address/' + submitter + '" target="_blank" rel="noopener">' +
+          '<a href="https://explorer.arc.io/address/' + submitter + '" target="_blank" rel="noopener">' +
           submitter.slice(0, 6) + '…' + submitter.slice(-4) + '</a>' +
           ' · ' + dateStr +
         '</div>' +

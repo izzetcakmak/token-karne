@@ -10,7 +10,7 @@
 'use strict';
 
 // ── Sabitler (ARC MAINNET) ─────────────────────────────────────
-var ARC_CHAIN_ID = '0x13BA'; // Arc Mainnet: 5050
+var ARC_CHAIN_ID = '0x13B2'; // Arc Mainnet: 5050
 var ARC_RPC = 'https://rpc.mainnet.arc.network';
 var ARC_EXPLORER = 'https://explorer.arc.io';
 var ARC_USDC = '0x3600000000000000000000000000000000000000';
