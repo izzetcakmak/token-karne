@@ -1,5 +1,5 @@
 {
- "updatedAt": 1791666863863,
+ "updatedAt": 1791667814995,
  "threshold": 9,
  "scanned": 45,
  "items": [
@@ -25,10 +25,10 @@
     1,
     null
    ],
-   "liq": 656373,
-   "vol": 1377916,
-   "mcap": 14846151,
-   "holders": 14134,
+   "liq": 654373,
+   "vol": 1375870,
+   "mcap": 14752180,
+   "holders": 14364,
    "createdAt": 1787522174000,
    "handle": "tartprotocol",
    "launchpad": null,
@@ -37,7 +37,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x30000a407fabebe29439f8e437050512ff6661be",
-   "scannedAt": 1791666775576
+   "scannedAt": 1791667739251
   },
   {
    "ca": "E6vtwCUtcNJdQEPGY8vWKahtu2sfwxQ4j68pUKm7pump",
@@ -61,10 +61,10 @@
     1,
     null
    ],
-   "liq": 306059,
-   "vol": 470486,
-   "mcap": 6264474,
-   "holders": 5598,
+   "liq": 307407,
+   "vol": 448250,
+   "mcap": 6339625,
+   "holders": 5597,
    "createdAt": 1791356563000,
    "handle": "everythingrwas",
    "launchpad": "Pump.Fun",
@@ -74,7 +74,43 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/fcfej9ujfnfcsiazgduesecmj2np6myxdm5h2jpfzbdc",
-   "scannedAt": 1791666777750
+   "scannedAt": 1791667740760
+  },
+  {
+   "ca": "0x2Ca020b2516F535aD4275Fc6B305eAA2464039FC",
+   "chain": "bsc",
+   "sym": "Altai",
+   "name": "Altai the Tiger",
+   "img": "https://cdn.dexscreener.com/cms/images/91yf756xrFZm5oQ4?width=800&height=800&quality=95&format=auto",
+   "score": 10,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 163876,
+   "vol": 1900986,
+   "mcap": 4437277,
+   "holders": 557,
+   "createdAt": 1791658019000,
+   "handle": "altaitiger_x",
+   "launchpad": null,
+   "flags": 0,
+   "sources": [
+    "GoPlus"
+   ],
+   "url": "https://dexscreener.com/bsc/0xf9fab0b2b9e32233ff0ebc371149bef45aa63b04",
+   "scannedAt": 1791667745952
   },
   {
    "ca": "9LAHK5YvCqQCzX5CBw6xF5yFVUzXqoAHWtoofqk2pump",
@@ -98,10 +134,10 @@
     1,
     null
    ],
-   "liq": 82815,
-   "vol": 599588,
-   "mcap": 871741,
-   "holders": 3895,
+   "liq": 86466,
+   "vol": 624429,
+   "mcap": 947717,
+   "holders": 4177,
    "createdAt": 1791656559000,
    "handle": "theqtiger",
    "launchpad": "Pump.Fun",
@@ -111,7 +147,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/fkknxvybrt22bqef9mbmswiw35oig5ion2qmnasfvrat",
-   "scannedAt": 1791666781969
+   "scannedAt": 1791667742228
+  },
+  {
+   "ca": "GuDE7C5whS5S9ucHw59paTs3SaBsuCmF3MxSVoTmpump",
+   "chain": "solana",
+   "sym": "MAYA",
+   "name": "Maya The Samoyed",
+   "img": "https://cdn.dexscreener.com/cms/images/8g1UJRmk63PRmdqi?width=800&height=800&quality=95&format=auto",
+   "score": 10,
+   "unknown": 2,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    null,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 33179,
+   "vol": 281497,
+   "mcap": 153321,
+   "holders": 2688,
+   "createdAt": 1791666121000,
+   "handle": "MayaDogLive",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/buyly7145v1wcsdepnapn5bava8ektn3q4szf7lawmhb",
+   "scannedAt": 1791667755837
   },
   {
    "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
@@ -135,9 +208,9 @@
     1,
     null
    ],
-   "liq": 154884,
-   "vol": 483121,
-   "mcap": 1841907,
+   "liq": 157273,
+   "vol": 483260,
+   "mcap": 1899074,
    "holders": 13039,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -148,43 +221,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1791666779476
-  },
-  {
-   "ca": "0x2Ca020b2516F535aD4275Fc6B305eAA2464039FC",
-   "chain": "bsc",
-   "sym": "Altai",
-   "name": "Altai the Tiger",
-   "img": "https://cdn.dexscreener.com/cms/images/91yf756xrFZm5oQ4?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 132939,
-   "vol": 1728773,
-   "mcap": 2924952,
-   "holders": 557,
-   "createdAt": 1791658019000,
-   "handle": "altaitiger_x",
-   "launchpad": null,
-   "flags": 0,
-   "sources": [
-    "GoPlus"
-   ],
-   "url": "https://dexscreener.com/bsc/0xf9fab0b2b9e32233ff0ebc371149bef45aa63b04",
-   "scannedAt": 1791666791822
+   "scannedAt": 1791667744370
   },
   {
    "ca": "BQAeeSowpwEx8Km8GcporcbuLKq4a7EQceH3F2qZpump",
@@ -208,10 +245,10 @@
     1,
     null
    ],
-   "liq": 91167,
-   "vol": 7159115,
-   "mcap": 856181,
-   "holders": 9115,
+   "liq": 91001,
+   "vol": 7190632,
+   "mcap": 852387,
+   "holders": 9119,
    "createdAt": 1791587622000,
    "handle": "qOMPUTEx",
    "launchpad": "Pump.Fun",
@@ -221,7 +258,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/7f7q1oktpuyg7oyyhxzauszcnmkhri18bxbvx7dhazpb",
-   "scannedAt": 1791666784535
+   "scannedAt": 1791667747397
   },
   {
    "ca": "0xae5A409773b9A7Dd0Ae94ff437Ac213d8faFBa01",
@@ -245,9 +282,9 @@
     1,
     null
    ],
-   "liq": 85507,
-   "vol": 44184,
-   "mcap": 148076,
+   "liq": 85695,
+   "vol": 44313,
+   "mcap": 148739,
    "holders": 8736,
    "createdAt": 1775255453000,
    "handle": "upscreener",
@@ -257,7 +294,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0xc17236ba8107de131a6a7e380cf857fae9696919",
-   "scannedAt": 1791666787082
+   "scannedAt": 1791667749366
   },
   {
    "ca": "GtV6g1ey2NERrcbvL5bdzrxRJQDfxpMaLU9oLtRipump",
@@ -281,9 +318,9 @@
     1,
     null
    ],
-   "liq": 35066,
-   "vol": 18561,
-   "mcap": 159724,
+   "liq": 34754,
+   "vol": 18651,
+   "mcap": 157029,
    "holders": 1263,
    "createdAt": 1790863293000,
    "handle": "LegendOfCrows",
@@ -294,44 +331,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/g4yk7zdaiqkcs7ch22vpi9ey6fhdhkphfeyyz2gj6q2t",
-   "scannedAt": 1791666788703
-  },
-  {
-   "ca": "6wGj1U1gDpfcfyBWCFuZdzpHPP9g49ohEDrGWw6epump",
-   "chain": "solana",
-   "sym": "Nala",
-   "name": "Nala Cat",
-   "img": "https://cdn.dexscreener.com/cms/images/lOkUxzRr4-WN2h00?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 2,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    null,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 30481,
-   "vol": 82403,
-   "mcap": 125239,
-   "holders": 516,
-   "createdAt": 1791580171000,
-   "handle": "iamnalacat",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/by5mqslfmmbqq2pqumxah2vhw4wxi94k24b9it4ynsly",
-   "scannedAt": 1791666805415
+   "scannedAt": 1791667750942
   }
  ]
 }
