@@ -281,10 +281,10 @@ async function connectAndLoadBalance(state) {
     balEl.innerHTML = '💰 Arc USDC Bakiyeniz: <strong>$' + balFormatted + '</strong>'
       + (state.solanaAddr
         ? '<br>🔑 Solana: <code>' + state.solanaAddr.slice(0, 8) + '...' + state.solanaAddr.slice(-4) + '</code>'
-        : '<br><label style="font-size:.8rem;color:#aaa">Solana alım adresi (Phantom/MetaMask Solana):<br><input id="arcSolAddrInput" placeholder="Base58 adres..." style="width:100%;padding:4px;margin-top:4px;background:#111;border:1px solid #444;color:#fff;border-radius:4px;font-size:.75rem" /></label>');
+        : '<br><label style="font-size:.8rem;color:#aaa">Solana USDC Token Hesabı (ATA):<br><small style="color:#888">Phantom\'da: USDC → Deposit → adresinizi kopyalayın</small><br><input id="arcSolAddrInput" placeholder="USDC ATA Base58 adresi..." style="width:100%;padding:4px;margin-top:4px;background:#111;border:1px solid #444;color:#fff;border-radius:4px;font-size:.75rem" /></label>');
 
     if (state.usdcBalance === 0n) {
-      balEl.innerHTML += '<br><span class="arc-buy-warning">⚠️ Arc Testnet USDC yok. <a href="https://studio.arc.io" target="_blank">Faucet\'ten alın</a> veya <a href="https://app.arc.io/bridge" target="_blank">köprüleyin</a>.</span>';
+      balEl.innerHTML += '<br><span class="arc-buy-warning">⚠️ Arc USDC bakiyeniz yok. <a href="https://app.arc.io/bridge" target="_blank">Köprüleyerek</a> USDC ekleyin.</span>';
     }
 
     document.getElementById('arcBuyAmountSection').style.display = 'block';
@@ -408,8 +408,8 @@ async function executeBuy(state) {
     // ── ADIM 2: depositForBurn (CCTP) ────────────────────────
     setStep(steps, 'step-burn', 'active');
     var mintRecipientBytes32 = solanaAddressToBytes32(state.solanaAddr);
-    var MAX_FEE = 0n; // fee 0 — Circle varsayılan minimum uygular
-    var MIN_FINALITY = 1000; // confirmed
+    var MAX_FEE = 0n; // standard transfer — fee yok
+    var MIN_FINALITY = 2000; // standard finality (~15-30 dk)
     var burnData = encodeDepositForBurn(
       amountUSDC,
       SOLANA_MAINNET_DOMAIN,
