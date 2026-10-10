@@ -50,8 +50,9 @@ overrides are remembered per token in `localStorage`.
 
 A GitHub Actions job (`scripts/scan.js`) runs every 10 minutes, pulls DexScreener's boosted and
 newly profiled tokens and scores them **with the site's own engine**; whatever clears the bar is
-written to `data/board.json` and rendered on the home page. No backend: the job commits to the
-repo and Vercel redeploys the site on every commit.
+written to `data/board.json` and rendered on the home page. No backend: the job commits the file
+to the `board` branch and the page reads it from raw.githubusercontent.com, so a scan never
+triggers a Vercel deploy (the free plan allows 100 a day; a commit every 10 minutes would use 144).
 
 The engine has a single source — the same `analyze()` the browser uses is executed under Node,
 so a score on the board matches the scorecard you get when you click through.

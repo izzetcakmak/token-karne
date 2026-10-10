@@ -23,6 +23,10 @@ concurrency:
   group: board-scan
   cancel-in-progress: false
 
+# Tahta `board` dalinda yasar, main'e dokunulmaz. main'e atilan her commit
+# Vercel'de bir deploy demek; 10 dakikada bir commit gunde 144 deploy eder ve
+# ucretsiz plandaki 100 sinirini doldurur — kod degisiklikleri bile yayina
+# cikamaz. Site tahtayi raw.githubusercontent.com'dan `board` dalindan okur.
 jobs:
   scan:
     runs-on: ubuntu-latest
@@ -34,13 +38,22 @@ jobs:
         with:
           node-version: '20'
 
+      - name: Son tahtayi board dalindan al
+        run: |
+          if git fetch -q origin board; then
+            git checkout FETCH_HEAD -- data/board.json
+            echo "board dalindaki tahta alindi"
+          else
+            echo "board dali yok, main'deki data/board.json ile baslaniyor"
+          fi
+
       - name: Tokenleri tara ve puanla
         env:
           BOARD_LIMIT: ${{ github.event.inputs.limit || '45' }}
           BOARD_MIN: ${{ github.event.inputs.min || '9' }}
         run: node scripts/scan.js
 
-      - name: Degisiklik varsa isle
+      - name: Degisiklik varsa board dalina yaz
         run: |
           if git diff --quiet -- data/board.json; then
             echo "tahta degismedi, commit yok"
@@ -48,6 +61,15 @@ jobs:
           fi
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git fetch -q origin board; then
+            git worktree add -q /tmp/board FETCH_HEAD
+            (cd /tmp/board && git checkout -q -B board)
+          else
+            git worktree add -q --orphan board /tmp/board
+          fi
+          mkdir -p /tmp/board/data
+          cp data/board.json /tmp/board/data/board.json
+          cd /tmp/board
           git add data/board.json
-          git commit -m "chore: tahta guncellendi (otomatik tarama)"
-          git push
+          git commit -q -m "chore: tahta guncellendi (otomatik tarama)"
+          git push -q origin board

@@ -1226,10 +1226,11 @@ function renderFlags() {
    Site sadece okuyor; tiklayinca token kendi karnesiyle acilir. */
 let BOARD = null;
 /* Tahtayi iki kaynaktan okuyoruz ve YENI olani gosteriyoruz:
-   1) siteyle birlikte deploy edilen data/board.json — her zaman erisilebilir
-   2) repodaki guncel hali (GitHub Actions taramayi oraya commit ediyor)
-   Ikincisi sayesinde tarama sonucu, site yeniden deploy edilmeyi beklemeden gorunur. */
-const BOARD_RAW = 'https://raw.githubusercontent.com/izzetcakmak/token-karne/main/data/board.json';
+   1) siteyle birlikte deploy edilen data/board.json — her zaman erisilebilir, ama
+      sadece kod deploy edildiginde yenilenen bir anlik goruntu
+   2) repodaki `board` dalindaki guncel hali (GitHub Actions taramayi oraya yazar;
+      main'e yazsa her tarama bir Vercel deploy'u olur ve gunluk sinir dolar) */
+const BOARD_RAW = 'https://raw.githubusercontent.com/izzetcakmak/token-karne/board/data/board.json';
 let boardBusy = false;
 async function loadBoard() {
   if (boardBusy) return;
