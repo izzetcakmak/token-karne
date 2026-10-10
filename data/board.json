@@ -1,5 +1,5 @@
 {
- "updatedAt": 1791600093923,
+ "updatedAt": 1791601446660,
  "threshold": 9,
  "scanned": 45,
  "items": [
@@ -25,9 +25,9 @@
     1,
     null
    ],
-   "liq": 663341,
-   "vol": 975330,
-   "mcap": 15584624,
+   "liq": 666944,
+   "vol": 971284,
+   "mcap": 15753386,
    "holders": 11074,
    "createdAt": 1787522174000,
    "handle": "tartprotocol",
@@ -37,44 +37,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x30000a407fabebe29439f8e437050512ff6661be",
-   "scannedAt": 1791600016622
-  },
-  {
-   "ca": "5yuiTSNd32qxBM4rkuxqNd6gaSLBqCykJEaKwK4Jpump",
-   "chain": "solana",
-   "sym": "SW",
-   "name": "Super Whale",
-   "img": "https://cdn.dexscreener.com/cms/images/3G7uB5DSR7upjJBN?width=800&height=800&quality=95&format=auto",
-   "score": 10,
-   "unknown": 2,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    null,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 47597,
-   "vol": 1034155,
-   "mcap": 289195,
-   "holders": 7232,
-   "createdAt": 1791571624000,
-   "handle": "SuperWhaleCoin",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/ayhexwrxqtpt9zkjc3ysiela1kcquakgxw6o8utqfv2",
-   "scannedAt": 1791600018154
+   "scannedAt": 1791601364048
   },
   {
    "ca": "BQAeeSowpwEx8Km8GcporcbuLKq4a7EQceH3F2qZpump",
@@ -98,10 +61,10 @@
     1,
     null
    ],
-   "liq": 214034,
-   "vol": 2951386,
-   "mcap": 5367287,
-   "holders": 6850,
+   "liq": 205892,
+   "vol": 3038447,
+   "mcap": 4954015,
+   "holders": 7000,
    "createdAt": 1791587622000,
    "handle": "qOMPUTEx",
    "launchpad": "Pump.Fun",
@@ -111,7 +74,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/7f7q1oktpuyg7oyyhxzauszcnmkhri18bxbvx7dhazpb",
-   "scannedAt": 1791600021220
+   "scannedAt": 1791601368158
   },
   {
    "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
@@ -135,9 +98,9 @@
     1,
     null
    ],
-   "liq": 169750,
-   "vol": 617346,
-   "mcap": 2241451,
+   "liq": 166538,
+   "vol": 608757,
+   "mcap": 2154555,
    "holders": 12272,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -148,7 +111,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1791600022729
+   "scannedAt": 1791601370085
   },
   {
    "ca": "9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump",
@@ -172,9 +135,9 @@
     1,
     null
    ],
-   "liq": 122870,
-   "vol": 508717,
-   "mcap": 723467,
+   "liq": 125007,
+   "vol": 500992,
+   "mcap": 758461,
    "holders": 4120,
    "createdAt": 1791150590000,
    "handle": "gomo_family",
@@ -185,7 +148,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5a7qurjlart146jajjype5nh6vlyfpn2qrhuslqbsczy",
-   "scannedAt": 1791600024183
+   "scannedAt": 1791601371794
   },
   {
    "ca": "0x7d03759E5B41E36899833cb2E008455d69A24444",
@@ -210,7 +173,7 @@
     null
    ],
    "liq": 118823,
-   "vol": 53687,
+   "vol": 53090,
    "mcap": 214753,
    "holders": 72635,
    "createdAt": 1757345211000,
@@ -221,7 +184,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x3dc2878f9f60476dbbb18af7531fbe1a603c8dc0",
-   "scannedAt": 1791600026188
+   "scannedAt": 1791601374056
   },
   {
    "ca": "5GefefPX1mDs6ZJB1apYmz6fCTCiNJpHturZ9bvFpump",
@@ -245,9 +208,9 @@
     1,
     null
    ],
-   "liq": 92486,
-   "vol": 110080,
-   "mcap": 936687,
+   "liq": 91999,
+   "vol": 116679,
+   "mcap": 925160,
    "holders": 2692,
    "createdAt": 1788551378000,
    "handle": "Pumpoweenonpump",
@@ -258,7 +221,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/8nvfb1unnk9adtl5hoof8hahf2rt4glpwx9cteadikhg",
-   "scannedAt": 1791600033137
+   "scannedAt": 1791601376187
   },
   {
    "ca": "0xccB655BF8A03b57d80aa3835a39de5242605eA4D",
@@ -282,9 +245,9 @@
     1,
     null
    ],
-   "liq": 83560,
-   "vol": 118241,
-   "mcap": 609680,
+   "liq": 83525,
+   "vol": 118270,
+   "mcap": 608994,
    "holders": 1854,
    "createdAt": 1791515759000,
    "handle": "MYC_TOKEN",
@@ -294,7 +257,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/base/0x973a9cd3008ac2e83172b811726e6219cfb33195",
-   "scannedAt": 1791600027636
+   "scannedAt": 1791601378403
   }
  ]
 }
