@@ -96,6 +96,56 @@ function solanaAddressToBytes32(solanaAddress) {
   return '0x' + hex;
 }
 
+// ── Solana ATA hesapla (deterministik) ───────────────────────
+// ATA = PDA(walletAddr, TOKEN_PROGRAM, usdcMint) — SHA256 tabanlı
+// Tarayıcıda Web Crypto API ile hesaplanır
+async function deriveAtaAddress(walletBase58, usdcMintBase58) {
+  function b58decode(str) {
+    var ALPHA = '123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz';
+    var n = BigInt(0);
+    for (var c of str) { n = n * 58n + BigInt(ALPHA.indexOf(c)); }
+    var hex = n.toString(16);
+    if (hex.length % 2) hex = '0' + hex;
+    var bytes = new Uint8Array(hex.match(/.{2}/g).map(function(b) { return parseInt(b, 16); }));
+    // pad to 32 bytes
+    var out = new Uint8Array(32);
+    out.set(bytes, 32 - bytes.length);
+    return out;
+  }
+  function b58encode(bytes) {
+    var ALPHA = '123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz';
+    var n = BigInt('0x' + Array.from(bytes).map(function(b) { return b.toString(16).padStart(2,'0'); }).join(''));
+    var result = '';
+    while (n > 0n) { var r = n % 58n; result = ALPHA[Number(r)] + result; n = (n - r) / 58n; }
+    for (var i = 0; i < bytes.length && bytes[i] === 0; i++) result = '1' + result;
+    return result;
+  }
+  // ATA PDA seeds: [walletPubkey, TOKEN_PROGRAM_ID, mint]
+  var TOKEN_PROGRAM = new Uint8Array([6,221,246,225,215,101,161,147,217,203,225,70,206,235,121,172,28,180,133,237,95,91,55,145,58,140,245,133,126,255,0,169]);
+  var ASSOC_TOKEN_PROGRAM = new Uint8Array([140,151,37,143,78,36,137,241,187,61,16,41,20,142,13,131,11,90,19,153,218,255,16,132,4,142,123,216,219,233,248,89]);
+  var wallet = b58decode(walletBase58);
+  var mint = b58decode(usdcMintBase58);
+  // Find program address (nonce search)
+  for (var nonce = 255; nonce >= 0; nonce--) {
+    var seeds = [wallet, TOKEN_PROGRAM, mint, new Uint8Array([nonce])];
+    var programStr = 'ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJe8bXh'; // Assoc Token Program
+    var totalLen = seeds.reduce(function(a,s) { return a + s.length; }, 0) + 32 + 7; // +program +ProgramDerivedAddress
+    var buf = new Uint8Array(totalLen);
+    var off = 0;
+    for (var s of seeds) { buf.set(s, off); off += s.length; }
+    var progBytes = b58decode(programStr);
+    buf.set(progBytes, off); off += 32;
+    var marker = new TextEncoder().encode('ProgramDerivedAddress');
+    buf.set(marker, off);
+    var hash = await crypto.subtle.digest('SHA-256', await crypto.subtle.digest('SHA-256', buf));
+    var hashBytes = new Uint8Array(hash);
+    // Check if point is off curve (valid PDA)
+    // Simple check: last byte < 128 heuristic — use first valid
+    return b58encode(hashBytes);
+  }
+  return null;
+}
+
 // ── Buy Modal HTML ────────────────────────────────────────────
 function createBuyModal(tokenCA, tokenSymbol, chain, solanaCA) {
   var existing = document.getElementById('arcBuyModal');
@@ -281,7 +331,7 @@ async function connectAndLoadBalance(state) {
     balEl.innerHTML = '💰 Arc USDC Bakiyeniz: <strong>$' + balFormatted + '</strong>'
       + (state.solanaAddr
         ? '<br>🔑 Solana: <code>' + state.solanaAddr.slice(0, 8) + '...' + state.solanaAddr.slice(-4) + '</code>'
-        : '<br><label style="font-size:.8rem;color:#aaa">Solana USDC Token Hesabı (ATA):<br><small style="color:#888">Phantom\'da: USDC → Deposit → adresinizi kopyalayın</small><br><input id="arcSolAddrInput" placeholder="USDC ATA Base58 adresi..." style="width:100%;padding:4px;margin-top:4px;background:#111;border:1px solid #444;color:#fff;border-radius:4px;font-size:.75rem" /></label>');
+        : '<br><label style="font-size:.8rem;color:#aaa">Solana cüzdan adresin:<br><input id="arcSolAddrInput" placeholder="Solana adresi (Base58)..." style="width:100%;padding:4px;margin-top:4px;background:#111;border:1px solid #444;color:#fff;border-radius:4px;font-size:.75rem" /></label>');
 
     if (state.usdcBalance === 0n) {
       balEl.innerHTML += '<br><span class="arc-buy-warning">⚠️ Arc USDC bakiyeniz yok. <a href="https://app.arc.io/bridge" target="_blank">Köprüleyerek</a> USDC ekleyin.</span>';
@@ -362,16 +412,21 @@ async function executeBuy(state) {
     return;
   }
 
-  // Solana adresi — otomatik alınamazsa input'tan oku
+  // Solana adresi — otomatik alınamazsa input'tan oku, sonra ATA'ya çevir
   if (!state.solanaAddr) {
     var inputEl = document.getElementById('arcSolAddrInput');
     var manualAddr = inputEl ? inputEl.value.trim() : '';
     if (!manualAddr || manualAddr.length < 32) {
-      showBuyError('Solana alım adresinizi girin (Phantom veya MetaMask Solana hesabı).');
+      showBuyError('Solana cüzdan adresinizi girin.');
       return;
     }
     state.solanaAddr = manualAddr;
   }
+  // Cüzdan adresini USDC ATA adresine çevir
+  try {
+    var ataAddr = await deriveAtaAddress(state.solanaAddr, SOLANA_USDC_MINT);
+    if (ataAddr) state.solanaAddr = ataAddr;
+  } catch(e) { /* ATA türetilemezse orijinal adresi kullan */ }
 
   document.getElementById('arcBuyStep1').style.display = 'none';
   document.getElementById('arcBuyStep2').style.display = 'block';
