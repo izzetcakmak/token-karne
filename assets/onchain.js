@@ -44,23 +44,12 @@ function arcEncodeAllowance(owner, spender) {
 function arcEncodeFee() { return '0xddca3f43'; }
 
 async function arcEthCall(to, data) {
-  // Cüzdan bağlıysa provider üzerinden çağır (CORS yok)
-  if (window.ethereum) {
-    try {
-      return await window.ethereum.request({
-        method: 'eth_call',
-        params: [{ to: to, data: data }, 'latest']
-      });
-    } catch(e) { /* fallback */ }
-  }
-  // Fallback: doğrudan RPC (sadece cüzdan yoksa)
-  var res = await fetch('https://rpc.mainnet.arc.io', {
-    method: 'POST',
-    headers: { 'content-type': 'application/json' },
-    body: JSON.stringify({ jsonrpc: '2.0', id: 1, method: 'eth_call', params: [{ to: to, data: data }, 'latest'] })
+  // Her zaman cüzdan provider'ı üzerinden çağır (CORS sorunu yok)
+  if (!window.ethereum) return null;
+  return await window.ethereum.request({
+    method: 'eth_call',
+    params: [{ to: to, data: data }, 'latest']
   });
-  var j = await res.json();
-  return j.result || null;
 }
 
 /* ── Cüzdan algılama ────────────────────────────────────────── */

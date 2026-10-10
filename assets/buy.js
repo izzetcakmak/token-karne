@@ -75,15 +75,13 @@ function encodeDepositForBurn(amount, destDomain, mintRecipient, burnToken, dest
     + p256(minFinality);
 }
 
-// ── Yardımcı: eth_call ────────────────────────────────────────
+// ── Yardımcı: eth_call — cüzdan provider üzerinden (CORS yok) ─
 async function arcCall(to, data) {
-  var resp = await fetch(ARC_RPC, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ jsonrpc: '2.0', id: 1, method: 'eth_call', params: [{ to: to, data: data }, 'latest'] }),
+  if (!window.ethereum) throw new Error('Cüzdan bulunamadı');
+  return await window.ethereum.request({
+    method: 'eth_call',
+    params: [{ to: to, data: data }, 'latest']
   });
-  var json = await resp.json();
-  return json.result;
 }
 
 // ── Yardımcı: Solana adresi → bytes32 ────────────────────────
