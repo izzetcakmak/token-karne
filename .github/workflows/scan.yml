@@ -2,7 +2,7 @@ name: Tahta taramasi
 
 on:
   schedule:
-    - cron: '*/10 * * * *'      # 10 dakikada bir
+    - cron: '*/30 * * * *'      # 30 dakikada bir
   push:
     branches: [main]            # her push'ta da calis (workflow aktif kalsin)
   workflow_dispatch:            # elle de tetiklenebilir
@@ -24,9 +24,10 @@ concurrency:
   cancel-in-progress: false
 
 # Tahta `board` dalinda yasar, main'e dokunulmaz. main'e atilan her commit
-# Vercel'de bir deploy demek; 10 dakikada bir commit gunde 144 deploy eder ve
-# ucretsiz plandaki 100 sinirini doldurur — kod degisiklikleri bile yayina
-# cikamaz. Site tahtayi raw.githubusercontent.com'dan `board` dalindan okur.
+# Vercel'de bir deploy demek; 30 dakikada bir commit gunde 48 deploy eder ve
+# kod deploy'lariyla birlikte ucretsiz plandaki 100 sinirini zorlar — kod
+# degisiklikleri yayina cikamayabilir. Site tahtayi raw.githubusercontent.com'dan
+# `board` dalindan okur.
 jobs:
   scan:
     runs-on: ubuntu-latest

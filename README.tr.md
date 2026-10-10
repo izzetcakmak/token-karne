@@ -48,11 +48,11 @@ Tasarımı gereği sadece 12. soru sana kalıyor. Her cevabı elle çevirebilirs
 
 ## Tahta (otomatik tarama)
 
-GitHub Actions'ta 10 dakikada bir çalışan bir iş (`scripts/scan.js`), DexScreener'ın öne çıkan ve
+GitHub Actions'ta 30 dakikada bir çalışan bir iş (`scripts/scan.js`), DexScreener'ın öne çıkan ve
 yeni profil açan tokenlerini çekip **sitenin kendi puanlama motoruyla** tarar; barajı geçenleri
 `data/board.json`'a yazar, site de ana sayfada gösterir. Backend yok: iş dosyayı `board` dalına
 commit eder, sayfa onu raw.githubusercontent.com'dan okur; böylece tarama hiçbir zaman Vercel
-deploy'u tetiklemez (ücretsiz planda günde 100 deploy var, 10 dakikada bir commit 144 eder).
+deploy'u tetiklemez (ücretsiz planda günde 100 deploy var, tarama commit'leri bu kotayı yerdi).
 
 Motor tek kaynaktan gelir — tarayıcıdaki `analyze()` fonksiyonunun aynısı Node'da çalıştırılır,
 böylece tahtadaki puanla tıklayınca çıkan karne birbirini tutar.
