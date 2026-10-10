@@ -1,5 +1,5 @@
 {
- "updatedAt": 1791655993627,
+ "updatedAt": 1791656780633,
  "threshold": 9,
  "scanned": 45,
  "items": [
@@ -25,9 +25,9 @@
     1,
     null
    ],
-   "liq": 658328,
-   "vol": 1359505,
-   "mcap": 14971580,
+   "liq": 655687,
+   "vol": 1361176,
+   "mcap": 14860629,
    "holders": 13845,
    "createdAt": 1787522174000,
    "handle": "tartprotocol",
@@ -37,7 +37,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x30000a407fabebe29439f8e437050512ff6661be",
-   "scannedAt": 1791655902963
+   "scannedAt": 1791656666618
   },
   {
    "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
@@ -61,9 +61,9 @@
     1,
     null
    ],
-   "liq": 160791,
-   "vol": 502445,
-   "mcap": 1992686,
+   "liq": 158714,
+   "vol": 500929,
+   "mcap": 1938484,
    "holders": 13039,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -74,7 +74,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1791655905253
+   "scannedAt": 1791656669526
   },
   {
    "ca": "BQAeeSowpwEx8Km8GcporcbuLKq4a7EQceH3F2qZpump",
@@ -98,10 +98,10 @@
     1,
     null
    ],
-   "liq": 139466,
-   "vol": 6351101,
-   "mcap": 2066013,
-   "holders": 8083,
+   "liq": 114394,
+   "vol": 6615884,
+   "mcap": 1377527,
+   "holders": 8283,
    "createdAt": 1791587622000,
    "handle": "qOMPUTEx",
    "launchpad": "Pump.Fun",
@@ -111,7 +111,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/7f7q1oktpuyg7oyyhxzauszcnmkhri18bxbvx7dhazpb",
-   "scannedAt": 1791655907235
+   "scannedAt": 1791656671690
   },
   {
    "ca": "0x7d03759E5B41E36899833cb2E008455d69A24444",
@@ -135,10 +135,10 @@
     0,
     null
    ],
-   "liq": 111580,
-   "vol": 28691,
-   "mcap": 187991,
-   "holders": 72636,
+   "liq": 111449,
+   "vol": 28395,
+   "mcap": 187595,
+   "holders": 72635,
    "createdAt": 1757345211000,
    "handle": "PricelessBSC_",
    "launchpad": null,
@@ -147,43 +147,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x3dc2878f9f60476dbbb18af7531fbe1a603c8dc0",
-   "scannedAt": 1791655909522
-  },
-  {
-   "ca": "0xae5A409773b9A7Dd0Ae94ff437Ac213d8faFBa01",
-   "chain": "bsc",
-   "sym": "UPS",
-   "name": "Upscreener",
-   "img": "https://cdn.dexscreener.com/cms/images/8m6rI7lURTE0MKWr?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    1,
-    1,
-    1,
-    0,
-    null
-   ],
-   "liq": 91377,
-   "vol": 40639,
-   "mcap": 169515,
-   "holders": 8688,
-   "createdAt": 1775255453000,
-   "handle": "upscreener",
-   "launchpad": null,
-   "flags": 0,
-   "sources": [
-    "GoPlus"
-   ],
-   "url": "https://dexscreener.com/bsc/0xc17236ba8107de131a6a7e380cf857fae9696919",
-   "scannedAt": 1791655911530
+   "scannedAt": 1791656673767
   }
  ]
 }
