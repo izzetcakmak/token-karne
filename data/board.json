@@ -1,5 +1,5 @@
 {
- "updatedAt": 1791637176716,
+ "updatedAt": 1791638344373,
  "threshold": 9,
  "scanned": 45,
  "items": [
@@ -25,10 +25,10 @@
     1,
     null
    ],
-   "liq": 669604,
-   "vol": 1307195,
-   "mcap": 15521249,
-   "holders": 12917,
+   "liq": 673650,
+   "vol": 1307426,
+   "mcap": 15694321,
+   "holders": 13075,
    "createdAt": 1787522174000,
    "handle": "tartprotocol",
    "launchpad": null,
@@ -37,7 +37,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x30000a407fabebe29439f8e437050512ff6661be",
-   "scannedAt": 1791637100543
+   "scannedAt": 1791638263547
   },
   {
    "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
@@ -45,11 +45,11 @@
    "sym": "MISTAKE",
    "name": "Make No Mistakes",
    "img": "https://cdn.dexscreener.com/cms/images/S3VS6ZPJzJ-72iRm?width=800&height=800&quality=95&format=auto",
-   "score": 9,
+   "score": 10,
    "unknown": 1,
    "answers": [
     1,
-    0,
+    1,
     1,
     1,
     1,
@@ -61,9 +61,9 @@
     1,
     null
    ],
-   "liq": 174837,
-   "vol": 488401,
-   "mcap": 2365170,
+   "liq": 175448,
+   "vol": 486182,
+   "mcap": 2379657,
    "holders": 12580,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -74,7 +74,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1791637102370
+   "scannedAt": 1791638265646
   },
   {
    "ca": "BQAeeSowpwEx8Km8GcporcbuLKq4a7EQceH3F2qZpump",
@@ -98,10 +98,10 @@
     1,
     null
    ],
-   "liq": 147574,
-   "vol": 5117552,
-   "mcap": 2413225,
-   "holders": 8002,
+   "liq": 148017,
+   "vol": 5181518,
+   "mcap": 2422651,
+   "holders": 7902,
    "createdAt": 1791587622000,
    "handle": "qOMPUTEx",
    "launchpad": "Pump.Fun",
@@ -111,7 +111,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/7f7q1oktpuyg7oyyhxzauszcnmkhri18bxbvx7dhazpb",
-   "scannedAt": 1791637104197
+   "scannedAt": 1791638267119
   },
   {
    "ca": "0x7d03759E5B41E36899833cb2E008455d69A24444",
@@ -135,9 +135,9 @@
     0,
     null
    ],
-   "liq": 115663,
-   "vol": 44193,
-   "mcap": 202671,
+   "liq": 114526,
+   "vol": 40445,
+   "mcap": 198791,
    "holders": 72630,
    "createdAt": 1757345211000,
    "handle": "PricelessBSC_",
@@ -147,44 +147,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x3dc2878f9f60476dbbb18af7531fbe1a603c8dc0",
-   "scannedAt": 1791637105671
-  },
-  {
-   "ca": "5GefefPX1mDs6ZJB1apYmz6fCTCiNJpHturZ9bvFpump",
-   "chain": "solana",
-   "sym": "Pumpoween",
-   "name": "Pumpoween",
-   "img": "https://cdn.dexscreener.com/cms/images/o6qYdn_9zPxDDdf4?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 90866,
-   "vol": 119182,
-   "mcap": 903867,
-   "holders": 2795,
-   "createdAt": 1788551378000,
-   "handle": "Pumpoweenonpump",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/8nvfb1unnk9adtl5hoof8hahf2rt4glpwx9cteadikhg",
-   "scannedAt": 1791637107119
+   "scannedAt": 1791638268590
   },
   {
    "ca": "mGzw6zwvig3GitrCM6sGJXdRWeWz81X2vyzVH3Upump",
@@ -208,10 +171,10 @@
     1,
     null
    ],
-   "liq": 52377,
-   "vol": 920379,
-   "mcap": 281826,
-   "holders": 3853,
+   "liq": 57112,
+   "vol": 936359,
+   "mcap": 337608,
+   "holders": 3949,
    "createdAt": 1791604930000,
    "handle": "UseReelsApp",
    "launchpad": "Pump.Fun",
@@ -221,7 +184,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/591v7k7b9p4o6e4vil3ygzmzywogpbe3andvvvji983z",
-   "scannedAt": 1791637110772
+   "scannedAt": 1791638271657
   }
  ]
 }
