@@ -1,5 +1,5 @@
 {
- "updatedAt": 1791675647885,
+ "updatedAt": 1791676740732,
  "threshold": 9,
  "scanned": 45,
  "items": [
@@ -25,9 +25,9 @@
     1,
     null
    ],
-   "liq": 653601,
-   "vol": 1380220,
-   "mcap": 14687503,
+   "liq": 653719,
+   "vol": 1382360,
+   "mcap": 14705921,
    "holders": 14586,
    "createdAt": 1787522174000,
    "handle": "tartprotocol",
@@ -37,7 +37,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x30000a407fabebe29439f8e437050512ff6661be",
-   "scannedAt": 1791675488022
+   "scannedAt": 1791676673069
   },
   {
    "ca": "E6vtwCUtcNJdQEPGY8vWKahtu2sfwxQ4j68pUKm7pump",
@@ -62,9 +62,9 @@
     null
    ],
    "liq": 308578,
-   "vol": 376574,
+   "vol": 339933,
    "mcap": 6399539,
-   "holders": 5597,
+   "holders": 5598,
    "createdAt": 1791356563000,
    "handle": "everythingrwas",
    "launchpad": "Pump.Fun",
@@ -74,7 +74,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/fcfej9ujfnfcsiazgduesecmj2np6myxdm5h2jpfzbdc",
-   "scannedAt": 1791675491647
+   "scannedAt": 1791676674738
   },
   {
    "ca": "0x2Ca020b2516F535aD4275Fc6B305eAA2464039FC",
@@ -98,9 +98,9 @@
     1,
     null
    ],
-   "liq": 148872,
-   "vol": 3300867,
-   "mcap": 3657921,
+   "liq": 133485,
+   "vol": 3533318,
+   "mcap": 2942771,
    "holders": 704,
    "createdAt": 1791658019000,
    "handle": "altaitiger_x",
@@ -110,7 +110,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0xf9fab0b2b9e32233ff0ebc371149bef45aa63b04",
-   "scannedAt": 1791675493573
+   "scannedAt": 1791676676192
   },
   {
    "ca": "9LAHK5YvCqQCzX5CBw6xF5yFVUzXqoAHWtoofqk2pump",
@@ -134,10 +134,10 @@
     1,
     null
    ],
-   "liq": 91997,
-   "vol": 854161,
-   "mcap": 1060301,
-   "holders": 6511,
+   "liq": 104030,
+   "vol": 900275,
+   "mcap": 1347646,
+   "holders": 6857,
    "createdAt": 1791656559000,
    "handle": "theqtiger",
    "launchpad": "Pump.Fun",
@@ -147,7 +147,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/fkknxvybrt22bqef9mbmswiw35oig5ion2qmnasfvrat",
-   "scannedAt": 1791675498287
+   "scannedAt": 1791676677608
+  },
+  {
+   "ca": "3sbG9zz4MzJacqtZYkqzzWzxwdh9zoWNtBoyn3mYpump",
+   "chain": "solana",
+   "sym": "WWWCAT",
+   "name": "world wide web cat",
+   "img": "https://cdn.dexscreener.com/cms/images/14Pt0WDOPj9AWJ9w?width=800&height=800&quality=95&format=auto",
+   "score": 10,
+   "unknown": 2,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    null,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 34624,
+   "vol": 251676,
+   "mcap": 166457,
+   "holders": 2388,
+   "createdAt": 1791675788000,
+   "handle": "wwwcatlive",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/3ygcwwnw2fxhu5v92pgzmpbnygaykr2pdbbjnbaysvrr",
+   "scannedAt": 1791676683775
   },
   {
    "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
@@ -171,9 +208,9 @@
     1,
     null
    ],
-   "liq": 155031,
-   "vol": 495747,
-   "mcap": 1846448,
+   "liq": 152393,
+   "vol": 501227,
+   "mcap": 1785636,
    "holders": 13039,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -184,7 +221,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1791675496601
+   "scannedAt": 1791676679184
   },
   {
    "ca": "0xae5A409773b9A7Dd0Ae94ff437Ac213d8faFBa01",
@@ -208,9 +245,9 @@
     1,
     null
    ],
-   "liq": 82995,
-   "vol": 49367,
-   "mcap": 139267,
+   "liq": 82975,
+   "vol": 49309,
+   "mcap": 139338,
    "holders": 8748,
    "createdAt": 1775255453000,
    "handle": "upscreener",
@@ -220,7 +257,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0xc17236ba8107de131a6a7e380cf857fae9696919",
-   "scannedAt": 1791675500087
+   "scannedAt": 1791676680625
   },
   {
    "ca": "0x5d72717Ab33F38504935960A1D8603276a76511c",
@@ -244,9 +281,9 @@
     0,
     null
    ],
-   "liq": 30056,
-   "vol": 10816,
-   "mcap": 100599,
+   "liq": 30043,
+   "vol": 10762,
+   "mcap": 100604,
    "holders": 1107,
    "createdAt": 1780665839000,
    "handle": "hbadger_token",
@@ -256,7 +293,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0xc43748bc1985bc5cef0aa1e3107b684b547a554e",
-   "scannedAt": 1791675518290
+   "scannedAt": 1791676682130
   }
  ]
 }
