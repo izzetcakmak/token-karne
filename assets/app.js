@@ -95,6 +95,8 @@ const EXPLORER = {
   sonic: a => 'https://sonicscan.org/address/' + a
 };
 const explorerUrl = (chain, a) => (EXPLORER[chain] ? EXPLORER[chain](a) : 'https://dexscreener.com/' + chain);
+/* Arc tokenleri A NEW ONE'da alınıp satılır; token sayfası swap'ı açar */
+const anewoneUrl = (a) => 'https://anewone.xyz/#t=' + String(a).toLowerCase();
 
 const BURN_ADDR = new Set([
   '0x0000000000000000000000000000000000000000',
@@ -1220,6 +1222,10 @@ function renderBoard() {
     const bars = (it.answers || []).map(a =>
       '<span class="bb ' + (a === 1 ? 'y' : a === 0 ? 'n' : '') + '"></span>').join('');
     const st = (k, val) => '<span><i>' + k + '</i>' + val + '</span>';
+    /* satir zaten bir link; Arc tokeninde swap dugmesi tiklamayi yutar ve A NEW ONE'i acar */
+    const swap = it.chain === 'arc'
+      ? '<span class="bswap" data-href="' + esc(anewoneUrl(it.ca)) + '">⇄ ' + (LANG === 'tr' ? "A NEW ONE'da al" : 'Buy on A NEW ONE') + '</span>'
+      : '';
     return '<a class="brow" href="?ca=' + esc(it.ca) + '&chain=' + esc(it.chain) + '">' +
       '<span class="rank">' + (i + 1) + '</span>' +
       '<span class="bscore" style="background:' + v.bg + (v.key === 'skip' ? ';color:#fff' : '') + '">' + it.score + '</span>' +
@@ -1230,10 +1236,14 @@ function renderBoard() {
         st(T('s.liq'), usd(it.liq)) + st(T('s.vol'), usd(it.vol)) +
         st(T('s.holders'), it.holders != null ? compact(it.holders) : '—') +
         st(T('s.age'), it.createdAt ? ago(Date.now() - it.createdAt) : '—') +
-      '</span></a>';
+      '</span>' + swap + '</a>';
   }).join('');
   $('#boardList').innerHTML = staleNote + '<div class="board-list">' + rows + '</div>' +
     '<div class="board-foot">' + T('board.foot') + '</div>';
+  $$('#boardList .bswap').forEach(b => b.onclick = (e) => {
+    e.preventDefault(); e.stopPropagation();
+    window.open(b.dataset.href, '_blank', 'noopener');
+  });
 }
 
 /* ---------------- history ---------------- */

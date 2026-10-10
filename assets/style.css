@@ -363,6 +363,12 @@ a.src:hover{background:var(--cyan);color:var(--black)}
 .brow .bstats i{font-style:normal;opacity:.55;display:block;font-size:10px;letter-spacing:.08em;text-transform:uppercase}
 .brow .bbars{display:flex;gap:3px;flex-wrap:wrap;flex:none}
 .brow .bb{width:11px;height:11px;border:2px solid var(--black);border-radius:3px;background:var(--ink-3)}
+.brow .bswap{
+  flex:none;font-size:12px;font-weight:800;white-space:nowrap;
+  background:var(--lime);color:var(--black);border:3px solid var(--black);border-radius:9px;
+  padding:5px 10px;box-shadow:2px 2px 0 var(--black);
+}
+.brow .bswap:hover{background:var(--cyan)}
 .brow .bb.y{background:var(--lime)}
 .brow .bb.n{background:var(--magenta)}
 .board-empty{
@@ -555,22 +561,9 @@ footer a:hover{text-decoration:underline}
 .arc-save-btn:active{transform:translate(2px,2px);box-shadow:3px 3px 0 var(--black)}
 .arc-save-btn:disabled{background:var(--ink-3);color:rgba(255,246,233,.4);cursor:not-allowed;transform:none;box-shadow:var(--shadow-sm)}
 
-/* ---- Ödeme Modalı ---- */
-.arc-modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:9999;display:flex;align-items:center;justify-content:center;padding:1rem}
-.arc-modal{background:var(--paper);border:3px solid var(--black);box-shadow:8px 8px 0 var(--black);border-radius:4px;width:100%;max-width:480px;overflow:hidden}
-.arc-modal-header{display:flex;align-items:center;justify-content:space-between;padding:.75rem 1rem;border-bottom:2px solid var(--black);font-weight:700;font-size:1rem}
-.arc-modal-close{background:none;border:none;cursor:pointer;font-size:1.2rem;line-height:1;padding:.2rem .4rem}
-.arc-modal-close:hover{background:var(--ink-3);border-radius:3px}
-.arc-modal-body{padding:1.25rem 1rem}
-.arc-modal-body p{margin:0 0 .75rem;line-height:1.5;font-size:.95rem}
-.arc-modal-ca{font-family:monospace;font-size:.8rem;background:var(--ink-3);padding:.4rem .6rem;border-radius:3px;word-break:break-all;margin-bottom:.75rem}
-.arc-pay-status{font-size:.88rem;color:var(--ink-2);min-height:1.2em;margin-top:.5rem}
-.arc-pay-status.err{color:#c0392b}
-.arc-modal-footer{padding:.75rem 1rem;border-top:2px solid var(--black)}
-.arc-pay-btn{width:100%;padding:.8rem;background:#f5c842;border:2px solid var(--black);box-shadow:4px 4px 0 var(--black);border-radius:3px;font-weight:700;font-size:1rem;cursor:pointer;transition:transform .1s,box-shadow .1s}
-.arc-pay-btn:hover{transform:translate(-2px,-2px);box-shadow:6px 6px 0 var(--black)}
-.arc-pay-btn:active{transform:translate(2px,2px);box-shadow:2px 2px 0 var(--black)}
-.arc-pay-btn:disabled{background:var(--ink-3);cursor:not-allowed;transform:none;box-shadow:4px 4px 0 var(--black)}
+/* ---- Zincir kaydı durum satırı ---- */
+.arc-pay-status{font-size:.88rem;color:rgba(255,246,233,.55);min-height:1.2em;margin-top:.5rem}
+.arc-pay-status.err{color:#ff6b6b}
 
 /* ---- Buy butonu ---- */
 .buy-btn{background:#00c48c;color:#fff;border:2px solid var(--black);box-shadow:3px 3px 0 var(--black);border-radius:3px;padding:.3rem .75rem;font-weight:700;font-size:.85rem;cursor:pointer;transition:transform .1s,box-shadow .1s;white-space:nowrap}
@@ -578,41 +571,3 @@ footer a:hover{text-decoration:underline}
 .buy-btn:active{transform:translate(1px,1px);box-shadow:1px 1px 0 var(--black)}
 .act.buy{background:#00c48c;color:#fff;border-color:var(--black)}
 .act.buy:hover{background:#00a876}
-
-/* ---- Arc Buy Modal ---- */
-.arc-buy-modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,.7);z-index:9999;display:flex;align-items:center;justify-content:center;padding:1rem}
-.arc-buy-modal{background:#0f0f1a;border:2px solid #9c5cff;border-radius:12px;box-shadow:0 0 40px rgba(156,92,255,.3);width:100%;max-width:460px;padding:1.5rem;position:relative;max-height:90vh;overflow-y:auto}
-.arc-buy-close{position:absolute;top:.75rem;right:.75rem;background:none;border:none;color:var(--ink-3);font-size:1.2rem;cursor:pointer;padding:.25rem .5rem}
-.arc-buy-close:hover{color:#fff}
-.arc-buy-header{display:flex;align-items:center;gap:.75rem;margin-bottom:1.25rem}
-.arc-buy-logo{font-size:2rem}
-.arc-buy-title{font-weight:800;font-size:1.1rem;color:#fff}
-.arc-buy-subtitle{font-size:.8rem;color:var(--ink-3)}
-.arc-buy-info{background:rgba(156,92,255,.1);border:1px solid rgba(156,92,255,.3);border-radius:8px;padding:.75rem;font-size:.85rem;color:var(--ink-2);margin-bottom:1rem;line-height:1.5}
-.arc-buy-btn{width:100%;padding:.8rem;background:#9c5cff;color:#fff;border:2px solid #7a3de0;border-radius:6px;font-weight:700;font-size:.95rem;cursor:pointer;transition:background .15s;margin-top:.5rem}
-.arc-buy-btn:hover{background:#7a3de0}
-.arc-buy-btn:disabled{background:#444;cursor:not-allowed;border-color:#333}
-.arc-buy-btn-green{background:#00c48c;border-color:#00a876}
-.arc-buy-btn-green:hover{background:#00a876}
-.arc-buy-balance{background:rgba(0,196,140,.1);border:1px solid rgba(0,196,140,.3);border-radius:8px;padding:.75rem;font-size:.85rem;color:#00c48c;margin-bottom:1rem;line-height:1.6}
-.arc-buy-balance code{font-family:monospace;font-size:.8rem;color:#aaa}
-.arc-buy-warning{color:#f5c842}
-.arc-buy-warning a{color:#f5c842}
-.arc-buy-label{font-size:.85rem;color:var(--ink-3);margin:.75rem 0 .4rem}
-.arc-buy-presets{display:flex;gap:.5rem;margin-bottom:.5rem}
-.arc-buy-preset{flex:1;padding:.5rem;background:#1a1a2e;border:2px solid #333;border-radius:6px;color:#fff;font-weight:700;cursor:pointer;transition:all .15s}
-.arc-buy-preset:hover,.arc-buy-preset.active{background:#9c5cff;border-color:#9c5cff}
-.arc-buy-custom-row{display:flex;align-items:center;gap:.4rem;margin-bottom:.75rem}
-.arc-buy-currency{font-weight:700;color:var(--ink-2)}
-.arc-buy-custom-input{flex:1;background:#1a1a2e;border:2px solid #333;border-radius:6px;color:#fff;padding:.5rem .75rem;font-size:.95rem}
-.arc-buy-custom-input:focus{outline:none;border-color:#9c5cff}
-.arc-buy-quote{background:rgba(245,200,66,.08);border:1px solid rgba(245,200,66,.3);border-radius:8px;padding:.75rem;font-size:.85rem;color:#f5c842;line-height:1.5;margin-bottom:.5rem}
-.arc-buy-steps-list{display:flex;flex-direction:column;gap:.6rem;padding:.5rem 0}
-.arc-buy-step{display:flex;align-items:center;gap:.75rem;padding:.6rem .75rem;border-radius:8px;font-size:.9rem}
-.arc-buy-step-pending{background:#111;color:#666}
-.arc-buy-step-active{background:rgba(245,200,66,.1);color:#f5c842;border:1px solid rgba(245,200,66,.3)}
-.arc-buy-step-done{background:rgba(0,196,140,.1);color:#00c48c;border:1px solid rgba(0,196,140,.3)}
-.arc-buy-step-icon{font-size:1.1rem}
-.arc-buy-success{text-align:center;font-size:1.3rem;font-weight:800;color:#00c48c;margin:1rem 0}
-.arc-buy-success-details{background:rgba(0,196,140,.08);border:1px solid rgba(0,196,140,.2);border-radius:8px;padding:.75rem;font-size:.85rem;color:var(--ink-2);line-height:1.8;margin-bottom:1rem}
-.arc-buy-error{background:rgba(255,80,80,.1);border:1px solid rgba(255,80,80,.3);border-radius:8px;padding:.75rem;font-size:.85rem;color:#ff5050;margin-top:.75rem;line-height:1.5}
