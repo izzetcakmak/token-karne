@@ -912,6 +912,14 @@ async function run(caRaw, forcedChain) {
   try {
     const A = await analyze(ca, forcedChain, step);
     if (A.notFound) { $('#loading').hidden = true; $('#go').disabled = false; return showErr(T('e.notfound')); }
+    /* Odeme kapisi (assets/pay.js): analiz bitti, karne hazir — acilmasi 0.10 USDC.
+       Token bulunamadiysa ya da kaynaklar dusmusse buraya gelinmez, odeme istenmez.
+       Bot (scripts/scan.js) analyze()'i dogrudan cagirir, bu kapidan gecmez. */
+    if (typeof window !== 'undefined' && typeof window.payGateScan === 'function') {
+      $('#go').disabled = false;   /* odeme beklenirken yeni tarama baslatilabilsin */
+      const paid = await window.payGateScan({ ca, chain: A.chain, sym: A.D.sym, name: A.D.name });
+      if (!paid) { $('#loading').hidden = true; return; }
+    }
     const { chain, chains, byChain, D, sec, X, RF, checks, arc } = A;
     let saved = {};
     try { saved = JSON.parse(localStorage.getItem(ansKey(chain, ca)) || '{}'); } catch (e) {}
@@ -936,6 +944,9 @@ async function run(caRaw, forcedChain) {
 function showErr(m) { const e = $('#err'); e.textContent = m; e.hidden = false; }
 function showSteps() {
   $('#loading').hidden = false;
+  /* onceki taramadan kalan odeme karti varsa kapat, adim kartini geri getir */
+  const pc = $('#payCard'); if (pc) pc.hidden = true;
+  const lc = $('#loading > .load-card:not(.pay-card)'); if (lc) lc.hidden = false;
   $('#steps').innerHTML = ['st.dex', 'st.sec', 'st.social', 'st.calc']
     .map(k => '<li><span class="dot"></span>' + T(k) + '</li>').join('');
 }
@@ -1285,6 +1296,9 @@ function renderBoard() {
   if (!BOARD || !Array.isArray(BOARD.items)) { sec.hidden = true; return; }
   sec.hidden = false;
   renderBoardSub();
+  /* Tahta kapisi (assets/pay.js): 0.10 USDC = 30 dk erisim. Kilitliyse kilit
+     kartini kendisi cizer ve true doner; acikken geri sayimi kurar, liste normal cizilir. */
+  if (typeof window !== 'undefined' && typeof window.payBoardGate === 'function' && window.payBoardGate(BOARD)) return;
 
   /* Kaynak cevap vermedigi icin korunmus eski liste: once uyari, sonra liste */
   const staleNote = BOARD.stale
