@@ -1,5 +1,5 @@
 {
- "updatedAt": 1791612887168,
+ "updatedAt": 1791614878990,
  "threshold": 9,
  "scanned": 45,
  "items": [
@@ -25,9 +25,9 @@
     1,
     null
    ],
-   "liq": 663944,
-   "vol": 990685,
-   "mcap": 15281110,
+   "liq": 670717,
+   "vol": 985454,
+   "mcap": 15609770,
    "holders": 11530,
    "createdAt": 1787522174000,
    "handle": "tartprotocol",
@@ -37,44 +37,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x30000a407fabebe29439f8e437050512ff6661be",
-   "scannedAt": 1791612817202
-  },
-  {
-   "ca": "CB4f3tTUckrtSJxfyCvsURLYhedkdkKPCm1mewbVpump",
-   "chain": "solana",
-   "sym": "Samur•ai",
-   "name": "Samur•ai",
-   "img": "https://cdn.dexscreener.com/cms/images/O9CB8E0kWUBet42f?width=800&height=800&quality=95&format=auto",
-   "score": 10,
-   "unknown": 2,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    null,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 40422,
-   "vol": 498349,
-   "mcap": 212554,
-   "holders": 4684,
-   "createdAt": 1791604519000,
-   "handle": "SamurAI_onchain",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/gpbdlueebwql7eyqpu8vvauzwf4thfpjayma3vptjvz9",
-   "scannedAt": 1791612820380
+   "scannedAt": 1791614812155
   },
   {
    "ca": "BQAeeSowpwEx8Km8GcporcbuLKq4a7EQceH3F2qZpump",
@@ -98,10 +61,10 @@
     1,
     null
    ],
-   "liq": 213265,
-   "vol": 3917873,
-   "mcap": 5226104,
-   "holders": 7715,
+   "liq": 206464,
+   "vol": 4027480,
+   "mcap": 4888510,
+   "holders": 8016,
    "createdAt": 1791587622000,
    "handle": "qOMPUTEx",
    "launchpad": "Pump.Fun",
@@ -111,7 +74,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/7f7q1oktpuyg7oyyhxzauszcnmkhri18bxbvx7dhazpb",
-   "scannedAt": 1791612821801
+   "scannedAt": 1791614815234
   },
   {
    "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
@@ -135,9 +98,9 @@
     1,
     null
    ],
-   "liq": 165930,
-   "vol": 530865,
-   "mcap": 2135614,
+   "liq": 167818,
+   "vol": 530249,
+   "mcap": 2182429,
    "holders": 12580,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -148,7 +111,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1791612818960
+   "scannedAt": 1791614816803
   },
   {
    "ca": "0x7d03759E5B41E36899833cb2E008455d69A24444",
@@ -172,9 +135,9 @@
     0,
     null
    ],
-   "liq": 118444,
-   "vol": 51715,
-   "mcap": 211995,
+   "liq": 116460,
+   "vol": 52481,
+   "mcap": 205511,
    "holders": 72636,
    "createdAt": 1757345211000,
    "handle": "PricelessBSC_",
@@ -184,7 +147,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x3dc2878f9f60476dbbb18af7531fbe1a603c8dc0",
-   "scannedAt": 1791612823312
+   "scannedAt": 1791614818269
   },
   {
    "ca": "5GefefPX1mDs6ZJB1apYmz6fCTCiNJpHturZ9bvFpump",
@@ -208,9 +171,9 @@
     1,
     null
    ],
-   "liq": 90412,
-   "vol": 127891,
-   "mcap": 893555,
+   "liq": 88935,
+   "vol": 129513,
+   "mcap": 865513,
    "holders": 2692,
    "createdAt": 1788551378000,
    "handle": "Pumpoweenonpump",
@@ -221,7 +184,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/8nvfb1unnk9adtl5hoof8hahf2rt4glpwx9cteadikhg",
-   "scannedAt": 1791612824730
+   "scannedAt": 1791614819802
+  },
+  {
+   "ca": "CB4f3tTUckrtSJxfyCvsURLYhedkdkKPCm1mewbVpump",
+   "chain": "solana",
+   "sym": "Samur•ai",
+   "name": "Samur•ai",
+   "img": "https://cdn.dexscreener.com/cms/images/O9CB8E0kWUBet42f?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 2,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    null,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    null
+   ],
+   "liq": 38489,
+   "vol": 588723,
+   "mcap": 191823,
+   "holders": 4734,
+   "createdAt": 1791604519000,
+   "handle": "SamurAI_onchain",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/gpbdlueebwql7eyqpu8vvauzwf4thfpjayma3vptjvz9",
+   "scannedAt": 1791614813837
   }
  ]
 }
