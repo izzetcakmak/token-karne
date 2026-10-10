@@ -71,6 +71,9 @@ jobs:
           mkdir -p /tmp/board/data
           cp data/board.json /tmp/board/data/board.json
           cd /tmp/board
-          git add data/board.json
+          # Vercel bu dali deploy etmesin: ayari push edilen dalin kendi vercel.json'undan okur
+          [ -f vercel.json ] || printf '{ "git": { "deploymentEnabled": { "board": false } } }
+' > vercel.json
+          git add data/board.json vercel.json
           git commit -q -m "chore: tahta guncellendi (otomatik tarama)"
           git push -q origin board
