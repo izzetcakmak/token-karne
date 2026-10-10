@@ -64,6 +64,25 @@ BOARD_LIMIT=45 BOARD_MIN=9 node scripts/scan.js   # run it by hand
 The repo is public, so GitHub Actions minutes are free; change the cadence from the
 cron line in `.github/workflows/scan.yml`.
 
+## Pricing (Arc, USDC)
+
+Two paywalls, both paid in USDC on Arc mainnet to the site owner's wallet with a plain
+ERC-20 `transfer` (`assets/pay.js`), no contract call needed:
+
+* **Scorecard: 0.10 USDC per scan.** The analysis runs first; if the token is not found or
+  the sources are down nothing is charged. Once the result is ready a payment card appears
+  and the scorecard opens after the transaction confirms. Every scan is a separate payment,
+  including the examples, the history, board rows and `?ca=` share links.
+* **Board: 0.10 USDC for 30 minutes.** The list is locked behind a SHOW button. After payment
+  it stays open for 30 minutes in that browser with a countdown, then closes by itself; seeing
+  it again is a new payment. The locked state still shows how many tokens are over the bar.
+* Recording a scorecard on-chain (`assets/onchain.js`) is a separate 0.10 USDC that goes to
+  the `TokenKarnesi` contract.
+
+The site is static, so the gates live in the browser: a technically minded visitor can still
+reach the public APIs or the public `board` branch directly. The gates price the product, they
+are not a secret.
+
 ## Data sources
 
 * [DexScreener](https://docs.dexscreener.com/api/reference) — pools, liquidity, volume, socials

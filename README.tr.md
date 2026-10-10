@@ -64,6 +64,23 @@ BOARD_LIMIT=45 BOARD_MIN=9 node scripts/scan.js   # elle çalıştırmak için
 Repo public olduğu için GitHub Actions dakikaları ücretsiz; tarama sıklığını
 `.github/workflows/scan.yml` içindeki cron satırından değiştirebilirsin.
 
+## Ücret (Arc, USDC)
+
+İki ödeme kapısı var; ikisi de Arc mainnet'te USDC ile, site sahibinin cüzdanına düz bir ERC-20
+`transfer` ile ödenir (`assets/pay.js`), kontrat çağrısı gerekmez:
+
+* **Karne: tarama başına 0.10 USDC.** Analiz önce çalışır; token bulunamazsa ya da kaynaklar
+  düşmüşse ücret alınmaz. Sonuç hazır olunca ödeme kartı çıkar, işlem onaylanınca karne açılır.
+  Her tarama ayrı ödemedir: örnekler, geçmiş, tahta satırları ve `?ca=` paylaşım linkleri dahil.
+* **Tahta: 30 dakika için 0.10 USDC.** Liste GÖSTER düğmesinin arkasında kilitli. Ödemeden
+  sonra o tarayıcıda 30 dakika açık kalır, geri sayım görünür, süre bitince kendiliğinden kapanır;
+  tekrar görmek yeni ödemedir. Kilitliyken barajı geçen token sayısı yine görünür.
+* Karneyi zincire kaydetmek (`assets/onchain.js`) ayrı bir 0.10 USDC'dir ve `TokenKarnesi`
+  kontratına gider.
+
+Site statik olduğu için kapılar tarayıcıda çalışır: teknik bir ziyaretçi herkese açık API'lere
+ya da public `board` dalına doğrudan ulaşabilir. Kapılar ürünü ücretlendirir, sır değildir.
+
 ## Veri kaynakları
 
 * [DexScreener](https://docs.dexscreener.com/api/reference) — havuz, likidite, hacim, sosyaller

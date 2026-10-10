@@ -13,7 +13,9 @@
 ## Notes
 - Arc mainnet chain ID 5042 (`0x13B2`), RPC `https://rpc.mainnet.arc.io`, explorer `https://explorer.arc.io`
 - Fee: 0.10 USDC (100_000, 6 decimals) per `submitScore`; kontrat ücreti `transferFrom` ile çeker, önce `approve`
-- Analiz ücretsiz; "Bu karneyi zincire kaydet" butonu (`assets/onchain.js`) cevapları `submitScore` ile yazar
+- Ödeme kapıları (`assets/pay.js`, 11 Eki 2026): karne açmak tarama başına 0.10 USDC, tahta 30 dk için 0.10 USDC. İkisi de Arc USDC `transfer(owner, 100000)` — kontrat çağrısı değil, doğrudan owner cüzdanına. Tahta erişimi `localStorage` `tk_board_access` ile tarayıcı bazında; ödeme kaydı `tk_pay_log`
+- Karne kapısı analizden SONRA çıkar: token bulunamazsa ödeme istenmez. Bot (`scripts/scan.js`) `analyze()`'i doğrudan çağırır, kapıdan geçmez
+- "Bu karneyi zincire kaydet" butonu (`assets/onchain.js`) cevapları `submitScore` ile yazar; ücreti ayrı (0.10 USDC, kontrata)
 - Kontrat token'ı `address` ile anahtarlar: EVM adresi kendisi, Solana mint'i `sha256("solana:" + mint)`'in ilk 20 baytı
 - USDC on Arc: `0x3600000000000000000000000000000000000000`
 - withdraw() → owner adresine birikmiş USDC gönderir
