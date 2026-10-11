@@ -1,8 +1,8 @@
 {
- "updatedAt": 1791725991831,
+ "updatedAt": 1791727932952,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 44,
+ "scanned": 45,
  "items": [
   {
    "ca": "0x7AB8d02CBb51Ff7223fDe700eAaa2a91Bf750314",
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 632121,
-   "vol": 779272,
-   "mcap": 13561152,
+   "liq": 634193,
+   "vol": 752190,
+   "mcap": 13657722,
    "holders": 15315,
    "createdAt": 1787522174000,
    "handle": "tartprotocol",
@@ -38,7 +38,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x30000a407fabebe29439f8e437050512ff6661be",
-   "scannedAt": 1791725924597
+   "scannedAt": 1791727867075
   },
   {
    "ca": "E6vtwCUtcNJdQEPGY8vWKahtu2sfwxQ4j68pUKm7pump",
@@ -62,9 +62,9 @@
     0,
     null
    ],
-   "liq": 305038,
-   "vol": 60318,
-   "mcap": 6234886,
+   "liq": 303498,
+   "vol": 61741,
+   "mcap": 6246115,
    "holders": 6763,
    "createdAt": 1791356563000,
    "handle": "everythingrwas",
@@ -75,7 +75,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/fcfej9ujfnfcsiazgduesecmj2np6myxdm5h2jpfzbdc",
-   "scannedAt": 1791725926359
+   "scannedAt": 1791727868820
   },
   {
    "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
@@ -99,9 +99,9 @@
     1,
     null
    ],
-   "liq": 156169,
-   "vol": 374567,
-   "mcap": 1877455,
+   "liq": 157911,
+   "vol": 348496,
+   "mcap": 1918599,
    "holders": 13396,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -112,7 +112,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1791725928107
+   "scannedAt": 1791727870791
   },
   {
    "ca": "0xae5A409773b9A7Dd0Ae94ff437Ac213d8faFBa01",
@@ -136,10 +136,10 @@
     1,
     null
    ],
-   "liq": 76623,
-   "vol": 46231,
-   "mcap": 118575,
-   "holders": 8788,
+   "liq": 77779,
+   "vol": 40454,
+   "mcap": 122097,
+   "holders": 8794,
    "createdAt": 1775255453000,
    "handle": "upscreener",
    "launchpad": null,
@@ -148,7 +148,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0xc17236ba8107de131a6a7e380cf857fae9696919",
-   "scannedAt": 1791725929593
+   "scannedAt": 1791727872271
   },
   {
    "ca": "0x5d72717Ab33F38504935960A1D8603276a76511c",
@@ -172,9 +172,9 @@
     0,
     null
    ],
-   "liq": 31357,
-   "vol": 6871,
-   "mcap": 109654,
+   "liq": 31429,
+   "vol": 6454,
+   "mcap": 110238,
    "holders": 1134,
    "createdAt": 1780665839000,
    "handle": "hbadger_token",
@@ -184,7 +184,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0xc43748bc1985bc5cef0aa1e3107b684b547a554e",
-   "scannedAt": 1791725931133
+   "scannedAt": 1791727873774
   }
  ]
 }
