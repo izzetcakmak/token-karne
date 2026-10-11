@@ -294,7 +294,10 @@ document.addEventListener('DOMContentLoaded', function() {
 function arcOpenBuyModal(ca, sym, chain) {
   var url;
   if (chain === 'arc') url = anewoneUrl(ca);
-  else if (chain === 'solana') url = 'https://jup.ag/swap/USDC-' + encodeURIComponent(ca);
+  /* Jupiter'in yeni arayüzü eski /swap/USDC-<mint> yolunu tanımıyor (SOL'a düşüyordu);
+     ?sell=<mint>&buy=<mint> ile token "Buy" alanında hazır gelir. Satış tarafı SOL:
+     Solana'da memecoin alanların elinde SOL olur. 11 Eki 2026'da EVERYTHING ile doğrulandı. */
+  else if (chain === 'solana') url = 'https://jup.ag/swap?sell=So11111111111111111111111111111111111111112&buy=' + encodeURIComponent(ca);
   else if (S && S.D && S.D.best && S.D.best.url) url = S.D.best.url;
   else url = 'https://dexscreener.com/search?q=' + encodeURIComponent(ca);
   window.open(url, '_blank', 'noopener');
