@@ -41,6 +41,10 @@ for (const f of ['assets/i18n.js', 'assets/app.js']) {
 const ESIK = Number(process.env.BOARD_MIN || 9);   /* tahtaya girme puani */
 const LIMIT = Number(process.env.BOARD_LIMIT || 45); /* bir turda taranacak token */
 const KEEP = Number(process.env.BOARD_KEEP || 24);   /* tahtada tutulacak token */
+/* Tahtaya girmek icin asgari yas (saat). Tahta gecmisi (91 token, 11 Eki 2026):
+   ilk 24 saatte listeye girenlerin %90'i %80+ dustu, %2'si yukselebildi;
+   24 saati gecenlerde cokus %6-29. Yasi bilinmeyen token de girmez. */
+const MIN_AGE_H = Number(process.env.BOARD_MIN_AGE_H || 24);
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 
 async function jsonOf(url) {
@@ -132,10 +136,13 @@ async function scoreOne(ca, chain) {
   /* Olu token tuzagi: likiditesi bitmis bir token guvenlik sorularini
      kolayca gecer (cekilecek bir sey kalmamistir) ve yuksek puan alir.
      Tahtaya girmek icin 1. soruyu (likidite esigi) gecmesi sart. */
+  const oldEnough = r => r.createdAt != null && (Date.now() - r.createdAt) >= MIN_AGE_H * 36e5;
+  const tooYoung = results.filter(r => r.score >= ESIK && r.answers[0] === 1 && r.liq >= 30000 && !oldEnough(r)).length;
   const items = results
-    .filter(r => r.score >= ESIK && r.answers[0] === 1 && r.liq >= 30000)
+    .filter(r => r.score >= ESIK && r.answers[0] === 1 && r.liq >= 30000 && oldEnough(r))
     .sort((a, b) => b.score - a.score || b.liq - a.liq)
     .slice(0, KEEP);
+  if (tooYoung) console.log(`yas filtresi: ${tooYoung} token baraji gecti ama ${MIN_AGE_H} saati doldurmadi, tahtaya alinmadi`);
 
   fs.mkdirSync(path.dirname(OUT), { recursive: true });
 
@@ -162,6 +169,7 @@ async function scoreOne(ca, chain) {
   fs.writeFileSync(OUT, JSON.stringify({
     updatedAt: Date.now(),
     threshold: ESIK,
+    minAgeH: MIN_AGE_H,
     scanned: results.length,
     items
   }, null, 1) + '\n');
