@@ -64,6 +64,35 @@ BOARD_LIMIT=45 BOARD_MIN=9 node scripts/scan.js   # run it by hand
 The repo is public, so GitHub Actions minutes are free; change the cadence from the
 cron line in `.github/workflows/scan.yml`.
 
+## Verdict gates (age and volume quality)
+
+The 12 questions measure structural safety: can the dev mint, freeze, pull the LP, has the dev
+rugged before. They say nothing about how old the token is or whether its volume is real, and
+that is exactly where fresh pump.fun launches burn people: LP burned, authorities revoked, 12/12
+on paper, then the holders dump. The board's own history (91 tokens, 28 Aug – 10 Oct 2026,
+measured 11 Oct) made the pattern plain:
+
+| First seen as | Tokens | Lost 80%+ | Went up |
+|---|---|---|---|
+| under 6 hours old | 41 | 90% | 2% |
+| over 7 days old | 17 | 6% | 41% |
+| 24h volume > 5x liquidity | 48 | 85% | 0% |
+| 24h volume <= 5x liquidity | 24 | 17% | 42% |
+| under 24h **and** volume > 5x | 44 | 91% | 0% |
+
+So the score stays what it is, but the **verdict is capped**:
+
+* **Under 24 hours:** at most RISKY · EARLY ("size small"), whatever the score.
+* **Under 24 hours and volume above 5x liquidity:** SKIP · BOT VOLUME. Question 11 still
+  counts as "yes", the note says why, and a red flag is raised.
+* **24 to 72 hours:** at most CLEAN. No "size up" before the token has lived three days.
+* Unknown age: no cap. The reason is printed under the stamp, on the PNG and in the share text.
+
+Two more guards from the same incident: question 5 now falls back to RugCheck's holder list when
+GoPlus has none for a brand-new Solana token (pool and burn accounts stripped first), and flipping
+a question with no data to "yes" shows a warning, because that is how a 10/12 with two blanks
+became a 12/12. The board only lists tokens at least 24 hours old (`BOARD_MIN_AGE_H`).
+
 ## Pricing (Arc, USDC)
 
 Two paywalls, both paid in USDC on Arc mainnet to the site owner's wallet with a plain

@@ -64,6 +64,35 @@ BOARD_LIMIT=45 BOARD_MIN=9 node scripts/scan.js   # elle çalıştırmak için
 Repo public olduğu için GitHub Actions dakikaları ücretsiz; tarama sıklığını
 `.github/workflows/scan.yml` içindeki cron satırından değiştirebilirsin.
 
+## Hüküm kapıları (yaş ve hacim kalitesi)
+
+12 soru yapısal güvenliği ölçer: dev mint edebilir mi, dondurabilir mi, LP'yi çekebilir mi, daha
+önce rug atmış mı. Tokenin yaşı ve hacmin gerçek olup olmadığı hakkında hiçbir şey söylemez; taze
+pump.fun lansmanları insanları tam burada yakar: LP yakılmış, yetkiler kapalı, kâğıt üstünde 12/12,
+sonra holder'lar satar. Tahtanın kendi geçmişi (91 token, 28 Ağu – 10 Eki 2026, 11 Eki'de ölçüldü)
+örüntüyü açık etti:
+
+| İlk görüldüğünde | Token | %80+ düşen | Yükselen |
+|---|---|---|---|
+| 6 saatten genç | 41 | %90 | %2 |
+| 7 günden yaşlı | 17 | %6 | %41 |
+| 24s hacim > 5× likidite | 48 | %85 | %0 |
+| 24s hacim ≤ 5× likidite | 24 | %17 | %42 |
+| 24 saatten genç **ve** hacim > 5× | 44 | %91 | %0 |
+
+Puan olduğu gibi kalır, ama **hüküm sınırlanır**:
+
+* **24 saatten genç:** puan ne olursa olsun en fazla RİSKLİ · ERKEN ("küçük gir").
+* **24 saatten genç ve hacim likiditenin 5 katından fazla:** GEÇ · BOT HACMİ. 11. soru yine
+  "evet" sayılır, not sebebini söyler, kırmızı bayrak kalkar.
+* **24–72 saat:** en fazla TEMİZ. Üç günü doldurmadan "büyük gir" yok.
+* Yaş bilinmiyorsa kapı yok. Gerekçe damganın altında, PNG'de ve paylaşım metninde yazar.
+
+Aynı olaydan iki koruma daha: GoPlus yepyeni bir Solana tokeninde holder vermezse 5. soru artık
+RugCheck'in holder listesine düşer (havuz ve yakma hesapları ayıklanır); verisi olmayan bir soruyu
+"evet"e çevirmek uyarı gösterir, çünkü iki boşluklu bir 10/12 böyle 12/12 oldu. Tahta sadece
+24 saati doldurmuş tokenleri listeler (`BOARD_MIN_AGE_H`).
+
 ## Ücret (Arc, USDC)
 
 İki ödeme kapısı var; ikisi de Arc mainnet'te USDC ile, site sahibinin cüzdanına düz bir ERC-20

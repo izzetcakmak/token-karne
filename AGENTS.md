@@ -15,6 +15,7 @@
 - Fee: 0.10 USDC (100_000, 6 decimals) per `submitScore`; kontrat ücreti `transferFrom` ile çeker, önce `approve`
 - Ödeme kapıları (`assets/pay.js`, 11 Eki 2026): karne açmak tarama başına 0.10 USDC, tahta 30 dk için 0.10 USDC. İkisi de Arc USDC `transfer(owner, 100000)` — kontrat çağrısı değil, doğrudan owner cüzdanına. Tahta erişimi `localStorage` `tk_board_access` ile tarayıcı bazında; ödeme kaydı `tk_pay_log`
 - Karne kapısı analizden SONRA çıkar: token bulunamazsa ödeme istenmez. Bot (`scripts/scan.js`) `analyze()`'i doğrudan çağırır, kapıdan geçmez
+- Hüküm kapıları (`verdictFor`, 11 Eki 2026): <24 s → en fazla RİSKLİ·ERKEN; <24 s ve hacim >5× likidite → GEÇ·BOT HACMİ; 24–72 s → en fazla TEMİZ. Puan değişmez, hüküm sınırlanır; gerekçe tahta geçmişi (91 token: <6 s %90 çöküş, >7 gün %6). Tahta `BOARD_MIN_AGE_H=24` altını almaz. 5. soru GoPlus boşsa RugCheck topHolders'a düşer; bilinmeyen soruyu "evet" yapmak uyarı verir. Bu kapıları gevşetme; A1 ve RARINU rug'ı bunların yokluğundan oldu
 - "Bu karneyi zincire kaydet" butonu (`assets/onchain.js`) cevapları `submitScore` ile yazar; ücreti ayrı (0.10 USDC, kontrata)
 - Kontrat token'ı `address` ile anahtarlar: EVM adresi kendisi, Solana mint'i `sha256("solana:" + mint)`'in ilk 20 baytı
 - USDC on Arc: `0x3600000000000000000000000000000000000000`
