@@ -232,23 +232,73 @@ async function fetchSocial(handle) {
     vtype: (u.verification && u.verification.type) || null,
     site: (u.website && u.website.url) || null
   });
-  try {
-    const d = await jget('https://api.fxtwitter.com/' + encodeURIComponent(handle), 12000);
-    if (d && d.user) return norm(d.user);
-    return { ok: false, handle, missing: true };
-  } catch (e) {
-    /* yedek: vxtwitter */
-    try {
-      const v = await jget('https://api.vxtwitter.com/' + encodeURIComponent(handle), 10000);
-      if (v && v.id) return {
-        ok: true, handle: v.screen_name || handle, id: String(v.id),
-        followers: v.followers_count, following: v.following_count, tweets: v.tweets_count || null,
-        name: v.name, avatar: v.profile_image_url,
-        joined: v.created_at ? new Date(v.created_at) : null, verified: !!v.verified, vtype: null, site: null
-      };
-    } catch (e2) {}
-    return { ok: false, handle, missing: /404/.test(String(e)) };
+  const normVx = v => ({
+    ok: true, handle: v.screen_name || handle, id: String(v.id),
+    followers: v.followers_count, following: v.following_count, tweets: v.tweet_count || v.tweets_count || null,
+    name: v.name, avatar: v.profile_image_url,
+    joined: v.created_at ? new Date(v.created_at) : null, verified: !!v.verified, vtype: null, site: null
+  });
+
+  /* "Hesap yok" demek agir bir hukum (8 ve 9 HAYIR olur). fxtwitter gecici bir
+     hatada da 404 verebiliyor ve var olan bir hesap "silinmis" diye yazildi
+     (@anewone_xyz, 11 Eki 2026). vxtwitter ise olmayan hesapla kendi arizasini
+     ayirt edemiyor (ikisinde de 500 "Extract error"), o yuzden sadece VARLIGI
+     dogrulamak icin kullanilir. "Yok" hukmu icin ucu birden gerekir:
+       1) fxtwitter hesabi iki ayri denemede de yonlendirmeyle gecistirdi
+          (fxtwitter olmayan hesapta JSON yerine GitHub'a yonlendirir; 404 JSON
+          ise ariza olabilir, "yok" sayilmaz),
+       2) vxtwitter da bulamadi,
+       3) ayni anda fxtwitter bilinen bir hesabi (x) bulabiliyor — kaynak ve ag saglikli.
+     Diger her durumda cevap acik kalir, kullanici profile kendisi bakar. */
+  const fx = await fxProbe(handle, 10000);
+  if (fx.user) return norm(fx.user);
+  const vx = await vxProbe(handle, 6000);
+  if (vx.user) return normVx(vx.user);
+  if (fx.absent) {
+    await new Promise(r => setTimeout(r, 3000));
+    const fx2 = await fxProbe(handle, 8000);
+    if (fx2.user) return norm(fx2.user);
+    const ctrl = await fxProbe('x', 6000);
+    return { ok: false, handle, missing: !!(ctrl.user && fx2.absent) };
   }
+  return { ok: false, handle, missing: false };
+}
+
+/* fxtwitter: var olan hesap -> {user}; olmayan hesap -> GitHub'a yonlendirme
+   (tarayicida fetch CORS yuzunden hata firlatir, Node'da r.redirected=true);
+   API arizasi -> 404/5xx JSON. Siniflandirma: user / absent (sadece yonlendirme)
+   / err (404 JSON, 5xx, zaman asimi). */
+async function fxProbe(handle, ms) {
+  const c = new AbortController();
+  const t = setTimeout(() => c.abort(), ms);
+  try {
+    const r = await fetch('https://api.fxtwitter.com/' + encodeURIComponent(handle), { signal: c.signal, headers: { accept: 'application/json' } });
+    let body = null;
+    try { body = await r.json(); } catch (e) {}
+    if (body && body.user) return { user: body.user };
+    if (r.redirected) return { absent: true };
+    return { err: true, status: r.status };
+  } catch (e) {
+    if (e && e.name === 'AbortError') return { err: true, timeout: true };
+    return { absent: true, soft: true };   /* tarayicida yonlendirme = CORS hatasi; ag kopuksa kontrol istegi de duser */
+  } finally { clearTimeout(t); }
+}
+
+/* vxtwitter: var olan hesap -> {id,...}; olmayan hesap VE kendi arizasi -> 500
+   {"error":"Extract error"}; ayirt edilemez, o yuzden sadece varlik kaniti.
+   Tarayicidan calisir; curl/Node'dan Cloudflare'e takilir (403). */
+async function vxProbe(handle, ms) {
+  const c = new AbortController();
+  const t = setTimeout(() => c.abort(), ms);
+  try {
+    const r = await fetch('https://api.vxtwitter.com/' + encodeURIComponent(handle), { signal: c.signal, headers: { accept: 'application/json' } });
+    let body = null;
+    try { body = await r.json(); } catch (e) {}
+    if (body && body.id) return { user: body };
+    return { err: true, status: r.status };
+  } catch (e) {
+    return { err: true };
+  } finally { clearTimeout(t); }
 }
 
 /* RugCheck tam raporu (Solana): dev gecmisi + insider kumeleri.
