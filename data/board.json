@@ -1,5 +1,5 @@
 {
- "updatedAt": 1791736899084,
+ "updatedAt": 1791738641969,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,10 +26,10 @@
     1,
     null
    ],
-   "liq": 654539,
-   "vol": 573422,
-   "mcap": 14383778,
-   "holders": 15329,
+   "liq": 655810,
+   "vol": 550571,
+   "mcap": 14455749,
+   "holders": 15342,
    "createdAt": 1787522174000,
    "handle": "tartprotocol",
    "launchpad": null,
@@ -38,7 +38,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x30000a407fabebe29439f8e437050512ff6661be",
-   "scannedAt": 1791736809168
+   "scannedAt": 1791738560618
   },
   {
    "ca": "E6vtwCUtcNJdQEPGY8vWKahtu2sfwxQ4j68pUKm7pump",
@@ -46,11 +46,11 @@
    "sym": "EVERYTHING",
    "name": "Tokenize Everything",
    "img": "https://cdn.dexscreener.com/cms/images/iFkjRXSF69ihN7_h?width=800&height=800&quality=95&format=auto",
-   "score": 9,
+   "score": 10,
    "unknown": 1,
    "answers": [
     1,
-    0,
+    1,
     1,
     1,
     1,
@@ -62,10 +62,10 @@
     0,
     null
    ],
-   "liq": 303445,
-   "vol": 64844,
-   "mcap": 6164931,
-   "holders": 6766,
+   "liq": 294129,
+   "vol": 72306,
+   "mcap": 5828533,
+   "holders": 6772,
    "createdAt": 1791356563000,
    "handle": "everythingrwas",
    "launchpad": "Pump.Fun",
@@ -75,7 +75,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/fcfej9ujfnfcsiazgduesecmj2np6myxdm5h2jpfzbdc",
-   "scannedAt": 1791736811532
+   "scannedAt": 1791738562519
   },
   {
    "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
@@ -99,9 +99,9 @@
     1,
     null
    ],
-   "liq": 155833,
-   "vol": 293890,
-   "mcap": 1831936,
+   "liq": 154887,
+   "vol": 289799,
+   "mcap": 1806126,
    "holders": 13396,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -112,7 +112,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1791736813870
+   "scannedAt": 1791738564777
   },
   {
    "ca": "8k4sBtEeK4pf26noKqApv8NBTnuSJcbdwpKYknk5PbAA",
@@ -136,9 +136,9 @@
     1,
     null
    ],
-   "liq": 122872,
-   "vol": 593314,
-   "mcap": 653608,
+   "liq": 122494,
+   "vol": 580623,
+   "mcap": 643292,
    "holders": 6694,
    "createdAt": 1789647179000,
    "handle": "calithefanpage",
@@ -149,7 +149,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/2i2iulr7uwk1sdrb17t5futimnfql7fyy7rh69brzihc",
-   "scannedAt": 1791736815708
+   "scannedAt": 1791738566874
   },
   {
    "ca": "0x5d72717Ab33F38504935960A1D8603276a76511c",
@@ -173,9 +173,9 @@
     0,
     null
    ],
-   "liq": 31888,
+   "liq": 31857,
    "vol": 4040,
-   "mcap": 112403,
+   "mcap": 112291,
    "holders": 1143,
    "createdAt": 1780665839000,
    "handle": "hbadger_token",
@@ -185,7 +185,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0xc43748bc1985bc5cef0aa1e3107b684b547a554e",
-   "scannedAt": 1791736818136
+   "scannedAt": 1791738569038
   }
  ]
 }
