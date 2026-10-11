@@ -1,5 +1,5 @@
 {
- "updatedAt": 1791727932952,
+ "updatedAt": 1791728566674,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 634193,
-   "vol": 752190,
-   "mcap": 13657722,
+   "liq": 634546,
+   "vol": 743106,
+   "mcap": 13670869,
    "holders": 15315,
    "createdAt": 1787522174000,
    "handle": "tartprotocol",
@@ -38,7 +38,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x30000a407fabebe29439f8e437050512ff6661be",
-   "scannedAt": 1791727867075
+   "scannedAt": 1791728485754
   },
   {
    "ca": "E6vtwCUtcNJdQEPGY8vWKahtu2sfwxQ4j68pUKm7pump",
@@ -62,10 +62,10 @@
     0,
     null
    ],
-   "liq": 303498,
-   "vol": 61741,
-   "mcap": 6246115,
-   "holders": 6763,
+   "liq": 306217,
+   "vol": 61498,
+   "mcap": 6288784,
+   "holders": 6762,
    "createdAt": 1791356563000,
    "handle": "everythingrwas",
    "launchpad": "Pump.Fun",
@@ -75,7 +75,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/fcfej9ujfnfcsiazgduesecmj2np6myxdm5h2jpfzbdc",
-   "scannedAt": 1791727868820
+   "scannedAt": 1791728487546
   },
   {
    "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
@@ -83,11 +83,11 @@
    "sym": "MISTAKE",
    "name": "Make No Mistakes",
    "img": "https://cdn.dexscreener.com/cms/images/S3VS6ZPJzJ-72iRm?width=800&height=800&quality=95&format=auto",
-   "score": 9,
+   "score": 10,
    "unknown": 1,
    "answers": [
     1,
-    0,
+    1,
     1,
     1,
     1,
@@ -99,9 +99,9 @@
     1,
     null
    ],
-   "liq": 157911,
-   "vol": 348496,
-   "mcap": 1918599,
+   "liq": 157701,
+   "vol": 345718,
+   "mcap": 1914588,
    "holders": 13396,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -112,7 +112,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1791727870791
+   "scannedAt": 1791728489735
   },
   {
    "ca": "0xae5A409773b9A7Dd0Ae94ff437Ac213d8faFBa01",
@@ -136,9 +136,9 @@
     1,
     null
    ],
-   "liq": 77779,
-   "vol": 40454,
-   "mcap": 122097,
+   "liq": 78592,
+   "vol": 40574,
+   "mcap": 124668,
    "holders": 8794,
    "createdAt": 1775255453000,
    "handle": "upscreener",
@@ -148,7 +148,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0xc17236ba8107de131a6a7e380cf857fae9696919",
-   "scannedAt": 1791727872271
+   "scannedAt": 1791728491366
   },
   {
    "ca": "0x5d72717Ab33F38504935960A1D8603276a76511c",
@@ -173,7 +173,7 @@
     null
    ],
    "liq": 31429,
-   "vol": 6454,
+   "vol": 6181,
    "mcap": 110238,
    "holders": 1134,
    "createdAt": 1780665839000,
@@ -184,7 +184,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0xc43748bc1985bc5cef0aa1e3107b684b547a554e",
-   "scannedAt": 1791727873774
+   "scannedAt": 1791728493182
   }
  ]
 }
