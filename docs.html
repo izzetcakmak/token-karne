@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Docs — Token Karnesi</title>
+<meta name="description" content="Token Karnesi proje dokümantasyonu: nasıl çalışır, 12 soru, Arc entegrasyonu, ödeme kapıları, tahta taraması.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📋</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Manrope:wght@400;600;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+<style>
+  .docs-wrap { max-width: 800px; margin: 0 auto; padding: 2rem 1.5rem 6rem; }
+  .docs-wrap h1 { font-size: clamp(1.8rem, 4vw, 2.6rem); margin-bottom: .25rem; }
+  .docs-wrap h2 { font-size: 1.25rem; color: var(--cyan); margin: 2.5rem 0 .75rem; border-bottom: 1px solid rgba(255,255,255,.08); padding-bottom: .4rem; }
+  .docs-wrap h3 { font-size: 1rem; color: var(--lime); margin: 1.5rem 0 .5rem; }
+  .docs-wrap p, .docs-wrap li { color: var(--muted); line-height: 1.75; font-size: .95rem; }
+  .docs-wrap ul { padding-left: 1.25rem; margin: .5rem 0 1rem; }
+  .docs-wrap li { margin-bottom: .35rem; }
+  .docs-wrap code { font-family: 'JetBrains Mono', monospace; font-size: .82rem; background: rgba(255,255,255,.07); padding: .15em .45em; border-radius: 4px; color: #e2e8f0; }
+  .docs-wrap pre { background: rgba(255,255,255,.05); border: 1px solid rgba(255,255,255,.1); border-radius: 8px; padding: 1rem 1.25rem; overflow-x: auto; margin: .75rem 0 1.25rem; }
+  .docs-wrap pre code { background: none; padding: 0; font-size: .85rem; color: var(--lime); }
+  .docs-wrap table { width: 100%; border-collapse: collapse; font-size: .88rem; margin: .75rem 0 1.5rem; }
+  .docs-wrap th { text-align: left; color: var(--fg); border-bottom: 1px solid rgba(255,255,255,.15); padding: .5rem .75rem; font-size: .8rem; text-transform: uppercase; letter-spacing: .04em; }
+  .docs-wrap td { padding: .5rem .75rem; border-bottom: 1px solid rgba(255,255,255,.05); color: var(--muted); vertical-align: top; }
+  .docs-wrap tr:last-child td { border-bottom: none; }
+  .docs-wrap a { color: var(--cyan); text-decoration: none; }
+  .docs-wrap a:hover { text-decoration: underline; }
+  .docs-warn { background: rgba(255, 80, 80, .08); border: 1px solid rgba(255,80,80,.25); border-radius: 8px; padding: .75rem 1rem; margin: 1.5rem 0; color: #fca5a5; font-size: .9rem; }
+  .docs-badge { display: inline-block; font-size: .72rem; font-family: 'JetBrains Mono', monospace; padding: .15em .5em; border-radius: 4px; margin-left: .35rem; vertical-align: middle; }
+  .badge-green  { background: rgba(0,255,128,.15); color: var(--lime); }
+  .badge-yellow { background: rgba(255,220,0,.12); color: var(--yellow); }
+  .badge-blue   { background: rgba(0,200,255,.12); color: var(--cyan); }
+  .docs-toc { background: rgba(255,255,255,.04); border: 1px solid rgba(255,255,255,.08); border-radius: 10px; padding: 1rem 1.5rem; margin-bottom: 2rem; }
+  .docs-toc h4 { font-size: .8rem; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin: 0 0 .6rem; }
+  .docs-toc ol { margin: 0; padding-left: 1.25rem; }
+  .docs-toc li { margin-bottom: .3rem; font-size: .9rem; }
+</style>
+</head>
+<body>
+
+<div class="aurora"><div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div></div>
+<div class="grid-lines"></div>
+
+<header>
+  <nav class="nav">
+    <a href="./" class="brand"><em>📋</em>TOKEN <span class="k">KARNESİ</span></a>
+    <span class="spacer"></span>
+    <a class="nl" href="#nasil">Nasıl çalışır</a>
+    <a class="nl" href="docs.html" style="color:var(--cyan)">Docs</a>
+    <a class="nl" href="https://www.izzetc.com" target="_blank" rel="noopener">izzetc.com</a>
+  </nav>
+</header>
+
+<main>
+<div class="docs-wrap">
+
+  <h1>📋 Token Karnesi Docs</h1>
+  <p>Proje dokümantasyonu — nasıl çalışır, Arc entegrasyonu, ödeme sistemi, tahta taraması.</p>
+
+  <div class="docs-toc">
+    <h4>İçindekiler</h4>
+    <ol>
+      <li><a href="#nedir">Nedir?</a></li>
+      <li><a href="#12soru">12 Soru</a></li>
+      <li><a href="#odeme">Ödeme Kapıları</a></li>
+      <li><a href="#arc">Arc Entegrasyonu</a></li>
+      <li><a href="#tahta">Tahta (The Board)</a></li>
+      <li><a href="#zincirler">Desteklenen Zincirler</a></li>
+      <li><a href="#kaynaklar">Veri Kaynakları</a></li>
+      <li><a href="#calistir">Yerel Çalıştırma</a></li>
+    </ol>
+  </div>
+
+  <!-- NEDIR -->
+  <h2 id="nedir">Nedir?</h2>
+  <p>Token Karnesi, memecoin yatırımcıları için 12 soruluk otomatik güvenlik kontrol listesidir. Bir kontrat adresi yapıştır; likidite, mint/freeze yetkisi, holder dağılımı, dev geçmişi, sosyal medya ve hacim — hepsi tek ekranda. Karne sonu net bir karar: büyük gir, normal gir, küçük gir ya da geç.</p>
+  <p><strong>Mimari:</strong> Saf HTML + CSS + JavaScript. Framework yok, backend yok. Tüm veriler tarayıcıdan halka açık API'lere doğrudan çekilir.</p>
+
+  <!-- 12 SORU -->
+  <h2 id="12soru">12 Soru</h2>
+  <table>
+    <thead><tr><th>#</th><th>Soru</th><th>Kaynak</th><th>Otomasyon</th></tr></thead>
+    <tbody>
+      <tr><td>1</td><td>Likidite havuzu 30 bin doların üstünde mi?</td><td>DexScreener</td><td><span class="docs-badge badge-green">✅ otomatik</span></td></tr>
+      <tr><td>2</td><td>Likidite kilitli ya da yakılmış mı?</td><td>GoPlus / RugCheck / zincir</td><td><span class="docs-badge badge-green">✅ otomatik</span></td></tr>
+      <tr><td>3</td><td>Mint yetkisi kapalı mı?</td><td>GoPlus / RugCheck / bytecode</td><td><span class="docs-badge badge-green">✅ otomatik</span></td></tr>
+      <tr><td>4</td><td>Freeze yetkisi kapalı mı?</td><td>GoPlus / RugCheck / bytecode</td><td><span class="docs-badge badge-green">✅ otomatik</span></td></tr>
+      <tr><td>5</td><td>İlk 10 cüzdan arzın %20'sinden azını tutuyor mu?</td><td>GoPlus / RugCheck / Blockscout</td><td><span class="docs-badge badge-green">✅ otomatik</span></td></tr>
+      <tr><td>6</td><td>Cüzdanlar birbirine bağımsız mı, dağılım temiz mi?</td><td>RugCheck insider grafiği</td><td><span class="docs-badge badge-yellow">⚠️ tahmin</span></td></tr>
+      <tr><td>7</td><td>Geliştirici daha önce coin çıkarıp bırakmamış mı?</td><td>RugCheck / GoPlus</td><td><span class="docs-badge badge-green">✅ otomatik</span></td></tr>
+      <tr><td>8</td><td>Sosyal hesap bir haftadan eski mi?</td><td>fxtwitter</td><td><span class="docs-badge badge-green">✅ gerçek tarih</span></td></tr>
+      <tr><td>9</td><td>Takipçiler gerçek mi, bot şişirmemiş mi?</td><td>fxtwitter + sezgisel</td><td><span class="docs-badge badge-yellow">⚠️ tahmin</span></td></tr>
+      <tr><td>10</td><td>Holder sayısı son 24 saatte arttı mı?</td><td>GoPlus + yerel snapshot</td><td><span class="docs-badge badge-yellow">⚠️ vekil</span></td></tr>
+      <tr><td>11</td><td>24 saatlik hacim likiditanin en az yarısı kadar mı?</td><td>DexScreener</td><td><span class="docs-badge badge-green">✅ otomatik</span></td></tr>
+      <tr><td>12</td><td>Hikâyeyi tek cümlede anlatabilir misin?</td><td>sen</td><td><span class="docs-badge badge-blue">👤 senin cevabın</span></td></tr>
+    </tbody>
+  </table>
+
+  <p>Her cevap elle çevrilebilir — puan anında güncellenir ve değişiklikler <code>localStorage</code>'a kaydedilir.</p>
+  <p><strong>Puan skalası:</strong> 11–12 büyük gir · 9–10 normal gir · 7–8 küçük gir · ≤6 geç.</p>
+
+  <!-- ODEME -->
+  <h2 id="odeme">Ödeme Kapıları</h2>
+  <p>Site iki noktada <strong>0.10 USDC</strong> ödeme kapısı uygular. Ödeme Arc mainnet'te USDC <code>transfer()</code> işlemiyle yapılır; doğrudan site sahibinin cüzdanına gider.</p>
+
+  <h3>1. Karne Kapısı</h3>
+  <ul>
+    <li>Analiz <strong>önce</strong> çalışır. Token bulunamazsa ödeme istenmez.</li>
+    <li>Sonuç hazır olunca ödeme kartı çıkar; onaylanan işlemden sonra karne açılır.</li>
+    <li>Her karne ayrı ödeme: örnekler, geçmiş, tahta satırları ve <code>?ca=</code> linkleri de bu kapıdan geçer.</li>
+  </ul>
+
+  <h3>2. Tahta Kapısı</h3>
+  <ul>
+    <li>0.10 USDC = 30 dakikalık erişim (bu tarayıcıda).</li>
+    <li>Süre bitince liste kapanır; tekrar görmek yeni ödeme ister.</li>
+    <li>Geri sayım sayacı tahtanın üstünde görünür.</li>
+  </ul>
+
+  <!-- ARC -->
+  <h2 id="arc">Arc Entegrasyonu</h2>
+  <p>Analiz tamamlandıktan sonra sonuç <strong>Arc Mainnet</strong>'e yazılabilir:</p>
+
+  <table>
+    <thead><tr><th>Parametre</th><th>Değer</th></tr></thead>
+    <tbody>
+      <tr><td>Contract</td><td><code>0x3b6BB772b7Ac34d9f7357d6F66867C2c29f2034f</code></td></tr>
+      <tr><td>Ağ</td><td>Arc Mainnet (Chain ID: 5042)</td></tr>
+      <tr><td>USDC</td><td><code>0x3600000000000000000000000000000000000000</code></td></tr>
+      <tr><td>Ücret</td><td>0.10 USDC / submitScore</td></tr>
+      <tr><td>Explorer</td><td><a href="https://explorer.arc.io/address/0x3b6BB772b7Ac34d9f7357d6F66867C2c29f2034f" target="_blank" rel="noopener">explorer.arc.io ↗</a></td></tr>
+    </tbody>
+  </table>
+
+  <h3>Contract Fonksiyonları</h3>
+  <ul>
+    <li><code>submitScore(tokenCA, scores[12], total)</code> — 0.10 USDC karşılığında skoru zincire yazar</li>
+    <li><code>getScore(tokenCA)</code> — herkes ücretsiz okur</li>
+    <li><code>withdraw()</code> — birikmiş USDC'yi owner adresine gönderir (sadece owner)</li>
+    <li><code>setFee(newFee)</code> — ücreti günceller (sadece owner)</li>
+  </ul>
+
+  <h3>AL Butonu</h3>
+  <table>
+    <thead><tr><th>Zincir</th><th>Yönlendirme</th></tr></thead>
+    <tbody>
+      <tr><td>Arc (A NEW ONE)</td><td>A NEW ONE token sayfası</td></tr>
+      <tr><td>Solana</td><td><code>jup.ag/swap/USDC-&lt;CA&gt;</code></td></tr>
+      <tr><td>Diğer EVM</td><td>DexScreener pair URL</td></tr>
+    </tbody>
+  </table>
+
+  <!-- TAHTA -->
+  <h2 id="tahta">Tahta (The Board)</h2>
+  <p>GitHub Actions ile otomatik tarama (<code>scripts/scan.js</code> + <code>.github/workflows/scan.yml</code>):</p>
+  <ul>
+    <li>Her <strong>30 dakikada bir</strong> DexScreener'daki yeni/öne çıkan tokenler taranır</li>
+    <li>Minimum eşik: <strong>9 puan</strong> ve <strong>24 saati doldurmuş</strong> token</li>
+    <li>Sonuçlar <code>data/board.json</code>'a yazılır; Vercel bu commit'i algılayınca otomatik deploy eder</li>
+    <li>Tarayıcıda aynı <code>analyze()</code> motoru çalışır → tahta skoru ile manuel karne skoru eşleşir</li>
+    <li>Tahta erişimi ücretlidir: 0.10 USDC / 30 dakika</li>
+  </ul>
+
+  <pre><code>BOARD_LIMIT=45 BOARD_MIN=9 node scripts/scan.js   # elle çalıştır</code></pre>
+
+  <!-- ZİNCİRLER -->
+  <h2 id="zincirler">Desteklenen Zincirler</h2>
+  <table>
+    <thead><tr><th>Zincir</th><th>Güvenlik Verisi</th><th>Holder</th><th>Sosyal</th></tr></thead>
+    <tbody>
+      <tr><td>Ethereum</td><td>GoPlus</td><td>GoPlus</td><td>fxtwitter</td></tr>
+      <tr><td>Base</td><td>GoPlus / bytecode</td><td>Blockscout</td><td>fxtwitter</td></tr>
+      <tr><td>Arbitrum</td><td>GoPlus</td><td>GoPlus</td><td>fxtwitter</td></tr>
+      <tr><td>BSC</td><td>GoPlus</td><td>GoPlus</td><td>fxtwitter</td></tr>
+      <tr><td>Solana</td><td>GoPlus + RugCheck</td><td>GoPlus</td><td>fxtwitter</td></tr>
+      <tr><td>Arc (A NEW ONE)</td><td>Bytecode + A NEW ONE API</td><td>A NEW ONE API</td><td>Metadata</td></tr>
+      <tr><td>Diğer EVM</td><td>Bytecode + Blockscout</td><td>Blockscout</td><td>fxtwitter</td></tr>
+    </tbody>
+  </table>
+
+  <!-- KAYNAKLAR -->
+  <h2 id="kaynaklar">Veri Kaynakları</h2>
+  <ul>
+    <li><a href="https://docs.dexscreener.com/api/reference" target="_blank" rel="noopener">DexScreener</a> — havuzlar, likidite, hacim, sosyal linkler</li>
+    <li><a href="https://docs.gopluslabs.io/" target="_blank" rel="noopener">GoPlus Security</a> — EVM + Solana token güvenliği, holderlar, LP</li>
+    <li><a href="https://api.rugcheck.xyz/swagger/index.html" target="_blank" rel="noopener">RugCheck</a> — Solana riskleri, LP kilidi, insider grafik, dev'in önceki tokenleri</li>
+    <li><a href="https://github.com/FixTweet/FxTwitter" target="_blank" rel="noopener">fxtwitter</a> — herkese açık X profili: kayıt tarihi, takipçi, takip, tweet sayısı</li>
+    <li>Bubblemaps / GMGN / TweetScout — göz ile doğrulama için derin linkler</li>
+    <li>A NEW ONE API — Arc zincirindeki eğri havuzu verileri</li>
+  </ul>
+
+  <!-- ÇALIŞTIR -->
+  <h2 id="calistir">Yerel Çalıştırma</h2>
+  <pre><code>npx -y http-server . -p 4933 -c-1</code></pre>
+  <p>Statik dosyalar — Vercel, GitHub Pages veya herhangi bir CDN'e deploy edilebilir.</p>
+  <p><code>?ca=&lt;adres&gt;&amp;chain=&lt;zincir&gt;</code> URL parametresiyle tarama direkt başlar.</p>
+
+  <div class="docs-warn">
+    ⚠️ Bu araç <strong>yatırım tavsiyesi değildir.</strong> Veriler herkese açık API'lerden anlık çekilir; hatalı, eksik ya da gecikmeli olabilir. Skor bir kontrol listesidir, garanti değil. Kendi araştırmanı yap.
+  </div>
+
+</div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p><span>Yapan</span> <a href="https://www.izzetc.com" target="_blank" rel="noopener">izzetc</a> · <a href="https://x.com/izzetcakmak35" target="_blank" rel="noopener">@izzetcakmak35</a></p>
+  </div>
+</footer>
+
+</body>
+</html>
