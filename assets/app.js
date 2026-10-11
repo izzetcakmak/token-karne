@@ -867,8 +867,10 @@ function computeChecks(chain, ca, D, sec, X, RF) {
 
   /* 11 — hacim / likidite */
   const ratio = D.liq > 0 ? D.vol / D.liq : null;
+  /* ilk gunde 5x'i asan hacim cogu zaman bot isidir: soru "evet" kalir, not degisir, hukum ayrica kisitlanir */
+  const youngBot = ratio != null && ratio > 5 && D.created && Date.now() - D.created < 864e5;
   put(11, ratio == null ? null : ratio >= 0.5,
-      ratio == null ? T('n.liq.none') : T('n.vol', { v: usd(D.vol), l: usd(D.liq), r: ratio.toFixed(2) }),
+      ratio == null ? T('n.liq.none') : T(youngBot ? 'n.vol.bot' : 'n.vol', { v: usd(D.vol), l: usd(D.liq), r: ratio.toFixed(2) }),
       { link: D.best ? D.best.url : null, linkLabel: 'DexScreener' });
 
   /* 12 — hikaye */
@@ -922,6 +924,18 @@ async function analyze(ca, forcedChain, onStep) {
   const RF = rfR.status === 'fulfilled' ? rfR.value : null;
 
   if (RF) {
+    /* 5. soru: GoPlus taze Solana tokenlerinde holder listesi vermiyor (A1 ve RARINU'da
+       soru bos kaldi, kullanici "evet" dedi). RugCheck'in listesi varsa onu kullan:
+       owner = cuzdan (havuz hesaplarinda havuz adresi -> pairSet ile elenir). */
+    if ((!sec.topHolders || !sec.topHolders.length) && RF.topHolders.length) {
+      sec.topHolders = RF.topHolders.map(h => ({
+        addr: h.owner || h.address, acct: h.address, pct: Number(h.pct) || 0, tag: '', insider: !!h.insider
+      }));
+      if (!sec.pairSet) sec.pairSet = new Set((byChain[chain] || []).map(p => String(p.pairAddress || '').toLowerCase()));
+      finishHolders(sec, ca);
+      if (!sec.sources.includes('RugCheck')) sec.sources.push('RugCheck');
+      sec.holdersFrom = 'RugCheck';
+    }
     if (!sec.creator && RF.creator) sec.creator = RF.creator;
     if (sec.holderCount == null && RF.totalHolders) sec.holderCount = RF.totalHolders;
     if (RF.rugged) sec.flags.push({ lvl: 'bad', k: 'fl.rugged' });
@@ -1033,8 +1047,46 @@ function verdictOf(s) {
   if (s >= 7)  return { key: 'risky', bg: 'var(--yellow)',  fg: 'var(--black)' };
   return          { key: 'skip',  bg: 'var(--magenta)', fg: '#fff' };
 }
+const VERDICT_RANK = { skip: 0, risky: 1, clean: 2, rare: 3 };
+const VERDICT_SCORE = { skip: 0, risky: 7, clean: 9, rare: 11 };
+function verdictByKey(key) { return verdictOf(VERDICT_SCORE[key] != null ? VERDICT_SCORE[key] : 0); }
+
+/* Hukum kapilari. 12 soru yapisal guvenligi olcer (mint, freeze, LP, dev);
+   tokenin yasini ve hacmin kalitesini olcmez. Tahta gecmisi (91 token,
+   28 Agu - 10 Eki 2026, 11 Eki'de olculdu): ilk 24 saatte gorulen tokenlerin
+   %90'i %80+ dustu (%2 yukari); hacmi likiditenin 5 katini asanlarin %85'i
+   dustu (%0 yukari); ikisi birlikte %91 / %0. 7 gunu gecenlerde cokus %6.
+   Puan ne olursa olsun:
+     < 24 saat ve hacim > 5 x likidite -> GEC               (cap: botvol)
+     < 24 saat                          -> en fazla RISKLI   (cap: early)
+     24-72 saat                         -> en fazla TEMIZ    (cap: young)
+   Yas bilinmiyorsa kapi uygulanmaz. Kapi puani degistirmez, hukmu sinirlar. */
+function verdictCaps(meta) {
+  const ageH = meta && meta.createdAt ? (Date.now() - meta.createdAt) / 36e5 : null;
+  if (ageH == null || ageH < 0) return null;
+  const ratio = meta.liq > 0 && meta.vol != null ? meta.vol / meta.liq : null;
+  if (ageH < 24 && ratio != null && ratio > 5) return { max: 'skip',  cap: 'botvol', ageH, ratio };
+  if (ageH < 24)                                return { max: 'risky', cap: 'early',  ageH, ratio };
+  if (ageH < 72)                                return { max: 'clean', cap: 'young',  ageH, ratio };
+  return null;
+}
+function verdictFor(score, meta) {
+  const v = verdictOf(score);
+  const c = verdictCaps(meta);
+  if (!c) return v;
+  const binding = VERDICT_RANK[v.key] > VERDICT_RANK[c.max];
+  return Object.assign({}, binding ? verdictByKey(c.max) : v,
+    { cap: c.cap, binding, ageH: c.ageH, ratio: c.ratio, raw: v.key });
+}
+function verdictMeta() { return S ? { createdAt: S.D.created, vol: S.D.vol, liq: S.D.liq } : null; }
+function verdictLabel(v) { return T('v.' + v.key) + (v.binding ? ' · ' + T('cap.' + v.cap + '.tag') : ''); }
+function capVars(v, score) {
+  return { h: v.ageH < 48 ? Math.round(v.ageH) : Math.round(v.ageH), r: v.ratio != null ? v.ratio.toFixed(1) : '—', s: score };
+}
 function setAnswer(n, v) {
   const cur = answerOf(n);
+  /* veri olmayan soruyu "evet" saymak puani sisirir (A1 ve RARINU boyle 12/12 oldu) */
+  if (v === true && S.checks[n] && (S.checks[n].v === null || S.checks[n].v === undefined) && cur !== true) toast(T('warn.unkyes'));
   if (cur === v) delete S.overrides[n]; else S.overrides[n] = v;
   try { localStorage.setItem(ansKey(S.chain, S.ca), JSON.stringify(S.overrides)); } catch (e) {}
   render();
@@ -1145,7 +1197,7 @@ function contextNotes() {
 
 function renderVerdict() {
   const { yes, unknown, max } = scoreNow();
-  const v = verdictOf(yes);
+  const v = verdictFor(yes, verdictMeta());
   const bars = [];
   for (let n = 1; n <= 12; n++) {
     const a = answerOf(n);
@@ -1176,9 +1228,14 @@ function renderVerdict() {
         '<div class="v-label"' + (tooMany ? ' style="color:#fff"' : '') + '>' + T('v.label') + '</div>' +
       '</div>' +
       '<div class="v-body">' +
-        '<div class="v-stamp" style="background:' + V.bg + ';color:' + V.fg + '">' + T('v.' + V.key) + '</div>' +
+        '<div class="v-stamp' + (!tooMany && V.binding ? ' long' : '') + '" style="background:' + V.bg + ';color:' + V.fg + '">' + (tooMany ? T('v.' + V.key) : verdictLabel(V)) + '</div>' +
         '<div class="v-bars">' + bars.join('') + '</div>' +
         '<div class="v-advice">' + T('v.' + V.key + '.a') + '</div>' + todo +
+        /* yas / bot hacmi kapisi: baglayici olsun olmasin gerekcesi yazilir */
+        (!tooMany && V.cap ? '<div class="cap-note' + (V.binding ? ' binding' : '') + '">' +
+            (V.cap === 'botvol' ? '🤖 ' : '⏳ ') + T('cap.' + V.cap, capVars(V, yes)) +
+            (V.binding && V.raw !== V.key ? ' <b>' + T('cap.was', { v: T('v.' + V.raw) }) + '</b>' : '') +
+          '</div>' : '') +
         '<div class="v-actions">' +
           '<button class="act buy" id="verdictBuyBtn">💸 ' + (LANG === 'tr' ? 'AL' : 'BUY') + '</button>' +
           '<button class="act x" id="shareX">𝕏 ' + T('act.x') + '</button>' +
@@ -1194,7 +1251,7 @@ function renderVerdict() {
   $('#dlPng').onclick = downloadPng;
   $('#cpLink').onclick = () => { navigator.clipboard.writeText(shareUrl()); toast(T('toast.copy')); };
   $('#again').onclick = () => { $('#ca').value = ''; $('#ca').focus(); window.scrollTo({ top: 0, behavior: 'smooth' }); };
-  if (yes >= 11) confetti();
+  if (!tooMany && V.key === 'rare') confetti();   /* kapiyla dusurulmus 11-12'ye konfeti yok */
 }
 
 function renderQuestions() {
@@ -1275,6 +1332,9 @@ function renderFlags() {
     return '<span class="flag ' + (x.lvl === 'bad' ? 'bad' : 'warn') + '">' + (x.lvl === 'bad' ? '🚨 ' : '⚠️ ') + label + '</span>';
   });
   if (S.D.created && Date.now() - S.D.created < 864e5) items.push('<span class="flag warn">⏱️ ' + T('fl.freshpool') + '</span>');
+  /* ilk gunde likiditenin 5 katini asan hacim: tahta gecmisinde bu profilin %85'i coktu, hicbiri yukselmedi */
+  if (S.D.created && Date.now() - S.D.created < 864e5 && S.D.liq > 0 && S.D.vol / S.D.liq > 5)
+    items.push('<span class="flag bad">🤖 ' + T('fl.botvol', { r: (S.D.vol / S.D.liq).toFixed(1) }) + '</span>');
   if (S.D.liq < 10000) items.push('<span class="flag warn">💧 ' + T('fl.lowliq') + '</span>');
   if (S.D.ghostLiq > 25000 && S.D.ghostLiq > (S.D.liq + S.D.ghostLiq) * 0.25)
     items.push('<span class="flag warn">🫧 ' + T('fl.ghostliq') + ' ' + usd(S.D.ghostLiq) + '</span>');
@@ -1362,7 +1422,7 @@ function renderBoard() {
     return;
   }
   const rows = BOARD.items.map((it, i) => {
-    const v = verdictOf(it.score);
+    const v = verdictFor(it.score, { createdAt: it.createdAt, vol: it.vol, liq: it.liq });
     const bars = (it.answers || []).map(a =>
       '<span class="bb ' + (a === 1 ? 'y' : a === 0 ? 'n' : '') + '"></span>').join('');
     const st = (k, val) => '<span><i>' + k + '</i>' + val + '</span>';
@@ -1396,7 +1456,8 @@ function pushHistory() {
   let h = [];
   try { h = JSON.parse(localStorage.getItem('tk_hist') || '[]'); } catch (e) {}
   h = h.filter(x => !(x.ca === S.ca && x.chain === S.chain));
-  h.unshift({ ca: S.ca, chain: S.chain, sym: S.D.sym, score: scoreNow().yes, t: Date.now() });
+  const sc = scoreNow().yes;
+  h.unshift({ ca: S.ca, chain: S.chain, sym: S.D.sym, score: sc, vk: verdictFor(sc, verdictMeta()).key, t: Date.now() });
   localStorage.setItem('tk_hist', JSON.stringify(h.slice(0, 12)));
 }
 function renderHistory() {
@@ -1405,7 +1466,7 @@ function renderHistory() {
   if (!h.length) { $('#history').hidden = true; return; }
   $('#history').hidden = false;
   $('#histList').innerHTML = h.map(x => {
-    const v = verdictOf(x.score);
+    const v = x.vk ? verdictByKey(x.vk) : verdictOf(x.score);   /* kapiyla dusurulmus hukum rengi korunur */
     return '<button class="hist" data-ca="' + esc(x.ca) + '" data-ch="' + esc(x.chain) + '">' +
       '<span class="s" style="background:' + v.bg + '">' + x.score + '</span>' + esc(x.sym || short(x.ca)) +
       '<span style="opacity:.5;font-weight:700">' + esc(x.chain) + '</span></button>';
@@ -1426,9 +1487,9 @@ function emojiLine() {
 }
 function shareX() {
   const { yes } = scoreNow();
-  const v = verdictOf(yes);
+  const v = verdictFor(yes, verdictMeta());
   const txt = T('share.text', {
-    sym: '$' + S.D.sym, score: yes, verdict: T('v.' + v.key), lines: emojiLine()
+    sym: '$' + S.D.sym, score: yes, verdict: verdictLabel(v), lines: emojiLine()
   });
   window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(txt) + '&url=' + encodeURIComponent(shareUrl()), '_blank', 'noopener');
 }
@@ -1439,7 +1500,7 @@ async function downloadPng() {
   const c = $('#pngCanvas'), x = c.getContext('2d');
   const W = c.width, H = c.height;
   const { yes, unknown } = scoreNow();
-  const v = verdictOf(yes);
+  const v = verdictFor(yes, verdictMeta());
   const COL = { lime: '#B6FF3C', cyan: '#00F0FF', yellow: '#FFD93D', magenta: '#FF2D9B', ink: '#0A0416', ink2: '#150A2E', cream: '#FFF6E9', black: '#08040F' };
   const vc = { rare: COL.lime, clean: COL.cyan, risky: COL.yellow, skip: COL.magenta }[v.key];
 
@@ -1468,8 +1529,9 @@ async function downloadPng() {
   /* damga */
   x.fillStyle = vc; x.fillRect(76, 262, 300, 78); x.strokeRect(76, 262, 300, 78);
   x.fillStyle = v.key === 'skip' ? '#fff' : COL.black;
-  x.font = '800 46px "Bricolage Grotesque",sans-serif';
-  x.textAlign = 'center'; x.fillText(T('v.' + v.key), 226, 318); x.textAlign = 'left';
+  const stampTxt = verdictLabel(v);
+  x.font = '800 ' + (stampTxt.length > 8 ? 26 : 46) + 'px "Bricolage Grotesque",sans-serif';
+  x.textAlign = 'center'; x.fillText(stampTxt, 226, 318); x.textAlign = 'left';
 
   /* 12 soru satirlari */
   const startY = 384, colW = (W - 160) / 2;

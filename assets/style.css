@@ -607,3 +607,12 @@ footer a:hover{text-decoration:underline}
   border:2px solid var(--black);border-radius:999px;padding:5px 12px;font-weight:800;font-size:12px;
   font-variant-numeric:tabular-nums;box-shadow:3px 3px 0 var(--black);white-space:nowrap;
 }
+
+/* ---- Hukum kapisi notu (yas / bot hacmi) ---- */
+.cap-note{
+  margin-top:12px;padding:12px 14px;border:3px solid var(--black);border-radius:14px;
+  background:rgba(255,122,26,.14);font-weight:600;line-height:1.5;font-size:.93rem;
+}
+.cap-note.binding{background:var(--orange);color:var(--black);box-shadow:4px 4px 0 var(--black)}
+.cap-note b{font-weight:800}
+.v-stamp.long{font-size:clamp(20px,3.6vw,34px);letter-spacing:-.02em}
