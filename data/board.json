@@ -1,5 +1,5 @@
 {
- "updatedAt": 1791760326718,
+ "updatedAt": 1791762018318,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 636503,
-   "vol": 349218,
-   "mcap": 13605738,
+   "liq": 635206,
+   "vol": 332512,
+   "mcap": 13550529,
    "holders": 15372,
    "createdAt": 1787522174000,
    "handle": "tartprotocol",
@@ -38,7 +38,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x30000a407fabebe29439f8e437050512ff6661be",
-   "scannedAt": 1791760245587
+   "scannedAt": 1791761939102
   },
   {
    "ca": "E6vtwCUtcNJdQEPGY8vWKahtu2sfwxQ4j68pUKm7pump",
@@ -63,7 +63,7 @@
     null
    ],
    "liq": 308714,
-   "vol": 98966,
+   "vol": 98644,
    "mcap": 6290700,
    "holders": 6787,
    "createdAt": 1791356563000,
@@ -75,7 +75,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/fcfej9ujfnfcsiazgduesecmj2np6myxdm5h2jpfzbdc",
-   "scannedAt": 1791760250034
+   "scannedAt": 1791761941783
   },
   {
    "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
@@ -99,9 +99,9 @@
     1,
     null
    ],
-   "liq": 150186,
-   "vol": 258974,
-   "mcap": 1706573,
+   "liq": 149572,
+   "vol": 254603,
+   "mcap": 1693396,
    "holders": 13396,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -112,7 +112,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1791760247708
+   "scannedAt": 1791761946490
   },
   {
    "ca": "8k4sBtEeK4pf26noKqApv8NBTnuSJcbdwpKYknk5PbAA",
@@ -136,9 +136,9 @@
     1,
     null
    ],
-   "liq": 117085,
-   "vol": 307520,
-   "mcap": 618576,
+   "liq": 113455,
+   "vol": 301382,
+   "mcap": 579312,
    "holders": 6694,
    "createdAt": 1789647179000,
    "handle": "calithefanpage",
@@ -149,7 +149,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/2i2iulr7uwk1sdrb17t5futimnfql7fyy7rh69brzihc",
-   "scannedAt": 1791760251470
+   "scannedAt": 1791761947999
   },
   {
    "ca": "0x5d72717Ab33F38504935960A1D8603276a76511c",
@@ -173,9 +173,9 @@
     0,
     null
    ],
-   "liq": 31219,
-   "vol": 3164,
-   "mcap": 107969,
+   "liq": 31210,
+   "vol": 3168,
+   "mcap": 107915,
    "holders": 1145,
    "createdAt": 1780665839000,
    "handle": "hbadger_token",
@@ -185,7 +185,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0xc43748bc1985bc5cef0aa1e3107b684b547a554e",
-   "scannedAt": 1791760253424
+   "scannedAt": 1791761949844
   }
  ]
 }
