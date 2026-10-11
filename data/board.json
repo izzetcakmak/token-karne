@@ -1,5 +1,5 @@
 {
- "updatedAt": 1791678888729,
+ "updatedAt": 1791679053081,
  "threshold": 9,
  "scanned": 45,
  "items": [
@@ -25,9 +25,9 @@
     1,
     null
    ],
-   "liq": 650109,
-   "vol": 1391145,
-   "mcap": 14568088,
+   "liq": 649906,
+   "vol": 1392266,
+   "mcap": 14557165,
    "holders": 14586,
    "createdAt": 1787522174000,
    "handle": "tartprotocol",
@@ -37,7 +37,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x30000a407fabebe29439f8e437050512ff6661be",
-   "scannedAt": 1791678809730
+   "scannedAt": 1791678975044
   },
   {
    "ca": "E6vtwCUtcNJdQEPGY8vWKahtu2sfwxQ4j68pUKm7pump",
@@ -62,7 +62,7 @@
     null
    ],
    "liq": 307868,
-   "vol": 293133,
+   "vol": 292724,
    "mcap": 6368968,
    "holders": 5600,
    "createdAt": 1791356563000,
@@ -74,7 +74,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/fcfej9ujfnfcsiazgduesecmj2np6myxdm5h2jpfzbdc",
-   "scannedAt": 1791678811389
+   "scannedAt": 1791678976713
+  },
+  {
+   "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
+   "chain": "solana",
+   "sym": "MISTAKE",
+   "name": "Make No Mistakes",
+   "img": "https://cdn.dexscreener.com/cms/images/S3VS6ZPJzJ-72iRm?width=800&height=800&quality=95&format=auto",
+   "score": 10,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    null
+   ],
+   "liq": 149783,
+   "vol": 503705,
+   "mcap": 1727602,
+   "holders": 13039,
+   "createdAt": 1789093171000,
+   "handle": "nomistakesfun",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
+   "scannedAt": 1791678982188
   },
   {
    "ca": "0x2Ca020b2516F535aD4275Fc6B305eAA2464039FC",
@@ -98,9 +135,9 @@
     1,
     null
    ],
-   "liq": 90947,
-   "vol": 3779454,
-   "mcap": 1372699,
+   "liq": 96476,
+   "vol": 3787613,
+   "mcap": 1545525,
    "holders": 704,
    "createdAt": 1791658019000,
    "handle": "altaitiger_x",
@@ -110,7 +147,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0xf9fab0b2b9e32233ff0ebc371149bef45aa63b04",
-   "scannedAt": 1791678813364
+   "scannedAt": 1791678978383
   },
   {
    "ca": "3sbG9zz4MzJacqtZYkqzzWzxwdh9zoWNtBoyn3mYpump",
@@ -134,10 +171,10 @@
     1,
     null
    ],
-   "liq": 34658,
-   "vol": 599928,
-   "mcap": 157651,
-   "holders": 3185,
+   "liq": 35591,
+   "vol": 616402,
+   "mcap": 165483,
+   "holders": 3472,
    "createdAt": 1791675788000,
    "handle": "wwwcatlive",
    "launchpad": "Pump.Fun",
@@ -147,44 +184,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/3ygcwwnw2fxhu5v92pgzmpbnygaykr2pdbbjnbaysvrr",
-   "scannedAt": 1791678816956
-  },
-  {
-   "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
-   "chain": "solana",
-   "sym": "MISTAKE",
-   "name": "Make No Mistakes",
-   "img": "https://cdn.dexscreener.com/cms/images/S3VS6ZPJzJ-72iRm?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    null
-   ],
-   "liq": 149876,
-   "vol": 504245,
-   "mcap": 1729736,
-   "holders": 13039,
-   "createdAt": 1789093171000,
-   "handle": "nomistakesfun",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1791678819314
+   "scannedAt": 1791678980502
   },
   {
    "ca": "9LAHK5YvCqQCzX5CBw6xF5yFVUzXqoAHWtoofqk2pump",
@@ -208,10 +208,10 @@
     1,
     null
    ],
-   "liq": 94478,
-   "vol": 990884,
-   "mcap": 1113105,
-   "holders": 7231,
+   "liq": 95847,
+   "vol": 995486,
+   "mcap": 1144722,
+   "holders": 7253,
    "createdAt": 1791656559000,
    "handle": "theqtiger",
    "launchpad": "Pump.Fun",
@@ -221,7 +221,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/fkknxvybrt22bqef9mbmswiw35oig5ion2qmnasfvrat",
-   "scannedAt": 1791678815146
+   "scannedAt": 1791678983660
   },
   {
    "ca": "0xae5A409773b9A7Dd0Ae94ff437Ac213d8faFBa01",
@@ -245,9 +245,9 @@
     1,
     null
    ],
-   "liq": 82863,
-   "vol": 49344,
-   "mcap": 139277,
+   "liq": 82864,
+   "vol": 49343,
+   "mcap": 139281,
    "holders": 8748,
    "createdAt": 1775255453000,
    "handle": "upscreener",
@@ -257,7 +257,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0xc17236ba8107de131a6a7e380cf857fae9696919",
-   "scannedAt": 1791678820802
+   "scannedAt": 1791678985251
   },
   {
    "ca": "0x5d72717Ab33F38504935960A1D8603276a76511c",
@@ -293,7 +293,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0xc43748bc1985bc5cef0aa1e3107b684b547a554e",
-   "scannedAt": 1791678822393
+   "scannedAt": 1791678987324
   }
  ]
 }
