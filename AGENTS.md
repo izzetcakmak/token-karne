@@ -20,4 +20,4 @@
 - Kontrat token'ı `address` ile anahtarlar: EVM adresi kendisi, Solana mint'i `sha256("solana:" + mint)`'in ilk 20 baytı
 - USDC on Arc: `0x3600000000000000000000000000000000000000`
 - withdraw() → owner adresine birikmiş USDC gönderir
-- Arc USDC → Solana satın alma akışı (eski `assets/buy.js`) kaldırıldı: Solana'da mint adımı yoktu, alıcı adresi yanlış türetiliyordu. AL butonu dış linke gider.
+- Arc USDC → Solana satın alma akışı (eski `assets/buy.js`) kaldırıldı: Solana'da mint adımı yoktu, alıcı adresi yanlış türetiliyordu. AL butonu dış linke gider, token seçili (11 Eki 2026, `arcOpenBuyModal`/`evmBuyUrl`): Arc → A NEW ONE; Solana → `jup.ag/swap?sell=<SOL mint>&buy=<mint>`; BSC/opBNB/Linea ve likiditesi PancakeSwap'te olanlar → `pancakeswap.finance/swap?chain=<c>&outputCurrency=<ca>`; Ethereum/Base/Arbitrum/Optimism/Polygon/Avalanche vb. → `app.uniswap.org/swap?chain=<c>&inputCurrency=ETH&outputCurrency=<ca>`; desteklenmeyen zincir → DexScreener çift sayfası. Eski `jup.ag/swap/USDC-<mint>` yolu yeni arayüzde çalışmıyor

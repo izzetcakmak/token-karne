@@ -291,9 +291,31 @@ document.addEventListener('DOMContentLoaded', function() {
 /* Site içinde swap yok: Arc tokenleri A NEW ONE'a, Solana tokenleri Jupiter'e,
    diğerleri tokenin DexScreener çiftine gider. (Arc USDC → Solana köprü akışı
    kaldırıldı; Solana tarafında mint adımı yoktu ve alıcı adresi yanlış türetiliyordu.) */
+/* EVM zincirlerinde token "Buy" alanında seçili gelsin: BSC/opBNB/Linea ve
+   likiditesi PancakeSwap'te olan tokenler PancakeSwap'e, geri kalan desteklenen
+   zincirler Uniswap'e. Her iki biçim de 11 Eki 2026'da doğrulandı:
+   app.uniswap.org/swap?chain=base&inputCurrency=ETH&outputCurrency=<ca>  -> "Sat ETH / Satın al BRETT"
+   pancakeswap.finance/swap?chain=bsc&outputCurrency=<ca>                  -> "From BNB / To CAKE"
+   Desteklenmeyen zincir (Fantom, Cronos, Sonic, Robinhood...) DexScreener çiftine düşer. */
+var UNI_CHAIN  = { ethereum: 'ethereum', base: 'base', arbitrum: 'arbitrum', optimism: 'optimism', polygon: 'polygon',
+                   bsc: 'bnb', avalanche: 'avalanche', blast: 'blast', zksync: 'zksync', zora: 'zora', celo: 'celo',
+                   unichain: 'unichain', worldchain: 'worldchain', soneium: 'soneium' };
+var UNI_ETH_NATIVE = { ethereum: 1, base: 1, arbitrum: 1, optimism: 1, blast: 1, zksync: 1, zora: 1, unichain: 1, worldchain: 1, soneium: 1 };
+var CAKE_CHAIN = { bsc: 'bsc', opbnb: 'opBNB', linea: 'linea', ethereum: 'eth', base: 'base', arbitrum: 'arb', zksync: 'zkSync' };
+function evmBuyUrl(chain, ca, dexId) {
+  var onCake = /pancake/i.test(String(dexId || ''));
+  var cakeHome = chain === 'bsc' || chain === 'opbnb' || chain === 'linea';
+  if ((onCake || cakeHome) && CAKE_CHAIN[chain]) return 'https://pancakeswap.finance/swap?chain=' + CAKE_CHAIN[chain] + '&outputCurrency=' + ca;
+  if (UNI_CHAIN[chain]) return 'https://app.uniswap.org/swap?chain=' + UNI_CHAIN[chain] + (UNI_ETH_NATIVE[chain] ? '&inputCurrency=ETH' : '') + '&outputCurrency=' + ca;
+  if (CAKE_CHAIN[chain]) return 'https://pancakeswap.finance/swap?chain=' + CAKE_CHAIN[chain] + '&outputCurrency=' + ca;
+  return null;
+}
+
 function arcOpenBuyModal(ca, sym, chain) {
   var url;
+  var best = S && S.D && S.D.best ? S.D.best : null;
   if (chain === 'arc') url = anewoneUrl(ca);
+  else if (chain !== 'solana' && /^0x[0-9a-fA-F]{40}$/.test(ca) && evmBuyUrl(chain, ca, best && best.dexId)) url = evmBuyUrl(chain, ca, best && best.dexId);
   /* Jupiter'in yeni arayüzü eski /swap/USDC-<mint> yolunu tanımıyor (SOL'a düşüyordu);
      ?sell=<mint>&buy=<mint> ile token "Buy" alanında hazır gelir. Satış tarafı SOL:
      Solana'da memecoin alanların elinde SOL olur. 11 Eki 2026'da EVERYTHING ile doğrulandı. */
