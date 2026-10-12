@@ -1,9 +1,83 @@
 {
- "updatedAt": 1791813732573,
+ "updatedAt": 1791816588736,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 44,
+ "scanned": 45,
  "items": [
+  {
+   "ca": "9Twd5vXAPYSWwuPTVPgDmdxvVHsUQwijC4a1QvYZpump",
+   "chain": "solana",
+   "sym": "GOIF",
+   "name": "GOIF",
+   "img": "https://cdn.dexscreener.com/cms/images/eOv9Rsjyb--dUjzI?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    null
+   ],
+   "liq": 285518,
+   "vol": 260834,
+   "mcap": 10635142,
+   "holders": 3153,
+   "createdAt": 1791572937000,
+   "handle": null,
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/3of2ebbd7wewjuea5dujyk7p7n3cna4c9ameu28vkkdx",
+   "scannedAt": 1791816572042
+  },
+  {
+   "ca": "9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump",
+   "chain": "solana",
+   "sym": "GOMO",
+   "name": "Gomo App",
+   "img": "https://cdn.dexscreener.com/cms/images/oKyBDuIHI7W2lUnK?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 198610,
+   "vol": 543130,
+   "mcap": 1205314,
+   "holders": 4650,
+   "createdAt": 1791150590000,
+   "handle": "gomo_family",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/5a7qurjlart146jajjype5nh6vlyfpn2qrhuslqbsczy",
+   "scannedAt": 1791816567741
+  },
   {
    "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
    "chain": "solana",
@@ -26,9 +100,9 @@
     1,
     null
    ],
-   "liq": 165908,
-   "vol": 277337,
-   "mcap": 2080393,
+   "liq": 163121,
+   "vol": 279390,
+   "mcap": 2044362,
    "holders": 13961,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -39,7 +113,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1791813657050
+   "scannedAt": 1791816497400
   },
   {
    "ca": "0x5d72717Ab33F38504935960A1D8603276a76511c",
@@ -63,10 +137,10 @@
     0,
     null
    ],
-   "liq": 30026,
-   "vol": 2275,
-   "mcap": 100513,
-   "holders": 1182,
+   "liq": 30010,
+   "vol": 2224,
+   "mcap": 100529,
+   "holders": 1186,
    "createdAt": 1780665839000,
    "handle": "hbadger_token",
    "launchpad": null,
@@ -75,7 +149,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0xc43748bc1985bc5cef0aa1e3107b684b547a554e",
-   "scannedAt": 1791813660777
+   "scannedAt": 1791816498954
   }
  ]
 }
