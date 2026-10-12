@@ -1,5 +1,5 @@
 {
- "updatedAt": 1791841232553,
+ "updatedAt": 1791843155115,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -10,11 +10,11 @@
    "sym": "MISTAKE",
    "name": "Make No Mistakes",
    "img": "https://cdn.dexscreener.com/cms/images/S3VS6ZPJzJ-72iRm?width=800&height=800&quality=95&format=auto",
-   "score": 10,
+   "score": 9,
    "unknown": 1,
    "answers": [
     1,
-    1,
+    0,
     1,
     1,
     1,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 163097,
-   "vol": 282862,
-   "mcap": 2051437,
+   "liq": 158877,
+   "vol": 287754,
+   "mcap": 1958411,
    "holders": 13961,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1791841148195
+   "scannedAt": 1791843073597
   },
   {
    "ca": "HbPDWSqu8hpVMX6gMjwMDGe5rVgicWo3Qh3Jaojypump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 82355,
-   "vol": 982599,
-   "mcap": 464403,
+   "liq": 84199,
+   "vol": 1006299,
+   "mcap": 487376,
    "holders": 5761,
    "createdAt": 1791152156000,
    "handle": "Frankdeg0dsAI",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/745atasswxvry5qt1xvv9exug884hdvnjfva2o82dnbi",
-   "scannedAt": 1791841222586
+   "scannedAt": 1791843075203
   }
  ]
 }
