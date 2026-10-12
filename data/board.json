@@ -1,5 +1,5 @@
 {
- "updatedAt": 1791790729564,
+ "updatedAt": 1791793879064,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,10 +26,10 @@
     0,
     null
    ],
-   "liq": 315173,
-   "vol": 78766,
-   "mcap": 6456434,
-   "holders": 6780,
+   "liq": 312151,
+   "vol": 77631,
+   "mcap": 6329753,
+   "holders": 6778,
    "createdAt": 1791356563000,
    "handle": "everythingrwas",
    "launchpad": "Pump.Fun",
@@ -39,7 +39,81 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/fcfej9ujfnfcsiazgduesecmj2np6myxdm5h2jpfzbdc",
-   "scannedAt": 1791790630479
+   "scannedAt": 1791793785761
+  },
+  {
+   "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
+   "chain": "solana",
+   "sym": "MISTAKE",
+   "name": "Make No Mistakes",
+   "img": "https://cdn.dexscreener.com/cms/images/S3VS6ZPJzJ-72iRm?width=800&height=800&quality=95&format=auto",
+   "score": 10,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    null
+   ],
+   "liq": 163894,
+   "vol": 227149,
+   "mcap": 2013240,
+   "holders": 13459,
+   "createdAt": 1789093171000,
+   "handle": "nomistakesfun",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
+   "scannedAt": 1791793790309
+  },
+  {
+   "ca": "9Twd5vXAPYSWwuPTVPgDmdxvVHsUQwijC4a1QvYZpump",
+   "chain": "solana",
+   "sym": "GOIF",
+   "name": "GOIF",
+   "img": "https://cdn.dexscreener.com/cms/images/eOv9Rsjyb--dUjzI?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    null
+   ],
+   "liq": 281476,
+   "vol": 186885,
+   "mcap": 10073932,
+   "holders": 3118,
+   "createdAt": 1791572937000,
+   "handle": null,
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/3of2ebbd7wewjuea5dujyk7p7n3cna4c9ameu28vkkdx",
+   "scannedAt": 1791793804327
   },
   {
    "ca": "9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump",
@@ -63,9 +137,9 @@
     1,
     null
    ],
-   "liq": 192421,
-   "vol": 531503,
-   "mcap": 1123158,
+   "liq": 191149,
+   "vol": 538131,
+   "mcap": 1171193,
    "holders": 4650,
    "createdAt": 1791150590000,
    "handle": "gomo_family",
@@ -76,44 +150,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5a7qurjlart146jajjype5nh6vlyfpn2qrhuslqbsczy",
-   "scannedAt": 1791790632123
-  },
-  {
-   "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
-   "chain": "solana",
-   "sym": "MISTAKE",
-   "name": "Make No Mistakes",
-   "img": "https://cdn.dexscreener.com/cms/images/S3VS6ZPJzJ-72iRm?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    null
-   ],
-   "liq": 158997,
-   "vol": 228433,
-   "mcap": 1881076,
-   "holders": 13459,
-   "createdAt": 1789093171000,
-   "handle": "nomistakesfun",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1791790628578
+   "scannedAt": 1791793788089
   },
   {
    "ca": "6KDpQM4BVDdtAkjtyFDiBCkbii8q8BieEyXXm6kNpump",
@@ -137,10 +174,10 @@
     1,
     null
    ],
-   "liq": 110455,
-   "vol": 1283579,
-   "mcap": 695074,
-   "holders": 12208,
+   "liq": 108102,
+   "vol": 1283009,
+   "mcap": 697782,
+   "holders": 12225,
    "createdAt": 1791612436000,
    "handle": "TeleMoneySOL",
    "launchpad": "Pump.Fun",
@@ -150,7 +187,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/arcvd2givsmz7or2ozpe3kzvbadsvreav5ddnvj8sjhk",
-   "scannedAt": 1791790635858
+   "scannedAt": 1791793792414
   },
   {
    "ca": "8k4sBtEeK4pf26noKqApv8NBTnuSJcbdwpKYknk5PbAA",
@@ -174,9 +211,9 @@
     1,
     null
    ],
-   "liq": 105556,
-   "vol": 272990,
-   "mcap": 534436,
+   "liq": 107358,
+   "vol": 265661,
+   "mcap": 558023,
    "holders": 6640,
    "createdAt": 1789647179000,
    "handle": "calithefanpage",
@@ -187,7 +224,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/2i2iulr7uwk1sdrb17t5futimnfql7fyy7rh69brzihc",
-   "scannedAt": 1791790634369
+   "scannedAt": 1791793794634
   },
   {
    "ca": "0x5d72717Ab33F38504935960A1D8603276a76511c",
@@ -211,10 +248,10 @@
     0,
     null
    ],
-   "liq": 30656,
-   "vol": 3888,
-   "mcap": 103973,
-   "holders": 1164,
+   "liq": 30580,
+   "vol": 3550,
+   "mcap": 103757,
+   "holders": 1171,
    "createdAt": 1780665839000,
    "handle": "hbadger_token",
    "launchpad": null,
@@ -223,7 +260,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0xc43748bc1985bc5cef0aa1e3107b684b547a554e",
-   "scannedAt": 1791790637492
+   "scannedAt": 1791793797012
   }
  ]
 }
