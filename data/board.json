@@ -1,5 +1,5 @@
 {
- "updatedAt": 1791779625721,
+ "updatedAt": 1791782429544,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     0,
     null
    ],
-   "liq": 315519,
-   "vol": 84562,
-   "mcap": 6517863,
+   "liq": 317247,
+   "vol": 84199,
+   "mcap": 6519049,
    "holders": 6783,
    "createdAt": 1791356563000,
    "handle": "everythingrwas",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/fcfej9ujfnfcsiazgduesecmj2np6myxdm5h2jpfzbdc",
-   "scannedAt": 1791779533696
+   "scannedAt": 1791782341887
   },
   {
    "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 151395,
-   "vol": 223508,
-   "mcap": 1722990,
+   "liq": 149782,
+   "vol": 222136,
+   "mcap": 1667247,
    "holders": 13459,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1791779535934
+   "scannedAt": 1791782343578
   },
   {
    "ca": "8k4sBtEeK4pf26noKqApv8NBTnuSJcbdwpKYknk5PbAA",
@@ -100,10 +100,10 @@
     1,
     null
    ],
-   "liq": 107287,
-   "vol": 289026,
-   "mcap": 556640,
-   "holders": 6694,
+   "liq": 107201,
+   "vol": 284858,
+   "mcap": 548473,
+   "holders": 6640,
    "createdAt": 1789647179000,
    "handle": "calithefanpage",
    "launchpad": "Pump.Fun",
@@ -113,7 +113,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/2i2iulr7uwk1sdrb17t5futimnfql7fyy7rh69brzihc",
-   "scannedAt": 1791779538389
+   "scannedAt": 1791782345055
   },
   {
    "ca": "6KDpQM4BVDdtAkjtyFDiBCkbii8q8BieEyXXm6kNpump",
@@ -137,10 +137,10 @@
     1,
     null
    ],
-   "liq": 92176,
-   "vol": 1249771,
-   "mcap": 528672,
-   "holders": 12115,
+   "liq": 97549,
+   "vol": 1253278,
+   "mcap": 587026,
+   "holders": 12123,
    "createdAt": 1791612436000,
    "handle": "TeleMoneySOL",
    "launchpad": "Pump.Fun",
@@ -150,7 +150,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/arcvd2givsmz7or2ozpe3kzvbadsvreav5ddnvj8sjhk",
-   "scannedAt": 1791779540072
+   "scannedAt": 1791782347085
   },
   {
    "ca": "0x5d72717Ab33F38504935960A1D8603276a76511c",
@@ -174,9 +174,9 @@
     0,
     null
    ],
-   "liq": 31164,
-   "vol": 3174,
-   "mcap": 108006,
+   "liq": 31287,
+   "vol": 3175,
+   "mcap": 108412,
    "holders": 1157,
    "createdAt": 1780665839000,
    "handle": "hbadger_token",
@@ -186,7 +186,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0xc43748bc1985bc5cef0aa1e3107b684b547a554e",
-   "scannedAt": 1791779541670
+   "scannedAt": 1791782348789
   }
  ]
 }
