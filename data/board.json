@@ -1,15 +1,15 @@
 {
- "updatedAt": 1791786700513,
+ "updatedAt": 1791790729564,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
  "items": [
   {
-   "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
+   "ca": "E6vtwCUtcNJdQEPGY8vWKahtu2sfwxQ4j68pUKm7pump",
    "chain": "solana",
-   "sym": "MISTAKE",
-   "name": "Make No Mistakes",
-   "img": "https://cdn.dexscreener.com/cms/images/S3VS6ZPJzJ-72iRm?width=800&height=800&quality=95&format=auto",
+   "sym": "EVERYTHING",
+   "name": "Tokenize Everything",
+   "img": "https://cdn.dexscreener.com/cms/images/iFkjRXSF69ihN7_h?width=800&height=800&quality=95&format=auto",
    "score": 10,
    "unknown": 1,
    "answers": [
@@ -22,51 +22,14 @@
     1,
     1,
     1,
-    0,
-    1,
-    null
-   ],
-   "liq": 160911,
-   "vol": 229102,
-   "mcap": 1936720,
-   "holders": 13459,
-   "createdAt": 1789093171000,
-   "handle": "nomistakesfun",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1791786627498
-  },
-  {
-   "ca": "E6vtwCUtcNJdQEPGY8vWKahtu2sfwxQ4j68pUKm7pump",
-   "chain": "solana",
-   "sym": "EVERYTHING",
-   "name": "Tokenize Everything",
-   "img": "https://cdn.dexscreener.com/cms/images/iFkjRXSF69ihN7_h?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
     1,
     0,
     null
    ],
-   "liq": 317247,
-   "vol": 82738,
-   "mcap": 6519049,
-   "holders": 6779,
+   "liq": 315173,
+   "vol": 78766,
+   "mcap": 6456434,
+   "holders": 6780,
    "createdAt": 1791356563000,
    "handle": "everythingrwas",
    "launchpad": "Pump.Fun",
@@ -76,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/fcfej9ujfnfcsiazgduesecmj2np6myxdm5h2jpfzbdc",
-   "scannedAt": 1791786626059
+   "scannedAt": 1791790630479
   },
   {
    "ca": "9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump",
@@ -100,9 +63,9 @@
     1,
     null
    ],
-   "liq": 199496,
-   "vol": 534690,
-   "mcap": 1189259,
+   "liq": 192421,
+   "vol": 531503,
+   "mcap": 1123158,
    "holders": 4650,
    "createdAt": 1791150590000,
    "handle": "gomo_family",
@@ -113,23 +76,23 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5a7qurjlart146jajjype5nh6vlyfpn2qrhuslqbsczy",
-   "scannedAt": 1791786685667
+   "scannedAt": 1791790632123
   },
   {
-   "ca": "8k4sBtEeK4pf26noKqApv8NBTnuSJcbdwpKYknk5PbAA",
+   "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
    "chain": "solana",
-   "sym": "CALI",
-   "name": "CALI",
-   "img": "https://cdn.dexscreener.com/cms/images/9984UKTUgexWyCGb?width=800&height=800&quality=95&format=auto",
+   "sym": "MISTAKE",
+   "name": "Make No Mistakes",
+   "img": "https://cdn.dexscreener.com/cms/images/S3VS6ZPJzJ-72iRm?width=800&height=800&quality=95&format=auto",
    "score": 9,
    "unknown": 1,
    "answers": [
     1,
-    1,
-    1,
-    1,
-    1,
     0,
+    1,
+    1,
+    1,
+    1,
     1,
     1,
     1,
@@ -137,20 +100,20 @@
     1,
     null
    ],
-   "liq": 108689,
-   "vol": 281065,
-   "mcap": 569331,
-   "holders": 6640,
-   "createdAt": 1789647179000,
-   "handle": "calithefanpage",
+   "liq": 158997,
+   "vol": 228433,
+   "mcap": 1881076,
+   "holders": 13459,
+   "createdAt": 1789093171000,
+   "handle": "nomistakesfun",
    "launchpad": "Pump.Fun",
    "flags": 0,
    "sources": [
     "GoPlus",
     "RugCheck"
    ],
-   "url": "https://dexscreener.com/solana/2i2iulr7uwk1sdrb17t5futimnfql7fyy7rh69brzihc",
-   "scannedAt": 1791786629015
+   "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
+   "scannedAt": 1791790628578
   },
   {
    "ca": "6KDpQM4BVDdtAkjtyFDiBCkbii8q8BieEyXXm6kNpump",
@@ -174,10 +137,10 @@
     1,
     null
    ],
-   "liq": 100316,
-   "vol": 1241244,
-   "mcap": 613282,
-   "holders": 12115,
+   "liq": 110455,
+   "vol": 1283579,
+   "mcap": 695074,
+   "holders": 12208,
    "createdAt": 1791612436000,
    "handle": "TeleMoneySOL",
    "launchpad": "Pump.Fun",
@@ -187,7 +150,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/arcvd2givsmz7or2ozpe3kzvbadsvreav5ddnvj8sjhk",
-   "scannedAt": 1791786630434
+   "scannedAt": 1791790635858
+  },
+  {
+   "ca": "8k4sBtEeK4pf26noKqApv8NBTnuSJcbdwpKYknk5PbAA",
+   "chain": "solana",
+   "sym": "CALI",
+   "name": "CALI",
+   "img": "https://cdn.dexscreener.com/cms/images/9984UKTUgexWyCGb?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    null
+   ],
+   "liq": 105556,
+   "vol": 272990,
+   "mcap": 534436,
+   "holders": 6640,
+   "createdAt": 1789647179000,
+   "handle": "calithefanpage",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/2i2iulr7uwk1sdrb17t5futimnfql7fyy7rh69brzihc",
+   "scannedAt": 1791790634369
   },
   {
    "ca": "0x5d72717Ab33F38504935960A1D8603276a76511c",
@@ -211,9 +211,9 @@
     0,
     null
    ],
-   "liq": 30620,
-   "vol": 3779,
-   "mcap": 104137,
+   "liq": 30656,
+   "vol": 3888,
+   "mcap": 103973,
    "holders": 1164,
    "createdAt": 1780665839000,
    "handle": "hbadger_token",
@@ -223,7 +223,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0xc43748bc1985bc5cef0aa1e3107b684b547a554e",
-   "scannedAt": 1791786631959
+   "scannedAt": 1791790637492
   }
  ]
 }
