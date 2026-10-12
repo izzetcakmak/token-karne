@@ -1,8 +1,8 @@
 {
- "updatedAt": 1791823326254,
+ "updatedAt": 1791825182436,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 43,
+ "scanned": 45,
  "items": [
   {
    "ca": "9Twd5vXAPYSWwuPTVPgDmdxvVHsUQwijC4a1QvYZpump",
@@ -26,10 +26,10 @@
     1,
     null
    ],
-   "liq": 288006,
-   "vol": 290404,
-   "mcap": 10800698,
-   "holders": 3155,
+   "liq": 285532,
+   "vol": 293454,
+   "mcap": 10712463,
+   "holders": 3160,
    "createdAt": 1791572937000,
    "handle": null,
    "launchpad": "Pump.Fun",
@@ -39,44 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/3of2ebbd7wewjuea5dujyk7p7n3cna4c9ameu28vkkdx",
-   "scannedAt": 1791823318301
-  },
-  {
-   "ca": "9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump",
-   "chain": "solana",
-   "sym": "GOMO",
-   "name": "Gomo App",
-   "img": "https://cdn.dexscreener.com/cms/images/oKyBDuIHI7W2lUnK?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 182102,
-   "vol": 554003,
-   "mcap": 982480,
-   "holders": 4264,
-   "createdAt": 1791150590000,
-   "handle": "gomo_family",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/5a7qurjlart146jajjype5nh6vlyfpn2qrhuslqbsczy",
-   "scannedAt": 1791823245098
+   "scannedAt": 1791825080044
   },
   {
    "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
@@ -100,9 +63,9 @@
     1,
     null
    ],
-   "liq": 160077,
-   "vol": 280175,
-   "mcap": 1966366,
+   "liq": 154811,
+   "vol": 279282,
+   "mcap": 1857015,
    "holders": 13961,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -113,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1791823247912
+   "scannedAt": 1791825084688
   }
  ]
 }
