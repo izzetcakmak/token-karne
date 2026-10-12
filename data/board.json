@@ -1,5 +1,5 @@
 {
- "updatedAt": 1791830866750,
+ "updatedAt": 1791832352910,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 162249,
-   "vol": 285888,
-   "mcap": 2039202,
+   "liq": 162686,
+   "vol": 285532,
+   "mcap": 2054391,
    "holders": 13961,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1791830786041
+   "scannedAt": 1791832188084
   },
   {
    "ca": "9Twd5vXAPYSWwuPTVPgDmdxvVHsUQwijC4a1QvYZpump",
@@ -63,10 +63,10 @@
     1,
     null
    ],
-   "liq": 289397,
-   "vol": 302943,
-   "mcap": 11014071,
-   "holders": 3164,
+   "liq": 288720,
+   "vol": 305442,
+   "mcap": 10986343,
+   "holders": 3165,
    "createdAt": 1791572937000,
    "handle": null,
    "launchpad": "Pump.Fun",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/3of2ebbd7wewjuea5dujyk7p7n3cna4c9ameu28vkkdx",
-   "scannedAt": 1791830784383
+   "scannedAt": 1791832190136
   }
  ]
 }
