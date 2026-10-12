@@ -1,9 +1,46 @@
 {
- "updatedAt": 1791821659967,
+ "updatedAt": 1791823326254,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 44,
+ "scanned": 43,
  "items": [
+  {
+   "ca": "9Twd5vXAPYSWwuPTVPgDmdxvVHsUQwijC4a1QvYZpump",
+   "chain": "solana",
+   "sym": "GOIF",
+   "name": "GOIF",
+   "img": "https://cdn.dexscreener.com/cms/images/eOv9Rsjyb--dUjzI?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    null
+   ],
+   "liq": 288006,
+   "vol": 290404,
+   "mcap": 10800698,
+   "holders": 3155,
+   "createdAt": 1791572937000,
+   "handle": null,
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/3of2ebbd7wewjuea5dujyk7p7n3cna4c9ameu28vkkdx",
+   "scannedAt": 1791823318301
+  },
   {
    "ca": "9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump",
    "chain": "solana",
@@ -26,10 +63,10 @@
     1,
     null
    ],
-   "liq": 186019,
-   "vol": 544148,
-   "mcap": 1027128,
-   "holders": 4650,
+   "liq": 182102,
+   "vol": 554003,
+   "mcap": 982480,
+   "holders": 4264,
    "createdAt": 1791150590000,
    "handle": "gomo_family",
    "launchpad": "Pump.Fun",
@@ -39,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5a7qurjlart146jajjype5nh6vlyfpn2qrhuslqbsczy",
-   "scannedAt": 1791821562627
+   "scannedAt": 1791823245098
   },
   {
    "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
@@ -63,9 +100,9 @@
     1,
     null
    ],
-   "liq": 166354,
-   "vol": 282449,
-   "mcap": 2115133,
+   "liq": 160077,
+   "vol": 280175,
+   "mcap": 1966366,
    "holders": 13961,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -76,7 +113,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1791821559661
+   "scannedAt": 1791823247912
   }
  ]
 }
