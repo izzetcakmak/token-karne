@@ -1,5 +1,5 @@
 {
- "updatedAt": 1791775585931,
+ "updatedAt": 1791777552913,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -10,11 +10,11 @@
    "sym": "EVERYTHING",
    "name": "Tokenize Everything",
    "img": "https://cdn.dexscreener.com/cms/images/iFkjRXSF69ihN7_h?width=800&height=800&quality=95&format=auto",
-   "score": 9,
+   "score": 10,
    "unknown": 1,
    "answers": [
     1,
-    0,
+    1,
     1,
     1,
     1,
@@ -26,10 +26,10 @@
     0,
     null
    ],
-   "liq": 309445,
-   "vol": 90006,
-   "mcap": 6227090,
-   "holders": 6787,
+   "liq": 315519,
+   "vol": 90854,
+   "mcap": 6517863,
+   "holders": 6786,
    "createdAt": 1791356563000,
    "handle": "everythingrwas",
    "launchpad": "Pump.Fun",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/fcfej9ujfnfcsiazgduesecmj2np6myxdm5h2jpfzbdc",
-   "scannedAt": 1791775488133
+   "scannedAt": 1791777480952
   },
   {
    "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 152652,
-   "vol": 223843,
-   "mcap": 1751609,
+   "liq": 151982,
+   "vol": 219797,
+   "mcap": 1740052,
    "holders": 13459,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1791775491981
+   "scannedAt": 1791777483697
   },
   {
    "ca": "8k4sBtEeK4pf26noKqApv8NBTnuSJcbdwpKYknk5PbAA",
@@ -100,9 +100,9 @@
     1,
     null
    ],
-   "liq": 105675,
-   "vol": 295067,
-   "mcap": 537411,
+   "liq": 106554,
+   "vol": 291105,
+   "mcap": 546802,
    "holders": 6694,
    "createdAt": 1789647179000,
    "handle": "calithefanpage",
@@ -113,7 +113,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/2i2iulr7uwk1sdrb17t5futimnfql7fyy7rh69brzihc",
-   "scannedAt": 1791775494051
+   "scannedAt": 1791777485215
   },
   {
    "ca": "6KDpQM4BVDdtAkjtyFDiBCkbii8q8BieEyXXm6kNpump",
@@ -137,10 +137,10 @@
     1,
     null
    ],
-   "liq": 92239,
-   "vol": 1249472,
-   "mcap": 522651,
-   "holders": 12101,
+   "liq": 90819,
+   "vol": 1250938,
+   "mcap": 516989,
+   "holders": 12120,
    "createdAt": 1791612436000,
    "handle": "TeleMoneySOL",
    "launchpad": "Pump.Fun",
@@ -150,7 +150,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/arcvd2givsmz7or2ozpe3kzvbadsvreav5ddnvj8sjhk",
-   "scannedAt": 1791775496189
+   "scannedAt": 1791777486703
   },
   {
    "ca": "0x5d72717Ab33F38504935960A1D8603276a76511c",
@@ -174,10 +174,10 @@
     0,
     null
    ],
-   "liq": 31132,
-   "vol": 3125,
-   "mcap": 107446,
-   "holders": 1153,
+   "liq": 31147,
+   "vol": 3153,
+   "mcap": 107806,
+   "holders": 1157,
    "createdAt": 1780665839000,
    "handle": "hbadger_token",
    "launchpad": null,
@@ -186,7 +186,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0xc43748bc1985bc5cef0aa1e3107b684b547a554e",
-   "scannedAt": 1791775497886
+   "scannedAt": 1791777488299
   }
  ]
 }
