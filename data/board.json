@@ -1,8 +1,8 @@
 {
- "updatedAt": 1791902780117,
+ "updatedAt": 1791904480413,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 44,
+ "scanned": 45,
  "items": [
   {
    "ca": "7jNwX4Me9zGEjmWY7zARDG2LYjVs1WXD6DZ1JvSfpump",
@@ -26,10 +26,10 @@
     1,
     null
    ],
-   "liq": 184788,
-   "vol": 3414423,
-   "mcap": 3862132,
-   "holders": 5407,
+   "liq": 187798,
+   "vol": 3377075,
+   "mcap": 3995432,
+   "holders": 6062,
    "createdAt": 1791802454000,
    "handle": "humph_sol",
    "launchpad": "Pump.Fun",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/9pqrnahbkjd61kys2k4fenlcpvai5hu5jbmbesunhljz",
-   "scannedAt": 1791902689123
+   "scannedAt": 1791904354146
   },
   {
    "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 175696,
-   "vol": 245816,
-   "mcap": 2371177,
+   "liq": 170762,
+   "vol": 248000,
+   "mcap": 2242058,
    "holders": 13769,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1791902691453
+   "scannedAt": 1791904362291
   },
   {
    "ca": "0xB3A0F70c913Aa04404BD177BE9E20B47613830B6",
@@ -100,9 +100,9 @@
     1,
     null
    ],
-   "liq": 118476,
-   "vol": 130868,
-   "mcap": 434887,
+   "liq": 117156,
+   "vol": 131502,
+   "mcap": 426098,
    "holders": 2530,
    "createdAt": 1737393407000,
    "handle": "AmericaIsBackOG",
@@ -112,7 +112,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/ethereum/0x62eae8645b51146d262dca962e3ec00e84946475",
-   "scannedAt": 1791902687397
+   "scannedAt": 1791904364733
   },
   {
    "ca": "5GefefPX1mDs6ZJB1apYmz6fCTCiNJpHturZ9bvFpump",
@@ -136,7 +136,7 @@
     1,
     null
    ],
-   "liq": 88680,
+   "liq": 88684,
    "vol": 111350,
    "mcap": 876343,
    "holders": 4116,
@@ -149,7 +149,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/8nvfb1unnk9adtl5hoof8hahf2rt4glpwx9cteadikhg",
-   "scannedAt": 1791902693512
+   "scannedAt": 1791904370725
   },
   {
    "ca": "DzMwArmdzPqcqgvyqAmTxy79XdA9NwK9mMteqWLJpump",
@@ -173,10 +173,10 @@
     1,
     null
    ],
-   "liq": 83367,
-   "vol": 777326,
-   "mcap": 943445,
-   "holders": 12259,
+   "liq": 86210,
+   "vol": 759246,
+   "mcap": 886092,
+   "holders": 12267,
    "createdAt": 1791711448000,
    "handle": "pumpnormiesol",
    "launchpad": "Pump.Fun",
@@ -186,7 +186,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/ep9eirgamjgkh7em8vwtekqjftrrt1onbouar3pcsilw",
-   "scannedAt": 1791902699517
+   "scannedAt": 1791904373129
   }
  ]
 }
