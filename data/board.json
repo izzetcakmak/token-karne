@@ -1,8 +1,8 @@
 {
- "updatedAt": 1791896173181,
+ "updatedAt": 1791897693374,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 44,
+ "scanned": 45,
  "items": [
   {
    "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 165106,
-   "vol": 252020,
-   "mcap": 2121963,
+   "liq": 159097,
+   "vol": 249842,
+   "mcap": 1976709,
    "holders": 13769,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1791896090476
+   "scannedAt": 1791897617556
   },
   {
    "ca": "5GefefPX1mDs6ZJB1apYmz6fCTCiNJpHturZ9bvFpump",
@@ -63,8 +63,8 @@
     1,
     null
    ],
-   "liq": 87396,
-   "vol": 111781,
+   "liq": 87391,
+   "vol": 111712,
    "mcap": 858617,
    "holders": 4116,
    "createdAt": 1788551378000,
@@ -76,43 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/8nvfb1unnk9adtl5hoof8hahf2rt4glpwx9cteadikhg",
-   "scannedAt": 1791896092664
-  },
-  {
-   "ca": "0x2c2d4298548AE585c224714555F18ABDe7367777",
-   "chain": "bsc",
-   "sym": "币安人",
-   "name": "Binance Man",
-   "img": "https://cdn.dexscreener.com/cms/images/MMSanfXSU_KfjsFa?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 30977,
-   "vol": 97054,
-   "mcap": 95606,
-   "holders": 1305,
-   "createdAt": 1791631301000,
-   "handle": "Binance_Man_ZH",
-   "launchpad": null,
-   "flags": 0,
-   "sources": [
-    "GoPlus"
-   ],
-   "url": "https://dexscreener.com/bsc/0x1126369c90da5651350e8ebffca868b8c5df1854",
-   "scannedAt": 1791896094239
+   "scannedAt": 1791897618978
   }
  ]
 }
