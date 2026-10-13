@@ -1,5 +1,5 @@
 {
- "updatedAt": 1791855430935,
+ "updatedAt": 1791858583786,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -10,11 +10,11 @@
    "sym": "MISTAKE",
    "name": "Make No Mistakes",
    "img": "https://cdn.dexscreener.com/cms/images/S3VS6ZPJzJ-72iRm?width=800&height=800&quality=95&format=auto",
-   "score": 9,
+   "score": 10,
    "unknown": 1,
    "answers": [
     1,
-    0,
+    1,
     1,
     1,
     1,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 147963,
-   "vol": 283798,
-   "mcap": 1745002,
+   "liq": 162318,
+   "vol": 288355,
+   "mcap": 2057529,
    "holders": 13855,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -39,7 +39,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1791855339983
+   "scannedAt": 1791858502225
+  },
+  {
+   "ca": "A8JUiZLzjGAsKxE74evdspHcuW4hvhPbvryDhaDZpump",
+   "chain": "solana",
+   "sym": "FIGHT",
+   "name": "Token Battles",
+   "img": "https://cdn.dexscreener.com/cms/images/5QB592Gz6-1hIuma?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 43522,
+   "vol": 1340734,
+   "mcap": 206408,
+   "holders": 6283,
+   "createdAt": 1791769888000,
+   "handle": "tokenbattlesfun",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/bow9h5gbqdnr55fke3vhdzngplanzmyky1eiqmx1drlz",
+   "scannedAt": 1791858569147
   }
  ]
 }
