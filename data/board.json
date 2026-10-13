@@ -1,5 +1,5 @@
 {
- "updatedAt": 1791866977636,
+ "updatedAt": 1791868525344,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 167771,
-   "vol": 285874,
-   "mcap": 2168660,
+   "liq": 164919,
+   "vol": 285053,
+   "mcap": 2091984,
    "holders": 13855,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1791866897202
+   "scannedAt": 1791868446056
   },
   {
    "ca": "5GefefPX1mDs6ZJB1apYmz6fCTCiNJpHturZ9bvFpump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 92728,
-   "vol": 62859,
-   "mcap": 948994,
+   "liq": 93695,
+   "vol": 74102,
+   "mcap": 965079,
    "holders": 4116,
    "createdAt": 1788551378000,
    "handle": "Pumpoweenonpump",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/8nvfb1unnk9adtl5hoof8hahf2rt4glpwx9cteadikhg",
-   "scannedAt": 1791866898665
+   "scannedAt": 1791868448237
   },
   {
    "ca": "A8JUiZLzjGAsKxE74evdspHcuW4hvhPbvryDhaDZpump",
@@ -100,10 +100,10 @@
     1,
     null
    ],
-   "liq": 47779,
-   "vol": 1309219,
-   "mcap": 240251,
-   "holders": 6591,
+   "liq": 48368,
+   "vol": 1313433,
+   "mcap": 244935,
+   "holders": 6597,
    "createdAt": 1791769888000,
    "handle": "tokenbattlesfun",
    "launchpad": "Pump.Fun",
@@ -113,44 +113,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/bow9h5gbqdnr55fke3vhdzngplanzmyky1eiqmx1drlz",
-   "scannedAt": 1791866900657
-  },
-  {
-   "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
-   "chain": "solana",
-   "sym": "CBUCKS",
-   "name": "Cartoon Money",
-   "img": "https://cdn.dexscreener.com/cms/images/2bajn2a05AdQGV-4?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 42256,
-   "vol": 22606,
-   "mcap": 175976,
-   "holders": 437,
-   "createdAt": 1791311393000,
-   "handle": "cartoonmoney_ai",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1791866902310
+   "scannedAt": 1791868449743
   }
  ]
 }
