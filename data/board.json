@@ -1,5 +1,5 @@
 {
- "updatedAt": 1791906209466,
+ "updatedAt": 1791908096582,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,10 +26,10 @@
     1,
     null
    ],
-   "liq": 179478,
-   "vol": 2561345,
-   "mcap": 3855836,
-   "holders": 9285,
+   "liq": 174052,
+   "vol": 2464763,
+   "mcap": 3604604,
+   "holders": 9348,
    "createdAt": 1791819083000,
    "handle": "thebatonacoin",
    "launchpad": "Pump.Fun",
@@ -39,44 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/aw3bwgkkpadonhzydhmpa2xdxeaztggdxsn3yurmxsyj",
-   "scannedAt": 1791906114223
-  },
-  {
-   "ca": "7jNwX4Me9zGEjmWY7zARDG2LYjVs1WXD6DZ1JvSfpump",
-   "chain": "solana",
-   "sym": "HUMPH",
-   "name": "Humphrey Reserve",
-   "img": "https://cdn.dexscreener.com/cms/images/jlWvCQHqbl08sNkQ?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    0,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 185155,
-   "vol": 3342190,
-   "mcap": 3892430,
-   "holders": 6150,
-   "createdAt": 1791802454000,
-   "handle": "humph_sol",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/9pqrnahbkjd61kys2k4fenlcpvai5hu5jbmbesunhljz",
-   "scannedAt": 1791906097961
+   "scannedAt": 1791908011882
   },
   {
    "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
@@ -100,9 +63,9 @@
     1,
     null
    ],
-   "liq": 172029,
-   "vol": 247512,
-   "mcap": 2288564,
+   "liq": 173652,
+   "vol": 239541,
+   "mcap": 2318271,
    "holders": 13769,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -113,7 +76,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1791906101181
+   "scannedAt": 1791908016329
+  },
+  {
+   "ca": "7jNwX4Me9zGEjmWY7zARDG2LYjVs1WXD6DZ1JvSfpump",
+   "chain": "solana",
+   "sym": "HUMPH",
+   "name": "Humphrey Reserve",
+   "img": "https://cdn.dexscreener.com/cms/images/jlWvCQHqbl08sNkQ?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 172220,
+   "vol": 3318513,
+   "mcap": 3344056,
+   "holders": 6177,
+   "createdAt": 1791802454000,
+   "handle": "humph_sol",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/9pqrnahbkjd61kys2k4fenlcpvai5hu5jbmbesunhljz",
+   "scannedAt": 1791908013555
   },
   {
    "ca": "0xB3A0F70c913Aa04404BD177BE9E20B47613830B6",
@@ -137,10 +137,10 @@
     1,
     null
    ],
-   "liq": 116834,
-   "vol": 130091,
-   "mcap": 424664,
-   "holders": 2530,
+   "liq": 117668,
+   "vol": 132164,
+   "mcap": 429278,
+   "holders": 2529,
    "createdAt": 1737393407000,
    "handle": "AmericaIsBackOG",
    "launchpad": null,
@@ -149,7 +149,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/ethereum/0x62eae8645b51146d262dca962e3ec00e84946475",
-   "scannedAt": 1791906102902
+   "scannedAt": 1791908018150
   },
   {
    "ca": "5GefefPX1mDs6ZJB1apYmz6fCTCiNJpHturZ9bvFpump",
@@ -173,10 +173,10 @@
     1,
     null
    ],
-   "liq": 88681,
-   "vol": 111239,
-   "mcap": 876343,
-   "holders": 4116,
+   "liq": 89291,
+   "vol": 111145,
+   "mcap": 887587,
+   "holders": 4164,
    "createdAt": 1788551378000,
    "handle": "Pumpoweenonpump",
    "launchpad": "Pump.Fun",
@@ -186,7 +186,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/8nvfb1unnk9adtl5hoof8hahf2rt4glpwx9cteadikhg",
-   "scannedAt": 1791906104592
+   "scannedAt": 1791908019568
   }
  ]
 }
