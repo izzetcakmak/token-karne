@@ -1,15 +1,15 @@
 {
- "updatedAt": 1791915487054,
+ "updatedAt": 1791917212192,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
  "items": [
   {
-   "ca": "4hsJNmPComjTsbrDtoLjDMmsyZ1g2T1xy1xHnEE2pump",
+   "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
    "chain": "solana",
-   "sym": "BATONA",
-   "name": "Baton Agency",
-   "img": "https://cdn.dexscreener.com/cms/images/JNgI0fQJw4OCcNtM?width=800&height=800&quality=95&format=auto",
+   "sym": "MISTAKE",
+   "name": "Make No Mistakes",
+   "img": "https://cdn.dexscreener.com/cms/images/S3VS6ZPJzJ-72iRm?width=800&height=800&quality=95&format=auto",
    "score": 10,
    "unknown": 1,
    "answers": [
@@ -20,53 +20,16 @@
     1,
     1,
     1,
-    0,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 81214,
-   "vol": 2346880,
-   "mcap": 796841,
-   "holders": 9487,
-   "createdAt": 1791819083000,
-   "handle": "thebatonacoin",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/aw3bwgkkpadonhzydhmpa2xdxeaztggdxsn3yurmxsyj",
-   "scannedAt": 1791915408186
-  },
-  {
-   "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
-   "chain": "solana",
-   "sym": "MISTAKE",
-   "name": "Make No Mistakes",
-   "img": "https://cdn.dexscreener.com/cms/images/S3VS6ZPJzJ-72iRm?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
     1,
     1,
     0,
     1,
     null
    ],
-   "liq": 173398,
-   "vol": 239614,
-   "mcap": 2314206,
-   "holders": 13769,
+   "liq": 171713,
+   "vol": 232816,
+   "mcap": 2270029,
+   "holders": 13788,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
    "launchpad": "Pump.Fun",
@@ -76,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1791915412106
+   "scannedAt": 1791917130103
   },
   {
    "ca": "7jNwX4Me9zGEjmWY7zARDG2LYjVs1WXD6DZ1JvSfpump",
@@ -100,10 +63,10 @@
     1,
     null
    ],
-   "liq": 155917,
-   "vol": 3221347,
-   "mcap": 2737123,
-   "holders": 9375,
+   "liq": 157049,
+   "vol": 3222007,
+   "mcap": 2772369,
+   "holders": 11012,
    "createdAt": 1791802454000,
    "handle": "humph_sol",
    "launchpad": "Pump.Fun",
@@ -113,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/9pqrnahbkjd61kys2k4fenlcpvai5hu5jbmbesunhljz",
-   "scannedAt": 1791915413523
+   "scannedAt": 1791917131848
   },
   {
    "ca": "0xB3A0F70c913Aa04404BD177BE9E20B47613830B6",
@@ -137,9 +100,9 @@
     1,
     null
    ],
-   "liq": 124662,
-   "vol": 139138,
-   "mcap": 484037,
+   "liq": 127573,
+   "vol": 140954,
+   "mcap": 507407,
    "holders": 2530,
    "createdAt": 1737393407000,
    "handle": "AmericaIsBackOG",
@@ -149,7 +112,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/ethereum/0x62eae8645b51146d262dca962e3ec00e84946475",
-   "scannedAt": 1791915415001
+   "scannedAt": 1791917134343
   },
   {
    "ca": "5GefefPX1mDs6ZJB1apYmz6fCTCiNJpHturZ9bvFpump",
@@ -173,9 +136,9 @@
     1,
     null
    ],
-   "liq": 89759,
-   "vol": 111062,
-   "mcap": 892440,
+   "liq": 89407,
+   "vol": 111074,
+   "mcap": 882930,
    "holders": 4164,
    "createdAt": 1788551378000,
    "handle": "Pumpoweenonpump",
@@ -186,7 +149,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/8nvfb1unnk9adtl5hoof8hahf2rt4glpwx9cteadikhg",
-   "scannedAt": 1791915416408
+   "scannedAt": 1791917136688
   },
   {
    "ca": "HCkhfdDNF2dqMxxtL51AzgWU26MBNkUkEzGAHtqkpump",
@@ -210,9 +173,9 @@
     1,
     null
    ],
-   "liq": 54854,
-   "vol": 87541,
-   "mcap": 282202,
+   "liq": 54698,
+   "vol": 89109,
+   "mcap": 280621,
    "holders": 678,
    "createdAt": 1783614413000,
    "handle": "batcatsoi",
@@ -223,7 +186,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/9pju7scvfbah7y6xd9jevaaxzggu7cqyw5pq5bxchamy",
-   "scannedAt": 1791915417805
+   "scannedAt": 1791917138150
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -247,10 +210,10 @@
     1,
     null
    ],
-   "liq": 46688,
-   "vol": 26918,
-   "mcap": 212458,
-   "holders": 582,
+   "liq": 46331,
+   "vol": 27457,
+   "mcap": 209292,
+   "holders": 607,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
    "launchpad": "Pump.Fun",
@@ -260,7 +223,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1791915422418
+   "scannedAt": 1791917140068
   }
  ]
 }
