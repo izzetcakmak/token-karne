@@ -1,9 +1,46 @@
 {
- "updatedAt": 1791904480413,
+ "updatedAt": 1791906209466,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
  "items": [
+  {
+   "ca": "4hsJNmPComjTsbrDtoLjDMmsyZ1g2T1xy1xHnEE2pump",
+   "chain": "solana",
+   "sym": "BATONA",
+   "name": "Baton Agency",
+   "img": "https://cdn.dexscreener.com/cms/images/JNgI0fQJw4OCcNtM?width=800&height=800&quality=95&format=auto",
+   "score": 10,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 179478,
+   "vol": 2561345,
+   "mcap": 3855836,
+   "holders": 9285,
+   "createdAt": 1791819083000,
+   "handle": "thebatonacoin",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/aw3bwgkkpadonhzydhmpa2xdxeaztggdxsn3yurmxsyj",
+   "scannedAt": 1791906114223
+  },
   {
    "ca": "7jNwX4Me9zGEjmWY7zARDG2LYjVs1WXD6DZ1JvSfpump",
    "chain": "solana",
@@ -26,10 +63,10 @@
     1,
     null
    ],
-   "liq": 187798,
-   "vol": 3377075,
-   "mcap": 3995432,
-   "holders": 6062,
+   "liq": 185155,
+   "vol": 3342190,
+   "mcap": 3892430,
+   "holders": 6150,
    "createdAt": 1791802454000,
    "handle": "humph_sol",
    "launchpad": "Pump.Fun",
@@ -39,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/9pqrnahbkjd61kys2k4fenlcpvai5hu5jbmbesunhljz",
-   "scannedAt": 1791904354146
+   "scannedAt": 1791906097961
   },
   {
    "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
@@ -63,9 +100,9 @@
     1,
     null
    ],
-   "liq": 170762,
-   "vol": 248000,
-   "mcap": 2242058,
+   "liq": 172029,
+   "vol": 247512,
+   "mcap": 2288564,
    "holders": 13769,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -76,7 +113,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1791904362291
+   "scannedAt": 1791906101181
   },
   {
    "ca": "0xB3A0F70c913Aa04404BD177BE9E20B47613830B6",
@@ -100,9 +137,9 @@
     1,
     null
    ],
-   "liq": 117156,
-   "vol": 131502,
-   "mcap": 426098,
+   "liq": 116834,
+   "vol": 130091,
+   "mcap": 424664,
    "holders": 2530,
    "createdAt": 1737393407000,
    "handle": "AmericaIsBackOG",
@@ -112,7 +149,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/ethereum/0x62eae8645b51146d262dca962e3ec00e84946475",
-   "scannedAt": 1791904364733
+   "scannedAt": 1791906102902
   },
   {
    "ca": "5GefefPX1mDs6ZJB1apYmz6fCTCiNJpHturZ9bvFpump",
@@ -136,8 +173,8 @@
     1,
     null
    ],
-   "liq": 88684,
-   "vol": 111350,
+   "liq": 88681,
+   "vol": 111239,
    "mcap": 876343,
    "holders": 4116,
    "createdAt": 1788551378000,
@@ -149,44 +186,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/8nvfb1unnk9adtl5hoof8hahf2rt4glpwx9cteadikhg",
-   "scannedAt": 1791904370725
-  },
-  {
-   "ca": "DzMwArmdzPqcqgvyqAmTxy79XdA9NwK9mMteqWLJpump",
-   "chain": "solana",
-   "sym": "Normie",
-   "name": "The Normie",
-   "img": "https://cdn.dexscreener.com/cms/images/X4cWN3iTAdjeqMd_?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    0,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 86210,
-   "vol": 759246,
-   "mcap": 886092,
-   "holders": 12267,
-   "createdAt": 1791711448000,
-   "handle": "pumpnormiesol",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/ep9eirgamjgkh7em8vwtekqjftrrt1onbouar3pcsilw",
-   "scannedAt": 1791904373129
+   "scannedAt": 1791906104592
   }
  ]
 }
