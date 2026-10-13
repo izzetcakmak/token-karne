@@ -1,5 +1,5 @@
 {
- "updatedAt": 1791868525344,
+ "updatedAt": 1791870314545,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -10,11 +10,11 @@
    "sym": "MISTAKE",
    "name": "Make No Mistakes",
    "img": "https://cdn.dexscreener.com/cms/images/S3VS6ZPJzJ-72iRm?width=800&height=800&quality=95&format=auto",
-   "score": 9,
+   "score": 10,
    "unknown": 1,
    "answers": [
     1,
-    0,
+    1,
     1,
     1,
     1,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 164919,
-   "vol": 285053,
-   "mcap": 2091984,
+   "liq": 164809,
+   "vol": 283398,
+   "mcap": 2087456,
    "holders": 13855,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1791868446056
+   "scannedAt": 1791870239785
   },
   {
    "ca": "5GefefPX1mDs6ZJB1apYmz6fCTCiNJpHturZ9bvFpump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 93695,
-   "vol": 74102,
-   "mcap": 965079,
+   "liq": 93989,
+   "vol": 78966,
+   "mcap": 972007,
    "holders": 4116,
    "createdAt": 1788551378000,
    "handle": "Pumpoweenonpump",
@@ -76,14 +76,14 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/8nvfb1unnk9adtl5hoof8hahf2rt4glpwx9cteadikhg",
-   "scannedAt": 1791868448237
+   "scannedAt": 1791870241319
   },
   {
-   "ca": "A8JUiZLzjGAsKxE74evdspHcuW4hvhPbvryDhaDZpump",
+   "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
    "chain": "solana",
-   "sym": "FIGHT",
-   "name": "Token Battles",
-   "img": "https://cdn.dexscreener.com/cms/images/5QB592Gz6-1hIuma?width=800&height=800&quality=95&format=auto",
+   "sym": "CBUCKS",
+   "name": "Cartoon Money",
+   "img": "https://cdn.dexscreener.com/cms/images/2bajn2a05AdQGV-4?width=800&height=800&quality=95&format=auto",
    "score": 9,
    "unknown": 1,
    "answers": [
@@ -91,29 +91,29 @@
     1,
     1,
     1,
-    1,
+    0,
     0,
     1,
-    0,
+    1,
     1,
     1,
     1,
     null
    ],
-   "liq": 48368,
-   "vol": 1313433,
-   "mcap": 244935,
-   "holders": 6597,
-   "createdAt": 1791769888000,
-   "handle": "tokenbattlesfun",
+   "liq": 41815,
+   "vol": 22718,
+   "mcap": 172500,
+   "holders": 441,
+   "createdAt": 1791311393000,
+   "handle": "cartoonmoney_ai",
    "launchpad": "Pump.Fun",
    "flags": 0,
    "sources": [
     "GoPlus",
     "RugCheck"
    ],
-   "url": "https://dexscreener.com/solana/bow9h5gbqdnr55fke3vhdzngplanzmyky1eiqmx1drlz",
-   "scannedAt": 1791868449743
+   "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
+   "scannedAt": 1791870265821
   }
  ]
 }
