@@ -1,5 +1,5 @@
 {
- "updatedAt": 1791884797517,
+ "updatedAt": 1791886500172,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 44,
@@ -10,11 +10,11 @@
    "sym": "MISTAKE",
    "name": "Make No Mistakes",
    "img": "https://cdn.dexscreener.com/cms/images/S3VS6ZPJzJ-72iRm?width=800&height=800&quality=95&format=auto",
-   "score": 10,
+   "score": 9,
    "unknown": 1,
    "answers": [
     1,
-    1,
+    0,
     1,
     1,
     1,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 160631,
-   "vol": 280428,
-   "mcap": 1996589,
+   "liq": 158572,
+   "vol": 278045,
+   "mcap": 1951468,
    "holders": 13769,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -39,7 +39,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1791884722006
+   "scannedAt": 1791886429944
+  },
+  {
+   "ca": "5GefefPX1mDs6ZJB1apYmz6fCTCiNJpHturZ9bvFpump",
+   "chain": "solana",
+   "sym": "Pumpoween",
+   "name": "Pumpoween",
+   "img": "https://cdn.dexscreener.com/cms/images/o6qYdn_9zPxDDdf4?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 89423,
+   "vol": 111846,
+   "mcap": 887783,
+   "holders": 4116,
+   "createdAt": 1788551378000,
+   "handle": "Pumpoweenonpump",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/8nvfb1unnk9adtl5hoof8hahf2rt4glpwx9cteadikhg",
+   "scannedAt": 1791886448503
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -63,10 +100,10 @@
     1,
     null
    ],
-   "liq": 46136,
-   "vol": 25560,
-   "mcap": 207750,
-   "holders": 498,
+   "liq": 43812,
+   "vol": 26079,
+   "mcap": 188340,
+   "holders": 499,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
    "launchpad": "Pump.Fun",
@@ -76,7 +113,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1791884728638
+   "scannedAt": 1791886431381
   }
  ]
 }
