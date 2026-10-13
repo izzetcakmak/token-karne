@@ -1,5 +1,5 @@
 {
- "updatedAt": 1791863559261,
+ "updatedAt": 1791865191489,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 158660,
-   "vol": 284039,
-   "mcap": 1953685,
+   "liq": 164179,
+   "vol": 283685,
+   "mcap": 2085988,
    "holders": 13855,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1791863485308
+   "scannedAt": 1791865093895
   },
   {
    "ca": "5GefefPX1mDs6ZJB1apYmz6fCTCiNJpHturZ9bvFpump",
@@ -63,10 +63,10 @@
     1,
     null
    ],
-   "liq": 91372,
-   "vol": 54744,
-   "mcap": 926877,
-   "holders": 4054,
+   "liq": 92075,
+   "vol": 57025,
+   "mcap": 939679,
+   "holders": 4116,
    "createdAt": 1788551378000,
    "handle": "Pumpoweenonpump",
    "launchpad": "Pump.Fun",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/8nvfb1unnk9adtl5hoof8hahf2rt4glpwx9cteadikhg",
-   "scannedAt": 1791863500161
+   "scannedAt": 1791865095719
   },
   {
    "ca": "A8JUiZLzjGAsKxE74evdspHcuW4hvhPbvryDhaDZpump",
@@ -100,10 +100,10 @@
     1,
     null
    ],
-   "liq": 46007,
-   "vol": 1321709,
-   "mcap": 225759,
-   "holders": 6574,
+   "liq": 46650,
+   "vol": 1308626,
+   "mcap": 230803,
+   "holders": 6584,
    "createdAt": 1791769888000,
    "handle": "tokenbattlesfun",
    "launchpad": "Pump.Fun",
@@ -113,7 +113,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/bow9h5gbqdnr55fke3vhdzngplanzmyky1eiqmx1drlz",
-   "scannedAt": 1791863486747
+   "scannedAt": 1791865097256
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -137,10 +137,10 @@
     1,
     null
    ],
-   "liq": 42327,
-   "vol": 22246,
-   "mcap": 176741,
-   "holders": 432,
+   "liq": 42256,
+   "vol": 22607,
+   "mcap": 175976,
+   "holders": 436,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
    "launchpad": "Pump.Fun",
@@ -150,7 +150,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1791863488182
+   "scannedAt": 1791865098802
   }
  ]
 }
