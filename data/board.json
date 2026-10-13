@@ -1,5 +1,5 @@
 {
- "updatedAt": 1791891718483,
+ "updatedAt": 1791894037486,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,10 +26,10 @@
     1,
     null
    ],
-   "liq": 189252,
-   "vol": 3709424,
-   "mcap": 4131347,
-   "holders": 4814,
+   "liq": 191394,
+   "vol": 3438904,
+   "mcap": 4240938,
+   "holders": 5026,
    "createdAt": 1791802454000,
    "handle": "humph_sol",
    "launchpad": "Pump.Fun",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/9pqrnahbkjd61kys2k4fenlcpvai5hu5jbmbesunhljz",
-   "scannedAt": 1791891649183
+   "scannedAt": 1791893949758
   },
   {
    "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 169116,
-   "vol": 265649,
-   "mcap": 2225371,
+   "liq": 165987,
+   "vol": 262026,
+   "mcap": 2156516,
    "holders": 13769,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1791891650745
+   "scannedAt": 1791893954991
   },
   {
    "ca": "5GefefPX1mDs6ZJB1apYmz6fCTCiNJpHturZ9bvFpump",
@@ -100,9 +100,9 @@
     1,
     null
    ],
-   "liq": 89412,
-   "vol": 111836,
-   "mcap": 887783,
+   "liq": 87662,
+   "vol": 111878,
+   "mcap": 861294,
    "holders": 4116,
    "createdAt": 1788551378000,
    "handle": "Pumpoweenonpump",
@@ -113,7 +113,43 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/8nvfb1unnk9adtl5hoof8hahf2rt4glpwx9cteadikhg",
-   "scannedAt": 1791891652158
+   "scannedAt": 1791893956457
+  },
+  {
+   "ca": "0x2c2d4298548AE585c224714555F18ABDe7367777",
+   "chain": "bsc",
+   "sym": "币安人",
+   "name": "Binance Man",
+   "img": "https://cdn.dexscreener.com/cms/images/MMSanfXSU_KfjsFa?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 32277,
+   "vol": 95638,
+   "mcap": 103797,
+   "holders": 1305,
+   "createdAt": 1791631301000,
+   "handle": "Binance_Man_ZH",
+   "launchpad": null,
+   "flags": 0,
+   "sources": [
+    "GoPlus"
+   ],
+   "url": "https://dexscreener.com/bsc/0x1126369c90da5651350e8ebffca868b8c5df1854",
+   "scannedAt": 1791894008398
   }
  ]
 }
