@@ -1,45 +1,9 @@
 {
- "updatedAt": 1791900959796,
+ "updatedAt": 1791902780117,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 45,
+ "scanned": 44,
  "items": [
-  {
-   "ca": "0xB3A0F70c913Aa04404BD177BE9E20B47613830B6",
-   "chain": "ethereum",
-   "sym": "AIB",
-   "name": "America is Back",
-   "img": "https://cdn.dexscreener.com/cms/images/XMtwnvFC7i0rIT-e?width=800&height=800&quality=95&format=auto",
-   "score": 10,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 121667,
-   "vol": 128263,
-   "mcap": 459802,
-   "holders": 2514,
-   "createdAt": 1737393407000,
-   "handle": "AmericaIsBackOG",
-   "launchpad": null,
-   "flags": 0,
-   "sources": [
-    "GoPlus"
-   ],
-   "url": "https://dexscreener.com/ethereum/0x62eae8645b51146d262dca962e3ec00e84946475",
-   "scannedAt": 1791900881092
-  },
   {
    "ca": "7jNwX4Me9zGEjmWY7zARDG2LYjVs1WXD6DZ1JvSfpump",
    "chain": "solana",
@@ -62,10 +26,10 @@
     1,
     null
    ],
-   "liq": 181560,
-   "vol": 3453622,
-   "mcap": 3743812,
-   "holders": 5213,
+   "liq": 184788,
+   "vol": 3414423,
+   "mcap": 3862132,
+   "holders": 5407,
    "createdAt": 1791802454000,
    "handle": "humph_sol",
    "launchpad": "Pump.Fun",
@@ -75,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/9pqrnahbkjd61kys2k4fenlcpvai5hu5jbmbesunhljz",
-   "scannedAt": 1791900877820
+   "scannedAt": 1791902689123
   },
   {
    "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
@@ -99,9 +63,9 @@
     1,
     null
    ],
-   "liq": 172832,
-   "vol": 247472,
-   "mcap": 2301075,
+   "liq": 175696,
+   "vol": 245816,
+   "mcap": 2371177,
    "holders": 13769,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -112,7 +76,43 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1791900875869
+   "scannedAt": 1791902691453
+  },
+  {
+   "ca": "0xB3A0F70c913Aa04404BD177BE9E20B47613830B6",
+   "chain": "ethereum",
+   "sym": "AIB",
+   "name": "America is Back",
+   "img": "https://cdn.dexscreener.com/cms/images/XMtwnvFC7i0rIT-e?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 118476,
+   "vol": 130868,
+   "mcap": 434887,
+   "holders": 2530,
+   "createdAt": 1737393407000,
+   "handle": "AmericaIsBackOG",
+   "launchpad": null,
+   "flags": 0,
+   "sources": [
+    "GoPlus"
+   ],
+   "url": "https://dexscreener.com/ethereum/0x62eae8645b51146d262dca962e3ec00e84946475",
+   "scannedAt": 1791902687397
   },
   {
    "ca": "5GefefPX1mDs6ZJB1apYmz6fCTCiNJpHturZ9bvFpump",
@@ -136,8 +136,8 @@
     1,
     null
    ],
-   "liq": 88652,
-   "vol": 111919,
+   "liq": 88680,
+   "vol": 111350,
    "mcap": 876343,
    "holders": 4116,
    "createdAt": 1788551378000,
@@ -149,7 +149,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/8nvfb1unnk9adtl5hoof8hahf2rt4glpwx9cteadikhg",
-   "scannedAt": 1791900879457
+   "scannedAt": 1791902693512
+  },
+  {
+   "ca": "DzMwArmdzPqcqgvyqAmTxy79XdA9NwK9mMteqWLJpump",
+   "chain": "solana",
+   "sym": "Normie",
+   "name": "The Normie",
+   "img": "https://cdn.dexscreener.com/cms/images/X4cWN3iTAdjeqMd_?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 83367,
+   "vol": 777326,
+   "mcap": 943445,
+   "holders": 12259,
+   "createdAt": 1791711448000,
+   "handle": "pumpnormiesol",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/ep9eirgamjgkh7em8vwtekqjftrrt1onbouar3pcsilw",
+   "scannedAt": 1791902699517
   }
  ]
 }
