@@ -1,5 +1,5 @@
 {
- "updatedAt": 1791945838338,
+ "updatedAt": 1791947674484,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 172817,
-   "vol": 207638,
-   "mcap": 2304910,
+   "liq": 172851,
+   "vol": 209515,
+   "mcap": 2295838,
    "holders": 13788,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1791945761783
+   "scannedAt": 1791947591661
   },
   {
    "ca": "0x7AB8d02CBb51Ff7223fDe700eAaa2a91Bf750314",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 679186,
-   "vol": 456140,
-   "mcap": 15620274,
+   "liq": 671192,
+   "vol": 460460,
+   "mcap": 15221024,
    "holders": 15606,
    "createdAt": 1787522174000,
    "handle": "tartprotocol",
@@ -75,7 +75,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x30000a407fabebe29439f8e437050512ff6661be",
-   "scannedAt": 1791945760295
+   "scannedAt": 1791947593824
   },
   {
    "ca": "0xB3A0F70c913Aa04404BD177BE9E20B47613830B6",
@@ -99,9 +99,9 @@
     1,
     null
    ],
-   "liq": 115156,
-   "vol": 68216,
-   "mcap": 413411,
+   "liq": 115453,
+   "vol": 64924,
+   "mcap": 414358,
    "holders": 2530,
    "createdAt": 1737393407000,
    "handle": "AmericaIsBackOG",
@@ -111,7 +111,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/ethereum/0x62eae8645b51146d262dca962e3ec00e84946475",
-   "scannedAt": 1791945764007
+   "scannedAt": 1791947595304
   },
   {
    "ca": "5GefefPX1mDs6ZJB1apYmz6fCTCiNJpHturZ9bvFpump",
@@ -135,9 +135,9 @@
     1,
     null
    ],
-   "liq": 93769,
-   "vol": 167981,
-   "mcap": 967301,
+   "liq": 94619,
+   "vol": 156897,
+   "mcap": 983335,
    "holders": 4277,
    "createdAt": 1788551378000,
    "handle": "Pumpoweenonpump",
@@ -148,44 +148,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/8nvfb1unnk9adtl5hoof8hahf2rt4glpwx9cteadikhg",
-   "scannedAt": 1791945765755
-  },
-  {
-   "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
-   "chain": "solana",
-   "sym": "SI276",
-   "name": "Super Intelligence SI276",
-   "img": "https://cdn.dexscreener.com/cms/images/C00PG8ebjcD8d36M?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 92865,
-   "vol": 320665,
-   "mcap": 868851,
-   "holders": 5699,
-   "createdAt": 1791314731000,
-   "handle": "si276_xyz",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
-   "scannedAt": 1791945767218
+   "scannedAt": 1791947597710
   }
  ]
 }
