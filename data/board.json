@@ -1,5 +1,5 @@
 {
- "updatedAt": 1792012304184,
+ "updatedAt": 1792013873348,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 167881,
-   "vol": 474409,
-   "mcap": 2218151,
+   "liq": 166805,
+   "vol": 479383,
+   "mcap": 2174723,
    "holders": 14079,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1792012229077
+   "scannedAt": 1792013804682
   },
   {
    "ca": "0x7AB8d02CBb51Ff7223fDe700eAaa2a91Bf750314",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 739341,
-   "vol": 446896,
-   "mcap": 14408236,
+   "liq": 734143,
+   "vol": 424823,
+   "mcap": 14136492,
    "holders": 15705,
    "createdAt": 1787522174000,
    "handle": "tartprotocol",
@@ -75,7 +75,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x30000a407fabebe29439f8e437050512ff6661be",
-   "scannedAt": 1792012230659
+   "scannedAt": 1792013806193
   },
   {
    "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
@@ -99,9 +99,9 @@
     1,
     null
    ],
-   "liq": 110528,
-   "vol": 742510,
-   "mcap": 1230235,
+   "liq": 108083,
+   "vol": 751517,
+   "mcap": 1169226,
    "holders": 2316,
    "createdAt": 1791314731000,
    "handle": "si276_xyz",
@@ -112,7 +112,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
-   "scannedAt": 1792012233612
+   "scannedAt": 1792013807631
   },
   {
    "ca": "9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump",
@@ -136,9 +136,9 @@
     1,
     null
    ],
-   "liq": 108985,
-   "vol": 265468,
-   "mcap": 564568,
+   "liq": 105227,
+   "vol": 270688,
+   "mcap": 562419,
    "holders": 4086,
    "createdAt": 1791150590000,
    "handle": "gomo_family",
@@ -149,7 +149,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5a7qurjlart146jajjype5nh6vlyfpn2qrhuslqbsczy",
-   "scannedAt": 1792012232131
+   "scannedAt": 1792013809055
   },
   {
    "ca": "5GefefPX1mDs6ZJB1apYmz6fCTCiNJpHturZ9bvFpump",
@@ -173,9 +173,9 @@
     1,
     null
    ],
-   "liq": 90172,
-   "vol": 99694,
-   "mcap": 923322,
+   "liq": 91382,
+   "vol": 96242,
+   "mcap": 941625,
    "holders": 4373,
    "createdAt": 1788551378000,
    "handle": "Pumpoweenonpump",
@@ -186,7 +186,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/8nvfb1unnk9adtl5hoof8hahf2rt4glpwx9cteadikhg",
-   "scannedAt": 1792012235383
+   "scannedAt": 1792013810475
   },
   {
    "ca": "7jNwX4Me9zGEjmWY7zARDG2LYjVs1WXD6DZ1JvSfpump",
@@ -210,9 +210,9 @@
     1,
     null
    ],
-   "liq": 52819,
-   "vol": 2677459,
-   "mcap": 292599,
+   "liq": 55151,
+   "vol": 2655992,
+   "mcap": 315500,
    "holders": 14862,
    "createdAt": 1791802454000,
    "handle": "humph_sol",
@@ -223,7 +223,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/9pqrnahbkjd61kys2k4fenlcpvai5hu5jbmbesunhljz",
-   "scannedAt": 1792012238617
+   "scannedAt": 1792013811906
   },
   {
    "ca": "6hTLdzZaaCjmqtn7RtaEMQsCbXT5Pg8q76tRViEGpump",
@@ -247,9 +247,9 @@
     1,
     null
    ],
-   "liq": 52375,
-   "vol": 101734,
-   "mcap": 250019,
+   "liq": 54197,
+   "vol": 102526,
+   "mcap": 265640,
    "holders": 1634,
    "createdAt": 1790981217000,
    "handle": "AbuShalab_",
@@ -260,7 +260,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/2qwf4dn1jnqhcpayjqnkvakezzuuig4xdnbncsk1pgcw",
-   "scannedAt": 1792012237111
+   "scannedAt": 1792013813331
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -284,9 +284,9 @@
     1,
     null
    ],
-   "liq": 46691,
-   "vol": 70283,
-   "mcap": 211032,
+   "liq": 45353,
+   "vol": 70336,
+   "mcap": 199516,
    "holders": 668,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -297,7 +297,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1792012279696
+   "scannedAt": 1792013814786
   }
  ]
 }
