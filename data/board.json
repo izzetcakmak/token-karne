@@ -1,5 +1,5 @@
 {
- "updatedAt": 1791953007558,
+ "updatedAt": 1791954774677,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 659005,
-   "vol": 466752,
-   "mcap": 14671194,
+   "liq": 656793,
+   "vol": 466696,
+   "mcap": 14626878,
    "holders": 15610,
    "createdAt": 1787522174000,
    "handle": "tartprotocol",
@@ -38,7 +38,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x30000a407fabebe29439f8e437050512ff6661be",
-   "scannedAt": 1791952924711
+   "scannedAt": 1791954687006
   },
   {
    "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
@@ -62,9 +62,9 @@
     1,
     null
    ],
-   "liq": 175788,
-   "vol": 204055,
-   "mcap": 2360932,
+   "liq": 174366,
+   "vol": 203209,
+   "mcap": 2335979,
    "holders": 13810,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -75,7 +75,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1791952926505
+   "scannedAt": 1791954688863
   },
   {
    "ca": "0xB3A0F70c913Aa04404BD177BE9E20B47613830B6",
@@ -99,9 +99,9 @@
     1,
     null
    ],
-   "liq": 115430,
-   "vol": 61106,
-   "mcap": 414832,
+   "liq": 113597,
+   "vol": 59255,
+   "mcap": 400863,
    "holders": 2533,
    "createdAt": 1737393407000,
    "handle": "AmericaIsBackOG",
@@ -111,44 +111,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/ethereum/0x62eae8645b51146d262dca962e3ec00e84946475",
-   "scannedAt": 1791952928695
-  },
-  {
-   "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
-   "chain": "solana",
-   "sym": "SI276",
-   "name": "Super Intelligence SI276",
-   "img": "https://cdn.dexscreener.com/cms/images/C00PG8ebjcD8d36M?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 96230,
-   "vol": 369377,
-   "mcap": 920185,
-   "holders": 5702,
-   "createdAt": 1791314731000,
-   "handle": "si276_xyz",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
-   "scannedAt": 1791952930809
+   "scannedAt": 1791954690483
   },
   {
    "ca": "5GefefPX1mDs6ZJB1apYmz6fCTCiNJpHturZ9bvFpump",
@@ -172,9 +135,9 @@
     1,
     null
    ],
-   "liq": 96206,
-   "vol": 151977,
-   "mcap": 1010658,
+   "liq": 95274,
+   "vol": 139728,
+   "mcap": 996410,
    "holders": 4277,
    "createdAt": 1788551378000,
    "handle": "Pumpoweenonpump",
@@ -185,7 +148,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/8nvfb1unnk9adtl5hoof8hahf2rt4glpwx9cteadikhg",
-   "scannedAt": 1791952933013
+   "scannedAt": 1791954694302
   }
  ]
 }
