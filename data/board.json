@@ -1,5 +1,5 @@
 {
- "updatedAt": 1791937771750,
+ "updatedAt": 1791940179438,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,10 +26,10 @@
     1,
     null
    ],
-   "liq": 651072,
-   "vol": 346400,
-   "mcap": 14375629,
-   "holders": 15577,
+   "liq": 692967,
+   "vol": 444538,
+   "mcap": 16289183,
+   "holders": 15587,
    "createdAt": 1787522174000,
    "handle": "tartprotocol",
    "launchpad": null,
@@ -38,7 +38,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x30000a407fabebe29439f8e437050512ff6661be",
-   "scannedAt": 1791937656099
+   "scannedAt": 1791940046530
   },
   {
    "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
@@ -62,9 +62,9 @@
     1,
     null
    ],
-   "liq": 177309,
-   "vol": 217007,
-   "mcap": 2422546,
+   "liq": 173904,
+   "vol": 214403,
+   "mcap": 2329048,
    "holders": 13788,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -75,44 +75,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1791937658555
-  },
-  {
-   "ca": "7jNwX4Me9zGEjmWY7zARDG2LYjVs1WXD6DZ1JvSfpump",
-   "chain": "solana",
-   "sym": "HUMPH",
-   "name": "Humphrey Reserve",
-   "img": "https://cdn.dexscreener.com/cms/images/jlWvCQHqbl08sNkQ?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    0,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 140691,
-   "vol": 3725029,
-   "mcap": 2170981,
-   "holders": 13356,
-   "createdAt": 1791802454000,
-   "handle": "humph_sol",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/9pqrnahbkjd61kys2k4fenlcpvai5hu5jbmbesunhljz",
-   "scannedAt": 1791937661188
+   "scannedAt": 1791940050096
   },
   {
    "ca": "0xB3A0F70c913Aa04404BD177BE9E20B47613830B6",
@@ -136,9 +99,9 @@
     1,
     null
    ],
-   "liq": 115472,
-   "vol": 74692,
-   "mcap": 415296,
+   "liq": 115516,
+   "vol": 68486,
+   "mcap": 414289,
    "holders": 2531,
    "createdAt": 1737393407000,
    "handle": "AmericaIsBackOG",
@@ -148,44 +111,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/ethereum/0x62eae8645b51146d262dca962e3ec00e84946475",
-   "scannedAt": 1791937663150
-  },
-  {
-   "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
-   "chain": "solana",
-   "sym": "SI276",
-   "name": "Super Intelligence SI276",
-   "img": "https://cdn.dexscreener.com/cms/images/C00PG8ebjcD8d36M?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 93312,
-   "vol": 284096,
-   "mcap": 878312,
-   "holders": 5682,
-   "createdAt": 1791314731000,
-   "handle": "si276_xyz",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
-   "scannedAt": 1791937667439
+   "scannedAt": 1791940054101
   },
   {
    "ca": "5GefefPX1mDs6ZJB1apYmz6fCTCiNJpHturZ9bvFpump",
@@ -209,9 +135,9 @@
     1,
     null
    ],
-   "liq": 92771,
-   "vol": 163616,
-   "mcap": 949853,
+   "liq": 94617,
+   "vol": 162830,
+   "mcap": 988129,
    "holders": 4164,
    "createdAt": 1788551378000,
    "handle": "Pumpoweenonpump",
@@ -222,7 +148,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/8nvfb1unnk9adtl5hoof8hahf2rt4glpwx9cteadikhg",
-   "scannedAt": 1791937665336
+   "scannedAt": 1791940060486
+  },
+  {
+   "ca": "7jNwX4Me9zGEjmWY7zARDG2LYjVs1WXD6DZ1JvSfpump",
+   "chain": "solana",
+   "sym": "HUMPH",
+   "name": "Humphrey Reserve",
+   "img": "https://cdn.dexscreener.com/cms/images/jlWvCQHqbl08sNkQ?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 93518,
+   "vol": 3683792,
+   "mcap": 967601,
+   "holders": 13444,
+   "createdAt": 1791802454000,
+   "handle": "humph_sol",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/9pqrnahbkjd61kys2k4fenlcpvai5hu5jbmbesunhljz",
+   "scannedAt": 1791940051662
   },
   {
    "ca": "HCkhfdDNF2dqMxxtL51AzgWU26MBNkUkEzGAHtqkpump",
@@ -246,9 +209,9 @@
     1,
     null
    ],
-   "liq": 59949,
-   "vol": 113022,
-   "mcap": 337427,
+   "liq": 59146,
+   "vol": 115380,
+   "mcap": 328752,
    "holders": 678,
    "createdAt": 1783614413000,
    "handle": "batcatsoi",
@@ -259,7 +222,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/9pju7scvfbah7y6xd9jevaaxzggu7cqyw5pq5bxchamy",
-   "scannedAt": 1791937760574
+   "scannedAt": 1791940064645
   }
  ]
 }
