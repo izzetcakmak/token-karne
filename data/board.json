@@ -1,5 +1,5 @@
 {
- "updatedAt": 1792010376150,
+ "updatedAt": 1792012304184,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 167679,
-   "vol": 471296,
-   "mcap": 2212704,
+   "liq": 167881,
+   "vol": 474409,
+   "mcap": 2218151,
    "holders": 14079,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1792010302839
+   "scannedAt": 1792012229077
   },
   {
    "ca": "0x7AB8d02CBb51Ff7223fDe700eAaa2a91Bf750314",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 745215,
-   "vol": 446498,
-   "mcap": 14600321,
+   "liq": 739341,
+   "vol": 446896,
+   "mcap": 14408236,
    "holders": 15705,
    "createdAt": 1787522174000,
    "handle": "tartprotocol",
@@ -75,44 +75,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x30000a407fabebe29439f8e437050512ff6661be",
-   "scannedAt": 1792010304311
-  },
-  {
-   "ca": "9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump",
-   "chain": "solana",
-   "sym": "GOMO",
-   "name": "Gomo App",
-   "img": "https://cdn.dexscreener.com/cms/images/oKyBDuIHI7W2lUnK?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 113191,
-   "vol": 261868,
-   "mcap": 589608,
-   "holders": 4086,
-   "createdAt": 1791150590000,
-   "handle": "gomo_family",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/5a7qurjlart146jajjype5nh6vlyfpn2qrhuslqbsczy",
-   "scannedAt": 1792010305727
+   "scannedAt": 1792012230659
   },
   {
    "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
@@ -136,9 +99,9 @@
     1,
     null
    ],
-   "liq": 107411,
-   "vol": 731637,
-   "mcap": 1164172,
+   "liq": 110528,
+   "vol": 742510,
+   "mcap": 1230235,
    "holders": 2316,
    "createdAt": 1791314731000,
    "handle": "si276_xyz",
@@ -149,7 +112,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
-   "scannedAt": 1792010307111
+   "scannedAt": 1792012233612
+  },
+  {
+   "ca": "9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump",
+   "chain": "solana",
+   "sym": "GOMO",
+   "name": "Gomo App",
+   "img": "https://cdn.dexscreener.com/cms/images/oKyBDuIHI7W2lUnK?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 108985,
+   "vol": 265468,
+   "mcap": 564568,
+   "holders": 4086,
+   "createdAt": 1791150590000,
+   "handle": "gomo_family",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/5a7qurjlart146jajjype5nh6vlyfpn2qrhuslqbsczy",
+   "scannedAt": 1792012232131
   },
   {
    "ca": "5GefefPX1mDs6ZJB1apYmz6fCTCiNJpHturZ9bvFpump",
@@ -173,9 +173,9 @@
     1,
     null
    ],
-   "liq": 91811,
-   "vol": 107632,
-   "mcap": 956457,
+   "liq": 90172,
+   "vol": 99694,
+   "mcap": 923322,
    "holders": 4373,
    "createdAt": 1788551378000,
    "handle": "Pumpoweenonpump",
@@ -186,44 +186,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/8nvfb1unnk9adtl5hoof8hahf2rt4glpwx9cteadikhg",
-   "scannedAt": 1792010308497
-  },
-  {
-   "ca": "6hTLdzZaaCjmqtn7RtaEMQsCbXT5Pg8q76tRViEGpump",
-   "chain": "solana",
-   "sym": "ABU",
-   "name": "Abu Shalab",
-   "img": "https://cdn.dexscreener.com/cms/images/Di5fRzZVLruW9Tlo?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 55095,
-   "vol": 100800,
-   "mcap": 275916,
-   "holders": 1634,
-   "createdAt": 1790981217000,
-   "handle": "AbuShalab_",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/2qwf4dn1jnqhcpayjqnkvakezzuuig4xdnbncsk1pgcw",
-   "scannedAt": 1792010374950
+   "scannedAt": 1792012235383
   },
   {
    "ca": "7jNwX4Me9zGEjmWY7zARDG2LYjVs1WXD6DZ1JvSfpump",
@@ -247,9 +210,9 @@
     1,
     null
    ],
-   "liq": 53312,
-   "vol": 2782393,
-   "mcap": 301002,
+   "liq": 52819,
+   "vol": 2677459,
+   "mcap": 292599,
    "holders": 14862,
    "createdAt": 1791802454000,
    "handle": "humph_sol",
@@ -260,7 +223,81 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/9pqrnahbkjd61kys2k4fenlcpvai5hu5jbmbesunhljz",
-   "scannedAt": 1792010309925
+   "scannedAt": 1792012238617
+  },
+  {
+   "ca": "6hTLdzZaaCjmqtn7RtaEMQsCbXT5Pg8q76tRViEGpump",
+   "chain": "solana",
+   "sym": "ABU",
+   "name": "Abu Shalab",
+   "img": "https://cdn.dexscreener.com/cms/images/Di5fRzZVLruW9Tlo?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 52375,
+   "vol": 101734,
+   "mcap": 250019,
+   "holders": 1634,
+   "createdAt": 1790981217000,
+   "handle": "AbuShalab_",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/2qwf4dn1jnqhcpayjqnkvakezzuuig4xdnbncsk1pgcw",
+   "scannedAt": 1792012237111
+  },
+  {
+   "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
+   "chain": "solana",
+   "sym": "CBUCKS",
+   "name": "Cartoon Money",
+   "img": "https://cdn.dexscreener.com/cms/images/2bajn2a05AdQGV-4?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 46691,
+   "vol": 70283,
+   "mcap": 211032,
+   "holders": 668,
+   "createdAt": 1791311393000,
+   "handle": "cartoonmoney_ai",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
+   "scannedAt": 1792012279696
   }
  ]
 }
