@@ -1,8 +1,8 @@
 {
- "updatedAt": 1792055646310,
+ "updatedAt": 1792057286019,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 45,
+ "scanned": 44,
  "items": [
   {
    "ca": "XtogpWjiAgvkemc5gr1auxkh77w3vKgSQN1nxJeJfHt",
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 189261,
-   "vol": 159799,
-   "mcap": 6126513,
+   "liq": 189450,
+   "vol": 156700,
+   "mcap": 6138768,
    "holders": 1383,
    "createdAt": 1791928902000,
    "handle": "xtruthoil",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/4pbedygxzvuvr94sgtjc6c5cx7nmgbdnv1x8ac9opj7o",
-   "scannedAt": 1792055566486
+   "scannedAt": 1792057212380
   },
   {
    "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 187425,
-   "vol": 592109,
-   "mcap": 2768807,
+   "liq": 185845,
+   "vol": 598398,
+   "mcap": 2727645,
    "holders": 14372,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1792055568468
+   "scannedAt": 1792057213898
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -100,9 +100,9 @@
     1,
     null
    ],
-   "liq": 43514,
-   "vol": 54635,
-   "mcap": 184326,
+   "liq": 44491,
+   "vol": 54955,
+   "mcap": 192262,
    "holders": 738,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -113,7 +113,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1792055573916
+   "scannedAt": 1792057215361
   },
   {
    "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
@@ -137,9 +137,9 @@
     1,
     null
    ],
-   "liq": 111226,
-   "vol": 653258,
-   "mcap": 1242428,
+   "liq": 111163,
+   "vol": 645339,
+   "mcap": 1243064,
    "holders": 2362,
    "createdAt": 1791314731000,
    "handle": "si276_xyz",
@@ -150,7 +150,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
-   "scannedAt": 1792055570073
+   "scannedAt": 1792057216826
   },
   {
    "ca": "9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump",
@@ -174,9 +174,9 @@
     1,
     null
    ],
-   "liq": 95490,
-   "vol": 273576,
-   "mcap": 522602,
+   "liq": 97600,
+   "vol": 273114,
+   "mcap": 532967,
    "holders": 4125,
    "createdAt": 1791150590000,
    "handle": "gomo_family",
@@ -187,44 +187,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5a7qurjlart146jajjype5nh6vlyfpn2qrhuslqbsczy",
-   "scannedAt": 1792055572000
-  },
-  {
-   "ca": "7jNwX4Me9zGEjmWY7zARDG2LYjVs1WXD6DZ1JvSfpump",
-   "chain": "solana",
-   "sym": "HUMPH",
-   "name": "Humphrey Reserve",
-   "img": "https://cdn.dexscreener.com/cms/images/jlWvCQHqbl08sNkQ?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    0,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 31247,
-   "vol": 2625277,
-   "mcap": 100630,
-   "holders": 16497,
-   "createdAt": 1791802454000,
-   "handle": "humph_sol",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/9pqrnahbkjd61kys2k4fenlcpvai5hu5jbmbesunhljz",
-   "scannedAt": 1792055575727
+   "scannedAt": 1792057218712
   }
  ]
 }
