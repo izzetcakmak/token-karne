@@ -1,8 +1,8 @@
 {
- "updatedAt": 1792071734389,
+ "updatedAt": 1792073592887,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 45,
+ "scanned": 44,
  "items": [
   {
    "ca": "XtogpWjiAgvkemc5gr1auxkh77w3vKgSQN1nxJeJfHt",
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 179109,
-   "vol": 154389,
-   "mcap": 5486908,
+   "liq": 178091,
+   "vol": 152317,
+   "mcap": 5424701,
    "holders": 1383,
    "createdAt": 1791928902000,
    "handle": "xtruthoil",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/4pbedygxzvuvr94sgtjc6c5cx7nmgbdnv1x8ac9opj7o",
-   "scannedAt": 1792071667803
+   "scannedAt": 1792073521095
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 46002,
-   "vol": 50729,
-   "mcap": 204925,
+   "liq": 46492,
+   "vol": 50627,
+   "mcap": 209142,
    "holders": 738,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1792071663417
+   "scannedAt": 1792073522532
   },
   {
    "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
@@ -100,9 +100,9 @@
     1,
     null
    ],
-   "liq": 184384,
-   "vol": 577606,
-   "mcap": 2719047,
+   "liq": 188188,
+   "vol": 565785,
+   "mcap": 2813455,
    "holders": 14490,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -113,81 +113,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1792071666382
-  },
-  {
-   "ca": "4qH8A5GxvRMZgpRFjXASc6U9HAoEzKeUqxY2dPB7pump",
-   "chain": "solana",
-   "sym": "Groklet",
-   "name": "Grok Mascot",
-   "img": "https://cdn.dexscreener.com/cms/images/15387b1c3440d5c1069778ef500471f602f8e078b2f43bd0455bf18a29002b19?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 119293,
-   "vol": 1639863,
-   "mcap": 602945,
-   "holders": 613,
-   "createdAt": 1750018382000,
-   "handle": "GrokletFanClub",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/7odjba4hzozvnwboksrwfetstnm4ia5witkwfr1lsy8t",
-   "scannedAt": 1792071669220
-  },
-  {
-   "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
-   "chain": "solana",
-   "sym": "SI276",
-   "name": "Super Intelligence SI276",
-   "img": "https://cdn.dexscreener.com/cms/images/C00PG8ebjcD8d36M?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 102714,
-   "vol": 637848,
-   "mcap": 1075164,
-   "holders": 2362,
-   "createdAt": 1791314731000,
-   "handle": "si276_xyz",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
-   "scannedAt": 1792071670642
+   "scannedAt": 1792073524171
   },
   {
    "ca": "9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump",
@@ -211,9 +137,9 @@
     1,
     null
    ],
-   "liq": 98562,
-   "vol": 254503,
-   "mcap": 570397,
+   "liq": 94362,
+   "vol": 246316,
+   "mcap": 523577,
    "holders": 4110,
    "createdAt": 1791150590000,
    "handle": "gomo_family",
@@ -224,7 +150,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5a7qurjlart146jajjype5nh6vlyfpn2qrhuslqbsczy",
-   "scannedAt": 1792071672081
+   "scannedAt": 1792073528674
+  },
+  {
+   "ca": "4qH8A5GxvRMZgpRFjXASc6U9HAoEzKeUqxY2dPB7pump",
+   "chain": "solana",
+   "sym": "Groklet",
+   "name": "Grok Mascot",
+   "img": "https://cdn.dexscreener.com/cms/images/15387b1c3440d5c1069778ef500471f602f8e078b2f43bd0455bf18a29002b19?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 88958,
+   "vol": 1745213,
+   "mcap": 363113,
+   "holders": 613,
+   "createdAt": 1750018382000,
+   "handle": "GrokletFanClub",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/7odjba4hzozvnwboksrwfetstnm4ia5witkwfr1lsy8t",
+   "scannedAt": 1792073525601
   }
  ]
 }
