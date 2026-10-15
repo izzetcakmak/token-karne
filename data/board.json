@@ -1,5 +1,5 @@
 {
- "updatedAt": 1792039328536,
+ "updatedAt": 1792041150264,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 189724,
-   "vol": 186411,
-   "mcap": 6156569,
+   "liq": 189772,
+   "vol": 180739,
+   "mcap": 6159669,
    "holders": 1150,
    "createdAt": 1791928902000,
    "handle": "xtruthoil",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/4pbedygxzvuvr94sgtjc6c5cx7nmgbdnv1x8ac9opj7o",
-   "scannedAt": 1792039242595
+   "scannedAt": 1792041077144
   },
   {
    "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
@@ -47,11 +47,11 @@
    "sym": "MISTAKE",
    "name": "Make No Mistakes",
    "img": "https://cdn.dexscreener.com/cms/images/S3VS6ZPJzJ-72iRm?width=800&height=800&quality=95&format=auto",
-   "score": 9,
+   "score": 10,
    "unknown": 1,
    "answers": [
     1,
-    0,
+    1,
     1,
     1,
     1,
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 189618,
-   "vol": 560713,
-   "mcap": 2809995,
+   "liq": 187268,
+   "vol": 563139,
+   "mcap": 2764239,
    "holders": 14372,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1792039245000
+   "scannedAt": 1792041078765
   },
   {
    "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
@@ -100,9 +100,9 @@
     1,
     null
    ],
-   "liq": 113861,
-   "vol": 727800,
-   "mcap": 1292757,
+   "liq": 113106,
+   "vol": 726165,
+   "mcap": 1286323,
    "holders": 2316,
    "createdAt": 1791314731000,
    "handle": "si276_xyz",
@@ -113,7 +113,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
-   "scannedAt": 1792039246732
+   "scannedAt": 1792041080318
   },
   {
    "ca": "9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump",
@@ -137,9 +137,9 @@
     1,
     null
    ],
-   "liq": 94863,
-   "vol": 274853,
-   "mcap": 479570,
+   "liq": 95725,
+   "vol": 275259,
+   "mcap": 480617,
    "holders": 4125,
    "createdAt": 1791150590000,
    "handle": "gomo_family",
@@ -150,7 +150,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5a7qurjlart146jajjype5nh6vlyfpn2qrhuslqbsczy",
-   "scannedAt": 1792039248210
+   "scannedAt": 1792041081785
   },
   {
    "ca": "7jNwX4Me9zGEjmWY7zARDG2LYjVs1WXD6DZ1JvSfpump",
@@ -174,9 +174,9 @@
     1,
     null
    ],
-   "liq": 44832,
-   "vol": 2423617,
-   "mcap": 204350,
+   "liq": 44962,
+   "vol": 2431069,
+   "mcap": 206795,
    "holders": 14862,
    "createdAt": 1791802454000,
    "handle": "humph_sol",
@@ -187,7 +187,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/9pqrnahbkjd61kys2k4fenlcpvai5hu5jbmbesunhljz",
-   "scannedAt": 1792039250041
+   "scannedAt": 1792041083330
   }
  ]
 }
