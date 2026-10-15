@@ -1,5 +1,5 @@
 {
- "updatedAt": 1792089895170,
+ "updatedAt": 1792091434466,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 195455,
-   "vol": 365948,
-   "mcap": 2934780,
+   "liq": 198870,
+   "vol": 364771,
+   "mcap": 3019720,
    "holders": 14490,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1792089819679
+   "scannedAt": 1792091354791
   },
   {
    "ca": "XtogpWjiAgvkemc5gr1auxkh77w3vKgSQN1nxJeJfHt",
@@ -63,10 +63,10 @@
     1,
     null
    ],
-   "liq": 179466,
-   "vol": 144874,
-   "mcap": 5508767,
-   "holders": 1383,
+   "liq": 179629,
+   "vol": 119414,
+   "mcap": 5518915,
+   "holders": 1389,
    "createdAt": 1791928902000,
    "handle": "xtruthoil",
    "launchpad": null,
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/4pbedygxzvuvr94sgtjc6c5cx7nmgbdnv1x8ac9opj7o",
-   "scannedAt": 1792089821171
+   "scannedAt": 1792091356440
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -100,9 +100,9 @@
     1,
     null
    ],
-   "liq": 61845,
-   "vol": 70765,
-   "mcap": 358997,
+   "liq": 63408,
+   "vol": 79457,
+   "mcap": 377290,
    "holders": 824,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -113,44 +113,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1792089824217
-  },
-  {
-   "ca": "7fumw7GYTHZJJxkKJ8sSh1CqTdHmB234vX3xsKjepump",
-   "chain": "solana",
-   "sym": "VEILTRUMP",
-   "name": "VeilTrump",
-   "img": "https://cdn.dexscreener.com/cms/images/dmH0RYJbGiH6x70s?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    0,
-    1,
-    null
-   ],
-   "liq": 112536,
-   "vol": 2359524,
-   "mcap": 1490713,
-   "holders": 13168,
-   "createdAt": 1791987691000,
-   "handle": "theveiltrump",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/8isy6uumgdqxsvakl8tjyruxstldmwpuc6qxw5j3fhja",
-   "scannedAt": 1792089822658
+   "scannedAt": 1792091357921
   },
   {
    "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
@@ -174,9 +137,9 @@
     1,
     null
    ],
-   "liq": 110010,
-   "vol": 583956,
-   "mcap": 1179396,
+   "liq": 110176,
+   "vol": 573786,
+   "mcap": 1176048,
    "holders": 2362,
    "createdAt": 1791314731000,
    "handle": "si276_xyz",
@@ -187,7 +150,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
-   "scannedAt": 1792089857701
+   "scannedAt": 1792091361905
+  },
+  {
+   "ca": "7fumw7GYTHZJJxkKJ8sSh1CqTdHmB234vX3xsKjepump",
+   "chain": "solana",
+   "sym": "VEILTRUMP",
+   "name": "VeilTrump",
+   "img": "https://cdn.dexscreener.com/cms/images/dmH0RYJbGiH6x70s?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    null
+   ],
+   "liq": 109271,
+   "vol": 2373985,
+   "mcap": 1396899,
+   "holders": 13162,
+   "createdAt": 1791987691000,
+   "handle": "theveiltrump",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/8isy6uumgdqxsvakl8tjyruxstldmwpuc6qxw5j3fhja",
+   "scannedAt": 1792091360135
   },
   {
    "ca": "9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump",
@@ -211,9 +211,9 @@
     1,
     null
    ],
-   "liq": 99854,
-   "vol": 172150,
-   "mcap": 570054,
+   "liq": 99524,
+   "vol": 170638,
+   "mcap": 565973,
    "holders": 4110,
    "createdAt": 1791150590000,
    "handle": "gomo_family",
@@ -224,7 +224,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5a7qurjlart146jajjype5nh6vlyfpn2qrhuslqbsczy",
-   "scannedAt": 1792089826782
+   "scannedAt": 1792091363387
   },
   {
    "ca": "4qH8A5GxvRMZgpRFjXASc6U9HAoEzKeUqxY2dPB7pump",
@@ -248,9 +248,9 @@
     1,
     null
    ],
-   "liq": 56390,
-   "vol": 2300467,
-   "mcap": 290675,
+   "liq": 57035,
+   "vol": 2317770,
+   "mcap": 295835,
    "holders": 613,
    "createdAt": 1750018382000,
    "handle": "GrokletFanClub",
@@ -261,7 +261,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/7odjba4hzozvnwboksrwfetstnm4ia5witkwfr1lsy8t",
-   "scannedAt": 1792089828301
+   "scannedAt": 1792091364992
   },
   {
    "ca": "5GDX5fJTQns4arM1J94wjxdA8KXFsV5qW46MLFpHpump",
@@ -285,9 +285,9 @@
     1,
     null
    ],
-   "liq": 46971,
-   "vol": 713060,
-   "mcap": 649895,
+   "liq": 47786,
+   "vol": 705767,
+   "mcap": 617980,
    "holders": 2975,
    "createdAt": 1790983808000,
    "handle": "omnizec",
@@ -298,7 +298,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/hvyaoajjmvgomaqihtmm4hdbsh7qblkhornljznbzke7",
-   "scannedAt": 1792089829804
+   "scannedAt": 1792091366473
   }
  ]
 }
