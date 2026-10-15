@@ -1,8 +1,8 @@
 {
- "updatedAt": 1792057286019,
+ "updatedAt": 1792059148721,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 44,
+ "scanned": 45,
  "items": [
   {
    "ca": "XtogpWjiAgvkemc5gr1auxkh77w3vKgSQN1nxJeJfHt",
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 189450,
-   "vol": 156700,
-   "mcap": 6138768,
+   "liq": 189570,
+   "vol": 156358,
+   "mcap": 6146526,
    "holders": 1383,
    "createdAt": 1791928902000,
    "handle": "xtruthoil",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/4pbedygxzvuvr94sgtjc6c5cx7nmgbdnv1x8ac9opj7o",
-   "scannedAt": 1792057212380
+   "scannedAt": 1792059068709
   },
   {
    "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 185845,
-   "vol": 598398,
-   "mcap": 2727645,
+   "liq": 181368,
+   "vol": 605351,
+   "mcap": 2603895,
    "holders": 14372,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1792057213898
+   "scannedAt": 1792059070725
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -100,9 +100,9 @@
     1,
     null
    ],
-   "liq": 44491,
-   "vol": 54955,
-   "mcap": 192262,
+   "liq": 45255,
+   "vol": 53821,
+   "mcap": 198646,
    "holders": 738,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -113,7 +113,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1792057215361
+   "scannedAt": 1792059072251
   },
   {
    "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
@@ -137,9 +137,9 @@
     1,
     null
    ],
-   "liq": 111163,
-   "vol": 645339,
-   "mcap": 1243064,
+   "liq": 110456,
+   "vol": 646139,
+   "mcap": 1229477,
    "holders": 2362,
    "createdAt": 1791314731000,
    "handle": "si276_xyz",
@@ -150,7 +150,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
-   "scannedAt": 1792057216826
+   "scannedAt": 1792059074189
   },
   {
    "ca": "9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump",
@@ -174,9 +174,9 @@
     1,
     null
    ],
-   "liq": 97600,
-   "vol": 273114,
-   "mcap": 532967,
+   "liq": 98374,
+   "vol": 263460,
+   "mcap": 546357,
    "holders": 4125,
    "createdAt": 1791150590000,
    "handle": "gomo_family",
@@ -187,7 +187,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5a7qurjlart146jajjype5nh6vlyfpn2qrhuslqbsczy",
-   "scannedAt": 1792057218712
+   "scannedAt": 1792059075689
   }
  ]
 }
