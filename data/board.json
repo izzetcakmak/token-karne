@@ -1,5 +1,5 @@
 {
- "updatedAt": 1792048615563,
+ "updatedAt": 1792050167096,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 189301,
-   "vol": 165963,
-   "mcap": 6129143,
+   "liq": 189259,
+   "vol": 164459,
+   "mcap": 6126388,
    "holders": 1383,
    "createdAt": 1791928902000,
    "handle": "xtruthoil",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/4pbedygxzvuvr94sgtjc6c5cx7nmgbdnv1x8ac9opj7o",
-   "scannedAt": 1792048540006
+   "scannedAt": 1792050094501
   },
   {
    "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 181388,
-   "vol": 577804,
-   "mcap": 2623895,
+   "liq": 182952,
+   "vol": 579149,
+   "mcap": 2663004,
    "holders": 14372,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -76,15 +76,15 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1792048543164
+   "scannedAt": 1792050095982
   },
   {
-   "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
+   "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
    "chain": "solana",
-   "sym": "SI276",
-   "name": "Super Intelligence SI276",
-   "img": "https://cdn.dexscreener.com/cms/images/C00PG8ebjcD8d36M?width=800&height=800&quality=95&format=auto",
-   "score": 9,
+   "sym": "CBUCKS",
+   "name": "Cartoon Money",
+   "img": "https://cdn.dexscreener.com/cms/images/2bajn2a05AdQGV-4?width=800&height=800&quality=95&format=auto",
+   "score": 10,
    "unknown": 1,
    "answers": [
     1,
@@ -92,7 +92,7 @@
     1,
     1,
     0,
-    0,
+    1,
     1,
     1,
     1,
@@ -100,20 +100,20 @@
     1,
     null
    ],
-   "liq": 108584,
-   "vol": 698911,
-   "mcap": 1199202,
-   "holders": 2316,
-   "createdAt": 1791314731000,
-   "handle": "si276_xyz",
+   "liq": 44660,
+   "vol": 57309,
+   "mcap": 193719,
+   "holders": 738,
+   "createdAt": 1791311393000,
+   "handle": "cartoonmoney_ai",
    "launchpad": "Pump.Fun",
    "flags": 0,
    "sources": [
     "GoPlus",
     "RugCheck"
    ],
-   "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
-   "scannedAt": 1792048545163
+   "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
+   "scannedAt": 1792050102341
   },
   {
    "ca": "9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump",
@@ -137,9 +137,9 @@
     1,
     null
    ],
-   "liq": 104712,
-   "vol": 274589,
-   "mcap": 637480,
+   "liq": 96505,
+   "vol": 274788,
+   "mcap": 532191,
    "holders": 4125,
    "createdAt": 1791150590000,
    "handle": "gomo_family",
@@ -150,44 +150,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5a7qurjlart146jajjype5nh6vlyfpn2qrhuslqbsczy",
-   "scannedAt": 1792048546617
-  },
-  {
-   "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
-   "chain": "solana",
-   "sym": "CBUCKS",
-   "name": "Cartoon Money",
-   "img": "https://cdn.dexscreener.com/cms/images/2bajn2a05AdQGV-4?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    0,
-    1,
-    1,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 44885,
-   "vol": 57277,
-   "mcap": 195614,
-   "holders": 738,
-   "createdAt": 1791311393000,
-   "handle": "cartoonmoney_ai",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1792048541551
+   "scannedAt": 1792050100854
   },
   {
    "ca": "7jNwX4Me9zGEjmWY7zARDG2LYjVs1WXD6DZ1JvSfpump",
@@ -211,9 +174,9 @@
     1,
     null
    ],
-   "liq": 37126,
-   "vol": 2468163,
-   "mcap": 143805,
+   "liq": 39216,
+   "vol": 2484930,
+   "mcap": 158948,
    "holders": 14862,
    "createdAt": 1791802454000,
    "handle": "humph_sol",
@@ -224,7 +187,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/9pqrnahbkjd61kys2k4fenlcpvai5hu5jbmbesunhljz",
-   "scannedAt": 1792048548136
+   "scannedAt": 1792050103911
   }
  ]
 }
