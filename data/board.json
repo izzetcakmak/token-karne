@@ -1,46 +1,9 @@
 {
- "updatedAt": 1792105775150,
+ "updatedAt": 1792107352491,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
  "items": [
-  {
-   "ca": "XtogpWjiAgvkemc5gr1auxkh77w3vKgSQN1nxJeJfHt",
-   "chain": "solana",
-   "sym": "XTO",
-   "name": "XTO",
-   "img": "https://cdn.dexscreener.com/cms/images/ds4PcejJyyKnWbul?width=800&height=800&quality=95&format=auto",
-   "score": 10,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 187214,
-   "vol": 95777,
-   "mcap": 5994833,
-   "holders": 1389,
-   "createdAt": 1791928902000,
-   "handle": "xtruthoil",
-   "launchpad": null,
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/4pbedygxzvuvr94sgtjc6c5cx7nmgbdnv1x8ac9opj7o",
-   "scannedAt": 1792105708991
-  },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
    "chain": "solana",
@@ -63,9 +26,9 @@
     1,
     null
    ],
-   "liq": 69671,
-   "vol": 184034,
-   "mcap": 449426,
+   "liq": 68507,
+   "vol": 185561,
+   "mcap": 434762,
    "holders": 824,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -76,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1792105710415
+   "scannedAt": 1792107286527
   },
   {
    "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
@@ -100,9 +63,9 @@
     1,
     null
    ],
-   "liq": 193403,
-   "vol": 345986,
-   "mcap": 2872123,
+   "liq": 193018,
+   "vol": 345497,
+   "mcap": 2869248,
    "holders": 14490,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -113,14 +76,14 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1792105707511
+   "scannedAt": 1792107287961
   },
   {
-   "ca": "9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump",
+   "ca": "XtogpWjiAgvkemc5gr1auxkh77w3vKgSQN1nxJeJfHt",
    "chain": "solana",
-   "sym": "GOMO",
-   "name": "Gomo App",
-   "img": "https://cdn.dexscreener.com/cms/images/oKyBDuIHI7W2lUnK?width=800&height=800&quality=95&format=auto",
+   "sym": "XTO",
+   "name": "XTO",
+   "img": "https://cdn.dexscreener.com/cms/images/ds4PcejJyyKnWbul?width=800&height=800&quality=95&format=auto",
    "score": 9,
    "unknown": 1,
    "answers": [
@@ -128,29 +91,29 @@
     1,
     1,
     1,
+    1,
     0,
+    1,
+    1,
+    1,
+    1,
     0,
-    1,
-    1,
-    1,
-    1,
-    1,
     null
    ],
-   "liq": 103106,
-   "vol": 141854,
-   "mcap": 666619,
-   "holders": 4056,
-   "createdAt": 1791150590000,
-   "handle": "gomo_family",
-   "launchpad": "Pump.Fun",
+   "liq": 186534,
+   "vol": 90183,
+   "mcap": 5951366,
+   "holders": 1389,
+   "createdAt": 1791928902000,
+   "handle": "xtruthoil",
+   "launchpad": null,
    "flags": 0,
    "sources": [
     "GoPlus",
     "RugCheck"
    ],
-   "url": "https://dexscreener.com/solana/5a7qurjlart146jajjype5nh6vlyfpn2qrhuslqbsczy",
-   "scannedAt": 1792105713361
+   "url": "https://dexscreener.com/solana/4pbedygxzvuvr94sgtjc6c5cx7nmgbdnv1x8ac9opj7o",
+   "scannedAt": 1792107285067
   },
   {
    "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
@@ -174,9 +137,9 @@
     1,
     null
    ],
-   "liq": 101535,
-   "vol": 569371,
-   "mcap": 1003921,
+   "liq": 99666,
+   "vol": 571468,
+   "mcap": 968822,
    "holders": 2377,
    "createdAt": 1791314731000,
    "handle": "si276_xyz",
@@ -187,7 +150,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
-   "scannedAt": 1792105711922
+   "scannedAt": 1792107290827
+  },
+  {
+   "ca": "9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump",
+   "chain": "solana",
+   "sym": "GOMO",
+   "name": "Gomo App",
+   "img": "https://cdn.dexscreener.com/cms/images/oKyBDuIHI7W2lUnK?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 93198,
+   "vol": 147919,
+   "mcap": 541338,
+   "holders": 4056,
+   "createdAt": 1791150590000,
+   "handle": "gomo_family",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/5a7qurjlart146jajjype5nh6vlyfpn2qrhuslqbsczy",
+   "scannedAt": 1792107289404
   },
   {
    "ca": "4qH8A5GxvRMZgpRFjXASc6U9HAoEzKeUqxY2dPB7pump",
@@ -211,9 +211,9 @@
     1,
     null
    ],
-   "liq": 56337,
-   "vol": 2378226,
-   "mcap": 278644,
+   "liq": 56543,
+   "vol": 2381081,
+   "mcap": 281042,
    "holders": 613,
    "createdAt": 1750018382000,
    "handle": "GrokletFanClub",
@@ -224,7 +224,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/7odjba4hzozvnwboksrwfetstnm4ia5witkwfr1lsy8t",
-   "scannedAt": 1792105714785
+   "scannedAt": 1792107292286
   },
   {
    "ca": "5GDX5fJTQns4arM1J94wjxdA8KXFsV5qW46MLFpHpump",
@@ -248,9 +248,9 @@
     1,
     null
    ],
-   "liq": 46101,
-   "vol": 589534,
-   "mcap": 603926,
+   "liq": 45357,
+   "vol": 579834,
+   "mcap": 574599,
    "holders": 2887,
    "createdAt": 1790983808000,
    "handle": "omnizec",
@@ -261,7 +261,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/hvyaoajjmvgomaqihtmm4hdbsh7qblkhornljznbzke7",
-   "scannedAt": 1792105716210
+   "scannedAt": 1792107293709
   },
   {
    "ca": "F4GpAFr6vrxU3Y887F3XWkXRgybCVjZNk63m72f6pump",
@@ -285,9 +285,9 @@
     1,
     null
    ],
-   "liq": 32520,
-   "vol": 45300,
-   "mcap": 45258,
+   "liq": 33153,
+   "vol": 45644,
+   "mcap": 47038,
    "holders": 4647,
    "createdAt": 1784006805000,
    "handle": "trumpcoinonx",
@@ -298,7 +298,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/fpjfwz3ngfvywkpdxzqm8qaljzmy6u3ngaa8nc7sndag",
-   "scannedAt": 1792105717783
+   "scannedAt": 1792107295134
   }
  ]
 }
