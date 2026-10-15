@@ -1,5 +1,5 @@
 {
- "updatedAt": 1792084289833,
+ "updatedAt": 1792085955862,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 191631,
-   "vol": 411948,
-   "mcap": 2820365,
+   "liq": 197793,
+   "vol": 393196,
+   "mcap": 2992491,
    "holders": 14490,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1792084207991
+   "scannedAt": 1792085845386
   },
   {
    "ca": "XtogpWjiAgvkemc5gr1auxkh77w3vKgSQN1nxJeJfHt",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 171926,
-   "vol": 152267,
-   "mcap": 5055636,
+   "liq": 168473,
+   "vol": 145183,
+   "mcap": 4854554,
    "holders": 1383,
    "createdAt": 1791928902000,
    "handle": "xtruthoil",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/4pbedygxzvuvr94sgtjc6c5cx7nmgbdnv1x8ac9opj7o",
-   "scannedAt": 1792084204793
+   "scannedAt": 1792085847896
   },
   {
    "ca": "7fumw7GYTHZJJxkKJ8sSh1CqTdHmB234vX3xsKjepump",
@@ -100,10 +100,10 @@
     1,
     null
    ],
-   "liq": 113720,
-   "vol": 2339442,
-   "mcap": 1528905,
-   "holders": 13061,
+   "liq": 114026,
+   "vol": 2343816,
+   "mcap": 1529381,
+   "holders": 13092,
    "createdAt": 1791987691000,
    "handle": "theveiltrump",
    "launchpad": "Pump.Fun",
@@ -113,7 +113,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/8isy6uumgdqxsvakl8tjyruxstldmwpuc6qxw5j3fhja",
-   "scannedAt": 1792084206374
+   "scannedAt": 1792085849585
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -137,9 +137,9 @@
     1,
     null
    ],
-   "liq": 53810,
-   "vol": 50542,
-   "mcap": 275745,
+   "liq": 54944,
+   "vol": 50877,
+   "mcap": 286514,
    "holders": 738,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -150,7 +150,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1792084215918
+   "scannedAt": 1792085851447
   },
   {
    "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
@@ -174,9 +174,9 @@
     1,
     null
    ],
-   "liq": 107614,
-   "vol": 631241,
-   "mcap": 1130180,
+   "liq": 109974,
+   "vol": 616691,
+   "mcap": 1174886,
    "holders": 2362,
    "createdAt": 1791314731000,
    "handle": "si276_xyz",
@@ -187,7 +187,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
-   "scannedAt": 1792084209573
+   "scannedAt": 1792085853978
   },
   {
    "ca": "9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump",
@@ -211,9 +211,9 @@
     1,
     null
    ],
-   "liq": 94752,
-   "vol": 179561,
-   "mcap": 525277,
+   "liq": 101281,
+   "vol": 176116,
+   "mcap": 591100,
    "holders": 4110,
    "createdAt": 1791150590000,
    "handle": "gomo_family",
@@ -224,7 +224,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5a7qurjlart146jajjype5nh6vlyfpn2qrhuslqbsczy",
-   "scannedAt": 1792084211160
+   "scannedAt": 1792085856546
   },
   {
    "ca": "4qH8A5GxvRMZgpRFjXASc6U9HAoEzKeUqxY2dPB7pump",
@@ -248,9 +248,9 @@
     1,
     null
    ],
-   "liq": 65006,
-   "vol": 2246113,
-   "mcap": 370080,
+   "liq": 62598,
+   "vol": 2258656,
+   "mcap": 346655,
    "holders": 613,
    "createdAt": 1750018382000,
    "handle": "GrokletFanClub",
@@ -261,7 +261,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/7odjba4hzozvnwboksrwfetstnm4ia5witkwfr1lsy8t",
-   "scannedAt": 1792084212746
+   "scannedAt": 1792085859294
   },
   {
    "ca": "5GDX5fJTQns4arM1J94wjxdA8KXFsV5qW46MLFpHpump",
@@ -285,9 +285,9 @@
     1,
     null
    ],
-   "liq": 52742,
-   "vol": 781751,
-   "mcap": 779267,
+   "liq": 53143,
+   "vol": 747725,
+   "mcap": 749330,
    "holders": 2975,
    "createdAt": 1790983808000,
    "handle": "omnizec",
@@ -298,7 +298,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/hvyaoajjmvgomaqihtmm4hdbsh7qblkhornljznbzke7",
-   "scannedAt": 1792084214336
+   "scannedAt": 1792085861614
   }
  ]
 }
