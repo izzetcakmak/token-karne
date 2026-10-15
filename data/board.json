@@ -1,5 +1,5 @@
 {
- "updatedAt": 1792026406554,
+ "updatedAt": 1792028771870,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 185766,
-   "vol": 239385,
-   "mcap": 5900443,
+   "liq": 186980,
+   "vol": 227788,
+   "mcap": 5977816,
    "holders": 1150,
    "createdAt": 1791928902000,
    "handle": "xtruthoil",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/4pbedygxzvuvr94sgtjc6c5cx7nmgbdnv1x8ac9opj7o",
-   "scannedAt": 1792026329345
+   "scannedAt": 1792028700676
   },
   {
    "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 168054,
-   "vol": 481707,
-   "mcap": 2207213,
+   "liq": 181022,
+   "vol": 498216,
+   "mcap": 2559259,
    "holders": 14079,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -76,7 +76,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1792026332941
+   "scannedAt": 1792028702138
+  },
+  {
+   "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
+   "chain": "solana",
+   "sym": "SI276",
+   "name": "Super Intelligence SI276",
+   "img": "https://cdn.dexscreener.com/cms/images/C00PG8ebjcD8d36M?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 114230,
+   "vol": 754673,
+   "mcap": 1299959,
+   "holders": 2316,
+   "createdAt": 1791314731000,
+   "handle": "si276_xyz",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
+   "scannedAt": 1792028770669
   },
   {
    "ca": "9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump",
@@ -100,9 +137,9 @@
     1,
     null
    ],
-   "liq": 107684,
-   "vol": 271222,
-   "mcap": 604293,
+   "liq": 110865,
+   "vol": 268693,
+   "mcap": 620665,
    "holders": 4125,
    "createdAt": 1791150590000,
    "handle": "gomo_family",
@@ -113,7 +150,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5a7qurjlart146jajjype5nh6vlyfpn2qrhuslqbsczy",
-   "scannedAt": 1792026334396
+   "scannedAt": 1792028704077
   },
   {
    "ca": "5GefefPX1mDs6ZJB1apYmz6fCTCiNJpHturZ9bvFpump",
@@ -137,9 +174,9 @@
     1,
     null
    ],
-   "liq": 93484,
-   "vol": 60269,
-   "mcap": 985073,
+   "liq": 93166,
+   "vol": 58012,
+   "mcap": 979694,
    "holders": 4362,
    "createdAt": 1788551378000,
    "handle": "Pumpoweenonpump",
@@ -150,44 +187,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/8nvfb1unnk9adtl5hoof8hahf2rt4glpwx9cteadikhg",
-   "scannedAt": 1792026337901
-  },
-  {
-   "ca": "7jNwX4Me9zGEjmWY7zARDG2LYjVs1WXD6DZ1JvSfpump",
-   "chain": "solana",
-   "sym": "HUMPH",
-   "name": "Humphrey Reserve",
-   "img": "https://cdn.dexscreener.com/cms/images/jlWvCQHqbl08sNkQ?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    0,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 60200,
-   "vol": 2471987,
-   "mcap": 365050,
-   "holders": 14862,
-   "createdAt": 1791802454000,
-   "handle": "humph_sol",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/9pqrnahbkjd61kys2k4fenlcpvai5hu5jbmbesunhljz",
-   "scannedAt": 1792026339868
+   "scannedAt": 1792028705525
   }
  ]
 }
