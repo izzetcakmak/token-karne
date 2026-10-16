@@ -1,5 +1,5 @@
 {
- "updatedAt": 1792168837303,
+ "updatedAt": 1792170636291,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 224863,
-   "vol": 2065905,
-   "mcap": 4740702,
+   "liq": 225523,
+   "vol": 1498434,
+   "mcap": 4792865,
    "holders": 1194,
    "createdAt": 1792075556000,
    "handle": "dawgonbnb",
@@ -38,7 +38,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x9e83be1267e9a6d43bb7f3a8c0dc3c092ccae63e",
-   "scannedAt": 1792168756032
+   "scannedAt": 1792170554987
   },
   {
    "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
@@ -62,9 +62,9 @@
     1,
     null
    ],
-   "liq": 200621,
-   "vol": 172337,
-   "mcap": 3114705,
+   "liq": 199647,
+   "vol": 171365,
+   "mcap": 3110343,
    "holders": 14837,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -75,7 +75,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1792168754059
+   "scannedAt": 1792170556743
   },
   {
    "ca": "XtogpWjiAgvkemc5gr1auxkh77w3vKgSQN1nxJeJfHt",
@@ -99,9 +99,9 @@
     0,
     null
    ],
-   "liq": 189508,
-   "vol": 69418,
-   "mcap": 6142723,
+   "liq": 189450,
+   "vol": 68049,
+   "mcap": 6138973,
    "holders": 1500,
    "createdAt": 1791928902000,
    "handle": "xtruthoil",
@@ -112,7 +112,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/4pbedygxzvuvr94sgtjc6c5cx7nmgbdnv1x8ac9opj7o",
-   "scannedAt": 1792168758268
+   "scannedAt": 1792170558411
   },
   {
    "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
@@ -136,9 +136,9 @@
     1,
     null
    ],
-   "liq": 93460,
-   "vol": 555717,
-   "mcap": 849099,
+   "liq": 91455,
+   "vol": 551910,
+   "mcap": 820128,
    "holders": 2484,
    "createdAt": 1791314731000,
    "handle": "si276_xyz",
@@ -149,7 +149,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
-   "scannedAt": 1792168759872
+   "scannedAt": 1792170559952
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -173,9 +173,9 @@
     1,
     null
    ],
-   "liq": 77302,
-   "vol": 363675,
-   "mcap": 545915,
+   "liq": 75133,
+   "vol": 368199,
+   "mcap": 516320,
    "holders": 982,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -186,7 +186,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1792168761677
+   "scannedAt": 1792170562026
   },
   {
    "ca": "Diy4Q5aiNEcdn7CWhuwYtuoHtHD9rKBTHCa9hi4qpump",
@@ -210,9 +210,9 @@
     1,
     null
    ],
-   "liq": 46973,
-   "vol": 1157028,
-   "mcap": 250044,
+   "liq": 37905,
+   "vol": 834737,
+   "mcap": 166857,
    "holders": 1990,
    "createdAt": 1792080275000,
    "handle": "streamoors",
@@ -223,7 +223,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/91tcj2v9wfs11pkvyzkntswc35cb1tujxpkugsgnrjcq",
-   "scannedAt": 1792168763196
+   "scannedAt": 1792170563864
   },
   {
    "ca": "4qH8A5GxvRMZgpRFjXASc6U9HAoEzKeUqxY2dPB7pump",
@@ -247,9 +247,9 @@
     1,
     null
    ],
-   "liq": 38996,
-   "vol": 316846,
-   "mcap": 118271,
+   "liq": 35036,
+   "vol": 295667,
+   "mcap": 95687,
    "holders": 613,
    "createdAt": 1750018382000,
    "handle": "GrokletFanClub",
@@ -260,7 +260,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/7odjba4hzozvnwboksrwfetstnm4ia5witkwfr1lsy8t",
-   "scannedAt": 1792168765436
+   "scannedAt": 1792170565797
   }
  ]
 }
