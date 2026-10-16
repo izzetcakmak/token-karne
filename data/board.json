@@ -1,5 +1,5 @@
 {
- "updatedAt": 1792176220027,
+ "updatedAt": 1792177812058,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,10 +26,10 @@
     1,
     null
    ],
-   "liq": 226946,
-   "vol": 821464,
-   "mcap": 4844890,
-   "holders": 1190,
+   "liq": 221499,
+   "vol": 762824,
+   "mcap": 4631360,
+   "holders": 1183,
    "createdAt": 1792075556000,
    "handle": "dawgonbnb",
    "launchpad": null,
@@ -38,7 +38,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x9e83be1267e9a6d43bb7f3a8c0dc3c092ccae63e",
-   "scannedAt": 1792176117158
+   "scannedAt": 1792177726981
   },
   {
    "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
@@ -62,9 +62,9 @@
     1,
     null
    ],
-   "liq": 198769,
-   "vol": 176248,
-   "mcap": 3076775,
+   "liq": 197725,
+   "vol": 173971,
+   "mcap": 3074070,
    "holders": 14837,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -75,7 +75,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1792176115358
+   "scannedAt": 1792177729040
   },
   {
    "ca": "XtogpWjiAgvkemc5gr1auxkh77w3vKgSQN1nxJeJfHt",
@@ -99,9 +99,9 @@
     0,
     null
    ],
-   "liq": 187000,
-   "vol": 61126,
-   "mcap": 5981183,
+   "liq": 186422,
+   "vol": 61344,
+   "mcap": 5944266,
    "holders": 1500,
    "createdAt": 1791928902000,
    "handle": "xtruthoil",
@@ -112,7 +112,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/4pbedygxzvuvr94sgtjc6c5cx7nmgbdnv1x8ac9opj7o",
-   "scannedAt": 1792176118924
+   "scannedAt": 1792177731188
   },
   {
    "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
@@ -136,9 +136,9 @@
     1,
     null
    ],
-   "liq": 86969,
-   "vol": 528919,
-   "mcap": 741269,
+   "liq": 89400,
+   "vol": 528603,
+   "mcap": 789418,
    "holders": 2484,
    "createdAt": 1791314731000,
    "handle": "si276_xyz",
@@ -149,44 +149,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
-   "scannedAt": 1792176121478
-  },
-  {
-   "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
-   "chain": "solana",
-   "sym": "CBUCKS",
-   "name": "Cartoon Money",
-   "img": "https://cdn.dexscreener.com/cms/images/2bajn2a05AdQGV-4?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 76271,
-   "vol": 347765,
-   "mcap": 531434,
-   "holders": 982,
-   "createdAt": 1791311393000,
-   "handle": "cartoonmoney_ai",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1792176124608
+   "scannedAt": 1792177732838
   },
   {
    "ca": "Diy4Q5aiNEcdn7CWhuwYtuoHtHD9rKBTHCa9hi4qpump",
@@ -210,9 +173,9 @@
     1,
     null
    ],
-   "liq": 39118,
-   "vol": 582048,
-   "mcap": 164570,
+   "liq": 40148,
+   "vol": 573754,
+   "mcap": 174155,
    "holders": 1990,
    "createdAt": 1792080275000,
    "handle": "streamoors",
@@ -223,44 +186,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/91tcj2v9wfs11pkvyzkntswc35cb1tujxpkugsgnrjcq",
-   "scannedAt": 1792176127033
-  },
-  {
-   "ca": "GyWkSn2ah7dqLyPeZAjEZmfxuU2H4nwfGvgJhfYDVegn",
-   "chain": "solana",
-   "sym": "bul",
-   "name": "bul",
-   "img": "https://cdn.dexscreener.com/cms/images/7d_z63c4SxtYqfU9?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 30238,
-   "vol": 55168,
-   "mcap": 107719,
-   "holders": 683,
-   "createdAt": 1791221531000,
-   "handle": "bulonchain",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/cnwmuoehufxq2y1hfq67ttnks8zis3eujy6ksfsspsph",
-   "scannedAt": 1792176129732
+   "scannedAt": 1792177737014
   }
  ]
 }
