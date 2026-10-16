@@ -1,5 +1,5 @@
 {
- "updatedAt": 1792143670510,
+ "updatedAt": 1792145563231,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 210553,
-   "vol": 225981,
-   "mcap": 3362342,
+   "liq": 205726,
+   "vol": 213591,
+   "mcap": 3232560,
    "holders": 14672,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1792143603152
+   "scannedAt": 1792145486617
   },
   {
    "ca": "XtogpWjiAgvkemc5gr1auxkh77w3vKgSQN1nxJeJfHt",
@@ -63,9 +63,9 @@
     0,
     null
    ],
-   "liq": 192178,
-   "vol": 90762,
-   "mcap": 6317044,
+   "liq": 192089,
+   "vol": 90766,
+   "mcap": 6311152,
    "holders": 1500,
    "createdAt": 1791928902000,
    "handle": "xtruthoil",
@@ -76,44 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/4pbedygxzvuvr94sgtjc6c5cx7nmgbdnv1x8ac9opj7o",
-   "scannedAt": 1792143604569
-  },
-  {
-   "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
-   "chain": "solana",
-   "sym": "SI276",
-   "name": "Super Intelligence SI276",
-   "img": "https://cdn.dexscreener.com/cms/images/C00PG8ebjcD8d36M?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 108841,
-   "vol": 594432,
-   "mcap": 1128956,
-   "holders": 2345,
-   "createdAt": 1791314731000,
-   "handle": "si276_xyz",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
-   "scannedAt": 1792143605987
+   "scannedAt": 1792145488035
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -137,9 +100,9 @@
     1,
     null
    ],
-   "liq": 75067,
-   "vol": 280375,
-   "mcap": 518118,
+   "liq": 77663,
+   "vol": 281513,
+   "mcap": 553963,
    "holders": 982,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -150,7 +113,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1792143607400
+   "scannedAt": 1792145490871
   },
   {
    "ca": "4qH8A5GxvRMZgpRFjXASc6U9HAoEzKeUqxY2dPB7pump",
@@ -174,9 +137,9 @@
     1,
     null
    ],
-   "liq": 46635,
-   "vol": 2504110,
-   "mcap": 167202,
+   "liq": 46314,
+   "vol": 2506485,
+   "mcap": 166002,
    "holders": 613,
    "createdAt": 1750018382000,
    "handle": "GrokletFanClub",
@@ -187,7 +150,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/7odjba4hzozvnwboksrwfetstnm4ia5witkwfr1lsy8t",
-   "scannedAt": 1792143608847
+   "scannedAt": 1792145492369
   }
  ]
 }
