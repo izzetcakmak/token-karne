@@ -1,5 +1,5 @@
 {
- "updatedAt": 1792115144375,
+ "updatedAt": 1792116986429,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 195612,
-   "vol": 329281,
-   "mcap": 2945028,
+   "liq": 195627,
+   "vol": 314270,
+   "mcap": 2942123,
    "holders": 14672,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1792115066194
+   "scannedAt": 1792116911958
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 70545,
-   "vol": 190724,
-   "mcap": 460586,
+   "liq": 71684,
+   "vol": 191406,
+   "mcap": 475318,
    "holders": 824,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1792115067840
+   "scannedAt": 1792116913379
   },
   {
    "ca": "XtogpWjiAgvkemc5gr1auxkh77w3vKgSQN1nxJeJfHt",
@@ -100,9 +100,9 @@
     0,
     null
    ],
-   "liq": 185270,
-   "vol": 88259,
-   "mcap": 5870974,
+   "liq": 184948,
+   "vol": 80951,
+   "mcap": 5850587,
    "holders": 1389,
    "createdAt": 1791928902000,
    "handle": "xtruthoil",
@@ -113,7 +113,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/4pbedygxzvuvr94sgtjc6c5cx7nmgbdnv1x8ac9opj7o",
-   "scannedAt": 1792115069306
+   "scannedAt": 1792116914818
   },
   {
    "ca": "9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump",
@@ -137,9 +137,9 @@
     1,
     null
    ],
-   "liq": 84011,
-   "vol": 166215,
-   "mcap": 429287,
+   "liq": 88381,
+   "vol": 166804,
+   "mcap": 474347,
    "holders": 4056,
    "createdAt": 1791150590000,
    "handle": "gomo_family",
@@ -150,7 +150,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5a7qurjlart146jajjype5nh6vlyfpn2qrhuslqbsczy",
-   "scannedAt": 1792115072542
+   "scannedAt": 1792116916252
   },
   {
    "ca": "4qH8A5GxvRMZgpRFjXASc6U9HAoEzKeUqxY2dPB7pump",
@@ -174,9 +174,9 @@
     1,
     null
    ],
-   "liq": 60444,
-   "vol": 2401043,
-   "mcap": 316231,
+   "liq": 56056,
+   "vol": 2411904,
+   "mcap": 266625,
    "holders": 613,
    "createdAt": 1750018382000,
    "handle": "GrokletFanClub",
@@ -187,7 +187,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/7odjba4hzozvnwboksrwfetstnm4ia5witkwfr1lsy8t",
-   "scannedAt": 1792115074004
+   "scannedAt": 1792116917737
   },
   {
    "ca": "5GDX5fJTQns4arM1J94wjxdA8KXFsV5qW46MLFpHpump",
@@ -211,9 +211,9 @@
     1,
     null
    ],
-   "liq": 43045,
-   "vol": 432203,
-   "mcap": 642566,
+   "liq": 43041,
+   "vol": 421686,
+   "mcap": 630727,
    "holders": 2887,
    "createdAt": 1790983808000,
    "handle": "omnizec",
@@ -224,7 +224,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/hvyaoajjmvgomaqihtmm4hdbsh7qblkhornljznbzke7",
-   "scannedAt": 1792115075515
+   "scannedAt": 1792116919226
   },
   {
    "ca": "F4GpAFr6vrxU3Y887F3XWkXRgybCVjZNk63m72f6pump",
@@ -248,9 +248,9 @@
     1,
     null
    ],
-   "liq": 33526,
-   "vol": 50294,
-   "mcap": 48100,
+   "liq": 30294,
+   "vol": 51887,
+   "mcap": 39273,
    "holders": 4647,
    "createdAt": 1784006805000,
    "handle": "trumpcoinonx",
@@ -261,44 +261,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/fpjfwz3ngfvywkpdxzqm8qaljzmy6u3ngaa8nc7sndag",
-   "scannedAt": 1792115077424
-  },
-  {
-   "ca": "4jjQjDRYd7xLcFMViRsz4GvtgU6gPZgbVaxN3Rq9pump",
-   "chain": "solana",
-   "sym": "PONK",
-   "name": "Pepe Bonk",
-   "img": "https://cdn.dexscreener.com/cms/images/KJSwLZ-KogmfrLWt?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 31840,
-   "vol": 504285,
-   "mcap": 134463,
-   "holders": 2617,
-   "createdAt": 1792026717000,
-   "handle": "PEPEBONKK",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/edjt1eqfx2xblmjdqyr2whcs3vzrh2brxg2bmqxpafw4",
-   "scannedAt": 1792115131075
+   "scannedAt": 1792116920674
   }
  ]
 }
