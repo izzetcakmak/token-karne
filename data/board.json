@@ -1,5 +1,5 @@
 {
- "updatedAt": 1792156338934,
+ "updatedAt": 1792158077625,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 200328,
-   "vol": 170962,
-   "mcap": 3074242,
+   "liq": 198746,
+   "vol": 169048,
+   "mcap": 3033727,
    "holders": 14837,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1792156268017
+   "scannedAt": 1792157989304
   },
   {
    "ca": "XtogpWjiAgvkemc5gr1auxkh77w3vKgSQN1nxJeJfHt",
@@ -63,9 +63,9 @@
     0,
     null
    ],
-   "liq": 187795,
-   "vol": 93842,
-   "mcap": 6032150,
+   "liq": 188626,
+   "vol": 92700,
+   "mcap": 6085648,
    "holders": 1500,
    "createdAt": 1791928902000,
    "handle": "xtruthoil",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/4pbedygxzvuvr94sgtjc6c5cx7nmgbdnv1x8ac9opj7o",
-   "scannedAt": 1792156266467
+   "scannedAt": 1792157991392
   },
   {
    "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
@@ -100,9 +100,9 @@
     1,
     null
    ],
-   "liq": 105497,
-   "vol": 539514,
-   "mcap": 1070382,
+   "liq": 96569,
+   "vol": 565479,
+   "mcap": 897729,
    "holders": 2345,
    "createdAt": 1791314731000,
    "handle": "si276_xyz",
@@ -113,7 +113,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
-   "scannedAt": 1792156269584
+   "scannedAt": 1792157993668
   },
   {
    "ca": "4qH8A5GxvRMZgpRFjXASc6U9HAoEzKeUqxY2dPB7pump",
@@ -137,9 +137,9 @@
     1,
     null
    ],
-   "liq": 44681,
-   "vol": 975517,
-   "mcap": 154568,
+   "liq": 44384,
+   "vol": 881441,
+   "mcap": 152705,
    "holders": 613,
    "createdAt": 1750018382000,
    "handle": "GrokletFanClub",
@@ -150,7 +150,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/7odjba4hzozvnwboksrwfetstnm4ia5witkwfr1lsy8t",
-   "scannedAt": 1792156271032
+   "scannedAt": 1792157995903
   }
  ]
 }
