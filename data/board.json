@@ -1,5 +1,5 @@
 {
- "updatedAt": 1792158077625,
+ "updatedAt": 1792159974490,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 198746,
-   "vol": 169048,
-   "mcap": 3033727,
+   "liq": 198566,
+   "vol": 169804,
+   "mcap": 3019914,
    "holders": 14837,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1792157989304
+   "scannedAt": 1792159903619
   },
   {
    "ca": "XtogpWjiAgvkemc5gr1auxkh77w3vKgSQN1nxJeJfHt",
@@ -63,9 +63,9 @@
     0,
     null
    ],
-   "liq": 188626,
-   "vol": 92700,
-   "mcap": 6085648,
+   "liq": 190374,
+   "vol": 93441,
+   "mcap": 6199010,
    "holders": 1500,
    "createdAt": 1791928902000,
    "handle": "xtruthoil",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/4pbedygxzvuvr94sgtjc6c5cx7nmgbdnv1x8ac9opj7o",
-   "scannedAt": 1792157991392
+   "scannedAt": 1792159905116
   },
   {
    "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
@@ -100,9 +100,9 @@
     1,
     null
    ],
-   "liq": 96569,
-   "vol": 565479,
-   "mcap": 897729,
+   "liq": 99980,
+   "vol": 564162,
+   "mcap": 960999,
    "holders": 2345,
    "createdAt": 1791314731000,
    "handle": "si276_xyz",
@@ -113,7 +113,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
-   "scannedAt": 1792157993668
+   "scannedAt": 1792159906581
+  },
+  {
+   "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
+   "chain": "solana",
+   "sym": "CBUCKS",
+   "name": "Cartoon Money",
+   "img": "https://cdn.dexscreener.com/cms/images/2bajn2a05AdQGV-4?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 80710,
+   "vol": 312725,
+   "mcap": 596649,
+   "holders": 982,
+   "createdAt": 1791311393000,
+   "handle": "cartoonmoney_ai",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
+   "scannedAt": 1792159959945
   },
   {
    "ca": "4qH8A5GxvRMZgpRFjXASc6U9HAoEzKeUqxY2dPB7pump",
@@ -137,9 +174,9 @@
     1,
     null
    ],
-   "liq": 44384,
-   "vol": 881441,
-   "mcap": 152705,
+   "liq": 45312,
+   "vol": 776646,
+   "mcap": 158935,
    "holders": 613,
    "createdAt": 1750018382000,
    "handle": "GrokletFanClub",
@@ -150,7 +187,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/7odjba4hzozvnwboksrwfetstnm4ia5witkwfr1lsy8t",
-   "scannedAt": 1792157995903
+   "scannedAt": 1792159908068
   }
  ]
 }
