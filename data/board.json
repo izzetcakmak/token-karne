@@ -1,5 +1,5 @@
 {
- "updatedAt": 1792107352491,
+ "updatedAt": 1792110511700,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 68507,
-   "vol": 185561,
-   "mcap": 434762,
+   "liq": 71367,
+   "vol": 188952,
+   "mcap": 471208,
    "holders": 824,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1792107286527
+   "scannedAt": 1792110439890
   },
   {
    "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 193018,
-   "vol": 345497,
-   "mcap": 2869248,
+   "liq": 197284,
+   "vol": 342986,
+   "mcap": 2991979,
    "holders": 14490,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1792107287961
+   "scannedAt": 1792110441336
   },
   {
    "ca": "XtogpWjiAgvkemc5gr1auxkh77w3vKgSQN1nxJeJfHt",
@@ -100,9 +100,9 @@
     0,
     null
    ],
-   "liq": 186534,
-   "vol": 90183,
-   "mcap": 5951366,
+   "liq": 183399,
+   "vol": 90192,
+   "mcap": 5752962,
    "holders": 1389,
    "createdAt": 1791928902000,
    "handle": "xtruthoil",
@@ -113,7 +113,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/4pbedygxzvuvr94sgtjc6c5cx7nmgbdnv1x8ac9opj7o",
-   "scannedAt": 1792107285067
+   "scannedAt": 1792110442821
   },
   {
    "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
@@ -137,9 +137,9 @@
     1,
     null
    ],
-   "liq": 99666,
-   "vol": 571468,
-   "mcap": 968822,
+   "liq": 96128,
+   "vol": 605204,
+   "mcap": 900578,
    "holders": 2377,
    "createdAt": 1791314731000,
    "handle": "si276_xyz",
@@ -150,7 +150,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
-   "scannedAt": 1792107290827
+   "scannedAt": 1792110444245
   },
   {
    "ca": "9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump",
@@ -174,9 +174,9 @@
     1,
     null
    ],
-   "liq": 93198,
-   "vol": 147919,
-   "mcap": 541338,
+   "liq": 88866,
+   "vol": 156655,
+   "mcap": 474584,
    "holders": 4056,
    "createdAt": 1791150590000,
    "handle": "gomo_family",
@@ -187,7 +187,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5a7qurjlart146jajjype5nh6vlyfpn2qrhuslqbsczy",
-   "scannedAt": 1792107289404
+   "scannedAt": 1792110445673
   },
   {
    "ca": "4qH8A5GxvRMZgpRFjXASc6U9HAoEzKeUqxY2dPB7pump",
@@ -211,9 +211,9 @@
     1,
     null
    ],
-   "liq": 56543,
-   "vol": 2381081,
-   "mcap": 281042,
+   "liq": 57392,
+   "vol": 2388594,
+   "mcap": 280673,
    "holders": 613,
    "createdAt": 1750018382000,
    "handle": "GrokletFanClub",
@@ -224,7 +224,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/7odjba4hzozvnwboksrwfetstnm4ia5witkwfr1lsy8t",
-   "scannedAt": 1792107292286
+   "scannedAt": 1792110447098
   },
   {
    "ca": "5GDX5fJTQns4arM1J94wjxdA8KXFsV5qW46MLFpHpump",
@@ -248,9 +248,9 @@
     1,
     null
    ],
-   "liq": 45357,
-   "vol": 579834,
-   "mcap": 574599,
+   "liq": 44925,
+   "vol": 490233,
+   "mcap": 581290,
    "holders": 2887,
    "createdAt": 1790983808000,
    "handle": "omnizec",
@@ -261,7 +261,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/hvyaoajjmvgomaqihtmm4hdbsh7qblkhornljznbzke7",
-   "scannedAt": 1792107293709
+   "scannedAt": 1792110448532
   },
   {
    "ca": "F4GpAFr6vrxU3Y887F3XWkXRgybCVjZNk63m72f6pump",
@@ -285,9 +285,9 @@
     1,
     null
    ],
-   "liq": 33153,
-   "vol": 45644,
-   "mcap": 47038,
+   "liq": 34634,
+   "vol": 49351,
+   "mcap": 51332,
    "holders": 4647,
    "createdAt": 1784006805000,
    "handle": "trumpcoinonx",
@@ -298,7 +298,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/fpjfwz3ngfvywkpdxzqm8qaljzmy6u3ngaa8nc7sndag",
-   "scannedAt": 1792107295134
+   "scannedAt": 1792110449958
   }
  ]
 }
