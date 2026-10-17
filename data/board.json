@@ -1,5 +1,5 @@
 {
- "updatedAt": 1792272965328,
+ "updatedAt": 1792275006139,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 208879,
-   "vol": 258603,
-   "mcap": 3421849,
+   "liq": 207844,
+   "vol": 258528,
+   "mcap": 3371752,
    "holders": 15632,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1792272890850
+   "scannedAt": 1792274925796
   },
   {
    "ca": "0x7d03759E5B41E36899833cb2E008455d69A24444",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 114834,
-   "vol": 77615,
-   "mcap": 207207,
+   "liq": 114127,
+   "vol": 77339,
+   "mcap": 205875,
    "holders": 72619,
    "createdAt": 1757345211000,
    "handle": "PricelessBSC_",
@@ -75,7 +75,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x3dc2878f9f60476dbbb18af7531fbe1a603c8dc0",
-   "scannedAt": 1792272892428
+   "scannedAt": 1792274927298
   },
   {
    "ca": "0x7D0443CdDFc8E11AF105F4fE44Dd28c630237777",
@@ -99,10 +99,10 @@
     1,
     null
    ],
-   "liq": 212309,
-   "vol": 702352,
-   "mcap": 4234618,
-   "holders": 1400,
+   "liq": 212476,
+   "vol": 701936,
+   "mcap": 4239977,
+   "holders": 1399,
    "createdAt": 1792075556000,
    "handle": "dawgonbnb",
    "launchpad": null,
@@ -111,44 +111,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x9e83be1267e9a6d43bb7f3a8c0dc3c092ccae63e",
-   "scannedAt": 1792272894311
-  },
-  {
-   "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
-   "chain": "solana",
-   "sym": "CBUCKS",
-   "name": "Cartoon Money",
-   "img": "https://cdn.dexscreener.com/cms/images/2bajn2a05AdQGV-4?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 87792,
-   "vol": 106590,
-   "mcap": 724468,
-   "holders": 1159,
-   "createdAt": 1791311393000,
-   "handle": "cartoonmoney_ai",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1792272895800
+   "scannedAt": 1792274928943
   },
   {
    "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
@@ -172,9 +135,9 @@
     1,
     null
    ],
-   "liq": 79858,
-   "vol": 237558,
-   "mcap": 628335,
+   "liq": 80085,
+   "vol": 241725,
+   "mcap": 629598,
    "holders": 2395,
    "createdAt": 1791314731000,
    "handle": "si276_xyz",
@@ -185,7 +148,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
-   "scannedAt": 1792272897686
+   "scannedAt": 1792274932775
   },
   {
    "ca": "0x8bbf486a9F2b535C4EF09C665a807859CfE92d83",
@@ -209,9 +172,9 @@
     0,
     null
    ],
-   "liq": 41534,
-   "vol": 5221,
-   "mcap": 89779,
+   "liq": 40674,
+   "vol": 5285,
+   "mcap": 87640,
    "holders": 1176,
    "createdAt": 1743547547000,
    "handle": "KekmaximusaEth",
@@ -221,7 +184,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/ethereum/0x7527bb40203df5e3d96713f1e0a5d7a8c9d367d4",
-   "scannedAt": 1792272899286
+   "scannedAt": 1792274934478
   },
   {
    "ca": "4qH8A5GxvRMZgpRFjXASc6U9HAoEzKeUqxY2dPB7pump",
@@ -245,9 +208,9 @@
     1,
     null
    ],
-   "liq": 39942,
-   "vol": 52167,
-   "mcap": 142977,
+   "liq": 38724,
+   "vol": 52388,
+   "mcap": 134278,
    "holders": 613,
    "createdAt": 1750018382000,
    "handle": "GrokletFanClub",
@@ -258,7 +221,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/7odjba4hzozvnwboksrwfetstnm4ia5witkwfr1lsy8t",
-   "scannedAt": 1792272901059
+   "scannedAt": 1792274936446
   }
  ]
 }
