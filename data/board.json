@@ -1,5 +1,5 @@
 {
- "updatedAt": 1792244168286,
+ "updatedAt": 1792246237881,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 194832,
-   "vol": 250537,
-   "mcap": 2934129,
+   "liq": 203475,
+   "vol": 253682,
+   "mcap": 3202056,
    "holders": 15632,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -39,43 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1792244091279
-  },
-  {
-   "ca": "0x7d03759E5B41E36899833cb2E008455d69A24444",
-   "chain": "bsc",
-   "sym": "priceless",
-   "name": "priceless",
-   "img": "https://cdn.dexscreener.com/cms/images/6RackrQPX19fEOB8?width=800&height=800&quality=95&format=auto",
-   "score": 10,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 117961,
-   "vol": 70468,
-   "mcap": 217811,
-   "holders": 72618,
-   "createdAt": 1757345211000,
-   "handle": "PricelessBSC_",
-   "launchpad": null,
-   "flags": 0,
-   "sources": [
-    "GoPlus"
-   ],
-   "url": "https://dexscreener.com/bsc/0x3dc2878f9f60476dbbb18af7531fbe1a603c8dc0",
-   "scannedAt": 1792244087256
+   "scannedAt": 1792246149241
   },
   {
    "ca": "0x7D0443CdDFc8E11AF105F4fE44Dd28c630237777",
@@ -99,9 +63,9 @@
     1,
     null
    ],
-   "liq": 236181,
-   "vol": 747305,
-   "mcap": 5213314,
+   "liq": 233544,
+   "vol": 745196,
+   "mcap": 5092644,
    "holders": 1322,
    "createdAt": 1792075556000,
    "handle": "dawgonbnb",
@@ -111,7 +75,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x9e83be1267e9a6d43bb7f3a8c0dc3c092ccae63e",
-   "scannedAt": 1792244089321
+   "scannedAt": 1792246154493
   },
   {
    "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
@@ -135,9 +99,9 @@
     1,
     null
    ],
-   "liq": 91223,
-   "vol": 313721,
-   "mcap": 804450,
+   "liq": 94556,
+   "vol": 278361,
+   "mcap": 864564,
    "holders": 2386,
    "createdAt": 1791314731000,
    "handle": "si276_xyz",
@@ -148,7 +112,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
-   "scannedAt": 1792244092924
+   "scannedAt": 1792246156721
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -172,9 +136,9 @@
     1,
     null
    ],
-   "liq": 77567,
-   "vol": 157836,
-   "mcap": 571101,
+   "liq": 72574,
+   "vol": 155982,
+   "mcap": 502040,
    "holders": 1092,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -185,43 +149,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1792244094895
-  },
-  {
-   "ca": "0x8bbf486a9F2b535C4EF09C665a807859CfE92d83",
-   "chain": "ethereum",
-   "sym": "MAXIMUSA",
-   "name": "Kekius Maximusa",
-   "img": "https://cdn.dexscreener.com/cms/images/42d5efae71ca54cc59be0746c487cabd70f2b06491611ea4bdf739fc80386f3a?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    1,
-    1,
-    1,
-    0,
-    null
-   ],
-   "liq": 35079,
-   "vol": 533,
-   "mcap": 63895,
-   "holders": 1171,
-   "createdAt": 1743547547000,
-   "handle": "KekmaximusaEth",
-   "launchpad": null,
-   "flags": 0,
-   "sources": [
-    "GoPlus"
-   ],
-   "url": "https://dexscreener.com/ethereum/0x7527bb40203df5e3d96713f1e0a5d7a8c9d367d4",
-   "scannedAt": 1792244096482
+   "scannedAt": 1792246159044
   }
  ]
 }
