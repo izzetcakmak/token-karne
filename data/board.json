@@ -1,9 +1,45 @@
 {
- "updatedAt": 1792240970145,
+ "updatedAt": 1792242609762,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
  "items": [
+  {
+   "ca": "0x7d03759E5B41E36899833cb2E008455d69A24444",
+   "chain": "bsc",
+   "sym": "priceless",
+   "name": "priceless",
+   "img": "https://cdn.dexscreener.com/cms/images/6RackrQPX19fEOB8?width=800&height=800&quality=95&format=auto",
+   "score": 10,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 117985,
+   "vol": 69271,
+   "mcap": 217961,
+   "holders": 72613,
+   "createdAt": 1757345211000,
+   "handle": "PricelessBSC_",
+   "launchpad": null,
+   "flags": 0,
+   "sources": [
+    "GoPlus"
+   ],
+   "url": "https://dexscreener.com/bsc/0x3dc2878f9f60476dbbb18af7531fbe1a603c8dc0",
+   "scannedAt": 1792242564564
+  },
   {
    "ca": "0x7D0443CdDFc8E11AF105F4fE44Dd28c630237777",
    "chain": "bsc",
@@ -26,9 +62,9 @@
     1,
     null
    ],
-   "liq": 236773,
-   "vol": 785780,
-   "mcap": 5239500,
+   "liq": 237139,
+   "vol": 763266,
+   "mcap": 5256476,
    "holders": 1322,
    "createdAt": 1792075556000,
    "handle": "dawgonbnb",
@@ -38,7 +74,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x9e83be1267e9a6d43bb7f3a8c0dc3c092ccae63e",
-   "scannedAt": 1792240893302
+   "scannedAt": 1792242539009
   },
   {
    "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
@@ -62,9 +98,9 @@
     1,
     null
    ],
-   "liq": 197792,
-   "vol": 250499,
-   "mcap": 3018044,
+   "liq": 196659,
+   "vol": 248840,
+   "mcap": 2990584,
    "holders": 15632,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -75,7 +111,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1792240891657
+   "scannedAt": 1792242541044
   },
   {
    "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
@@ -99,9 +135,9 @@
     1,
     null
    ],
-   "liq": 92103,
-   "vol": 312782,
-   "mcap": 818853,
+   "liq": 91954,
+   "vol": 313756,
+   "mcap": 818982,
    "holders": 2386,
    "createdAt": 1791314731000,
    "handle": "si276_xyz",
@@ -112,7 +148,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
-   "scannedAt": 1792240894831
+   "scannedAt": 1792242542498
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -136,9 +172,9 @@
     1,
     null
    ],
-   "liq": 78014,
-   "vol": 159155,
-   "mcap": 577619,
+   "liq": 78057,
+   "vol": 158382,
+   "mcap": 578079,
    "holders": 1092,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -149,7 +185,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1792240896286
+   "scannedAt": 1792242543937
   },
   {
    "ca": "0x8bbf486a9F2b535C4EF09C665a807859CfE92d83",
@@ -173,9 +209,9 @@
     0,
     null
    ],
-   "liq": 35076,
-   "vol": 441,
-   "mcap": 63554,
+   "liq": 35079,
+   "vol": 533,
+   "mcap": 63895,
    "holders": 1171,
    "createdAt": 1743547547000,
    "handle": "KekmaximusaEth",
@@ -185,7 +221,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/ethereum/0x7527bb40203df5e3d96713f1e0a5d7a8c9d367d4",
-   "scannedAt": 1792240898503
+   "scannedAt": 1792242545387
   }
  ]
 }
