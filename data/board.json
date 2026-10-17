@@ -1,5 +1,5 @@
 {
- "updatedAt": 1792215534940,
+ "updatedAt": 1792217881161,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 198956,
-   "vol": 238992,
-   "mcap": 3044198,
+   "liq": 190215,
+   "vol": 240711,
+   "mcap": 2782133,
    "holders": 15170,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1792215461660
+   "scannedAt": 1792217808546
   },
   {
    "ca": "0x7D0443CdDFc8E11AF105F4fE44Dd28c630237777",
@@ -63,10 +63,10 @@
     1,
     null
    ],
-   "liq": 249022,
-   "vol": 1044906,
-   "mcap": 5783413,
-   "holders": 1198,
+   "liq": 246347,
+   "vol": 1108525,
+   "mcap": 5654845,
+   "holders": 1273,
    "createdAt": 1792075556000,
    "handle": "dawgonbnb",
    "launchpad": null,
@@ -75,14 +75,14 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x9e83be1267e9a6d43bb7f3a8c0dc3c092ccae63e",
-   "scannedAt": 1792215459921
+   "scannedAt": 1792217809960
   },
   {
-   "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
+   "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
    "chain": "solana",
-   "sym": "SI276",
-   "name": "Super Intelligence SI276",
-   "img": "https://cdn.dexscreener.com/cms/images/C00PG8ebjcD8d36M?width=800&height=800&quality=95&format=auto",
+   "sym": "CBUCKS",
+   "name": "Cartoon Money",
+   "img": "https://cdn.dexscreener.com/cms/images/2bajn2a05AdQGV-4?width=800&height=800&quality=95&format=auto",
    "score": 9,
    "unknown": 1,
    "answers": [
@@ -99,20 +99,57 @@
     1,
     null
    ],
-   "liq": 92278,
-   "vol": 318955,
-   "mcap": 821232,
-   "holders": 2386,
-   "createdAt": 1791314731000,
-   "handle": "si276_xyz",
+   "liq": 74374,
+   "vol": 194824,
+   "mcap": 527055,
+   "holders": 1064,
+   "createdAt": 1791311393000,
+   "handle": "cartoonmoney_ai",
    "launchpad": "Pump.Fun",
    "flags": 0,
    "sources": [
     "GoPlus",
     "RugCheck"
    ],
-   "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
-   "scannedAt": 1792215463089
+   "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
+   "scannedAt": 1792217869548
+  },
+  {
+   "ca": "Fak3rJEBfR4Vb8DoFpecf6yoxbkkr1gGUH5tdj2rpump",
+   "chain": "solana",
+   "sym": "MarsX",
+   "name": "MarsX",
+   "img": "https://cdn.dexscreener.com/cms/images/6gTC85ScZZPvrVkc?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 30227,
+   "vol": 275904,
+   "mcap": 78717,
+   "holders": 2047,
+   "createdAt": 1791826718000,
+   "handle": "marsxpf",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/9dsiuydk5efrclk6veywy95nn3jjgbdwnijuacf1pxua",
+   "scannedAt": 1792217843677
   }
  ]
 }
