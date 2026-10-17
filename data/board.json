@@ -1,5 +1,5 @@
 {
- "updatedAt": 1792265783307,
+ "updatedAt": 1792267893735,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 214226,
-   "vol": 257063,
-   "mcap": 3542512,
+   "liq": 212704,
+   "vol": 260022,
+   "mcap": 3488961,
    "holders": 15632,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1792265702796
+   "scannedAt": 1792267811688
   },
   {
    "ca": "0x7d03759E5B41E36899833cb2E008455d69A24444",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 114541,
-   "vol": 77566,
-   "mcap": 206510,
+   "liq": 114728,
+   "vol": 77570,
+   "mcap": 206863,
    "holders": 72618,
    "createdAt": 1757345211000,
    "handle": "PricelessBSC_",
@@ -75,7 +75,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x3dc2878f9f60476dbbb18af7531fbe1a603c8dc0",
-   "scannedAt": 1792265701220
+   "scannedAt": 1792267813256
   },
   {
    "ca": "0x7D0443CdDFc8E11AF105F4fE44Dd28c630237777",
@@ -99,10 +99,10 @@
     1,
     null
    ],
-   "liq": 207796,
-   "vol": 726173,
-   "mcap": 4045399,
-   "holders": 1380,
+   "liq": 210749,
+   "vol": 726620,
+   "mcap": 4154630,
+   "holders": 1400,
    "createdAt": 1792075556000,
    "handle": "dawgonbnb",
    "launchpad": null,
@@ -111,7 +111,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x9e83be1267e9a6d43bb7f3a8c0dc3c092ccae63e",
-   "scannedAt": 1792265704793
+   "scannedAt": 1792267814872
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -135,9 +135,9 @@
     1,
     null
    ],
-   "liq": 86698,
-   "vol": 99350,
-   "mcap": 707771,
+   "liq": 85245,
+   "vol": 100072,
+   "mcap": 684599,
    "holders": 1159,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -148,14 +148,14 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1792265706781
+   "scannedAt": 1792267816608
   },
   {
-   "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
+   "ca": "4qH8A5GxvRMZgpRFjXASc6U9HAoEzKeUqxY2dPB7pump",
    "chain": "solana",
-   "sym": "SI276",
-   "name": "Super Intelligence SI276",
-   "img": "https://cdn.dexscreener.com/cms/images/C00PG8ebjcD8d36M?width=800&height=800&quality=95&format=auto",
+   "sym": "Groklet",
+   "name": "Grok Mascot",
+   "img": "https://cdn.dexscreener.com/cms/images/vMgQT0MJrnr87TkG?width=800&height=800&quality=95&format=auto",
    "score": 9,
    "unknown": 1,
    "answers": [
@@ -172,20 +172,20 @@
     1,
     null
    ],
-   "liq": 83275,
-   "vol": 220825,
-   "mcap": 672450,
-   "holders": 2395,
-   "createdAt": 1791314731000,
-   "handle": "si276_xyz",
+   "liq": 41292,
+   "vol": 51196,
+   "mcap": 150907,
+   "holders": 613,
+   "createdAt": 1750018382000,
+   "handle": "GrokletFanClub",
    "launchpad": "Pump.Fun",
    "flags": 0,
    "sources": [
     "GoPlus",
     "RugCheck"
    ],
-   "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
-   "scannedAt": 1792265708292
+   "url": "https://dexscreener.com/solana/7odjba4hzozvnwboksrwfetstnm4ia5witkwfr1lsy8t",
+   "scannedAt": 1792267824537
   },
   {
    "ca": "0x8bbf486a9F2b535C4EF09C665a807859CfE92d83",
@@ -209,9 +209,9 @@
     0,
     null
    ],
-   "liq": 37676,
-   "vol": 1947,
-   "mcap": 73998,
+   "liq": 40452,
+   "vol": 3319,
+   "mcap": 85216,
    "holders": 1173,
    "createdAt": 1743547547000,
    "handle": "KekmaximusaEth",
@@ -221,7 +221,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/ethereum/0x7527bb40203df5e3d96713f1e0a5d7a8c9d367d4",
-   "scannedAt": 1792265710022
+   "scannedAt": 1792267820746
   }
  ]
 }
