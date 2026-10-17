@@ -1,8 +1,8 @@
 {
- "updatedAt": 1792255104607,
+ "updatedAt": 1792257005799,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 44,
+ "scanned": 45,
  "items": [
   {
    "ca": "0x7d03759E5B41E36899833cb2E008455d69A24444",
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 115873,
-   "vol": 75666,
-   "mcap": 211852,
+   "liq": 115372,
+   "vol": 75991,
+   "mcap": 210652,
    "holders": 72619,
    "createdAt": 1757345211000,
    "handle": "PricelessBSC_",
@@ -38,7 +38,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x3dc2878f9f60476dbbb18af7531fbe1a603c8dc0",
-   "scannedAt": 1792255026974
+   "scannedAt": 1792256934118
   },
   {
    "ca": "0x7D0443CdDFc8E11AF105F4fE44Dd28c630237777",
@@ -62,9 +62,9 @@
     1,
     null
    ],
-   "liq": 204850,
-   "vol": 756600,
-   "mcap": 3946349,
+   "liq": 207527,
+   "vol": 774107,
+   "mcap": 4062358,
    "holders": 1335,
    "createdAt": 1792075556000,
    "handle": "dawgonbnb",
@@ -74,44 +74,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x9e83be1267e9a6d43bb7f3a8c0dc3c092ccae63e",
-   "scannedAt": 1792255028530
-  },
-  {
-   "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
-   "chain": "solana",
-   "sym": "SI276",
-   "name": "Super Intelligence SI276",
-   "img": "https://cdn.dexscreener.com/cms/images/C00PG8ebjcD8d36M?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 89127,
-   "vol": 244963,
-   "mcap": 773288,
-   "holders": 2395,
-   "createdAt": 1791314731000,
-   "handle": "si276_xyz",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
-   "scannedAt": 1792255030167
+   "scannedAt": 1792256935648
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -135,9 +98,9 @@
     1,
     null
    ],
-   "liq": 76391,
-   "vol": 100900,
-   "mcap": 554169,
+   "liq": 78991,
+   "vol": 96629,
+   "mcap": 590950,
    "holders": 1092,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -148,7 +111,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1792255031841
+   "scannedAt": 1792256938820
   },
   {
    "ca": "0x8bbf486a9F2b535C4EF09C665a807859CfE92d83",
@@ -172,9 +135,9 @@
     0,
     null
    ],
-   "liq": 35113,
-   "vol": 550,
-   "mcap": 64017,
+   "liq": 37551,
+   "vol": 1941,
+   "mcap": 73922,
    "holders": 1172,
    "createdAt": 1743547547000,
    "handle": "KekmaximusaEth",
@@ -184,7 +147,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/ethereum/0x7527bb40203df5e3d96713f1e0a5d7a8c9d367d4",
-   "scannedAt": 1792255033781
+   "scannedAt": 1792256940307
   }
  ]
 }
