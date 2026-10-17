@@ -1,5 +1,5 @@
 {
- "updatedAt": 1792260757845,
+ "updatedAt": 1792262397586,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 207913,
-   "vol": 254335,
-   "mcap": 3351981,
+   "liq": 209840,
+   "vol": 251410,
+   "mcap": 3403663,
    "holders": 15632,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1792260699519
+   "scannedAt": 1792262316367
   },
   {
    "ca": "0x7d03759E5B41E36899833cb2E008455d69A24444",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 114108,
-   "vol": 77141,
-   "mcap": 205203,
+   "liq": 113897,
+   "vol": 77222,
+   "mcap": 204402,
    "holders": 72616,
    "createdAt": 1757345211000,
    "handle": "PricelessBSC_",
@@ -75,7 +75,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x3dc2878f9f60476dbbb18af7531fbe1a603c8dc0",
-   "scannedAt": 1792260686709
+   "scannedAt": 1792262318027
   },
   {
    "ca": "0x7D0443CdDFc8E11AF105F4fE44Dd28c630237777",
@@ -99,10 +99,10 @@
     1,
     null
    ],
-   "liq": 202922,
-   "vol": 793014,
-   "mcap": 3862760,
-   "holders": 1335,
+   "liq": 203188,
+   "vol": 790992,
+   "mcap": 3872335,
+   "holders": 1380,
    "createdAt": 1792075556000,
    "handle": "dawgonbnb",
    "launchpad": null,
@@ -111,44 +111,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x9e83be1267e9a6d43bb7f3a8c0dc3c092ccae63e",
-   "scannedAt": 1792260688158
-  },
-  {
-   "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
-   "chain": "solana",
-   "sym": "SI276",
-   "name": "Super Intelligence SI276",
-   "img": "https://cdn.dexscreener.com/cms/images/C00PG8ebjcD8d36M?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 85356,
-   "vol": 234359,
-   "mcap": 708613,
-   "holders": 2395,
-   "createdAt": 1791314731000,
-   "handle": "si276_xyz",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
-   "scannedAt": 1792260692697
+   "scannedAt": 1792262319659
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -172,10 +135,10 @@
     1,
     null
    ],
-   "liq": 82600,
-   "vol": 95234,
-   "mcap": 644437,
-   "holders": 1092,
+   "liq": 85565,
+   "vol": 96432,
+   "mcap": 689955,
+   "holders": 1159,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
    "launchpad": "Pump.Fun",
@@ -185,7 +148,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1792260689819
+   "scannedAt": 1792262322893
+  },
+  {
+   "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
+   "chain": "solana",
+   "sym": "SI276",
+   "name": "Super Intelligence SI276",
+   "img": "https://cdn.dexscreener.com/cms/images/C00PG8ebjcD8d36M?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 84837,
+   "vol": 235804,
+   "mcap": 697899,
+   "holders": 2395,
+   "createdAt": 1791314731000,
+   "handle": "si276_xyz",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
+   "scannedAt": 1792262321326
   },
   {
    "ca": "0x8bbf486a9F2b535C4EF09C665a807859CfE92d83",
@@ -221,7 +221,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/ethereum/0x7527bb40203df5e3d96713f1e0a5d7a8c9d367d4",
-   "scannedAt": 1792260691256
+   "scannedAt": 1792262324409
   }
  ]
 }
