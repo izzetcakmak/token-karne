@@ -1,5 +1,5 @@
 {
- "updatedAt": 1792276530004,
+ "updatedAt": 1792278596870,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 203406,
-   "vol": 255919,
-   "mcap": 3231528,
+   "liq": 205621,
+   "vol": 254510,
+   "mcap": 3291492,
    "holders": 15632,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1792276460444
+   "scannedAt": 1792278511829
   },
   {
    "ca": "0x7d03759E5B41E36899833cb2E008455d69A24444",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 114127,
-   "vol": 77339,
-   "mcap": 205875,
+   "liq": 114597,
+   "vol": 77341,
+   "mcap": 206730,
    "holders": 72620,
    "createdAt": 1757345211000,
    "handle": "PricelessBSC_",
@@ -75,7 +75,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x3dc2878f9f60476dbbb18af7531fbe1a603c8dc0",
-   "scannedAt": 1792276461912
+   "scannedAt": 1792278513508
   },
   {
    "ca": "0x7D0443CdDFc8E11AF105F4fE44Dd28c630237777",
@@ -99,9 +99,9 @@
     1,
     null
    ],
-   "liq": 212684,
-   "vol": 701141,
-   "mcap": 4244464,
+   "liq": 213048,
+   "vol": 698861,
+   "mcap": 4254668,
    "holders": 1399,
    "createdAt": 1792075556000,
    "handle": "dawgonbnb",
@@ -111,7 +111,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x9e83be1267e9a6d43bb7f3a8c0dc3c092ccae63e",
-   "scannedAt": 1792276463390
+   "scannedAt": 1792278515839
   },
   {
    "ca": "8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump",
@@ -135,10 +135,10 @@
     1,
     null
    ],
-   "liq": 91013,
-   "vol": 362593,
-   "mcap": 1097161,
-   "holders": 866,
+   "liq": 94663,
+   "vol": 367544,
+   "mcap": 1181023,
+   "holders": 888,
    "createdAt": 1792164888000,
    "handle": "GlitchOnSolana_",
    "launchpad": "Pump.Fun",
@@ -148,14 +148,14 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/em6rvzgxhd35pz7cvujctpenv4jaztscavhaxbxcbcg7",
-   "scannedAt": 1792276472251
+   "scannedAt": 1792278517573
   },
   {
-   "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
+   "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
    "chain": "solana",
-   "sym": "SI276",
-   "name": "Super Intelligence SI276",
-   "img": "https://cdn.dexscreener.com/cms/images/C00PG8ebjcD8d36M?width=800&height=800&quality=95&format=auto",
+   "sym": "CBUCKS",
+   "name": "Cartoon Money",
+   "img": "https://cdn.dexscreener.com/cms/images/2bajn2a05AdQGV-4?width=800&height=800&quality=95&format=auto",
    "score": 9,
    "unknown": 1,
    "answers": [
@@ -172,20 +172,20 @@
     1,
     null
    ],
-   "liq": 79774,
-   "vol": 243169,
-   "mcap": 624235,
-   "holders": 2395,
-   "createdAt": 1791314731000,
-   "handle": "si276_xyz",
+   "liq": 83962,
+   "vol": 111221,
+   "mcap": 657794,
+   "holders": 1159,
+   "createdAt": 1791311393000,
+   "handle": "cartoonmoney_ai",
    "launchpad": "Pump.Fun",
    "flags": 0,
    "sources": [
     "GoPlus",
     "RugCheck"
    ],
-   "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
-   "scannedAt": 1792276465025
+   "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
+   "scannedAt": 1792278555181
   },
   {
    "ca": "0x8bbf486a9F2b535C4EF09C665a807859CfE92d83",
@@ -221,7 +221,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/ethereum/0x7527bb40203df5e3d96713f1e0a5d7a8c9d367d4",
-   "scannedAt": 1792276466503
+   "scannedAt": 1792278520914
   },
   {
    "ca": "4qH8A5GxvRMZgpRFjXASc6U9HAoEzKeUqxY2dPB7pump",
@@ -245,9 +245,9 @@
     1,
     null
    ],
-   "liq": 38702,
-   "vol": 51406,
-   "mcap": 134255,
+   "liq": 38822,
+   "vol": 51345,
+   "mcap": 134829,
    "holders": 613,
    "createdAt": 1750018382000,
    "handle": "GrokletFanClub",
@@ -258,7 +258,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/7odjba4hzozvnwboksrwfetstnm4ia5witkwfr1lsy8t",
-   "scannedAt": 1792276467933
+   "scannedAt": 1792278522481
   }
  ]
 }
