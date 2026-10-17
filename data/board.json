@@ -1,5 +1,5 @@
 {
- "updatedAt": 1792221077834,
+ "updatedAt": 1792222753340,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 250066,
-   "vol": 1160456,
-   "mcap": 5813408,
+   "liq": 244916,
+   "vol": 1143152,
+   "mcap": 5583796,
    "holders": 1273,
    "createdAt": 1792075556000,
    "handle": "dawgonbnb",
@@ -38,7 +38,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x9e83be1267e9a6d43bb7f3a8c0dc3c092ccae63e",
-   "scannedAt": 1792221004798
+   "scannedAt": 1792222678028
   },
   {
    "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
@@ -62,9 +62,9 @@
     1,
     null
    ],
-   "liq": 196189,
-   "vol": 239328,
-   "mcap": 2954241,
+   "liq": 198434,
+   "vol": 241579,
+   "mcap": 3014365,
    "holders": 15170,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -75,7 +75,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1792221007310
+   "scannedAt": 1792222679921
   },
   {
    "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
@@ -99,9 +99,9 @@
     1,
     null
    ],
-   "liq": 93436,
-   "vol": 299269,
-   "mcap": 839508,
+   "liq": 97967,
+   "vol": 296365,
+   "mcap": 919000,
    "holders": 2386,
    "createdAt": 1791314731000,
    "handle": "si276_xyz",
@@ -112,7 +112,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
-   "scannedAt": 1792221008715
+   "scannedAt": 1792222681390
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -136,9 +136,9 @@
     1,
     null
    ],
-   "liq": 75361,
-   "vol": 181996,
-   "mcap": 540661,
+   "liq": 75276,
+   "vol": 178422,
+   "mcap": 539470,
    "holders": 1092,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -149,7 +149,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1792221010181
+   "scannedAt": 1792222683496
+  },
+  {
+   "ca": "Fak3rJEBfR4Vb8DoFpecf6yoxbkkr1gGUH5tdj2rpump",
+   "chain": "solana",
+   "sym": "MarsX",
+   "name": "MarsX",
+   "img": "https://cdn.dexscreener.com/cms/images/6gTC85ScZZPvrVkc?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 30014,
+   "vol": 275851,
+   "mcap": 77426,
+   "holders": 2047,
+   "createdAt": 1791826718000,
+   "handle": "marsxpf",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/9dsiuydk5efrclk6veywy95nn3jjgbdwnijuacf1pxua",
+   "scannedAt": 1792222722088
   }
  ]
 }
