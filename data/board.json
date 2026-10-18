@@ -1,5 +1,5 @@
 {
- "updatedAt": 1792306137655,
+ "updatedAt": 1792307506473,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 254300,
-   "vol": 680980,
-   "mcap": 4946543,
+   "liq": 244875,
+   "vol": 692627,
+   "mcap": 4589477,
    "holders": 16183,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1792306070088
+   "scannedAt": 1792307428519
   },
   {
    "ca": "0x7d03759E5B41E36899833cb2E008455d69A24444",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 125600,
-   "vol": 83793,
-   "mcap": 246651,
+   "liq": 125472,
+   "vol": 83805,
+   "mcap": 246354,
    "holders": 72622,
    "createdAt": 1757345211000,
    "handle": "PricelessBSC_",
@@ -75,44 +75,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x3dc2878f9f60476dbbb18af7531fbe1a603c8dc0",
-   "scannedAt": 1792306071677
-  },
-  {
-   "ca": "CY27QvCQBCmLBuz3V7c8snEeD4z67iyoSTkwo35Ypump",
-   "chain": "solana",
-   "sym": "Eternia",
-   "name": "Eternia",
-   "img": "https://cdn.dexscreener.com/cms/images/DJ7fdckUcYFH76iR?width=800&height=800&quality=95&format=auto",
-   "score": 10,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 35014,
-   "vol": 10282417,
-   "mcap": 101685,
-   "holders": 2972,
-   "createdAt": 1792205270000,
-   "handle": "eternia_sys",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/abqxgs5c78p8nix49kqsbtnqjammahcbh2mvjq1zqqz2",
-   "scannedAt": 1792306073079
+   "scannedAt": 1792307430153
   },
   {
    "ca": "0x7D0443CdDFc8E11AF105F4fE44Dd28c630237777",
@@ -136,9 +99,9 @@
     1,
     null
    ],
-   "liq": 204308,
-   "vol": 277855,
-   "mcap": 3881289,
+   "liq": 203954,
+   "vol": 259933,
+   "mcap": 3873155,
    "holders": 1421,
    "createdAt": 1792075556000,
    "handle": "dawgonbnb",
@@ -148,7 +111,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x9e83be1267e9a6d43bb7f3a8c0dc3c092ccae63e",
-   "scannedAt": 1792306074518
+   "scannedAt": 1792307433247
   },
   {
    "ca": "5x6QQvpRpd1PsFTTTJe6sJFFSqrA21H1j3GZLmo2pump",
@@ -172,10 +135,10 @@
     1,
     null
    ],
-   "liq": 107898,
-   "vol": 2243896,
-   "mcap": 1346070,
-   "holders": 8258,
+   "liq": 104835,
+   "vol": 2236082,
+   "mcap": 1269999,
+   "holders": 8316,
    "createdAt": 1792174475000,
    "handle": "theftrcoins",
    "launchpad": "Pump.Fun",
@@ -185,7 +148,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/8joqrq4oaxnuqstccomuuaagf3vij7e3escwatmncz3h",
-   "scannedAt": 1792306076153
+   "scannedAt": 1792307434960
   },
   {
    "ca": "8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump",
@@ -209,9 +172,9 @@
     1,
     null
    ],
-   "liq": 84409,
-   "vol": 397746,
-   "mcap": 935957,
+   "liq": 84688,
+   "vol": 396448,
+   "mcap": 942766,
    "holders": 427,
    "createdAt": 1792164888000,
    "handle": "GlitchOnSolana_",
@@ -222,7 +185,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/em6rvzgxhd35pz7cvujctpenv4jaztscavhaxbxcbcg7",
-   "scannedAt": 1792306077559
+   "scannedAt": 1792307436584
   },
   {
    "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
@@ -246,9 +209,9 @@
     1,
     null
    ],
-   "liq": 82887,
-   "vol": 229571,
-   "mcap": 664984,
+   "liq": 82596,
+   "vol": 229463,
+   "mcap": 660565,
    "holders": 2369,
    "createdAt": 1791314731000,
    "handle": "si276_xyz",
@@ -259,7 +222,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
-   "scannedAt": 1792306078967
+   "scannedAt": 1792307438907
+  },
+  {
+   "ca": "BdXfLfcbDE8YvpbvvmmGTduqcDesaQVUm5xLxgUc2S5t",
+   "chain": "solana",
+   "sym": "texcat",
+   "name": "texas cat",
+   "img": "https://cdn.dexscreener.com/cms/images/kWDyTHAq6BqgMxzC?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 41299,
+   "vol": 67200,
+   "mcap": 217950,
+   "holders": 1726,
+   "createdAt": 1791471606000,
+   "handle": "texcat_token",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/czcfvsc2hqvf1zwu6ya2vrf7g29anu4nnrhw7jvvd3vw",
+   "scannedAt": 1792307442651
   },
   {
    "ca": "0x8bbf486a9F2b535C4EF09C665a807859CfE92d83",
@@ -283,10 +283,10 @@
     0,
     null
    ],
-   "liq": 42390,
-   "vol": 5734,
-   "mcap": 93847,
-   "holders": 1181,
+   "liq": 40726,
+   "vol": 6577,
+   "mcap": 86566,
+   "holders": 1179,
    "createdAt": 1743547547000,
    "handle": "KekmaximusaEth",
    "launchpad": null,
@@ -295,7 +295,43 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/ethereum/0x7527bb40203df5e3d96713f1e0a5d7a8c9d367d4",
-   "scannedAt": 1792306080464
+   "scannedAt": 1792307440798
+  },
+  {
+   "ca": "0x17925cDf8794b49731D6706CE717B9cB855d7777",
+   "chain": "bsc",
+   "sym": "币安羊",
+   "name": "币安羊",
+   "img": "https://cdn.dexscreener.com/cms/images/hKl89732dhf1mLWp?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 36104,
+   "vol": 39146,
+   "mcap": 130600,
+   "holders": 2842,
+   "createdAt": 1791890689000,
+   "handle": "Bianyangbsc",
+   "launchpad": null,
+   "flags": 0,
+   "sources": [
+    "GoPlus"
+   ],
+   "url": "https://dexscreener.com/bsc/0x56d1f895d557eabfd8d76be47c23252bfe6cae72",
+   "scannedAt": 1792307499976
   }
  ]
 }
