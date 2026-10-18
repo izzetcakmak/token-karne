@@ -1,8 +1,8 @@
 {
- "updatedAt": 1792332622951,
+ "updatedAt": 1792334213830,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 44,
+ "scanned": 45,
  "items": [
   {
    "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 250180,
-   "vol": 984999,
-   "mcap": 4808808,
+   "liq": 250997,
+   "vol": 1124230,
+   "mcap": 4855844,
    "holders": 17322,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1792332551151
+   "scannedAt": 1792334139672
   },
   {
    "ca": "0x7D0443CdDFc8E11AF105F4fE44Dd28c630237777",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 223797,
-   "vol": 613470,
-   "mcap": 4658304,
+   "liq": 224150,
+   "vol": 615667,
+   "mcap": 4687945,
    "holders": 1475,
    "createdAt": 1792075556000,
    "handle": "dawgonbnb",
@@ -75,7 +75,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x9e83be1267e9a6d43bb7f3a8c0dc3c092ccae63e",
-   "scannedAt": 1792332552687
+   "scannedAt": 1792334141523
   },
   {
    "ca": "0x7d03759E5B41E36899833cb2E008455d69A24444",
@@ -99,9 +99,9 @@
     0,
     null
    ],
-   "liq": 121477,
-   "vol": 17877,
-   "mcap": 232206,
+   "liq": 120630,
+   "vol": 17474,
+   "mcap": 228761,
    "holders": 72628,
    "createdAt": 1757345211000,
    "handle": "PricelessBSC_",
@@ -111,7 +111,44 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x3dc2878f9f60476dbbb18af7531fbe1a603c8dc0",
-   "scannedAt": 1792332554171
+   "scannedAt": 1792334143010
+  },
+  {
+   "ca": "8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump",
+   "chain": "solana",
+   "sym": "GLITCH",
+   "name": "Infinite Money Glitch",
+   "img": "https://cdn.dexscreener.com/cms/images/gAu3LdjS988GlL3f?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 104303,
+   "vol": 442562,
+   "mcap": 1433000,
+   "holders": 427,
+   "createdAt": 1792164888000,
+   "handle": "GlitchOnSolana_",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/em6rvzgxhd35pz7cvujctpenv4jaztscavhaxbxcbcg7",
+   "scannedAt": 1792334200702
   },
   {
    "ca": "5x6QQvpRpd1PsFTTTJe6sJFFSqrA21H1j3GZLmo2pump",
@@ -135,10 +172,10 @@
     1,
     null
    ],
-   "liq": 92103,
-   "vol": 2398992,
-   "mcap": 965867,
-   "holders": 9267,
+   "liq": 94190,
+   "vol": 2405244,
+   "mcap": 1011670,
+   "holders": 9236,
    "createdAt": 1792174475000,
    "handle": "theftrcoins",
    "launchpad": "Pump.Fun",
@@ -148,7 +185,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/8joqrq4oaxnuqstccomuuaagf3vij7e3escwatmncz3h",
-   "scannedAt": 1792332558811
+   "scannedAt": 1792334144877
+  },
+  {
+   "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
+   "chain": "solana",
+   "sym": "SI276",
+   "name": "Super Intelligence SI276",
+   "img": "https://cdn.dexscreener.com/cms/images/C00PG8ebjcD8d36M?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 78728,
+   "vol": 193962,
+   "mcap": 608432,
+   "holders": 2335,
+   "createdAt": 1791314731000,
+   "handle": "si276_xyz",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
+   "scannedAt": 1792334155900
   },
   {
    "ca": "BdXfLfcbDE8YvpbvvmmGTduqcDesaQVUm5xLxgUc2S5t",
@@ -172,9 +246,9 @@
     1,
     null
    ],
-   "liq": 49687,
-   "vol": 105204,
-   "mcap": 312723,
+   "liq": 47245,
+   "vol": 107087,
+   "mcap": 285112,
    "holders": 1726,
    "createdAt": 1791471606000,
    "handle": "texcat_token",
@@ -185,7 +259,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/czcfvsc2hqvf1zwu6ya2vrf7g29anu4nnrhw7jvvd3vw",
-   "scannedAt": 1792332561901
+   "scannedAt": 1792334146731
   },
   {
    "ca": "0x8bbf486a9F2b535C4EF09C665a807859CfE92d83",
@@ -209,10 +283,10 @@
     0,
     null
    ],
-   "liq": 40038,
-   "vol": 6586,
-   "mcap": 84244,
-   "holders": 1179,
+   "liq": 39743,
+   "vol": 6671,
+   "mcap": 83251,
+   "holders": 1178,
    "createdAt": 1743547547000,
    "handle": "KekmaximusaEth",
    "launchpad": null,
@@ -221,7 +295,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/ethereum/0x7527bb40203df5e3d96713f1e0a5d7a8c9d367d4",
-   "scannedAt": 1792332563487
+   "scannedAt": 1792334148597
   },
   {
    "ca": "0x17925cDf8794b49731D6706CE717B9cB855d7777",
@@ -245,9 +319,9 @@
     1,
     null
    ],
-   "liq": 34748,
-   "vol": 29683,
-   "mcap": 121456,
+   "liq": 34966,
+   "vol": 29192,
+   "mcap": 123275,
    "holders": 2904,
    "createdAt": 1791890689000,
    "handle": "Bianyangbsc",
@@ -257,7 +331,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x56d1f895d557eabfd8d76be47c23252bfe6cae72",
-   "scannedAt": 1792332564898
+   "scannedAt": 1792334150103
   }
  ]
 }
