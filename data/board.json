@@ -1,5 +1,5 @@
 {
- "updatedAt": 1792337788484,
+ "updatedAt": 1792339921455,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 246139,
-   "vol": 1344489,
-   "mcap": 4652155,
+   "liq": 251894,
+   "vol": 1535721,
+   "mcap": 4854527,
    "holders": 17322,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1792337721417
+   "scannedAt": 1792339853743
   },
   {
    "ca": "0x7D0443CdDFc8E11AF105F4fE44Dd28c630237777",
@@ -63,10 +63,10 @@
     1,
     null
    ],
-   "liq": 224704,
-   "vol": 616480,
-   "mcap": 4710040,
-   "holders": 1475,
+   "liq": 218210,
+   "vol": 619784,
+   "mcap": 4458430,
+   "holders": 1467,
    "createdAt": 1792075556000,
    "handle": "dawgonbnb",
    "launchpad": null,
@@ -75,7 +75,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x9e83be1267e9a6d43bb7f3a8c0dc3c092ccae63e",
-   "scannedAt": 1792337722876
+   "scannedAt": 1792339855333
   },
   {
    "ca": "0x7d03759E5B41E36899833cb2E008455d69A24444",
@@ -99,9 +99,9 @@
     0,
     null
    ],
-   "liq": 120649,
-   "vol": 16260,
-   "mcap": 229615,
+   "liq": 117103,
+   "vol": 16704,
+   "mcap": 216831,
    "holders": 72626,
    "createdAt": 1757345211000,
    "handle": "PricelessBSC_",
@@ -111,81 +111,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x3dc2878f9f60476dbbb18af7531fbe1a603c8dc0",
-   "scannedAt": 1792337724371
-  },
-  {
-   "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
-   "chain": "solana",
-   "sym": "CBUCKS",
-   "name": "Cartoon Money",
-   "img": "https://cdn.dexscreener.com/cms/images/2bajn2a05AdQGV-4?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 110758,
-   "vol": 244063,
-   "mcap": 1128262,
-   "holders": 1196,
-   "createdAt": 1791311393000,
-   "handle": "cartoonmoney_ai",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1792337731791
-  },
-  {
-   "ca": "8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump",
-   "chain": "solana",
-   "sym": "GLITCH",
-   "name": "Infinite Money Glitch",
-   "img": "https://cdn.dexscreener.com/cms/images/gAu3LdjS988GlL3f?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 110358,
-   "vol": 457870,
-   "mcap": 1599781,
-   "holders": 427,
-   "createdAt": 1792164888000,
-   "handle": "GlitchOnSolana_",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/em6rvzgxhd35pz7cvujctpenv4jaztscavhaxbxcbcg7",
-   "scannedAt": 1792337727425
+   "scannedAt": 1792339857068
   },
   {
    "ca": "5x6QQvpRpd1PsFTTTJe6sJFFSqrA21H1j3GZLmo2pump",
@@ -209,10 +135,10 @@
     1,
     null
    ],
-   "liq": 109397,
-   "vol": 2428190,
-   "mcap": 1353078,
-   "holders": 9018,
+   "liq": 111819,
+   "vol": 2426609,
+   "mcap": 1410392,
+   "holders": 9106,
    "createdAt": 1792174475000,
    "handle": "theftrcoins",
    "launchpad": "Pump.Fun",
@@ -222,7 +148,81 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/8joqrq4oaxnuqstccomuuaagf3vij7e3escwatmncz3h",
-   "scannedAt": 1792337725999
+   "scannedAt": 1792339861614
+  },
+  {
+   "ca": "8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump",
+   "chain": "solana",
+   "sym": "GLITCH",
+   "name": "Infinite Money Glitch",
+   "img": "https://cdn.dexscreener.com/cms/images/gAu3LdjS988GlL3f?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 110925,
+   "vol": 469890,
+   "mcap": 1614526,
+   "holders": 427,
+   "createdAt": 1792164888000,
+   "handle": "GlitchOnSolana_",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/em6rvzgxhd35pz7cvujctpenv4jaztscavhaxbxcbcg7",
+   "scannedAt": 1792339860178
+  },
+  {
+   "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
+   "chain": "solana",
+   "sym": "CBUCKS",
+   "name": "Cartoon Money",
+   "img": "https://cdn.dexscreener.com/cms/images/2bajn2a05AdQGV-4?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 104309,
+   "vol": 257260,
+   "mcap": 1005085,
+   "holders": 1332,
+   "createdAt": 1791311393000,
+   "handle": "cartoonmoney_ai",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
+   "scannedAt": 1792339858725
   },
   {
    "ca": "BdXfLfcbDE8YvpbvvmmGTduqcDesaQVUm5xLxgUc2S5t",
@@ -246,10 +246,10 @@
     1,
     null
    ],
-   "liq": 48934,
-   "vol": 110714,
-   "mcap": 304865,
-   "holders": 1726,
+   "liq": 49575,
+   "vol": 111290,
+   "mcap": 312591,
+   "holders": 1827,
    "createdAt": 1791471606000,
    "handle": "texcat_token",
    "launchpad": "Pump.Fun",
@@ -259,7 +259,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/czcfvsc2hqvf1zwu6ya2vrf7g29anu4nnrhw7jvvd3vw",
-   "scannedAt": 1792337728879
+   "scannedAt": 1792339863033
   },
   {
    "ca": "0x17925cDf8794b49731D6706CE717B9cB855d7777",
@@ -283,10 +283,10 @@
     1,
     null
    ],
-   "liq": 35207,
-   "vol": 28013,
-   "mcap": 125081,
-   "holders": 2904,
+   "liq": 35048,
+   "vol": 27024,
+   "mcap": 124264,
+   "holders": 2912,
    "createdAt": 1791890689000,
    "handle": "Bianyangbsc",
    "launchpad": null,
@@ -295,7 +295,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x56d1f895d557eabfd8d76be47c23252bfe6cae72",
-   "scannedAt": 1792337730374
+   "scannedAt": 1792339864543
   }
  ]
 }
