@@ -1,5 +1,5 @@
 {
- "updatedAt": 1792289770843,
+ "updatedAt": 1792291391880,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 240493,
-   "vol": 369183,
-   "mcap": 4463115,
+   "liq": 246139,
+   "vol": 476498,
+   "mcap": 4645666,
    "holders": 16183,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1792289686471
+   "scannedAt": 1792291323206
   },
   {
    "ca": "0x7d03759E5B41E36899833cb2E008455d69A24444",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 115106,
-   "vol": 77382,
-   "mcap": 207652,
+   "liq": 114945,
+   "vol": 76486,
+   "mcap": 207154,
    "holders": 72620,
    "createdAt": 1757345211000,
    "handle": "PricelessBSC_",
@@ -75,7 +75,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x3dc2878f9f60476dbbb18af7531fbe1a603c8dc0",
-   "scannedAt": 1792289687950
+   "scannedAt": 1792291324710
   },
   {
    "ca": "0x7D0443CdDFc8E11AF105F4fE44Dd28c630237777",
@@ -99,9 +99,9 @@
     1,
     null
    ],
-   "liq": 210777,
-   "vol": 693322,
-   "mcap": 4148621,
+   "liq": 211132,
+   "vol": 692749,
+   "mcap": 4157492,
    "holders": 1408,
    "createdAt": 1792075556000,
    "handle": "dawgonbnb",
@@ -111,7 +111,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x9e83be1267e9a6d43bb7f3a8c0dc3c092ccae63e",
-   "scannedAt": 1792289689896
+   "scannedAt": 1792291326207
   },
   {
    "ca": "5x6QQvpRpd1PsFTTTJe6sJFFSqrA21H1j3GZLmo2pump",
@@ -135,10 +135,10 @@
     1,
     null
    ],
-   "liq": 98442,
-   "vol": 1877750,
-   "mcap": 1153873,
-   "holders": 7489,
+   "liq": 107987,
+   "vol": 1923685,
+   "mcap": 1374359,
+   "holders": 7567,
    "createdAt": 1792174475000,
    "handle": "theftrcoins",
    "launchpad": "Pump.Fun",
@@ -148,7 +148,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/8joqrq4oaxnuqstccomuuaagf3vij7e3escwatmncz3h",
-   "scannedAt": 1792289691401
+   "scannedAt": 1792291327859
   },
   {
    "ca": "8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump",
@@ -172,10 +172,10 @@
     1,
     null
    ],
-   "liq": 88543,
-   "vol": 391541,
-   "mcap": 1030024,
-   "holders": 928,
+   "liq": 88677,
+   "vol": 390099,
+   "mcap": 1030467,
+   "holders": 925,
    "createdAt": 1792164888000,
    "handle": "GlitchOnSolana_",
    "launchpad": "Pump.Fun",
@@ -185,7 +185,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/em6rvzgxhd35pz7cvujctpenv4jaztscavhaxbxcbcg7",
-   "scannedAt": 1792289695007
+   "scannedAt": 1792291329281
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -209,9 +209,9 @@
     1,
     null
    ],
-   "liq": 83458,
-   "vol": 118039,
-   "mcap": 655719,
+   "liq": 83866,
+   "vol": 117047,
+   "mcap": 661871,
    "holders": 1159,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -222,7 +222,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1792289693045
+   "scannedAt": 1792291330718
+  },
+  {
+   "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
+   "chain": "solana",
+   "sym": "SI276",
+   "name": "Super Intelligence SI276",
+   "img": "https://cdn.dexscreener.com/cms/images/C00PG8ebjcD8d36M?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 81676,
+   "vol": 245867,
+   "mcap": 645706,
+   "holders": 2369,
+   "createdAt": 1791314731000,
+   "handle": "si276_xyz",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
+   "scannedAt": 1792291333696
   },
   {
    "ca": "0x8bbf486a9F2b535C4EF09C665a807859CfE92d83",
@@ -258,7 +295,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/ethereum/0x7527bb40203df5e3d96713f1e0a5d7a8c9d367d4",
-   "scannedAt": 1792289699693
+   "scannedAt": 1792291332222
   }
  ]
 }
