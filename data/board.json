@@ -1,5 +1,5 @@
 {
- "updatedAt": 1792343380265,
+ "updatedAt": 1792344933103,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 222928,
-   "vol": 1682617,
-   "mcap": 3789750,
+   "liq": 223634,
+   "vol": 1699415,
+   "mcap": 3814119,
    "holders": 17322,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1792343314243
+   "scannedAt": 1792344857414
   },
   {
    "ca": "0x7D0443CdDFc8E11AF105F4fE44Dd28c630237777",
@@ -63,10 +63,10 @@
     1,
     null
    ],
-   "liq": 218043,
-   "vol": 565001,
-   "mcap": 4437965,
-   "holders": 1467,
+   "liq": 218139,
+   "vol": 541463,
+   "mcap": 4450638,
+   "holders": 1471,
    "createdAt": 1792075556000,
    "handle": "dawgonbnb",
    "launchpad": null,
@@ -75,7 +75,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x9e83be1267e9a6d43bb7f3a8c0dc3c092ccae63e",
-   "scannedAt": 1792343315661
+   "scannedAt": 1792344858927
   },
   {
    "ca": "5x6QQvpRpd1PsFTTTJe6sJFFSqrA21H1j3GZLmo2pump",
@@ -99,10 +99,10 @@
     1,
     null
    ],
-   "liq": 107092,
-   "vol": 2409508,
-   "mcap": 1289799,
-   "holders": 9262,
+   "liq": 109580,
+   "vol": 2394671,
+   "mcap": 1349012,
+   "holders": 9297,
    "createdAt": 1792174475000,
    "handle": "theftrcoins",
    "launchpad": "Pump.Fun",
@@ -112,44 +112,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/8joqrq4oaxnuqstccomuuaagf3vij7e3escwatmncz3h",
-   "scannedAt": 1792343319852
-  },
-  {
-   "ca": "8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump",
-   "chain": "solana",
-   "sym": "GLITCH",
-   "name": "Infinite Money Glitch",
-   "img": "https://cdn.dexscreener.com/cms/images/gAu3LdjS988GlL3f?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 106566,
-   "vol": 476564,
-   "mcap": 1488283,
-   "holders": 427,
-   "createdAt": 1792164888000,
-   "handle": "GlitchOnSolana_",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/em6rvzgxhd35pz7cvujctpenv4jaztscavhaxbxcbcg7",
-   "scannedAt": 1792343318459
+   "scannedAt": 1792344860377
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -173,9 +136,9 @@
     1,
     null
    ],
-   "liq": 103620,
-   "vol": 299324,
-   "mcap": 987741,
+   "liq": 104899,
+   "vol": 310484,
+   "mcap": 1013386,
    "holders": 1332,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -186,7 +149,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1792343317070
+   "scannedAt": 1792344863368
   },
   {
    "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
@@ -210,9 +173,9 @@
     1,
     null
    ],
-   "liq": 70730,
-   "vol": 211811,
-   "mcap": 491503,
+   "liq": 68382,
+   "vol": 213878,
+   "mcap": 460289,
    "holders": 2335,
    "createdAt": 1791314731000,
    "handle": "si276_xyz",
@@ -223,7 +186,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
-   "scannedAt": 1792343321246
+   "scannedAt": 1792344865351
   },
   {
    "ca": "BdXfLfcbDE8YvpbvvmmGTduqcDesaQVUm5xLxgUc2S5t",
@@ -247,9 +210,9 @@
     1,
     null
    ],
-   "liq": 50736,
-   "vol": 112718,
-   "mcap": 325542,
+   "liq": 49860,
+   "vol": 110202,
+   "mcap": 315249,
    "holders": 1827,
    "createdAt": 1791471606000,
    "handle": "texcat_token",
@@ -260,7 +223,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/czcfvsc2hqvf1zwu6ya2vrf7g29anu4nnrhw7jvvd3vw",
-   "scannedAt": 1792343322654
+   "scannedAt": 1792344867223
   },
   {
    "ca": "0x17925cDf8794b49731D6706CE717B9cB855d7777",
@@ -284,9 +247,9 @@
     1,
     null
    ],
-   "liq": 33876,
-   "vol": 26407,
-   "mcap": 115904,
+   "liq": 33064,
+   "vol": 26764,
+   "mcap": 110637,
    "holders": 2912,
    "createdAt": 1791890689000,
    "handle": "Bianyangbsc",
@@ -296,7 +259,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x56d1f895d557eabfd8d76be47c23252bfe6cae72",
-   "scannedAt": 1792343324182
+   "scannedAt": 1792344868777
   }
  ]
 }
