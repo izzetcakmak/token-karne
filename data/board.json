@@ -1,5 +1,5 @@
 {
- "updatedAt": 1792386769263,
+ "updatedAt": 1792388541551,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 198393,
-   "vol": 620270,
-   "mcap": 3599185,
+   "liq": 199252,
+   "vol": 619574,
+   "mcap": 3624309,
    "holders": 1540,
    "createdAt": 1792075556000,
    "handle": "dawgonbnb",
@@ -38,7 +38,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x9e83be1267e9a6d43bb7f3a8c0dc3c092ccae63e",
-   "scannedAt": 1792386691291
+   "scannedAt": 1792388470883
   },
   {
    "ca": "0x17925cDf8794b49731D6706CE717B9cB855d7777",
@@ -62,9 +62,9 @@
     1,
     null
    ],
-   "liq": 33567,
-   "vol": 24567,
-   "mcap": 111677,
+   "liq": 32455,
+   "vol": 25326,
+   "mcap": 104195,
    "holders": 2921,
    "createdAt": 1791890689000,
    "handle": "Bianyangbsc",
@@ -74,7 +74,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x56d1f895d557eabfd8d76be47c23252bfe6cae72",
-   "scannedAt": 1792386692960
+   "scannedAt": 1792388472440
   }
  ]
 }
