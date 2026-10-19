@@ -1,9 +1,46 @@
 {
- "updatedAt": 1792426467047,
+ "updatedAt": 1792428174883,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
  "items": [
+  {
+   "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
+   "chain": "solana",
+   "sym": "MISTAKE",
+   "name": "Make No Mistakes",
+   "img": "https://cdn.dexscreener.com/cms/images/S3VS6ZPJzJ-72iRm?width=800&height=800&quality=95&format=auto",
+   "score": 10,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    null
+   ],
+   "liq": 171252,
+   "vol": 996196,
+   "mcap": 2165294,
+   "holders": 19119,
+   "createdAt": 1789093171000,
+   "handle": "nomistakesfun",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
+   "scannedAt": 1792428098694
+  },
   {
    "ca": "0x7D0443CdDFc8E11AF105F4fE44Dd28c630237777",
    "chain": "bsc",
@@ -26,10 +63,10 @@
     1,
     null
    ],
-   "liq": 205424,
-   "vol": 746809,
-   "mcap": 3825834,
-   "holders": 1611,
+   "liq": 208367,
+   "vol": 750291,
+   "mcap": 3932416,
+   "holders": 2077,
    "createdAt": 1792075556000,
    "handle": "dawgonbnb",
    "launchpad": null,
@@ -38,44 +75,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x9e83be1267e9a6d43bb7f3a8c0dc3c092ccae63e",
-   "scannedAt": 1792426385772
-  },
-  {
-   "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
-   "chain": "solana",
-   "sym": "MISTAKE",
-   "name": "Make No Mistakes",
-   "img": "https://cdn.dexscreener.com/cms/images/S3VS6ZPJzJ-72iRm?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    null
-   ],
-   "liq": 184798,
-   "vol": 1040115,
-   "mcap": 2524603,
-   "holders": 19119,
-   "createdAt": 1789093171000,
-   "handle": "nomistakesfun",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1792426384076
+   "scannedAt": 1792428097002
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -99,9 +99,9 @@
     1,
     null
    ],
-   "liq": 108962,
-   "vol": 326537,
-   "mcap": 1077662,
+   "liq": 108798,
+   "vol": 316176,
+   "mcap": 1074338,
    "holders": 1513,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -112,7 +112,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1792426387287
+   "scannedAt": 1792428100151
   },
   {
    "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
@@ -136,9 +136,9 @@
     1,
     null
    ],
-   "liq": 80860,
-   "vol": 259267,
-   "mcap": 618534,
+   "liq": 80173,
+   "vol": 250140,
+   "mcap": 607050,
    "holders": 2339,
    "createdAt": 1791314731000,
    "handle": "si276_xyz",
@@ -149,7 +149,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
-   "scannedAt": 1792426388868
+   "scannedAt": 1792428101618
   },
   {
    "ca": "BdXfLfcbDE8YvpbvvmmGTduqcDesaQVUm5xLxgUc2S5t",
@@ -173,9 +173,9 @@
     1,
     null
    ],
-   "liq": 57718,
-   "vol": 151132,
-   "mcap": 405955,
+   "liq": 57473,
+   "vol": 152457,
+   "mcap": 401674,
    "holders": 2023,
    "createdAt": 1791471606000,
    "handle": "texcat_token",
@@ -186,7 +186,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/czcfvsc2hqvf1zwu6ya2vrf7g29anu4nnrhw7jvvd3vw",
-   "scannedAt": 1792426390371
+   "scannedAt": 1792428103060
   },
   {
    "ca": "1EwcGE6WrssiY2sKSadB5E5DE9WhPDQvBC6kev1EDGE",
@@ -210,9 +210,9 @@
     1,
     null
    ],
-   "liq": 33622,
-   "vol": 135197,
-   "mcap": 109928,
+   "liq": 33582,
+   "vol": 135106,
+   "mcap": 109866,
    "holders": 530,
    "createdAt": 1791991314000,
    "handle": "1EdgeHQ",
@@ -223,7 +223,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/8sacr5tmpmufk8kcggbxhz517yqg1m2xj2jca7bzpcut",
-   "scannedAt": 1792426391989
+   "scannedAt": 1792428104500
   }
  ]
 }
