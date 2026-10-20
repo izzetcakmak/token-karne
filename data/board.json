@@ -1,5 +1,5 @@
 {
- "updatedAt": 1792479243976,
+ "updatedAt": 1792480634792,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 800058,
-   "vol": 673475,
-   "mcap": 15604072,
+   "liq": 806809,
+   "vol": 680267,
+   "mcap": 15850378,
    "holders": 17557,
    "createdAt": 1787522174000,
    "handle": "tartprotocol",
@@ -38,7 +38,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x30000a407fabebe29439f8e437050512ff6661be",
-   "scannedAt": 1792479164659
+   "scannedAt": 1792480555386
   },
   {
    "ca": "EKosQw4oJFbXmeJ4qRnbH1quGFRTc3Eok6nwnFKDpump",
@@ -62,9 +62,9 @@
     1,
     null
    ],
-   "liq": 333977,
-   "vol": 13392880,
-   "mcap": 11357247,
+   "liq": 326826,
+   "vol": 13407055,
+   "mcap": 10871929,
    "holders": 30740,
    "createdAt": 1792348453000,
    "handle": "startupSI_sol",
@@ -75,44 +75,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/ascpffyzxmnhhfhqqwawtcrmasguzcjtwyu6os6cqd2r",
-   "scannedAt": 1792479166608
-  },
-  {
-   "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
-   "chain": "solana",
-   "sym": "MISTAKE",
-   "name": "Make No Mistakes",
-   "img": "https://cdn.dexscreener.com/cms/images/S3VS6ZPJzJ-72iRm?width=800&height=800&quality=95&format=auto",
-   "score": 10,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    null
-   ],
-   "liq": 157377,
-   "vol": 994367,
-   "mcap": 1816561,
-   "holders": 19793,
-   "createdAt": 1789093171000,
-   "handle": "nomistakesfun",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1792479168482
+   "scannedAt": 1792480557450
   },
   {
    "ca": "0x7D0443CdDFc8E11AF105F4fE44Dd28c630237777",
@@ -136,9 +99,9 @@
     1,
     null
    ],
-   "liq": 198856,
-   "vol": 627006,
-   "mcap": 3560801,
+   "liq": 198389,
+   "vol": 626367,
+   "mcap": 3539390,
    "holders": 2777,
    "createdAt": 1792075556000,
    "handle": "dawgonbnb",
@@ -148,7 +111,44 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x9e83be1267e9a6d43bb7f3a8c0dc3c092ccae63e",
-   "scannedAt": 1792479169991
+   "scannedAt": 1792480561021
+  },
+  {
+   "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
+   "chain": "solana",
+   "sym": "MISTAKE",
+   "name": "Make No Mistakes",
+   "img": "https://cdn.dexscreener.com/cms/images/S3VS6ZPJzJ-72iRm?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    null
+   ],
+   "liq": 156479,
+   "vol": 993065,
+   "mcap": 1797143,
+   "holders": 19793,
+   "createdAt": 1789093171000,
+   "handle": "nomistakesfun",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
+   "scannedAt": 1792480559014
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -172,9 +172,9 @@
     1,
     null
    ],
-   "liq": 112365,
-   "vol": 242070,
-   "mcap": 1137847,
+   "liq": 102872,
+   "vol": 249255,
+   "mcap": 957002,
    "holders": 1539,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -185,44 +185,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1792479171538
-  },
-  {
-   "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
-   "chain": "solana",
-   "sym": "SI276",
-   "name": "Super Intelligence SI276",
-   "img": "https://cdn.dexscreener.com/cms/images/C00PG8ebjcD8d36M?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 82971,
-   "vol": 189087,
-   "mcap": 645592,
-   "holders": 2366,
-   "createdAt": 1791314731000,
-   "handle": "si276_xyz",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
-   "scannedAt": 1792479173075
+   "scannedAt": 1792480562939
   }
  ]
 }
