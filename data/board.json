@@ -1,5 +1,5 @@
 {
- "updatedAt": 1792549066908,
+ "updatedAt": 1792550775907,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 916716,
-   "vol": 1270269,
-   "mcap": 20453072,
+   "liq": 915133,
+   "vol": 1285998,
+   "mcap": 20389596,
    "holders": 20309,
    "createdAt": 1787522174000,
    "handle": "tartprotocol",
@@ -38,7 +38,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x30000a407fabebe29439f8e437050512ff6661be",
-   "scannedAt": 1792548986731
+   "scannedAt": 1792550689674
   },
   {
    "ca": "0x7D0443CdDFc8E11AF105F4fE44Dd28c630237777",
@@ -62,9 +62,9 @@
     1,
     null
    ],
-   "liq": 212058,
-   "vol": 531956,
-   "mcap": 3947924,
+   "liq": 208764,
+   "vol": 533292,
+   "mcap": 3832067,
    "holders": 2804,
    "createdAt": 1792075556000,
    "handle": "dawgonbnb",
@@ -74,7 +74,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x9e83be1267e9a6d43bb7f3a8c0dc3c092ccae63e",
-   "scannedAt": 1792548992632
+   "scannedAt": 1792550692213
   },
   {
    "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
@@ -98,9 +98,9 @@
     1,
     null
    ],
-   "liq": 197232,
-   "vol": 491855,
-   "mcap": 2768805,
+   "liq": 197623,
+   "vol": 483234,
+   "mcap": 2785502,
    "holders": 18636,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -111,7 +111,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1792548991079
+   "scannedAt": 1792550693842
   },
   {
    "ca": "EaxAUcXxNnVwcqm2BBocbows7D1XVY2Q63V38NEypump",
@@ -135,9 +135,9 @@
     0,
     null
    ],
-   "liq": 153919,
-   "vol": 18911,
-   "mcap": 1104635,
+   "liq": 153423,
+   "vol": 18364,
+   "mcap": 1103923,
    "holders": 11810,
    "createdAt": 1738111507000,
    "handle": "GTA_6_Sol",
@@ -148,7 +148,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/9kgswjrkczs3ebukvbkbgdwj8bwtdwzzqxkufdhaps2a",
-   "scannedAt": 1792548994125
+   "scannedAt": 1792550695807
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -172,9 +172,9 @@
     1,
     null
    ],
-   "liq": 127903,
-   "vol": 253852,
-   "mcap": 1838162,
+   "liq": 125215,
+   "vol": 263743,
+   "mcap": 1762148,
    "holders": 2532,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -185,7 +185,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1792548995558
+   "scannedAt": 1792550700706
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -209,9 +209,9 @@
     1,
     null
    ],
-   "liq": 111180,
-   "vol": 189916,
-   "mcap": 1107536,
+   "liq": 110862,
+   "vol": 190247,
+   "mcap": 1101269,
    "holders": 1600,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -222,7 +222,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1792548996998
+   "scannedAt": 1792550706234
   },
   {
    "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
@@ -246,9 +246,9 @@
     1,
     null
    ],
-   "liq": 82153,
-   "vol": 419717,
-   "mcap": 613292,
+   "liq": 82312,
+   "vol": 420445,
+   "mcap": 615498,
    "holders": 2431,
    "createdAt": 1791314731000,
    "handle": "si276_xyz",
@@ -259,7 +259,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
-   "scannedAt": 1792548998433
+   "scannedAt": 1792550707803
   },
   {
    "ca": "BdXfLfcbDE8YvpbvvmmGTduqcDesaQVUm5xLxgUc2S5t",
@@ -283,9 +283,9 @@
     1,
     null
    ],
-   "liq": 60383,
-   "vol": 244784,
-   "mcap": 396388,
+   "liq": 65805,
+   "vol": 254724,
+   "mcap": 465221,
    "holders": 2221,
    "createdAt": 1791471606000,
    "handle": "texcat_token",
@@ -296,7 +296,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/czcfvsc2hqvf1zwu6ya2vrf7g29anu4nnrhw7jvvd3vw",
-   "scannedAt": 1792548999865
+   "scannedAt": 1792550709328
   }
  ]
 }
