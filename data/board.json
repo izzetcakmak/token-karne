@@ -1,5 +1,5 @@
 {
- "updatedAt": 1792676521240,
+ "updatedAt": 1792678395580,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 892607,
-   "vol": 865183,
-   "mcap": 21056613,
+   "liq": 886710,
+   "vol": 861600,
+   "mcap": 20771918,
    "holders": 24058,
    "createdAt": 1787522174000,
    "handle": "tartprotocol",
@@ -38,7 +38,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x30000a407fabebe29439f8e437050512ff6661be",
-   "scannedAt": 1792676451352
+   "scannedAt": 1792678325798
   },
   {
    "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
@@ -62,9 +62,9 @@
     1,
     null
    ],
-   "liq": 145546,
-   "vol": 106246,
-   "mcap": 1524740,
+   "liq": 144642,
+   "vol": 109046,
+   "mcap": 1506823,
    "holders": 18131,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -75,44 +75,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1792676453112
-  },
-  {
-   "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
-   "chain": "solana",
-   "sym": "GATO",
-   "name": "GTA6CAT",
-   "img": "https://cdn.dexscreener.com/cms/images/-8CCNt5h1g4Fnvqj?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 197978,
-   "vol": 1043989,
-   "mcap": 4235026,
-   "holders": 3343,
-   "createdAt": 1787660841000,
-   "handle": "TheGTA6cat",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1792676454598
+   "scannedAt": 1792678327535
   },
   {
    "ca": "0x7D0443CdDFc8E11AF105F4fE44Dd28c630237777",
@@ -136,9 +99,9 @@
     1,
     null
    ],
-   "liq": 180509,
-   "vol": 225748,
-   "mcap": 2865825,
+   "liq": 184190,
+   "vol": 215090,
+   "mcap": 2978934,
    "holders": 2850,
    "createdAt": 1792075556000,
    "handle": "dawgonbnb",
@@ -148,7 +111,44 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x9e83be1267e9a6d43bb7f3a8c0dc3c092ccae63e",
-   "scannedAt": 1792676456074
+   "scannedAt": 1792678330422
+  },
+  {
+   "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
+   "chain": "solana",
+   "sym": "GATO",
+   "name": "GTA6CAT",
+   "img": "https://cdn.dexscreener.com/cms/images/-8CCNt5h1g4Fnvqj?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 183330,
+   "vol": 1084672,
+   "mcap": 3644950,
+   "holders": 3343,
+   "createdAt": 1787660841000,
+   "handle": "TheGTA6cat",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
+   "scannedAt": 1792678328999
   },
   {
    "ca": "8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump",
@@ -172,9 +172,9 @@
     1,
     null
    ],
-   "liq": 126797,
-   "vol": 308915,
-   "mcap": 1922405,
+   "liq": 126587,
+   "vol": 312914,
+   "mcap": 1916874,
    "holders": 954,
    "createdAt": 1792164888000,
    "handle": "GlitchOnSolana_",
@@ -185,7 +185,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/em6rvzgxhd35pz7cvujctpenv4jaztscavhaxbxcbcg7",
-   "scannedAt": 1792676457497
+   "scannedAt": 1792678331851
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -209,9 +209,9 @@
     1,
     null
    ],
-   "liq": 106305,
-   "vol": 91790,
-   "mcap": 1009888,
+   "liq": 105402,
+   "vol": 90619,
+   "mcap": 993125,
    "holders": 1652,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -222,7 +222,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1792676458927
+   "scannedAt": 1792678333293
   },
   {
    "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
@@ -246,9 +246,9 @@
     1,
     null
    ],
-   "liq": 88069,
-   "vol": 229964,
-   "mcap": 698044,
+   "liq": 92384,
+   "vol": 271529,
+   "mcap": 767551,
    "holders": 2426,
    "createdAt": 1791314731000,
    "handle": "si276_xyz",
@@ -259,44 +259,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
-   "scannedAt": 1792676460352
-  },
-  {
-   "ca": "roAcHsquApzVNWPGUvorogh8YUxLvLuhfKbY7KjzsGm",
-   "chain": "solana",
-   "sym": "YAPROACH",
-   "name": "Yapping Roaches",
-   "img": "https://cdn.dexscreener.com/cms/images/HsYJMFakZsFhGnTL?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 82420,
-   "vol": 4023749,
-   "mcap": 248681,
-   "holders": 2,
-   "createdAt": 1791993260000,
-   "handle": "yaproach",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/ecniqd24etyityhwem3inpcjfvwgszycqsrvn2eit27f",
-   "scannedAt": 1792676466065
+   "scannedAt": 1792678334753
   },
   {
    "ca": "EHPugw1ghE46BeySAa7cHvoZHwYometbp1aK1Q7jpump",
@@ -320,10 +283,10 @@
     1,
     null
    ],
-   "liq": 47823,
-   "vol": 2849534,
-   "mcap": 228251,
-   "holders": 16676,
+   "liq": 49145,
+   "vol": 2504152,
+   "mcap": 240383,
+   "holders": 16578,
    "createdAt": 1792501664000,
    "handle": "Moneybiz01",
    "launchpad": "Pump.Fun",
@@ -333,7 +296,81 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/gs1bqcy4w3scfjmo5ch9c1xggbuqnpvjowy7yc7pjgdl",
-   "scannedAt": 1792676461776
+   "scannedAt": 1792678337606
+  },
+  {
+   "ca": "8xH5RFEkSyneYBhCZh5gi2svgdyrDCREW9SxCfKuYgFd",
+   "chain": "solana",
+   "sym": "SASONA",
+   "name": "Sasona",
+   "img": "https://cdn.dexscreener.com/cms/images/mi20ismkS3JQ9Evb?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 45907,
+   "vol": 29047,
+   "mcap": 64257,
+   "holders": 327,
+   "createdAt": 1792517751000,
+   "handle": "SasonaNetwork",
+   "launchpad": null,
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/6znzudxegsjv1mmjnbey6ks3ugvuc5tjlykpkgpobvu2",
+   "scannedAt": 1792678363991
+  },
+  {
+   "ca": "5BjfgmtfqvNpAWx1CnZynoWLWNMnrwHLhTFzQ81vkEc8",
+   "chain": "solana",
+   "sym": "ClapCat",
+   "name": "Clapping Cat",
+   "img": "https://cdn.dexscreener.com/cms/images/RsLCgLB0qmX3mxUq?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 30509,
+   "vol": 88931,
+   "mcap": 94041,
+   "holders": 769,
+   "createdAt": 1790622415000,
+   "handle": "iclimbcharts",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/4er3ddypzgrlgwbgfea2mp1xusqpycvmt2zggwy5xaqt",
+   "scannedAt": 1792678343648
   }
  ]
 }
