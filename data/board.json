@@ -1,5 +1,5 @@
 {
- "updatedAt": 1792644176538,
+ "updatedAt": 1792645967652,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,10 +26,10 @@
     1,
     null
    ],
-   "liq": 866244,
-   "vol": 1022140,
-   "mcap": 19746654,
-   "holders": 23061,
+   "liq": 834121,
+   "vol": 1042332,
+   "mcap": 18297771,
+   "holders": 23226,
    "createdAt": 1787522174000,
    "handle": "tartprotocol",
    "launchpad": null,
@@ -38,7 +38,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x30000a407fabebe29439f8e437050512ff6661be",
-   "scannedAt": 1792644104923
+   "scannedAt": 1792645884406
   },
   {
    "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
@@ -62,9 +62,9 @@
     1,
     null
    ],
-   "liq": 132035,
-   "vol": 227138,
-   "mcap": 1256818,
+   "liq": 133585,
+   "vol": 222436,
+   "mcap": 1284059,
    "holders": 18141,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -75,7 +75,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1792644106655
+   "scannedAt": 1792645886147
   },
   {
    "ca": "0x7D0443CdDFc8E11AF105F4fE44Dd28c630237777",
@@ -99,9 +99,9 @@
     1,
     null
    ],
-   "liq": 194578,
-   "vol": 473832,
-   "mcap": 3309161,
+   "liq": 194157,
+   "vol": 473884,
+   "mcap": 3293634,
    "holders": 2868,
    "createdAt": 1792075556000,
    "handle": "dawgonbnb",
@@ -111,7 +111,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x9e83be1267e9a6d43bb7f3a8c0dc3c092ccae63e",
-   "scannedAt": 1792644108337
+   "scannedAt": 1792645887819
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -135,9 +135,9 @@
     1,
     null
    ],
-   "liq": 154505,
-   "vol": 1009463,
-   "mcap": 2615924,
+   "liq": 154931,
+   "vol": 1012096,
+   "mcap": 2627970,
    "holders": 2815,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -148,7 +148,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1792644109900
+   "scannedAt": 1792645890566
   },
   {
    "ca": "8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump",
@@ -172,9 +172,9 @@
     1,
     null
    ],
-   "liq": 117482,
-   "vol": 307523,
-   "mcap": 1655488,
+   "liq": 119292,
+   "vol": 308585,
+   "mcap": 1701629,
    "holders": 915,
    "createdAt": 1792164888000,
    "handle": "GlitchOnSolana_",
@@ -185,7 +185,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/em6rvzgxhd35pz7cvujctpenv4jaztscavhaxbxcbcg7",
-   "scannedAt": 1792644160219
+   "scannedAt": 1792645892588
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -209,9 +209,9 @@
     1,
     null
    ],
-   "liq": 108044,
-   "vol": 107213,
-   "mcap": 1042909,
+   "liq": 107939,
+   "vol": 105034,
+   "mcap": 1040927,
    "holders": 1630,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -222,81 +222,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1792644171849
-  },
-  {
-   "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
-   "chain": "solana",
-   "sym": "SI276",
-   "name": "Super Intelligence SI276",
-   "img": "https://cdn.dexscreener.com/cms/images/C00PG8ebjcD8d36M?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 76489,
-   "vol": 191686,
-   "mcap": 532322,
-   "holders": 2416,
-   "createdAt": 1791314731000,
-   "handle": "si276_xyz",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
-   "scannedAt": 1792644111560
-  },
-  {
-   "ca": "EHPugw1ghE46BeySAa7cHvoZHwYometbp1aK1Q7jpump",
-   "chain": "solana",
-   "sym": "MONEYBIZ",
-   "name": "Money Business",
-   "img": "https://cdn.dexscreener.com/cms/images/jgcu1Wa9yKs5f7e2?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    0,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 55807,
-   "vol": 2787049,
-   "mcap": 330795,
-   "holders": 13097,
-   "createdAt": 1792501664000,
-   "handle": "Moneybiz01",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/gs1bqcy4w3scfjmo5ch9c1xggbuqnpvjowy7yc7pjgdl",
-   "scannedAt": 1792644113006
+   "scannedAt": 1792645894587
   }
  ]
 }
