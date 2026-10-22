@@ -1,5 +1,5 @@
 {
- "updatedAt": 1792692915566,
+ "updatedAt": 1792694666077,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 874666,
-   "vol": 908907,
-   "mcap": 20343489,
+   "liq": 876719,
+   "vol": 901609,
+   "mcap": 20414077,
    "holders": 24234,
    "createdAt": 1787522174000,
    "handle": "tartprotocol",
@@ -38,7 +38,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x30000a407fabebe29439f8e437050512ff6661be",
-   "scannedAt": 1792692807882
+   "scannedAt": 1792694585452
   },
   {
    "ca": "0x7D0443CdDFc8E11AF105F4fE44Dd28c630237777",
@@ -62,10 +62,10 @@
     1,
     null
    ],
-   "liq": 182206,
-   "vol": 621386,
-   "mcap": 2902191,
-   "holders": 2879,
+   "liq": 182401,
+   "vol": 627873,
+   "mcap": 2903626,
+   "holders": 2882,
    "createdAt": 1792075556000,
    "handle": "dawgonbnb",
    "launchpad": null,
@@ -74,44 +74,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x9e83be1267e9a6d43bb7f3a8c0dc3c092ccae63e",
-   "scannedAt": 1792692809487
-  },
-  {
-   "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
-   "chain": "solana",
-   "sym": "MISTAKE",
-   "name": "Make No Mistakes",
-   "img": "https://cdn.dexscreener.com/cms/images/S3VS6ZPJzJ-72iRm?width=800&height=800&quality=95&format=auto",
-   "score": 10,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    null
-   ],
-   "liq": 144216,
-   "vol": 110845,
-   "mcap": 1520417,
-   "holders": 18131,
-   "createdAt": 1789093171000,
-   "handle": "nomistakesfun",
-   "launchpad": null,
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1792692811281
+   "scannedAt": 1792694586923
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -135,9 +98,9 @@
     1,
     null
    ],
-   "liq": 183404,
-   "vol": 1162200,
-   "mcap": 3679420,
+   "liq": 190608,
+   "vol": 1174579,
+   "mcap": 3960875,
    "holders": 3343,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -148,14 +111,51 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1792692813462
+   "scannedAt": 1792694591223
   },
   {
-   "ca": "EHPugw1ghE46BeySAa7cHvoZHwYometbp1aK1Q7jpump",
+   "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
    "chain": "solana",
-   "sym": "MONEYBIZ",
-   "name": "Money Business",
-   "img": "https://cdn.dexscreener.com/cms/images/jgcu1Wa9yKs5f7e2?width=800&height=800&quality=95&format=auto",
+   "sym": "MISTAKE",
+   "name": "Make No Mistakes",
+   "img": "https://cdn.dexscreener.com/cms/images/S3VS6ZPJzJ-72iRm?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    null
+   ],
+   "liq": 142226,
+   "vol": 113589,
+   "mcap": 1476084,
+   "holders": 18131,
+   "createdAt": 1789093171000,
+   "handle": "nomistakesfun",
+   "launchpad": null,
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
+   "scannedAt": 1792694589785
+  },
+  {
+   "ca": "8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump",
+   "chain": "solana",
+   "sym": "GLITCH",
+   "name": "Infinite Money Glitch",
+   "img": "https://cdn.dexscreener.com/cms/images/gAu3LdjS988GlL3f?width=800&height=800&quality=95&format=auto",
    "score": 9,
    "unknown": 1,
    "answers": [
@@ -163,29 +163,29 @@
     1,
     1,
     1,
-    1,
+    0,
     0,
     1,
-    0,
+    1,
     1,
     1,
     1,
     null
    ],
-   "liq": 41126,
-   "vol": 2722653,
-   "mcap": 163266,
-   "holders": 15863,
-   "createdAt": 1792501664000,
-   "handle": "Moneybiz01",
+   "liq": 120056,
+   "vol": 265124,
+   "mcap": 1747343,
+   "holders": 977,
+   "createdAt": 1792164888000,
+   "handle": "GlitchOnSolana_",
    "launchpad": "Pump.Fun",
    "flags": 0,
    "sources": [
     "GoPlus",
     "RugCheck"
    ],
-   "url": "https://dexscreener.com/solana/gs1bqcy4w3scfjmo5ch9c1xggbuqnpvjowy7yc7pjgdl",
-   "scannedAt": 1792692817573
+   "url": "https://dexscreener.com/solana/em6rvzgxhd35pz7cvujctpenv4jaztscavhaxbxcbcg7",
+   "scannedAt": 1792694610426
   }
  ]
 }
