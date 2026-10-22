@@ -1,5 +1,5 @@
 {
- "updatedAt": 1792708681704,
+ "updatedAt": 1792710673639,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,10 +26,10 @@
     1,
     null
    ],
-   "liq": 861395,
-   "vol": 824733,
-   "mcap": 19619152,
-   "holders": 24254,
+   "liq": 865567,
+   "vol": 820266,
+   "mcap": 19822707,
+   "holders": 24302,
    "createdAt": 1787522174000,
    "handle": "tartprotocol",
    "launchpad": null,
@@ -38,7 +38,44 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x30000a407fabebe29439f8e437050512ff6661be",
-   "scannedAt": 1792708602179
+   "scannedAt": 1792710598657
+  },
+  {
+   "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
+   "chain": "solana",
+   "sym": "GATO",
+   "name": "GTA6CAT",
+   "img": "https://cdn.dexscreener.com/cms/images/-8CCNt5h1g4Fnvqj?width=800&height=800&quality=95&format=auto",
+   "score": 10,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 185384,
+   "vol": 1357270,
+   "mcap": 3737030,
+   "holders": 4305,
+   "createdAt": 1787660841000,
+   "handle": "TheGTA6cat",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
+   "scannedAt": 1792710603480
   },
   {
    "ca": "0x7D0443CdDFc8E11AF105F4fE44Dd28c630237777",
@@ -62,10 +99,10 @@
     1,
     null
    ],
-   "liq": 184323,
-   "vol": 660175,
-   "mcap": 2968197,
-   "holders": 2879,
+   "liq": 182673,
+   "vol": 653560,
+   "mcap": 2916848,
+   "holders": 2874,
    "createdAt": 1792075556000,
    "handle": "dawgonbnb",
    "launchpad": null,
@@ -74,7 +111,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x9e83be1267e9a6d43bb7f3a8c0dc3c092ccae63e",
-   "scannedAt": 1792708603743
+   "scannedAt": 1792710600113
   },
   {
    "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
@@ -82,11 +119,11 @@
    "sym": "MISTAKE",
    "name": "Make No Mistakes",
    "img": "https://cdn.dexscreener.com/cms/images/S3VS6ZPJzJ-72iRm?width=800&height=800&quality=95&format=auto",
-   "score": 10,
+   "score": 9,
    "unknown": 1,
    "answers": [
     1,
-    1,
+    0,
     1,
     1,
     1,
@@ -98,10 +135,10 @@
     1,
     null
    ],
-   "liq": 141705,
-   "vol": 123803,
-   "mcap": 1466874,
-   "holders": 18131,
+   "liq": 141076,
+   "vol": 124517,
+   "mcap": 1455920,
+   "holders": 18012,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
    "launchpad": null,
@@ -111,14 +148,14 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1792708606036
+   "scannedAt": 1792710602031
   },
   {
-   "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
+   "ca": "8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump",
    "chain": "solana",
-   "sym": "GATO",
-   "name": "GTA6CAT",
-   "img": "https://cdn.dexscreener.com/cms/images/-8CCNt5h1g4Fnvqj?width=800&height=800&quality=95&format=auto",
+   "sym": "GLITCH",
+   "name": "Infinite Money Glitch",
+   "img": "https://cdn.dexscreener.com/cms/images/gAu3LdjS988GlL3f?width=800&height=800&quality=95&format=auto",
    "score": 9,
    "unknown": 1,
    "answers": [
@@ -135,20 +172,20 @@
     1,
     null
    ],
-   "liq": 186899,
-   "vol": 1335702,
-   "mcap": 3795213,
-   "holders": 3343,
-   "createdAt": 1787660841000,
-   "handle": "TheGTA6cat",
+   "liq": 116907,
+   "vol": 196849,
+   "mcap": 1661165,
+   "holders": 977,
+   "createdAt": 1792164888000,
+   "handle": "GlitchOnSolana_",
    "launchpad": "Pump.Fun",
    "flags": 0,
    "sources": [
     "GoPlus",
     "RugCheck"
    ],
-   "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1792708609645
+   "url": "https://dexscreener.com/solana/em6rvzgxhd35pz7cvujctpenv4jaztscavhaxbxcbcg7",
+   "scannedAt": 1792710655537
   },
   {
    "ca": "9g4Pib6AM3oVdP9YA7ZcssAXAuhoUzkjR8w27doYpump",
@@ -172,9 +209,9 @@
     1,
     null
    ],
-   "liq": 102615,
-   "vol": 1336850,
-   "mcap": 587490,
+   "liq": 101242,
+   "vol": 1341815,
+   "mcap": 569368,
    "holders": 2038,
    "createdAt": 1791652656000,
    "handle": "MaggotX66",
@@ -185,7 +222,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/gkvfziv4eunvimrfuejen5qjn29oxgcyk7fy2iuv3bgi",
-   "scannedAt": 1792708607608
+   "scannedAt": 1792710604961
   }
  ]
 }
