@@ -1,8 +1,8 @@
 {
- "updatedAt": 1792779279142,
+ "updatedAt": 1792781093144,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 44,
+ "scanned": 45,
  "items": [
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 191143,
-   "vol": 1025841,
-   "mcap": 3839755,
+   "liq": 192052,
+   "vol": 1014895,
+   "mcap": 3876935,
    "holders": 5008,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1792779204095
+   "scannedAt": 1792780997685
   },
   {
    "ca": "0x7D0443CdDFc8E11AF105F4fE44Dd28c630237777",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 179224,
-   "vol": 169957,
-   "mcap": 2754528,
+   "liq": 178692,
+   "vol": 154933,
+   "mcap": 2737410,
    "holders": 2956,
    "createdAt": 1792075556000,
    "handle": "dawgonbnb",
@@ -75,7 +75,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x9e83be1267e9a6d43bb7f3a8c0dc3c092ccae63e",
-   "scannedAt": 1792779205805
+   "scannedAt": 1792781000111
   },
   {
    "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
@@ -83,11 +83,11 @@
    "sym": "MISTAKE",
    "name": "Make No Mistakes",
    "img": "https://cdn.dexscreener.com/cms/images/S3VS6ZPJzJ-72iRm?width=800&height=800&quality=95&format=auto",
-   "score": 10,
+   "score": 9,
    "unknown": 1,
    "answers": [
     1,
-    1,
+    0,
     1,
     1,
     1,
@@ -99,9 +99,9 @@
     1,
     null
    ],
-   "liq": 150507,
-   "vol": 219402,
-   "mcap": 1631556,
+   "liq": 150668,
+   "vol": 219419,
+   "mcap": 1636028,
    "holders": 17827,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -112,44 +112,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1792779207296
-  },
-  {
-   "ca": "9g4Pib6AM3oVdP9YA7ZcssAXAuhoUzkjR8w27doYpump",
-   "chain": "solana",
-   "sym": "Pepper",
-   "name": "Pepper The Raccoon",
-   "img": "https://cdn.dexscreener.com/cms/images/NQZebL0xy2FXe9Nu?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 96048,
-   "vol": 750935,
-   "mcap": 409997,
-   "holders": 2636,
-   "createdAt": 1791652656000,
-   "handle": "MaggotX66",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/gkvfziv4eunvimrfuejen5qjn29oxgcyk7fy2iuv3bgi",
-   "scannedAt": 1792779208885
+   "scannedAt": 1792781002501
   },
   {
    "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
@@ -173,9 +136,9 @@
     1,
     null
    ],
-   "liq": 94926,
-   "vol": 173289,
-   "mcap": 804204,
+   "liq": 99370,
+   "vol": 168285,
+   "mcap": 880046,
    "holders": 2465,
    "createdAt": 1791314731000,
    "handle": "si276_xyz",
@@ -186,7 +149,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
-   "scannedAt": 1792779228115
+   "scannedAt": 1792781006249
+  },
+  {
+   "ca": "9g4Pib6AM3oVdP9YA7ZcssAXAuhoUzkjR8w27doYpump",
+   "chain": "solana",
+   "sym": "Pepper",
+   "name": "Pepper The Raccoon",
+   "img": "https://cdn.dexscreener.com/cms/images/NQZebL0xy2FXe9Nu?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 97025,
+   "vol": 581221,
+   "mcap": 421721,
+   "holders": 2636,
+   "createdAt": 1791652656000,
+   "handle": "MaggotX66",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/gkvfziv4eunvimrfuejen5qjn29oxgcyk7fy2iuv3bgi",
+   "scannedAt": 1792781003979
   },
   {
    "ca": "Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump",
@@ -210,9 +210,9 @@
     1,
     null
    ],
-   "liq": 71185,
-   "vol": 1543191,
-   "mcap": 238799,
+   "liq": 69298,
+   "vol": 1452172,
+   "mcap": 256868,
    "holders": 4227,
    "createdAt": 1792559658000,
    "handle": "J4ck3LSyN",
@@ -223,44 +223,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/yq4nneqxhatdcb8ohx21ej9u8etzxnrvgnhkraa4pnw",
-   "scannedAt": 1792779210348
-  },
-  {
-   "ca": "2JSj9dzLQwAi3q1dHYjCPF5Gveg81hBTRy8EeM3Fpump",
-   "chain": "solana",
-   "sym": "ARCTIS",
-   "name": "Arctis",
-   "img": "https://cdn.dexscreener.com/cms/images/8s0jPbKoZUc3nI1a?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 34435,
-   "vol": 313107,
-   "mcap": 69680,
-   "holders": 213,
-   "createdAt": 1792261614000,
-   "handle": "arctisfun",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/5spztg8hdxcg3ywx7hwjhghf8cygnrswz1smmfqqkamx",
-   "scannedAt": 1792779212233
+   "scannedAt": 1792781008014
   },
   {
    "ca": "5BjfgmtfqvNpAWx1CnZynoWLWNMnrwHLhTFzQ81vkEc8",
@@ -284,9 +247,9 @@
     1,
     null
    ],
-   "liq": 30896,
-   "vol": 68242,
-   "mcap": 95583,
+   "liq": 31007,
+   "vol": 67912,
+   "mcap": 96301,
    "holders": 896,
    "createdAt": 1790622415000,
    "handle": "iclimbcharts",
@@ -297,7 +260,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/4er3ddypzgrlgwbgfea2mp1xusqpycvmt2zggwy5xaqt",
-   "scannedAt": 1792779213722
+   "scannedAt": 1792781014263
   }
  ]
 }
