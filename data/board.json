@@ -1,45 +1,9 @@
 {
- "updatedAt": 1792755657540,
+ "updatedAt": 1792757798245,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 44,
+ "scanned": 45,
  "items": [
-  {
-   "ca": "0x7AB8d02CBb51Ff7223fDe700eAaa2a91Bf750314",
-   "chain": "bsc",
-   "sym": "TART",
-   "name": "TartSwap",
-   "img": "https://cdn.dexscreener.com/cms/images/kDVz5vcKSnLS1iEe?width=800&height=800&quality=95&format=auto",
-   "score": 10,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 902271,
-   "vol": 468055,
-   "mcap": 20768333,
-   "holders": 24684,
-   "createdAt": 1787522174000,
-   "handle": "tartprotocol",
-   "launchpad": null,
-   "flags": 0,
-   "sources": [
-    "GoPlus"
-   ],
-   "url": "https://dexscreener.com/bsc/0x30000a407fabebe29439f8e437050512ff6661be",
-   "scannedAt": 1792755576253
-  },
   {
    "ca": "0x7D0443CdDFc8E11AF105F4fE44Dd28c630237777",
    "chain": "bsc",
@@ -62,9 +26,9 @@
     1,
     null
    ],
-   "liq": 188305,
-   "vol": 634985,
-   "mcap": 3033339,
+   "liq": 188174,
+   "vol": 611858,
+   "mcap": 3027451,
    "holders": 2899,
    "createdAt": 1792075556000,
    "handle": "dawgonbnb",
@@ -74,7 +38,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x9e83be1267e9a6d43bb7f3a8c0dc3c092ccae63e",
-   "scannedAt": 1792755577711
+   "scannedAt": 1792757727907
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -98,9 +62,9 @@
     1,
     null
    ],
-   "liq": 176583,
-   "vol": 1236956,
-   "mcap": 3325913,
+   "liq": 179508,
+   "vol": 1237651,
+   "mcap": 3436717,
    "holders": 5008,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -111,7 +75,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1792755579796
+   "scannedAt": 1792757729593
   },
   {
    "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
@@ -135,9 +99,9 @@
     1,
     null
    ],
-   "liq": 139987,
-   "vol": 191732,
-   "mcap": 1417700,
+   "liq": 141505,
+   "vol": 190205,
+   "mcap": 1447803,
    "holders": 17827,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -148,7 +112,43 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1792755581363
+   "scannedAt": 1792757731058
+  },
+  {
+   "ca": "0x7AB8d02CBb51Ff7223fDe700eAaa2a91Bf750314",
+   "chain": "bsc",
+   "sym": "TART",
+   "name": "TartSwap",
+   "img": "https://cdn.dexscreener.com/cms/images/kDVz5vcKSnLS1iEe?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    null
+   ],
+   "liq": 909915,
+   "vol": 440920,
+   "mcap": 21081582,
+   "holders": 24684,
+   "createdAt": 1787522174000,
+   "handle": "tartprotocol",
+   "launchpad": null,
+   "flags": 0,
+   "sources": [
+    "GoPlus"
+   ],
+   "url": "https://dexscreener.com/bsc/0x30000a407fabebe29439f8e437050512ff6661be",
+   "scannedAt": 1792757726442
   },
   {
    "ca": "9g4Pib6AM3oVdP9YA7ZcssAXAuhoUzkjR8w27doYpump",
@@ -172,9 +172,9 @@
     1,
     null
    ],
-   "liq": 105889,
-   "vol": 1473888,
-   "mcap": 517152,
+   "liq": 102550,
+   "vol": 1473114,
+   "mcap": 493633,
    "holders": 2696,
    "createdAt": 1791652656000,
    "handle": "MaggotX66",
@@ -185,7 +185,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/gkvfziv4eunvimrfuejen5qjn29oxgcyk7fy2iuv3bgi",
-   "scannedAt": 1792755583279
+   "scannedAt": 1792757732491
   },
   {
    "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
@@ -209,9 +209,9 @@
     1,
     null
    ],
-   "liq": 94980,
-   "vol": 286526,
-   "mcap": 806566,
+   "liq": 97994,
+   "vol": 281325,
+   "mcap": 857859,
    "holders": 2465,
    "createdAt": 1791314731000,
    "handle": "si276_xyz",
@@ -222,44 +222,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
-   "scannedAt": 1792755631478
-  },
-  {
-   "ca": "6mYfg1EmMVjbQv38QGY5XdRUQ4SyNpFauL1aiRiWpump",
-   "chain": "solana",
-   "sym": "Au",
-   "name": "Actually Useless",
-   "img": "https://cdn.dexscreener.com/cms/images/16xm6cXoIjFcHXgv?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 39441,
-   "vol": 753909,
-   "mcap": 136168,
-   "holders": 1896,
-   "createdAt": 1792633095000,
-   "handle": "cobie",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/fnyuadkhuyanvbr25vxrht2s3n9s3tkcj3nbvy7sqjwj",
-   "scannedAt": 1792755585359
+   "scannedAt": 1792757733881
   },
   {
    "ca": "2JSj9dzLQwAi3q1dHYjCPF5Gveg81hBTRy8EeM3Fpump",
@@ -283,9 +246,9 @@
     1,
     null
    ],
-   "liq": 35850,
-   "vol": 113433,
-   "mcap": 42727,
+   "liq": 40881,
+   "vol": 165365,
+   "mcap": 98382,
    "holders": 213,
    "createdAt": 1792261614000,
    "handle": "arctisfun",
@@ -295,8 +258,8 @@
     "GoPlus",
     "RugCheck"
    ],
-   "url": "https://dexscreener.com/solana/gqndsu1rgwfybrxcj2kaubcsdytf8bwng3zgqnkvjfvb",
-   "scannedAt": 1792755587001
+   "url": "https://dexscreener.com/solana/5spztg8hdxcg3ywx7hwjhghf8cygnrswz1smmfqqkamx",
+   "scannedAt": 1792757736701
   },
   {
    "ca": "5BjfgmtfqvNpAWx1CnZynoWLWNMnrwHLhTFzQ81vkEc8",
@@ -320,9 +283,9 @@
     1,
     null
    ],
-   "liq": 34858,
-   "vol": 73947,
-   "mcap": 120442,
+   "liq": 35532,
+   "vol": 74042,
+   "mcap": 124707,
    "holders": 885,
    "createdAt": 1790622415000,
    "handle": "iclimbcharts",
@@ -333,7 +296,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/4er3ddypzgrlgwbgfea2mp1xusqpycvmt2zggwy5xaqt",
-   "scannedAt": 1792755588465
+   "scannedAt": 1792757738109
+  },
+  {
+   "ca": "6mYfg1EmMVjbQv38QGY5XdRUQ4SyNpFauL1aiRiWpump",
+   "chain": "solana",
+   "sym": "Au",
+   "name": "Actually Useless",
+   "img": "https://cdn.dexscreener.com/cms/images/16xm6cXoIjFcHXgv?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 35049,
+   "vol": 737185,
+   "mcap": 107797,
+   "holders": 1896,
+   "createdAt": 1792633095000,
+   "handle": "cobie",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/fnyuadkhuyanvbr25vxrht2s3n9s3tkcj3nbvy7sqjwj",
+   "scannedAt": 1792757735267
   }
  ]
 }
