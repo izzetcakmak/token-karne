@@ -1,5 +1,5 @@
 {
- "updatedAt": 1792784328652,
+ "updatedAt": 1792786372609,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 186962,
-   "vol": 239789,
-   "mcap": 2997998,
+   "liq": 190392,
+   "vol": 347382,
+   "mcap": 3097724,
    "holders": 3008,
    "createdAt": 1792075556000,
    "handle": "dawgonbnb",
@@ -38,7 +38,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x9e83be1267e9a6d43bb7f3a8c0dc3c092ccae63e",
-   "scannedAt": 1792784235636
+   "scannedAt": 1792786267825
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -46,11 +46,11 @@
    "sym": "GATO",
    "name": "GTA6CAT",
    "img": "https://cdn.dexscreener.com/cms/images/-8CCNt5h1g4Fnvqj?width=800&height=800&quality=95&format=auto",
-   "score": 9,
+   "score": 10,
    "unknown": 1,
    "answers": [
     1,
-    0,
+    1,
     1,
     1,
     1,
@@ -62,9 +62,9 @@
     1,
     null
    ],
-   "liq": 192381,
-   "vol": 1011319,
-   "mcap": 3903136,
+   "liq": 190004,
+   "vol": 996736,
+   "mcap": 3819187,
    "holders": 5008,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -75,7 +75,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1792784234202
+   "scannedAt": 1792786270137
   },
   {
    "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
@@ -99,9 +99,9 @@
     1,
     null
    ],
-   "liq": 144323,
-   "vol": 222291,
-   "mcap": 1508873,
+   "liq": 136983,
+   "vol": 227274,
+   "mcap": 1365351,
    "holders": 17725,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -112,7 +112,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1792784238058
+   "scannedAt": 1792786273276
+  },
+  {
+   "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
+   "chain": "solana",
+   "sym": "SI276",
+   "name": "Super Intelligence SI276",
+   "img": "https://cdn.dexscreener.com/cms/images/C00PG8ebjcD8d36M?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 98187,
+   "vol": 159108,
+   "mcap": 866000,
+   "holders": 2469,
+   "createdAt": 1791314731000,
+   "handle": "si276_xyz",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
+   "scannedAt": 1792786334654
   },
   {
    "ca": "Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump",
@@ -136,9 +173,9 @@
     1,
     null
    ],
-   "liq": 71986,
-   "vol": 1425016,
-   "mcap": 282597,
+   "liq": 71141,
+   "vol": 1359219,
+   "mcap": 273520,
    "holders": 4227,
    "createdAt": 1792559658000,
    "handle": "J4ck3LSyN",
@@ -149,44 +186,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/yq4nneqxhatdcb8ohx21ej9u8etzxnrvgnhkraa4pnw",
-   "scannedAt": 1792784242536
-  },
-  {
-   "ca": "4qH8A5GxvRMZgpRFjXASc6U9HAoEzKeUqxY2dPB7pump",
-   "chain": "solana",
-   "sym": "Groklet",
-   "name": "Grok Mascot",
-   "img": "https://cdn.dexscreener.com/cms/images/vMgQT0MJrnr87TkG?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 59670,
-   "vol": 57811,
-   "mcap": 293685,
-   "holders": 613,
-   "createdAt": 1750018382000,
-   "handle": "ParodyGroklet",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/7odjba4hzozvnwboksrwfetstnm4ia5witkwfr1lsy8t",
-   "scannedAt": 1792784244004
+   "scannedAt": 1792786274984
   },
   {
    "ca": "2JSj9dzLQwAi3q1dHYjCPF5Gveg81hBTRy8EeM3Fpump",
@@ -210,9 +210,9 @@
     1,
     null
    ],
-   "liq": 48438,
-   "vol": 441762,
-   "mcap": 130964,
+   "liq": 51607,
+   "vol": 484677,
+   "mcap": 148685,
    "holders": 614,
    "createdAt": 1792261614000,
    "handle": "arctisfun",
@@ -223,7 +223,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5spztg8hdxcg3ywx7hwjhghf8cygnrswz1smmfqqkamx",
-   "scannedAt": 1792784245411
+   "scannedAt": 1792786280112
   }
  ]
 }
