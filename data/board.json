@@ -1,45 +1,9 @@
 {
- "updatedAt": 1792786372609,
+ "updatedAt": 1792788061758,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
  "items": [
-  {
-   "ca": "0x7D0443CdDFc8E11AF105F4fE44Dd28c630237777",
-   "chain": "bsc",
-   "sym": "DAWG",
-   "name": "DAWG",
-   "img": "https://cdn.dexscreener.com/cms/images/F31jyFXrxv_QLDkk?width=800&height=800&quality=95&format=auto",
-   "score": 10,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 190392,
-   "vol": 347382,
-   "mcap": 3097724,
-   "holders": 3008,
-   "createdAt": 1792075556000,
-   "handle": "dawgonbnb",
-   "launchpad": null,
-   "flags": 0,
-   "sources": [
-    "GoPlus"
-   ],
-   "url": "https://dexscreener.com/bsc/0x9e83be1267e9a6d43bb7f3a8c0dc3c092ccae63e",
-   "scannedAt": 1792786267825
-  },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
    "chain": "solana",
@@ -62,9 +26,9 @@
     1,
     null
    ],
-   "liq": 190004,
-   "vol": 996736,
-   "mcap": 3819187,
+   "liq": 193406,
+   "vol": 992011,
+   "mcap": 3947640,
    "holders": 5008,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -75,7 +39,43 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1792786270137
+   "scannedAt": 1792787969728
+  },
+  {
+   "ca": "0x7D0443CdDFc8E11AF105F4fE44Dd28c630237777",
+   "chain": "bsc",
+   "sym": "DAWG",
+   "name": "DAWG",
+   "img": "https://cdn.dexscreener.com/cms/images/F31jyFXrxv_QLDkk?width=800&height=800&quality=95&format=auto",
+   "score": 10,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 186421,
+   "vol": 410955,
+   "mcap": 2964627,
+   "holders": 3008,
+   "createdAt": 1792075556000,
+   "handle": "dawgonbnb",
+   "launchpad": null,
+   "flags": 0,
+   "sources": [
+    "GoPlus"
+   ],
+   "url": "https://dexscreener.com/bsc/0x9e83be1267e9a6d43bb7f3a8c0dc3c092ccae63e",
+   "scannedAt": 1792787967492
   },
   {
    "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
@@ -99,9 +99,9 @@
     1,
     null
    ],
-   "liq": 136983,
-   "vol": 227274,
-   "mcap": 1365351,
+   "liq": 135532,
+   "vol": 233623,
+   "mcap": 1334508,
    "holders": 17725,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -112,7 +112,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1792786273276
+   "scannedAt": 1792787973203
+  },
+  {
+   "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
+   "chain": "solana",
+   "sym": "CBUCKS",
+   "name": "Cartoon Money",
+   "img": "https://cdn.dexscreener.com/cms/images/2bajn2a05AdQGV-4?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 118972,
+   "vol": 166071,
+   "mcap": 1219004,
+   "holders": 1688,
+   "createdAt": 1791311393000,
+   "handle": "cartoonmoney_ai",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
+   "scannedAt": 1792788006419
   },
   {
    "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
@@ -136,9 +173,9 @@
     1,
     null
    ],
-   "liq": 98187,
-   "vol": 159108,
-   "mcap": 866000,
+   "liq": 98156,
+   "vol": 153617,
+   "mcap": 863959,
    "holders": 2469,
    "createdAt": 1791314731000,
    "handle": "si276_xyz",
@@ -149,7 +186,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
-   "scannedAt": 1792786334654
+   "scannedAt": 1792787975565
   },
   {
    "ca": "Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump",
@@ -173,9 +210,9 @@
     1,
     null
    ],
-   "liq": 71141,
-   "vol": 1359219,
-   "mcap": 273520,
+   "liq": 70377,
+   "vol": 1222607,
+   "mcap": 273073,
    "holders": 4227,
    "createdAt": 1792559658000,
    "handle": "J4ck3LSyN",
@@ -186,7 +223,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/yq4nneqxhatdcb8ohx21ej9u8etzxnrvgnhkraa4pnw",
-   "scannedAt": 1792786274984
+   "scannedAt": 1792787977487
   },
   {
    "ca": "2JSj9dzLQwAi3q1dHYjCPF5Gveg81hBTRy8EeM3Fpump",
@@ -210,9 +247,9 @@
     1,
     null
    ],
-   "liq": 51607,
-   "vol": 484677,
-   "mcap": 148685,
+   "liq": 44878,
+   "vol": 504491,
+   "mcap": 112539,
    "holders": 614,
    "createdAt": 1792261614000,
    "handle": "arctisfun",
@@ -223,7 +260,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5spztg8hdxcg3ywx7hwjhghf8cygnrswz1smmfqqkamx",
-   "scannedAt": 1792786280112
+   "scannedAt": 1792787979777
   }
  ]
 }
