@@ -1,5 +1,5 @@
 {
- "updatedAt": 1792874312299,
+ "updatedAt": 1792876221794,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,10 +26,10 @@
     1,
     null
    ],
-   "liq": 163489,
-   "vol": 299850,
-   "mcap": 2305364,
-   "holders": 4094,
+   "liq": 165323,
+   "vol": 247564,
+   "mcap": 2356429,
+   "holders": 4086,
    "createdAt": 1792075556000,
    "handle": "dawgonbnb",
    "launchpad": null,
@@ -38,7 +38,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x9e83be1267e9a6d43bb7f3a8c0dc3c092ccae63e",
-   "scannedAt": 1792874227590
+   "scannedAt": 1792876131422
   },
   {
    "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
@@ -62,9 +62,9 @@
     1,
     null
    ],
-   "liq": 140956,
-   "vol": 215419,
-   "mcap": 1462880,
+   "liq": 142495,
+   "vol": 211875,
+   "mcap": 1494029,
    "holders": 17872,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -75,7 +75,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1792874232370
+   "scannedAt": 1792876133854
   },
   {
    "ca": "4qH8A5GxvRMZgpRFjXASc6U9HAoEzKeUqxY2dPB7pump",
@@ -99,9 +99,9 @@
     1,
     null
    ],
-   "liq": 48001,
-   "vol": 25111,
-   "mcap": 193768,
+   "liq": 46578,
+   "vol": 24153,
+   "mcap": 182089,
    "holders": 613,
    "createdAt": 1750018382000,
    "handle": "ParodyGroklet",
@@ -112,7 +112,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/7odjba4hzozvnwboksrwfetstnm4ia5witkwfr1lsy8t",
-   "scannedAt": 1792874234095
+   "scannedAt": 1792876136195
   },
   {
    "ca": "Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump",
@@ -136,9 +136,9 @@
     1,
     null
    ],
-   "liq": 41480,
-   "vol": 303058,
-   "mcap": 121599,
+   "liq": 38685,
+   "vol": 294650,
+   "mcap": 105537,
    "holders": 3774,
    "createdAt": 1792559658000,
    "handle": "J4ck3LSyN",
@@ -149,7 +149,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/yq4nneqxhatdcb8ohx21ej9u8etzxnrvgnhkraa4pnw",
-   "scannedAt": 1792874235615
+   "scannedAt": 1792876138597
   }
  ]
 }
