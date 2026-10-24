@@ -1,5 +1,5 @@
 {
- "updatedAt": 1792870560812,
+ "updatedAt": 1792872670964,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 164560,
-   "vol": 488445,
-   "mcap": 2341407,
+   "liq": 164700,
+   "vol": 368613,
+   "mcap": 2339664,
    "holders": 4094,
    "createdAt": 1792075556000,
    "handle": "dawgonbnb",
@@ -38,44 +38,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x9e83be1267e9a6d43bb7f3a8c0dc3c092ccae63e",
-   "scannedAt": 1792870476956
-  },
-  {
-   "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
-   "chain": "solana",
-   "sym": "MISTAKE",
-   "name": "Make No Mistakes",
-   "img": "https://cdn.dexscreener.com/cms/images/S3VS6ZPJzJ-72iRm?width=800&height=800&quality=95&format=auto",
-   "score": 10,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    null
-   ],
-   "liq": 141713,
-   "vol": 217442,
-   "mcap": 1482648,
-   "holders": 17872,
-   "createdAt": 1789093171000,
-   "handle": "nomistakesfun",
-   "launchpad": null,
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1792870480121
+   "scannedAt": 1792872573836
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -99,9 +62,9 @@
     1,
     null
    ],
-   "liq": 169418,
-   "vol": 879417,
-   "mcap": 3082764,
+   "liq": 172932,
+   "vol": 894080,
+   "mcap": 3194844,
    "holders": 6331,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -112,7 +75,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1792870478589
+   "scannedAt": 1792872577942
+  },
+  {
+   "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
+   "chain": "solana",
+   "sym": "MISTAKE",
+   "name": "Make No Mistakes",
+   "img": "https://cdn.dexscreener.com/cms/images/S3VS6ZPJzJ-72iRm?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    null
+   ],
+   "liq": 140749,
+   "vol": 216443,
+   "mcap": 1456643,
+   "holders": 17872,
+   "createdAt": 1789093171000,
+   "handle": "nomistakesfun",
+   "launchpad": null,
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
+   "scannedAt": 1792872575630
   },
   {
    "ca": "4qH8A5GxvRMZgpRFjXASc6U9HAoEzKeUqxY2dPB7pump",
@@ -136,9 +136,9 @@
     1,
     null
    ],
-   "liq": 45541,
-   "vol": 26725,
-   "mcap": 174879,
+   "liq": 47826,
+   "vol": 26558,
+   "mcap": 192371,
    "holders": 613,
    "createdAt": 1750018382000,
    "handle": "ParodyGroklet",
@@ -149,7 +149,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/7odjba4hzozvnwboksrwfetstnm4ia5witkwfr1lsy8t",
-   "scannedAt": 1792870481702
+   "scannedAt": 1792872579781
   },
   {
    "ca": "Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump",
@@ -173,9 +173,9 @@
     1,
     null
    ],
-   "liq": 41408,
-   "vol": 327436,
-   "mcap": 121440,
+   "liq": 41359,
+   "vol": 307839,
+   "mcap": 120712,
    "holders": 3774,
    "createdAt": 1792559658000,
    "handle": "J4ck3LSyN",
@@ -186,7 +186,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/yq4nneqxhatdcb8ohx21ej9u8etzxnrvgnhkraa4pnw",
-   "scannedAt": 1792870483248
+   "scannedAt": 1792872581698
   }
  ]
 }
