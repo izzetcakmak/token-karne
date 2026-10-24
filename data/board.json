@@ -1,5 +1,5 @@
 {
- "updatedAt": 1792845868294,
+ "updatedAt": 1792847444338,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,10 +26,10 @@
     1,
     null
    ],
-   "liq": 172264,
-   "vol": 523277,
-   "mcap": 2563042,
-   "holders": 4117,
+   "liq": 172176,
+   "vol": 521327,
+   "mcap": 2558600,
+   "holders": 4118,
    "createdAt": 1792075556000,
    "handle": "dawgonbnb",
    "launchpad": null,
@@ -38,7 +38,44 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x9e83be1267e9a6d43bb7f3a8c0dc3c092ccae63e",
-   "scannedAt": 1792845784009
+   "scannedAt": 1792847372200
+  },
+  {
+   "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
+   "chain": "solana",
+   "sym": "MISTAKE",
+   "name": "Make No Mistakes",
+   "img": "https://cdn.dexscreener.com/cms/images/S3VS6ZPJzJ-72iRm?width=800&height=800&quality=95&format=auto",
+   "score": 10,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    null
+   ],
+   "liq": 139143,
+   "vol": 250713,
+   "mcap": 1424815,
+   "holders": 17796,
+   "createdAt": 1789093171000,
+   "handle": "nomistakesfun",
+   "launchpad": null,
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
+   "scannedAt": 1792847375408
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -62,9 +99,9 @@
     1,
     null
    ],
-   "liq": 177669,
-   "vol": 873302,
-   "mcap": 3387653,
+   "liq": 168105,
+   "vol": 880912,
+   "mcap": 3033726,
    "holders": 6000,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -75,81 +112,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1792845788012
-  },
-  {
-   "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
-   "chain": "solana",
-   "sym": "MISTAKE",
-   "name": "Make No Mistakes",
-   "img": "https://cdn.dexscreener.com/cms/images/S3VS6ZPJzJ-72iRm?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    null
-   ],
-   "liq": 137394,
-   "vol": 248005,
-   "mcap": 1389341,
-   "holders": 17796,
-   "createdAt": 1789093171000,
-   "handle": "nomistakesfun",
-   "launchpad": null,
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1792845785953
-  },
-  {
-   "ca": "Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump",
-   "chain": "solana",
-   "sym": "PHP",
-   "name": "PHP-UP-2026",
-   "img": "https://cdn.dexscreener.com/cms/images/FW6Utskwvo3qGwjX?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 52795,
-   "vol": 557977,
-   "mcap": 196129,
-   "holders": 3910,
-   "createdAt": 1792559658000,
-   "handle": "J4ck3LSyN",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/yq4nneqxhatdcb8ohx21ej9u8etzxnrvgnhkraa4pnw",
-   "scannedAt": 1792845790180
+   "scannedAt": 1792847373967
   },
   {
    "ca": "2JSj9dzLQwAi3q1dHYjCPF5Gveg81hBTRy8EeM3Fpump",
@@ -173,9 +136,9 @@
     1,
     null
    ],
-   "liq": 51848,
-   "vol": 476947,
-   "mcap": 147548,
+   "liq": 52089,
+   "vol": 442885,
+   "mcap": 149377,
    "holders": 669,
    "createdAt": 1792686619000,
    "handle": "arctisfun",
@@ -186,7 +149,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5spztg8hdxcg3ywx7hwjhghf8cygnrswz1smmfqqkamx",
-   "scannedAt": 1792845791694
+   "scannedAt": 1792847378271
+  },
+  {
+   "ca": "Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump",
+   "chain": "solana",
+   "sym": "PHP",
+   "name": "PHP-UP-2026",
+   "img": "https://cdn.dexscreener.com/cms/images/FW6Utskwvo3qGwjX?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 49256,
+   "vol": 549176,
+   "mcap": 169316,
+   "holders": 3910,
+   "createdAt": 1792559658000,
+   "handle": "J4ck3LSyN",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/yq4nneqxhatdcb8ohx21ej9u8etzxnrvgnhkraa4pnw",
+   "scannedAt": 1792847376826
   },
   {
    "ca": "4qH8A5GxvRMZgpRFjXASc6U9HAoEzKeUqxY2dPB7pump",
@@ -210,9 +210,9 @@
     1,
     null
    ],
-   "liq": 45558,
-   "vol": 61092,
-   "mcap": 173998,
+   "liq": 46159,
+   "vol": 57925,
+   "mcap": 178931,
    "holders": 613,
    "createdAt": 1750018382000,
    "handle": "ParodyGroklet",
@@ -223,7 +223,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/7odjba4hzozvnwboksrwfetstnm4ia5witkwfr1lsy8t",
-   "scannedAt": 1792845793145
+   "scannedAt": 1792847380345
   }
  ]
 }
