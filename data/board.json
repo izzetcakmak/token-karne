@@ -1,5 +1,5 @@
 {
- "updatedAt": 1792876221794,
+ "updatedAt": 1792877867376,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 165323,
-   "vol": 247564,
-   "mcap": 2356429,
+   "liq": 165527,
+   "vol": 220579,
+   "mcap": 2357600,
    "holders": 4086,
    "createdAt": 1792075556000,
    "handle": "dawgonbnb",
@@ -38,7 +38,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x9e83be1267e9a6d43bb7f3a8c0dc3c092ccae63e",
-   "scannedAt": 1792876131422
+   "scannedAt": 1792877782078
   },
   {
    "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
@@ -46,11 +46,11 @@
    "sym": "MISTAKE",
    "name": "Make No Mistakes",
    "img": "https://cdn.dexscreener.com/cms/images/S3VS6ZPJzJ-72iRm?width=800&height=800&quality=95&format=auto",
-   "score": 9,
+   "score": 10,
    "unknown": 1,
    "answers": [
     1,
-    0,
+    1,
     1,
     1,
     1,
@@ -62,9 +62,9 @@
     1,
     null
    ],
-   "liq": 142495,
-   "vol": 211875,
-   "mcap": 1494029,
+   "liq": 143172,
+   "vol": 211905,
+   "mcap": 1508059,
    "holders": 17872,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -75,14 +75,14 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1792876133854
+   "scannedAt": 1792877784016
   },
   {
-   "ca": "4qH8A5GxvRMZgpRFjXASc6U9HAoEzKeUqxY2dPB7pump",
+   "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
    "chain": "solana",
-   "sym": "Groklet",
-   "name": "Grok Mascot",
-   "img": "https://cdn.dexscreener.com/cms/images/vMgQT0MJrnr87TkG?width=800&height=800&quality=95&format=auto",
+   "sym": "SI276",
+   "name": "Super Intelligence SI276",
+   "img": "https://cdn.dexscreener.com/cms/images/C00PG8ebjcD8d36M?width=800&height=800&quality=95&format=auto",
    "score": 9,
    "unknown": 1,
    "answers": [
@@ -99,20 +99,20 @@
     1,
     null
    ],
-   "liq": 46578,
-   "vol": 24153,
-   "mcap": 182089,
-   "holders": 613,
-   "createdAt": 1750018382000,
-   "handle": "ParodyGroklet",
+   "liq": 89880,
+   "vol": 70950,
+   "mcap": 739405,
+   "holders": 2516,
+   "createdAt": 1791314731000,
+   "handle": "si276_xyz",
    "launchpad": "Pump.Fun",
    "flags": 0,
    "sources": [
     "GoPlus",
     "RugCheck"
    ],
-   "url": "https://dexscreener.com/solana/7odjba4hzozvnwboksrwfetstnm4ia5witkwfr1lsy8t",
-   "scannedAt": 1792876136195
+   "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
+   "scannedAt": 1792877793097
   },
   {
    "ca": "Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump",
@@ -136,9 +136,9 @@
     1,
     null
    ],
-   "liq": 38685,
-   "vol": 294650,
-   "mcap": 105537,
+   "liq": 41793,
+   "vol": 287611,
+   "mcap": 123168,
    "holders": 3774,
    "createdAt": 1792559658000,
    "handle": "J4ck3LSyN",
@@ -149,7 +149,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/yq4nneqxhatdcb8ohx21ej9u8etzxnrvgnhkraa4pnw",
-   "scannedAt": 1792876138597
+   "scannedAt": 1792877787514
   }
  ]
 }
