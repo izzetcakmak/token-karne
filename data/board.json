@@ -1,5 +1,5 @@
 {
- "updatedAt": 1792841856146,
+ "updatedAt": 1792844117756,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 172556,
-   "vol": 523801,
-   "mcap": 2571972,
+   "liq": 172228,
+   "vol": 523489,
+   "mcap": 2565849,
    "holders": 4117,
    "createdAt": 1792075556000,
    "handle": "dawgonbnb",
@@ -38,7 +38,44 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x9e83be1267e9a6d43bb7f3a8c0dc3c092ccae63e",
-   "scannedAt": 1792841763298
+   "scannedAt": 1792844038324
+  },
+  {
+   "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
+   "chain": "solana",
+   "sym": "MISTAKE",
+   "name": "Make No Mistakes",
+   "img": "https://cdn.dexscreener.com/cms/images/S3VS6ZPJzJ-72iRm?width=800&height=800&quality=95&format=auto",
+   "score": 10,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    null
+   ],
+   "liq": 136098,
+   "vol": 248172,
+   "mcap": 1367469,
+   "holders": 17796,
+   "createdAt": 1789093171000,
+   "handle": "nomistakesfun",
+   "launchpad": null,
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
+   "scannedAt": 1792844041729
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -62,9 +99,9 @@
     1,
     null
    ],
-   "liq": 182019,
-   "vol": 854827,
-   "mcap": 3530204,
+   "liq": 182456,
+   "vol": 879354,
+   "mcap": 3545104,
    "holders": 6000,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -75,44 +112,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1792841768141
-  },
-  {
-   "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
-   "chain": "solana",
-   "sym": "MISTAKE",
-   "name": "Make No Mistakes",
-   "img": "https://cdn.dexscreener.com/cms/images/S3VS6ZPJzJ-72iRm?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    null
-   ],
-   "liq": 134627,
-   "vol": 248666,
-   "mcap": 1338120,
-   "holders": 17796,
-   "createdAt": 1789093171000,
-   "handle": "nomistakesfun",
-   "launchpad": null,
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1792841766003
+   "scannedAt": 1792844039866
   },
   {
    "ca": "Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump",
@@ -136,9 +136,9 @@
     1,
     null
    ],
-   "liq": 55128,
-   "vol": 576399,
-   "mcap": 215111,
+   "liq": 53840,
+   "vol": 563781,
+   "mcap": 205610,
    "holders": 3910,
    "createdAt": 1792559658000,
    "handle": "J4ck3LSyN",
@@ -149,7 +149,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/yq4nneqxhatdcb8ohx21ej9u8etzxnrvgnhkraa4pnw",
-   "scannedAt": 1792841770436
+   "scannedAt": 1792844043179
   },
   {
    "ca": "2JSj9dzLQwAi3q1dHYjCPF5Gveg81hBTRy8EeM3Fpump",
@@ -173,9 +173,9 @@
     1,
     null
    ],
-   "liq": 48518,
-   "vol": 574920,
-   "mcap": 126594,
+   "liq": 51115,
+   "vol": 528085,
+   "mcap": 143978,
    "holders": 669,
    "createdAt": 1792686619000,
    "handle": "arctisfun",
@@ -186,7 +186,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5spztg8hdxcg3ywx7hwjhghf8cygnrswz1smmfqqkamx",
-   "scannedAt": 1792841772069
+   "scannedAt": 1792844045076
   },
   {
    "ca": "4qH8A5GxvRMZgpRFjXASc6U9HAoEzKeUqxY2dPB7pump",
@@ -210,9 +210,9 @@
     1,
     null
    ],
-   "liq": 45408,
-   "vol": 67083,
-   "mcap": 173566,
+   "liq": 46665,
+   "vol": 65439,
+   "mcap": 183688,
    "holders": 613,
    "createdAt": 1750018382000,
    "handle": "ParodyGroklet",
@@ -223,7 +223,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/7odjba4hzozvnwboksrwfetstnm4ia5witkwfr1lsy8t",
-   "scannedAt": 1792841773821
+   "scannedAt": 1792844046542
   }
  ]
 }
