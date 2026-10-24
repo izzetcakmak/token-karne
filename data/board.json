@@ -1,5 +1,5 @@
 {
- "updatedAt": 1792881446125,
+ "updatedAt": 1792883414502,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 165670,
-   "vol": 185971,
-   "mcap": 2356791,
+   "liq": 166153,
+   "vol": 174466,
+   "mcap": 2366909,
    "holders": 4088,
    "createdAt": 1792075556000,
    "handle": "dawgonbnb",
@@ -38,7 +38,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x9e83be1267e9a6d43bb7f3a8c0dc3c092ccae63e",
-   "scannedAt": 1792881352969
+   "scannedAt": 1792883333563
   },
   {
    "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
@@ -62,9 +62,9 @@
     1,
     null
    ],
-   "liq": 138501,
-   "vol": 220460,
-   "mcap": 1409002,
+   "liq": 141837,
+   "vol": 221691,
+   "mcap": 1476614,
    "holders": 17872,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -75,44 +75,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1792881355167
-  },
-  {
-   "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
-   "chain": "solana",
-   "sym": "SI276",
-   "name": "Super Intelligence SI276",
-   "img": "https://cdn.dexscreener.com/cms/images/C00PG8ebjcD8d36M?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 89723,
-   "vol": 70115,
-   "mcap": 735624,
-   "holders": 2516,
-   "createdAt": 1791314731000,
-   "handle": "si276_xyz",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
-   "scannedAt": 1792881374760
+   "scannedAt": 1792883335409
   },
   {
    "ca": "Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump",
@@ -136,9 +99,9 @@
     1,
     null
    ],
-   "liq": 40560,
-   "vol": 279768,
-   "mcap": 123965,
+   "liq": 40094,
+   "vol": 269735,
+   "mcap": 124613,
    "holders": 3774,
    "createdAt": 1792559658000,
    "handle": "J4ck3LSyN",
@@ -149,7 +112,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/yq4nneqxhatdcb8ohx21ej9u8etzxnrvgnhkraa4pnw",
-   "scannedAt": 1792881356876
+   "scannedAt": 1792883338405
   }
  ]
 }
