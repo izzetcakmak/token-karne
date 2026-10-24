@@ -1,5 +1,5 @@
 {
- "updatedAt": 1792822717470,
+ "updatedAt": 1792824627318,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 184068,
-   "vol": 549766,
-   "mcap": 2903261,
+   "liq": 181726,
+   "vol": 550882,
+   "mcap": 2832226,
    "holders": 4112,
    "createdAt": 1792075556000,
    "handle": "dawgonbnb",
@@ -38,7 +38,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x9e83be1267e9a6d43bb7f3a8c0dc3c092ccae63e",
-   "scannedAt": 1792822644889
+   "scannedAt": 1792824555254
   },
   {
    "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
@@ -62,9 +62,9 @@
     1,
     null
    ],
-   "liq": 139621,
-   "vol": 261388,
-   "mcap": 1427542,
+   "liq": 141282,
+   "vol": 260304,
+   "mcap": 1462805,
    "holders": 17796,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -75,7 +75,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1792822648087
+   "scannedAt": 1792824556984
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -99,9 +99,9 @@
     1,
     null
    ],
-   "liq": 178979,
-   "vol": 845640,
-   "mcap": 3396671,
+   "liq": 178108,
+   "vol": 852915,
+   "mcap": 3369204,
    "holders": 5077,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -112,7 +112,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1792822646548
+   "scannedAt": 1792824558430
   },
   {
    "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
@@ -136,9 +136,9 @@
     1,
     null
    ],
-   "liq": 91410,
-   "vol": 94089,
-   "mcap": 759798,
+   "liq": 93447,
+   "vol": 94155,
+   "mcap": 794811,
    "holders": 2469,
    "createdAt": 1791314731000,
    "handle": "si276_xyz",
@@ -149,44 +149,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
-   "scannedAt": 1792822649601
-  },
-  {
-   "ca": "TVvnJTedD3WgAPede2xUmRjweJqNdhCEgyjtKv3rCq4",
-   "chain": "solana",
-   "sym": "SHEEPLE",
-   "name": "The Sheeple Flock",
-   "img": "https://cdn.dexscreener.com/cms/images/VHbGMGGA0mtg5WNU?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 63371,
-   "vol": 32827,
-   "mcap": 613152,
-   "holders": 451,
-   "createdAt": 1789593867000,
-   "handle": "TheSheepleFlock",
-   "launchpad": null,
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/akm2ua4zjwkcjq3dkiv2wmeik1b1a9tauxowjf3c94wr",
-   "scannedAt": 1792822689058
+   "scannedAt": 1792824559889
   },
   {
    "ca": "Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump",
@@ -210,10 +173,10 @@
     1,
     null
    ],
-   "liq": 56144,
-   "vol": 763975,
-   "mcap": 199470,
-   "holders": 3983,
+   "liq": 57493,
+   "vol": 757148,
+   "mcap": 214119,
+   "holders": 3910,
    "createdAt": 1792559658000,
    "handle": "J4ck3LSyN",
    "launchpad": "Pump.Fun",
@@ -223,7 +186,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/yq4nneqxhatdcb8ohx21ej9u8etzxnrvgnhkraa4pnw",
-   "scannedAt": 1792822651477
+   "scannedAt": 1792824562736
   },
   {
    "ca": "4qH8A5GxvRMZgpRFjXASc6U9HAoEzKeUqxY2dPB7pump",
@@ -247,9 +210,9 @@
     1,
     null
    ],
-   "liq": 52598,
-   "vol": 60391,
-   "mcap": 230923,
+   "liq": 51598,
+   "vol": 61218,
+   "mcap": 222018,
    "holders": 613,
    "createdAt": 1750018382000,
    "handle": "ParodyGroklet",
@@ -260,7 +223,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/7odjba4hzozvnwboksrwfetstnm4ia5witkwfr1lsy8t",
-   "scannedAt": 1792822653097
+   "scannedAt": 1792824564337
   },
   {
    "ca": "2JSj9dzLQwAi3q1dHYjCPF5Gveg81hBTRy8EeM3Fpump",
@@ -284,9 +247,9 @@
     1,
     null
    ],
-   "liq": 42302,
-   "vol": 512900,
-   "mcap": 101135,
+   "liq": 46951,
+   "vol": 551184,
+   "mcap": 123005,
    "holders": 614,
    "createdAt": 1792261614000,
    "handle": "arctisfun",
@@ -297,7 +260,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5spztg8hdxcg3ywx7hwjhghf8cygnrswz1smmfqqkamx",
-   "scannedAt": 1792822654671
+   "scannedAt": 1792824566187
   }
  ]
 }
