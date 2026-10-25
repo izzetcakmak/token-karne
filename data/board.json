@@ -1,5 +1,5 @@
 {
- "updatedAt": 1792969835136,
+ "updatedAt": 1792971382661,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 170881,
-   "vol": 685060,
-   "mcap": 3060566,
+   "liq": 175039,
+   "vol": 685088,
+   "mcap": 3224698,
    "holders": 6695,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1792969754053
+   "scannedAt": 1792971288926
   },
   {
    "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 112187,
-   "vol": 511842,
-   "mcap": 917204,
+   "liq": 112141,
+   "vol": 505130,
+   "mcap": 920842,
    "holders": 17611,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1792969752133
+   "scannedAt": 1792971291668
   },
   {
    "ca": "H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump",
@@ -100,10 +100,10 @@
     1,
     null
    ],
-   "liq": 97983,
-   "vol": 4348017,
-   "mcap": 1061475,
-   "holders": 15972,
+   "liq": 99655,
+   "vol": 4233517,
+   "mcap": 1101317,
+   "holders": 15987,
    "createdAt": 1792870557000,
    "handle": "sircattleaxe",
    "launchpad": "Pump.Fun",
@@ -113,7 +113,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/3p3uya9ayzv7w2nhejeo8ankuuwhyuonqvhhs8lyrqjy",
-   "scannedAt": 1792969756089
+   "scannedAt": 1792971293098
   },
   {
    "ca": "CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump",
@@ -137,10 +137,10 @@
     1,
     null
    ],
-   "liq": 92688,
-   "vol": 1400837,
-   "mcap": 943948,
-   "holders": 12445,
+   "liq": 91344,
+   "vol": 1363795,
+   "mcap": 921745,
+   "holders": 12510,
    "createdAt": 1792797028000,
    "handle": "remusfamily",
    "launchpad": "Pump.Fun",
@@ -150,7 +150,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/6jdispswbwcsn8xba4lnbzmzrikxksbxcto8j3elr4cg",
-   "scannedAt": 1792969757865
+   "scannedAt": 1792971294550
   }
  ]
 }
