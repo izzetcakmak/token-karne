@@ -1,5 +1,5 @@
 {
- "updatedAt": 1792928240130,
+ "updatedAt": 1792930560641,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,10 +26,10 @@
     1,
     null
    ],
-   "liq": 155239,
-   "vol": 144842,
-   "mcap": 2049391,
-   "holders": 4533,
+   "liq": 155972,
+   "vol": 145063,
+   "mcap": 2066442,
+   "holders": 4538,
    "createdAt": 1792075556000,
    "handle": "dawgonbnb",
    "launchpad": null,
@@ -38,7 +38,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x9e83be1267e9a6d43bb7f3a8c0dc3c092ccae63e",
-   "scannedAt": 1792928157816
+   "scannedAt": 1792930466863
   },
   {
    "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
@@ -62,9 +62,9 @@
     1,
     null
    ],
-   "liq": 153066,
-   "vol": 240940,
-   "mcap": 1724876,
+   "liq": 154989,
+   "vol": 246414,
+   "mcap": 1761340,
    "holders": 17528,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -75,7 +75,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1792928156281
+   "scannedAt": 1792930469074
+  },
+  {
+   "ca": "CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump",
+   "chain": "solana",
+   "sym": "REMUS",
+   "name": "Remus",
+   "img": "https://cdn.dexscreener.com/cms/images/RSLqRr5vubt1aRKX?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 91115,
+   "vol": 1921137,
+   "mcap": 937794,
+   "holders": 11046,
+   "createdAt": 1792797028000,
+   "handle": "remusfamily",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/6jdispswbwcsn8xba4lnbzmzrikxksbxcto8j3elr4cg",
+   "scannedAt": 1792930481220
   },
   {
    "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
@@ -99,9 +136,9 @@
     1,
     null
    ],
-   "liq": 88745,
-   "vol": 51292,
-   "mcap": 725773,
+   "liq": 89439,
+   "vol": 49542,
+   "mcap": 734820,
    "holders": 2467,
    "createdAt": 1791314731000,
    "handle": "si276_xyz",
@@ -112,7 +149,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
-   "scannedAt": 1792928159450
+   "scannedAt": 1792930471238
   }
  ]
 }
