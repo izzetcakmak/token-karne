@@ -1,5 +1,5 @@
 {
- "updatedAt": 1792955365805,
+ "updatedAt": 1792956980008,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 174732,
-   "vol": 695450,
-   "mcap": 3203971,
+   "liq": 175376,
+   "vol": 699984,
+   "mcap": 3228697,
    "holders": 6695,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1792955276646
+   "scannedAt": 1792956889182
   },
   {
    "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 118773,
-   "vol": 557796,
-   "mcap": 1024629,
+   "liq": 117086,
+   "vol": 557954,
+   "mcap": 996797,
    "holders": 17500,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -76,7 +76,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1792955280013
+   "scannedAt": 1792956891145
+  },
+  {
+   "ca": "H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump",
+   "chain": "solana",
+   "sym": "CATTLEAXE",
+   "name": "Cattleaxe",
+   "img": "https://cdn.dexscreener.com/cms/images/k8ix7LCLLGh9vRhA?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 104921,
+   "vol": 5738231,
+   "mcap": 1230737,
+   "holders": 14937,
+   "createdAt": 1792870557000,
+   "handle": "sircattleaxe",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/3p3uya9ayzv7w2nhejeo8ankuuwhyuonqvhhs8lyrqjy",
+   "scannedAt": 1792956955937
   },
   {
    "ca": "CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump",
@@ -100,10 +137,10 @@
     1,
     null
    ],
-   "liq": 80232,
-   "vol": 1466474,
-   "mcap": 715898,
-   "holders": 11932,
+   "liq": 78707,
+   "vol": 1433345,
+   "mcap": 689854,
+   "holders": 11958,
    "createdAt": 1792797028000,
    "handle": "remusfamily",
    "launchpad": "Pump.Fun",
@@ -113,44 +150,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/6jdispswbwcsn8xba4lnbzmzrikxksbxcto8j3elr4cg",
-   "scannedAt": 1792955282110
-  },
-  {
-   "ca": "87sEXKPMBeoryaqFQQnq1Yq6mUvjeNzhiFGxJbRjpump",
-   "chain": "solana",
-   "sym": "WORTHLESS",
-   "name": "Worthless Coin",
-   "img": "https://cdn.dexscreener.com/cms/images/inCwSlR6-AspwmnZ?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 30372,
-   "vol": 60904,
-   "mcap": 107188,
-   "holders": 1159,
-   "createdAt": 1792416316000,
-   "handle": "worthless_cto",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/hnjy1mvocfbpnxwtanscceqnr5t2ackyfyuskwjhee3j",
-   "scannedAt": 1792955284109
+   "scannedAt": 1792956892827
   }
  ]
 }
