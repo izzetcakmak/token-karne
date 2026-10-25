@@ -1,8 +1,8 @@
 {
- "updatedAt": 1792933830353,
+ "updatedAt": 1792935458316,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 44,
+ "scanned": 45,
  "items": [
   {
    "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
@@ -26,10 +26,10 @@
     1,
     null
    ],
-   "liq": 154826,
-   "vol": 247110,
-   "mcap": 1760695,
-   "holders": 17528,
+   "liq": 178165,
+   "vol": 294096,
+   "mcap": 2322289,
+   "holders": 17500,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
    "launchpad": null,
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1792933738270
+   "scannedAt": 1792935369773
   },
   {
    "ca": "0x7D0443CdDFc8E11AF105F4fE44Dd28c630237777",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 154822,
-   "vol": 145586,
-   "mcap": 2044889,
+   "liq": 154629,
+   "vol": 145176,
+   "mcap": 2045117,
    "holders": 4538,
    "createdAt": 1792075556000,
    "handle": "dawgonbnb",
@@ -75,7 +75,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x9e83be1267e9a6d43bb7f3a8c0dc3c092ccae63e",
-   "scannedAt": 1792933740575
+   "scannedAt": 1792935371944
   },
   {
    "ca": "CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump",
@@ -99,10 +99,10 @@
     1,
     null
    ],
-   "liq": 92181,
-   "vol": 1987503,
-   "mcap": 962189,
-   "holders": 11255,
+   "liq": 90304,
+   "vol": 1983074,
+   "mcap": 919606,
+   "holders": 11343,
    "createdAt": 1792797028000,
    "handle": "remusfamily",
    "launchpad": "Pump.Fun",
@@ -112,7 +112,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/6jdispswbwcsn8xba4lnbzmzrikxksbxcto8j3elr4cg",
-   "scannedAt": 1792933744496
+   "scannedAt": 1792935373911
   }
  ]
 }
