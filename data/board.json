@@ -1,5 +1,5 @@
 {
- "updatedAt": 1792917732046,
+ "updatedAt": 1792919520860,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 150452,
-   "vol": 233018,
-   "mcap": 1660983,
+   "liq": 152232,
+   "vol": 235209,
+   "mcap": 1704002,
    "holders": 17528,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1792917654566
+   "scannedAt": 1792919436331
   },
   {
    "ca": "0x7D0443CdDFc8E11AF105F4fE44Dd28c630237777",
@@ -63,10 +63,10 @@
     1,
     null
    ],
-   "liq": 142018,
-   "vol": 139954,
-   "mcap": 1717231,
-   "holders": 4538,
+   "liq": 141152,
+   "vol": 139458,
+   "mcap": 1701418,
+   "holders": 4537,
    "createdAt": 1792075556000,
    "handle": "dawgonbnb",
    "launchpad": null,
@@ -75,7 +75,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x9e83be1267e9a6d43bb7f3a8c0dc3c092ccae63e",
-   "scannedAt": 1792917656061
+   "scannedAt": 1792919438320
   },
   {
    "ca": "CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump",
@@ -99,10 +99,10 @@
     1,
     null
    ],
-   "liq": 77816,
-   "vol": 1820346,
-   "mcap": 701433,
-   "holders": 9893,
+   "liq": 78311,
+   "vol": 1834124,
+   "mcap": 711012,
+   "holders": 9959,
    "createdAt": 1792797028000,
    "handle": "remusfamily",
    "launchpad": "Pump.Fun",
@@ -112,7 +112,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/6jdispswbwcsn8xba4lnbzmzrikxksbxcto8j3elr4cg",
-   "scannedAt": 1792917657990
+   "scannedAt": 1792919439974
   }
  ]
 }
