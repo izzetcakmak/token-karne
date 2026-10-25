@@ -1,5 +1,5 @@
 {
- "updatedAt": 1792923082316,
+ "updatedAt": 1792924730082,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -10,11 +10,11 @@
    "sym": "MISTAKE",
    "name": "Make No Mistakes",
    "img": "https://cdn.dexscreener.com/cms/images/S3VS6ZPJzJ-72iRm?width=800&height=800&quality=95&format=auto",
-   "score": 9,
+   "score": 10,
    "unknown": 1,
    "answers": [
     1,
-    0,
+    1,
     1,
     1,
     1,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 152804,
-   "vol": 238255,
-   "mcap": 1717772,
+   "liq": 153969,
+   "vol": 238854,
+   "mcap": 1745664,
    "holders": 17528,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1792922995032
+   "scannedAt": 1792924646113
   },
   {
    "ca": "0x7D0443CdDFc8E11AF105F4fE44Dd28c630237777",
@@ -63,10 +63,10 @@
     1,
     null
    ],
-   "liq": 150231,
-   "vol": 142471,
-   "mcap": 1928780,
-   "holders": 4537,
+   "liq": 145327,
+   "vol": 145417,
+   "mcap": 1803997,
+   "holders": 4533,
    "createdAt": 1792075556000,
    "handle": "dawgonbnb",
    "launchpad": null,
@@ -75,44 +75,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x9e83be1267e9a6d43bb7f3a8c0dc3c092ccae63e",
-   "scannedAt": 1792922997256
-  },
-  {
-   "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
-   "chain": "solana",
-   "sym": "SI276",
-   "name": "Super Intelligence SI276",
-   "img": "https://cdn.dexscreener.com/cms/images/C00PG8ebjcD8d36M?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 88104,
-   "vol": 51812,
-   "mcap": 714835,
-   "holders": 2467,
-   "createdAt": 1791314731000,
-   "handle": "si276_xyz",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
-   "scannedAt": 1792922998735
+   "scannedAt": 1792924647580
   },
   {
    "ca": "CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump",
@@ -136,10 +99,10 @@
     1,
     null
    ],
-   "liq": 84995,
-   "vol": 1783735,
-   "mcap": 832512,
-   "holders": 10275,
+   "liq": 90152,
+   "vol": 1816760,
+   "mcap": 929295,
+   "holders": 10514,
    "createdAt": 1792797028000,
    "handle": "remusfamily",
    "launchpad": "Pump.Fun",
@@ -149,7 +112,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/6jdispswbwcsn8xba4lnbzmzrikxksbxcto8j3elr4cg",
-   "scannedAt": 1792923000525
+   "scannedAt": 1792924651096
+  },
+  {
+   "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
+   "chain": "solana",
+   "sym": "SI276",
+   "name": "Super Intelligence SI276",
+   "img": "https://cdn.dexscreener.com/cms/images/C00PG8ebjcD8d36M?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 87155,
+   "vol": 51714,
+   "mcap": 700581,
+   "holders": 2467,
+   "createdAt": 1791314731000,
+   "handle": "si276_xyz",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
+   "scannedAt": 1792924649353
   }
  ]
 }
