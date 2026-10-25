@@ -1,5 +1,5 @@
 {
- "updatedAt": 1792959083450,
+ "updatedAt": 1792960767964,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 117275,
-   "vol": 553924,
-   "mcap": 999036,
+   "liq": 115276,
+   "vol": 549975,
+   "mcap": 967104,
    "holders": 17500,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1792958991453
+   "scannedAt": 1792960663373
   },
   {
    "ca": "H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump",
@@ -63,10 +63,10 @@
     1,
     null
    ],
-   "liq": 104451,
-   "vol": 5076697,
-   "mcap": 1218412,
-   "holders": 14956,
+   "liq": 102063,
+   "vol": 4757554,
+   "mcap": 1165128,
+   "holders": 14968,
    "createdAt": 1792870557000,
    "handle": "sircattleaxe",
    "launchpad": "Pump.Fun",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/3p3uya9ayzv7w2nhejeo8ankuuwhyuonqvhhs8lyrqjy",
-   "scannedAt": 1792958993578
+   "scannedAt": 1792960665889
   },
   {
    "ca": "CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump",
@@ -100,10 +100,10 @@
     1,
     null
    ],
-   "liq": 86192,
-   "vol": 1428501,
-   "mcap": 822042,
-   "holders": 11983,
+   "liq": 85080,
+   "vol": 1440478,
+   "mcap": 801152,
+   "holders": 12009,
    "createdAt": 1792797028000,
    "handle": "remusfamily",
    "launchpad": "Pump.Fun",
@@ -113,7 +113,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/6jdispswbwcsn8xba4lnbzmzrikxksbxcto8j3elr4cg",
-   "scannedAt": 1792958995216
+   "scannedAt": 1792960668285
   },
   {
    "ca": "3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump",
@@ -137,10 +137,10 @@
     1,
     null
    ],
-   "liq": 66413,
-   "vol": 6013531,
-   "mcap": 487392,
-   "holders": 6824,
+   "liq": 66525,
+   "vol": 5292573,
+   "mcap": 489003,
+   "holders": 6877,
    "createdAt": 1792871066000,
    "handle": "swordopeX",
    "launchpad": "Pump.Fun",
@@ -150,7 +150,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/3txp9x2w1al9jtzf1tuawezmux4w3pwnvvahpjjd3maq",
-   "scannedAt": 1792959060677
+   "scannedAt": 1792960669852
   }
  ]
 }
