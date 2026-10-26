@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793036422610,
+ "updatedAt": 1793038823966,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 194396,
-   "vol": 1170724,
-   "mcap": 3898836,
+   "liq": 192092,
+   "vol": 1187435,
+   "mcap": 3816857,
    "holders": 6763,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -39,44 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1793036325017
-  },
-  {
-   "ca": "CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump",
-   "chain": "solana",
-   "sym": "REMUS",
-   "name": "Remus",
-   "img": "https://cdn.dexscreener.com/cms/images/RSLqRr5vubt1aRKX?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    0,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 106532,
-   "vol": 1380510,
-   "mcap": 1192661,
-   "holders": 8229,
-   "createdAt": 1792797028000,
-   "handle": "remusfamily",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/6jdispswbwcsn8xba4lnbzmzrikxksbxcto8j3elr4cg",
-   "scannedAt": 1793036331394
+   "scannedAt": 1793038732030
   },
   {
    "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
@@ -100,9 +63,9 @@
     1,
     null
    ],
-   "liq": 104024,
-   "vol": 110494,
-   "mcap": 788132,
+   "liq": 102920,
+   "vol": 109048,
+   "mcap": 774055,
    "holders": 17492,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -113,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1793036334996
+   "scannedAt": 1793038739442
   },
   {
    "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
@@ -137,9 +100,9 @@
     1,
     null
    ],
-   "liq": 88817,
-   "vol": 110019,
-   "mcap": 717584,
+   "liq": 88349,
+   "vol": 112099,
+   "mcap": 712245,
    "holders": 2455,
    "createdAt": 1791314731000,
    "handle": "si276_xyz",
@@ -150,44 +113,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
-   "scannedAt": 1793036354786
-  },
-  {
-   "ca": "H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump",
-   "chain": "solana",
-   "sym": "CATTLEAXE",
-   "name": "Cattleaxe",
-   "img": "https://cdn.dexscreener.com/cms/images/k8ix7LCLLGh9vRhA?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    0,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 52544,
-   "vol": 2892469,
-   "mcap": 286554,
-   "holders": 15871,
-   "createdAt": 1792870557000,
-   "handle": "sircattleaxe",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/3p3uya9ayzv7w2nhejeo8ankuuwhyuonqvhhs8lyrqjy",
-   "scannedAt": 1793036336930
+   "scannedAt": 1793038741661
   },
   {
    "ca": "48iJcUv9jsiZ7cCisyVFLPFLMoNBKg3L43bRvktXpump",
@@ -211,9 +137,9 @@
     1,
     null
    ],
-   "liq": 50989,
-   "vol": 69640,
-   "mcap": 313108,
+   "liq": 51348,
+   "vol": 69738,
+   "mcap": 318742,
    "holders": 675,
    "createdAt": 1763966894000,
    "handle": "Kobecoin_X0214",
@@ -224,7 +150,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/9c42shkgcne7bupmtzvtyrflssbesxgsxd5g7hjaer9f",
-   "scannedAt": 1793036338503
+   "scannedAt": 1793038745510
   }
  ]
 }
