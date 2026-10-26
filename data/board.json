@@ -1,46 +1,9 @@
 {
- "updatedAt": 1792971382661,
+ "updatedAt": 1792974683531,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
  "items": [
-  {
-   "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
-   "chain": "solana",
-   "sym": "GATO",
-   "name": "GTA6CAT",
-   "img": "https://cdn.dexscreener.com/cms/images/-8CCNt5h1g4Fnvqj?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 175039,
-   "vol": 685088,
-   "mcap": 3224698,
-   "holders": 6695,
-   "createdAt": 1787660841000,
-   "handle": "TheGTA6cat",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1792971288926
-  },
   {
    "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
    "chain": "solana",
@@ -63,9 +26,9 @@
     1,
     null
    ],
-   "liq": 112141,
-   "vol": 505130,
-   "mcap": 920842,
+   "liq": 110674,
+   "vol": 496513,
+   "mcap": 893818,
    "holders": 17611,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -76,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1792971291668
+   "scannedAt": 1792974592805
   },
   {
    "ca": "H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump",
@@ -100,10 +63,10 @@
     1,
     null
    ],
-   "liq": 99655,
-   "vol": 4233517,
-   "mcap": 1101317,
-   "holders": 15987,
+   "liq": 98743,
+   "vol": 3746412,
+   "mcap": 1077065,
+   "holders": 16135,
    "createdAt": 1792870557000,
    "handle": "sircattleaxe",
    "launchpad": "Pump.Fun",
@@ -113,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/3p3uya9ayzv7w2nhejeo8ankuuwhyuonqvhhs8lyrqjy",
-   "scannedAt": 1792971293098
+   "scannedAt": 1792974594439
   },
   {
    "ca": "CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump",
@@ -137,10 +100,10 @@
     1,
     null
    ],
-   "liq": 91344,
-   "vol": 1363795,
-   "mcap": 921745,
-   "holders": 12510,
+   "liq": 87580,
+   "vol": 1309411,
+   "mcap": 844383,
+   "holders": 12635,
    "createdAt": 1792797028000,
    "handle": "remusfamily",
    "launchpad": "Pump.Fun",
@@ -150,7 +113,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/6jdispswbwcsn8xba4lnbzmzrikxksbxcto8j3elr4cg",
-   "scannedAt": 1792971294550
+   "scannedAt": 1792974596074
   }
  ]
 }
