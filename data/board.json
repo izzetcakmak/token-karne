@@ -1,5 +1,5 @@
 {
- "updatedAt": 1792990056637,
+ "updatedAt": 1792991638421,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 178682,
-   "vol": 813841,
-   "mcap": 3343200,
+   "liq": 177438,
+   "vol": 821780,
+   "mcap": 3285820,
    "holders": 6707,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1792989976299
+   "scannedAt": 1792991564771
   },
   {
    "ca": "H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump",
@@ -63,10 +63,10 @@
     1,
     null
    ],
-   "liq": 121446,
-   "vol": 3078968,
-   "mcap": 1596755,
-   "holders": 15624,
+   "liq": 123874,
+   "vol": 3098658,
+   "mcap": 1652039,
+   "holders": 15907,
    "createdAt": 1792870557000,
    "handle": "sircattleaxe",
    "launchpad": "Pump.Fun",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/3p3uya9ayzv7w2nhejeo8ankuuwhyuonqvhhs8lyrqjy",
-   "scannedAt": 1792989979323
+   "scannedAt": 1792991566182
   },
   {
    "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
@@ -100,9 +100,9 @@
     1,
     null
    ],
-   "liq": 101941,
-   "vol": 479693,
-   "mcap": 762566,
+   "liq": 102576,
+   "vol": 480074,
+   "mcap": 769421,
    "holders": 17611,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -113,7 +113,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1792989977848
+   "scannedAt": 1792991567786
   },
   {
    "ca": "CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump",
@@ -137,9 +137,9 @@
     1,
     null
    ],
-   "liq": 93329,
-   "vol": 1227272,
-   "mcap": 955033,
+   "liq": 93307,
+   "vol": 1234081,
+   "mcap": 951364,
    "holders": 7367,
    "createdAt": 1792797028000,
    "handle": "remusfamily",
@@ -150,7 +150,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/6jdispswbwcsn8xba4lnbzmzrikxksbxcto8j3elr4cg",
-   "scannedAt": 1792989981423
+   "scannedAt": 1792991569172
   }
  ]
 }
