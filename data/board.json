@@ -1,5 +1,5 @@
 {
- "updatedAt": 1792984649321,
+ "updatedAt": 1792986555072,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 171207,
-   "vol": 789746,
-   "mcap": 3079229,
+   "liq": 170999,
+   "vol": 794688,
+   "mcap": 3088213,
    "holders": 6707,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1792984566117
+   "scannedAt": 1792986469471
   },
   {
    "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 105546,
-   "vol": 488577,
-   "mcap": 817800,
+   "liq": 103424,
+   "vol": 484923,
+   "mcap": 790127,
    "holders": 17611,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1792984568234
+   "scannedAt": 1792986472008
   },
   {
    "ca": "CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump",
@@ -100,9 +100,9 @@
     1,
     null
    ],
-   "liq": 87692,
-   "vol": 1236091,
-   "mcap": 848886,
+   "liq": 87304,
+   "vol": 1224938,
+   "mcap": 845554,
    "holders": 7367,
    "createdAt": 1792797028000,
    "handle": "remusfamily",
@@ -113,7 +113,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/6jdispswbwcsn8xba4lnbzmzrikxksbxcto8j3elr4cg",
-   "scannedAt": 1792984569848
+   "scannedAt": 1792986473654
   }
  ]
 }
