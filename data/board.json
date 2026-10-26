@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793022059620,
+ "updatedAt": 1793026900679,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 184786,
-   "vol": 997801,
-   "mcap": 3562059,
+   "liq": 188117,
+   "vol": 1006764,
+   "mcap": 3653890,
    "holders": 6763,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1793021987484
+   "scannedAt": 1793026792568
   },
   {
    "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 102194,
-   "vol": 358885,
-   "mcap": 766430,
+   "liq": 101082,
+   "vol": 119664,
+   "mcap": 743589,
    "holders": 17492,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1793021992300
+   "scannedAt": 1793026794362
   },
   {
    "ca": "CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump",
@@ -100,10 +100,10 @@
     1,
     null
    ],
-   "liq": 99597,
-   "vol": 1397233,
-   "mcap": 1056731,
-   "holders": 7367,
+   "liq": 100262,
+   "vol": 1349423,
+   "mcap": 1059853,
+   "holders": 8229,
    "createdAt": 1792797028000,
    "handle": "remusfamily",
    "launchpad": "Pump.Fun",
@@ -113,7 +113,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/6jdispswbwcsn8xba4lnbzmzrikxksbxcto8j3elr4cg",
-   "scannedAt": 1793021990343
+   "scannedAt": 1793026797386
   },
   {
    "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
@@ -137,9 +137,9 @@
     1,
     null
    ],
-   "liq": 90406,
-   "vol": 89843,
-   "mcap": 746179,
+   "liq": 91516,
+   "vol": 94619,
+   "mcap": 758843,
    "holders": 2455,
    "createdAt": 1791314731000,
    "handle": "si276_xyz",
@@ -150,7 +150,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
-   "scannedAt": 1793022004091
+   "scannedAt": 1793026799280
   },
   {
    "ca": "H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump",
@@ -174,9 +174,9 @@
     1,
     null
    ],
-   "liq": 85401,
-   "vol": 2811410,
-   "mcap": 763139,
+   "liq": 85493,
+   "vol": 2852477,
+   "mcap": 748696,
    "holders": 15739,
    "createdAt": 1792870557000,
    "handle": "sircattleaxe",
@@ -187,14 +187,14 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/3p3uya9ayzv7w2nhejeo8ankuuwhyuonqvhhs8lyrqjy",
-   "scannedAt": 1793021993759
+   "scannedAt": 1793026801968
   },
   {
-   "ca": "BTZK1B3pCoBDD1vy5e4bDBM4bwvvhkKUMTuKABkGWwGp",
+   "ca": "48iJcUv9jsiZ7cCisyVFLPFLMoNBKg3L43bRvktXpump",
    "chain": "solana",
-   "sym": "ANT",
-   "name": "Anthropic",
-   "img": "https://cdn.dexscreener.com/cms/images/uds9CC14Tdd7WhHO?width=800&height=800&quality=95&format=auto",
+   "sym": "KOBX",
+   "name": "Kobecoin",
+   "img": "https://cdn.dexscreener.com/cms/images/4ee4d82f6938ef168b252460bf464f1bee64d06b9d02fe0de4ab193c655b7475?width=800&height=800&quality=95&format=auto",
    "score": 9,
    "unknown": 1,
    "answers": [
@@ -211,20 +211,20 @@
     1,
     null
    ],
-   "liq": 74985,
-   "vol": 479024,
-   "mcap": 602159,
-   "holders": 120,
-   "createdAt": 1789168614000,
-   "handle": "jncquant",
+   "liq": 46110,
+   "vol": 66328,
+   "mcap": 255617,
+   "holders": 675,
+   "createdAt": 1763966894000,
+   "handle": "Kobecoin_X0214",
    "launchpad": null,
    "flags": 0,
    "sources": [
     "GoPlus",
     "RugCheck"
    ],
-   "url": "https://dexscreener.com/solana/7day9k3gdhvysezonggggrmedchuxrcerwv9qgq9qzwb",
-   "scannedAt": 1793022044770
+   "url": "https://dexscreener.com/solana/9c42shkgcne7bupmtzvtyrflssbesxgsxd5g7hjaer9f",
+   "scannedAt": 1793026827231
   }
  ]
 }
