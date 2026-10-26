@@ -1,5 +1,5 @@
 {
- "updatedAt": 1792977230526,
+ "updatedAt": 1792979573860,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -10,11 +10,11 @@
    "sym": "MISTAKE",
    "name": "Make No Mistakes",
    "img": "https://cdn.dexscreener.com/cms/images/S3VS6ZPJzJ-72iRm?width=800&height=800&quality=95&format=auto",
-   "score": 10,
+   "score": 9,
    "unknown": 1,
    "answers": [
     1,
-    1,
+    0,
     1,
     1,
     1,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 110927,
-   "vol": 493832,
-   "mcap": 899881,
+   "liq": 109977,
+   "vol": 489951,
+   "mcap": 888048,
    "holders": 17611,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1792977142340
+   "scannedAt": 1792979497515
   },
   {
    "ca": "H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump",
@@ -63,10 +63,10 @@
     1,
     null
    ],
-   "liq": 99572,
-   "vol": 3656275,
-   "mcap": 1097259,
-   "holders": 16209,
+   "liq": 99809,
+   "vol": 3460023,
+   "mcap": 1104281,
+   "holders": 16270,
    "createdAt": 1792870557000,
    "handle": "sircattleaxe",
    "launchpad": "Pump.Fun",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/3p3uya9ayzv7w2nhejeo8ankuuwhyuonqvhhs8lyrqjy",
-   "scannedAt": 1792977143854
+   "scannedAt": 1792979498995
   },
   {
    "ca": "CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump",
@@ -100,10 +100,10 @@
     1,
     null
    ],
-   "liq": 88243,
-   "vol": 1293305,
-   "mcap": 858208,
-   "holders": 12725,
+   "liq": 89053,
+   "vol": 1276852,
+   "mcap": 876508,
+   "holders": 12813,
    "createdAt": 1792797028000,
    "handle": "remusfamily",
    "launchpad": "Pump.Fun",
@@ -113,7 +113,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/6jdispswbwcsn8xba4lnbzmzrikxksbxcto8j3elr4cg",
-   "scannedAt": 1792977145559
+   "scannedAt": 1792979500945
   }
  ]
 }
