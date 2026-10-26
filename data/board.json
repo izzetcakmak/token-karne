@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793003642426,
+ "updatedAt": 1793006461304,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 43,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 174845,
-   "vol": 857073,
-   "mcap": 3195431,
+   "liq": 172866,
+   "vol": 867446,
+   "mcap": 3115426,
    "holders": 6707,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -39,44 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1793003570587
-  },
-  {
-   "ca": "H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump",
-   "chain": "solana",
-   "sym": "CATTLEAXE",
-   "name": "Cattleaxe",
-   "img": "https://cdn.dexscreener.com/cms/images/k8ix7LCLLGh9vRhA?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    0,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 104296,
-   "vol": 3230948,
-   "mcap": 1165291,
-   "holders": 15739,
-   "createdAt": 1792870557000,
-   "handle": "sircattleaxe",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/3p3uya9ayzv7w2nhejeo8ankuuwhyuonqvhhs8lyrqjy",
-   "scannedAt": 1793003573859
+   "scannedAt": 1793006389117
   },
   {
    "ca": "HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
@@ -84,11 +47,11 @@
    "sym": "MISTAKE",
    "name": "Make No Mistakes",
    "img": "https://cdn.dexscreener.com/cms/images/S3VS6ZPJzJ-72iRm?width=800&height=800&quality=95&format=auto",
-   "score": 9,
+   "score": 10,
    "unknown": 1,
    "answers": [
     1,
-    0,
+    1,
     1,
     1,
     1,
@@ -100,9 +63,9 @@
     1,
     null
    ],
-   "liq": 100360,
-   "vol": 467750,
-   "mcap": 739235,
+   "liq": 102706,
+   "vol": 461915,
+   "mcap": 773099,
    "holders": 17611,
    "createdAt": 1789093171000,
    "handle": "nomistakesfun",
@@ -113,7 +76,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/867dkvaccyrrudp66bqnxbujxfjaxsnb9wtpc4cmbdad",
-   "scannedAt": 1793003572439
+   "scannedAt": 1793006392028
+  },
+  {
+   "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
+   "chain": "solana",
+   "sym": "CBUCKS",
+   "name": "Cartoon Money",
+   "img": "https://cdn.dexscreener.com/cms/images/2bajn2a05AdQGV-4?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 116446,
+   "vol": 139554,
+   "mcap": 1151762,
+   "holders": 1781,
+   "createdAt": 1791311393000,
+   "handle": "cartoonmoney_ai",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
+   "scannedAt": 1793006397720
   },
   {
    "ca": "CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump",
@@ -137,9 +137,9 @@
     1,
     null
    ],
-   "liq": 95777,
-   "vol": 1442263,
-   "mcap": 991873,
+   "liq": 98648,
+   "vol": 1555832,
+   "mcap": 1042092,
    "holders": 7367,
    "createdAt": 1792797028000,
    "handle": "remusfamily",
@@ -150,7 +150,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/6jdispswbwcsn8xba4lnbzmzrikxksbxcto8j3elr4cg",
-   "scannedAt": 1793003575279
+   "scannedAt": 1793006393428
+  },
+  {
+   "ca": "H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump",
+   "chain": "solana",
+   "sym": "CATTLEAXE",
+   "name": "Cattleaxe",
+   "img": "https://cdn.dexscreener.com/cms/images/k8ix7LCLLGh9vRhA?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 93232,
+   "vol": 3305467,
+   "mcap": 927838,
+   "holders": 15739,
+   "createdAt": 1792870557000,
+   "handle": "sircattleaxe",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/3p3uya9ayzv7w2nhejeo8ankuuwhyuonqvhhs8lyrqjy",
+   "scannedAt": 1793006390520
   }
  ]
 }
