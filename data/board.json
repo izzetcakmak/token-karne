@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793142511169,
+ "updatedAt": 1793144176632,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 217922,
-   "vol": 904845,
-   "mcap": 4786878,
+   "liq": 216761,
+   "vol": 903810,
+   "mcap": 4740811,
    "holders": 7332,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1793142441649
+   "scannedAt": 1793144087993
   },
   {
    "ca": "8U6Rw9WVtPb9ShnUo1HeSKBLrGxWLSczCd2RSdYFpump",
@@ -63,10 +63,10 @@
     1,
     null
    ],
-   "liq": 76485,
-   "vol": 1560057,
-   "mcap": 769411,
-   "holders": 4420,
+   "liq": 76613,
+   "vol": 1410127,
+   "mcap": 772166,
+   "holders": 4702,
    "createdAt": 1793055562000,
    "handle": "BlindApeWif",
    "launchpad": "Pump.Fun",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/35qgkestyqozserbza7c7wdhr32svtgc6rzvds8kcemq",
-   "scannedAt": 1793142493954
+   "scannedAt": 1793144090003
   },
   {
    "ca": "2qPoPQQCHGtDbgdSxXfrzW1iRS3cGbKmMWSMapZ4pump",
@@ -100,9 +100,9 @@
     1,
     null
    ],
-   "liq": 56705,
-   "vol": 564051,
-   "mcap": 465166,
+   "liq": 57400,
+   "vol": 559024,
+   "mcap": 476765,
    "holders": 4337,
    "createdAt": 1792704203000,
    "handle": null,
@@ -113,7 +113,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/9mgjpszild1tj43xms98bg3pvyoux9aclkobdsn8v8gp",
-   "scannedAt": 1793142444757
+   "scannedAt": 1793144091483
+  },
+  {
+   "ca": "9uGqEsc5Sh9GBjvLr7jUf7PyY9tDZhiV7kCdyM7Wpump",
+   "chain": "solana",
+   "sym": "N64",
+   "name": "gently used joystick",
+   "img": "https://cdn.dexscreener.com/cms/images/Hx-ebUNihc0Fi4dk?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 30617,
+   "vol": 385903,
+   "mcap": 131400,
+   "holders": 2886,
+   "createdAt": 1793056090000,
+   "handle": "usedjoystick",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/ewjia2nk268howctfitp8chqskec8z6azahcimkppxfi",
+   "scannedAt": 1793144100147
   }
  ]
 }
