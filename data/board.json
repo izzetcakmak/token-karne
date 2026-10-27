@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793115795621,
+ "updatedAt": 1793117496306,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 44,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 293010,
-   "vol": 310180,
-   "mcap": 14008602,
+   "liq": 293499,
+   "vol": 305324,
+   "mcap": 14149782,
    "holders": 5004,
    "createdAt": 1791928902000,
    "handle": "xtruthoil",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/f3adaphr5jn387mwzhxuachujzvduvbdfr1vqinkjwqs",
-   "scannedAt": 1793115671120
+   "scannedAt": 1793117414849
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 206395,
-   "vol": 1202734,
-   "mcap": 4346316,
+   "liq": 205931,
+   "vol": 1176246,
+   "mcap": 4325745,
    "holders": 7218,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -76,44 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1793115673669
-  },
-  {
-   "ca": "2qPoPQQCHGtDbgdSxXfrzW1iRS3cGbKmMWSMapZ4pump",
-   "chain": "solana",
-   "sym": "DOAS",
-   "name": "Digital Oil Asset Supply",
-   "img": "https://cdn.dexscreener.com/cms/images/GtDUtxEeIAp0vtYE?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    null
-   ],
-   "liq": 468588,
-   "vol": 367385,
-   "mcap": 30450007,
-   "holders": 4277,
-   "createdAt": 1792704203000,
-   "handle": null,
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/9mgjpszild1tj43xms98bg3pvyoux9aclkobdsn8v8gp",
-   "scannedAt": 1793115675240
+   "scannedAt": 1793117416419
   },
   {
    "ca": "8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump",
@@ -137,9 +100,9 @@
     1,
     null
    ],
-   "liq": 138033,
-   "vol": 155612,
-   "mcap": 2304058,
+   "liq": 135088,
+   "vol": 172637,
+   "mcap": 2204353,
    "holders": 1287,
    "createdAt": 1792164888000,
    "handle": "GlitchOnSolana_",
@@ -150,44 +113,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/em6rvzgxhd35pz7cvujctpenv4jaztscavhaxbxcbcg7",
-   "scannedAt": 1793115677284
-  },
-  {
-   "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
-   "chain": "solana",
-   "sym": "SI276",
-   "name": "Super Intelligence SI276",
-   "img": "https://cdn.dexscreener.com/cms/images/C00PG8ebjcD8d36M?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 87039,
-   "vol": 137566,
-   "mcap": 690438,
-   "holders": 2456,
-   "createdAt": 1791314731000,
-   "handle": "si276_xyz",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
-   "scannedAt": 1793115679668
+   "scannedAt": 1793117419589
   }
  ]
 }
