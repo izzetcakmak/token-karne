@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793114046171,
+ "updatedAt": 1793115795621,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 44,
@@ -27,7 +27,7 @@
     null
    ],
    "liq": 293010,
-   "vol": 315348,
+   "vol": 310180,
    "mcap": 14008602,
    "holders": 5004,
    "createdAt": 1791928902000,
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/f3adaphr5jn387mwzhxuachujzvduvbdfr1vqinkjwqs",
-   "scannedAt": 1793113972940
+   "scannedAt": 1793115671120
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 202811,
-   "vol": 1300142,
-   "mcap": 4212398,
+   "liq": 206395,
+   "vol": 1202734,
+   "mcap": 4346316,
    "holders": 7218,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1793113974398
+   "scannedAt": 1793115673669
   },
   {
    "ca": "2qPoPQQCHGtDbgdSxXfrzW1iRS3cGbKmMWSMapZ4pump",
@@ -100,9 +100,9 @@
     1,
     null
    ],
-   "liq": 466083,
-   "vol": 367070,
-   "mcap": 30223631,
+   "liq": 468588,
+   "vol": 367385,
+   "mcap": 30450007,
    "holders": 4277,
    "createdAt": 1792704203000,
    "handle": null,
@@ -113,7 +113,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/9mgjpszild1tj43xms98bg3pvyoux9aclkobdsn8v8gp",
-   "scannedAt": 1793113975831
+   "scannedAt": 1793115675240
   },
   {
    "ca": "8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump",
@@ -137,9 +137,9 @@
     1,
     null
    ],
-   "liq": 138850,
-   "vol": 154731,
-   "mcap": 2338394,
+   "liq": 138033,
+   "vol": 155612,
+   "mcap": 2304058,
    "holders": 1287,
    "createdAt": 1792164888000,
    "handle": "GlitchOnSolana_",
@@ -150,7 +150,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/em6rvzgxhd35pz7cvujctpenv4jaztscavhaxbxcbcg7",
-   "scannedAt": 1793113977359
+   "scannedAt": 1793115677284
   },
   {
    "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
@@ -174,9 +174,9 @@
     1,
     null
    ],
-   "liq": 87506,
-   "vol": 138091,
-   "mcap": 699929,
+   "liq": 87039,
+   "vol": 137566,
+   "mcap": 690438,
    "holders": 2456,
    "createdAt": 1791314731000,
    "handle": "si276_xyz",
@@ -187,7 +187,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
-   "scannedAt": 1793113978793
+   "scannedAt": 1793115679668
   }
  ]
 }
