@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793129778185,
+ "updatedAt": 1793131859249,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 209334,
-   "vol": 1007102,
-   "mcap": 4450825,
+   "liq": 214948,
+   "vol": 961378,
+   "mcap": 4684276,
    "holders": 7218,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -39,44 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1793129692596
-  },
-  {
-   "ca": "2qPoPQQCHGtDbgdSxXfrzW1iRS3cGbKmMWSMapZ4pump",
-   "chain": "solana",
-   "sym": "DOAS",
-   "name": "Digital Oil Asset Supply",
-   "img": "https://cdn.dexscreener.com/cms/images/GtDUtxEeIAp0vtYE?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    null
-   ],
-   "liq": 493907,
-   "vol": 371390,
-   "mcap": 33722726,
-   "holders": 4337,
-   "createdAt": 1792704203000,
-   "handle": null,
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/9mgjpszild1tj43xms98bg3pvyoux9aclkobdsn8v8gp",
-   "scannedAt": 1793129694123
+   "scannedAt": 1793131776420
   },
   {
    "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
@@ -100,9 +63,9 @@
     1,
     null
    ],
-   "liq": 87700,
-   "vol": 124419,
-   "mcap": 698885,
+   "liq": 84790,
+   "vol": 125478,
+   "mcap": 653492,
    "holders": 2456,
    "createdAt": 1791314731000,
    "handle": "si276_xyz",
@@ -113,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
-   "scannedAt": 1793129696670
+   "scannedAt": 1793131779424
   },
   {
    "ca": "EdSuZVh4ypz8cUqgi1Rjo1SE88wrRahPg85KStdpump",
@@ -137,9 +100,9 @@
     1,
     null
    ],
-   "liq": 76177,
-   "vol": 275568,
-   "mcap": 721560,
+   "liq": 73278,
+   "vol": 270421,
+   "mcap": 664971,
    "holders": 451,
    "createdAt": 1792953506000,
    "handle": "pumpcatpump",
@@ -150,7 +113,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/7qynoqexfc7m2xs9kjpnvhcyriyizfkrox8cfbvg1pcq",
-   "scannedAt": 1793129698382
+   "scannedAt": 1793131780910
+  },
+  {
+   "ca": "2qPoPQQCHGtDbgdSxXfrzW1iRS3cGbKmMWSMapZ4pump",
+   "chain": "solana",
+   "sym": "DOAS",
+   "name": "Digital Oil Asset Supply",
+   "img": "https://cdn.dexscreener.com/cms/images/GtDUtxEeIAp0vtYE?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    null
+   ],
+   "liq": 46239,
+   "vol": 595198,
+   "mcap": 314606,
+   "holders": 4337,
+   "createdAt": 1792704203000,
+   "handle": null,
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/9mgjpszild1tj43xms98bg3pvyoux9aclkobdsn8v8gp",
+   "scannedAt": 1793131777924
   }
  ]
 }
