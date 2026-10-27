@@ -1,9 +1,46 @@
 {
- "updatedAt": 1793101295692,
+ "updatedAt": 1793103537662,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 45,
+ "scanned": 44,
  "items": [
+  {
+   "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
+   "chain": "solana",
+   "sym": "GATO",
+   "name": "GTA6CAT",
+   "img": "https://cdn.dexscreener.com/cms/images/-8CCNt5h1g4Fnvqj?width=800&height=800&quality=95&format=auto",
+   "score": 10,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 196342,
+   "vol": 1451498,
+   "mcap": 3981879,
+   "holders": 7218,
+   "createdAt": 1787660841000,
+   "handle": "TheGTA6cat",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
+   "scannedAt": 1793103451162
+  },
   {
    "ca": "2qPoPQQCHGtDbgdSxXfrzW1iRS3cGbKmMWSMapZ4pump",
    "chain": "solana",
@@ -26,9 +63,9 @@
     1,
     null
    ],
-   "liq": 442543,
-   "vol": 358026,
-   "mcap": 27381629,
+   "liq": 444964,
+   "vol": 360023,
+   "mcap": 27716599,
    "holders": 4277,
    "createdAt": 1792704203000,
    "handle": null,
@@ -39,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/9mgjpszild1tj43xms98bg3pvyoux9aclkobdsn8v8gp",
-   "scannedAt": 1793101229882
+   "scannedAt": 1793103447203
   },
   {
    "ca": "XtogpWjiAgvkemc5gr1auxkh77w3vKgSQN1nxJeJfHt",
@@ -63,9 +100,9 @@
     1,
     null
    ],
-   "liq": 290799,
-   "vol": 320619,
-   "mcap": 13008374,
+   "liq": 290192,
+   "vol": 323250,
+   "mcap": 13180438,
    "holders": 5004,
    "createdAt": 1791928902000,
    "handle": "xtruthoil",
@@ -76,44 +113,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/f3adaphr5jn387mwzhxuachujzvduvbdfr1vqinkjwqs",
-   "scannedAt": 1793101228474
-  },
-  {
-   "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
-   "chain": "solana",
-   "sym": "GATO",
-   "name": "GTA6CAT",
-   "img": "https://cdn.dexscreener.com/cms/images/-8CCNt5h1g4Fnvqj?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    1,
-    1,
-    0,
-    1,
-    null
-   ],
-   "liq": 206774,
-   "vol": 1410891,
-   "mcap": 4411780,
-   "holders": 7218,
-   "createdAt": 1787660841000,
-   "handle": "TheGTA6cat",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1793101231284
+   "scannedAt": 1793103449663
   },
   {
    "ca": "8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump",
@@ -137,9 +137,9 @@
     1,
     null
    ],
-   "liq": 137207,
-   "vol": 152607,
-   "mcap": 2294077,
+   "liq": 143137,
+   "vol": 156079,
+   "mcap": 2497057,
    "holders": 1232,
    "createdAt": 1792164888000,
    "handle": "GlitchOnSolana_",
@@ -150,7 +150,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/em6rvzgxhd35pz7cvujctpenv4jaztscavhaxbxcbcg7",
-   "scannedAt": 1793101232763
+   "scannedAt": 1793103453108
   },
   {
    "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
@@ -174,9 +174,9 @@
     1,
     null
    ],
-   "liq": 86173,
-   "vol": 145639,
-   "mcap": 682370,
+   "liq": 86613,
+   "vol": 145650,
+   "mcap": 690023,
    "holders": 2456,
    "createdAt": 1791314731000,
    "handle": "si276_xyz",
@@ -187,44 +187,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
-   "scannedAt": 1793101234163
-  },
-  {
-   "ca": "48iJcUv9jsiZ7cCisyVFLPFLMoNBKg3L43bRvktXpump",
-   "chain": "solana",
-   "sym": "KOBX",
-   "name": "Kobecoin",
-   "img": "https://cdn.dexscreener.com/cms/images/4ee4d82f6938ef168b252460bf464f1bee64d06b9d02fe0de4ab193c655b7475?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 49874,
-   "vol": 69258,
-   "mcap": 305346,
-   "holders": 675,
-   "createdAt": 1763966894000,
-   "handle": "Kobecoin_X0214",
-   "launchpad": null,
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/9c42shkgcne7bupmtzvtyrflssbesxgsxd5g7hjaer9f",
-   "scannedAt": 1793101235585
+   "scannedAt": 1793103455408
   }
  ]
 }
