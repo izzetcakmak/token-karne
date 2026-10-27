@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793094241810,
+ "updatedAt": 1793095981405,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 44,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 288723,
-   "vol": 320515,
-   "mcap": 13869903,
+   "liq": 289708,
+   "vol": 320327,
+   "mcap": 13106624,
    "holders": 5004,
    "createdAt": 1791928902000,
    "handle": "xtruthoil",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/f3adaphr5jn387mwzhxuachujzvduvbdfr1vqinkjwqs",
-   "scannedAt": 1793094173037
+   "scannedAt": 1793095899076
   },
   {
    "ca": "2qPoPQQCHGtDbgdSxXfrzW1iRS3cGbKmMWSMapZ4pump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 432554,
-   "vol": 357328,
-   "mcap": 26272927,
+   "liq": 433620,
+   "vol": 356747,
+   "mcap": 26445178,
    "holders": 4277,
    "createdAt": 1792704203000,
    "handle": null,
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/9mgjpszild1tj43xms98bg3pvyoux9aclkobdsn8v8gp",
-   "scannedAt": 1793094174455
+   "scannedAt": 1793095900529
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -100,9 +100,9 @@
     1,
     null
    ],
-   "liq": 210598,
-   "vol": 1410756,
-   "mcap": 4598724,
+   "liq": 209223,
+   "vol": 1412454,
+   "mcap": 4545536,
    "holders": 7218,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -113,7 +113,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1793094175882
+   "scannedAt": 1793095902063
   },
   {
    "ca": "8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump",
@@ -137,9 +137,9 @@
     1,
     null
    ],
-   "liq": 138920,
-   "vol": 142135,
-   "mcap": 2361191,
+   "liq": 137950,
+   "vol": 140122,
+   "mcap": 2327791,
    "holders": 1232,
    "createdAt": 1792164888000,
    "handle": "GlitchOnSolana_",
@@ -150,44 +150,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/em6rvzgxhd35pz7cvujctpenv4jaztscavhaxbxcbcg7",
-   "scannedAt": 1793094177327
-  },
-  {
-   "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
-   "chain": "solana",
-   "sym": "SI276",
-   "name": "Super Intelligence SI276",
-   "img": "https://cdn.dexscreener.com/cms/images/C00PG8ebjcD8d36M?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 86573,
-   "vol": 144204,
-   "mcap": 691574,
-   "holders": 2449,
-   "createdAt": 1791314731000,
-   "handle": "si276_xyz",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
-   "scannedAt": 1793094178746
+   "scannedAt": 1793095903802
   },
   {
    "ca": "48iJcUv9jsiZ7cCisyVFLPFLMoNBKg3L43bRvktXpump",
@@ -211,9 +174,9 @@
     1,
     null
    ],
-   "liq": 50581,
-   "vol": 69255,
-   "mcap": 313115,
+   "liq": 49874,
+   "vol": 69258,
+   "mcap": 305346,
    "holders": 675,
    "createdAt": 1763966894000,
    "handle": "Kobecoin_X0214",
@@ -224,7 +187,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/9c42shkgcne7bupmtzvtyrflssbesxgsxd5g7hjaer9f",
-   "scannedAt": 1793094180225
+   "scannedAt": 1793095909344
   }
  ]
 }
