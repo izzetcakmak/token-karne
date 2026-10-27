@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793090856580,
+ "updatedAt": 1793092514597,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 287815,
-   "vol": 321610,
-   "mcap": 12920981,
+   "liq": 288608,
+   "vol": 320763,
+   "mcap": 13870977,
    "holders": 5004,
    "createdAt": 1791928902000,
    "handle": "xtruthoil",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/f3adaphr5jn387mwzhxuachujzvduvbdfr1vqinkjwqs",
-   "scannedAt": 1793090775187
+   "scannedAt": 1793092401088
   },
   {
    "ca": "2qPoPQQCHGtDbgdSxXfrzW1iRS3cGbKmMWSMapZ4pump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 427581,
-   "vol": 355433,
-   "mcap": 25660166,
+   "liq": 431672,
+   "vol": 357163,
+   "mcap": 26103020,
    "holders": 4277,
    "createdAt": 1792704203000,
    "handle": null,
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/9mgjpszild1tj43xms98bg3pvyoux9aclkobdsn8v8gp",
-   "scannedAt": 1793090776580
+   "scannedAt": 1793092402574
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -100,9 +100,9 @@
     1,
     null
    ],
-   "liq": 205275,
-   "vol": 1415420,
-   "mcap": 4369790,
+   "liq": 209652,
+   "vol": 1412814,
+   "mcap": 4547642,
    "holders": 6936,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -113,7 +113,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1793090778192
+   "scannedAt": 1793092404698
+  },
+  {
+   "ca": "8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump",
+   "chain": "solana",
+   "sym": "GLITCH",
+   "name": "Infinite Money Glitch",
+   "img": "https://cdn.dexscreener.com/cms/images/gAu3LdjS988GlL3f?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 141688,
+   "vol": 140990,
+   "mcap": 2449286,
+   "holders": 1232,
+   "createdAt": 1792164888000,
+   "handle": "GlitchOnSolana_",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/em6rvzgxhd35pz7cvujctpenv4jaztscavhaxbxcbcg7",
+   "scannedAt": 1793092496656
   },
   {
    "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
@@ -137,9 +174,9 @@
     1,
     null
    ],
-   "liq": 86000,
-   "vol": 143610,
-   "mcap": 682309,
+   "liq": 86713,
+   "vol": 144590,
+   "mcap": 692187,
    "holders": 2449,
    "createdAt": 1791314731000,
    "handle": "si276_xyz",
@@ -150,7 +187,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
-   "scannedAt": 1793090782554
+   "scannedAt": 1793092406333
   },
   {
    "ca": "48iJcUv9jsiZ7cCisyVFLPFLMoNBKg3L43bRvktXpump",
@@ -174,9 +211,9 @@
     1,
     null
    ],
-   "liq": 50042,
-   "vol": 69356,
-   "mcap": 306984,
+   "liq": 50581,
+   "vol": 69255,
+   "mcap": 313115,
    "holders": 675,
    "createdAt": 1763966894000,
    "handle": "Kobecoin_X0214",
@@ -187,44 +224,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/9c42shkgcne7bupmtzvtyrflssbesxgsxd5g7hjaer9f",
-   "scannedAt": 1793090784139
-  },
-  {
-   "ca": "3734SDUqg5nV3DmrK7ZZ1QvK7TVmJMBJbQUQqVNtpump",
-   "chain": "solana",
-   "sym": "SOLVET",
-   "name": "SOLVET",
-   "img": "https://cdn.dexscreener.com/cms/images/m439mfL9GJx-94Om?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 31138,
-   "vol": 128273,
-   "mcap": 146533,
-   "holders": 127,
-   "createdAt": 1792990105000,
-   "handle": "solvetscan",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/7bndfu2qljo6nfvpigdgvgoveejdrrygaxd4n7qya945",
-   "scannedAt": 1793090785553
+   "scannedAt": 1793092407943
   }
  ]
 }
