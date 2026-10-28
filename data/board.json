@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793165756238,
+ "updatedAt": 1793168161558,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 207989,
-   "vol": 964022,
-   "mcap": 4315631,
+   "liq": 208637,
+   "vol": 962562,
+   "mcap": 4344276,
    "holders": 7332,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1793165682376
+   "scannedAt": 1793168086467
   },
   {
    "ca": "8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 155181,
-   "vol": 175866,
-   "mcap": 2858937,
+   "liq": 150171,
+   "vol": 172898,
+   "mcap": 2680940,
    "holders": 1304,
    "createdAt": 1792164888000,
    "handle": "GlitchOnSolana_",
@@ -76,44 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/em6rvzgxhd35pz7cvujctpenv4jaztscavhaxbxcbcg7",
-   "scannedAt": 1793165683986
-  },
-  {
-   "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
-   "chain": "solana",
-   "sym": "CBUCKS",
-   "name": "Cartoon Money",
-   "img": "https://cdn.dexscreener.com/cms/images/2bajn2a05AdQGV-4?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 105878,
-   "vol": 88860,
-   "mcap": 976219,
-   "holders": 1744,
-   "createdAt": 1791311393000,
-   "handle": "cartoonmoney_ai",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1793165685573
+   "scannedAt": 1793168087947
   },
   {
    "ca": "8U6Rw9WVtPb9ShnUo1HeSKBLrGxWLSczCd2RSdYFpump",
@@ -137,10 +100,10 @@
     1,
     null
    ],
-   "liq": 70736,
-   "vol": 1396629,
-   "mcap": 639864,
-   "holders": 5799,
+   "liq": 66184,
+   "vol": 1394952,
+   "mcap": 561979,
+   "holders": 5925,
    "createdAt": 1793055562000,
    "handle": "BlindApeWif",
    "launchpad": "Pump.Fun",
@@ -150,7 +113,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/35qgkestyqozserbza7c7wdhr32svtgc6rzvds8kcemq",
-   "scannedAt": 1793165687138
+   "scannedAt": 1793168090975
   }
  ]
 }
