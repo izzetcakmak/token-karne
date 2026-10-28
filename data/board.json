@@ -1,46 +1,9 @@
 {
- "updatedAt": 1793225399098,
+ "updatedAt": 1793226958633,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
  "items": [
-  {
-   "ca": "9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump",
-   "chain": "solana",
-   "sym": "CHICO",
-   "name": "GTA6DOG",
-   "img": "https://cdn.dexscreener.com/cms/images/ghyvuUsqsKKKwDgf?width=800&height=800&quality=95&format=auto",
-   "score": 10,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 168844,
-   "vol": 4224777,
-   "mcap": 3313882,
-   "holders": 12532,
-   "createdAt": 1793058715000,
-   "handle": "chicothegta",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/eztwxzfmns9sjjgvych35i6e3oywsdjdeql9cbzgfdap",
-   "scannedAt": 1793225307234
-  },
   {
    "ca": "0x7D0443CdDFc8E11AF105F4fE44Dd28c630237777",
    "chain": "bsc",
@@ -63,9 +26,9 @@
     1,
     null
    ],
-   "liq": 163691,
-   "vol": 218648,
-   "mcap": 2220810,
+   "liq": 164302,
+   "vol": 219387,
+   "mcap": 2230972,
    "holders": 4596,
    "createdAt": 1792075556000,
    "handle": "dawgonbnb",
@@ -75,7 +38,44 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x9e83be1267e9a6d43bb7f3a8c0dc3c092ccae63e",
-   "scannedAt": 1793225309128
+   "scannedAt": 1793226886947
+  },
+  {
+   "ca": "BLeMEetdzeq9xsNti2tCiau4JnD7mzyQzQFHdy5pump",
+   "chain": "solana",
+   "sym": "RETIRED",
+   "name": "Born Retired",
+   "img": "https://cdn.dexscreener.com/cms/images/iILo2R8UaWjp2jG-?width=800&height=800&quality=95&format=auto",
+   "score": 10,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    null
+   ],
+   "liq": 66201,
+   "vol": 433405,
+   "mcap": 580864,
+   "holders": 3412,
+   "createdAt": 1793017665000,
+   "handle": "borntiredfun",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/7ob52bodellge5y6cq945jxz885zjqphnghvv267pn4l",
+   "scannedAt": 1793226895713
   },
   {
    "ca": "nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump",
@@ -99,9 +99,9 @@
     1,
     null
    ],
-   "liq": 680037,
-   "vol": 741145,
-   "mcap": 8020237,
+   "liq": 680704,
+   "vol": 731872,
+   "mcap": 8021432,
    "holders": 21402,
    "createdAt": 1791718289000,
    "handle": "dacitygta",
@@ -112,7 +112,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/31viz3y3pwyih6dc1g3nphsdkgtlex7husvqutu2f65s",
-   "scannedAt": 1793225310630
+   "scannedAt": 1793226888435
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -136,9 +136,9 @@
     1,
     null
    ],
-   "liq": 218438,
-   "vol": 803476,
-   "mcap": 4681286,
+   "liq": 218750,
+   "vol": 787768,
+   "mcap": 4692420,
    "holders": 7356,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -149,7 +149,81 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1793225305356
+   "scannedAt": 1793226889878
+  },
+  {
+   "ca": "9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump",
+   "chain": "solana",
+   "sym": "CHICO",
+   "name": "GTA6DOG",
+   "img": "https://cdn.dexscreener.com/cms/images/ghyvuUsqsKKKwDgf?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 168670,
+   "vol": 4204329,
+   "mcap": 3305632,
+   "holders": 12532,
+   "createdAt": 1793058715000,
+   "handle": "chicothegta",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/eztwxzfmns9sjjgvych35i6e3oywsdjdeql9cbzgfdap",
+   "scannedAt": 1793226885460
+  },
+  {
+   "ca": "FeMbDoX7R1Psc4GEcvJdsbNbZA3bfztcyDCatJVJpump",
+   "chain": "solana",
+   "sym": "three",
+   "name": "three.ws",
+   "img": "https://cdn.dexscreener.com/cms/images/j22gRd6Z2GowwOvM?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 157544,
+   "vol": 111910,
+   "mcap": 500208,
+   "holders": 15138,
+   "createdAt": 1777446541000,
+   "handle": "trythreews",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/5byl7mzolabynwmpzkpkjf4mgkz7febzranos19pre2z",
+   "scannedAt": 1793226915593
   },
   {
    "ca": "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump",
@@ -173,9 +247,9 @@
     1,
     null
    ],
-   "liq": 137913,
-   "vol": 674385,
-   "mcap": 2486343,
+   "liq": 145042,
+   "vol": 651359,
+   "mcap": 2747688,
    "holders": 1169,
    "createdAt": 1793128408000,
    "handle": "dogwifjob_sol",
@@ -186,7 +260,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/hauvbmnthcfmg9srxmvz1gaxnpu955hkpdsasc2cx4c8",
-   "scannedAt": 1793225314429
+   "scannedAt": 1793226891300
   },
   {
    "ca": "CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump",
@@ -210,9 +284,9 @@
     1,
     null
    ],
-   "liq": 135823,
-   "vol": 1156412,
-   "mcap": 1482757,
+   "liq": 132207,
+   "vol": 1134687,
+   "mcap": 1402802,
    "holders": 9980,
    "createdAt": 1792797028000,
    "handle": "remusfamily",
@@ -223,7 +297,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/6jdispswbwcsn8xba4lnbzmzrikxksbxcto8j3elr4cg",
-   "scannedAt": 1793225312458
+   "scannedAt": 1793226892772
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -247,9 +321,9 @@
     1,
     null
    ],
-   "liq": 112831,
-   "vol": 71325,
-   "mcap": 1102978,
+   "liq": 113744,
+   "vol": 72596,
+   "mcap": 1120171,
    "holders": 1755,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -260,81 +334,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1793225316327
-  },
-  {
-   "ca": "BLeMEetdzeq9xsNti2tCiau4JnD7mzyQzQFHdy5pump",
-   "chain": "solana",
-   "sym": "RETIRED",
-   "name": "Born Retired",
-   "img": "https://cdn.dexscreener.com/cms/images/iILo2R8UaWjp2jG-?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    null
-   ],
-   "liq": 68097,
-   "vol": 431840,
-   "mcap": 613999,
-   "holders": 3412,
-   "createdAt": 1793017665000,
-   "handle": "borntiredfun",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/7ob52bodellge5y6cq945jxz885zjqphnghvv267pn4l",
-   "scannedAt": 1793225317832
-  },
-  {
-   "ca": "AZdhikmyj6ibsejv7EjML9SfNmuiMvwDrKXTEU2zpump",
-   "chain": "solana",
-   "sym": "Something",
-   "name": "Believe in Something",
-   "img": "https://cdn.dexscreener.com/cms/images/wxr-7WIgWHon-3OT?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    0,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 30284,
-   "vol": 7380242,
-   "mcap": 94029,
-   "holders": 3346,
-   "createdAt": 1793136216000,
-   "handle": "SomethingToPump",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/fahxgxdgmw5sffw77schbct9qiq2arrpzo98xjxmf9kk",
-   "scannedAt": 1793225370052
+   "scannedAt": 1793226894277
   }
  ]
 }
