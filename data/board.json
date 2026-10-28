@@ -1,8 +1,8 @@
 {
- "updatedAt": 1793198193737,
+ "updatedAt": 1793200216243,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 44,
+ "scanned": 45,
  "items": [
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 204642,
-   "vol": 848152,
-   "mcap": 4217961,
+   "liq": 206407,
+   "vol": 849209,
+   "mcap": 4271884,
    "holders": 7427,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1793198087885
+   "scannedAt": 1793200140849
   },
   {
    "ca": "9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump",
@@ -63,10 +63,10 @@
     1,
     null
    ],
-   "liq": 195429,
-   "vol": 4283951,
-   "mcap": 4560838,
-   "holders": 12437,
+   "liq": 196011,
+   "vol": 4258418,
+   "mcap": 4567210,
+   "holders": 12532,
    "createdAt": 1793058715000,
    "handle": "chicothegta",
    "launchpad": "Pump.Fun",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/eztwxzfmns9sjjgvych35i6e3oywsdjdeql9cbzgfdap",
-   "scannedAt": 1793198095177
+   "scannedAt": 1793200142371
   },
   {
    "ca": "BLeMEetdzeq9xsNti2tCiau4JnD7mzyQzQFHdy5pump",
@@ -100,10 +100,10 @@
     1,
     null
    ],
-   "liq": 77129,
-   "vol": 440296,
-   "mcap": 799127,
-   "holders": 2526,
+   "liq": 76146,
+   "vol": 438300,
+   "mcap": 776216,
+   "holders": 3412,
    "createdAt": 1793017665000,
    "handle": "borntiredfun",
    "launchpad": "Pump.Fun",
@@ -113,7 +113,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/7ob52bodellge5y6cq945jxz885zjqphnghvv267pn4l",
-   "scannedAt": 1793198090922
+   "scannedAt": 1793200143820
   },
   {
    "ca": "nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump",
@@ -137,9 +137,9 @@
     1,
     null
    ],
-   "liq": 611728,
-   "vol": 484771,
-   "mcap": 9275994,
+   "liq": 610215,
+   "vol": 493761,
+   "mcap": 9168244,
    "holders": 21454,
    "createdAt": 1791718289000,
    "handle": "dacitygta",
@@ -150,7 +150,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/31viz3y3pwyih6dc1g3nphsdkgtlex7husvqutu2f65s",
-   "scannedAt": 1793198093249
+   "scannedAt": 1793200145321
   },
   {
    "ca": "CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump",
@@ -174,9 +174,9 @@
     1,
     null
    ],
-   "liq": 140330,
-   "vol": 1255590,
-   "mcap": 1646881,
+   "liq": 138741,
+   "vol": 1269655,
+   "mcap": 1597246,
    "holders": 10005,
    "createdAt": 1792797028000,
    "handle": "remusfamily",
@@ -187,43 +187,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/6jdispswbwcsn8xba4lnbzmzrikxksbxcto8j3elr4cg",
-   "scannedAt": 1793198158605
-  },
-  {
-   "ca": "0x456aC19C8a72Aed16376D57c367640D69ff9e6ea",
-   "chain": "base",
-   "sym": "ONECOIN",
-   "name": "one coin",
-   "img": "https://cdn.dexscreener.com/cms/images/bUNX0NS8asmsU5jI?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    0,
-    1,
-    1,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 34407,
-   "vol": 94020,
-   "mcap": 98552,
-   "holders": 124,
-   "createdAt": 1792957605000,
-   "handle": "onecoinonpangea",
-   "launchpad": null,
-   "flags": 0,
-   "sources": [
-    "GoPlus"
-   ],
-   "url": "https://dexscreener.com/base/0x957a3862984613d312d3ae47976762b8e4d0ee24652c7575ed9dca1427d99436",
-   "scannedAt": 1793198099389
+   "scannedAt": 1793200146753
   },
   {
    "ca": "0x373C863E4C34Db35B58C98Dd15a018E1ab53F6ea",
@@ -247,9 +211,9 @@
     1,
     null
    ],
-   "liq": 34327,
-   "vol": 39709,
-   "mcap": 98462,
+   "liq": 32789,
+   "vol": 40741,
+   "mcap": 92135,
    "holders": 116,
    "createdAt": 1792957607000,
    "handle": "onecoinonpangea",
@@ -259,7 +223,43 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/ethereum/0x8795f5763781a2842299c1e59225f32864114f561068f4943c9b3d1b105a1ff4",
-   "scannedAt": 1793198097774
+   "scannedAt": 1793200150056
+  },
+  {
+   "ca": "0x456aC19C8a72Aed16376D57c367640D69ff9e6ea",
+   "chain": "base",
+   "sym": "ONECOIN",
+   "name": "one coin",
+   "img": "https://cdn.dexscreener.com/cms/images/bUNX0NS8asmsU5jI?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 32655,
+   "vol": 94185,
+   "mcap": 90858,
+   "holders": 124,
+   "createdAt": 1792957605000,
+   "handle": "onecoinonpangea",
+   "launchpad": null,
+   "flags": 0,
+   "sources": [
+    "GoPlus"
+   ],
+   "url": "https://dexscreener.com/base/0x957a3862984613d312d3ae47976762b8e4d0ee24652c7575ed9dca1427d99436",
+   "scannedAt": 1793200148380
   }
  ]
 }
