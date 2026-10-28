@@ -1,9 +1,46 @@
 {
- "updatedAt": 1793226958633,
+ "updatedAt": 1793228959049,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
  "items": [
+  {
+   "ca": "9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump",
+   "chain": "solana",
+   "sym": "CHICO",
+   "name": "GTA6DOG",
+   "img": "https://cdn.dexscreener.com/cms/images/ghyvuUsqsKKKwDgf?width=800&height=800&quality=95&format=auto",
+   "score": 10,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 171534,
+   "vol": 4180063,
+   "mcap": 3419329,
+   "holders": 12532,
+   "createdAt": 1793058715000,
+   "handle": "chicothegta",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/eztwxzfmns9sjjgvych35i6e3oywsdjdeql9cbzgfdap",
+   "scannedAt": 1793228863168
+  },
   {
    "ca": "0x7D0443CdDFc8E11AF105F4fE44Dd28c630237777",
    "chain": "bsc",
@@ -26,10 +63,10 @@
     1,
     null
    ],
-   "liq": 164302,
-   "vol": 219387,
-   "mcap": 2230972,
-   "holders": 4596,
+   "liq": 161076,
+   "vol": 221326,
+   "mcap": 2148426,
+   "holders": 4594,
    "createdAt": 1792075556000,
    "handle": "dawgonbnb",
    "launchpad": null,
@@ -38,44 +75,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x9e83be1267e9a6d43bb7f3a8c0dc3c092ccae63e",
-   "scannedAt": 1793226886947
-  },
-  {
-   "ca": "BLeMEetdzeq9xsNti2tCiau4JnD7mzyQzQFHdy5pump",
-   "chain": "solana",
-   "sym": "RETIRED",
-   "name": "Born Retired",
-   "img": "https://cdn.dexscreener.com/cms/images/iILo2R8UaWjp2jG-?width=800&height=800&quality=95&format=auto",
-   "score": 10,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    null
-   ],
-   "liq": 66201,
-   "vol": 433405,
-   "mcap": 580864,
-   "holders": 3412,
-   "createdAt": 1793017665000,
-   "handle": "borntiredfun",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/7ob52bodellge5y6cq945jxz885zjqphnghvv267pn4l",
-   "scannedAt": 1793226895713
+   "scannedAt": 1793228852815
   },
   {
    "ca": "nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump",
@@ -99,9 +99,9 @@
     1,
     null
    ],
-   "liq": 680704,
-   "vol": 731872,
-   "mcap": 8021432,
+   "liq": 679149,
+   "vol": 755850,
+   "mcap": 7921350,
    "holders": 21402,
    "createdAt": 1791718289000,
    "handle": "dacitygta",
@@ -112,7 +112,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/31viz3y3pwyih6dc1g3nphsdkgtlex7husvqutu2f65s",
-   "scannedAt": 1793226888435
+   "scannedAt": 1793228859453
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -136,9 +136,9 @@
     1,
     null
    ],
-   "liq": 218750,
-   "vol": 787768,
-   "mcap": 4692420,
+   "liq": 225614,
+   "vol": 799705,
+   "mcap": 4991151,
    "holders": 7356,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -149,44 +149,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1793226889878
-  },
-  {
-   "ca": "9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump",
-   "chain": "solana",
-   "sym": "CHICO",
-   "name": "GTA6DOG",
-   "img": "https://cdn.dexscreener.com/cms/images/ghyvuUsqsKKKwDgf?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 168670,
-   "vol": 4204329,
-   "mcap": 3305632,
-   "holders": 12532,
-   "createdAt": 1793058715000,
-   "handle": "chicothegta",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/eztwxzfmns9sjjgvych35i6e3oywsdjdeql9cbzgfdap",
-   "scannedAt": 1793226885460
+   "scannedAt": 1793228861356
   },
   {
    "ca": "FeMbDoX7R1Psc4GEcvJdsbNbZA3bfztcyDCatJVJpump",
@@ -210,9 +173,9 @@
     1,
     null
    ],
-   "liq": 157544,
-   "vol": 111910,
-   "mcap": 500208,
+   "liq": 157849,
+   "vol": 123054,
+   "mcap": 502655,
    "holders": 15138,
    "createdAt": 1777446541000,
    "handle": "trythreews",
@@ -223,7 +186,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5byl7mzolabynwmpzkpkjf4mgkz7febzranos19pre2z",
-   "scannedAt": 1793226915593
+   "scannedAt": 1793228866450
   },
   {
    "ca": "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump",
@@ -247,9 +210,9 @@
     1,
     null
    ],
-   "liq": 145042,
-   "vol": 651359,
-   "mcap": 2747688,
+   "liq": 146223,
+   "vol": 625003,
+   "mcap": 2794381,
    "holders": 1169,
    "createdAt": 1793128408000,
    "handle": "dogwifjob_sol",
@@ -260,7 +223,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/hauvbmnthcfmg9srxmvz1gaxnpu955hkpdsasc2cx4c8",
-   "scannedAt": 1793226891300
+   "scannedAt": 1793228868401
   },
   {
    "ca": "CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump",
@@ -284,9 +247,9 @@
     1,
     null
    ],
-   "liq": 132207,
-   "vol": 1134687,
-   "mcap": 1402802,
+   "liq": 127052,
+   "vol": 1098035,
+   "mcap": 1290899,
    "holders": 9980,
    "createdAt": 1792797028000,
    "handle": "remusfamily",
@@ -297,7 +260,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/6jdispswbwcsn8xba4lnbzmzrikxksbxcto8j3elr4cg",
-   "scannedAt": 1793226892772
+   "scannedAt": 1793228872367
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -321,9 +284,9 @@
     1,
     null
    ],
-   "liq": 113744,
-   "vol": 72596,
-   "mcap": 1120171,
+   "liq": 114891,
+   "vol": 73173,
+   "mcap": 1142614,
    "holders": 1755,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -334,7 +297,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1793226894277
+   "scannedAt": 1793228874395
+  },
+  {
+   "ca": "BLeMEetdzeq9xsNti2tCiau4JnD7mzyQzQFHdy5pump",
+   "chain": "solana",
+   "sym": "RETIRED",
+   "name": "Born Retired",
+   "img": "https://cdn.dexscreener.com/cms/images/iILo2R8UaWjp2jG-?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    null
+   ],
+   "liq": 66740,
+   "vol": 431619,
+   "mcap": 590665,
+   "holders": 3412,
+   "createdAt": 1793017665000,
+   "handle": "borntiredfun",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/7ob52bodellge5y6cq945jxz885zjqphnghvv267pn4l",
+   "scannedAt": 1793228856290
   }
  ]
 }
