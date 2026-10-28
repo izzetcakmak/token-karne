@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793201771293,
+ "updatedAt": 1793203875187,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 44,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 207236,
-   "vol": 847917,
-   "mcap": 4295967,
+   "liq": 208439,
+   "vol": 852109,
+   "mcap": 4352887,
    "holders": 7427,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -39,7 +39,80 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1793201699423
+   "scannedAt": 1793203790810
+  },
+  {
+   "ca": "9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump",
+   "chain": "solana",
+   "sym": "CHICO",
+   "name": "GTA6DOG",
+   "img": "https://cdn.dexscreener.com/cms/images/ghyvuUsqsKKKwDgf?width=800&height=800&quality=95&format=auto",
+   "score": 10,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 182163,
+   "vol": 4328075,
+   "mcap": 3937824,
+   "holders": 12532,
+   "createdAt": 1793058715000,
+   "handle": "chicothegta",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/eztwxzfmns9sjjgvych35i6e3oywsdjdeql9cbzgfdap",
+   "scannedAt": 1793203796228
+  },
+  {
+   "ca": "0x7D0443CdDFc8E11AF105F4fE44Dd28c630237777",
+   "chain": "bsc",
+   "sym": "DAWG",
+   "name": "DAWG",
+   "img": "https://cdn.dexscreener.com/cms/images/F31jyFXrxv_QLDkk?width=800&height=800&quality=95&format=auto",
+   "score": 10,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 166818,
+   "vol": 99330,
+   "mcap": 2330063,
+   "holders": 4597,
+   "createdAt": 1792075556000,
+   "handle": "dawgonbnb",
+   "launchpad": null,
+   "flags": 0,
+   "sources": [
+    "GoPlus"
+   ],
+   "url": "https://dexscreener.com/bsc/0x9e83be1267e9a6d43bb7f3a8c0dc3c092ccae63e",
+   "scannedAt": 1793203809048
   },
   {
    "ca": "BLeMEetdzeq9xsNti2tCiau4JnD7mzyQzQFHdy5pump",
@@ -63,9 +136,9 @@
     1,
     null
    ],
-   "liq": 75326,
-   "vol": 435021,
-   "mcap": 758302,
+   "liq": 74543,
+   "vol": 437707,
+   "mcap": 744417,
    "holders": 3412,
    "createdAt": 1793017665000,
    "handle": "borntiredfun",
@@ -76,7 +149,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/7ob52bodellge5y6cq945jxz885zjqphnghvv267pn4l",
-   "scannedAt": 1793201703017
+   "scannedAt": 1793203792331
   },
   {
    "ca": "nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump",
@@ -100,9 +173,9 @@
     1,
     null
    ],
-   "liq": 616125,
-   "vol": 508489,
-   "mcap": 8898146,
+   "liq": 630855,
+   "vol": 543055,
+   "mcap": 9262718,
    "holders": 21402,
    "createdAt": 1791718289000,
    "handle": "dacitygta",
@@ -113,44 +186,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/31viz3y3pwyih6dc1g3nphsdkgtlex7husvqutu2f65s",
-   "scannedAt": 1793201704564
-  },
-  {
-   "ca": "9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump",
-   "chain": "solana",
-   "sym": "CHICO",
-   "name": "GTA6DOG",
-   "img": "https://cdn.dexscreener.com/cms/images/ghyvuUsqsKKKwDgf?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 190511,
-   "vol": 4241026,
-   "mcap": 4305812,
-   "holders": 12532,
-   "createdAt": 1793058715000,
-   "handle": "chicothegta",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/eztwxzfmns9sjjgvych35i6e3oywsdjdeql9cbzgfdap",
-   "scannedAt": 1793201701585
+   "scannedAt": 1793203794151
   },
   {
    "ca": "CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump",
@@ -174,9 +210,9 @@
     1,
     null
    ],
-   "liq": 139464,
-   "vol": 1269389,
-   "mcap": 1609901,
+   "liq": 136178,
+   "vol": 1236075,
+   "mcap": 1533199,
    "holders": 10005,
    "createdAt": 1792797028000,
    "handle": "remusfamily",
@@ -187,7 +223,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/6jdispswbwcsn8xba4lnbzmzrikxksbxcto8j3elr4cg",
-   "scannedAt": 1793201705978
+   "scannedAt": 1793203797935
+  },
+  {
+   "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
+   "chain": "solana",
+   "sym": "CBUCKS",
+   "name": "Cartoon Money",
+   "img": "https://cdn.dexscreener.com/cms/images/2bajn2a05AdQGV-4?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 111060,
+   "vol": 89126,
+   "mcap": 1070129,
+   "holders": 1755,
+   "createdAt": 1791311393000,
+   "handle": "cartoonmoney_ai",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
+   "scannedAt": 1793203803485
   }
  ]
 }
