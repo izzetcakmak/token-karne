@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793144176632,
+ "updatedAt": 1793147030390,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 216761,
-   "vol": 903810,
-   "mcap": 4740811,
+   "liq": 217558,
+   "vol": 907469,
+   "mcap": 4775948,
    "holders": 7332,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1793144087993
+   "scannedAt": 1793146941766
   },
   {
    "ca": "8U6Rw9WVtPb9ShnUo1HeSKBLrGxWLSczCd2RSdYFpump",
@@ -63,10 +63,10 @@
     1,
     null
    ],
-   "liq": 76613,
-   "vol": 1410127,
-   "mcap": 772166,
-   "holders": 4702,
+   "liq": 82979,
+   "vol": 1343604,
+   "mcap": 901205,
+   "holders": 4983,
    "createdAt": 1793055562000,
    "handle": "BlindApeWif",
    "launchpad": "Pump.Fun",
@@ -76,14 +76,14 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/35qgkestyqozserbza7c7wdhr32svtgc6rzvds8kcemq",
-   "scannedAt": 1793144090003
+   "scannedAt": 1793146944231
   },
   {
-   "ca": "2qPoPQQCHGtDbgdSxXfrzW1iRS3cGbKmMWSMapZ4pump",
+   "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
    "chain": "solana",
-   "sym": "DOAS",
-   "name": "Digital Oil Asset Supply",
-   "img": "https://cdn.dexscreener.com/cms/images/GtDUtxEeIAp0vtYE?width=800&height=800&quality=95&format=auto",
+   "sym": "SI276",
+   "name": "Super Intelligence SI276",
+   "img": "https://cdn.dexscreener.com/cms/images/C00PG8ebjcD8d36M?width=800&height=800&quality=95&format=auto",
    "score": 9,
    "unknown": 1,
    "answers": [
@@ -91,66 +91,29 @@
     1,
     1,
     1,
-    1,
-    1,
-    1,
     0,
     0,
+    1,
+    1,
+    1,
     1,
     1,
     null
    ],
-   "liq": 57400,
-   "vol": 559024,
-   "mcap": 476765,
-   "holders": 4337,
-   "createdAt": 1792704203000,
-   "handle": null,
+   "liq": 84175,
+   "vol": 140502,
+   "mcap": 642728,
+   "holders": 2445,
+   "createdAt": 1791314731000,
+   "handle": "si276_xyz",
    "launchpad": "Pump.Fun",
    "flags": 0,
    "sources": [
     "GoPlus",
     "RugCheck"
    ],
-   "url": "https://dexscreener.com/solana/9mgjpszild1tj43xms98bg3pvyoux9aclkobdsn8v8gp",
-   "scannedAt": 1793144091483
-  },
-  {
-   "ca": "9uGqEsc5Sh9GBjvLr7jUf7PyY9tDZhiV7kCdyM7Wpump",
-   "chain": "solana",
-   "sym": "N64",
-   "name": "gently used joystick",
-   "img": "https://cdn.dexscreener.com/cms/images/Hx-ebUNihc0Fi4dk?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    0,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 30617,
-   "vol": 385903,
-   "mcap": 131400,
-   "holders": 2886,
-   "createdAt": 1793056090000,
-   "handle": "usedjoystick",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/ewjia2nk268howctfitp8chqskec8z6azahcimkppxfi",
-   "scannedAt": 1793144100147
+   "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
+   "scannedAt": 1793147027609
   }
  ]
 }
