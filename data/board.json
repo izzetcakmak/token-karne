@@ -1,8 +1,8 @@
 {
- "updatedAt": 1793191262902,
+ "updatedAt": 1793193016926,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 44,
+ "scanned": 45,
  "items": [
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 210285,
-   "vol": 872813,
-   "mcap": 4401104,
+   "liq": 204634,
+   "vol": 867312,
+   "mcap": 4184698,
    "holders": 7427,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1793191162265
+   "scannedAt": 1793192934896
   },
   {
    "ca": "9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 180120,
-   "vol": 4337988,
-   "mcap": 3842082,
+   "liq": 183377,
+   "vol": 4323265,
+   "mcap": 3994339,
    "holders": 12437,
    "createdAt": 1793058715000,
    "handle": "chicothegta",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/eztwxzfmns9sjjgvych35i6e3oywsdjdeql9cbzgfdap",
-   "scannedAt": 1793191164304
+   "scannedAt": 1793192936466
   },
   {
    "ca": "nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump",
@@ -100,9 +100,9 @@
     1,
     null
    ],
-   "liq": 653178,
-   "vol": 472237,
-   "mcap": 9096520,
+   "liq": 651096,
+   "vol": 467190,
+   "mcap": 8960323,
    "holders": 21454,
    "createdAt": 1791718289000,
    "handle": "dacitygta",
@@ -113,7 +113,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/31viz3y3pwyih6dc1g3nphsdkgtlex7husvqutu2f65s",
-   "scannedAt": 1793191165774
+   "scannedAt": 1793192938017
   }
  ]
 }
