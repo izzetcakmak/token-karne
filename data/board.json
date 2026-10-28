@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793194569395,
+ "updatedAt": 1793196700852,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 202184,
-   "vol": 862465,
-   "mcap": 4096338,
+   "liq": 202000,
+   "vol": 854664,
+   "mcap": 4091351,
    "holders": 7427,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -39,7 +39,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1793194490151
+   "scannedAt": 1793196557631
+  },
+  {
+   "ca": "BLeMEetdzeq9xsNti2tCiau4JnD7mzyQzQFHdy5pump",
+   "chain": "solana",
+   "sym": "RETIRED",
+   "name": "Born Retired",
+   "img": "https://cdn.dexscreener.com/cms/images/iILo2R8UaWjp2jG-?width=800&height=800&quality=95&format=auto",
+   "score": 10,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    null
+   ],
+   "liq": 85762,
+   "vol": 421867,
+   "mcap": 979864,
+   "holders": 2526,
+   "createdAt": 1793017665000,
+   "handle": "borntiredfun",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/7ob52bodellge5y6cq945jxz885zjqphnghvv267pn4l",
+   "scannedAt": 1793196569382
   },
   {
    "ca": "nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump",
@@ -63,9 +100,9 @@
     1,
     null
    ],
-   "liq": 645890,
-   "vol": 470062,
-   "mcap": 9182688,
+   "liq": 613331,
+   "vol": 475794,
+   "mcap": 8921457,
    "holders": 21454,
    "createdAt": 1791718289000,
    "handle": "dacitygta",
@@ -76,7 +113,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/31viz3y3pwyih6dc1g3nphsdkgtlex7husvqutu2f65s",
-   "scannedAt": 1793194494825
+   "scannedAt": 1793196561506
   },
   {
    "ca": "9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump",
@@ -100,9 +137,9 @@
     1,
     null
    ],
-   "liq": 179169,
-   "vol": 4296258,
-   "mcap": 3822775,
+   "liq": 188060,
+   "vol": 4295903,
+   "mcap": 4208103,
    "holders": 12437,
    "createdAt": 1793058715000,
    "handle": "chicothegta",
@@ -113,7 +150,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/eztwxzfmns9sjjgvych35i6e3oywsdjdeql9cbzgfdap",
-   "scannedAt": 1793194493320
+   "scannedAt": 1793196564508
   }
  ]
 }
