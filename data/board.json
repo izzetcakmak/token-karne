@@ -1,8 +1,8 @@
 {
- "updatedAt": 1793219767851,
+ "updatedAt": 1793221808349,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 44,
+ "scanned": 45,
  "items": [
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 208470,
-   "vol": 825912,
-   "mcap": 4301789,
+   "liq": 210534,
+   "vol": 821911,
+   "mcap": 4354333,
    "holders": 7356,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1793219683696
+   "scannedAt": 1793221661596
   },
   {
    "ca": "9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 169050,
-   "vol": 4286727,
-   "mcap": 3342061,
+   "liq": 170990,
+   "vol": 4263200,
+   "mcap": 3393612,
    "holders": 12532,
    "createdAt": 1793058715000,
    "handle": "chicothegta",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/eztwxzfmns9sjjgvych35i6e3oywsdjdeql9cbzgfdap",
-   "scannedAt": 1793219685781
+   "scannedAt": 1793221665830
   },
   {
    "ca": "0x7D0443CdDFc8E11AF105F4fE44Dd28c630237777",
@@ -100,9 +100,9 @@
     1,
     null
    ],
-   "liq": 163362,
-   "vol": 213906,
-   "mcap": 2222560,
+   "liq": 164080,
+   "vol": 216103,
+   "mcap": 2229967,
    "holders": 4592,
    "createdAt": 1792075556000,
    "handle": "dawgonbnb",
@@ -112,7 +112,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x9e83be1267e9a6d43bb7f3a8c0dc3c092ccae63e",
-   "scannedAt": 1793219687692
+   "scannedAt": 1793221669942
   },
   {
    "ca": "BLeMEetdzeq9xsNti2tCiau4JnD7mzyQzQFHdy5pump",
@@ -136,9 +136,9 @@
     1,
     null
    ],
-   "liq": 66693,
-   "vol": 429834,
-   "mcap": 592897,
+   "liq": 68466,
+   "vol": 432531,
+   "mcap": 619578,
    "holders": 3412,
    "createdAt": 1793017665000,
    "handle": "borntiredfun",
@@ -149,7 +149,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/7ob52bodellge5y6cq945jxz885zjqphnghvv267pn4l",
-   "scannedAt": 1793219689614
+   "scannedAt": 1793221672233
   },
   {
    "ca": "nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump",
@@ -173,9 +173,9 @@
     1,
     null
    ],
-   "liq": 683941,
-   "vol": 733609,
-   "mcap": 8356878,
+   "liq": 686279,
+   "vol": 729634,
+   "mcap": 8465869,
    "holders": 21402,
    "createdAt": 1791718289000,
    "handle": "dacitygta",
@@ -186,7 +186,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/31viz3y3pwyih6dc1g3nphsdkgtlex7husvqutu2f65s",
-   "scannedAt": 1793219691564
+   "scannedAt": 1793221674009
   },
   {
    "ca": "CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump",
@@ -210,9 +210,9 @@
     1,
     null
    ],
-   "liq": 124919,
-   "vol": 1168629,
-   "mcap": 1281469,
+   "liq": 135969,
+   "vol": 1166313,
+   "mcap": 1486891,
    "holders": 10005,
    "createdAt": 1792797028000,
    "handle": "remusfamily",
@@ -223,7 +223,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/6jdispswbwcsn8xba4lnbzmzrikxksbxcto8j3elr4cg",
-   "scannedAt": 1793219693548
+   "scannedAt": 1793221676532
   },
   {
    "ca": "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump",
@@ -247,9 +247,9 @@
     1,
     null
    ],
-   "liq": 123480,
-   "vol": 799814,
-   "mcap": 2012914,
+   "liq": 121335,
+   "vol": 712135,
+   "mcap": 1930041,
    "holders": 1169,
    "createdAt": 1793128408000,
    "handle": "dogwifjob_sol",
@@ -260,7 +260,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/hauvbmnthcfmg9srxmvz1gaxnpu955hkpdsasc2cx4c8",
-   "scannedAt": 1793219695469
+   "scannedAt": 1793221680646
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -284,9 +284,9 @@
     1,
     null
    ],
-   "liq": 111747,
-   "vol": 73350,
-   "mcap": 1082454,
+   "liq": 111900,
+   "vol": 72592,
+   "mcap": 1085330,
    "holders": 1755,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -297,7 +297,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1793219697275
+   "scannedAt": 1793221682443
   }
  ]
 }
