@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793259350046,
+ "updatedAt": 1793261603720,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 156017,
-   "vol": 223159,
-   "mcap": 2034136,
+   "liq": 156230,
+   "vol": 223178,
+   "mcap": 2037430,
    "holders": 4584,
    "createdAt": 1792075556000,
    "handle": "dawgonbnb",
@@ -38,7 +38,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x9e83be1267e9a6d43bb7f3a8c0dc3c092ccae63e",
-   "scannedAt": 1793259261261
+   "scannedAt": 1793261481873
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -62,9 +62,9 @@
     1,
     null
    ],
-   "liq": 227417,
-   "vol": 881569,
-   "mcap": 5168358,
+   "liq": 233166,
+   "vol": 901203,
+   "mcap": 5418371,
    "holders": 7393,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -75,7 +75,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1793259262775
+   "scannedAt": 1793261483719
   },
   {
    "ca": "FeMbDoX7R1Psc4GEcvJdsbNbZA3bfztcyDCatJVJpump",
@@ -99,9 +99,9 @@
     1,
     null
    ],
-   "liq": 151207,
-   "vol": 188335,
-   "mcap": 472470,
+   "liq": 156015,
+   "vol": 191929,
+   "mcap": 502422,
    "holders": 15138,
    "createdAt": 1777446541000,
    "handle": "trythreews",
@@ -112,80 +112,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5byl7mzolabynwmpzkpkjf4mgkz7febzranos19pre2z",
-   "scannedAt": 1793259264361
-  },
-  {
-   "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
-   "chain": "solana",
-   "sym": "CBUCKS",
-   "name": "Cartoon Money",
-   "img": "https://cdn.dexscreener.com/cms/images/2bajn2a05AdQGV-4?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 104009,
-   "vol": 106153,
-   "mcap": 938951,
-   "holders": 1797,
-   "createdAt": 1791311393000,
-   "handle": "cartoonmoney_ai",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1793259266356
-  },
-  {
-   "ca": "0x53e32932382FcC2EC3E921C3D6ba3598D0E57777",
-   "chain": "bsc",
-   "sym": "咯咯",
-   "name": "Giggle Academy",
-   "img": "https://cdn.dexscreener.com/cms/images/bPXmwcpzCo8tFLsX?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    0,
-    1,
-    1,
-    1,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 65385,
-   "vol": 198435,
-   "mcap": 424473,
-   "holders": 3052,
-   "createdAt": 1793027739000,
-   "handle": "ggcto_bnb",
-   "launchpad": null,
-   "flags": 0,
-   "sources": [
-    "GoPlus"
-   ],
-   "url": "https://dexscreener.com/bsc/0xffc63f327c3e3080e2def90ed18954b9673128ab",
-   "scannedAt": 1793259268272
+   "scannedAt": 1793261486881
   },
   {
    "ca": "CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump",
@@ -209,10 +136,10 @@
     1,
     null
    ],
-   "liq": 57546,
-   "vol": 1575132,
-   "mcap": 278343,
-   "holders": 9980,
+   "liq": 63176,
+   "vol": 1567249,
+   "mcap": 357128,
+   "holders": 9336,
    "createdAt": 1792797028000,
    "handle": "remusfamily",
    "launchpad": "Pump.Fun",
@@ -222,7 +149,43 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/6jdispswbwcsn8xba4lnbzmzrikxksbxcto8j3elr4cg",
-   "scannedAt": 1793259270224
+   "scannedAt": 1793261495339
+  },
+  {
+   "ca": "0x53e32932382FcC2EC3E921C3D6ba3598D0E57777",
+   "chain": "bsc",
+   "sym": "咯咯",
+   "name": "Giggle Academy",
+   "img": "https://cdn.dexscreener.com/cms/images/bPXmwcpzCo8tFLsX?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 63027,
+   "vol": 191797,
+   "mcap": 395076,
+   "holders": 3624,
+   "createdAt": 1793027739000,
+   "handle": "ggcto_bnb",
+   "launchpad": null,
+   "flags": 0,
+   "sources": [
+    "GoPlus"
+   ],
+   "url": "https://dexscreener.com/bsc/0xffc63f327c3e3080e2def90ed18954b9673128ab",
+   "scannedAt": 1793261492260
   }
  ]
 }
