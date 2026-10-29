@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793297546158,
+ "updatedAt": 1793299104947,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 299562,
-   "vol": 3649881,
-   "mcap": 10906065,
+   "liq": 297127,
+   "vol": 3834408,
+   "mcap": 10764226,
    "holders": 4538,
    "createdAt": 1793019918000,
    "handle": "jack",
@@ -39,7 +39,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1793297469073
+   "scannedAt": 1793299020088
+  },
+  {
+   "ca": "EaxAUcXxNnVwcqm2BBocbows7D1XVY2Q63V38NEypump",
+   "chain": "solana",
+   "sym": "GTA 6 Coin",
+   "name": "GTA6",
+   "img": "https://cdn.dexscreener.com/cms/images/lqqrY_TIvxZMS_Aa?width=800&height=800&quality=95&format=auto",
+   "score": 10,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 131465,
+   "vol": 69466,
+   "mcap": 853781,
+   "holders": 11810,
+   "createdAt": 1738111507000,
+   "handle": "GTA_6_Sol",
+   "launchpad": null,
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/9kgswjrkczs3ebukvbkbgdwj8bwtdwzzqxkufdhaps2a",
+   "scannedAt": 1793299024536
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -63,9 +100,9 @@
     1,
     null
    ],
-   "liq": 221915,
-   "vol": 1037464,
-   "mcap": 4827901,
+   "liq": 221090,
+   "vol": 1036357,
+   "mcap": 4817000,
    "holders": 7517,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -76,7 +113,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1793297470652
+   "scannedAt": 1793299021543
   },
   {
    "ca": "0x7D0443CdDFc8E11AF105F4fE44Dd28c630237777",
@@ -100,10 +137,10 @@
     0,
     null
    ],
-   "liq": 149872,
-   "vol": 53426,
-   "mcap": 1889283,
-   "holders": 4591,
+   "liq": 146446,
+   "vol": 51462,
+   "mcap": 1808751,
+   "holders": 4590,
    "createdAt": 1792075556000,
    "handle": "dawgonbnb",
    "launchpad": null,
@@ -112,44 +149,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x9e83be1267e9a6d43bb7f3a8c0dc3c092ccae63e",
-   "scannedAt": 1793297472207
-  },
-  {
-   "ca": "EaxAUcXxNnVwcqm2BBocbows7D1XVY2Q63V38NEypump",
-   "chain": "solana",
-   "sym": "GTA 6 Coin",
-   "name": "GTA6",
-   "img": "https://cdn.dexscreener.com/cms/images/lqqrY_TIvxZMS_Aa?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    1,
-    1,
-    1,
-    0,
-    null
-   ],
-   "liq": 134039,
-   "vol": 66161,
-   "mcap": 885991,
-   "holders": 11810,
-   "createdAt": 1738111507000,
-   "handle": "GTA_6_Sol",
-   "launchpad": null,
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/9kgswjrkczs3ebukvbkbgdwj8bwtdwzzqxkufdhaps2a",
-   "scannedAt": 1793297473650
+   "scannedAt": 1793299023085
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -173,9 +173,9 @@
     1,
     null
    ],
-   "liq": 102472,
-   "vol": 76657,
-   "mcap": 911322,
+   "liq": 102551,
+   "vol": 75281,
+   "mcap": 912744,
    "holders": 1809,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -186,7 +186,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1793297475430
+   "scannedAt": 1793299025977
   },
   {
    "ca": "0x53e32932382FcC2EC3E921C3D6ba3598D0E57777",
@@ -210,9 +210,9 @@
     1,
     null
    ],
-   "liq": 53475,
-   "vol": 193971,
-   "mcap": 281656,
+   "liq": 49930,
+   "vol": 198396,
+   "mcap": 247697,
    "holders": 3548,
    "createdAt": 1793027739000,
    "handle": "ggcto_bnb",
@@ -222,7 +222,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0xffc63f327c3e3080e2def90ed18954b9673128ab",
-   "scannedAt": 1793297476992
+   "scannedAt": 1793299027493
   }
  ]
 }
