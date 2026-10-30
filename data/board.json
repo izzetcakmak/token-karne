@@ -1,46 +1,9 @@
 {
- "updatedAt": 1793380099081,
+ "updatedAt": 1793381745941,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 44,
+ "scanned": 45,
  "items": [
-  {
-   "ca": "ANVLA6eKiAq4nstD2Sg3SZhfVkSEwfnGccn12UQWpump",
-   "chain": "solana",
-   "sym": "HEXN",
-   "name": "Hexncoin",
-   "img": "https://cdn.dexscreener.com/cms/images/XA5DjRJ81X1pCQvr?width=800&height=800&quality=95&format=auto",
-   "score": 10,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 37920,
-   "vol": 6038388,
-   "mcap": 156396,
-   "holders": 7272,
-   "createdAt": 1793292973000,
-   "handle": "HexncoinSol",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/bqjzersgugnhav8c1m3vc4wa6mgqbae8t2w7eptsdkw4",
-   "scannedAt": 1793380075905
-  },
   {
    "ca": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
    "chain": "solana",
@@ -63,9 +26,9 @@
     1,
     null
    ],
-   "liq": 257753,
-   "vol": 2239332,
-   "mcap": 8386277,
+   "liq": 270874,
+   "vol": 2024220,
+   "mcap": 9257521,
    "holders": 10361,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
@@ -76,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1793380013517
+   "scannedAt": 1793381674282
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -100,9 +63,9 @@
     1,
     null
    ],
-   "liq": 210987,
-   "vol": 864388,
-   "mcap": 4572848,
+   "liq": 216943,
+   "vol": 876798,
+   "mcap": 4833741,
    "holders": 7539,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -113,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1793380014937
+   "scannedAt": 1793381676453
   },
   {
    "ca": "0x7D0443CdDFc8E11AF105F4fE44Dd28c630237777",
@@ -137,10 +100,10 @@
     1,
     null
    ],
-   "liq": 105497,
-   "vol": 132497,
-   "mcap": 988317,
-   "holders": 4544,
+   "liq": 105650,
+   "vol": 132589,
+   "mcap": 990923,
+   "holders": 4543,
    "createdAt": 1792075556000,
    "handle": "dawgonbnb",
    "launchpad": null,
@@ -149,7 +112,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x9e83be1267e9a6d43bb7f3a8c0dc3c092ccae63e",
-   "scannedAt": 1793380016467
+   "scannedAt": 1793381678187
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -173,9 +136,9 @@
     1,
     null
    ],
-   "liq": 103257,
-   "vol": 79011,
-   "mcap": 922127,
+   "liq": 104314,
+   "vol": 77705,
+   "mcap": 941000,
    "holders": 1802,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -186,7 +149,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1793380017887
+   "scannedAt": 1793381679743
   },
   {
    "ca": "GydpvgKppv8a4gGQqAQsyQJxtQN4S6Ym9gKxjnN3mfun",
@@ -210,9 +173,9 @@
     1,
     null
    ],
-   "liq": 54348,
-   "vol": 371514,
-   "mcap": 281896,
+   "liq": 56735,
+   "vol": 325004,
+   "mcap": 311285,
    "holders": 876,
    "createdAt": 1793284653000,
    "handle": "sextus_sensus",
@@ -223,7 +186,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/gtl872vumrwnc34asqlzctih8co2fcwd9zpkzy2y1lqc",
-   "scannedAt": 1793380019302
+   "scannedAt": 1793381681919
+  },
+  {
+   "ca": "ANVLA6eKiAq4nstD2Sg3SZhfVkSEwfnGccn12UQWpump",
+   "chain": "solana",
+   "sym": "HEXN",
+   "name": "Hexncoin",
+   "img": "https://cdn.dexscreener.com/cms/images/XA5DjRJ81X1pCQvr?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 32590,
+   "vol": 5776237,
+   "mcap": 115390,
+   "holders": 7272,
+   "createdAt": 1793292973000,
+   "handle": "HexncoinSol",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/bqjzersgugnhav8c1m3vc4wa6mgqbae8t2w7eptsdkw4",
+   "scannedAt": 1793381672142
   }
  ]
 }
