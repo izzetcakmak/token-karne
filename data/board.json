@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793369430251,
+ "updatedAt": 1793370960714,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 44,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 131827,
-   "vol": 72211,
-   "mcap": 908139,
+   "liq": 132130,
+   "vol": 72473,
+   "mcap": 919066,
    "holders": 11810,
    "createdAt": 1738111507000,
    "handle": "GTA_6_Sol",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/9kgswjrkczs3ebukvbkbgdwj8bwtdwzzqxkufdhaps2a",
-   "scannedAt": 1793369358279
+   "scannedAt": 1793370874581
   },
   {
    "ca": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
@@ -63,10 +63,10 @@
     1,
     null
    ],
-   "liq": 260695,
-   "vol": 4858120,
-   "mcap": 8611939,
-   "holders": 10858,
+   "liq": 271152,
+   "vol": 4809643,
+   "mcap": 9341679,
+   "holders": 10361,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
    "launchpad": "Pump.Fun",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1793369359724
+   "scannedAt": 1793370876321
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -100,9 +100,9 @@
     1,
     null
    ],
-   "liq": 215146,
-   "vol": 908217,
-   "mcap": 4772422,
+   "liq": 209993,
+   "vol": 902363,
+   "mcap": 4562125,
    "holders": 7516,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -113,7 +113,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1793369361155
+   "scannedAt": 1793370878518
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -137,9 +137,9 @@
     1,
     null
    ],
-   "liq": 105206,
-   "vol": 73060,
-   "mcap": 957192,
+   "liq": 104732,
+   "vol": 72433,
+   "mcap": 948771,
    "holders": 1802,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -150,7 +150,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1793369364397
+   "scannedAt": 1793370880800
   },
   {
    "ca": "0x7D0443CdDFc8E11AF105F4fE44Dd28c630237777",
@@ -174,9 +174,9 @@
     1,
     null
    ],
-   "liq": 104303,
-   "vol": 132969,
-   "mcap": 971956,
+   "liq": 103861,
+   "vol": 131936,
+   "mcap": 967845,
    "holders": 4546,
    "createdAt": 1792075556000,
    "handle": "dawgonbnb",
@@ -186,7 +186,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x9e83be1267e9a6d43bb7f3a8c0dc3c092ccae63e",
-   "scannedAt": 1793369362956
+   "scannedAt": 1793370883288
   }
  ]
 }
