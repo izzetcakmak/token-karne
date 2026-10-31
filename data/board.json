@@ -1,9 +1,46 @@
 {
- "updatedAt": 1793471736006,
+ "updatedAt": 1793473647086,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 44,
+ "scanned": 45,
  "items": [
+  {
+   "ca": "DDG8rjV3TViCqKRQED2QZq4MEaE1uqXgEiosBNpapump",
+   "chain": "solana",
+   "sym": "AgenC",
+   "name": "The Super Intelligent Beauty",
+   "img": "https://cdn.dexscreener.com/cms/images/kS08kfeBW5UsYMzo?width=800&height=800&quality=95&format=auto",
+   "score": 10,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 1007067,
+   "vol": 3339560,
+   "mcap": 1121196,
+   "holders": 730,
+   "createdAt": 1793384454000,
+   "handle": "AgenCSIB",
+   "launchpad": "Pump.Fun",
+   "flags": 1,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/abf43sbqjwkf1gzy8mkhnhr8ejlzgf6v9asr8lrmbucj",
+   "scannedAt": 1793473555405
+  },
   {
    "ca": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
    "chain": "solana",
@@ -26,9 +63,9 @@
     1,
     null
    ],
-   "liq": 453557,
-   "vol": 5341198,
-   "mcap": 24131766,
+   "liq": 451023,
+   "vol": 5350841,
+   "mcap": 23903820,
    "holders": 13346,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
@@ -39,44 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1793471650035
-  },
-  {
-   "ca": "DDG8rjV3TViCqKRQED2QZq4MEaE1uqXgEiosBNpapump",
-   "chain": "solana",
-   "sym": "AgenC",
-   "name": "The Super Intelligent Beauty",
-   "img": "https://cdn.dexscreener.com/cms/images/kS08kfeBW5UsYMzo?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    1,
-    0,
-    null
-   ],
-   "liq": 10026371,
-   "vol": 4182509,
-   "mcap": 11233021,
-   "holders": 737,
-   "createdAt": 1793384454000,
-   "handle": "AgenCSIB",
-   "launchpad": "Pump.Fun",
-   "flags": 1,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/abf43sbqjwkf1gzy8mkhnhr8ejlzgf6v9asr8lrmbucj",
-   "scannedAt": 1793471708418
+   "scannedAt": 1793473553283
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -100,9 +100,9 @@
     1,
     null
    ],
-   "liq": 270459,
-   "vol": 1214204,
-   "mcap": 7066251,
+   "liq": 252706,
+   "vol": 1232578,
+   "mcap": 6169990,
    "holders": 7655,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -113,7 +113,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1793471651866
+   "scannedAt": 1793473557083
   },
   {
    "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
@@ -137,9 +137,9 @@
     1,
     null
    ],
-   "liq": 74633,
-   "vol": 44970,
-   "mcap": 523070,
+   "liq": 73149,
+   "vol": 45143,
+   "mcap": 503786,
    "holders": 2333,
    "createdAt": 1791314731000,
    "handle": "si276_xyz",
@@ -150,7 +150,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
-   "scannedAt": 1793471653916
+   "scannedAt": 1793473559208
+  },
+  {
+   "ca": "57vAaMsnAJXkvULtAz7fsi6gRn3bHRJFJsJV1okNpump",
+   "chain": "solana",
+   "sym": "OREN",
+   "name": "Oren",
+   "img": "https://cdn.dexscreener.com/cms/images/_iX7TDjGlddJf8iu?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 31034,
+   "vol": 98342,
+   "mcap": 108417,
+   "holders": 963,
+   "createdAt": 1793274906000,
+   "handle": "orenfinance_",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/fptqm7ev2nwfnt2v4qw5e1chh6takgytqd2ncjekwebx",
+   "scannedAt": 1793473599464
   }
  ]
 }
