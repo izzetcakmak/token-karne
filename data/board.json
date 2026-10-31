@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793486108696,
+ "updatedAt": 1793488055006,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 44,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 442491,
-   "vol": 5384301,
-   "mcap": 23002232,
+   "liq": 439057,
+   "vol": 5399233,
+   "mcap": 22746642,
    "holders": 15277,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1793486030193
+   "scannedAt": 1793487976886
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 254818,
-   "vol": 1260714,
-   "mcap": 6202509,
+   "liq": 249274,
+   "vol": 1240731,
+   "mcap": 5965265,
    "holders": 7655,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1793486032136
+   "scannedAt": 1793487978821
   },
   {
    "ca": "EYqygbhZjP7EbM4fSn8devctnksAvPAD1Bt57XBFpump",
@@ -100,10 +100,10 @@
     1,
     null
    ],
-   "liq": 76558,
-   "vol": 5339698,
-   "mcap": 614239,
-   "holders": 7608,
+   "liq": 61318,
+   "vol": 5396345,
+   "mcap": 396585,
+   "holders": 7617,
    "createdAt": 1793393408000,
    "handle": "BrokeNiggaBadd",
    "launchpad": "Pump.Fun",
@@ -113,7 +113,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/81jgrptmsqwc1rgwxutyyww27ruiatehuzwlydchhwdb",
-   "scannedAt": 1793486034080
+   "scannedAt": 1793487980698
   },
   {
    "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
@@ -137,9 +137,9 @@
     1,
     null
    ],
-   "liq": 70272,
-   "vol": 52319,
-   "mcap": 465931,
+   "liq": 69922,
+   "vol": 53692,
+   "mcap": 463485,
    "holders": 2349,
    "createdAt": 1791314731000,
    "handle": "si276_xyz",
@@ -150,7 +150,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
-   "scannedAt": 1793486037567
+   "scannedAt": 1793487982666
+  },
+  {
+   "ca": "57vAaMsnAJXkvULtAz7fsi6gRn3bHRJFJsJV1okNpump",
+   "chain": "solana",
+   "sym": "OREN",
+   "name": "Oren",
+   "img": "https://cdn.dexscreener.com/cms/images/_iX7TDjGlddJf8iu?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 31272,
+   "vol": 95036,
+   "mcap": 109363,
+   "holders": 963,
+   "createdAt": 1793274906000,
+   "handle": "orenfinance_",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/fptqm7ev2nwfnt2v4qw5e1chh6takgytqd2ncjekwebx",
+   "scannedAt": 1793488031734
   }
  ]
 }
