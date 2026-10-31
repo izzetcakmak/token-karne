@@ -1,8 +1,8 @@
 {
- "updatedAt": 1793464519866,
+ "updatedAt": 1793466443565,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 44,
+ "scanned": 45,
  "items": [
   {
    "ca": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 443104,
-   "vol": 5276890,
-   "mcap": 23101091,
+   "liq": 447022,
+   "vol": 5322805,
+   "mcap": 23522769,
    "holders": 13346,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1793464438514
+   "scannedAt": 1793466358178
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 253682,
-   "vol": 1165293,
-   "mcap": 6237129,
+   "liq": 258465,
+   "vol": 1183585,
+   "mcap": 6477709,
    "holders": 7655,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1793464440172
+   "scannedAt": 1793466360105
   },
   {
    "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
@@ -100,9 +100,9 @@
     1,
     null
    ],
-   "liq": 73195,
-   "vol": 43458,
-   "mcap": 504406,
+   "liq": 75045,
+   "vol": 44875,
+   "mcap": 530139,
    "holders": 2333,
    "createdAt": 1791314731000,
    "handle": "si276_xyz",
@@ -113,44 +113,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
-   "scannedAt": 1793464442388
-  },
-  {
-   "ca": "57vAaMsnAJXkvULtAz7fsi6gRn3bHRJFJsJV1okNpump",
-   "chain": "solana",
-   "sym": "OREN",
-   "name": "Oren",
-   "img": "https://cdn.dexscreener.com/cms/images/_iX7TDjGlddJf8iu?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 30880,
-   "vol": 108189,
-   "mcap": 106933,
-   "holders": 963,
-   "createdAt": 1793274906000,
-   "handle": "orenfinance_",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/fptqm7ev2nwfnt2v4qw5e1chh6takgytqd2ncjekwebx",
-   "scannedAt": 1793464444428
+   "scannedAt": 1793466362203
   }
  ]
 }
