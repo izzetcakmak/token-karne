@@ -1,9 +1,46 @@
 {
- "updatedAt": 1793460938887,
+ "updatedAt": 1793462911976,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 44,
  "items": [
+  {
+   "ca": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
+   "chain": "solana",
+   "sym": "DESSA",
+   "name": "Dessa",
+   "img": "https://cdn.dexscreener.com/cms/images/HmECRYytNn0hGid_?width=800&height=800&quality=95&format=auto",
+   "score": 10,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 447494,
+   "vol": 5194991,
+   "mcap": 23577737,
+   "holders": 13346,
+   "createdAt": 1793019918000,
+   "handle": "DessaOnSOL",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
+   "scannedAt": 1793462850656
+  },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
    "chain": "solana",
@@ -26,9 +63,9 @@
     1,
     null
    ],
-   "liq": 260239,
-   "vol": 1154759,
-   "mcap": 6567225,
+   "liq": 254009,
+   "vol": 1162880,
+   "mcap": 6255194,
    "holders": 7655,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -39,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1793460901295
+   "scannedAt": 1793462842592
   },
   {
    "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
@@ -63,9 +100,9 @@
     1,
     null
    ],
-   "liq": 72386,
-   "vol": 42191,
-   "mcap": 493919,
+   "liq": 72968,
+   "vol": 42636,
+   "mcap": 501330,
    "holders": 2333,
    "createdAt": 1791314731000,
    "handle": "si276_xyz",
@@ -76,7 +113,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
-   "scannedAt": 1793460868696
+   "scannedAt": 1793462844002
   },
   {
    "ca": "57vAaMsnAJXkvULtAz7fsi6gRn3bHRJFJsJV1okNpump",
@@ -100,9 +137,9 @@
     1,
     null
    ],
-   "liq": 30808,
-   "vol": 109568,
-   "mcap": 106427,
+   "liq": 31277,
+   "vol": 107601,
+   "mcap": 109621,
    "holders": 959,
    "createdAt": 1793274906000,
    "handle": "orenfinance_",
@@ -113,7 +150,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/fptqm7ev2nwfnt2v4qw5e1chh6takgytqd2ncjekwebx",
-   "scannedAt": 1793460859564
+   "scannedAt": 1793462845617
   }
  ]
 }
