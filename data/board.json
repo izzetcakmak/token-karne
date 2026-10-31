@@ -1,45 +1,7 @@
 {
- "updatedAt": 1793410661236,
+ "updatedAt": 1793412688431,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
- "items": [
-  {
-   "ca": "FeMbDoX7R1Psc4GEcvJdsbNbZA3bfztcyDCatJVJpump",
-   "chain": "solana",
-   "sym": "three",
-   "name": "three.ws",
-   "img": "https://cdn.dexscreener.com/cms/images/j22gRd6Z2GowwOvM?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 168385,
-   "vol": 147988,
-   "mcap": 599472,
-   "holders": 15138,
-   "createdAt": 1777446541000,
-   "handle": "trythreews",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/5byl7mzolabynwmpzkpkjf4mgkz7febzranos19pre2z",
-   "scannedAt": 1793410575270
-  }
- ]
+ "items": []
 }
