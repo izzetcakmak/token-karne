@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793478918752,
+ "updatedAt": 1793480857779,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 449584,
-   "vol": 5356507,
-   "mcap": 23793970,
+   "liq": 455794,
+   "vol": 5360192,
+   "mcap": 24482258,
    "holders": 13346,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1793478834613
+   "scannedAt": 1793480774075
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 259750,
-   "vol": 1242818,
-   "mcap": 6524290,
+   "liq": 253200,
+   "vol": 1247846,
+   "mcap": 6207041,
    "holders": 7655,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -76,19 +76,19 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1793478836145
+   "scannedAt": 1793480776242
   },
   {
-   "ca": "DDG8rjV3TViCqKRQED2QZq4MEaE1uqXgEiosBNpapump",
+   "ca": "EYqygbhZjP7EbM4fSn8devctnksAvPAD1Bt57XBFpump",
    "chain": "solana",
-   "sym": "AgenC",
-   "name": "The Super Intelligent Beauty",
-   "img": "https://cdn.dexscreener.com/cms/images/kS08kfeBW5UsYMzo?width=800&height=800&quality=95&format=auto",
-   "score": 9,
+   "sym": "BNB",
+   "name": "Broke Nigga Baddie",
+   "img": "https://cdn.dexscreener.com/cms/images/ajPpOXCDei-Y7zWP?width=800&height=800&quality=95&format=auto",
+   "score": 10,
    "unknown": 1,
    "answers": [
     1,
-    0,
+    1,
     1,
     1,
     1,
@@ -100,57 +100,20 @@
     1,
     null
    ],
-   "liq": 1010010,
-   "vol": 2821133,
-   "mcap": 1118615,
-   "holders": 727,
-   "createdAt": 1793384454000,
-   "handle": "AgenCSIB",
-   "launchpad": "Pump.Fun",
-   "flags": 1,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/abf43sbqjwkf1gzy8mkhnhr8ejlzgf6v9asr8lrmbucj",
-   "scannedAt": 1793478832488
-  },
-  {
-   "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
-   "chain": "solana",
-   "sym": "SI276",
-   "name": "Super Intelligence SI276",
-   "img": "https://cdn.dexscreener.com/cms/images/C00PG8ebjcD8d36M?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 72110,
-   "vol": 47214,
-   "mcap": 490890,
-   "holders": 2333,
-   "createdAt": 1791314731000,
-   "handle": "si276_xyz",
+   "liq": 51119,
+   "vol": 5603190,
+   "mcap": 286322,
+   "holders": 7580,
+   "createdAt": 1793393408000,
+   "handle": "BrokeNiggaBadd",
    "launchpad": "Pump.Fun",
    "flags": 0,
    "sources": [
     "GoPlus",
     "RugCheck"
    ],
-   "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
-   "scannedAt": 1793478837646
+   "url": "https://dexscreener.com/solana/81jgrptmsqwc1rgwxutyyww27ruiatehuzwlydchhwdb",
+   "scannedAt": 1793480835366
   }
  ]
 }
