@@ -1,8 +1,8 @@
 {
- "updatedAt": 1793524141856,
+ "updatedAt": 1793525703677,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 44,
+ "scanned": 45,
  "items": [
   {
    "ca": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 467097,
-   "vol": 3823101,
-   "mcap": 25360023,
+   "liq": 472286,
+   "vol": 3834998,
+   "mcap": 26045990,
    "holders": 16773,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1793524067809
+   "scannedAt": 1793525633462
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 252750,
-   "vol": 1135749,
-   "mcap": 6037008,
+   "liq": 249421,
+   "vol": 1135417,
+   "mcap": 5918722,
    "holders": 7846,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1793524069248
+   "scannedAt": 1793525634888
   },
   {
    "ca": "FWatMYieKhRuJ1yuTcmVG1njRhZWwqHwjR11pBympump",
@@ -100,10 +100,10 @@
     1,
     null
    ],
-   "liq": 90367,
-   "vol": 1646726,
-   "mcap": 1077910,
-   "holders": 6097,
+   "liq": 89615,
+   "vol": 1635241,
+   "mcap": 1065164,
+   "holders": 6098,
    "createdAt": 1793403672000,
    "handle": "LeverHedgeMeme",
    "launchpad": "Pump.Fun",
@@ -113,7 +113,43 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/6d3ujezdb2wdbvvryfycvgxsih9fw6ml6hscia5qvhwp",
-   "scannedAt": 1793524070698
+   "scannedAt": 1793525636504
+  },
+  {
+   "ca": "0x7AB8d02CBb51Ff7223fDe700eAaa2a91Bf750314",
+   "chain": "bsc",
+   "sym": "TART",
+   "name": "TartSwap",
+   "img": "https://cdn.dexscreener.com/cms/images/kDVz5vcKSnLS1iEe?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    null
+   ],
+   "liq": 829607,
+   "vol": 391563,
+   "mcap": 16599872,
+   "holders": 32227,
+   "createdAt": 1787522174000,
+   "handle": "tartprotocol",
+   "launchpad": null,
+   "flags": 0,
+   "sources": [
+    "GoPlus"
+   ],
+   "url": "https://dexscreener.com/bsc/0x30000a407fabebe29439f8e437050512ff6661be",
+   "scannedAt": 1793525639358
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -137,9 +173,9 @@
     1,
     null
    ],
-   "liq": 120473,
-   "vol": 98441,
-   "mcap": 1239363,
+   "liq": 120651,
+   "vol": 99053,
+   "mcap": 1242872,
    "holders": 1811,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -150,7 +186,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1793524072141
+   "scannedAt": 1793525637920
   }
  ]
 }
