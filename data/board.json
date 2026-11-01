@@ -1,8 +1,8 @@
 {
- "updatedAt": 1793511340142,
+ "updatedAt": 1793513633605,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 45,
+ "scanned": 43,
  "items": [
   {
    "ca": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 498990,
-   "vol": 3740202,
-   "mcap": 29074729,
+   "liq": 506520,
+   "vol": 3732875,
+   "mcap": 29860884,
    "holders": 15277,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1793511253623
+   "scannedAt": 1793513547631
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 258306,
-   "vol": 1172563,
-   "mcap": 6351380,
+   "liq": 256267,
+   "vol": 1161860,
+   "mcap": 6209547,
    "holders": 7846,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -76,44 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1793511255130
-  },
-  {
-   "ca": "EYqygbhZjP7EbM4fSn8devctnksAvPAD1Bt57XBFpump",
-   "chain": "solana",
-   "sym": "BNB",
-   "name": "Broke Nigga Baddie",
-   "img": "https://cdn.dexscreener.com/cms/images/ajPpOXCDei-Y7zWP?width=800&height=800&quality=95&format=auto",
-   "score": 10,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 98049,
-   "vol": 5363598,
-   "mcap": 903543,
-   "holders": 7680,
-   "createdAt": 1793393408000,
-   "handle": "BrokeNiggaBadd",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/81jgrptmsqwc1rgwxutyyww27ruiatehuzwlydchhwdb",
-   "scannedAt": 1793511257284
+   "scannedAt": 1793513549136
   },
   {
    "ca": "FWatMYieKhRuJ1yuTcmVG1njRhZWwqHwjR11pBympump",
@@ -137,10 +100,10 @@
     1,
     null
    ],
-   "liq": 85671,
-   "vol": 1645787,
-   "mcap": 979575,
-   "holders": 8766,
+   "liq": 83582,
+   "vol": 1637966,
+   "mcap": 929402,
+   "holders": 8588,
    "createdAt": 1793403672000,
    "handle": "LeverHedgeMeme",
    "launchpad": "Pump.Fun",
@@ -150,7 +113,81 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/6d3ujezdb2wdbvvryfycvgxsih9fw6ml6hscia5qvhwp",
-   "scannedAt": 1793511259651
+   "scannedAt": 1793513552811
+  },
+  {
+   "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
+   "chain": "solana",
+   "sym": "CBUCKS",
+   "name": "Cartoon Money",
+   "img": "https://cdn.dexscreener.com/cms/images/2bajn2a05AdQGV-4?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 124749,
+   "vol": 103070,
+   "mcap": 1327232,
+   "holders": 1811,
+   "createdAt": 1791311393000,
+   "handle": "cartoonmoney_ai",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
+   "scannedAt": 1793513554294
+  },
+  {
+   "ca": "EYqygbhZjP7EbM4fSn8devctnksAvPAD1Bt57XBFpump",
+   "chain": "solana",
+   "sym": "BNB",
+   "name": "Broke Nigga Baddie",
+   "img": "https://cdn.dexscreener.com/cms/images/ajPpOXCDei-Y7zWP?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 32866,
+   "vol": 5375999,
+   "mcap": 106306,
+   "holders": 7401,
+   "createdAt": 1793393408000,
+   "handle": "BrokeNiggaBadd",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/81jgrptmsqwc1rgwxutyyww27ruiatehuzwlydchhwdb",
+   "scannedAt": 1793513550629
   }
  ]
 }
