@@ -1,8 +1,8 @@
 {
- "updatedAt": 1793513633605,
+ "updatedAt": 1793515096092,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 43,
+ "scanned": 45,
  "items": [
   {
    "ca": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 506520,
-   "vol": 3732875,
-   "mcap": 29860884,
+   "liq": 492968,
+   "vol": 3736348,
+   "mcap": 28343445,
    "holders": 15277,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1793513547631
+   "scannedAt": 1793515012393
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 256267,
-   "vol": 1161860,
-   "mcap": 6209547,
+   "liq": 253276,
+   "vol": 1155553,
+   "mcap": 6084336,
    "holders": 7846,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1793513549136
+   "scannedAt": 1793515013917
   },
   {
    "ca": "FWatMYieKhRuJ1yuTcmVG1njRhZWwqHwjR11pBympump",
@@ -100,10 +100,10 @@
     1,
     null
    ],
-   "liq": 83582,
-   "vol": 1637966,
-   "mcap": 929402,
-   "holders": 8588,
+   "liq": 89568,
+   "vol": 1660001,
+   "mcap": 1065040,
+   "holders": 7811,
    "createdAt": 1793403672000,
    "handle": "LeverHedgeMeme",
    "launchpad": "Pump.Fun",
@@ -113,7 +113,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/6d3ujezdb2wdbvvryfycvgxsih9fw6ml6hscia5qvhwp",
-   "scannedAt": 1793513552811
+   "scannedAt": 1793515015773
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -137,9 +137,9 @@
     1,
     null
    ],
-   "liq": 124749,
-   "vol": 103070,
-   "mcap": 1327232,
+   "liq": 126145,
+   "vol": 102878,
+   "mcap": 1356528,
    "holders": 1811,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -150,7 +150,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1793513554294
+   "scannedAt": 1793515017666
   },
   {
    "ca": "EYqygbhZjP7EbM4fSn8devctnksAvPAD1Bt57XBFpump",
@@ -174,10 +174,10 @@
     1,
     null
    ],
-   "liq": 32866,
-   "vol": 5375999,
-   "mcap": 106306,
-   "holders": 7401,
+   "liq": 32577,
+   "vol": 5328474,
+   "mcap": 103866,
+   "holders": 7461,
    "createdAt": 1793393408000,
    "handle": "BrokeNiggaBadd",
    "launchpad": "Pump.Fun",
@@ -187,7 +187,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/81jgrptmsqwc1rgwxutyyww27ruiatehuzwlydchhwdb",
-   "scannedAt": 1793513550629
+   "scannedAt": 1793515019592
   }
  ]
 }
