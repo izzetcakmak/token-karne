@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793515096092,
+ "updatedAt": 1793516940833,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 492968,
-   "vol": 3736348,
-   "mcap": 28343445,
+   "liq": 504363,
+   "vol": 3736817,
+   "mcap": 29666805,
    "holders": 15277,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1793515012393
+   "scannedAt": 1793516868399
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 253276,
-   "vol": 1155553,
-   "mcap": 6084336,
+   "liq": 248617,
+   "vol": 1153625,
+   "mcap": 5860689,
    "holders": 7846,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -76,44 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1793515013917
-  },
-  {
-   "ca": "FWatMYieKhRuJ1yuTcmVG1njRhZWwqHwjR11pBympump",
-   "chain": "solana",
-   "sym": "Leverhedge",
-   "name": "Leverhedge",
-   "img": "https://cdn.dexscreener.com/cms/images/qXUaaXTEwOsl-xed?width=800&height=800&quality=95&format=auto",
-   "score": 10,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 89568,
-   "vol": 1660001,
-   "mcap": 1065040,
-   "holders": 7811,
-   "createdAt": 1793403672000,
-   "handle": "LeverHedgeMeme",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/6d3ujezdb2wdbvvryfycvgxsih9fw6ml6hscia5qvhwp",
-   "scannedAt": 1793515015773
+   "scannedAt": 1793516869796
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -137,9 +100,9 @@
     1,
     null
    ],
-   "liq": 126145,
-   "vol": 102878,
-   "mcap": 1356528,
+   "liq": 124649,
+   "vol": 102183,
+   "mcap": 1325121,
    "holders": 1811,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -150,7 +113,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1793515017666
+   "scannedAt": 1793516872765
+  },
+  {
+   "ca": "FWatMYieKhRuJ1yuTcmVG1njRhZWwqHwjR11pBympump",
+   "chain": "solana",
+   "sym": "Leverhedge",
+   "name": "Leverhedge",
+   "img": "https://cdn.dexscreener.com/cms/images/qXUaaXTEwOsl-xed?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 85421,
+   "vol": 1674330,
+   "mcap": 969277,
+   "holders": 6552,
+   "createdAt": 1793403672000,
+   "handle": "LeverHedgeMeme",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/6d3ujezdb2wdbvvryfycvgxsih9fw6ml6hscia5qvhwp",
+   "scannedAt": 1793516871261
   },
   {
    "ca": "EYqygbhZjP7EbM4fSn8devctnksAvPAD1Bt57XBFpump",
@@ -174,10 +174,10 @@
     1,
     null
    ],
-   "liq": 32577,
-   "vol": 5328474,
-   "mcap": 103866,
-   "holders": 7461,
+   "liq": 33603,
+   "vol": 5374090,
+   "mcap": 108644,
+   "holders": 7519,
    "createdAt": 1793393408000,
    "handle": "BrokeNiggaBadd",
    "launchpad": "Pump.Fun",
@@ -187,7 +187,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/81jgrptmsqwc1rgwxutyyww27ruiatehuzwlydchhwdb",
-   "scannedAt": 1793515019592
+   "scannedAt": 1793516874194
   }
  ]
 }
