@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793610735004,
+ "updatedAt": 1793612132444,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 852885,
-   "vol": 1139360,
-   "mcap": 17577868,
+   "liq": 849831,
+   "vol": 1119330,
+   "mcap": 17516275,
    "holders": 35155,
    "createdAt": 1787522174000,
    "handle": "tartprotocol",
@@ -38,7 +38,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x30000a407fabebe29439f8e437050512ff6661be",
-   "scannedAt": 1793610657470
+   "scannedAt": 1793612060877
   },
   {
    "ca": "EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump",
@@ -62,9 +62,9 @@
     1,
     null
    ],
-   "liq": 226663,
-   "vol": 1872683,
-   "mcap": 2009814,
+   "liq": 226596,
+   "vol": 1881630,
+   "mcap": 1941142,
    "holders": 5255,
    "createdAt": 1792608585000,
    "handle": "ChooTheRescue",
@@ -75,7 +75,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/3ung5b7czbspnmjfrzzznyqvpk8q3lerr6baynfohdfz",
-   "scannedAt": 1793610660889
+   "scannedAt": 1793612062577
   },
   {
    "ca": "FWatMYieKhRuJ1yuTcmVG1njRhZWwqHwjR11pBympump",
@@ -99,10 +99,10 @@
     1,
     null
    ],
-   "liq": 92674,
-   "vol": 1082335,
-   "mcap": 1085397,
-   "holders": 6035,
+   "liq": 91003,
+   "vol": 1101262,
+   "mcap": 1048510,
+   "holders": 6041,
    "createdAt": 1793403672000,
    "handle": "LeverHedgeMeme",
    "launchpad": "Pump.Fun",
@@ -112,7 +112,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/6d3ujezdb2wdbvvryfycvgxsih9fw6ml6hscia5qvhwp",
-   "scannedAt": 1793610662800
+   "scannedAt": 1793612064147
   },
   {
    "ca": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
@@ -136,9 +136,9 @@
     1,
     null
    ],
-   "liq": 349494,
-   "vol": 1539452,
-   "mcap": 14178565,
+   "liq": 350583,
+   "vol": 1528639,
+   "mcap": 14297541,
    "holders": 18296,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
@@ -149,7 +149,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1793610659059
+   "scannedAt": 1793612065563
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -173,9 +173,9 @@
     1,
     null
    ],
-   "liq": 328320,
-   "vol": 1862037,
-   "mcap": 9991061,
+   "liq": 320175,
+   "vol": 1933219,
+   "mcap": 9529796,
    "holders": 8059,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -186,7 +186,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1793610664291
+   "scannedAt": 1793612066981
   },
   {
    "ca": "EaxAUcXxNnVwcqm2BBocbows7D1XVY2Q63V38NEypump",
@@ -210,9 +210,9 @@
     1,
     null
    ],
-   "liq": 162051,
-   "vol": 96413,
-   "mcap": 1371727,
+   "liq": 160730,
+   "vol": 99836,
+   "mcap": 1352630,
    "holders": 11810,
    "createdAt": 1738111507000,
    "handle": "GTA_6_Sol",
@@ -223,7 +223,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/9kgswjrkczs3ebukvbkbgdwj8bwtdwzzqxkufdhaps2a",
-   "scannedAt": 1793610707024
+   "scannedAt": 1793612068461
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -247,9 +247,9 @@
     1,
     null
    ],
-   "liq": 149078,
-   "vol": 213415,
-   "mcap": 1871829,
+   "liq": 149459,
+   "vol": 213549,
+   "mcap": 1881156,
    "holders": 1911,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -260,7 +260,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1793610666182
+   "scannedAt": 1793612069877
   }
  ]
 }
