@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793615735134,
+ "updatedAt": 1793617702036,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 44,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 847885,
-   "vol": 1034304,
-   "mcap": 17468282,
+   "liq": 847335,
+   "vol": 963633,
+   "mcap": 17479127,
    "holders": 35162,
    "createdAt": 1787522174000,
    "handle": "tartprotocol",
@@ -38,7 +38,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x30000a407fabebe29439f8e437050512ff6661be",
-   "scannedAt": 1793615657864
+   "scannedAt": 1793617633106
   },
   {
    "ca": "EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump",
@@ -62,9 +62,9 @@
     1,
     null
    ],
-   "liq": 223493,
-   "vol": 1889077,
-   "mcap": 2041917,
+   "liq": 225603,
+   "vol": 1889843,
+   "mcap": 2072187,
    "holders": 5255,
    "createdAt": 1792608585000,
    "handle": "ChooTheRescue",
@@ -75,7 +75,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/3ung5b7czbspnmjfrzzznyqvpk8q3lerr6baynfohdfz",
-   "scannedAt": 1793615659826
+   "scannedAt": 1793617634760
+  },
+  {
+   "ca": "EaxAUcXxNnVwcqm2BBocbows7D1XVY2Q63V38NEypump",
+   "chain": "solana",
+   "sym": "GTA 6 Coin",
+   "name": "GTA6",
+   "img": "https://cdn.dexscreener.com/cms/images/lqqrY_TIvxZMS_Aa?width=800&height=800&quality=95&format=auto",
+   "score": 10,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 150085,
+   "vol": 104983,
+   "mcap": 1181302,
+   "holders": 11810,
+   "createdAt": 1738111507000,
+   "handle": "GTA_6_Sol",
+   "launchpad": null,
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/9kgswjrkczs3ebukvbkbgdwj8bwtdwzzqxkufdhaps2a",
+   "scannedAt": 1793617640763
   },
   {
    "ca": "FWatMYieKhRuJ1yuTcmVG1njRhZWwqHwjR11pBympump",
@@ -99,10 +136,10 @@
     1,
     null
    ],
-   "liq": 82331,
-   "vol": 1150561,
-   "mcap": 861207,
-   "holders": 6106,
+   "liq": 74586,
+   "vol": 1174228,
+   "mcap": 707732,
+   "holders": 6155,
    "createdAt": 1793403672000,
    "handle": "LeverHedgeMeme",
    "launchpad": "Pump.Fun",
@@ -112,7 +149,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/6d3ujezdb2wdbvvryfycvgxsih9fw6ml6hscia5qvhwp",
-   "scannedAt": 1793615661649
+   "scannedAt": 1793617636271
   },
   {
    "ca": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
@@ -136,9 +173,9 @@
     1,
     null
    ],
-   "liq": 350677,
-   "vol": 1496915,
-   "mcap": 14341356,
+   "liq": 360174,
+   "vol": 1502148,
+   "mcap": 15103361,
    "holders": 18296,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
@@ -149,7 +186,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1793615663526
+   "scannedAt": 1793617637928
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -173,9 +210,9 @@
     1,
     null
    ],
-   "liq": 311640,
-   "vol": 1973089,
-   "mcap": 8961267,
+   "liq": 346681,
+   "vol": 2047769,
+   "mcap": 10520417,
    "holders": 8059,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -186,44 +223,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1793615664979
-  },
-  {
-   "ca": "EaxAUcXxNnVwcqm2BBocbows7D1XVY2Q63V38NEypump",
-   "chain": "solana",
-   "sym": "GTA 6 Coin",
-   "name": "GTA6",
-   "img": "https://cdn.dexscreener.com/cms/images/lqqrY_TIvxZMS_Aa?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    1,
-    1,
-    0,
-    1,
-    null
-   ],
-   "liq": 153568,
-   "vol": 106405,
-   "mcap": 1238178,
-   "holders": 11810,
-   "createdAt": 1738111507000,
-   "handle": "GTA_6_Sol",
-   "launchpad": null,
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/9kgswjrkczs3ebukvbkbgdwj8bwtdwzzqxkufdhaps2a",
-   "scannedAt": 1793615666439
+   "scannedAt": 1793617639345
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -247,9 +247,9 @@
     1,
     null
    ],
-   "liq": 145897,
-   "vol": 214339,
-   "mcap": 1794033,
+   "liq": 146501,
+   "vol": 214211,
+   "mcap": 1808564,
    "holders": 1911,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -260,7 +260,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1793615668364
+   "scannedAt": 1793617642241
   }
  ]
 }
