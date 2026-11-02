@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793657346530,
+ "updatedAt": 1793658935675,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 329917,
-   "vol": 1575987,
-   "mcap": 12811738,
+   "liq": 324631,
+   "vol": 1554711,
+   "mcap": 12475352,
    "holders": 18296,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1793657255121
+   "scannedAt": 1793658848891
   },
   {
    "ca": "0x7AB8d02CBb51Ff7223fDe700eAaa2a91Bf750314",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 789218,
-   "vol": 610871,
-   "mcap": 15168167,
+   "liq": 786659,
+   "vol": 597375,
+   "mcap": 15111216,
    "holders": 35152,
    "createdAt": 1787522174000,
    "handle": "tartprotocol",
@@ -75,7 +75,44 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x30000a407fabebe29439f8e437050512ff6661be",
-   "scannedAt": 1793657257968
+   "scannedAt": 1793658851155
+  },
+  {
+   "ca": "8s4bNqEztH1JP7mkU747uMr7AckCQdiV47FDqYnDpump",
+   "chain": "solana",
+   "sym": "ANAKIN",
+   "name": "Anakin Coin",
+   "img": "https://cdn.dexscreener.com/cms/images/T4L7yLkyBmwC3jvn?width=800&height=800&quality=95&format=auto",
+   "score": 10,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 38823,
+   "vol": 8565474,
+   "mcap": 191323,
+   "holders": 9051,
+   "createdAt": 1793572111000,
+   "handle": "AnakinMemeCoin",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/hcgpz2exv8sfcmvq9fjpbd71brljvzutd2avvv86gwbk",
+   "scannedAt": 1793658912122
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -99,9 +136,9 @@
     1,
     null
    ],
-   "liq": 398871,
-   "vol": 2917658,
-   "mcap": 12528925,
+   "liq": 391802,
+   "vol": 2933971,
+   "mcap": 12357975,
    "holders": 8059,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -112,7 +149,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1793657260542
+   "scannedAt": 1793658852797
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -136,9 +173,9 @@
     1,
     null
    ],
-   "liq": 143737,
-   "vol": 141134,
-   "mcap": 1737988,
+   "liq": 146429,
+   "vol": 138322,
+   "mcap": 1802461,
    "holders": 1911,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -149,7 +186,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1793657262891
+   "scannedAt": 1793658854834
   }
  ]
 }
