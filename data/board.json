@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793747270787,
+ "updatedAt": 1793748938072,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 271807,
-   "vol": 1246564,
-   "mcap": 8470202,
+   "liq": 275938,
+   "vol": 1236998,
+   "mcap": 8722383,
    "holders": 23374,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1793747184970
+   "scannedAt": 1793748846616
   },
   {
    "ca": "4nuj5NLHMtQSezfmz6CwBpCRJisFie6F6MxNNz1dpump",
@@ -63,10 +63,10 @@
     1,
     null
    ],
-   "liq": 65334,
-   "vol": 2217042,
-   "mcap": 573700,
-   "holders": 11095,
+   "liq": 69225,
+   "vol": 2619482,
+   "mcap": 628504,
+   "holders": 11192,
    "createdAt": 1793628468000,
    "handle": "theahsokacoin",
    "launchpad": "Pump.Fun",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/hpymxw5bzvks2lphuzljxwemyrpu7uu3vfqq3o5abzdj",
-   "scannedAt": 1793747238204
+   "scannedAt": 1793748848475
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -100,9 +100,9 @@
     1,
     null
    ],
-   "liq": 479142,
-   "vol": 2953750,
-   "mcap": 10267271,
+   "liq": 503929,
+   "vol": 3106621,
+   "mcap": 10296330,
    "holders": 8059,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -113,7 +113,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1793747187005
+   "scannedAt": 1793748850638
   }
  ]
 }
