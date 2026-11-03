@@ -1,8 +1,8 @@
 {
- "updatedAt": 1793729451229,
+ "updatedAt": 1793731003089,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 44,
+ "scanned": 45,
  "items": [
   {
    "ca": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 270244,
-   "vol": 1306613,
-   "mcap": 8371621,
+   "liq": 284063,
+   "vol": 1287584,
+   "mcap": 9242315,
    "holders": 23374,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
@@ -39,44 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1793729418287
-  },
-  {
-   "ca": "4nuj5NLHMtQSezfmz6CwBpCRJisFie6F6MxNNz1dpump",
-   "chain": "solana",
-   "sym": "Ahsoka",
-   "name": "Ahsoka Tano",
-   "img": "https://cdn.dexscreener.com/cms/images/e4KWrlWLGZaDMIWK?width=800&height=800&quality=95&format=auto",
-   "score": 10,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    null
-   ],
-   "liq": 71249,
-   "vol": 2202150,
-   "mcap": 686265,
-   "holders": 10709,
-   "createdAt": 1793628468000,
-   "handle": "theahsokacoin",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/hpymxw5bzvks2lphuzljxwemyrpu7uu3vfqq3o5abzdj",
-   "scannedAt": 1793729369976
+   "scannedAt": 1793730892866
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -100,9 +63,9 @@
     1,
     null
    ],
-   "liq": 507592,
-   "vol": 3365515,
-   "mcap": 12127599,
+   "liq": 506580,
+   "vol": 3318948,
+   "mcap": 12229602,
    "holders": 8059,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -113,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1793729399111
+   "scannedAt": 1793730897121
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -137,9 +100,9 @@
     1,
     null
    ],
-   "liq": 143897,
-   "vol": 91234,
-   "mcap": 1739404,
+   "liq": 137814,
+   "vol": 94295,
+   "mcap": 1596510,
    "holders": 1909,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -150,7 +113,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1793729385037
+   "scannedAt": 1793730899240
   }
  ]
 }
