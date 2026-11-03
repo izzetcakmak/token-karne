@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793676944518,
+ "updatedAt": 1793679000986,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 317640,
-   "vol": 1459175,
-   "mcap": 11906463,
+   "liq": 314557,
+   "vol": 1440850,
+   "mcap": 11665904,
    "holders": 18296,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1793676868717
+   "scannedAt": 1793678930086
   },
   {
    "ca": "0x7AB8d02CBb51Ff7223fDe700eAaa2a91Bf750314",
@@ -47,7 +47,7 @@
    "sym": "TART",
    "name": "TartSwap",
    "img": "https://cdn.dexscreener.com/cms/images/kDVz5vcKSnLS1iEe?width=800&height=800&quality=95&format=auto",
-   "score": 10,
+   "score": 9,
    "unknown": 1,
    "answers": [
     1,
@@ -60,12 +60,12 @@
     1,
     1,
     1,
-    1,
+    0,
     null
    ],
-   "liq": 778602,
-   "vol": 406964,
-   "mcap": 14832223,
+   "liq": 777092,
+   "vol": 388139,
+   "mcap": 14766210,
    "holders": 35148,
    "createdAt": 1787522174000,
    "handle": "tartprotocol",
@@ -75,7 +75,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x30000a407fabebe29439f8e437050512ff6661be",
-   "scannedAt": 1793676870358
+   "scannedAt": 1793678931564
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -99,9 +99,9 @@
     1,
     null
    ],
-   "liq": 421259,
-   "vol": 3074301,
-   "mcap": 13211918,
+   "liq": 421086,
+   "vol": 3100076,
+   "mcap": 12636519,
    "holders": 8059,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -112,7 +112,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1793676871788
+   "scannedAt": 1793678932974
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -136,9 +136,9 @@
     1,
     null
    ],
-   "liq": 146161,
-   "vol": 125910,
-   "mcap": 1795268,
+   "liq": 142971,
+   "vol": 127271,
+   "mcap": 1718944,
    "holders": 1911,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -149,7 +149,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1793676873343
+   "scannedAt": 1793678934384
   }
  ]
 }
