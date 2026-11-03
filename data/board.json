@@ -1,8 +1,8 @@
 {
- "updatedAt": 1793723779160,
+ "updatedAt": 1793725739281,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 45,
+ "scanned": 43,
  "items": [
   {
    "ca": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
@@ -10,7 +10,7 @@
    "sym": "DESSA",
    "name": "Dessa",
    "img": "https://cdn.dexscreener.com/cms/images/HmECRYytNn0hGid_?width=800&height=800&quality=95&format=auto",
-   "score": 10,
+   "score": 11,
    "unknown": 1,
    "answers": [
     1,
@@ -22,13 +22,13 @@
     1,
     1,
     1,
-    0,
+    1,
     1,
     null
    ],
-   "liq": 267898,
-   "vol": 1320120,
-   "mcap": 8267928,
+   "liq": 278924,
+   "vol": 1313065,
+   "mcap": 8924528,
    "holders": 23374,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
@@ -39,44 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1793723679165
-  },
-  {
-   "ca": "4nuj5NLHMtQSezfmz6CwBpCRJisFie6F6MxNNz1dpump",
-   "chain": "solana",
-   "sym": "Ahsoka",
-   "name": "Ahsoka Tano",
-   "img": "https://cdn.dexscreener.com/cms/images/e4KWrlWLGZaDMIWK?width=800&height=800&quality=95&format=auto",
-   "score": 10,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    null
-   ],
-   "liq": 81942,
-   "vol": 2214970,
-   "mcap": 910552,
-   "holders": 10713,
-   "createdAt": 1793628468000,
-   "handle": "theahsokacoin",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/hpymxw5bzvks2lphuzljxwemyrpu7uu3vfqq3o5abzdj",
-   "scannedAt": 1793723677468
+   "scannedAt": 1793725606909
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -100,9 +63,9 @@
     1,
     null
    ],
-   "liq": 513220,
-   "vol": 3380666,
-   "mcap": 12312675,
+   "liq": 513149,
+   "vol": 3394860,
+   "mcap": 12386551,
    "holders": 8059,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -113,7 +76,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1793723681008
+   "scannedAt": 1793725613926
+  },
+  {
+   "ca": "BCdwQBAn8dYB5YjTsoB6TdHAWokxv28k2oZUodERpump",
+   "chain": "solana",
+   "sym": "MANIFEST",
+   "name": "Manifesting",
+   "img": "https://cdn.dexscreener.com/cms/images/rBThiQOd4Gq-4ZgI?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    null
+   ],
+   "liq": 333303,
+   "vol": 176457,
+   "mcap": 3575826,
+   "holders": 35276,
+   "createdAt": 1778990847000,
+   "handle": "ManifestingXs",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/2dvbu5h8jcd37gaxajuz4t77hsjjw22lldutzk7gsa43",
+   "scannedAt": 1793725722538
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -137,9 +137,9 @@
     1,
     null
    ],
-   "liq": 141534,
-   "vol": 78946,
-   "mcap": 1684406,
+   "liq": 144587,
+   "vol": 86817,
+   "mcap": 1755819,
    "holders": 1909,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -150,7 +150,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1793723683319
+   "scannedAt": 1793725617810
   }
  ]
 }
