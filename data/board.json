@@ -1,8 +1,8 @@
 {
- "updatedAt": 1793718502110,
+ "updatedAt": 1793720193911,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 45,
+ "scanned": 43,
  "items": [
   {
    "ca": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 274704,
-   "vol": 1455721,
-   "mcap": 8693144,
+   "liq": 269625,
+   "vol": 1382513,
+   "mcap": 8383762,
    "holders": 23374,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1793718414439
+   "scannedAt": 1793720089795
   },
   {
    "ca": "4nuj5NLHMtQSezfmz6CwBpCRJisFie6F6MxNNz1dpump",
@@ -63,10 +63,10 @@
     1,
     null
    ],
-   "liq": 83566,
-   "vol": 2373594,
-   "mcap": 950128,
-   "holders": 10823,
+   "liq": 80112,
+   "vol": 2285507,
+   "mcap": 874361,
+   "holders": 10801,
    "createdAt": 1793628468000,
    "handle": "theahsokacoin",
    "launchpad": "Pump.Fun",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/hpymxw5bzvks2lphuzljxwemyrpu7uu3vfqq3o5abzdj",
-   "scannedAt": 1793718418775
+   "scannedAt": 1793720091827
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -100,9 +100,9 @@
     1,
     null
    ],
-   "liq": 482444,
-   "vol": 3207178,
-   "mcap": 11979198,
+   "liq": 486874,
+   "vol": 3275582,
+   "mcap": 10704986,
    "holders": 8059,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -113,7 +113,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1793718415848
+   "scannedAt": 1793720095932
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -137,10 +137,10 @@
     1,
     null
    ],
-   "liq": 144903,
-   "vol": 88640,
-   "mcap": 1764423,
-   "holders": 1911,
+   "liq": 143449,
+   "vol": 83618,
+   "mcap": 1729801,
+   "holders": 1909,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
    "launchpad": "Pump.Fun",
@@ -150,7 +150,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1793718417249
+   "scannedAt": 1793720100107
   }
  ]
 }
