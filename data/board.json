@@ -1,8 +1,8 @@
 {
- "updatedAt": 1793743719673,
+ "updatedAt": 1793745349148,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 44,
+ "scanned": 45,
  "items": [
   {
    "ca": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 273253,
-   "vol": 1259828,
-   "mcap": 8543544,
+   "liq": 273367,
+   "vol": 1261921,
+   "mcap": 8572991,
    "holders": 23374,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
@@ -39,44 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1793743593732
-  },
-  {
-   "ca": "4nuj5NLHMtQSezfmz6CwBpCRJisFie6F6MxNNz1dpump",
-   "chain": "solana",
-   "sym": "Ahsoka",
-   "name": "Ahsoka Tano",
-   "img": "https://cdn.dexscreener.com/cms/images/e4KWrlWLGZaDMIWK?width=800&height=800&quality=95&format=auto",
-   "score": 10,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    null
-   ],
-   "liq": 71780,
-   "vol": 2222724,
-   "mcap": 689448,
-   "holders": 11046,
-   "createdAt": 1793628468000,
-   "handle": "theahsokacoin",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/hpymxw5bzvks2lphuzljxwemyrpu7uu3vfqq3o5abzdj",
-   "scannedAt": 1793743595430
+   "scannedAt": 1793745241428
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -100,9 +63,9 @@
     1,
     null
    ],
-   "liq": 503855,
-   "vol": 2994388,
-   "mcap": 11256917,
+   "liq": 485513,
+   "vol": 2949893,
+   "mcap": 11036255,
    "holders": 8059,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -113,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1793743597320
+   "scannedAt": 1793745246613
   }
  ]
 }
