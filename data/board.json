@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793665157483,
+ "updatedAt": 1793666798395,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 327722,
-   "vol": 1538403,
-   "mcap": 12644139,
+   "liq": 327721,
+   "vol": 1520682,
+   "mcap": 12604100,
    "holders": 18296,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1793665084859
+   "scannedAt": 1793666725420
   },
   {
    "ca": "0x7AB8d02CBb51Ff7223fDe700eAaa2a91Bf750314",
@@ -63,10 +63,10 @@
     1,
     null
    ],
-   "liq": 788896,
-   "vol": 532381,
-   "mcap": 15142326,
-   "holders": 35154,
+   "liq": 792047,
+   "vol": 506869,
+   "mcap": 15252509,
+   "holders": 35149,
    "createdAt": 1787522174000,
    "handle": "tartprotocol",
    "launchpad": null,
@@ -75,7 +75,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x30000a407fabebe29439f8e437050512ff6661be",
-   "scannedAt": 1793665086482
+   "scannedAt": 1793666726972
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -99,9 +99,9 @@
     1,
     null
    ],
-   "liq": 414799,
-   "vol": 3013738,
-   "mcap": 12958079,
+   "liq": 401175,
+   "vol": 3049031,
+   "mcap": 11858379,
    "holders": 8059,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -112,7 +112,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1793665087935
+   "scannedAt": 1793666728402
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -136,9 +136,9 @@
     1,
     null
    ],
-   "liq": 147657,
-   "vol": 128000,
-   "mcap": 1831969,
+   "liq": 144819,
+   "vol": 126643,
+   "mcap": 1763449,
    "holders": 1911,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -149,7 +149,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1793665089412
+   "scannedAt": 1793666729829
   }
  ]
 }
