@@ -1,8 +1,8 @@
 {
- "updatedAt": 1793792161085,
+ "updatedAt": 1793794345317,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 45,
+ "scanned": 43,
  "items": [
   {
    "ca": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 282251,
-   "vol": 1020776,
-   "mcap": 9052029,
+   "liq": 277107,
+   "vol": 996477,
+   "mcap": 8784976,
    "holders": 23374,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1793792068980
+   "scannedAt": 1793794265818
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 479183,
-   "vol": 2787405,
-   "mcap": 10473491,
+   "liq": 480020,
+   "vol": 2842998,
+   "mcap": 10452914,
    "holders": 10455,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -76,44 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1793792070748
-  },
-  {
-   "ca": "EaxAUcXxNnVwcqm2BBocbows7D1XVY2Q63V38NEypump",
-   "chain": "solana",
-   "sym": "GTA 6 Coin",
-   "name": "GTA6",
-   "img": "https://cdn.dexscreener.com/cms/images/lqqrY_TIvxZMS_Aa?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    1,
-    1,
-    1,
-    0,
-    null
-   ],
-   "liq": 168107,
-   "vol": 42134,
-   "mcap": 1481706,
-   "holders": 11810,
-   "createdAt": 1738111507000,
-   "handle": "GTA_6_Sol",
-   "launchpad": null,
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/9kgswjrkczs3ebukvbkbgdwj8bwtdwzzqxkufdhaps2a",
-   "scannedAt": 1793792083986
+   "scannedAt": 1793794267234
   },
   {
    "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
@@ -137,9 +100,9 @@
     1,
     null
    ],
-   "liq": 75975,
-   "vol": 152945,
-   "mcap": 535438,
+   "liq": 73044,
+   "vol": 157111,
+   "mcap": 499397,
    "holders": 2363,
    "createdAt": 1791314731000,
    "handle": "si276_xyz",
@@ -150,7 +113,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
-   "scannedAt": 1793792072668
+   "scannedAt": 1793794270635
   }
  ]
 }
