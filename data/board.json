@@ -1,8 +1,8 @@
 {
- "updatedAt": 1793756251340,
+ "updatedAt": 1793758287718,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 44,
+ "scanned": 45,
  "items": [
   {
    "ca": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 280739,
-   "vol": 1211544,
-   "mcap": 9179030,
+   "liq": 278493,
+   "vol": 1206407,
+   "mcap": 8999261,
    "holders": 23374,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1793756161932
+   "scannedAt": 1793758192931
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 488494,
-   "vol": 3219199,
-   "mcap": 11319629,
+   "liq": 488356,
+   "vol": 3171492,
+   "mcap": 11117616,
    "holders": 8059,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1793756166608
+   "scannedAt": 1793758194690
   }
  ]
 }
