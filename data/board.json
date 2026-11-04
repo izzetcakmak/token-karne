@@ -1,8 +1,8 @@
 {
- "updatedAt": 1793772857212,
+ "updatedAt": 1793774388767,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 45,
+ "scanned": 44,
  "items": [
   {
    "ca": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 283981,
-   "vol": 1188544,
-   "mcap": 9267635,
+   "liq": 285868,
+   "vol": 1189841,
+   "mcap": 9373679,
    "holders": 23374,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1793772773608
+   "scannedAt": 1793774300561
   },
   {
    "ca": "0x7De1606230AA70802caeCF1A3e90039A6265B1c4",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 83717,
-   "vol": 462330,
-   "mcap": 362268,
+   "liq": 83010,
+   "vol": 465148,
+   "mcap": 355178,
    "holders": 4082,
    "createdAt": 1793629586000,
    "handle": "Burn_Agent",
@@ -75,7 +75,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x53895464c524c6fdd82ad5189bf92d9b798c6a51",
-   "scannedAt": 1793772834159
+   "scannedAt": 1793774302168
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -99,9 +99,9 @@
     1,
     null
    ],
-   "liq": 472651,
-   "vol": 3002901,
-   "mcap": 10229983,
+   "liq": 478591,
+   "vol": 2932387,
+   "mcap": 10414011,
    "holders": 10455,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -112,7 +112,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1793772776437
+   "scannedAt": 1793774305330
   },
   {
    "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
@@ -136,9 +136,9 @@
     1,
     null
    ],
-   "liq": 71891,
-   "vol": 99747,
-   "mcap": 487057,
+   "liq": 71401,
+   "vol": 108350,
+   "mcap": 479594,
    "holders": 2380,
    "createdAt": 1791314731000,
    "handle": "si276_xyz",
@@ -149,7 +149,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
-   "scannedAt": 1793772778267
+   "scannedAt": 1793774306877
   }
  ]
 }
