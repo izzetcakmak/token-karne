@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793833700179,
+ "updatedAt": 1793835316078,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 428412,
-   "vol": 1023817,
-   "mcap": 20228488,
+   "liq": 422377,
+   "vol": 1027055,
+   "mcap": 19677683,
    "holders": 23374,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1793833605173
+   "scannedAt": 1793835237621
   },
   {
    "ca": "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 559811,
-   "vol": 1895465,
-   "mcap": 3278784,
+   "liq": 538046,
+   "vol": 1890374,
+   "mcap": 2912212,
    "holders": 5629,
    "createdAt": 1793225743000,
    "handle": "floatdotxyz",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/fjk9sajdc2q4herppu3ylzkmf2zbyzkpihqlv9e2bn5a",
-   "scannedAt": 1793833607787
+   "scannedAt": 1793835239155
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -100,9 +100,9 @@
     1,
     null
    ],
-   "liq": 499970,
-   "vol": 2219298,
-   "mcap": 10622417,
+   "liq": 503684,
+   "vol": 2027086,
+   "mcap": 11031763,
    "holders": 10455,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -113,7 +113,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1793833610342
+   "scannedAt": 1793835240621
   },
   {
    "ca": "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump",
@@ -137,9 +137,9 @@
     1,
     null
    ],
-   "liq": 183364,
-   "vol": 1312897,
-   "mcap": 3495477,
+   "liq": 178654,
+   "vol": 1327785,
+   "mcap": 3321474,
    "holders": 2289,
    "createdAt": 1793128408000,
    "handle": "dogwifjob_sol",
@@ -150,44 +150,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/hauvbmnthcfmg9srxmvz1gaxnpu955hkpdsasc2cx4c8",
-   "scannedAt": 1793833612640
-  },
-  {
-   "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
-   "chain": "solana",
-   "sym": "CBUCKS",
-   "name": "Cartoon Money",
-   "img": "https://cdn.dexscreener.com/cms/images/2bajn2a05AdQGV-4?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 144919,
-   "vol": 75652,
-   "mcap": 1757316,
-   "holders": 1909,
-   "createdAt": 1791311393000,
-   "handle": "cartoonmoney_ai",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1793833614158
+   "scannedAt": 1793835242093
   },
   {
    "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
@@ -211,9 +174,9 @@
     1,
     null
    ],
-   "liq": 68902,
-   "vol": 208961,
-   "mcap": 440216,
+   "liq": 69401,
+   "vol": 210664,
+   "mcap": 446765,
    "holders": 2363,
    "createdAt": 1791314731000,
    "handle": "si276_xyz",
@@ -224,7 +187,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
-   "scannedAt": 1793833616238
+   "scannedAt": 1793835245162
+  },
+  {
+   "ca": "2gTbp2gwH46rqExzabSyrdR3294SLwCp2rSqWDS6Sim1",
+   "chain": "solana",
+   "sym": "CATPAD",
+   "name": "CATPAD",
+   "img": "https://cdn.dexscreener.com/cms/images/m77rUuvJ5NXElvxd?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 30136,
+   "vol": 74214,
+   "mcap": 127553,
+   "holders": 1005,
+   "createdAt": 1793372311000,
+   "handle": "catpadfun",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/gu2ajbkebpvxumm27t41xetevusbvrwghdmjw7fdc4bn",
+   "scannedAt": 1793835298403
   }
  ]
 }
