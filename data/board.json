@@ -1,8 +1,8 @@
 {
- "updatedAt": 1793804971631,
+ "updatedAt": 1793806559319,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 44,
+ "scanned": 45,
  "items": [
   {
    "ca": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 319311,
-   "vol": 634608,
-   "mcap": 11353630,
+   "liq": 330484,
+   "vol": 615298,
+   "mcap": 11992486,
    "holders": 23374,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1793804891384
+   "scannedAt": 1793806480177
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 494078,
-   "vol": 2731175,
-   "mcap": 10980013,
+   "liq": 512901,
+   "vol": 2656024,
+   "mcap": 11831402,
    "holders": 10455,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1793804892898
+   "scannedAt": 1793806481739
   },
   {
    "ca": "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr",
@@ -100,9 +100,9 @@
     1,
     null
    ],
-   "liq": 434214,
-   "vol": 3358854,
-   "mcap": 2310265,
+   "liq": 428591,
+   "vol": 3263743,
+   "mcap": 2220226,
    "holders": 5629,
    "createdAt": 1793225743000,
    "handle": "floatdotxyz",
@@ -113,7 +113,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/fjk9sajdc2q4herppu3ylzkmf2zbyzkpihqlv9e2bn5a",
-   "scannedAt": 1793804894708
+   "scannedAt": 1793806483807
   },
   {
    "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
@@ -137,9 +137,9 @@
     1,
     null
    ],
-   "liq": 75030,
-   "vol": 173857,
-   "mcap": 511952,
+   "liq": 74456,
+   "vol": 176073,
+   "mcap": 507565,
    "holders": 2363,
    "createdAt": 1791314731000,
    "handle": "si276_xyz",
@@ -150,7 +150,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
-   "scannedAt": 1793804954509
+   "scannedAt": 1793806485268
   },
   {
    "ca": "0x7b48474d25431dfad4337735a0a2e57b63573abb",
@@ -174,9 +174,9 @@
     1,
     null
    ],
-   "liq": 36527,
-   "vol": 226695,
-   "mcap": 27665,
+   "liq": 35383,
+   "vol": 227503,
+   "mcap": 25933,
    "holders": 991,
    "createdAt": 1793700591000,
    "handle": "OREAutos",
@@ -186,7 +186,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0xcd339521088d3913546ed78dbcc06fe1d4b93d68",
-   "scannedAt": 1793804896232
+   "scannedAt": 1793806486734
   },
   {
    "ca": "2gTbp2gwH46rqExzabSyrdR3294SLwCp2rSqWDS6Sim1",
@@ -210,9 +210,9 @@
     1,
     null
    ],
-   "liq": 32763,
-   "vol": 47085,
-   "mcap": 149697,
+   "liq": 32387,
+   "vol": 50826,
+   "mcap": 144862,
    "holders": 1032,
    "createdAt": 1793372311000,
    "handle": "catpadfun",
@@ -223,7 +223,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/gu2ajbkebpvxumm27t41xetevusbvrwghdmjw7fdc4bn",
-   "scannedAt": 1793804911371
+   "scannedAt": 1793806488214
   }
  ]
 }
