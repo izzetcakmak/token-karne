@@ -1,8 +1,8 @@
 {
- "updatedAt": 1793770533441,
+ "updatedAt": 1793772857212,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 44,
+ "scanned": 45,
  "items": [
   {
    "ca": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 281745,
-   "vol": 1192589,
-   "mcap": 9188880,
+   "liq": 283981,
+   "vol": 1188544,
+   "mcap": 9267635,
    "holders": 23374,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
@@ -39,7 +39,43 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1793770462319
+   "scannedAt": 1793772773608
+  },
+  {
+   "ca": "0x7De1606230AA70802caeCF1A3e90039A6265B1c4",
+   "chain": "bsc",
+   "sym": "Burn",
+   "name": "Burn Agent",
+   "img": "https://cdn.dexscreener.com/cms/images/vL6C8W0WJKw1cCDJ?width=800&height=800&quality=95&format=auto",
+   "score": 10,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 83717,
+   "vol": 462330,
+   "mcap": 362268,
+   "holders": 4082,
+   "createdAt": 1793629586000,
+   "handle": "Burn_Agent",
+   "launchpad": null,
+   "flags": 0,
+   "sources": [
+    "GoPlus"
+   ],
+   "url": "https://dexscreener.com/bsc/0x53895464c524c6fdd82ad5189bf92d9b798c6a51",
+   "scannedAt": 1793772834159
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -63,9 +99,9 @@
     1,
     null
    ],
-   "liq": 485405,
-   "vol": 3056821,
-   "mcap": 10666666,
+   "liq": 472651,
+   "vol": 3002901,
+   "mcap": 10229983,
    "holders": 10455,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -76,7 +112,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1793770463720
+   "scannedAt": 1793772776437
   },
   {
    "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
@@ -100,9 +136,9 @@
     1,
     null
    ],
-   "liq": 69290,
-   "vol": 86678,
-   "mcap": 456293,
+   "liq": 71891,
+   "vol": 99747,
+   "mcap": 487057,
    "holders": 2380,
    "createdAt": 1791314731000,
    "handle": "si276_xyz",
@@ -113,7 +149,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
-   "scannedAt": 1793770465121
+   "scannedAt": 1793772778267
   }
  ]
 }
