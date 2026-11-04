@@ -1,82 +1,9 @@
 {
- "updatedAt": 1793774388767,
+ "updatedAt": 1793776218551,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 44,
  "items": [
-  {
-   "ca": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
-   "chain": "solana",
-   "sym": "DESSA",
-   "name": "Dessa",
-   "img": "https://cdn.dexscreener.com/cms/images/HmECRYytNn0hGid_?width=800&height=800&quality=95&format=auto",
-   "score": 10,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    null
-   ],
-   "liq": 285868,
-   "vol": 1189841,
-   "mcap": 9373679,
-   "holders": 23374,
-   "createdAt": 1793019918000,
-   "handle": "DessaOnSOL",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1793774300561
-  },
-  {
-   "ca": "0x7De1606230AA70802caeCF1A3e90039A6265B1c4",
-   "chain": "bsc",
-   "sym": "Burn",
-   "name": "Burn Agent",
-   "img": "https://cdn.dexscreener.com/cms/images/vL6C8W0WJKw1cCDJ?width=800&height=800&quality=95&format=auto",
-   "score": 10,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 83010,
-   "vol": 465148,
-   "mcap": 355178,
-   "holders": 4082,
-   "createdAt": 1793629586000,
-   "handle": "Burn_Agent",
-   "launchpad": null,
-   "flags": 0,
-   "sources": [
-    "GoPlus"
-   ],
-   "url": "https://dexscreener.com/bsc/0x53895464c524c6fdd82ad5189bf92d9b798c6a51",
-   "scannedAt": 1793774302168
-  },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
    "chain": "solana",
@@ -99,9 +26,9 @@
     1,
     null
    ],
-   "liq": 478591,
-   "vol": 2932387,
-   "mcap": 10414011,
+   "liq": 464776,
+   "vol": 2891047,
+   "mcap": 10304225,
    "holders": 10455,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -112,7 +39,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1793774305330
+   "scannedAt": 1793776123899
+  },
+  {
+   "ca": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
+   "chain": "solana",
+   "sym": "DESSA",
+   "name": "Dessa",
+   "img": "https://cdn.dexscreener.com/cms/images/HmECRYytNn0hGid_?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    null
+   ],
+   "liq": 283789,
+   "vol": 1184363,
+   "mcap": 9261545,
+   "holders": 23374,
+   "createdAt": 1793019918000,
+   "handle": "DessaOnSOL",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
+   "scannedAt": 1793776120313
   },
   {
    "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
@@ -136,9 +100,9 @@
     1,
     null
    ],
-   "liq": 71401,
-   "vol": 108350,
-   "mcap": 479594,
+   "liq": 72003,
+   "vol": 114365,
+   "mcap": 488665,
    "holders": 2380,
    "createdAt": 1791314731000,
    "handle": "si276_xyz",
@@ -149,7 +113,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
-   "scannedAt": 1793774306877
+   "scannedAt": 1793776125891
   }
  ]
 }
