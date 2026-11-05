@@ -1,8 +1,8 @@
 {
- "updatedAt": 1793916509373,
+ "updatedAt": 1793918141347,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 45,
+ "scanned": 43,
  "items": [
   {
    "ca": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 560818,
-   "vol": 4918001,
-   "mcap": 35539571,
+   "liq": 559868,
+   "vol": 4883403,
+   "mcap": 35415138,
    "holders": 24520,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
@@ -39,7 +39,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1793916405582
+   "scannedAt": 1793918066974
+  },
+  {
+   "ca": "9Y1F6dZ6HpjZDYZdYuUGwMbkUiPsyU7WPTqTQU4Tpump",
+   "chain": "solana",
+   "sym": "Democat",
+   "name": "The Democrat Cat",
+   "img": "https://cdn.dexscreener.com/cms/images/wEC2OenPFvrS79wu?width=800&height=800&quality=95&format=auto",
+   "score": 10,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 32413,
+   "vol": 1655991,
+   "mcap": 152941,
+   "holders": 5850,
+   "createdAt": 1793829027000,
+   "handle": "DemocatMemeX",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/et3nwniyfoisp8wrpiccf5at4dzx6qwxu8do4btp8jwb",
+   "scannedAt": 1793918123222
   },
   {
    "ca": "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr",
@@ -63,9 +100,9 @@
     1,
     null
    ],
-   "liq": 534990,
-   "vol": 1410594,
-   "mcap": 3014597,
+   "liq": 590222,
+   "vol": 1484635,
+   "mcap": 3654496,
    "holders": 6176,
    "createdAt": 1793225743000,
    "handle": "floatdotxyz",
@@ -76,7 +113,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/fjk9sajdc2q4herppu3ylzkmf2zbyzkpihqlv9e2bn5a",
-   "scannedAt": 1793916408471
+   "scannedAt": 1793918068517
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -100,9 +137,9 @@
     1,
     null
    ],
-   "liq": 514353,
-   "vol": 2414532,
-   "mcap": 10954376,
+   "liq": 515853,
+   "vol": 2388512,
+   "mcap": 11068672,
    "holders": 10470,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -113,14 +150,14 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1793916410826
+   "scannedAt": 1793918070019
   },
   {
-   "ca": "5BjfgmtfqvNpAWx1CnZynoWLWNMnrwHLhTFzQ81vkEc8",
+   "ca": "Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump",
    "chain": "solana",
-   "sym": "ClapCat",
-   "name": "Clapping Cat",
-   "img": "https://cdn.dexscreener.com/cms/images/Ur7AXaBYcNO3-rO5?width=800&height=800&quality=95&format=auto",
+   "sym": "paws",
+   "name": "paws at you",
+   "img": "https://cdn.dexscreener.com/cms/images/Yr7Gf_TzVVbroMC3?width=800&height=800&quality=95&format=auto",
    "score": 9,
    "unknown": 1,
    "answers": [
@@ -137,20 +174,20 @@
     1,
     null
    ],
-   "liq": 32304,
-   "vol": 48057,
-   "mcap": 109301,
-   "holders": 1142,
-   "createdAt": 1790622415000,
-   "handle": "clapcatonsol",
+   "liq": 52864,
+   "vol": 146410,
+   "mcap": 170511,
+   "holders": 1750,
+   "createdAt": 1793074425000,
+   "handle": "Vibez__Crypto",
    "launchpad": "Pump.Fun",
    "flags": 0,
    "sources": [
     "GoPlus",
     "RugCheck"
    ],
-   "url": "https://dexscreener.com/solana/4er3ddypzgrlgwbgfea2mp1xusqpycvmt2zggwy5xaqt",
-   "scannedAt": 1793916417887
+   "url": "https://dexscreener.com/solana/2rmaftfzmjtlxdpgrvk417rlc9gbd3jgbaqtttmfg3af",
+   "scannedAt": 1793918088512
   }
  ]
 }
