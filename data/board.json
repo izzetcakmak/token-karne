@@ -1,9 +1,46 @@
 {
- "updatedAt": 1793838074979,
+ "updatedAt": 1793839603718,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
  "items": [
+  {
+   "ca": "FpWWSqLNrjTTMDM41EXkvBmHBDkNdWrf9RwHL57xpump",
+   "chain": "solana",
+   "sym": "VI",
+   "name": "Vice Inu",
+   "img": "https://cdn.dexscreener.com/cms/images/8tGu8YWGWibEI8YE?width=800&height=800&quality=95&format=auto",
+   "score": 11,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 50086,
+   "vol": 1723968,
+   "mcap": 340956,
+   "holders": 8379,
+   "createdAt": 1793752229000,
+   "handle": "InuSolV",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/dtmxvpiszpxlhdidwxgt4rzuptd5ezaa5z9echjno93k",
+   "scannedAt": 1793839579764
+  },
   {
    "ca": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
    "chain": "solana",
@@ -26,9 +63,9 @@
     1,
     null
    ],
-   "liq": 425944,
-   "vol": 1069801,
-   "mcap": 19968724,
+   "liq": 423916,
+   "vol": 1075175,
+   "mcap": 19739885,
    "holders": 23374,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
@@ -39,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1793837975952
+   "scannedAt": 1793839518420
   },
   {
    "ca": "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr",
@@ -63,9 +100,9 @@
     1,
     null
    ],
-   "liq": 552746,
-   "vol": 1838761,
-   "mcap": 2967272,
+   "liq": 587467,
+   "vol": 1882797,
+   "mcap": 3448405,
    "holders": 6176,
    "createdAt": 1793225743000,
    "handle": "floatdotxyz",
@@ -76,7 +113,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/fjk9sajdc2q4herppu3ylzkmf2zbyzkpihqlv9e2bn5a",
-   "scannedAt": 1793837978972
+   "scannedAt": 1793839520388
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -100,9 +137,9 @@
     1,
     null
    ],
-   "liq": 497992,
-   "vol": 1875311,
-   "mcap": 10699361,
+   "liq": 495157,
+   "vol": 1880949,
+   "mcap": 10564628,
    "holders": 10455,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -113,7 +150,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1793837980505
+   "scannedAt": 1793839522055
   },
   {
    "ca": "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump",
@@ -137,9 +174,9 @@
     1,
     null
    ],
-   "liq": 183960,
-   "vol": 1347294,
-   "mcap": 3511262,
+   "liq": 199073,
+   "vol": 1367295,
+   "mcap": 4096892,
    "holders": 2289,
    "createdAt": 1793128408000,
    "handle": "dogwifjob_sol",
@@ -150,7 +187,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/hauvbmnthcfmg9srxmvz1gaxnpu955hkpdsasc2cx4c8",
-   "scannedAt": 1793837983628
+   "scannedAt": 1793839524049
   },
   {
    "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
@@ -174,9 +211,9 @@
     1,
     null
    ],
-   "liq": 69969,
-   "vol": 213006,
-   "mcap": 453220,
+   "liq": 69652,
+   "vol": 214210,
+   "mcap": 448359,
    "holders": 2363,
    "createdAt": 1791314731000,
    "handle": "si276_xyz",
@@ -187,7 +224,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
-   "scannedAt": 1793837985256
+   "scannedAt": 1793839525517
   }
  ]
 }
