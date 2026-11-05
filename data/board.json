@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793903768409,
+ "updatedAt": 1793905672203,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 556356,
-   "vol": 5157948,
-   "mcap": 35185246,
+   "liq": 558923,
+   "vol": 5165635,
+   "mcap": 35453781,
    "holders": 24520,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1793903665870
+   "scannedAt": 1793905574250
   },
   {
    "ca": "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 545588,
-   "vol": 1645587,
-   "mcap": 3267559,
+   "liq": 528534,
+   "vol": 1579994,
+   "mcap": 2965169,
    "holders": 6176,
    "createdAt": 1793225743000,
    "handle": "floatdotxyz",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/fjk9sajdc2q4herppu3ylzkmf2zbyzkpihqlv9e2bn5a",
-   "scannedAt": 1793903667367
+   "scannedAt": 1793905578963
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -100,9 +100,9 @@
     1,
     null
    ],
-   "liq": 497263,
-   "vol": 2093398,
-   "mcap": 9381642,
+   "liq": 507475,
+   "vol": 2138752,
+   "mcap": 9713771,
    "holders": 10470,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -113,7 +113,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1793903670518
+   "scannedAt": 1793905581801
   },
   {
    "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
@@ -137,9 +137,9 @@
     1,
     null
    ],
-   "liq": 60089,
-   "vol": 164425,
-   "mcap": 356417,
+   "liq": 60217,
+   "vol": 165665,
+   "mcap": 357318,
    "holders": 2363,
    "createdAt": 1791314731000,
    "handle": "si276_xyz",
@@ -150,44 +150,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
-   "scannedAt": 1793903672295
-  },
-  {
-   "ca": "5BjfgmtfqvNpAWx1CnZynoWLWNMnrwHLhTFzQ81vkEc8",
-   "chain": "solana",
-   "sym": "ClapCat",
-   "name": "Clapping Cat",
-   "img": "https://cdn.dexscreener.com/cms/images/Ur7AXaBYcNO3-rO5?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 33722,
-   "vol": 57021,
-   "mcap": 119168,
-   "holders": 1142,
-   "createdAt": 1790622415000,
-   "handle": "clapcatonsol",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/4er3ddypzgrlgwbgfea2mp1xusqpycvmt2zggwy5xaqt",
-   "scannedAt": 1793903721077
+   "scannedAt": 1793905585738
   }
  ]
 }
