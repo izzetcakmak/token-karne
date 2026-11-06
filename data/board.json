@@ -1,8 +1,8 @@
 {
- "updatedAt": 1793957736163,
+ "updatedAt": 1793959748883,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 43,
+ "scanned": 42,
  "items": [
   {
    "ca": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 539673,
-   "vol": 5081138,
-   "mcap": 32654654,
+   "liq": 539962,
+   "vol": 5084366,
+   "mcap": 32742430,
    "holders": 24520,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1793957646623
+   "scannedAt": 1793959666672
   },
   {
    "ca": "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 551717,
-   "vol": 1319512,
-   "mcap": 3178331,
+   "liq": 549501,
+   "vol": 1337097,
+   "mcap": 3175602,
    "holders": 6176,
    "createdAt": 1793225743000,
    "handle": "floatdotxyz",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/fjk9sajdc2q4herppu3ylzkmf2zbyzkpihqlv9e2bn5a",
-   "scannedAt": 1793957648065
+   "scannedAt": 1793959668156
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -100,9 +100,9 @@
     1,
     null
    ],
-   "liq": 517980,
-   "vol": 2598771,
-   "mcap": 11249097,
+   "liq": 512543,
+   "vol": 2585063,
+   "mcap": 11020473,
    "holders": 10470,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -113,7 +113,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1793957650724
+   "scannedAt": 1793959669843
   },
   {
    "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
@@ -137,9 +137,9 @@
     1,
     null
    ],
-   "liq": 60033,
-   "vol": 130194,
-   "mcap": 351614,
+   "liq": 59694,
+   "vol": 129971,
+   "mcap": 348819,
    "holders": 2391,
    "createdAt": 1791314731000,
    "handle": "si276_xyz",
@@ -150,44 +150,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
-   "scannedAt": 1793957711309
-  },
-  {
-   "ca": "8THZ69JP2ErZuHVj4G5rcwkFfsQafp5mQsaoQReApump",
-   "chain": "solana",
-   "sym": "NETWORK",
-   "name": "Network Coin",
-   "img": "https://cdn.dexscreener.com/cms/images/OrOZtOiOVORsdlR-?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 37391,
-   "vol": 49532,
-   "mcap": 171016,
-   "holders": 1001,
-   "createdAt": 1792878524000,
-   "handle": "NETWORKonSOL",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/88jxy6wuyurl7whzsnywjvjqwvtdoxt3rurac1prglwu",
-   "scannedAt": 1793957682327
+   "scannedAt": 1793959671710
   }
  ]
 }
