@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793921740625,
+ "updatedAt": 1793924539348,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 552763,
-   "vol": 4912877,
-   "mcap": 34695741,
+   "liq": 558114,
+   "vol": 4895929,
+   "mcap": 35160518,
    "holders": 24520,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1793921643144
+   "scannedAt": 1793924415529
   },
   {
    "ca": "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 608568,
-   "vol": 1551182,
-   "mcap": 4085716,
+   "liq": 611395,
+   "vol": 1589454,
+   "mcap": 3913798,
    "holders": 6176,
    "createdAt": 1793225743000,
    "handle": "floatdotxyz",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/fjk9sajdc2q4herppu3ylzkmf2zbyzkpihqlv9e2bn5a",
-   "scannedAt": 1793921641538
+   "scannedAt": 1793924418006
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -100,9 +100,9 @@
     1,
     null
    ],
-   "liq": 513273,
-   "vol": 2321908,
-   "mcap": 11000013,
+   "liq": 541756,
+   "vol": 2364347,
+   "mcap": 12660104,
    "holders": 10470,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -113,14 +113,14 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1793921644637
+   "scannedAt": 1793924419782
   },
   {
-   "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
+   "ca": "Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump",
    "chain": "solana",
-   "sym": "SI276",
-   "name": "Super Intelligence SI276",
-   "img": "https://cdn.dexscreener.com/cms/images/C00PG8ebjcD8d36M?width=800&height=800&quality=95&format=auto",
+   "sym": "paws",
+   "name": "paws at you",
+   "img": "https://cdn.dexscreener.com/cms/images/Yr7Gf_TzVVbroMC3?width=800&height=800&quality=95&format=auto",
    "score": 9,
    "unknown": 1,
    "answers": [
@@ -137,20 +137,20 @@
     1,
     null
    ],
-   "liq": 57757,
-   "vol": 158791,
-   "mcap": 329676,
-   "holders": 2391,
-   "createdAt": 1791314731000,
-   "handle": "si276_xyz",
+   "liq": 51589,
+   "vol": 143820,
+   "mcap": 162033,
+   "holders": 1750,
+   "createdAt": 1793074425000,
+   "handle": "Vibez__Crypto",
    "launchpad": "Pump.Fun",
    "flags": 0,
    "sources": [
     "GoPlus",
     "RugCheck"
    ],
-   "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
-   "scannedAt": 1793921649653
+   "url": "https://dexscreener.com/solana/2rmaftfzmjtlxdpgrvk417rlc9gbd3jgbaqtttmfg3af",
+   "scannedAt": 1793924449079
   }
  ]
 }
