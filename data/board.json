@@ -1,8 +1,8 @@
 {
- "updatedAt": 1793982934639,
+ "updatedAt": 1793984905773,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 45,
+ "scanned": 44,
  "items": [
   {
    "ca": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 469342,
-   "vol": 2022431,
-   "mcap": 24424497,
+   "liq": 467317,
+   "vol": 1969249,
+   "mcap": 24198001,
    "holders": 24520,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
@@ -39,44 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1793982861989
-  },
-  {
-   "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
-   "chain": "solana",
-   "sym": "GATO",
-   "name": "GTA6CAT",
-   "img": "https://cdn.dexscreener.com/cms/images/-8CCNt5h1g4Fnvqj?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    1,
-    1,
-    0,
-    1,
-    null
-   ],
-   "liq": 523800,
-   "vol": 2052209,
-   "mcap": 11311348,
-   "holders": 10470,
-   "createdAt": 1787660841000,
-   "handle": "TheGTA6cat",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1793982863427
+   "scannedAt": 1793984795630
   },
   {
    "ca": "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr",
@@ -100,9 +63,9 @@
     1,
     null
    ],
-   "liq": 523251,
-   "vol": 1082819,
-   "mcap": 3263361,
+   "liq": 575308,
+   "vol": 1128145,
+   "mcap": 4138815,
    "holders": 6454,
    "createdAt": 1793225743000,
    "handle": "floatdotxyz",
@@ -113,14 +76,14 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/fjk9sajdc2q4herppu3ylzkmf2zbyzkpihqlv9e2bn5a",
-   "scannedAt": 1793982865039
+   "scannedAt": 1793984800704
   },
   {
-   "ca": "FeMbDoX7R1Psc4GEcvJdsbNbZA3bfztcyDCatJVJpump",
+   "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
    "chain": "solana",
-   "sym": "three",
-   "name": "three.ws",
-   "img": "https://cdn.dexscreener.com/cms/images/j22gRd6Z2GowwOvM?width=800&height=800&quality=95&format=auto",
+   "sym": "GATO",
+   "name": "GTA6CAT",
+   "img": "https://cdn.dexscreener.com/cms/images/-8CCNt5h1g4Fnvqj?width=800&height=800&quality=95&format=auto",
    "score": 9,
    "unknown": 1,
    "answers": [
@@ -128,29 +91,29 @@
     1,
     1,
     1,
+    1,
     0,
+    1,
+    1,
+    1,
     0,
-    1,
-    1,
-    1,
-    1,
     1,
     null
    ],
-   "liq": 166753,
-   "vol": 182558,
-   "mcap": 627856,
-   "holders": 15138,
-   "createdAt": 1777446541000,
-   "handle": "trythreews",
+   "liq": 529847,
+   "vol": 1949935,
+   "mcap": 11523997,
+   "holders": 10470,
+   "createdAt": 1787660841000,
+   "handle": "TheGTA6cat",
    "launchpad": "Pump.Fun",
    "flags": 0,
    "sources": [
     "GoPlus",
     "RugCheck"
    ],
-   "url": "https://dexscreener.com/solana/5byl7mzolabynwmpzkpkjf4mgkz7febzranos19pre2z",
-   "scannedAt": 1793982877563
+   "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
+   "scannedAt": 1793984797427
   },
   {
    "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
@@ -174,9 +137,9 @@
     1,
     null
    ],
-   "liq": 60498,
-   "vol": 61169,
-   "mcap": 355417,
+   "liq": 60388,
+   "vol": 59483,
+   "mcap": 354731,
    "holders": 2391,
    "createdAt": 1791314731000,
    "handle": "si276_xyz",
@@ -187,7 +150,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
-   "scannedAt": 1793982866620
+   "scannedAt": 1793984805636
   },
   {
    "ca": "8THZ69JP2ErZuHVj4G5rcwkFfsQafp5mQsaoQReApump",
@@ -211,9 +174,9 @@
     1,
     null
    ],
-   "liq": 34778,
-   "vol": 54563,
-   "mcap": 148356,
+   "liq": 35191,
+   "vol": 54386,
+   "mcap": 151665,
    "holders": 1001,
    "createdAt": 1792878524000,
    "handle": "NETWORKonSOL",
@@ -224,7 +187,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/88jxy6wuyurl7whzsnywjvjqwvtdoxt3rurac1prglwu",
-   "scannedAt": 1793982868066
+   "scannedAt": 1793984807122
   }
  ]
 }
