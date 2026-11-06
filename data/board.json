@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793941772843,
+ "updatedAt": 1793943331792,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 44,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 530789,
-   "vol": 5021876,
-   "mcap": 31949922,
+   "liq": 532407,
+   "vol": 5026649,
+   "mcap": 32133566,
    "holders": 24520,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1793941685822
+   "scannedAt": 1793943263722
   },
   {
    "ca": "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 590489,
-   "vol": 1339324,
-   "mcap": 3673713,
+   "liq": 590432,
+   "vol": 1325960,
+   "mcap": 3683050,
    "holders": 6176,
    "createdAt": 1793225743000,
    "handle": "floatdotxyz",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/fjk9sajdc2q4herppu3ylzkmf2zbyzkpihqlv9e2bn5a",
-   "scannedAt": 1793941688439
+   "scannedAt": 1793943265267
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -100,9 +100,9 @@
     1,
     null
    ],
-   "liq": 529564,
-   "vol": 2630602,
-   "mcap": 11467496,
+   "liq": 516866,
+   "vol": 2650115,
+   "mcap": 11062054,
    "holders": 10470,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -113,7 +113,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1793941689887
+   "scannedAt": 1793943266652
+  },
+  {
+   "ca": "FeMbDoX7R1Psc4GEcvJdsbNbZA3bfztcyDCatJVJpump",
+   "chain": "solana",
+   "sym": "three",
+   "name": "three.ws",
+   "img": "https://cdn.dexscreener.com/cms/images/j22gRd6Z2GowwOvM?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 173696,
+   "vol": 129924,
+   "mcap": 693231,
+   "holders": 15138,
+   "createdAt": 1777446541000,
+   "handle": "trythreews",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/5byl7mzolabynwmpzkpkjf4mgkz7febzranos19pre2z",
+   "scannedAt": 1793943286271
   },
   {
    "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
@@ -137,9 +174,9 @@
     1,
     null
    ],
-   "liq": 59980,
-   "vol": 143798,
-   "mcap": 354940,
+   "liq": 59906,
+   "vol": 142264,
+   "mcap": 354871,
    "holders": 2391,
    "createdAt": 1791314731000,
    "handle": "si276_xyz",
@@ -150,7 +187,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
-   "scannedAt": 1793941693973
+   "scannedAt": 1793943268033
   },
   {
    "ca": "Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump",
@@ -174,9 +211,9 @@
     1,
     null
    ],
-   "liq": 56745,
-   "vol": 122812,
-   "mcap": 201227,
+   "liq": 58382,
+   "vol": 125304,
+   "mcap": 215001,
    "holders": 1750,
    "createdAt": 1793074425000,
    "handle": "Vibez__Crypto",
@@ -187,7 +224,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/2rmaftfzmjtlxdpgrvk417rlc9gbd3jgbaqtttmfg3af",
-   "scannedAt": 1793941695429
+   "scannedAt": 1793943269458
+  },
+  {
+   "ca": "8THZ69JP2ErZuHVj4G5rcwkFfsQafp5mQsaoQReApump",
+   "chain": "solana",
+   "sym": "NETWORK",
+   "name": "Network Coin",
+   "img": "https://cdn.dexscreener.com/cms/images/OrOZtOiOVORsdlR-?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 32372,
+   "vol": 37761,
+   "mcap": 131499,
+   "holders": 1001,
+   "createdAt": 1792878524000,
+   "handle": "NETWORKonSOL",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/88jxy6wuyurl7whzsnywjvjqwvtdoxt3rurac1prglwu",
+   "scannedAt": 1793943278186
   }
  ]
 }
