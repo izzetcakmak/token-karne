@@ -1,8 +1,8 @@
 {
- "updatedAt": 1794013754138,
+ "updatedAt": 1794015453133,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 44,
+ "scanned": 45,
  "items": [
   {
    "ca": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
@@ -10,11 +10,11 @@
    "sym": "DESSA",
    "name": "Dessa",
    "img": "https://cdn.dexscreener.com/cms/images/HmECRYytNn0hGid_?width=800&height=800&quality=95&format=auto",
-   "score": 10,
+   "score": 11,
    "unknown": 1,
    "answers": [
     1,
-    0,
+    1,
     1,
     1,
     1,
@@ -26,20 +26,57 @@
     1,
     null
    ],
-   "liq": 448656,
-   "vol": 1746823,
-   "mcap": 22306171,
+   "liq": 450845,
+   "vol": 1740376,
+   "mcap": 22511390,
    "holders": 29584,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
    "launchpad": "Pump.Fun",
-   "flags": 2,
+   "flags": 0,
    "sources": [
     "GoPlus",
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1794013663225
+   "scannedAt": 1794015354650
+  },
+  {
+   "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
+   "chain": "solana",
+   "sym": "GATO",
+   "name": "GTA6CAT",
+   "img": "https://cdn.dexscreener.com/cms/images/-8CCNt5h1g4Fnvqj?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    null
+   ],
+   "liq": 520878,
+   "vol": 1639966,
+   "mcap": 11222791,
+   "holders": 10470,
+   "createdAt": 1787660841000,
+   "handle": "TheGTA6cat",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
+   "scannedAt": 1794015359331
   },
   {
    "ca": "2fnGKgfwYjqv99ppnKCq5nCLLhRSJAPAhSMVkqjipump",
@@ -63,9 +100,9 @@
     1,
     null
    ],
-   "liq": 51989,
-   "vol": 75741,
-   "mcap": 242099,
+   "liq": 51201,
+   "vol": 74566,
+   "mcap": 237866,
    "holders": 938,
    "createdAt": 1793240854000,
    "handle": "MyPodcat",
@@ -76,7 +113,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/4zygg3nz4td2dxspoey2rqfiu5mdbfeesvevr2kr1pwp",
-   "scannedAt": 1794013667612
+   "scannedAt": 1794015356442
   }
  ]
 }
