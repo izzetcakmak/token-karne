@@ -1,8 +1,8 @@
 {
- "updatedAt": 1794047734837,
+ "updatedAt": 1794049656076,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 44,
+ "scanned": 43,
  "items": [
   {
    "ca": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 455836,
-   "vol": 1595470,
-   "mcap": 23111586,
+   "liq": 458155,
+   "vol": 1588603,
+   "mcap": 23264662,
    "holders": 29584,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1794047636418
+   "scannedAt": 1794049561425
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 524036,
-   "vol": 1681689,
-   "mcap": 12463268,
+   "liq": 518805,
+   "vol": 1688252,
+   "mcap": 12153727,
    "holders": 10470,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1794047637914
+   "scannedAt": 1794049564011
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -100,9 +100,9 @@
     1,
     null
    ],
-   "liq": 170623,
-   "vol": 143679,
-   "mcap": 2409083,
+   "liq": 169376,
+   "vol": 147095,
+   "mcap": 2374343,
    "holders": 1864,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -113,7 +113,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1794047639985
+   "scannedAt": 1794049565907
   },
   {
    "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
@@ -137,9 +137,9 @@
     1,
     null
    ],
-   "liq": 49508,
-   "vol": 135327,
-   "mcap": 240806,
+   "liq": 51327,
+   "vol": 136734,
+   "mcap": 257443,
    "holders": 2391,
    "createdAt": 1791314731000,
    "handle": "si276_xyz",
@@ -150,14 +150,14 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
-   "scannedAt": 1794047687966
+   "scannedAt": 1794049567375
   },
   {
-   "ca": "8THZ69JP2ErZuHVj4G5rcwkFfsQafp5mQsaoQReApump",
+   "ca": "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump",
    "chain": "solana",
-   "sym": "NETWORK",
-   "name": "Network Coin",
-   "img": "https://cdn.dexscreener.com/cms/images/OrOZtOiOVORsdlR-?width=800&height=800&quality=95&format=auto",
+   "sym": "Leonida",
+   "name": "State of Leonida",
+   "img": "https://cdn.dexscreener.com/cms/images/YG0mcNoGZIaCbSwB?width=800&height=800&quality=95&format=auto",
    "score": 9,
    "unknown": 1,
    "answers": [
@@ -174,20 +174,57 @@
     1,
     null
    ],
-   "liq": 48820,
-   "vol": 167442,
-   "mcap": 283358,
-   "holders": 1004,
-   "createdAt": 1792878524000,
-   "handle": "NETWORKonSOL",
+   "liq": 45640,
+   "vol": 248274,
+   "mcap": 275452,
+   "holders": 1960,
+   "createdAt": 1793907674000,
+   "handle": "TheLeonidaState",
    "launchpad": "Pump.Fun",
    "flags": 0,
    "sources": [
     "GoPlus",
     "RugCheck"
    ],
-   "url": "https://dexscreener.com/solana/88jxy6wuyurl7whzsnywjvjqwvtdoxt3rurac1prglwu",
-   "scannedAt": 1794047671703
+   "url": "https://dexscreener.com/solana/5gxdopck2lj6qycj3uvtc37tgsfhma55ulfkuftye49r",
+   "scannedAt": 1794049577406
+  },
+  {
+   "ca": "CXRT8bpLxm2aeJ1FteTCKESm8nseeZ1b36S3f4CYpump",
+   "chain": "solana",
+   "sym": "GTA6K9",
+   "name": "GTA6DOG",
+   "img": "https://cdn.dexscreener.com/cms/images/tiJZarIxRv4T0k9I?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 37968,
+   "vol": 169214,
+   "mcap": 232053,
+   "holders": 570,
+   "createdAt": 1793957117000,
+   "handle": "rockstargames",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/bodz7ruysgf65hhz2aypprdtxik9onerskwhplhrb4xx",
+   "scannedAt": 1794049591857
   }
  ]
 }
