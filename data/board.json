@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794017484337,
+ "updatedAt": 1794018948962,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 445457,
-   "vol": 1733490,
-   "mcap": 21936826,
+   "liq": 452955,
+   "vol": 1730515,
+   "mcap": 22692422,
    "holders": 29584,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
@@ -39,17 +39,19 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1794017395017
+   "scannedAt": 1794018853865
   },
   {
-   "ca": "FMqWsXKaAe41Kxfji7v5cpzQmr2gKAteAi9wREmkpump",
+   "ca": "oCZHH8HnEBCPipEGdEcP3f45pQAaM7nh7P6EkRPpump",
    "chain": "solana",
-   "sym": "DONNA",
-   "name": "Donna Dollars",
-   "img": "https://cdn.dexscreener.com/cms/images/ZdzXNx4lhY-lDZFD?width=800&height=800&quality=95&format=auto",
+   "sym": "AMD",
+   "name": "A Meme Dacity",
+   "img": "https://cdn.dexscreener.com/cms/images/zimWfl0YTxf3-0Xm?width=800&height=800&quality=95&format=auto",
    "score": 10,
    "unknown": 1,
    "answers": [
+    1,
+    1,
     1,
     1,
     1,
@@ -59,24 +61,22 @@
     1,
     1,
     1,
-    1,
-    1,
     null
    ],
-   "liq": 100162,
-   "vol": 84828,
-   "mcap": 1482701,
-   "holders": 809,
-   "createdAt": 1792795762000,
-   "handle": "donnadollars365",
+   "liq": 113941,
+   "vol": 4265847,
+   "mcap": 1714598,
+   "holders": 13357,
+   "createdAt": 1793932261000,
+   "handle": "amemedacitysol",
    "launchpad": "Pump.Fun",
    "flags": 0,
    "sources": [
     "GoPlus",
     "RugCheck"
    ],
-   "url": "https://dexscreener.com/solana/7vurupbxg3z5qjtcstvg3vxumxenqfnupjdz3cgw2tkt",
-   "scannedAt": 1794017422029
+   "url": "https://dexscreener.com/solana/6zv8dyrdxh56au2ebhpzzbmkprp5ixbkprj7hb2pj3rr",
+   "scannedAt": 1794018914466
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -100,9 +100,9 @@
     1,
     null
    ],
-   "liq": 522108,
-   "vol": 1652597,
-   "mcap": 11422600,
+   "liq": 517212,
+   "vol": 1670415,
+   "mcap": 11196379,
    "holders": 10470,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -113,7 +113,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1794017397705
+   "scannedAt": 1794018858376
   },
   {
    "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
@@ -137,9 +137,9 @@
     1,
     null
    ],
-   "liq": 61036,
-   "vol": 95508,
-   "mcap": 360072,
+   "liq": 61429,
+   "vol": 98948,
+   "mcap": 364541,
    "holders": 2391,
    "createdAt": 1791314731000,
    "handle": "si276_xyz",
@@ -150,81 +150,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
-   "scannedAt": 1794017432851
-  },
-  {
-   "ca": "2fnGKgfwYjqv99ppnKCq5nCLLhRSJAPAhSMVkqjipump",
-   "chain": "solana",
-   "sym": "PODCAT",
-   "name": "PODCAT",
-   "img": "https://cdn.dexscreener.com/cms/images/L19JcYtLHNBEkjgY?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 50866,
-   "vol": 73675,
-   "mcap": 234316,
-   "holders": 938,
-   "createdAt": 1793240854000,
-   "handle": "MyPodcat",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/4zygg3nz4td2dxspoey2rqfiu5mdbfeesvevr2kr1pwp",
-   "scannedAt": 1794017399678
-  },
-  {
-   "ca": "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump",
-   "chain": "solana",
-   "sym": "Leonida",
-   "name": "State of Leonida",
-   "img": "https://cdn.dexscreener.com/cms/images/YG0mcNoGZIaCbSwB?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 44302,
-   "vol": 189550,
-   "mcap": 237333,
-   "holders": 1671,
-   "createdAt": 1793907674000,
-   "handle": "TheLeonidaState",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/5gxdopck2lj6qycj3uvtc37tgsfhma55ulfkuftye49r",
-   "scannedAt": 1794017424956
+   "scannedAt": 1794018860404
   }
  ]
 }
