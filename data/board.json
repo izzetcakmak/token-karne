@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794038981280,
+ "updatedAt": 1794040535637,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 44,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 457403,
-   "vol": 1624966,
-   "mcap": 23155204,
+   "liq": 457271,
+   "vol": 1620607,
+   "mcap": 23168349,
    "holders": 29584,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1794038915017
+   "scannedAt": 1794040446581
   },
   {
    "ca": "oCZHH8HnEBCPipEGdEcP3f45pQAaM7nh7P6EkRPpump",
@@ -63,10 +63,10 @@
     1,
     null
    ],
-   "liq": 104447,
-   "vol": 3150708,
-   "mcap": 1414637,
-   "holders": 13811,
+   "liq": 101110,
+   "vol": 3141712,
+   "mcap": 1326948,
+   "holders": 13722,
    "createdAt": 1793932261000,
    "handle": "amemedacitysol",
    "launchpad": "Pump.Fun",
@@ -76,7 +76,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/6zv8dyrdxh56au2ebhpzzbmkprp5ixbkprj7hb2pj3rr",
-   "scannedAt": 1794038918117
+   "scannedAt": 1794040448419
+  },
+  {
+   "ca": "FMqWsXKaAe41Kxfji7v5cpzQmr2gKAteAi9wREmkpump",
+   "chain": "solana",
+   "sym": "DONNA",
+   "name": "Donna Dollars",
+   "img": "https://cdn.dexscreener.com/cms/images/ZdzXNx4lhY-lDZFD?width=800&height=800&quality=95&format=auto",
+   "score": 10,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 98613,
+   "vol": 85008,
+   "mcap": 1442979,
+   "holders": 839,
+   "createdAt": 1792795762000,
+   "handle": "donnadollars365",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/7vurupbxg3z5qjtcstvg3vxumxenqfnupjdz3cgw2tkt",
+   "scannedAt": 1794040454110
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -100,9 +137,9 @@
     1,
     null
    ],
-   "liq": 521600,
-   "vol": 1577270,
-   "mcap": 11884459,
+   "liq": 521877,
+   "vol": 1579928,
+   "mcap": 11995446,
    "holders": 10470,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -113,7 +150,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1794038919503
+   "scannedAt": 1794040451148
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -137,9 +174,9 @@
     1,
     null
    ],
-   "liq": 161920,
-   "vol": 121963,
-   "mcap": 2174171,
+   "liq": 162850,
+   "vol": 122199,
+   "mcap": 2198784,
    "holders": 1864,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -150,44 +187,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1794038920898
-  },
-  {
-   "ca": "FMqWsXKaAe41Kxfji7v5cpzQmr2gKAteAi9wREmkpump",
-   "chain": "solana",
-   "sym": "DONNA",
-   "name": "Donna Dollars",
-   "img": "https://cdn.dexscreener.com/cms/images/ZdzXNx4lhY-lDZFD?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    0,
-    1,
-    1,
-    1,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 99490,
-   "vol": 85008,
-   "mcap": 1468198,
-   "holders": 839,
-   "createdAt": 1792795762000,
-   "handle": "donnadollars365",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/7vurupbxg3z5qjtcstvg3vxumxenqfnupjdz3cgw2tkt",
-   "scannedAt": 1794038916734
+   "scannedAt": 1794040452628
   },
   {
    "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
@@ -211,9 +211,9 @@
     1,
     null
    ],
-   "liq": 53314,
-   "vol": 123504,
-   "mcap": 276935,
+   "liq": 53269,
+   "vol": 124572,
+   "mcap": 276779,
    "holders": 2391,
    "createdAt": 1791314731000,
    "handle": "si276_xyz",
@@ -224,7 +224,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
-   "scannedAt": 1794038922295
+   "scannedAt": 1794040456054
   },
   {
    "ca": "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump",
@@ -248,10 +248,10 @@
     1,
     null
    ],
-   "liq": 39302,
-   "vol": 231167,
-   "mcap": 230689,
-   "holders": 1856,
+   "liq": 40449,
+   "vol": 232399,
+   "mcap": 215100,
+   "holders": 1864,
    "createdAt": 1793907674000,
    "handle": "TheLeonidaState",
    "launchpad": "Pump.Fun",
@@ -261,7 +261,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5gxdopck2lj6qycj3uvtc37tgsfhma55ulfkuftye49r",
-   "scannedAt": 1794038947495
+   "scannedAt": 1794040457804
   }
  ]
 }
