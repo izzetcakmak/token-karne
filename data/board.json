@@ -1,8 +1,8 @@
 {
- "updatedAt": 1794074973265,
+ "updatedAt": 1794076525291,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 45,
+ "scanned": 44,
  "items": [
   {
    "ca": "ejrz94zR4A2ScS8LdvRaQih2xUxaE2ydreqUNKmpump",
@@ -26,10 +26,10 @@
     1,
     null
    ],
-   "liq": 68996,
-   "vol": 571021,
-   "mcap": 725866,
-   "holders": 7043,
+   "liq": 68910,
+   "vol": 565075,
+   "mcap": 723574,
+   "holders": 7076,
    "createdAt": 1793977195000,
    "handle": "ANTSIPO",
    "launchpad": "Pump.Fun",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/af5cn9mu1y8coh68xkbypsjxxdk1lbnxgo76dpprrolb",
-   "scannedAt": 1794074881152
+   "scannedAt": 1794076453643
   },
   {
    "ca": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 475807,
-   "vol": 634247,
-   "mcap": 25175090,
+   "liq": 474436,
+   "vol": 634992,
+   "mcap": 25023260,
    "holders": 29584,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1794074879358
+   "scannedAt": 1794076455055
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -100,9 +100,9 @@
     1,
     null
    ],
-   "liq": 546047,
-   "vol": 2052032,
-   "mcap": 13538530,
+   "liq": 584697,
+   "vol": 2089708,
+   "mcap": 14502156,
    "holders": 11198,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -113,7 +113,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1794074877657
+   "scannedAt": 1794076456454
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -137,9 +137,9 @@
     1,
     null
    ],
-   "liq": 160653,
-   "vol": 268074,
-   "mcap": 2132019,
+   "liq": 167655,
+   "vol": 271268,
+   "mcap": 2319214,
    "holders": 1864,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -150,7 +150,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1794074883373
+   "scannedAt": 1794076457847
+  },
+  {
+   "ca": "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump",
+   "chain": "solana",
+   "sym": "Leonida",
+   "name": "State of Leonida",
+   "img": "https://cdn.dexscreener.com/cms/images/YG0mcNoGZIaCbSwB?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 71922,
+   "vol": 445564,
+   "mcap": 414728,
+   "holders": 3079,
+   "createdAt": 1793907674000,
+   "handle": "TheLeonidaState",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/5gxdopck2lj6qycj3uvtc37tgsfhma55ulfkuftye49r",
+   "scannedAt": 1794076495446
   },
   {
    "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
@@ -174,9 +211,9 @@
     1,
     null
    ],
-   "liq": 50370,
-   "vol": 191329,
-   "mcap": 247724,
+   "liq": 50149,
+   "vol": 198878,
+   "mcap": 245402,
    "holders": 2410,
    "createdAt": 1791314731000,
    "handle": "si276_xyz",
@@ -187,7 +224,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
-   "scannedAt": 1794074888126
+   "scannedAt": 1794076459248
   }
  ]
 }
