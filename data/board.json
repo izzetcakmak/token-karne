@@ -1,8 +1,8 @@
 {
- "updatedAt": 1794054931919,
+ "updatedAt": 1794056863182,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 42,
+ "scanned": 43,
  "items": [
   {
    "ca": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 462626,
-   "vol": 1567530,
-   "mcap": 23742008,
+   "liq": 460668,
+   "vol": 1559182,
+   "mcap": 23559845,
    "holders": 29584,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1794054843851
+   "scannedAt": 1794056768031
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 535534,
-   "vol": 1725769,
-   "mcap": 12985571,
+   "liq": 524190,
+   "vol": 1732598,
+   "mcap": 12201743,
    "holders": 11198,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1794054845296
+   "scannedAt": 1794056769559
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -100,9 +100,9 @@
     1,
     null
    ],
-   "liq": 176801,
-   "vol": 155440,
-   "mcap": 2583104,
+   "liq": 172959,
+   "vol": 163457,
+   "mcap": 2473039,
    "holders": 1864,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -113,7 +113,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1794054846953
+   "scannedAt": 1794056771530
   },
   {
    "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
@@ -137,9 +137,9 @@
     1,
     null
    ],
-   "liq": 49735,
-   "vol": 140025,
-   "mcap": 242291,
+   "liq": 49934,
+   "vol": 141028,
+   "mcap": 244441,
    "holders": 2391,
    "createdAt": 1791314731000,
    "handle": "si276_xyz",
@@ -150,44 +150,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
-   "scannedAt": 1794054895063
-  },
-  {
-   "ca": "CXRT8bpLxm2aeJ1FteTCKESm8nseeZ1b36S3f4CYpump",
-   "chain": "solana",
-   "sym": "GTA6K9",
-   "name": "GTA6DOG",
-   "img": "https://cdn.dexscreener.com/cms/images/tiJZarIxRv4T0k9I?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 30614,
-   "vol": 184912,
-   "mcap": 153399,
-   "holders": 594,
-   "createdAt": 1793957117000,
-   "handle": "rockstargames",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/bodz7ruysgf65hhz2aypprdtxik9onerskwhplhrb4xx",
-   "scannedAt": 1794054854141
+   "scannedAt": 1794056772998
   }
  ]
 }
