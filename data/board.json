@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794015453133,
+ "updatedAt": 1794017484337,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 450845,
-   "vol": 1740376,
-   "mcap": 22511390,
+   "liq": 445457,
+   "vol": 1733490,
+   "mcap": 21936826,
    "holders": 29584,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
@@ -39,7 +39,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1794015354650
+   "scannedAt": 1794017395017
+  },
+  {
+   "ca": "FMqWsXKaAe41Kxfji7v5cpzQmr2gKAteAi9wREmkpump",
+   "chain": "solana",
+   "sym": "DONNA",
+   "name": "Donna Dollars",
+   "img": "https://cdn.dexscreener.com/cms/images/ZdzXNx4lhY-lDZFD?width=800&height=800&quality=95&format=auto",
+   "score": 10,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 100162,
+   "vol": 84828,
+   "mcap": 1482701,
+   "holders": 809,
+   "createdAt": 1792795762000,
+   "handle": "donnadollars365",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/7vurupbxg3z5qjtcstvg3vxumxenqfnupjdz3cgw2tkt",
+   "scannedAt": 1794017422029
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -63,9 +100,9 @@
     1,
     null
    ],
-   "liq": 520878,
-   "vol": 1639966,
-   "mcap": 11222791,
+   "liq": 522108,
+   "vol": 1652597,
+   "mcap": 11422600,
    "holders": 10470,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -76,7 +113,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1794015359331
+   "scannedAt": 1794017397705
+  },
+  {
+   "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
+   "chain": "solana",
+   "sym": "SI276",
+   "name": "Super Intelligence SI276",
+   "img": "https://cdn.dexscreener.com/cms/images/C00PG8ebjcD8d36M?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 61036,
+   "vol": 95508,
+   "mcap": 360072,
+   "holders": 2391,
+   "createdAt": 1791314731000,
+   "handle": "si276_xyz",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
+   "scannedAt": 1794017432851
   },
   {
    "ca": "2fnGKgfwYjqv99ppnKCq5nCLLhRSJAPAhSMVkqjipump",
@@ -100,9 +174,9 @@
     1,
     null
    ],
-   "liq": 51201,
-   "vol": 74566,
-   "mcap": 237866,
+   "liq": 50866,
+   "vol": 73675,
+   "mcap": 234316,
    "holders": 938,
    "createdAt": 1793240854000,
    "handle": "MyPodcat",
@@ -113,7 +187,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/4zygg3nz4td2dxspoey2rqfiu5mdbfeesvevr2kr1pwp",
-   "scannedAt": 1794015356442
+   "scannedAt": 1794017399678
+  },
+  {
+   "ca": "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump",
+   "chain": "solana",
+   "sym": "Leonida",
+   "name": "State of Leonida",
+   "img": "https://cdn.dexscreener.com/cms/images/YG0mcNoGZIaCbSwB?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 44302,
+   "vol": 189550,
+   "mcap": 237333,
+   "holders": 1671,
+   "createdAt": 1793907674000,
+   "handle": "TheLeonidaState",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/5gxdopck2lj6qycj3uvtc37tgsfhma55ulfkuftye49r",
+   "scannedAt": 1794017424956
   }
  ]
 }
