@@ -1,8 +1,8 @@
 {
- "updatedAt": 1794053498231,
+ "updatedAt": 1794054931919,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 43,
+ "scanned": 42,
  "items": [
   {
    "ca": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 457528,
-   "vol": 1573872,
-   "mcap": 23248166,
+   "liq": 462626,
+   "vol": 1567530,
+   "mcap": 23742008,
    "holders": 29584,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1794053402982
+   "scannedAt": 1794054843851
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 533320,
-   "vol": 1711488,
-   "mcap": 12833074,
+   "liq": 535534,
+   "vol": 1725769,
+   "mcap": 12985571,
    "holders": 11198,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1794053404525
+   "scannedAt": 1794054845296
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -100,9 +100,9 @@
     1,
     null
    ],
-   "liq": 173239,
-   "vol": 149787,
-   "mcap": 2481925,
+   "liq": 176801,
+   "vol": 155440,
+   "mcap": 2583104,
    "holders": 1864,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -113,14 +113,14 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1794053406072
+   "scannedAt": 1794054846953
   },
   {
-   "ca": "8THZ69JP2ErZuHVj4G5rcwkFfsQafp5mQsaoQReApump",
+   "ca": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
    "chain": "solana",
-   "sym": "NETWORK",
-   "name": "Network Coin",
-   "img": "https://cdn.dexscreener.com/cms/images/OrOZtOiOVORsdlR-?width=800&height=800&quality=95&format=auto",
+   "sym": "SI276",
+   "name": "Super Intelligence SI276",
+   "img": "https://cdn.dexscreener.com/cms/images/C00PG8ebjcD8d36M?width=800&height=800&quality=95&format=auto",
    "score": 9,
    "unknown": 1,
    "answers": [
@@ -137,57 +137,20 @@
     1,
     null
    ],
-   "liq": 48625,
-   "vol": 164782,
-   "mcap": 280605,
-   "holders": 1004,
-   "createdAt": 1792878524000,
-   "handle": "NETWORKonSOL",
+   "liq": 49735,
+   "vol": 140025,
+   "mcap": 242291,
+   "holders": 2391,
+   "createdAt": 1791314731000,
+   "handle": "si276_xyz",
    "launchpad": "Pump.Fun",
    "flags": 0,
    "sources": [
     "GoPlus",
     "RugCheck"
    ],
-   "url": "https://dexscreener.com/solana/88jxy6wuyurl7whzsnywjvjqwvtdoxt3rurac1prglwu",
-   "scannedAt": 1794053411192
-  },
-  {
-   "ca": "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump",
-   "chain": "solana",
-   "sym": "Leonida",
-   "name": "State of Leonida",
-   "img": "https://cdn.dexscreener.com/cms/images/YG0mcNoGZIaCbSwB?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 46446,
-   "vol": 250271,
-   "mcap": 284960,
-   "holders": 2001,
-   "createdAt": 1793907674000,
-   "handle": "TheLeonidaState",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/5gxdopck2lj6qycj3uvtc37tgsfhma55ulfkuftye49r",
-   "scannedAt": 1794053413242
+   "url": "https://dexscreener.com/solana/12jc1dzjpzbcdakum4brakh9jcfry2tlg1ffgsl4ftcg",
+   "scannedAt": 1794054895063
   },
   {
    "ca": "CXRT8bpLxm2aeJ1FteTCKESm8nseeZ1b36S3f4CYpump",
@@ -211,10 +174,10 @@
     1,
     null
    ],
-   "liq": 31874,
-   "vol": 184099,
-   "mcap": 165751,
-   "holders": 600,
+   "liq": 30614,
+   "vol": 184912,
+   "mcap": 153399,
+   "holders": 594,
    "createdAt": 1793957117000,
    "handle": "rockstargames",
    "launchpad": "Pump.Fun",
@@ -224,7 +187,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/bodz7ruysgf65hhz2aypprdtxik9onerskwhplhrb4xx",
-   "scannedAt": 1794053416168
+   "scannedAt": 1794054854141
   }
  ]
 }
