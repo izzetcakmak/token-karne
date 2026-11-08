@@ -1,8 +1,8 @@
 {
- "updatedAt": 1794177337796,
+ "updatedAt": 1794179276451,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 43,
+ "scanned": 45,
  "items": [
   {
    "ca": "PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump",
@@ -26,10 +26,10 @@
     1,
     null
    ],
-   "liq": 101475,
-   "vol": 317554,
-   "mcap": 1601368,
-   "holders": 5287,
+   "liq": 98503,
+   "vol": 318929,
+   "mcap": 1501340,
+   "holders": 5312,
    "createdAt": 1794025843000,
    "handle": "cz_binance",
    "launchpad": "Pump.Fun",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/ehpzesdxtymvwz1iy5nt3lrnjy1xbc1kgqspl1kqnyiv",
-   "scannedAt": 1794177250911
+   "scannedAt": 1794179180131
   },
   {
    "ca": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 614908,
-   "vol": 2069172,
-   "mcap": 43001329,
+   "liq": 616319,
+   "vol": 2148412,
+   "mcap": 42925532,
    "holders": 30796,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1794177246626
+   "scannedAt": 1794179183156
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -100,9 +100,9 @@
     1,
     null
    ],
-   "liq": 503212,
-   "vol": 1612379,
-   "mcap": 11960981,
+   "liq": 505316,
+   "vol": 1634539,
+   "mcap": 12248673,
    "holders": 11198,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -113,44 +113,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1794177248275
+   "scannedAt": 1794179186211
   },
   {
-   "ca": "8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump",
+   "ca": "5yC9BM8KUsJTPbWPLfA2N8qH1s9V8DQ3Vcw1G6Jdpump",
    "chain": "solana",
-   "sym": "COGE",
-   "name": "COGE COIN",
-   "img": "https://cdn.dexscreener.com/cms/images/-6EI1kGGjCY5cZXZ?width=800&height=800&quality=95&format=auto",
-   "score": 10,
+   "sym": "AgenC",
+   "name": "AgenC",
+   "img": "https://cdn.dexscreener.com/cms/images/CosLgfKcR4zLMl2Q?width=800&height=800&quality=95&format=auto",
+   "score": 9,
    "unknown": 1,
    "answers": [
     1,
     1,
     1,
     1,
-    1,
-    1,
     0,
+    0,
+    1,
     1,
     1,
     1,
     1,
     null
    ],
-   "liq": 44257,
-   "vol": 1742930,
-   "mcap": 274215,
-   "holders": 12602,
-   "createdAt": 1793908132000,
-   "handle": "COGECOINMeme",
+   "liq": 198465,
+   "vol": 102190,
+   "mcap": 1637976,
+   "holders": 3196,
+   "createdAt": 1771976989000,
+   "handle": "a_g_e_n_c",
    "launchpad": "Pump.Fun",
    "flags": 0,
    "sources": [
     "GoPlus",
     "RugCheck"
    ],
-   "url": "https://dexscreener.com/solana/8gjmy6ipysxfmwwrpu9c7atssorjg6al88d9xttzslqe",
-   "scannedAt": 1794177317071
+   "url": "https://dexscreener.com/solana/bumh6yebpbvah4by4otgjuvzq9cvh6dqpgrzvxfdmwc1",
+   "scannedAt": 1794179228484
   }
  ]
 }
