@@ -1,9 +1,46 @@
 {
- "updatedAt": 1794175689868,
+ "updatedAt": 1794177337796,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 45,
+ "scanned": 43,
  "items": [
+  {
+   "ca": "PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump",
+   "chain": "solana",
+   "sym": "BRUH",
+   "name": "The Bruhvengers",
+   "img": "https://cdn.dexscreener.com/cms/images/VBgCVQ-qPi568Ud3?width=800&height=800&quality=95&format=auto",
+   "score": 11,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 101475,
+   "vol": 317554,
+   "mcap": 1601368,
+   "holders": 5287,
+   "createdAt": 1794025843000,
+   "handle": "cz_binance",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/ehpzesdxtymvwz1iy5nt3lrnjy1xbc1kgqspl1kqnyiv",
+   "scannedAt": 1794177250911
+  },
   {
    "ca": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
    "chain": "solana",
@@ -26,9 +63,9 @@
     1,
     null
    ],
-   "liq": 615606,
-   "vol": 2056713,
-   "mcap": 42748765,
+   "liq": 614908,
+   "vol": 2069172,
+   "mcap": 43001329,
    "holders": 30796,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
@@ -39,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1794175591152
+   "scannedAt": 1794177246626
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -63,9 +100,9 @@
     1,
     null
    ],
-   "liq": 485976,
-   "vol": 1596290,
-   "mcap": 10919399,
+   "liq": 503212,
+   "vol": 1612379,
+   "mcap": 11960981,
    "holders": 11198,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -76,81 +113,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1794175593946
+   "scannedAt": 1794177248275
   },
   {
-   "ca": "PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump",
+   "ca": "8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump",
    "chain": "solana",
-   "sym": "BRUH",
-   "name": "The Bruhvengers",
-   "img": "https://cdn.dexscreener.com/cms/images/VBgCVQ-qPi568Ud3?width=800&height=800&quality=95&format=auto",
+   "sym": "COGE",
+   "name": "COGE COIN",
+   "img": "https://cdn.dexscreener.com/cms/images/-6EI1kGGjCY5cZXZ?width=800&height=800&quality=95&format=auto",
    "score": 10,
    "unknown": 1,
    "answers": [
     1,
+    1,
+    1,
+    1,
+    1,
+    1,
     0,
-    1,
-    1,
-    1,
-    1,
-    1,
     1,
     1,
     1,
     1,
     null
    ],
-   "liq": 99901,
-   "vol": 315776,
-   "mcap": 1540874,
-   "holders": 5260,
-   "createdAt": 1794025843000,
-   "handle": "cz_binance",
+   "liq": 44257,
+   "vol": 1742930,
+   "mcap": 274215,
+   "holders": 12602,
+   "createdAt": 1793908132000,
+   "handle": "COGECOINMeme",
    "launchpad": "Pump.Fun",
    "flags": 0,
    "sources": [
     "GoPlus",
     "RugCheck"
    ],
-   "url": "https://dexscreener.com/solana/ehpzesdxtymvwz1iy5nt3lrnjy1xbc1kgqspl1kqnyiv",
-   "scannedAt": 1794175589530
-  },
-  {
-   "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
-   "chain": "solana",
-   "sym": "CBUCKS",
-   "name": "Cartoon Money",
-   "img": "https://cdn.dexscreener.com/cms/images/2bajn2a05AdQGV-4?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 169517,
-   "vol": 128370,
-   "mcap": 2361248,
-   "holders": 1945,
-   "createdAt": 1791311393000,
-   "handle": "cartoonmoney_ai",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1794175599607
+   "url": "https://dexscreener.com/solana/8gjmy6ipysxfmwwrpu9c7atssorjg6al88d9xttzslqe",
+   "scannedAt": 1794177317071
   }
  ]
 }
