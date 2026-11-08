@@ -1,46 +1,9 @@
 {
- "updatedAt": 1794179276451,
+ "updatedAt": 1794180930053,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
  "items": [
-  {
-   "ca": "PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump",
-   "chain": "solana",
-   "sym": "BRUH",
-   "name": "The Bruhvengers",
-   "img": "https://cdn.dexscreener.com/cms/images/VBgCVQ-qPi568Ud3?width=800&height=800&quality=95&format=auto",
-   "score": 11,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 98503,
-   "vol": 318929,
-   "mcap": 1501340,
-   "holders": 5312,
-   "createdAt": 1794025843000,
-   "handle": "cz_binance",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/ehpzesdxtymvwz1iy5nt3lrnjy1xbc1kgqspl1kqnyiv",
-   "scannedAt": 1794179180131
-  },
   {
    "ca": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
    "chain": "solana",
@@ -63,9 +26,9 @@
     1,
     null
    ],
-   "liq": 616319,
-   "vol": 2148412,
-   "mcap": 42925532,
+   "liq": 621245,
+   "vol": 2152705,
+   "mcap": 43149161,
    "holders": 30796,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
@@ -76,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1794179183156
+   "scannedAt": 1794180837647
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -100,9 +63,9 @@
     1,
     null
    ],
-   "liq": 505316,
-   "vol": 1634539,
-   "mcap": 12248673,
+   "liq": 507088,
+   "vol": 1680129,
+   "mcap": 12120125,
    "holders": 11198,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -113,23 +76,23 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1794179186211
+   "scannedAt": 1794180839217
   },
   {
-   "ca": "5yC9BM8KUsJTPbWPLfA2N8qH1s9V8DQ3Vcw1G6Jdpump",
+   "ca": "PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump",
    "chain": "solana",
-   "sym": "AgenC",
-   "name": "AgenC",
-   "img": "https://cdn.dexscreener.com/cms/images/CosLgfKcR4zLMl2Q?width=800&height=800&quality=95&format=auto",
-   "score": 9,
+   "sym": "BRUH",
+   "name": "The Bruhvengers",
+   "img": "https://cdn.dexscreener.com/cms/images/VBgCVQ-qPi568Ud3?width=800&height=800&quality=95&format=auto",
+   "score": 10,
    "unknown": 1,
    "answers": [
     1,
-    1,
-    1,
-    1,
     0,
-    0,
+    1,
+    1,
+    1,
+    1,
     1,
     1,
     1,
@@ -137,20 +100,20 @@
     1,
     null
    ],
-   "liq": 198465,
-   "vol": 102190,
-   "mcap": 1637976,
-   "holders": 3196,
-   "createdAt": 1771976989000,
-   "handle": "a_g_e_n_c",
+   "liq": 104937,
+   "vol": 320956,
+   "mcap": 1682635,
+   "holders": 5338,
+   "createdAt": 1794025843000,
+   "handle": "cz_binance",
    "launchpad": "Pump.Fun",
    "flags": 0,
    "sources": [
     "GoPlus",
     "RugCheck"
    ],
-   "url": "https://dexscreener.com/solana/bumh6yebpbvah4by4otgjuvzq9cvh6dqpgrzvxfdmwc1",
-   "scannedAt": 1794179228484
+   "url": "https://dexscreener.com/solana/ehpzesdxtymvwz1iy5nt3lrnjy1xbc1kgqspl1kqnyiv",
+   "scannedAt": 1794180835868
   }
  ]
 }
