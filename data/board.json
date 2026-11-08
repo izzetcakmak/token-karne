@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794139878640,
+ "updatedAt": 1794141314841,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 42,
@@ -26,10 +26,10 @@
     1,
     null
    ],
-   "liq": 85644,
-   "vol": 405344,
-   "mcap": 1111201,
-   "holders": 4918,
+   "liq": 84541,
+   "vol": 403106,
+   "mcap": 1084422,
+   "holders": 4925,
    "createdAt": 1794025843000,
    "handle": "cz_binance",
    "launchpad": "Pump.Fun",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/ehpzesdxtymvwz1iy5nt3lrnjy1xbc1kgqspl1kqnyiv",
-   "scannedAt": 1794139782362
+   "scannedAt": 1794141245120
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 512731,
-   "vol": 1817313,
-   "mcap": 11883466,
+   "liq": 510405,
+   "vol": 1809724,
+   "mcap": 11748534,
    "holders": 11198,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1794139784242
+   "scannedAt": 1794141246538
   },
   {
    "ca": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
@@ -100,9 +100,9 @@
     1,
     null
    ],
-   "liq": 487498,
-   "vol": 445339,
-   "mcap": 26374067,
+   "liq": 485083,
+   "vol": 441574,
+   "mcap": 26144891,
    "holders": 29584,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
@@ -113,7 +113,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1794139786444
+   "scannedAt": 1794141247964
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -137,9 +137,9 @@
     1,
     null
    ],
-   "liq": 166654,
-   "vol": 231446,
-   "mcap": 2286930,
+   "liq": 167999,
+   "vol": 226063,
+   "mcap": 2323182,
    "holders": 1864,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -150,7 +150,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1794139789344
+   "scannedAt": 1794141249380
   },
   {
    "ca": "8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump",
@@ -174,10 +174,10 @@
     1,
     null
    ],
-   "liq": 76198,
-   "vol": 2249530,
-   "mcap": 785148,
-   "holders": 11758,
+   "liq": 76315,
+   "vol": 2258965,
+   "mcap": 787651,
+   "holders": 11896,
    "createdAt": 1793908132000,
    "handle": "COGECOINMeme",
    "launchpad": "Pump.Fun",
@@ -187,7 +187,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/8gjmy6ipysxfmwwrpu9c7atssorjg6al88d9xttzslqe",
-   "scannedAt": 1794139790850
+   "scannedAt": 1794141250795
   }
  ]
 }
