@@ -1,8 +1,8 @@
 {
- "updatedAt": 1794170139335,
+ "updatedAt": 1794172055542,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 44,
+ "scanned": 45,
  "items": [
   {
    "ca": "PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump",
@@ -26,10 +26,10 @@
     1,
     null
    ],
-   "liq": 102384,
-   "vol": 310067,
-   "mcap": 1576103,
-   "holders": 5165,
+   "liq": 103112,
+   "vol": 310042,
+   "mcap": 1604682,
+   "holders": 5196,
    "createdAt": 1794025843000,
    "handle": "cz_binance",
    "launchpad": "Pump.Fun",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/ehpzesdxtymvwz1iy5nt3lrnjy1xbc1kgqspl1kqnyiv",
-   "scannedAt": 1794170044058
+   "scannedAt": 1794171951855
   },
   {
    "ca": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 628394,
-   "vol": 2035678,
-   "mcap": 43343599,
+   "liq": 622536,
+   "vol": 2043001,
+   "mcap": 42697298,
    "holders": 30796,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1794170038250
+   "scannedAt": 1794171953564
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -100,9 +100,9 @@
     1,
     null
    ],
-   "liq": 508417,
-   "vol": 1575472,
-   "mcap": 11783860,
+   "liq": 510498,
+   "vol": 1598012,
+   "mcap": 11783187,
    "holders": 11198,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -113,44 +113,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1794170041028
-  },
-  {
-   "ca": "8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump",
-   "chain": "solana",
-   "sym": "COGE",
-   "name": "COGE COIN",
-   "img": "https://cdn.dexscreener.com/cms/images/-6EI1kGGjCY5cZXZ?width=800&height=800&quality=95&format=auto",
-   "score": 10,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 53322,
-   "vol": 2243575,
-   "mcap": 381547,
-   "holders": 11572,
-   "createdAt": 1793908132000,
-   "handle": "COGECOINMeme",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/8gjmy6ipysxfmwwrpu9c7atssorjg6al88d9xttzslqe",
-   "scannedAt": 1794170045574
+   "scannedAt": 1794171955078
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -174,9 +137,9 @@
     1,
     null
    ],
-   "liq": 173345,
-   "vol": 120672,
-   "mcap": 2467742,
+   "liq": 168554,
+   "vol": 118519,
+   "mcap": 2335673,
    "holders": 1945,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -187,7 +150,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1794170047156
+   "scannedAt": 1794171961152
   }
  ]
 }
