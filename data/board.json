@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794252946436,
+ "updatedAt": 1794254960292,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 44,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 544094,
-   "vol": 4084467,
-   "mcap": 32866551,
+   "liq": 551127,
+   "vol": 4084775,
+   "mcap": 33684373,
    "holders": 36347,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1794252857923
+   "scannedAt": 1794254864911
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 488845,
-   "vol": 1795889,
-   "mcap": 11942754,
+   "liq": 490123,
+   "vol": 1784118,
+   "mcap": 11562533,
    "holders": 11440,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1794252859376
+   "scannedAt": 1794254866440
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -100,9 +100,9 @@
     1,
     null
    ],
-   "liq": 214508,
-   "vol": 523861,
-   "mcap": 3718435,
+   "liq": 222206,
+   "vol": 526230,
+   "mcap": 3985723,
    "holders": 2267,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -113,7 +113,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1794252861999
+   "scannedAt": 1794254868617
   },
   {
    "ca": "5yC9BM8KUsJTPbWPLfA2N8qH1s9V8DQ3Vcw1G6Jdpump",
@@ -137,9 +137,9 @@
     1,
     null
    ],
-   "liq": 193638,
-   "vol": 102321,
-   "mcap": 1582678,
+   "liq": 193837,
+   "vol": 102876,
+   "mcap": 1581298,
    "holders": 3196,
    "createdAt": 1771976989000,
    "handle": "a_g_e_n_c",
@@ -150,7 +150,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/bumh6yebpbvah4by4otgjuvzq9cvh6dqpgrzvxfdmwc1",
-   "scannedAt": 1794252863453
+   "scannedAt": 1794254870355
   }
  ]
 }
