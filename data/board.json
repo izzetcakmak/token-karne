@@ -1,8 +1,8 @@
 {
- "updatedAt": 1794216949819,
+ "updatedAt": 1794218988047,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 45,
+ "scanned": 44,
  "items": [
   {
    "ca": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 616309,
-   "vol": 4577723,
-   "mcap": 42339605,
+   "liq": 610852,
+   "vol": 4594755,
+   "mcap": 41770704,
    "holders": 30796,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1794216844040
+   "scannedAt": 1794218876315
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 527644,
-   "vol": 1780384,
-   "mcap": 12475180,
+   "liq": 526435,
+   "vol": 1777675,
+   "mcap": 12475711,
    "holders": 11440,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1794216848154
+   "scannedAt": 1794218878954
   },
   {
    "ca": "PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump",
@@ -100,10 +100,10 @@
     1,
     null
    ],
-   "liq": 108616,
-   "vol": 334806,
-   "mcap": 1812308,
-   "holders": 5854,
+   "liq": 108501,
+   "vol": 331847,
+   "mcap": 1816002,
+   "holders": 5882,
    "createdAt": 1794025843000,
    "handle": "cz_binance",
    "launchpad": "Pump.Fun",
@@ -113,44 +113,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/ehpzesdxtymvwz1iy5nt3lrnjy1xbc1kgqspl1kqnyiv",
-   "scannedAt": 1794216845509
-  },
-  {
-   "ca": "85mEALGuRCMmmMo7YD51pMfEjWisbHHRwZX8t7Bpump",
-   "chain": "solana",
-   "sym": "0DAY",
-   "name": "Everyday is Zeroday",
-   "img": "https://cdn.dexscreener.com/cms/images/dkLwIX_gx_yV-020?width=800&height=800&quality=95&format=auto",
-   "score": 10,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    null
-   ],
-   "liq": 69268,
-   "vol": 181404,
-   "mcap": 724618,
-   "holders": 9987,
-   "createdAt": 1793974602000,
-   "handle": "0DAYcommunity",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/6qlmg6pz7esjvz3i7mp4arqknlkdy4ncanzsu8nnnofa",
-   "scannedAt": 1794216896553
+   "scannedAt": 1794218880538
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -174,9 +137,9 @@
     1,
     null
    ],
-   "liq": 197846,
-   "vol": 345699,
-   "mcap": 3185565,
+   "liq": 199265,
+   "vol": 351023,
+   "mcap": 3230369,
    "holders": 1945,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -187,7 +150,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1794216852091
+   "scannedAt": 1794218884828
   }
  ]
 }
