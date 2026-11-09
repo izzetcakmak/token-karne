@@ -1,8 +1,8 @@
 {
- "updatedAt": 1794249357264,
+ "updatedAt": 1794251234705,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 45,
+ "scanned": 44,
  "items": [
   {
    "ca": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 549900,
-   "vol": 4124746,
-   "mcap": 33569992,
+   "liq": 549538,
+   "vol": 4087685,
+   "mcap": 33368365,
    "holders": 30796,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1794249255330
+   "scannedAt": 1794251160715
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 521955,
-   "vol": 1824327,
-   "mcap": 11801246,
+   "liq": 526561,
+   "vol": 1809432,
+   "mcap": 12056644,
    "holders": 11440,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1794249257924
+   "scannedAt": 1794251162178
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -100,9 +100,9 @@
     1,
     null
    ],
-   "liq": 219673,
-   "vol": 513871,
-   "mcap": 3898848,
+   "liq": 215393,
+   "vol": 517771,
+   "mcap": 3749070,
    "holders": 2267,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -113,14 +113,14 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1794249260775
+   "scannedAt": 1794251163659
   },
   {
-   "ca": "TiMSdJrkVwUpeEWJpuqRvHt4wVS7uH77LbNPGGVJXNw",
+   "ca": "5yC9BM8KUsJTPbWPLfA2N8qH1s9V8DQ3Vcw1G6Jdpump",
    "chain": "solana",
-   "sym": "timmy",
-   "name": "timmy",
-   "img": "https://cdn.dexscreener.com/cms/images/nx7qUsT_mtURaXcK?width=800&height=800&quality=95&format=auto",
+   "sym": "AgenC",
+   "name": "AgenC",
+   "img": "https://cdn.dexscreener.com/cms/images/CosLgfKcR4zLMl2Q?width=800&height=800&quality=95&format=auto",
    "score": 9,
    "unknown": 1,
    "answers": [
@@ -137,20 +137,20 @@
     1,
     null
    ],
-   "liq": 30531,
-   "vol": 459046,
-   "mcap": 319947,
-   "holders": 345,
-   "createdAt": 1793468092000,
-   "handle": "returntotimmy",
-   "launchpad": null,
+   "liq": 193704,
+   "vol": 102405,
+   "mcap": 1580152,
+   "holders": 3196,
+   "createdAt": 1771976989000,
+   "handle": "a_g_e_n_c",
+   "launchpad": "Pump.Fun",
    "flags": 0,
    "sources": [
     "GoPlus",
     "RugCheck"
    ],
-   "url": "https://dexscreener.com/solana/6h9lwrbatqsftxtsimmzhwncpxtezk1klsj4bc7jz1nu",
-   "scannedAt": 1794249265847
+   "url": "https://dexscreener.com/solana/bumh6yebpbvah4by4otgjuvzq9cvh6dqpgrzvxfdmwc1",
+   "scannedAt": 1794251186427
   }
  ]
 }
