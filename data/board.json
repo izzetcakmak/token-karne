@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794200981592,
+ "updatedAt": 1794202543330,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 608238,
-   "vol": 4447216,
-   "mcap": 40986996,
+   "liq": 604628,
+   "vol": 4465701,
+   "mcap": 40626254,
    "holders": 30796,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1794200907856
+   "scannedAt": 1794202471215
   },
   {
    "ca": "PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump",
@@ -63,10 +63,10 @@
     1,
     null
    ],
-   "liq": 111291,
-   "vol": 357359,
-   "mcap": 1890731,
-   "holders": 5636,
+   "liq": 111599,
+   "vol": 358854,
+   "mcap": 1906566,
+   "holders": 5660,
    "createdAt": 1794025843000,
    "handle": "cz_binance",
    "launchpad": "Pump.Fun",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/ehpzesdxtymvwz1iy5nt3lrnjy1xbc1kgqspl1kqnyiv",
-   "scannedAt": 1794200909266
+   "scannedAt": 1794202472709
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -100,9 +100,9 @@
     1,
     null
    ],
-   "liq": 500219,
-   "vol": 1712464,
-   "mcap": 12091800,
+   "liq": 500214,
+   "vol": 1715409,
+   "mcap": 12235787,
    "holders": 11440,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -113,7 +113,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1794200910713
+   "scannedAt": 1794202474277
   },
   {
    "ca": "85mEALGuRCMmmMo7YD51pMfEjWisbHHRwZX8t7Bpump",
@@ -137,9 +137,9 @@
     1,
     null
    ],
-   "liq": 72090,
-   "vol": 234948,
-   "mcap": 776887,
+   "liq": 70995,
+   "vol": 233344,
+   "mcap": 756929,
    "holders": 9979,
    "createdAt": 1793974602000,
    "handle": "0DAYcommunity",
@@ -150,7 +150,43 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/6qlmg6pz7esjvz3i7mp4arqknlkdy4ncanzsu8nnnofa",
-   "scannedAt": 1794200932458
+   "scannedAt": 1794202475704
+  },
+  {
+   "ca": "0x4Ff1E3C449a7f4b42d8c6F5fbB89C52B8B47fc65",
+   "chain": "bsc",
+   "sym": "HOLD",
+   "name": "HOLD",
+   "img": "https://cdn.dexscreener.com/cms/images/LWMt8JCYy4sf-04r?width=800&height=800&quality=95&format=auto",
+   "score": 10,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 33095,
+   "vol": 169133,
+   "mcap": 54773,
+   "holders": 2218,
+   "createdAt": 1740413085000,
+   "handle": "HOLD_bnbculture",
+   "launchpad": null,
+   "flags": 0,
+   "sources": [
+    "GoPlus"
+   ],
+   "url": "https://dexscreener.com/bsc/0x4b49be5d937e43dac52f44e15484fa8ae77bfa2a",
+   "scannedAt": 1794202482292
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -174,9 +210,9 @@
     1,
     null
    ],
-   "liq": 203974,
-   "vol": 317779,
-   "mcap": 3386242,
+   "liq": 204420,
+   "vol": 323575,
+   "mcap": 3400165,
    "holders": 1945,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -187,7 +223,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1794200912374
+   "scannedAt": 1794202477221
   },
   {
    "ca": "5yC9BM8KUsJTPbWPLfA2N8qH1s9V8DQ3Vcw1G6Jdpump",
@@ -211,9 +247,9 @@
     1,
     null
    ],
-   "liq": 201912,
-   "vol": 115646,
-   "mcap": 1680750,
+   "liq": 200705,
+   "vol": 115597,
+   "mcap": 1663569,
    "holders": 3196,
    "createdAt": 1771976989000,
    "handle": "a_g_e_n_c",
@@ -224,14 +260,14 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/bumh6yebpbvah4by4otgjuvzq9cvh6dqpgrzvxfdmwc1",
-   "scannedAt": 1794200970930
+   "scannedAt": 1794202479004
   },
   {
-   "ca": "483nprwoMSoGQgrojSHWiePMbKPre7ZRDy4f8YNSpump",
+   "ca": "TiMSdJrkVwUpeEWJpuqRvHt4wVS7uH77LbNPGGVJXNw",
    "chain": "solana",
-   "sym": "HEREWEGO",
-   "name": "Ah Shit, Here We Go Again",
-   "img": "https://cdn.dexscreener.com/cms/images/iFqKpiFAdCgFZS-Y?width=800&height=800&quality=95&format=auto",
+   "sym": "timmy",
+   "name": "timmy",
+   "img": "https://cdn.dexscreener.com/cms/images/nx7qUsT_mtURaXcK?width=800&height=800&quality=95&format=auto",
    "score": 9,
    "unknown": 1,
    "answers": [
@@ -239,29 +275,29 @@
     1,
     1,
     1,
-    1,
+    0,
     0,
     1,
-    0,
+    1,
     1,
     1,
     1,
     null
    ],
-   "liq": 30238,
-   "vol": 4882432,
-   "mcap": 119370,
-   "holders": 14882,
-   "createdAt": 1794102221000,
-   "handle": "AhShitAgainSol",
-   "launchpad": "Pump.Fun",
+   "liq": 33647,
+   "vol": 349419,
+   "mcap": 392903,
+   "holders": 345,
+   "createdAt": 1793468092000,
+   "handle": "returntotimmy",
+   "launchpad": null,
    "flags": 0,
    "sources": [
     "GoPlus",
     "RugCheck"
    ],
-   "url": "https://dexscreener.com/solana/67bwjnjsjbdpp3kpi6gdeevk25qgrprwfttmqe4wszir",
-   "scannedAt": 1794200913775
+   "url": "https://dexscreener.com/solana/6h9lwrbatqsftxtsimmzhwncpxtezk1klsj4bc7jz1nu",
+   "scannedAt": 1794202483797
   }
  ]
 }
