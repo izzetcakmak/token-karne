@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794215577443,
+ "updatedAt": 1794216949819,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 620925,
-   "vol": 4570172,
-   "mcap": 42796138,
+   "liq": 616309,
+   "vol": 4577723,
+   "mcap": 42339605,
    "holders": 30796,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
@@ -39,44 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1794215462323
-  },
-  {
-   "ca": "PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump",
-   "chain": "solana",
-   "sym": "BRUH",
-   "name": "The Bruhvengers",
-   "img": "https://cdn.dexscreener.com/cms/images/VBgCVQ-qPi568Ud3?width=800&height=800&quality=95&format=auto",
-   "score": 11,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 111646,
-   "vol": 334747,
-   "mcap": 1905759,
-   "holders": 5838,
-   "createdAt": 1794025843000,
-   "handle": "cz_binance",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/ehpzesdxtymvwz1iy5nt3lrnjy1xbc1kgqspl1kqnyiv",
-   "scannedAt": 1794215464250
+   "scannedAt": 1794216844040
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -100,9 +63,9 @@
     1,
     null
    ],
-   "liq": 502161,
-   "vol": 1786065,
-   "mcap": 12568716,
+   "liq": 527644,
+   "vol": 1780384,
+   "mcap": 12475180,
    "holders": 11440,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -113,14 +76,51 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1794215465805
+   "scannedAt": 1794216848154
   },
   {
-   "ca": "0x4Ff1E3C449a7f4b42d8c6F5fbB89C52B8B47fc65",
-   "chain": "bsc",
-   "sym": "HOLD",
-   "name": "HOLD",
-   "img": "https://cdn.dexscreener.com/cms/images/LWMt8JCYy4sf-04r?width=800&height=800&quality=95&format=auto",
+   "ca": "PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump",
+   "chain": "solana",
+   "sym": "BRUH",
+   "name": "The Bruhvengers",
+   "img": "https://cdn.dexscreener.com/cms/images/VBgCVQ-qPi568Ud3?width=800&height=800&quality=95&format=auto",
+   "score": 10,
+   "unknown": 1,
+   "answers": [
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 108616,
+   "vol": 334806,
+   "mcap": 1812308,
+   "holders": 5854,
+   "createdAt": 1794025843000,
+   "handle": "cz_binance",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/ehpzesdxtymvwz1iy5nt3lrnjy1xbc1kgqspl1kqnyiv",
+   "scannedAt": 1794216845509
+  },
+  {
+   "ca": "85mEALGuRCMmmMo7YD51pMfEjWisbHHRwZX8t7Bpump",
+   "chain": "solana",
+   "sym": "0DAY",
+   "name": "Everyday is Zeroday",
+   "img": "https://cdn.dexscreener.com/cms/images/dkLwIX_gx_yV-020?width=800&height=800&quality=95&format=auto",
    "score": 10,
    "unknown": 1,
    "answers": [
@@ -129,27 +129,28 @@
     1,
     1,
     1,
+    1,
+    1,
+    1,
+    1,
     0,
-    1,
-    1,
-    1,
-    1,
     1,
     null
    ],
-   "liq": 32444,
-   "vol": 169300,
-   "mcap": 53141,
-   "holders": 2211,
-   "createdAt": 1740413085000,
-   "handle": "HOLD_bnbculture",
-   "launchpad": null,
+   "liq": 69268,
+   "vol": 181404,
+   "mcap": 724618,
+   "holders": 9987,
+   "createdAt": 1793974602000,
+   "handle": "0DAYcommunity",
+   "launchpad": "Pump.Fun",
    "flags": 0,
    "sources": [
-    "GoPlus"
+    "GoPlus",
+    "RugCheck"
    ],
-   "url": "https://dexscreener.com/bsc/0x4b49be5d937e43dac52f44e15484fa8ae77bfa2a",
-   "scannedAt": 1794215489230
+   "url": "https://dexscreener.com/solana/6qlmg6pz7esjvz3i7mp4arqknlkdy4ncanzsu8nnnofa",
+   "scannedAt": 1794216896553
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -173,9 +174,9 @@
     1,
     null
    ],
-   "liq": 199330,
-   "vol": 340250,
-   "mcap": 3232886,
+   "liq": 197846,
+   "vol": 345699,
+   "mcap": 3185565,
    "holders": 1945,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -186,7 +187,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1794215468328
+   "scannedAt": 1794216852091
   }
  ]
 }
