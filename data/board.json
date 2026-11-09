@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794229786397,
+ "updatedAt": 1794231381496,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 44,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 626961,
-   "vol": 4750260,
-   "mcap": 43679876,
+   "liq": 621174,
+   "vol": 4983105,
+   "mcap": 42872858,
    "holders": 30796,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
@@ -39,44 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1794229683669
-  },
-  {
-   "ca": "PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump",
-   "chain": "solana",
-   "sym": "BRUH",
-   "name": "The Bruhvengers",
-   "img": "https://cdn.dexscreener.com/cms/images/VBgCVQ-qPi568Ud3?width=800&height=800&quality=95&format=auto",
-   "score": 11,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 110681,
-   "vol": 337629,
-   "mcap": 1875909,
-   "holders": 6026,
-   "createdAt": 1794025843000,
-   "handle": "bruhvengersfun",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/ehpzesdxtymvwz1iy5nt3lrnjy1xbc1kgqspl1kqnyiv",
-   "scannedAt": 1794229685669
+   "scannedAt": 1794231260661
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -100,9 +63,9 @@
     1,
     null
    ],
-   "liq": 520629,
-   "vol": 1791390,
-   "mcap": 11989597,
+   "liq": 528814,
+   "vol": 1779402,
+   "mcap": 11854324,
    "holders": 11440,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -113,7 +76,43 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1794229688971
+   "scannedAt": 1794231265708
+  },
+  {
+   "ca": "0x4Ff1E3C449a7f4b42d8c6F5fbB89C52B8B47fc65",
+   "chain": "bsc",
+   "sym": "HOLD",
+   "name": "HOLD",
+   "img": "https://cdn.dexscreener.com/cms/images/LWMt8JCYy4sf-04r?width=800&height=800&quality=95&format=auto",
+   "score": 10,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 32722,
+   "vol": 169359,
+   "mcap": 53758,
+   "holders": 2212,
+   "createdAt": 1740413085000,
+   "handle": "HOLD_bnbculture",
+   "launchpad": null,
+   "flags": 0,
+   "sources": [
+    "GoPlus"
+   ],
+   "url": "https://dexscreener.com/bsc/0x4b49be5d937e43dac52f44e15484fa8ae77bfa2a",
+   "scannedAt": 1794231329394
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -137,9 +136,9 @@
     1,
     null
    ],
-   "liq": 213792,
-   "vol": 415702,
-   "mcap": 3703345,
+   "liq": 208505,
+   "vol": 427015,
+   "mcap": 3523745,
    "holders": 1945,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -150,44 +149,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1794229693699
+   "scannedAt": 1794231268680
   },
   {
-   "ca": "TiMSdJrkVwUpeEWJpuqRvHt4wVS7uH77LbNPGGVJXNw",
+   "ca": "PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump",
    "chain": "solana",
-   "sym": "timmy",
-   "name": "timmy",
-   "img": "https://cdn.dexscreener.com/cms/images/nx7qUsT_mtURaXcK?width=800&height=800&quality=95&format=auto",
+   "sym": "BRUH",
+   "name": "The Bruhvengers",
+   "img": "https://cdn.dexscreener.com/cms/images/VBgCVQ-qPi568Ud3?width=800&height=800&quality=95&format=auto",
    "score": 9,
-   "unknown": 1,
+   "unknown": 3,
    "answers": [
     1,
     1,
     1,
     1,
-    0,
-    0,
     1,
     1,
     1,
+    null,
+    null,
     1,
     1,
     null
    ],
-   "liq": 30504,
-   "vol": 440872,
-   "mcap": 319298,
-   "holders": 345,
-   "createdAt": 1793468092000,
-   "handle": "returntotimmy",
-   "launchpad": null,
-   "flags": 0,
+   "liq": 110249,
+   "vol": 335185,
+   "mcap": 1863808,
+   "holders": 6045,
+   "createdAt": 1794025843000,
+   "handle": "bruhvengersfun",
+   "launchpad": "Pump.Fun",
+   "flags": 1,
    "sources": [
     "GoPlus",
     "RugCheck"
    ],
-   "url": "https://dexscreener.com/solana/6h9lwrbatqsftxtsimmzhwncpxtezk1klsj4bc7jz1nu",
-   "scannedAt": 1794229695186
+   "url": "https://dexscreener.com/solana/ehpzesdxtymvwz1iy5nt3lrnjy1xbc1kgqspl1kqnyiv",
+   "scannedAt": 1794231263899
   }
  ]
 }
