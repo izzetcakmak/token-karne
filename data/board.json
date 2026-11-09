@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794224144902,
+ "updatedAt": 1794226376766,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -10,11 +10,11 @@
    "sym": "DESSA",
    "name": "Dessa",
    "img": "https://cdn.dexscreener.com/cms/images/HmECRYytNn0hGid_?width=800&height=800&quality=95&format=auto",
-   "score": 11,
+   "score": 10,
    "unknown": 1,
    "answers": [
     1,
-    1,
+    0,
     1,
     1,
     1,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 622637,
-   "vol": 4637822,
-   "mcap": 43230177,
+   "liq": 631721,
+   "vol": 4665955,
+   "mcap": 44599450,
    "holders": 30796,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
@@ -39,44 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1794224053806
-  },
-  {
-   "ca": "PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump",
-   "chain": "solana",
-   "sym": "BRUH",
-   "name": "The Bruhvengers",
-   "img": "https://cdn.dexscreener.com/cms/images/VBgCVQ-qPi568Ud3?width=800&height=800&quality=95&format=auto",
-   "score": 11,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 107781,
-   "vol": 334426,
-   "mcap": 1785582,
-   "holders": 5947,
-   "createdAt": 1794025843000,
-   "handle": "bruhvengersfun",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/ehpzesdxtymvwz1iy5nt3lrnjy1xbc1kgqspl1kqnyiv",
-   "scannedAt": 1794224063853
+   "scannedAt": 1794226276601
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -100,9 +63,9 @@
     1,
     null
    ],
-   "liq": 534168,
-   "vol": 1792679,
-   "mcap": 12667148,
+   "liq": 527962,
+   "vol": 1785808,
+   "mcap": 12375365,
    "holders": 11440,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -113,43 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1794224056773
-  },
-  {
-   "ca": "0x4Ff1E3C449a7f4b42d8c6F5fbB89C52B8B47fc65",
-   "chain": "bsc",
-   "sym": "HOLD",
-   "name": "HOLD",
-   "img": "https://cdn.dexscreener.com/cms/images/LWMt8JCYy4sf-04r?width=800&height=800&quality=95&format=auto",
-   "score": 10,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 32522,
-   "vol": 169349,
-   "mcap": 54560,
-   "holders": 2212,
-   "createdAt": 1740413085000,
-   "handle": "HOLD_bnbculture",
-   "launchpad": null,
-   "flags": 0,
-   "sources": [
-    "GoPlus"
-   ],
-   "url": "https://dexscreener.com/bsc/0x4b49be5d937e43dac52f44e15484fa8ae77bfa2a",
-   "scannedAt": 1794224060835
+   "scannedAt": 1794226282131
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -173,9 +100,9 @@
     1,
     null
    ],
-   "liq": 214593,
-   "vol": 374148,
-   "mcap": 3732579,
+   "liq": 215139,
+   "vol": 402493,
+   "mcap": 3749203,
    "holders": 1945,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -186,7 +113,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1794224062385
+   "scannedAt": 1794226287628
+  },
+  {
+   "ca": "PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump",
+   "chain": "solana",
+   "sym": "BRUH",
+   "name": "The Bruhvengers",
+   "img": "https://cdn.dexscreener.com/cms/images/VBgCVQ-qPi568Ud3?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 3,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null,
+    null,
+    1,
+    1,
+    null
+   ],
+   "liq": 109231,
+   "vol": 335207,
+   "mcap": 1837352,
+   "holders": 5982,
+   "createdAt": 1794025843000,
+   "handle": "bruhvengersfun",
+   "launchpad": "Pump.Fun",
+   "flags": 1,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/ehpzesdxtymvwz1iy5nt3lrnjy1xbc1kgqspl1kqnyiv",
+   "scannedAt": 1794226279520
   }
  ]
 }
