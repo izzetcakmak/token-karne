@@ -1,8 +1,8 @@
 {
- "updatedAt": 1794197460744,
+ "updatedAt": 1794198938388,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 45,
+ "scanned": 43,
  "items": [
   {
    "ca": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 633540,
-   "vol": 4368622,
-   "mcap": 44445567,
+   "liq": 605821,
+   "vol": 4415225,
+   "mcap": 40567136,
    "holders": 30796,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1794197377496
+   "scannedAt": 1794198849053
   },
   {
    "ca": "PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump",
@@ -63,10 +63,10 @@
     1,
     null
    ],
-   "liq": 101535,
-   "vol": 352010,
-   "mcap": 1571105,
-   "holders": 5591,
+   "liq": 99546,
+   "vol": 348993,
+   "mcap": 1514624,
+   "holders": 5599,
    "createdAt": 1794025843000,
    "handle": "cz_binance",
    "launchpad": "Pump.Fun",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/ehpzesdxtymvwz1iy5nt3lrnjy1xbc1kgqspl1kqnyiv",
-   "scannedAt": 1794197378957
+   "scannedAt": 1794198850694
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -100,9 +100,9 @@
     1,
     null
    ],
-   "liq": 503094,
-   "vol": 1686309,
-   "mcap": 12270614,
+   "liq": 500305,
+   "vol": 1701838,
+   "mcap": 12066621,
    "holders": 11440,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -113,44 +113,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1794197380425
-  },
-  {
-   "ca": "85mEALGuRCMmmMo7YD51pMfEjWisbHHRwZX8t7Bpump",
-   "chain": "solana",
-   "sym": "0DAY",
-   "name": "Everyday is Zeroday",
-   "img": "https://cdn.dexscreener.com/cms/images/dkLwIX_gx_yV-020?width=800&height=800&quality=95&format=auto",
-   "score": 10,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    null
-   ],
-   "liq": 78305,
-   "vol": 239499,
-   "mcap": 913766,
-   "holders": 9981,
-   "createdAt": 1793974602000,
-   "handle": "0DAYcommunity",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/6qlmg6pz7esjvz3i7mp4arqknlkdy4ncanzsu8nnnofa",
-   "scannedAt": 1794197381885
+   "scannedAt": 1794198852506
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -174,9 +137,9 @@
     1,
     null
    ],
-   "liq": 208028,
-   "vol": 312714,
-   "mcap": 3521876,
+   "liq": 201906,
+   "vol": 313630,
+   "mcap": 3319515,
    "holders": 1945,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -187,7 +150,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1794197383355
+   "scannedAt": 1794198857312
+  },
+  {
+   "ca": "483nprwoMSoGQgrojSHWiePMbKPre7ZRDy4f8YNSpump",
+   "chain": "solana",
+   "sym": "HEREWEGO",
+   "name": "Ah Shit, Here We Go Again",
+   "img": "https://cdn.dexscreener.com/cms/images/iFqKpiFAdCgFZS-Y?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 30365,
+   "vol": 4901892,
+   "mcap": 121169,
+   "holders": 14554,
+   "createdAt": 1794102221000,
+   "handle": "AhShitAgainSol",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/67bwjnjsjbdpp3kpi6gdeevk25qgrprwfttmqe4wszir",
+   "scannedAt": 1794198915468
   }
  ]
 }
