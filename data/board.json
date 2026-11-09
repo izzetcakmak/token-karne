@@ -1,8 +1,8 @@
 {
- "updatedAt": 1794242179016,
+ "updatedAt": 1794244146649,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 45,
+ "scanned": 43,
  "items": [
   {
    "ca": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 528911,
-   "vol": 4996620,
-   "mcap": 30973229,
+   "liq": 554071,
+   "vol": 4291501,
+   "mcap": 33847574,
    "holders": 30796,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1794242056990
+   "scannedAt": 1794244051551
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 520696,
-   "vol": 1802004,
-   "mcap": 11802969,
+   "liq": 525316,
+   "vol": 1823106,
+   "mcap": 12119070,
    "holders": 11440,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1794242058454
+   "scannedAt": 1794244053067
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -100,9 +100,9 @@
     1,
     null
    ],
-   "liq": 211072,
-   "vol": 443914,
-   "mcap": 3607604,
+   "liq": 216143,
+   "vol": 451921,
+   "mcap": 3780219,
    "holders": 2267,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -113,7 +113,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1794242059989
+   "scannedAt": 1794244056180
+  },
+  {
+   "ca": "TiMSdJrkVwUpeEWJpuqRvHt4wVS7uH77LbNPGGVJXNw",
+   "chain": "solana",
+   "sym": "timmy",
+   "name": "timmy",
+   "img": "https://cdn.dexscreener.com/cms/images/nx7qUsT_mtURaXcK?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 32800,
+   "vol": 452912,
+   "mcap": 367308,
+   "holders": 345,
+   "createdAt": 1793468092000,
+   "handle": "returntotimmy",
+   "launchpad": null,
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/6h9lwrbatqsftxtsimmzhwncpxtezk1klsj4bc7jz1nu",
+   "scannedAt": 1794244138401
   }
  ]
 }
