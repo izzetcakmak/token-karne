@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794263735832,
+ "updatedAt": 1794265673942,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 557894,
-   "vol": 4077634,
-   "mcap": 34425994,
+   "liq": 555228,
+   "vol": 4002671,
+   "mcap": 34063932,
    "holders": 36347,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1794263637456
+   "scannedAt": 1794265587108
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 488878,
-   "vol": 1703388,
-   "mcap": 11394119,
+   "liq": 489876,
+   "vol": 1672408,
+   "mcap": 11413723,
    "holders": 11440,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1794263640504
+   "scannedAt": 1794265590070
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -100,9 +100,9 @@
     1,
     null
    ],
-   "liq": 224274,
-   "vol": 560747,
-   "mcap": 4054639,
+   "liq": 222020,
+   "vol": 536136,
+   "mcap": 3974183,
    "holders": 2267,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -113,7 +113,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1794263643109
+   "scannedAt": 1794265592347
   },
   {
    "ca": "TiMSdJrkVwUpeEWJpuqRvHt4wVS7uH77LbNPGGVJXNw",
@@ -137,9 +137,9 @@
     1,
     null
    ],
-   "liq": 31952,
-   "vol": 391774,
-   "mcap": 354007,
+   "liq": 33967,
+   "vol": 397343,
+   "mcap": 397884,
    "holders": 345,
    "createdAt": 1793468092000,
    "handle": "returntotimmy",
@@ -150,7 +150,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/6h9lwrbatqsftxtsimmzhwncpxtezk1klsj4bc7jz1nu",
-   "scannedAt": 1794263646147
+   "scannedAt": 1794265595229
   }
  ]
 }
