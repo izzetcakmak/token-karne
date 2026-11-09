@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794209742727,
+ "updatedAt": 1794211976771,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 598732,
-   "vol": 4511627,
-   "mcap": 40572115,
+   "liq": 596997,
+   "vol": 4539933,
+   "mcap": 40214579,
    "holders": 30796,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1794209670589
+   "scannedAt": 1794211894515
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 495024,
-   "vol": 1787735,
-   "mcap": 12499655,
+   "liq": 495463,
+   "vol": 1786208,
+   "mcap": 12492835,
    "holders": 11440,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1794209672010
+   "scannedAt": 1794211895986
   },
   {
    "ca": "PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump",
@@ -100,10 +100,10 @@
     1,
     null
    ],
-   "liq": 106060,
-   "vol": 347063,
-   "mcap": 1754950,
-   "holders": 5767,
+   "liq": 105259,
+   "vol": 334780,
+   "mcap": 1723780,
+   "holders": 5792,
    "createdAt": 1794025843000,
    "handle": "cz_binance",
    "launchpad": "Pump.Fun",
@@ -113,7 +113,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/ehpzesdxtymvwz1iy5nt3lrnjy1xbc1kgqspl1kqnyiv",
-   "scannedAt": 1794209673552
+   "scannedAt": 1794211898231
   },
   {
    "ca": "85mEALGuRCMmmMo7YD51pMfEjWisbHHRwZX8t7Bpump",
@@ -137,10 +137,10 @@
     1,
     null
    ],
-   "liq": 70627,
-   "vol": 216631,
-   "mcap": 759782,
-   "holders": 9983,
+   "liq": 70664,
+   "vol": 198469,
+   "mcap": 761596,
+   "holders": 9985,
    "createdAt": 1793974602000,
    "handle": "0DAYcommunity",
    "launchpad": "Pump.Fun",
@@ -150,43 +150,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/6qlmg6pz7esjvz3i7mp4arqknlkdy4ncanzsu8nnnofa",
-   "scannedAt": 1794209674983
-  },
-  {
-   "ca": "0x4Ff1E3C449a7f4b42d8c6F5fbB89C52B8B47fc65",
-   "chain": "bsc",
-   "sym": "HOLD",
-   "name": "HOLD",
-   "img": "https://cdn.dexscreener.com/cms/images/LWMt8JCYy4sf-04r?width=800&height=800&quality=95&format=auto",
-   "score": 10,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 32415,
-   "vol": 169251,
-   "mcap": 54383,
-   "holders": 2213,
-   "createdAt": 1740413085000,
-   "handle": "HOLD_bnbculture",
-   "launchpad": null,
-   "flags": 0,
-   "sources": [
-    "GoPlus"
-   ],
-   "url": "https://dexscreener.com/bsc/0x4b49be5d937e43dac52f44e15484fa8ae77bfa2a",
-   "scannedAt": 1794209682315
+   "scannedAt": 1794211899699
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -210,9 +174,9 @@
     1,
     null
    ],
-   "liq": 208848,
-   "vol": 330504,
-   "mcap": 3546131,
+   "liq": 204693,
+   "vol": 332670,
+   "mcap": 3407824,
    "holders": 1945,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -223,7 +187,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1794209676400
+   "scannedAt": 1794211903424
   }
  ]
 }
