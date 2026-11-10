@@ -1,8 +1,8 @@
 {
- "updatedAt": 1794274645339,
+ "updatedAt": 1794276697858,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 45,
+ "scanned": 44,
  "items": [
   {
    "ca": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 537200,
-   "vol": 3845314,
-   "mcap": 31737789,
+   "liq": 510618,
+   "vol": 3685272,
+   "mcap": 28693744,
    "holders": 36347,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1794274578873
+   "scannedAt": 1794276615717
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 488824,
-   "vol": 1686622,
-   "mcap": 10539454,
+   "liq": 490685,
+   "vol": 1691615,
+   "mcap": 10677684,
    "holders": 11440,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1794274580440
+   "scannedAt": 1794276617224
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -100,9 +100,9 @@
     1,
     null
    ],
-   "liq": 226919,
-   "vol": 531915,
-   "mcap": 4145565,
+   "liq": 223719,
+   "vol": 511548,
+   "mcap": 4030374,
    "holders": 2267,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -113,7 +113,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1794274581846
+   "scannedAt": 1794276618874
+  },
+  {
+   "ca": "GydpvgKppv8a4gGQqAQsyQJxtQN4S6Ym9gKxjnN3mfun",
+   "chain": "solana",
+   "sym": "SENSE",
+   "name": "Sixth Sense Labs",
+   "img": "https://cdn.dexscreener.com/cms/images/0iZN41l4fWTYIq6X?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 47970,
+   "vol": 24502,
+   "mcap": 263656,
+   "holders": 699,
+   "createdAt": 1793284653000,
+   "handle": "sextus_sensus",
+   "launchpad": null,
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/gtl872vumrwnc34asqlzctih8co2fcwd9zpkzy2y1lqc",
+   "scannedAt": 1794276638734
   },
   {
    "ca": "TiMSdJrkVwUpeEWJpuqRvHt4wVS7uH77LbNPGGVJXNw",
@@ -137,9 +174,9 @@
     1,
     null
    ],
-   "liq": 32281,
-   "vol": 409792,
-   "mcap": 363551,
+   "liq": 34973,
+   "vol": 419346,
+   "mcap": 428358,
    "holders": 345,
    "createdAt": 1793468092000,
    "handle": "returntotimmy",
@@ -150,7 +187,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/6h9lwrbatqsftxtsimmzhwncpxtezk1klsj4bc7jz1nu",
-   "scannedAt": 1794274583259
+   "scannedAt": 1794276620337
   }
  ]
 }
