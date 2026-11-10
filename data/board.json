@@ -1,8 +1,8 @@
 {
- "updatedAt": 1794271529980,
+ "updatedAt": 1794272927472,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 45,
+ "scanned": 44,
  "items": [
   {
    "ca": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 501659,
-   "vol": 4737900,
-   "mcap": 27723728,
+   "liq": 537333,
+   "vol": 4198067,
+   "mcap": 31652010,
    "holders": 36347,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1794271462297
+   "scannedAt": 1794272842553
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 494799,
-   "vol": 1685615,
-   "mcap": 10977819,
+   "liq": 493568,
+   "vol": 1685592,
+   "mcap": 10866141,
    "holders": 11440,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1794271463696
+   "scannedAt": 1794272844659
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -100,9 +100,9 @@
     1,
     null
    ],
-   "liq": 223301,
-   "vol": 542043,
-   "mcap": 4015828,
+   "liq": 226204,
+   "vol": 543735,
+   "mcap": 4119878,
    "holders": 2267,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -113,7 +113,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1794271465483
+   "scannedAt": 1794272847903
   },
   {
    "ca": "TiMSdJrkVwUpeEWJpuqRvHt4wVS7uH77LbNPGGVJXNw",
@@ -137,9 +137,9 @@
     1,
     null
    ],
-   "liq": 32591,
-   "vol": 403083,
-   "mcap": 368009,
+   "liq": 31932,
+   "vol": 408951,
+   "mcap": 355212,
    "holders": 345,
    "createdAt": 1793468092000,
    "handle": "returntotimmy",
@@ -150,7 +150,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/6h9lwrbatqsftxtsimmzhwncpxtezk1klsj4bc7jz1nu",
-   "scannedAt": 1794271466883
+   "scannedAt": 1794272850117
+  },
+  {
+   "ca": "2HhH7LwfNHrxqMrSoXZ6Ri7GdmRYSJ4e8qSra9Krpump",
+   "chain": "solana",
+   "sym": "forg",
+   "name": "forg",
+   "img": "https://cdn.dexscreener.com/cms/images/nqSBj5C_Yi9b2g5l?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 30693,
+   "vol": 244758,
+   "mcap": 152270,
+   "holders": 915,
+   "createdAt": 1794148625000,
+   "handle": "forgonsolana",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/4shxry7svmew899ozjaxgkprrbqlqoghzmrhyswcmrju",
+   "scannedAt": 1794272902547
   }
  ]
 }
