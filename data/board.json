@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794299760859,
+ "updatedAt": 1794301803871,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 427393,
-   "vol": 3707881,
-   "mcap": 20073326,
+   "liq": 405596,
+   "vol": 3937437,
+   "mcap": 18106396,
    "holders": 38009,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1794299661544
+   "scannedAt": 1794301706399
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 507652,
-   "vol": 1538335,
-   "mcap": 10036609,
+   "liq": 506998,
+   "vol": 1554590,
+   "mcap": 10162331,
    "holders": 11820,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1794299663528
+   "scannedAt": 1794301709205
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -100,9 +100,9 @@
     1,
     null
    ],
-   "liq": 218000,
-   "vol": 414407,
-   "mcap": 3826224,
+   "liq": 218866,
+   "vol": 410941,
+   "mcap": 3856044,
    "holders": 2392,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -113,7 +113,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1794299666168
+   "scannedAt": 1794301710868
   },
   {
    "ca": "GydpvgKppv8a4gGQqAQsyQJxtQN4S6Ym9gKxjnN3mfun",
@@ -137,9 +137,9 @@
     1,
     null
    ],
-   "liq": 44021,
+   "liq": 43843,
    "vol": 30570,
-   "mcap": 222119,
+   "mcap": 221214,
    "holders": 695,
    "createdAt": 1793284653000,
    "handle": "sextus_sensus",
@@ -150,7 +150,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/gtl872vumrwnc34asqlzctih8co2fcwd9zpkzy2y1lqc",
-   "scannedAt": 1794299668436
+   "scannedAt": 1794301712322
   },
   {
    "ca": "TiMSdJrkVwUpeEWJpuqRvHt4wVS7uH77LbNPGGVJXNw",
@@ -174,9 +174,9 @@
     1,
     null
    ],
-   "liq": 34362,
-   "vol": 207588,
-   "mcap": 416287,
+   "liq": 35675,
+   "vol": 208541,
+   "mcap": 450380,
    "holders": 550,
    "createdAt": 1793468092000,
    "handle": "returntotimmy",
@@ -187,7 +187,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/6h9lwrbatqsftxtsimmzhwncpxtezk1klsj4bc7jz1nu",
-   "scannedAt": 1794299670092
+   "scannedAt": 1794301715199
   }
  ]
 }
