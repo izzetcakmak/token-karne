@@ -1,46 +1,9 @@
 {
- "updatedAt": 1794310550654,
+ "updatedAt": 1794312907867,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 42,
+ "scanned": 44,
  "items": [
-  {
-   "ca": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
-   "chain": "solana",
-   "sym": "DESSA",
-   "name": "Dessa",
-   "img": "https://cdn.dexscreener.com/cms/images/HmECRYytNn0hGid_?width=800&height=800&quality=95&format=auto",
-   "score": 11,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 391404,
-   "vol": 3979826,
-   "mcap": 17002428,
-   "holders": 38009,
-   "createdAt": 1793019918000,
-   "handle": "DessaOnSOL",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1794310457237
-  },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
    "chain": "solana",
@@ -63,9 +26,9 @@
     1,
     null
    ],
-   "liq": 498374,
-   "vol": 1600757,
-   "mcap": 9796418,
+   "liq": 502011,
+   "vol": 1626625,
+   "mcap": 9975595,
    "holders": 11820,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -76,44 +39,43 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1794310459028
+   "scannedAt": 1794312639207
   },
   {
-   "ca": "GydpvgKppv8a4gGQqAQsyQJxtQN4S6Ym9gKxjnN3mfun",
+   "ca": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
    "chain": "solana",
-   "sym": "SENSE",
-   "name": "Sixth Sense Labs",
-   "img": "https://cdn.dexscreener.com/cms/images/0iZN41l4fWTYIq6X?width=800&height=800&quality=95&format=auto",
+   "sym": "DESSA",
+   "name": "Dessa",
+   "img": "https://cdn.dexscreener.com/cms/images/HmECRYytNn0hGid_?width=800&height=800&quality=95&format=auto",
    "score": 9,
-   "unknown": 1,
+   "unknown": 3,
    "answers": [
     1,
+    null,
     1,
     1,
     1,
-    0,
-    0,
     1,
+    null,
     1,
     1,
     1,
     1,
     null
    ],
-   "liq": 43255,
-   "vol": 30583,
-   "mcap": 217928,
-   "holders": 695,
-   "createdAt": 1793284653000,
-   "handle": "sextus_sensus",
+   "liq": 397504,
+   "vol": 3995559,
+   "mcap": 17500645,
+   "holders": 38009,
+   "createdAt": 1793019918000,
+   "handle": "DessaOnSOL",
    "launchpad": null,
    "flags": 0,
    "sources": [
-    "GoPlus",
-    "RugCheck"
+    "GoPlus"
    ],
-   "url": "https://dexscreener.com/solana/gtl872vumrwnc34asqlzctih8co2fcwd9zpkzy2y1lqc",
-   "scannedAt": 1794310465407
+   "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
+   "scannedAt": 1794312637406
   }
  ]
 }
