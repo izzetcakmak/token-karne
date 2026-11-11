@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794388186095,
+ "updatedAt": 1794389724751,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 44,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 435762,
-   "vol": 2473155,
-   "mcap": 7884126,
+   "liq": 435474,
+   "vol": 2469019,
+   "mcap": 7722883,
    "holders": 11626,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -39,44 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1794388090972
-  },
-  {
-   "ca": "8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump",
-   "chain": "solana",
-   "sym": "GLITCH",
-   "name": "Infinite Money Glitch",
-   "img": "https://cdn.dexscreener.com/cms/images/gAu3LdjS988GlL3f?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 121495,
-   "vol": 279488,
-   "mcap": 1884264,
-   "holders": 2008,
-   "createdAt": 1792164888000,
-   "handle": "GlitchOnSolana_",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/em6rvzgxhd35pz7cvujctpenv4jaztscavhaxbxcbcg7",
-   "scannedAt": 1794388092716
+   "scannedAt": 1794389654740
   }
  ]
 }
