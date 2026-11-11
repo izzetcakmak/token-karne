@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794406165306,
+ "updatedAt": 1794407729920,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 44,
@@ -26,10 +26,10 @@
     1,
     null
    ],
-   "liq": 748519,
-   "vol": 379713,
-   "mcap": 12837886,
-   "holders": 35274,
+   "liq": 751591,
+   "vol": 381712,
+   "mcap": 12956249,
+   "holders": 35276,
    "createdAt": 1787522174000,
    "handle": "tartprotocol",
    "launchpad": null,
@@ -38,7 +38,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x30000a407fabebe29439f8e437050512ff6661be",
-   "scannedAt": 1794406066972
+   "scannedAt": 1794407661597
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -46,7 +46,7 @@
    "sym": "GATO",
    "name": "GTA6CAT",
    "img": "https://cdn.dexscreener.com/cms/images/-8CCNt5h1g4Fnvqj?width=800&height=800&quality=95&format=auto",
-   "score": 9,
+   "score": 10,
    "unknown": 1,
    "answers": [
     1,
@@ -58,13 +58,13 @@
     1,
     1,
     1,
-    0,
+    1,
     1,
     null
    ],
-   "liq": 484686,
-   "vol": 2127519,
-   "mcap": 9819430,
+   "liq": 473601,
+   "vol": 2081736,
+   "mcap": 9446755,
    "holders": 11633,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -75,7 +75,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1794406070120
+   "scannedAt": 1794407663427
   },
   {
    "ca": "9VZerdNL1x6EjetDqRnh5bYcdmk1y8sLAGs1ybzGpump",
@@ -99,9 +99,9 @@
     1,
     null
    ],
-   "liq": 60451,
-   "vol": 3189994,
-   "mcap": 312420,
+   "liq": 57409,
+   "vol": 2957680,
+   "mcap": 274857,
    "holders": 3791,
    "createdAt": 1794300417000,
    "handle": "uncquant",
@@ -112,7 +112,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/6mdmwvcsrmabtqjc7gbbu5fbuflbc6djxgxm5vtnrdzq",
-   "scannedAt": 1794406071627
+   "scannedAt": 1794407664844
   }
  ]
 }
