@@ -1,8 +1,8 @@
 {
- "updatedAt": 1794381012877,
+ "updatedAt": 1794382531624,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 45,
+ "scanned": 44,
  "items": [
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 421386,
-   "vol": 2521441,
-   "mcap": 7024840,
+   "liq": 417531,
+   "vol": 2531485,
+   "mcap": 7070642,
    "holders": 11626,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -39,81 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1794380909316
-  },
-  {
-   "ca": "8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump",
-   "chain": "solana",
-   "sym": "GLITCH",
-   "name": "Infinite Money Glitch",
-   "img": "https://cdn.dexscreener.com/cms/images/gAu3LdjS988GlL3f?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 120484,
-   "vol": 302984,
-   "mcap": 1869963,
-   "holders": 2008,
-   "createdAt": 1792164888000,
-   "handle": "GlitchOnSolana_",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/em6rvzgxhd35pz7cvujctpenv4jaztscavhaxbxcbcg7",
-   "scannedAt": 1794380911512
-  },
-  {
-   "ca": "5BjfgmtfqvNpAWx1CnZynoWLWNMnrwHLhTFzQ81vkEc8",
-   "chain": "solana",
-   "sym": "ClapCat",
-   "name": "Clapping Cat",
-   "img": "https://cdn.dexscreener.com/cms/images/Ur7AXaBYcNO3-rO5?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 37099,
-   "vol": 108104,
-   "mcap": 150845,
-   "holders": 1434,
-   "createdAt": 1790622415000,
-   "handle": "clapcatonsol",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/4er3ddypzgrlgwbgfea2mp1xusqpycvmt2zggwy5xaqt",
-   "scannedAt": 1794380944125
+   "scannedAt": 1794382444995
   }
  ]
 }
