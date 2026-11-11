@@ -1,8 +1,8 @@
 {
- "updatedAt": 1794396921981,
+ "updatedAt": 1794399190540,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 45,
+ "scanned": 44,
  "items": [
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 448089,
-   "vol": 2482529,
-   "mcap": 8293858,
+   "liq": 448642,
+   "vol": 2449688,
+   "mcap": 8309413,
    "holders": 11633,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -39,7 +39,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1794396852990
+   "scannedAt": 1794399083051
+  },
+  {
+   "ca": "9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump",
+   "chain": "solana",
+   "sym": "DIGS",
+   "name": "AiDiglet",
+   "img": "https://cdn.dexscreener.com/cms/images/njwaE8gbx_dMOMA2?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 30425,
+   "vol": 458438,
+   "mcap": 122252,
+   "holders": 1877,
+   "createdAt": 1793190770000,
+   "handle": "aidiglet",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/3mxdjdz1gae5hzic4dj4unldxj5dbcc9jssyq55mfykg",
+   "scannedAt": 1794399087242
   }
  ]
 }
