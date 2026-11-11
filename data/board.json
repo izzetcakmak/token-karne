@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794427772557,
+ "updatedAt": 1794431129520,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,10 +26,10 @@
     1,
     null
    ],
-   "liq": 722959,
-   "vol": 472059,
-   "mcap": 11894257,
-   "holders": 35612,
+   "liq": 721094,
+   "vol": 484743,
+   "mcap": 11824097,
+   "holders": 35746,
    "createdAt": 1787522174000,
    "handle": "tartprotocol",
    "launchpad": null,
@@ -38,7 +38,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x30000a407fabebe29439f8e437050512ff6661be",
-   "scannedAt": 1794427674367
+   "scannedAt": 1794431028389
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -62,10 +62,10 @@
     1,
     null
    ],
-   "liq": 473396,
-   "vol": 1626006,
-   "mcap": 8647558,
-   "holders": 11633,
+   "liq": 458109,
+   "vol": 1618571,
+   "mcap": 7939200,
+   "holders": 11645,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
    "launchpad": "Pump.Fun",
@@ -75,7 +75,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1794427675884
+   "scannedAt": 1794431030446
   }
  ]
 }
