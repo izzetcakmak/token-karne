@@ -1,8 +1,8 @@
 {
- "updatedAt": 1794399190540,
+ "updatedAt": 1794400642694,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 44,
+ "scanned": 43,
  "items": [
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 448642,
-   "vol": 2449688,
-   "mcap": 8309413,
+   "liq": 444974,
+   "vol": 2419039,
+   "mcap": 8093235,
    "holders": 11633,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -39,14 +39,14 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1794399083051
+   "scannedAt": 1794400552370
   },
   {
-   "ca": "9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump",
+   "ca": "5BjfgmtfqvNpAWx1CnZynoWLWNMnrwHLhTFzQ81vkEc8",
    "chain": "solana",
-   "sym": "DIGS",
-   "name": "AiDiglet",
-   "img": "https://cdn.dexscreener.com/cms/images/njwaE8gbx_dMOMA2?width=800&height=800&quality=95&format=auto",
+   "sym": "ClapCat",
+   "name": "Clapping Cat",
+   "img": "https://cdn.dexscreener.com/cms/images/Ur7AXaBYcNO3-rO5?width=800&height=800&quality=95&format=auto",
    "score": 9,
    "unknown": 1,
    "answers": [
@@ -63,20 +63,20 @@
     1,
     null
    ],
-   "liq": 30425,
-   "vol": 458438,
-   "mcap": 122252,
-   "holders": 1877,
-   "createdAt": 1793190770000,
-   "handle": "aidiglet",
+   "liq": 50736,
+   "vol": 219562,
+   "mcap": 268916,
+   "holders": 1491,
+   "createdAt": 1790622415000,
+   "handle": "clapcatonsol",
    "launchpad": "Pump.Fun",
    "flags": 0,
    "sources": [
     "GoPlus",
     "RugCheck"
    ],
-   "url": "https://dexscreener.com/solana/3mxdjdz1gae5hzic4dj4unldxj5dbcc9jssyq55mfykg",
-   "scannedAt": 1794399087242
+   "url": "https://dexscreener.com/solana/4er3ddypzgrlgwbgfea2mp1xusqpycvmt2zggwy5xaqt",
+   "scannedAt": 1794400622800
   }
  ]
 }
