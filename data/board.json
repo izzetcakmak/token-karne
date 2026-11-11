@@ -1,8 +1,8 @@
 {
- "updatedAt": 1794407729920,
+ "updatedAt": 1794409721829,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 44,
+ "scanned": 45,
  "items": [
   {
    "ca": "0x7AB8d02CBb51Ff7223fDe700eAaa2a91Bf750314",
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 751591,
-   "vol": 381712,
-   "mcap": 12956249,
+   "liq": 740402,
+   "vol": 410523,
+   "mcap": 12577966,
    "holders": 35276,
    "createdAt": 1787522174000,
    "handle": "tartprotocol",
@@ -38,7 +38,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x30000a407fabebe29439f8e437050512ff6661be",
-   "scannedAt": 1794407661597
+   "scannedAt": 1794409626857
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -62,9 +62,9 @@
     1,
     null
    ],
-   "liq": 473601,
-   "vol": 2081736,
-   "mcap": 9446755,
+   "liq": 473670,
+   "vol": 2101496,
+   "mcap": 8370759,
    "holders": 11633,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -75,7 +75,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1794407663427
+   "scannedAt": 1794409628372
   },
   {
    "ca": "9VZerdNL1x6EjetDqRnh5bYcdmk1y8sLAGs1ybzGpump",
@@ -99,9 +99,9 @@
     1,
     null
    ],
-   "liq": 57409,
-   "vol": 2957680,
-   "mcap": 274857,
+   "liq": 57248,
+   "vol": 2745089,
+   "mcap": 282720,
    "holders": 3791,
    "createdAt": 1794300417000,
    "handle": "uncquant",
@@ -112,7 +112,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/6mdmwvcsrmabtqjc7gbbu5fbuflbc6djxgxm5vtnrdzq",
-   "scannedAt": 1794407664844
+   "scannedAt": 1794409630745
+  },
+  {
+   "ca": "FP7NvFXQXoZL1nQC5QZtE1bzwgALdxj1TeA9J25epump",
+   "chain": "solana",
+   "sym": "CatFu",
+   "name": "CatFu",
+   "img": "https://cdn.dexscreener.com/cms/images/_ameDvi2wQUflYBu?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 32150,
+   "vol": 110269,
+   "mcap": 104026,
+   "holders": 678,
+   "createdAt": 1772332405000,
+   "handle": "catfusolana",
+   "launchpad": null,
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/4afz7xzcbmeyboiy6xeoswjbg8wyjlxr6faysjsuvmkw",
+   "scannedAt": 1794409681813
   }
  ]
 }
