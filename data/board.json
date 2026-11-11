@@ -1,9 +1,45 @@
 {
- "updatedAt": 1794418642622,
+ "updatedAt": 1794420550289,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
  "items": [
+  {
+   "ca": "0x7AB8d02CBb51Ff7223fDe700eAaa2a91Bf750314",
+   "chain": "bsc",
+   "sym": "TART",
+   "name": "TartSwap",
+   "img": "https://cdn.dexscreener.com/cms/images/kDVz5vcKSnLS1iEe?width=800&height=800&quality=95&format=auto",
+   "score": 10,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 727118,
+   "vol": 439510,
+   "mcap": 12013778,
+   "holders": 35479,
+   "createdAt": 1787522174000,
+   "handle": "tartprotocol",
+   "launchpad": null,
+   "flags": 0,
+   "sources": [
+    "GoPlus"
+   ],
+   "url": "https://dexscreener.com/bsc/0x30000a407fabebe29439f8e437050512ff6661be",
+   "scannedAt": 1794420515174
+  },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
    "chain": "solana",
@@ -26,9 +62,9 @@
     1,
     null
    ],
-   "liq": 472477,
-   "vol": 1701825,
-   "mcap": 8371370,
+   "liq": 468811,
+   "vol": 1638889,
+   "mcap": 8218406,
    "holders": 11633,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -39,7 +75,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1794418502567
+   "scannedAt": 1794420478990
   },
   {
    "ca": "9VZerdNL1x6EjetDqRnh5bYcdmk1y8sLAGs1ybzGpump",
@@ -63,9 +99,9 @@
     1,
     null
    ],
-   "liq": 52654,
-   "vol": 2276646,
-   "mcap": 229410,
+   "liq": 49079,
+   "vol": 2265129,
+   "mcap": 205834,
    "holders": 3415,
    "createdAt": 1794300417000,
    "handle": "uncquant",
@@ -76,44 +112,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/6mdmwvcsrmabtqjc7gbbu5fbuflbc6djxgxm5vtnrdzq",
-   "scannedAt": 1794418507598
-  },
-  {
-   "ca": "2g23GpSneyx7Uqb25YKA6i66m8f1VDYwpGCVGXhdwK8h",
-   "chain": "solana",
-   "sym": "BINKY",
-   "name": "binky",
-   "img": "https://cdn.dexscreener.com/cms/images/LjICnFsBoK_5NGVQ?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 37310,
-   "vol": 127949,
-   "mcap": 157807,
-   "holders": 498,
-   "createdAt": 1789879126000,
-   "handle": "binkythecow",
-   "launchpad": null,
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/3tydhmqhqdroh9zbo7cpnz31gby96jptipfgx6ktrozh",
-   "scannedAt": 1794418564458
+   "scannedAt": 1794420480679
   }
  ]
 }
