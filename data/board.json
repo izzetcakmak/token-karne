@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794368664223,
+ "updatedAt": 1794370727364,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,10 +26,10 @@
     1,
     null
    ],
-   "liq": 276628,
-   "vol": 1908502,
-   "mcap": 8496405,
-   "holders": 57296,
+   "liq": 274070,
+   "vol": 1816642,
+   "mcap": 8357710,
+   "holders": 57347,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
    "launchpad": "Pump.Fun",
@@ -38,7 +38,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1794368072450
+   "scannedAt": 1794370127280
   }
  ]
 }
