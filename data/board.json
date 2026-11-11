@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794377764204,
+ "updatedAt": 1794379208777,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 429019,
-   "vol": 2496234,
-   "mcap": 7666346,
+   "liq": 419839,
+   "vol": 2510851,
+   "mcap": 7226970,
    "holders": 11626,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1794377692040
+   "scannedAt": 1794379142666
   },
   {
    "ca": "8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 123688,
-   "vol": 305166,
-   "mcap": 1951149,
+   "liq": 122195,
+   "vol": 304905,
+   "mcap": 1905380,
    "holders": 2008,
    "createdAt": 1792164888000,
    "handle": "GlitchOnSolana_",
@@ -76,81 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/em6rvzgxhd35pz7cvujctpenv4jaztscavhaxbxcbcg7",
-   "scannedAt": 1794377726630
-  },
-  {
-   "ca": "8ryRQD6jWfxnSdvvVbQ8Tzwo1NgGP7w1X1nQPpb4pump",
-   "chain": "solana",
-   "sym": "meowl",
-   "name": "meowl the owl cat",
-   "img": "https://cdn.dexscreener.com/cms/images/JMgQi97kDy1Zdufd?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 64391,
-   "vol": 90019,
-   "mcap": 291591,
-   "holders": 922,
-   "createdAt": 1747061306000,
-   "handle": "meowl_cto",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/7x7tqm1xeqioaqtxri9ubvvchlvjacqarzkzwfx7t2ao",
-   "scannedAt": 1794377717070
-  },
-  {
-   "ca": "5BjfgmtfqvNpAWx1CnZynoWLWNMnrwHLhTFzQ81vkEc8",
-   "chain": "solana",
-   "sym": "ClapCat",
-   "name": "Clapping Cat",
-   "img": "https://cdn.dexscreener.com/cms/images/Ur7AXaBYcNO3-rO5?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 35999,
-   "vol": 96933,
-   "mcap": 141310,
-   "holders": 1434,
-   "createdAt": 1790622415000,
-   "handle": "clapcatonsol",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/4er3ddypzgrlgwbgfea2mp1xusqpycvmt2zggwy5xaqt",
-   "scannedAt": 1794377714224
+   "scannedAt": 1794379144071
   }
  ]
 }
