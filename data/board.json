@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794422155581,
+ "updatedAt": 1794424058556,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,10 +26,10 @@
     1,
     null
    ],
-   "liq": 724669,
-   "vol": 447779,
-   "mcap": 11910491,
-   "holders": 35479,
+   "liq": 722385,
+   "vol": 455437,
+   "mcap": 11879076,
+   "holders": 35612,
    "createdAt": 1787522174000,
    "handle": "tartprotocol",
    "launchpad": null,
@@ -38,7 +38,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x30000a407fabebe29439f8e437050512ff6661be",
-   "scannedAt": 1794422053002
+   "scannedAt": 1794423990560
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -46,7 +46,7 @@
    "sym": "GATO",
    "name": "GTA6CAT",
    "img": "https://cdn.dexscreener.com/cms/images/-8CCNt5h1g4Fnvqj?width=800&height=800&quality=95&format=auto",
-   "score": 9,
+   "score": 10,
    "unknown": 1,
    "answers": [
     1,
@@ -58,13 +58,13 @@
     1,
     1,
     1,
-    0,
+    1,
     1,
     null
    ],
-   "liq": 466125,
-   "vol": 1635505,
-   "mcap": 8205961,
+   "liq": 462873,
+   "vol": 1696263,
+   "mcap": 8157661,
    "holders": 11633,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -75,81 +75,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1794422056040
-  },
-  {
-   "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
-   "chain": "solana",
-   "sym": "CBUCKS",
-   "name": "Cartoon Money",
-   "img": "https://cdn.dexscreener.com/cms/images/2bajn2a05AdQGV-4?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 226618,
-   "vol": 410152,
-   "mcap": 4080661,
-   "holders": 2503,
-   "createdAt": 1791311393000,
-   "handle": "cartoonmoney_ai",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1794422103370
-  },
-  {
-   "ca": "9VZerdNL1x6EjetDqRnh5bYcdmk1y8sLAGs1ybzGpump",
-   "chain": "solana",
-   "sym": "X",
-   "name": "apeonx",
-   "img": "https://cdn.dexscreener.com/cms/images/MfmLtv78yRfZC2Re?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 45664,
-   "vol": 2235764,
-   "mcap": 180848,
-   "holders": 3415,
-   "createdAt": 1794300417000,
-   "handle": "uncquant",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/6mdmwvcsrmabtqjc7gbbu5fbuflbc6djxgxm5vtnrdzq",
-   "scannedAt": 1794422059918
+   "scannedAt": 1794423992255
   }
  ]
 }
