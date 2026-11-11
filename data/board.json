@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794367022005,
+ "updatedAt": 1794368664223,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -10,13 +10,13 @@
    "sym": "DESSA",
    "name": "Dessa",
    "img": "https://cdn.dexscreener.com/cms/images/HmECRYytNn0hGid_?width=800&height=800&quality=95&format=auto",
-   "score": 11,
-   "unknown": 1,
+   "score": 9,
+   "unknown": 3,
    "answers": [
     1,
     1,
-    1,
-    1,
+    null,
+    null,
     1,
     1,
     1,
@@ -26,20 +26,19 @@
     1,
     null
    ],
-   "liq": 271245,
-   "vol": 2026604,
-   "mcap": 8191003,
-   "holders": 40124,
+   "liq": 276628,
+   "vol": 1908502,
+   "mcap": 8496405,
+   "holders": 57296,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
    "launchpad": "Pump.Fun",
    "flags": 0,
    "sources": [
-    "GoPlus",
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1794366512579
+   "scannedAt": 1794368072450
   }
  ]
 }
