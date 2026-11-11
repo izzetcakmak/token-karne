@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794393350159,
+ "updatedAt": 1794395293824,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 44,
@@ -26,10 +26,10 @@
     1,
     null
    ],
-   "liq": 460008,
-   "vol": 2501584,
-   "mcap": 8890160,
-   "holders": 11626,
+   "liq": 457368,
+   "vol": 2504104,
+   "mcap": 8761627,
+   "holders": 11633,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
    "launchpad": "Pump.Fun",
@@ -39,44 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1794393267732
-  },
-  {
-   "ca": "GHtnAtTCPFz8MRTMQiEyuEob283EUgqd1d1Fysnhpump",
-   "chain": "solana",
-   "sym": "VEYL",
-   "name": "Veylfi",
-   "img": "https://cdn.dexscreener.com/cms/images/sivHFYH5uXtznMlU?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 34236,
-   "vol": 1878390,
-   "mcap": 175729,
-   "holders": 49,
-   "createdAt": 1793708243000,
-   "handle": "Veylfi",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/gwwuaoambznle9pjqesaxkfzmnufbwuns9iwlbqfgvj",
-   "scannedAt": 1794393269226
+   "scannedAt": 1794395222243
   }
  ]
 }
