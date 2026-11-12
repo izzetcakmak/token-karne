@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794450959099,
+ "updatedAt": 1794453027192,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 407984,
-   "vol": 1668175,
-   "mcap": 5629942,
+   "liq": 401678,
+   "vol": 1670117,
+   "mcap": 5574394,
    "holders": 11645,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -39,7 +39,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1794450862301
+   "scannedAt": 1794452935474
+  },
+  {
+   "ca": "8AAVuQpJcqpvCuutxyBTVvgBEXZJSkZoNv1sExpBpump",
+   "chain": "solana",
+   "sym": "NOBUSHIBA",
+   "name": "Shiba Nobunaga",
+   "img": "https://cdn.dexscreener.com/cms/images/hPlPUoAJvY-J062N?width=800&height=800&quality=95&format=auto",
+   "score": 10,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 81165,
+   "vol": 856671,
+   "mcap": 1022462,
+   "holders": 9950,
+   "createdAt": 1794360400000,
+   "handle": "thenobushiba",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/dagau7g32pmkjf8ng2372xo2hygfgenx5yn7mwmkhfgf",
+   "scannedAt": 1794452937167
   }
  ]
 }
