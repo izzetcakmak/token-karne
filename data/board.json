@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794440120065,
+ "updatedAt": 1794442886969,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 433107,
-   "vol": 1685298,
-   "mcap": 6297077,
+   "liq": 423150,
+   "vol": 1659122,
+   "mcap": 6101288,
    "holders": 11645,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -39,44 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1794440030232
-  },
-  {
-   "ca": "9VZerdNL1x6EjetDqRnh5bYcdmk1y8sLAGs1ybzGpump",
-   "chain": "solana",
-   "sym": "X",
-   "name": "apeonx",
-   "img": "https://cdn.dexscreener.com/cms/images/MfmLtv78yRfZC2Re?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 32980,
-   "vol": 1264572,
-   "mcap": 104786,
-   "holders": 3415,
-   "createdAt": 1794300417000,
-   "handle": "uncquant",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/6mdmwvcsrmabtqjc7gbbu5fbuflbc6djxgxm5vtnrdzq",
-   "scannedAt": 1794440101281
+   "scannedAt": 1794442788283
   }
  ]
 }
