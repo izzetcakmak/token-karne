@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794444500025,
+ "updatedAt": 1794445755555,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 430688,
-   "vol": 1662705,
-   "mcap": 6328620,
+   "liq": 423948,
+   "vol": 1642492,
+   "mcap": 6162014,
    "holders": 11645,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1794444419827
+   "scannedAt": 1794445679297
   }
  ]
 }
