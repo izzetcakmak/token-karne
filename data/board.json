@@ -1,8 +1,8 @@
 {
- "updatedAt": 1794494148144,
+ "updatedAt": 1794496151482,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 44,
+ "scanned": 42,
  "items": [
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 368693,
-   "vol": 1807611,
-   "mcap": 4821975,
+   "liq": 379092,
+   "vol": 1775673,
+   "mcap": 4916559,
    "holders": 11632,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -39,7 +39,43 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1794494071442
+   "scannedAt": 1794496060793
+  },
+  {
+   "ca": "KMifrkYmDdAKtVXAVBEPEQxJ7qP2iLgUcfZjUZipump",
+   "chain": "solana",
+   "sym": "RAMBO",
+   "name": "RAMBO",
+   "img": "https://cdn.dexscreener.com/cms/images/XISzZm6eem7k59zw?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 3,
+   "answers": [
+    1,
+    1,
+    null,
+    null,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 288589,
+   "vol": 1087311,
+   "mcap": 11331859,
+   "holders": 33592,
+   "createdAt": 1793717354000,
+   "handle": "ramdefender",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/gz15vwspy9kfynkrmpkokp2h9yygvbovoxjsgwsjcvfk",
+   "scannedAt": 1794496072828
   }
  ]
 }
