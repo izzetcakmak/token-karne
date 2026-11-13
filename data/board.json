@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794568123541,
+ "updatedAt": 1794569740250,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 44,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 692602,
-   "vol": 24011235,
-   "mcap": 31282204,
+   "liq": 544671,
+   "vol": 25015880,
+   "mcap": 19189391,
    "holders": 14007,
    "createdAt": 1794472067000,
    "handle": "elonmusk",
@@ -38,7 +38,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0xeccb0bcb5e99e659ba48a78089744888cdd39215",
-   "scannedAt": 1794568027392
+   "scannedAt": 1794569649636
   },
   {
    "ca": "mBjWbrkGosa8RZopsghLZTF6KELiMUmEZh4mijqpump",
@@ -62,9 +62,9 @@
     1,
     null
    ],
-   "liq": 58822,
-   "vol": 644970,
-   "mcap": 586540,
+   "liq": 58855,
+   "vol": 634596,
+   "mcap": 586910,
    "holders": 5716,
    "createdAt": 1794457171000,
    "handle": "mevsfun",
@@ -75,7 +75,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/2nk8aqscrntgj76ixrstt3dxgtbz9rrfbctphb499psf",
-   "scannedAt": 1794568030562
+   "scannedAt": 1794569652052
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -99,9 +99,9 @@
     1,
     null
    ],
-   "liq": 376139,
-   "vol": 1532277,
-   "mcap": 5182656,
+   "liq": 359227,
+   "vol": 1539557,
+   "mcap": 5082042,
    "holders": 11702,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -112,44 +112,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1794568029059
-  },
-  {
-   "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
-   "chain": "solana",
-   "sym": "CBUCKS",
-   "name": "Cartoon Money",
-   "img": "https://cdn.dexscreener.com/cms/images/2bajn2a05AdQGV-4?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 197123,
-   "vol": 524807,
-   "mcap": 3054614,
-   "holders": 2508,
-   "createdAt": 1791311393000,
-   "handle": "cartoonmoney_ai",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1794568085052
+   "scannedAt": 1794569653710
   }
  ]
 }
