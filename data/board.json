@@ -1,8 +1,8 @@
 {
- "updatedAt": 1794566155985,
+ "updatedAt": 1794568123541,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 45,
+ "scanned": 44,
  "items": [
   {
    "ca": "0xd6663761cf4163e09D7a7d9eA7a9F6D72264B770",
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 737420,
-   "vol": 22941320,
-   "mcap": 35742432,
+   "liq": 692602,
+   "vol": 24011235,
+   "mcap": 31282204,
    "holders": 14007,
    "createdAt": 1794472067000,
    "handle": "elonmusk",
@@ -38,7 +38,44 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0xeccb0bcb5e99e659ba48a78089744888cdd39215",
-   "scannedAt": 1794566060371
+   "scannedAt": 1794568027392
+  },
+  {
+   "ca": "mBjWbrkGosa8RZopsghLZTF6KELiMUmEZh4mijqpump",
+   "chain": "solana",
+   "sym": "MEVS",
+   "name": "Me vs Life",
+   "img": "https://cdn.dexscreener.com/cms/images/zzWjkQNFdoVhEv7V?width=800&height=800&quality=95&format=auto",
+   "score": 11,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 58822,
+   "vol": 644970,
+   "mcap": 586540,
+   "holders": 5716,
+   "createdAt": 1794457171000,
+   "handle": "mevsfun",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/2nk8aqscrntgj76ixrstt3dxgtbz9rrfbctphb499psf",
+   "scannedAt": 1794568030562
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -62,9 +99,9 @@
     1,
     null
    ],
-   "liq": 373343,
-   "vol": 1506142,
-   "mcap": 5070852,
+   "liq": 376139,
+   "vol": 1532277,
+   "mcap": 5182656,
    "holders": 11702,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -75,44 +112,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1794566064584
+   "scannedAt": 1794568029059
   },
   {
-   "ca": "mBjWbrkGosa8RZopsghLZTF6KELiMUmEZh4mijqpump",
+   "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
    "chain": "solana",
-   "sym": "MEVS",
-   "name": "Me vs Life",
-   "img": "https://cdn.dexscreener.com/cms/images/zzWjkQNFdoVhEv7V?width=800&height=800&quality=95&format=auto",
+   "sym": "CBUCKS",
+   "name": "Cartoon Money",
+   "img": "https://cdn.dexscreener.com/cms/images/2bajn2a05AdQGV-4?width=800&height=800&quality=95&format=auto",
    "score": 9,
-   "unknown": 3,
+   "unknown": 1,
    "answers": [
     1,
     1,
     1,
     1,
+    0,
+    0,
     1,
     1,
     1,
-    null,
-    null,
     1,
     1,
     null
    ],
-   "liq": 57882,
-   "vol": 656674,
-   "mcap": 569017,
-   "holders": 5651,
-   "createdAt": 1794457171000,
-   "handle": "mevsfun",
+   "liq": 197123,
+   "vol": 524807,
+   "mcap": 3054614,
+   "holders": 2508,
+   "createdAt": 1791311393000,
+   "handle": "cartoonmoney_ai",
    "launchpad": "Pump.Fun",
-   "flags": 1,
+   "flags": 0,
    "sources": [
     "GoPlus",
     "RugCheck"
    ],
-   "url": "https://dexscreener.com/solana/2nk8aqscrntgj76ixrstt3dxgtbz9rrfbctphb499psf",
-   "scannedAt": 1794566062933
+   "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
+   "scannedAt": 1794568085052
   }
  ]
 }
