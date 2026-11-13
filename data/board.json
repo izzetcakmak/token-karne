@@ -1,46 +1,9 @@
 {
- "updatedAt": 1794557487408,
+ "updatedAt": 1794558937249,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
  "items": [
-  {
-   "ca": "mBjWbrkGosa8RZopsghLZTF6KELiMUmEZh4mijqpump",
-   "chain": "solana",
-   "sym": "MEVS",
-   "name": "Me vs Life",
-   "img": "https://cdn.dexscreener.com/cms/images/zzWjkQNFdoVhEv7V?width=800&height=800&quality=95&format=auto",
-   "score": 11,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 47150,
-   "vol": 702692,
-   "mcap": 385686,
-   "holders": 5651,
-   "createdAt": 1794457171000,
-   "handle": "mevsfun",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/2nk8aqscrntgj76ixrstt3dxgtbz9rrfbctphb499psf",
-   "scannedAt": 1794557391343
-  },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
    "chain": "solana",
@@ -63,9 +26,9 @@
     1,
     null
    ],
-   "liq": 367245,
-   "vol": 1346400,
-   "mcap": 4947180,
+   "liq": 371889,
+   "vol": 1391981,
+   "mcap": 5097135,
    "holders": 11702,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -76,7 +39,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1794557389457
+   "scannedAt": 1794558853715
+  },
+  {
+   "ca": "mBjWbrkGosa8RZopsghLZTF6KELiMUmEZh4mijqpump",
+   "chain": "solana",
+   "sym": "MEVS",
+   "name": "Me vs Life",
+   "img": "https://cdn.dexscreener.com/cms/images/zzWjkQNFdoVhEv7V?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 3,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null,
+    null,
+    1,
+    1,
+    null
+   ],
+   "liq": 47197,
+   "vol": 698888,
+   "mcap": 385703,
+   "holders": 5651,
+   "createdAt": 1794457171000,
+   "handle": "mevsfun",
+   "launchpad": "Pump.Fun",
+   "flags": 1,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/2nk8aqscrntgj76ixrstt3dxgtbz9rrfbctphb499psf",
+   "scannedAt": 1794558851480
   }
  ]
 }
