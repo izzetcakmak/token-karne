@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794663307347,
+ "updatedAt": 1794665258025,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 43,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 383725,
-   "vol": 1709927,
-   "mcap": 6702621,
+   "liq": 382614,
+   "vol": 1684741,
+   "mcap": 6782426,
    "holders": 11979,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1794663231028
+   "scannedAt": 1794665178303
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 200726,
-   "vol": 198039,
-   "mcap": 3152070,
+   "liq": 212830,
+   "vol": 196804,
+   "mcap": 3537901,
    "holders": 2537,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -76,44 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1794663233252
-  },
-  {
-   "ca": "F4vEFNoH9H2oLYRabaQQ2Z6jAAi2AhRVdTdVH6Nn2J1q",
-   "chain": "solana",
-   "sym": "CJ",
-   "name": "Carl Johnson",
-   "img": "https://cdn.dexscreener.com/cms/images/azM1NbbUSTkj2A5G?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 37017,
-   "vol": 97698,
-   "mcap": 254724,
-   "holders": 520,
-   "createdAt": 1793580744000,
-   "handle": "CJ_Pumpfun",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/esc3fshxapawswc4obkqncnwsvai27xvbab2ucbuqtmv",
-   "scannedAt": 1794663242085
+   "scannedAt": 1794665179936
   }
  ]
 }
