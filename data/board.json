@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794622319379,
+ "updatedAt": 1794623742787,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 423375,
-   "vol": 1994566,
-   "mcap": 8067998,
+   "liq": 407703,
+   "vol": 2015518,
+   "mcap": 7844226,
    "holders": 11812,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1794622227760
+   "scannedAt": 1794623653663
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -47,11 +47,11 @@
    "sym": "CBUCKS",
    "name": "Cartoon Money",
    "img": "https://cdn.dexscreener.com/cms/images/2bajn2a05AdQGV-4?width=800&height=800&quality=95&format=auto",
-   "score": 9,
+   "score": 10,
    "unknown": 1,
    "answers": [
     1,
-    0,
+    1,
     1,
     1,
     0,
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 202322,
-   "vol": 241607,
-   "mcap": 3204557,
+   "liq": 205764,
+   "vol": 228361,
+   "mcap": 3313152,
    "holders": 2511,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -76,7 +76,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1794622230560
+   "scannedAt": 1794623656184
+  },
+  {
+   "ca": "HXxJdaQbrYRvwTAM8M8mUPyoRPvmyuUbPFBRkiAAMASS",
+   "chain": "solana",
+   "sym": "Ansemmas",
+   "name": "Ansemmas",
+   "img": "https://cdn.dexscreener.com/cms/images/wW7-aze6j2Ird808?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 62151,
+   "vol": 233928,
+   "mcap": 342781,
+   "holders": 2554,
+   "createdAt": 1790873795000,
+   "handle": "Ansemmas",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/6qirp44q2t8b1cfbgmnqexcldqhfqmncfaffpkg4n156",
+   "scannedAt": 1794623703422
   }
  ]
 }
