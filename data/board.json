@@ -1,46 +1,9 @@
 {
- "updatedAt": 1794784095830,
+ "updatedAt": 1794785740665,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
  "items": [
-  {
-   "ca": "8RNUw4N655VSrZKuhGdywhbSMDTrheguFPfxbpE2NZHQ",
-   "chain": "solana",
-   "sym": "PURR",
-   "name": "Hypurr",
-   "img": "https://cdn.dexscreener.com/cms/images/pO59cJMJmerhBPg2?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 208539,
-   "vol": 120768,
-   "mcap": 2111607,
-   "holders": 14145,
-   "createdAt": 1787188020000,
-   "handle": "HypurrSF_",
-   "launchpad": "StonkFun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/ad7pbbvvrnofo96wr6ehwmu2o4naz6lao1j98hw8a1tq",
-   "scannedAt": 1794784080274
-  },
   {
    "ca": "0x0b84Cd2A58159057Fe71A1A9438a72C5C97Ab985",
    "chain": "ethereum",
@@ -63,9 +26,9 @@
     1,
     null
    ],
-   "liq": 77897,
-   "vol": 279722,
-   "mcap": 828615,
+   "liq": 76481,
+   "vol": 287529,
+   "mcap": 803698,
    "holders": 508,
    "createdAt": 1794615887000,
    "handle": "anthropiconeth",
@@ -75,7 +38,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/ethereum/0x08f1de596f5917010b753dd7549ee1bdef3c59c0dd05baebad42cc43a87b91aa",
-   "scannedAt": 1794784021004
+   "scannedAt": 1794785651247
   },
   {
    "ca": "0xfF0d881212C24305EFf16A9fa0e8B7cB18dA7128",
@@ -99,9 +62,9 @@
     1,
     null
    ],
-   "liq": 47705,
-   "vol": 23194688,
-   "mcap": 145963,
+   "liq": 49953,
+   "vol": 23196451,
+   "mcap": 160017,
    "holders": 19161,
    "createdAt": 1794646870000,
    "handle": null,
@@ -111,44 +74,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0xd2013426f0c46cb6fb8972644e4b0ee06c70f05b",
-   "scannedAt": 1794784022511
-  },
-  {
-   "ca": "2gVNeu8dP7XiLoaWfUvUJXUM5AdXY8418aft8xhUpump",
-   "chain": "solana",
-   "sym": "GTA6",
-   "name": "GTA VI",
-   "img": "https://cdn.dexscreener.com/cms/images/dCQD7rpB1qKP1o3s?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 39331,
-   "vol": 111392,
-   "mcap": 153046,
-   "holders": 769,
-   "createdAt": 1792269690000,
-   "handle": "GTA6onPF",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/88fjjlwfn9dz3ugft8tfxcwjugfgftldqeitpt1urypu",
-   "scannedAt": 1794784024350
+   "scannedAt": 1794785652729
   }
  ]
 }
