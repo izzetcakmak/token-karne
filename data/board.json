@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794776860966,
+ "updatedAt": 1794778528094,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 73751,
-   "vol": 251312,
-   "mcap": 749768,
+   "liq": 76462,
+   "vol": 256915,
+   "mcap": 808087,
    "holders": 472,
    "createdAt": 1794615887000,
    "handle": "anthropiconeth",
@@ -38,7 +38,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/ethereum/0x08f1de596f5917010b753dd7549ee1bdef3c59c0dd05baebad42cc43a87b91aa",
-   "scannedAt": 1794776764675
+   "scannedAt": 1794778423406
   },
   {
    "ca": "0xfF0d881212C24305EFf16A9fa0e8B7cB18dA7128",
@@ -62,10 +62,10 @@
     1,
     null
    ],
-   "liq": 53075,
-   "vol": 23173650,
-   "mcap": 181048,
-   "holders": 18689,
+   "liq": 57168,
+   "vol": 23178369,
+   "mcap": 209956,
+   "holders": 18965,
    "createdAt": 1794646870000,
    "handle": null,
    "launchpad": null,
@@ -74,7 +74,44 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0xd2013426f0c46cb6fb8972644e4b0ee06c70f05b",
-   "scannedAt": 1794776762557
+   "scannedAt": 1794778424894
+  },
+  {
+   "ca": "9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump",
+   "chain": "solana",
+   "sym": "WISHMAS",
+   "name": "Wishmas ",
+   "img": "https://cdn.dexscreener.com/cms/images/mG35SLp6c5e0BES7?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 42740,
+   "vol": 1048765,
+   "mcap": 208701,
+   "holders": 1271,
+   "createdAt": 1794606206000,
+   "handle": "WishmasOnPump",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/fcsuythnuwbft7rp2yufp1kiwjft15du9wtglurrqx3p",
+   "scannedAt": 1794778429385
   }
  ]
 }
