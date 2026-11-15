@@ -1,9 +1,45 @@
 {
- "updatedAt": 1794771373820,
+ "updatedAt": 1794773332269,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 45,
+ "scanned": 44,
  "items": [
+  {
+   "ca": "0x0b84Cd2A58159057Fe71A1A9438a72C5C97Ab985",
+   "chain": "ethereum",
+   "sym": "ANT",
+   "name": "Anthropic",
+   "img": "https://cdn.dexscreener.com/cms/images/sZWojVf2AIk8GMgr?width=800&height=800&quality=95&format=auto",
+   "score": 10,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 68468,
+   "vol": 236252,
+   "mcap": 650668,
+   "holders": 433,
+   "createdAt": 1794615887000,
+   "handle": "anthropiconeth",
+   "launchpad": null,
+   "flags": 0,
+   "sources": [
+    "GoPlus"
+   ],
+   "url": "https://dexscreener.com/ethereum/0x08f1de596f5917010b753dd7549ee1bdef3c59c0dd05baebad42cc43a87b91aa",
+   "scannedAt": 1794773227010
+  },
   {
    "ca": "0xfF0d881212C24305EFf16A9fa0e8B7cB18dA7128",
    "chain": "bsc",
@@ -26,10 +62,10 @@
     1,
     null
    ],
-   "liq": 125903,
-   "vol": 23112204,
-   "mcap": 1022248,
-   "holders": 18017,
+   "liq": 134484,
+   "vol": 23116940,
+   "mcap": 1166123,
+   "holders": 18689,
    "createdAt": 1794646870000,
    "handle": null,
    "launchpad": null,
@@ -38,43 +74,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0xd2013426f0c46cb6fb8972644e4b0ee06c70f05b",
-   "scannedAt": 1794771237299
-  },
-  {
-   "ca": "0x0b84Cd2A58159057Fe71A1A9438a72C5C97Ab985",
-   "chain": "ethereum",
-   "sym": "ANT",
-   "name": "Anthropic",
-   "img": "https://cdn.dexscreener.com/cms/images/sZWojVf2AIk8GMgr?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 3,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null,
-    null,
-    1,
-    1,
-    null
-   ],
-   "liq": 70422,
-   "vol": 225235,
-   "mcap": 685543,
-   "holders": 433,
-   "createdAt": 1794615887000,
-   "handle": "anthropiconeth",
-   "launchpad": null,
-   "flags": 1,
-   "sources": [
-    "GoPlus"
-   ],
-   "url": "https://dexscreener.com/ethereum/0x08f1de596f5917010b753dd7549ee1bdef3c59c0dd05baebad42cc43a87b91aa",
-   "scannedAt": 1794771364565
+   "scannedAt": 1794773225488
   }
  ]
 }
