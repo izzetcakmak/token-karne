@@ -1,8 +1,8 @@
 {
- "updatedAt": 1794742516725,
+ "updatedAt": 1794744671442,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 45,
+ "scanned": 44,
  "items": [
   {
    "ca": "0xfF0d881212C24305EFf16A9fa0e8B7cB18dA7128",
@@ -26,10 +26,10 @@
     1,
     null
    ],
-   "liq": 604711,
-   "vol": 20210777,
-   "mcap": 24418871,
-   "holders": 3898,
+   "liq": 505735,
+   "vol": 21394144,
+   "mcap": 16899627,
+   "holders": 11446,
    "createdAt": 1794646870000,
    "handle": null,
    "launchpad": null,
@@ -38,7 +38,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0xd2013426f0c46cb6fb8972644e4b0ee06c70f05b",
-   "scannedAt": 1794742423519
+   "scannedAt": 1794744590160
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -62,9 +62,9 @@
     1,
     null
    ],
-   "liq": 387422,
-   "vol": 1311751,
-   "mcap": 6595339,
+   "liq": 392115,
+   "vol": 1318356,
+   "mcap": 6798586,
    "holders": 12171,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -75,44 +75,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1794742425529
-  },
-  {
-   "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
-   "chain": "solana",
-   "sym": "CBUCKS",
-   "name": "Cartoon Money",
-   "img": "https://cdn.dexscreener.com/cms/images/2bajn2a05AdQGV-4?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    null
-   ],
-   "liq": 196222,
-   "vol": 179847,
-   "mcap": 3004128,
-   "holders": 2574,
-   "createdAt": 1791311393000,
-   "handle": "cartoonmoney_ai",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1794742427001
+   "scannedAt": 1794744591872
   }
  ]
 }
