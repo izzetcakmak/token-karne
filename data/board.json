@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794767762604,
+ "updatedAt": 1794769654466,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 44,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 225624,
-   "vol": 23012428,
-   "mcap": 3291964,
+   "liq": 171303,
+   "vol": 23070500,
+   "mcap": 1895015,
    "holders": 18017,
    "createdAt": 1794646870000,
    "handle": null,
@@ -38,7 +38,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0xd2013426f0c46cb6fb8972644e4b0ee06c70f05b",
-   "scannedAt": 1794767644221
+   "scannedAt": 1794769528575
   }
  ]
 }
