@@ -1,8 +1,8 @@
 {
- "updatedAt": 1794748063633,
+ "updatedAt": 1794749716546,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 45,
+ "scanned": 44,
  "items": [
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -26,10 +26,10 @@
     1,
     null
    ],
-   "liq": 393761,
-   "vol": 1333969,
-   "mcap": 6818520,
-   "holders": 12171,
+   "liq": 394145,
+   "vol": 1332570,
+   "mcap": 6795696,
+   "holders": 12211,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
    "launchpad": "Pump.Fun",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1794747980339
+   "scannedAt": 1794749638913
   },
   {
    "ca": "0xfF0d881212C24305EFf16A9fa0e8B7cB18dA7128",
@@ -63,10 +63,10 @@
     1,
     null
    ],
-   "liq": 276328,
-   "vol": 22690350,
-   "mcap": 4964407,
-   "holders": 11446,
+   "liq": 295180,
+   "vol": 22701699,
+   "mcap": 5663773,
+   "holders": 15779,
    "createdAt": 1794646870000,
    "handle": null,
    "launchpad": null,
@@ -75,7 +75,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0xd2013426f0c46cb6fb8972644e4b0ee06c70f05b",
-   "scannedAt": 1794747978755
+   "scannedAt": 1794749640547
   }
  ]
 }
