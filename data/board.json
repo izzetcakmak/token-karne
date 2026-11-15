@@ -1,45 +1,9 @@
 {
- "updatedAt": 1794774945762,
+ "updatedAt": 1794776860966,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 44,
+ "scanned": 45,
  "items": [
-  {
-   "ca": "0xfF0d881212C24305EFf16A9fa0e8B7cB18dA7128",
-   "chain": "bsc",
-   "sym": "Macca",
-   "name": "Macca The Gator",
-   "img": "https://cdn.dexscreener.com/cms/images/jWdgKSEKIFxHAz4I?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    null
-   ],
-   "liq": 97190,
-   "vol": 23143117,
-   "mcap": 608321,
-   "holders": 18689,
-   "createdAt": 1794646870000,
-   "handle": null,
-   "launchpad": null,
-   "flags": 0,
-   "sources": [
-    "GoPlus"
-   ],
-   "url": "https://dexscreener.com/bsc/0xd2013426f0c46cb6fb8972644e4b0ee06c70f05b",
-   "scannedAt": 1794774835931
-  },
   {
    "ca": "0x0b84Cd2A58159057Fe71A1A9438a72C5C97Ab985",
    "chain": "ethereum",
@@ -62,10 +26,10 @@
     1,
     null
    ],
-   "liq": 67361,
-   "vol": 243050,
-   "mcap": 628160,
-   "holders": 433,
+   "liq": 73751,
+   "vol": 251312,
+   "mcap": 749768,
+   "holders": 472,
    "createdAt": 1794615887000,
    "handle": "anthropiconeth",
    "launchpad": null,
@@ -74,7 +38,43 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/ethereum/0x08f1de596f5917010b753dd7549ee1bdef3c59c0dd05baebad42cc43a87b91aa",
-   "scannedAt": 1794774834408
+   "scannedAt": 1794776764675
+  },
+  {
+   "ca": "0xfF0d881212C24305EFf16A9fa0e8B7cB18dA7128",
+   "chain": "bsc",
+   "sym": "Macca",
+   "name": "Macca The Gator",
+   "img": "https://cdn.dexscreener.com/cms/images/jWdgKSEKIFxHAz4I?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    null
+   ],
+   "liq": 53075,
+   "vol": 23173650,
+   "mcap": 181048,
+   "holders": 18689,
+   "createdAt": 1794646870000,
+   "handle": null,
+   "launchpad": null,
+   "flags": 0,
+   "sources": [
+    "GoPlus"
+   ],
+   "url": "https://dexscreener.com/bsc/0xd2013426f0c46cb6fb8972644e4b0ee06c70f05b",
+   "scannedAt": 1794776762557
   }
  ]
 }
