@@ -1,8 +1,8 @@
 {
- "updatedAt": 1794735323168,
+ "updatedAt": 1794737288867,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 44,
+ "scanned": 45,
  "items": [
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 382895,
-   "vol": 1327698,
-   "mcap": 6493184,
+   "liq": 395570,
+   "vol": 1326004,
+   "mcap": 6835189,
    "holders": 12171,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1794735235818
+   "scannedAt": 1794737214171
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 193912,
-   "vol": 179023,
-   "mcap": 2934955,
+   "liq": 193666,
+   "vol": 178868,
+   "mcap": 2927628,
    "holders": 2574,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1794735237292
+   "scannedAt": 1794737215669
   }
  ]
 }
