@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794790439894,
+ "updatedAt": 1794791507242,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 235238,
-   "vol": 208676,
-   "mcap": 4288127,
+   "liq": 233030,
+   "vol": 211654,
+   "mcap": 4208781,
    "holders": 2543,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -39,44 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1794790350800
-  },
-  {
-   "ca": "8RNUw4N655VSrZKuhGdywhbSMDTrheguFPfxbpE2NZHQ",
-   "chain": "solana",
-   "sym": "PURR",
-   "name": "Hypurr",
-   "img": "https://cdn.dexscreener.com/cms/images/pO59cJMJmerhBPg2?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 206233,
-   "vol": 121287,
-   "mcap": 2114012,
-   "holders": 14145,
-   "createdAt": 1787188020000,
-   "handle": "HypurrSF_",
-   "launchpad": "StonkFun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/ad7pbbvvrnofo96wr6ehwmu2o4naz6lao1j98hw8a1tq",
-   "scannedAt": 1794790352652
+   "scannedAt": 1794791425861
   },
   {
    "ca": "0x0b84Cd2A58159057Fe71A1A9438a72C5C97Ab985",
@@ -100,9 +63,9 @@
     1,
     null
    ],
-   "liq": 74790,
-   "vol": 311475,
-   "mcap": 774690,
+   "liq": 70719,
+   "vol": 316329,
+   "mcap": 696435,
    "holders": 550,
    "createdAt": 1794615887000,
    "handle": "anthropiconeth",
@@ -112,7 +75,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/ethereum/0x08f1de596f5917010b753dd7549ee1bdef3c59c0dd05baebad42cc43a87b91aa",
-   "scannedAt": 1794790355518
+   "scannedAt": 1794791431250
   }
  ]
 }
