@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794807370328,
+ "updatedAt": 1794809961869,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 246712,
-   "vol": 258100,
-   "mcap": 4705008,
+   "liq": 244478,
+   "vol": 260329,
+   "mcap": 4619900,
    "holders": 2543,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1794807297283
+   "scannedAt": 1794809875729
   },
   {
    "ca": "0x0b84Cd2A58159057Fe71A1A9438a72C5C97Ab985",
@@ -63,10 +63,10 @@
     1,
     null
    ],
-   "liq": 72073,
-   "vol": 374613,
-   "mcap": 719693,
-   "holders": 611,
+   "liq": 73599,
+   "vol": 381173,
+   "mcap": 753402,
+   "holders": 608,
    "createdAt": 1794615887000,
    "handle": "anthropiconeth",
    "launchpad": null,
@@ -75,7 +75,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/ethereum/0x08f1de596f5917010b753dd7549ee1bdef3c59c0dd05baebad42cc43a87b91aa",
-   "scannedAt": 1794807299302
+   "scannedAt": 1794809877788
   }
  ]
 }
