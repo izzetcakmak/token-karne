@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794822277383,
+ "updatedAt": 1794823790519,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 298736,
-   "vol": 2738202,
-   "mcap": 12984245,
+   "liq": 309729,
+   "vol": 2825014,
+   "mcap": 13921315,
    "holders": 17520,
    "createdAt": 1793460971000,
    "handle": "BL0B0nS0L",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/hr9qopjxcuak38rxdpzduufhdak2bfjtoxbfqzvn2ewu",
-   "scannedAt": 1794822186469
+   "scannedAt": 1794823718457
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 250884,
-   "vol": 318113,
-   "mcap": 4857194,
+   "liq": 248340,
+   "vol": 318209,
+   "mcap": 4760814,
    "holders": 2678,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1794822189151
+   "scannedAt": 1794823719861
   },
   {
    "ca": "0x0b84Cd2A58159057Fe71A1A9438a72C5C97Ab985",
@@ -100,9 +100,9 @@
     1,
     null
    ],
-   "liq": 75543,
-   "vol": 366859,
-   "mcap": 798546,
+   "liq": 75977,
+   "vol": 364945,
+   "mcap": 806506,
    "holders": 608,
    "createdAt": 1794615887000,
    "handle": "anthropiconeth",
@@ -112,7 +112,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/ethereum/0x08f1de596f5917010b753dd7549ee1bdef3c59c0dd05baebad42cc43a87b91aa",
-   "scannedAt": 1794822191615
+   "scannedAt": 1794823722256
   }
  ]
 }
