@@ -1,8 +1,8 @@
 {
- "updatedAt": 1794825420037,
+ "updatedAt": 1794827384075,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 45,
+ "scanned": 43,
  "items": [
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 245362,
-   "vol": 319178,
-   "mcap": 4648412,
+   "liq": 248718,
+   "vol": 321192,
+   "mcap": 4774733,
    "holders": 2678,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1794825335287
+   "scannedAt": 1794827294938
   },
   {
    "ca": "0x0b84Cd2A58159057Fe71A1A9438a72C5C97Ab985",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 78057,
-   "vol": 363249,
-   "mcap": 847109,
+   "liq": 80993,
+   "vol": 363285,
+   "mcap": 908679,
    "holders": 608,
    "createdAt": 1794615887000,
    "handle": "anthropiconeth",
@@ -75,7 +75,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/ethereum/0x08f1de596f5917010b753dd7549ee1bdef3c59c0dd05baebad42cc43a87b91aa",
-   "scannedAt": 1794825337726
+   "scannedAt": 1794827296970
   }
  ]
 }
