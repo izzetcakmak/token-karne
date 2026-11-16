@@ -1,9 +1,46 @@
 {
- "updatedAt": 1794818773039,
+ "updatedAt": 1794820368393,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
  "items": [
+  {
+   "ca": "8s11PkgQt4ZzdZ7oo84hK5t9HG1EvdgAjcg4W7Lpump",
+   "chain": "solana",
+   "sym": "BLOB",
+   "name": "BLOB",
+   "img": "https://cdn.dexscreener.com/cms/images/BFrtXt796DJWyUst?width=800&height=800&quality=95&format=auto",
+   "score": 11,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 294750,
+   "vol": 2609657,
+   "mcap": 12712343,
+   "holders": 17520,
+   "createdAt": 1793460971000,
+   "handle": "BL0B0nS0L",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/hr9qopjxcuak38rxdpzduufhdak2bfjtoxbfqzvn2ewu",
+   "scannedAt": 1794820277074
+  },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
    "chain": "solana",
@@ -26,10 +63,10 @@
     1,
     null
    ],
-   "liq": 257118,
-   "vol": 289013,
-   "mcap": 5101656,
-   "holders": 2543,
+   "liq": 244179,
+   "vol": 311818,
+   "mcap": 4601562,
+   "holders": 2678,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
    "launchpad": "Pump.Fun",
@@ -39,44 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1794818689587
-  },
-  {
-   "ca": "8s11PkgQt4ZzdZ7oo84hK5t9HG1EvdgAjcg4W7Lpump",
-   "chain": "solana",
-   "sym": "BLOB",
-   "name": "BLOB",
-   "img": "https://cdn.dexscreener.com/cms/images/BFrtXt796DJWyUst?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 3,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null,
-    null,
-    1,
-    1,
-    null
-   ],
-   "liq": 314626,
-   "vol": 2469738,
-   "mcap": 14421684,
-   "holders": 13896,
-   "createdAt": 1793460971000,
-   "handle": "BL0B0nS0L",
-   "launchpad": "Pump.Fun",
-   "flags": 1,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/hr9qopjxcuak38rxdpzduufhdak2bfjtoxbfqzvn2ewu",
-   "scannedAt": 1794818687497
+   "scannedAt": 1794820275591
   },
   {
    "ca": "0x0b84Cd2A58159057Fe71A1A9438a72C5C97Ab985",
@@ -100,9 +100,9 @@
     1,
     null
    ],
-   "liq": 77174,
-   "vol": 366384,
-   "mcap": 826482,
+   "liq": 74531,
+   "vol": 368129,
+   "mcap": 777298,
    "holders": 608,
    "createdAt": 1794615887000,
    "handle": "anthropiconeth",
@@ -112,7 +112,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/ethereum/0x08f1de596f5917010b753dd7549ee1bdef3c59c0dd05baebad42cc43a87b91aa",
-   "scannedAt": 1794818691818
+   "scannedAt": 1794820279536
   }
  ]
 }
