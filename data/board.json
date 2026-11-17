@@ -1,46 +1,9 @@
 {
- "updatedAt": 1794881660496,
+ "updatedAt": 1794882925715,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
  "items": [
-  {
-   "ca": "8s11PkgQt4ZzdZ7oo84hK5t9HG1EvdgAjcg4W7Lpump",
-   "chain": "solana",
-   "sym": "BLOB",
-   "name": "BLOB",
-   "img": "https://cdn.dexscreener.com/cms/images/BFrtXt796DJWyUst?width=800&height=800&quality=95&format=auto",
-   "score": 11,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 303542,
-   "vol": 4350561,
-   "mcap": 12915880,
-   "holders": 20345,
-   "createdAt": 1793460971000,
-   "handle": "BL0B0nS0L",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/hr9qopjxcuak38rxdpzduufhdak2bfjtoxbfqzvn2ewu",
-   "scannedAt": 1794881457542
-  },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
    "chain": "solana",
@@ -63,9 +26,9 @@
     1,
     null
    ],
-   "liq": 234218,
-   "vol": 475007,
-   "mcap": 4217198,
+   "liq": 236089,
+   "vol": 455493,
+   "mcap": 4283934,
    "holders": 2729,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -76,7 +39,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1794881459674
+   "scannedAt": 1794882840708
+  },
+  {
+   "ca": "8s11PkgQt4ZzdZ7oo84hK5t9HG1EvdgAjcg4W7Lpump",
+   "chain": "solana",
+   "sym": "BLOB",
+   "name": "BLOB",
+   "img": "https://cdn.dexscreener.com/cms/images/BFrtXt796DJWyUst?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 3,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null,
+    null,
+    1,
+    1,
+    null
+   ],
+   "liq": 307411,
+   "vol": 4362532,
+   "mcap": 13274500,
+   "holders": 20345,
+   "createdAt": 1793460971000,
+   "handle": "BL0B0nS0L",
+   "launchpad": "Pump.Fun",
+   "flags": 1,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/hr9qopjxcuak38rxdpzduufhdak2bfjtoxbfqzvn2ewu",
+   "scannedAt": 1794882838079
   },
   {
    "ca": "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump",
@@ -100,9 +100,9 @@
     1,
     null
    ],
-   "liq": 141975,
-   "vol": 1207969,
-   "mcap": 1998660,
+   "liq": 139973,
+   "vol": 1214677,
+   "mcap": 1947555,
    "holders": 2191,
    "createdAt": 1793128408000,
    "handle": "dogwifjob_sol",
@@ -113,7 +113,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/hauvbmnthcfmg9srxmvz1gaxnpu955hkpdsasc2cx4c8",
-   "scannedAt": 1794881587429
+   "scannedAt": 1794882843232
   }
  ]
 }
