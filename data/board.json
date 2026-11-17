@@ -1,7 +1,82 @@
 {
- "updatedAt": 1794937071282,
+ "updatedAt": 1794939045305,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 44,
- "items": []
+ "scanned": 45,
+ "items": [
+  {
+   "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
+   "chain": "solana",
+   "sym": "GATO",
+   "name": "GTA6CAT",
+   "img": "https://cdn.dexscreener.com/cms/images/-8CCNt5h1g4Fnvqj?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    null
+   ],
+   "liq": 364589,
+   "vol": 1678025,
+   "mcap": 4907772,
+   "holders": 12436,
+   "createdAt": 1787660841000,
+   "handle": "TheGTA6cat",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
+   "scannedAt": 1794939002298
+  },
+  {
+   "ca": "2FcsqRrhvgSfYxJWh32xW873vyqBZ9jmMyXqYSPgNtuZ",
+   "chain": "solana",
+   "sym": "Lucia",
+   "name": "Lucia From GTA 6",
+   "img": "https://cdn.dexscreener.com/cms/images/AVA8cnIUkEt2eib8?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 38175,
+   "vol": 225552,
+   "mcap": 194648,
+   "holders": 2949,
+   "createdAt": 1733700645000,
+   "handle": "LuciaOnSolana",
+   "launchpad": null,
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/9lp64xgwxb7q8qzmlfringjycfutxe4knmxwwzswukjf",
+   "scannedAt": 1794938956996
+  }
+ ]
 }
