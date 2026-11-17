@@ -1,45 +1,9 @@
 {
- "updatedAt": 1794911757127,
+ "updatedAt": 1794913702909,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 44,
  "items": [
-  {
-   "ca": "0xD27AF64926002cEB8eEC81ce11f56AB8d781FfFF",
-   "chain": "bsc",
-   "sym": "东方",
-   "name": "East of the world",
-   "img": "https://cdn.dexscreener.com/cms/images/z7_xOHCV0qUMKjsO?width=800&height=800&quality=95&format=auto",
-   "score": 11,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 48252,
-   "vol": 571423,
-   "mcap": 253125,
-   "holders": 23,
-   "createdAt": 1784269727000,
-   "handle": "daviddelapaz",
-   "launchpad": null,
-   "flags": 0,
-   "sources": [
-    "GoPlus"
-   ],
-   "url": "https://dexscreener.com/bsc/0x27b5d5e4aa16c1bb48fe30a8a2b9c942c7cc6168",
-   "scannedAt": 1794911677541
-  },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
    "chain": "solana",
@@ -62,9 +26,9 @@
     1,
     null
    ],
-   "liq": 379725,
-   "vol": 1327684,
-   "mcap": 6641795,
+   "liq": 385767,
+   "vol": 1332250,
+   "mcap": 6893741,
    "holders": 12198,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -75,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1794911679230
+   "scannedAt": 1794913631241
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -99,9 +63,9 @@
     1,
     null
    ],
-   "liq": 256170,
-   "vol": 394057,
-   "mcap": 5030461,
+   "liq": 253533,
+   "vol": 391645,
+   "mcap": 4928497,
    "holders": 2817,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -112,7 +76,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1794911680629
+   "scannedAt": 1794913632652
+  },
+  {
+   "ca": "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump",
+   "chain": "solana",
+   "sym": "JOB",
+   "name": "DogWifJob",
+   "img": "https://cdn.dexscreener.com/cms/images/x8ZkXi9L1J38qoCZ?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    null
+   ],
+   "liq": 137413,
+   "vol": 1411149,
+   "mcap": 1845857,
+   "holders": 2215,
+   "createdAt": 1793128408000,
+   "handle": "dogwifjob_sol",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/hauvbmnthcfmg9srxmvz1gaxnpu955hkpdsasc2cx4c8",
+   "scannedAt": 1794913680136
   }
  ]
 }
