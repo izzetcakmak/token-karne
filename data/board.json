@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794897740212,
+ "updatedAt": 1794899402383,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -10,7 +10,7 @@
    "sym": "BLOB",
    "name": "BLOB",
    "img": "https://cdn.dexscreener.com/cms/images/BFrtXt796DJWyUst?width=800&height=800&quality=95&format=auto",
-   "score": 11,
+   "score": 10,
    "unknown": 1,
    "answers": [
     1,
@@ -22,13 +22,13 @@
     1,
     1,
     1,
-    1,
+    0,
     1,
     null
    ],
-   "liq": 367348,
-   "vol": 3843009,
-   "mcap": 18641581,
+   "liq": 388864,
+   "vol": 3567624,
+   "mcap": 20683346,
    "holders": 20828,
    "createdAt": 1793460971000,
    "handle": "BL0B0nS0L",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/hr9qopjxcuak38rxdpzduufhdak2bfjtoxbfqzvn2ewu",
-   "scannedAt": 1794897613005
+   "scannedAt": 1794899323948
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 260011,
-   "vol": 439652,
-   "mcap": 5181879,
+   "liq": 261676,
+   "vol": 442070,
+   "mcap": 5247798,
    "holders": 2817,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1794897615515
+   "scannedAt": 1794899325347
   }
  ]
 }
