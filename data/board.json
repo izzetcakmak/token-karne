@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794980198321,
+ "updatedAt": 1794982442003,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 391971,
-   "vol": 1553198,
-   "mcap": 6096639,
+   "liq": 389932,
+   "vol": 1504961,
+   "mcap": 6070026,
    "holders": 12394,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -39,81 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1794980080722
-  },
-  {
-   "ca": "2FcsqRrhvgSfYxJWh32xW873vyqBZ9jmMyXqYSPgNtuZ",
-   "chain": "solana",
-   "sym": "Lucia",
-   "name": "Lucia From GTA 6",
-   "img": "https://cdn.dexscreener.com/cms/images/AVA8cnIUkEt2eib8?width=800&height=800&quality=95&format=auto",
-   "score": 10,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 49101,
-   "vol": 230183,
-   "mcap": 308092,
-   "holders": 4033,
-   "createdAt": 1733700645000,
-   "handle": "LuciaOnSolana",
-   "launchpad": null,
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/9lp64xgwxb7q8qzmlfringjycfutxe4knmxwwzswukjf",
-   "scannedAt": 1794980083677
-  },
-  {
-   "ca": "9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump",
-   "chain": "solana",
-   "sym": "DIGS",
-   "name": "AiDiglet",
-   "img": "https://cdn.dexscreener.com/cms/images/njwaE8gbx_dMOMA2?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 53478,
-   "vol": 860328,
-   "mcap": 311097,
-   "holders": 2117,
-   "createdAt": 1793190770000,
-   "handle": "aidiglet",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/3mxdjdz1gae5hzic4dj4unldxj5dbcc9jssyq55mfykg",
-   "scannedAt": 1794980163295
+   "scannedAt": 1794982364355
   }
  ]
 }
