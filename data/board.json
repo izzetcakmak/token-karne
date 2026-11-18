@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794958536715,
+ "updatedAt": 1794961260486,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 383176,
-   "vol": 1783644,
-   "mcap": 5457966,
+   "liq": 385318,
+   "vol": 1767737,
+   "mcap": 5615537,
    "holders": 12436,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -39,44 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1794958447150
-  },
-  {
-   "ca": "9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump",
-   "chain": "solana",
-   "sym": "DIGS",
-   "name": "AiDiglet",
-   "img": "https://cdn.dexscreener.com/cms/images/njwaE8gbx_dMOMA2?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 49114,
-   "vol": 871414,
-   "mcap": 267830,
-   "holders": 2122,
-   "createdAt": 1793190770000,
-   "handle": "aidiglet",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/3mxdjdz1gae5hzic4dj4unldxj5dbcc9jssyq55mfykg",
-   "scannedAt": 1794958504024
+   "scannedAt": 1794961170996
   }
  ]
 }
