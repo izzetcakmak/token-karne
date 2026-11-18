@@ -1,9 +1,45 @@
 {
- "updatedAt": 1794989548175,
+ "updatedAt": 1794990926453,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
  "items": [
+  {
+   "ca": "0x68B8AeDbe2c83c80Cfc67DAcD31E99eed058FffF",
+   "chain": "bsc",
+   "sym": "泡沫",
+   "name": "全都是泡沫",
+   "img": "https://cdn.dexscreener.com/cms/images/z-RPKuQ3sNVxAAEt?width=800&height=800&quality=95&format=auto",
+   "score": 11,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 34174,
+   "vol": 930316,
+   "mcap": 122951,
+   "holders": 34,
+   "createdAt": 1780893054000,
+   "handle": "0xkenzolee",
+   "launchpad": null,
+   "flags": 0,
+   "sources": [
+    "GoPlus"
+   ],
+   "url": "https://dexscreener.com/bsc/0xab7f24f86f71c701f3110998ef6d187fae4a568b",
+   "scannedAt": 1794990854115
+  },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
    "chain": "solana",
@@ -26,9 +62,9 @@
     1,
     null
    ],
-   "liq": 357607,
-   "vol": 1463903,
-   "mcap": 5330471,
+   "liq": 358347,
+   "vol": 1461113,
+   "mcap": 5336427,
    "holders": 12394,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -39,43 +75,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1794989419907
-  },
-  {
-   "ca": "0x68B8AeDbe2c83c80Cfc67DAcD31E99eed058FffF",
-   "chain": "bsc",
-   "sym": "泡沫",
-   "name": "全都是泡沫",
-   "img": "https://cdn.dexscreener.com/cms/images/z-RPKuQ3sNVxAAEt?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 3,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null,
-    null,
-    1,
-    1,
-    null
-   ],
-   "liq": 67122,
-   "vol": 854547,
-   "mcap": 478016,
-   "holders": 34,
-   "createdAt": 1780893054000,
-   "handle": "0xkenzolee",
-   "launchpad": null,
-   "flags": 1,
-   "sources": [
-    "GoPlus"
-   ],
-   "url": "https://dexscreener.com/bsc/0xab7f24f86f71c701f3110998ef6d187fae4a568b",
-   "scannedAt": 1794989416259
+   "scannedAt": 1794990852492
   }
  ]
 }
