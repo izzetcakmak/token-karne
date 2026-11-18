@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795016140241,
+ "updatedAt": 1795018157798,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 346975,
-   "vol": 1447458,
-   "mcap": 4481353,
+   "liq": 336526,
+   "vol": 1428056,
+   "mcap": 4233326,
    "holders": 12433,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1795016061479
+   "scannedAt": 1795018068097
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 207498,
-   "vol": 307967,
-   "mcap": 3291479,
+   "liq": 210321,
+   "vol": 286360,
+   "mcap": 3379532,
    "holders": 2799,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -76,43 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1795016063083
-  },
-  {
-   "ca": "VAYMVikuYQpWz5sXCeCsQDeho2QcGqDSNq9rhCspump",
-   "chain": "solana",
-   "sym": "JESTER",
-   "name": "JESTER",
-   "img": "https://cdn.dexscreener.com/cms/images/I2efiRajjhgZKtuf?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 3,
-   "answers": [
-    1,
-    1,
-    null,
-    null,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 80260,
-   "vol": 699790,
-   "mcap": 1186750,
-   "holders": 3174,
-   "createdAt": 1794926475000,
-   "handle": "2real_melo",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/ejhur4fvts85xqwskjuaoaubmavccedxutuppze9guen",
-   "scannedAt": 1795016064659
+   "scannedAt": 1795018072448
   }
  ]
 }
