@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795124143754,
+ "updatedAt": 1795126135183,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 240531,
-   "vol": 8230857,
-   "mcap": 7529348,
+   "liq": 241539,
+   "vol": 8212320,
+   "mcap": 7609448,
    "holders": 29884,
    "createdAt": 1793977195000,
    "handle": "ANTSIPO",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/af5cn9mu1y8coh68xkbypsjxxdk1lbnxgo76dpprrolb",
-   "scannedAt": 1795124054462
+   "scannedAt": 1795126036800
   },
   {
    "ca": "0x7d03759E5B41E36899833cb2E008455d69A24444",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 88237,
-   "vol": 68569,
-   "mcap": 151103,
+   "liq": 95498,
+   "vol": 73394,
+   "mcap": 176216,
    "holders": 73426,
    "createdAt": 1757345211000,
    "handle": "PricelessBSC_",
@@ -75,7 +75,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x3dc2878f9f60476dbbb18af7531fbe1a603c8dc0",
-   "scannedAt": 1795124052737
+   "scannedAt": 1795126038595
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -99,9 +99,9 @@
     1,
     null
    ],
-   "liq": 216719,
-   "vol": 148114,
-   "mcap": 3571620,
+   "liq": 223265,
+   "vol": 154005,
+   "mcap": 3785996,
    "holders": 2791,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -112,7 +112,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1795124104894
+   "scannedAt": 1795126041692
   },
   {
    "ca": "0x83860f7Ab345ddc30581B0093e4BE5A06A010C15",
@@ -136,9 +136,9 @@
     1,
     null
    ],
-   "liq": 59918,
-   "vol": 38231706,
-   "mcap": 217011,
+   "liq": 65965,
+   "vol": 38234915,
+   "mcap": 262954,
    "holders": 49050,
    "createdAt": 1794998337000,
    "handle": null,
@@ -148,7 +148,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x1bec7bbf0de6409290f016a58782c803a81cb510",
-   "scannedAt": 1795124056015
+   "scannedAt": 1795126043169
   }
  ]
 }
