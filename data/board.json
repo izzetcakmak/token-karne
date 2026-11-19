@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795111832885,
+ "updatedAt": 1795113371620,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 44,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 233000,
-   "vol": 8290486,
-   "mcap": 6963201,
+   "liq": 234331,
+   "vol": 8282297,
+   "mcap": 6974549,
    "holders": 29884,
    "createdAt": 1793977195000,
    "handle": "ANTSIPO",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/af5cn9mu1y8coh68xkbypsjxxdk1lbnxgo76dpprrolb",
-   "scannedAt": 1795111760035
+   "scannedAt": 1795113294485
   },
   {
    "ca": "0x7d03759E5B41E36899833cb2E008455d69A24444",
@@ -63,10 +63,10 @@
     1,
     null
    ],
-   "liq": 93959,
-   "vol": 50127,
-   "mcap": 168797,
-   "holders": 73399,
+   "liq": 95161,
+   "vol": 51889,
+   "mcap": 171866,
+   "holders": 73415,
    "createdAt": 1757345211000,
    "handle": "PricelessBSC_",
    "launchpad": null,
@@ -75,7 +75,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x3dc2878f9f60476dbbb18af7531fbe1a603c8dc0",
-   "scannedAt": 1795111775468
+   "scannedAt": 1795113295907
   },
   {
    "ca": "0x83860f7Ab345ddc30581B0093e4BE5A06A010C15",
@@ -99,10 +99,10 @@
     1,
     null
    ],
-   "liq": 223110,
-   "vol": 38062423,
-   "mcap": 3028250,
-   "holders": 43816,
+   "liq": 242394,
+   "vol": 38073022,
+   "mcap": 3573548,
+   "holders": 48206,
    "createdAt": 1794998337000,
    "handle": null,
    "launchpad": null,
@@ -111,7 +111,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x1bec7bbf0de6409290f016a58782c803a81cb510",
-   "scannedAt": 1795111761548
+   "scannedAt": 1795113297415
   }
  ]
 }
