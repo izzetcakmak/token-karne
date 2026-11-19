@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795102553828,
+ "updatedAt": 1795104570768,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 1547044,
-   "vol": 29940808,
-   "mcap": 152182965,
+   "liq": 1295443,
+   "vol": 32690780,
+   "mcap": 105684420,
    "holders": 34012,
    "createdAt": 1794998337000,
    "handle": null,
@@ -38,7 +38,43 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x1bec7bbf0de6409290f016a58782c803a81cb510",
-   "scannedAt": 1795102461341
+   "scannedAt": 1795104495618
+  },
+  {
+   "ca": "ejrz94zR4A2ScS8LdvRaQih2xUxaE2ydreqUNKmpump",
+   "chain": "solana",
+   "sym": "ANTS",
+   "name": "Anthropic",
+   "img": "https://cdn.dexscreener.com/cms/images/LXnrPq28_YENcXhY?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 3,
+   "answers": [
+    1,
+    1,
+    null,
+    null,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 234935,
+   "vol": 8315871,
+   "mcap": 7116122,
+   "holders": 41243,
+   "createdAt": 1793977195000,
+   "handle": "ANTSIPO",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/af5cn9mu1y8coh68xkbypsjxxdk1lbnxgo76dpprrolb",
+   "scannedAt": 1795104533744
   },
   {
    "ca": "0x79E4c36c462A3a4FB17b0ba96Fbf85034279268b",
@@ -62,9 +98,9 @@
     1,
     null
    ],
-   "liq": 225579,
-   "vol": 852436,
-   "mcap": 7244932,
+   "liq": 224392,
+   "vol": 839340,
+   "mcap": 7179938,
    "holders": 427,
    "createdAt": 1794820379000,
    "handle": "chunkeeoneth",
@@ -74,7 +110,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/ethereum/0x9f18bbe510638739300a9af7be797b56f9ffe5457eff76bcd3a8758f2c6acbed",
-   "scannedAt": 1795102522464
+   "scannedAt": 1795104497037
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -98,9 +134,9 @@
     1,
     null
    ],
-   "liq": 216700,
-   "vol": 187169,
-   "mcap": 3573444,
+   "liq": 208133,
+   "vol": 182899,
+   "mcap": 3299162,
    "holders": 2791,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -111,7 +147,43 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1795102462887
+   "scannedAt": 1795104498724
+  },
+  {
+   "ca": "0x7d03759E5B41E36899833cb2E008455d69A24444",
+   "chain": "bsc",
+   "sym": "priceless",
+   "name": "priceless",
+   "img": "https://cdn.dexscreener.com/cms/images/6RackrQPX19fEOB8?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    null
+   ],
+   "liq": 91598,
+   "vol": 24325,
+   "mcap": 160142,
+   "holders": 73390,
+   "createdAt": 1757345211000,
+   "handle": "PricelessBSC_",
+   "launchpad": null,
+   "flags": 0,
+   "sources": [
+    "GoPlus"
+   ],
+   "url": "https://dexscreener.com/bsc/0x3dc2878f9f60476dbbb18af7531fbe1a603c8dc0",
+   "scannedAt": 1795104503128
   }
  ]
 }
