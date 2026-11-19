@@ -1,8 +1,8 @@
 {
- "updatedAt": 1795109758277,
+ "updatedAt": 1795111832885,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 45,
+ "scanned": 44,
  "items": [
   {
    "ca": "ejrz94zR4A2ScS8LdvRaQih2xUxaE2ydreqUNKmpump",
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 241710,
-   "vol": 8301853,
-   "mcap": 7453312,
+   "liq": 233000,
+   "vol": 8290486,
+   "mcap": 6963201,
    "holders": 29884,
    "createdAt": 1793977195000,
    "handle": "ANTSIPO",
@@ -39,7 +39,43 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/af5cn9mu1y8coh68xkbypsjxxdk1lbnxgo76dpprrolb",
-   "scannedAt": 1795109664562
+   "scannedAt": 1795111760035
+  },
+  {
+   "ca": "0x7d03759E5B41E36899833cb2E008455d69A24444",
+   "chain": "bsc",
+   "sym": "priceless",
+   "name": "priceless",
+   "img": "https://cdn.dexscreener.com/cms/images/6RackrQPX19fEOB8?width=800&height=800&quality=95&format=auto",
+   "score": 10,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 93959,
+   "vol": 50127,
+   "mcap": 168797,
+   "holders": 73399,
+   "createdAt": 1757345211000,
+   "handle": "PricelessBSC_",
+   "launchpad": null,
+   "flags": 0,
+   "sources": [
+    "GoPlus"
+   ],
+   "url": "https://dexscreener.com/bsc/0x3dc2878f9f60476dbbb18af7531fbe1a603c8dc0",
+   "scannedAt": 1795111775468
   },
   {
    "ca": "0x83860f7Ab345ddc30581B0093e4BE5A06A010C15",
@@ -63,9 +99,9 @@
     1,
     null
    ],
-   "liq": 606391,
-   "vol": 37271023,
-   "mcap": 22561021,
+   "liq": 223110,
+   "vol": 38062423,
+   "mcap": 3028250,
    "holders": 43816,
    "createdAt": 1794998337000,
    "handle": null,
@@ -75,7 +111,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x1bec7bbf0de6409290f016a58782c803a81cb510",
-   "scannedAt": 1795109662464
+   "scannedAt": 1795111761548
   }
  ]
 }
