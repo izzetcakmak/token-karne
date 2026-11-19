@@ -1,9 +1,46 @@
 {
- "updatedAt": 1795090321021,
+ "updatedAt": 1795091905798,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 44,
+ "scanned": 45,
  "items": [
+  {
+   "ca": "ejrz94zR4A2ScS8LdvRaQih2xUxaE2ydreqUNKmpump",
+   "chain": "solana",
+   "sym": "ANTS",
+   "name": "Anthropic",
+   "img": "https://cdn.dexscreener.com/cms/images/LXnrPq28_YENcXhY?width=800&height=800&quality=95&format=auto",
+   "score": 11,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 291590,
+   "vol": 6604897,
+   "mcap": 11105352,
+   "holders": 22073,
+   "createdAt": 1793977195000,
+   "handle": "ANTSIPO",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/af5cn9mu1y8coh68xkbypsjxxdk1lbnxgo76dpprrolb",
+   "scannedAt": 1795091822800
+  },
   {
    "ca": "0x83860f7Ab345ddc30581B0093e4BE5A06A010C15",
    "chain": "bsc",
@@ -26,10 +63,10 @@
     1,
     null
    ],
-   "liq": 871787,
-   "vol": 21227787,
-   "mcap": 50528343,
-   "holders": 10829,
+   "liq": 942871,
+   "vol": 22114181,
+   "mcap": 58829257,
+   "holders": 17849,
    "createdAt": 1794998337000,
    "handle": null,
    "launchpad": null,
@@ -38,44 +75,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x1bec7bbf0de6409290f016a58782c803a81cb510",
-   "scannedAt": 1795090236313
-  },
-  {
-   "ca": "ejrz94zR4A2ScS8LdvRaQih2xUxaE2ydreqUNKmpump",
-   "chain": "solana",
-   "sym": "ANTS",
-   "name": "Anthropic",
-   "img": "https://cdn.dexscreener.com/cms/images/LXnrPq28_YENcXhY?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 3,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null,
-    null,
-    1,
-    1,
-    null
-   ],
-   "liq": 328057,
-   "vol": 6347448,
-   "mcap": 14018701,
-   "holders": 22073,
-   "createdAt": 1793977195000,
-   "handle": "ANTSIPO",
-   "launchpad": "Pump.Fun",
-   "flags": 1,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/af5cn9mu1y8coh68xkbypsjxxdk1lbnxgo76dpprrolb",
-   "scannedAt": 1795090238965
+   "scannedAt": 1795091821010
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -99,9 +99,9 @@
     1,
     null
    ],
-   "liq": 217036,
-   "vol": 230432,
-   "mcap": 3586896,
+   "liq": 215476,
+   "vol": 220005,
+   "mcap": 3535774,
    "holders": 2795,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -112,23 +112,23 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1795090240380
+   "scannedAt": 1795091825248
   },
   {
-   "ca": "9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump",
-   "chain": "solana",
-   "sym": "DIGS",
-   "name": "AiDiglet",
-   "img": "https://cdn.dexscreener.com/cms/images/njwaE8gbx_dMOMA2?width=800&height=800&quality=95&format=auto",
+   "ca": "0x77F7Eb8E3328eAdC0ED5adfEC549842011111111",
+   "chain": "bsc",
+   "sym": "WRADR",
+   "name": "WRADR",
+   "img": "https://cdn.dexscreener.com/cms/images/it2eb1cOeLR0Q0Yr?width=800&height=800&quality=95&format=auto",
    "score": 9,
-   "unknown": 1,
+   "unknown": 3,
    "answers": [
     1,
     1,
     1,
     1,
-    0,
-    0,
+    null,
+    null,
     1,
     1,
     1,
@@ -136,20 +136,56 @@
     1,
     null
    ],
-   "liq": 63030,
-   "vol": 1178109,
-   "mcap": 387268,
-   "holders": 2741,
-   "createdAt": 1793190770000,
-   "handle": "aidiglet",
+   "liq": 174906,
+   "vol": 288093,
+   "mcap": 29835079,
+   "holders": 7956,
+   "createdAt": 1794818080000,
+   "handle": "WRADR_OFFICIAL",
+   "launchpad": null,
+   "flags": 0,
+   "sources": [
+    "GoPlus"
+   ],
+   "url": "https://dexscreener.com/bsc/0xb2b4936d19173bf31a4a734ff396011b61423d44",
+   "scannedAt": 1795091891547
+  },
+  {
+   "ca": "9rbKkz2BDQBVgZmrHY6d7PTq2ge91gkpEyE4y9PPpump",
+   "chain": "solana",
+   "sym": "Leonida",
+   "name": "The State of Leonida",
+   "img": "https://cdn.dexscreener.com/cms/images/ed_ugSV242BZEFXZ?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 101173,
+   "vol": 1532054,
+   "mcap": 1704091,
+   "holders": 8246,
+   "createdAt": 1794964937000,
+   "handle": "TheLeonidaX",
    "launchpad": "Pump.Fun",
    "flags": 0,
    "sources": [
     "GoPlus",
     "RugCheck"
    ],
-   "url": "https://dexscreener.com/solana/3mxdjdz1gae5hzic4dj4unldxj5dbcc9jssyq55mfykg",
-   "scannedAt": 1795090262556
+   "url": "https://dexscreener.com/solana/6ecx5lm5dinvma1xwmeumj6abzl3g1xx4t5rxqxelzdn",
+   "scannedAt": 1795091881742
   }
  ]
 }
