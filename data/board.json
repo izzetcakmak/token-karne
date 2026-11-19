@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795082971021,
+ "updatedAt": 1795084551741,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 44,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 327016,
-   "vol": 4866099,
-   "mcap": 14259536,
+   "liq": 312529,
+   "vol": 5036576,
+   "mcap": 13026205,
    "holders": 22073,
    "createdAt": 1793977195000,
    "handle": "ANTSIPO",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/af5cn9mu1y8coh68xkbypsjxxdk1lbnxgo76dpprrolb",
-   "scannedAt": 1795082872005
+   "scannedAt": 1795084477599
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -47,7 +47,7 @@
    "sym": "CBUCKS",
    "name": "Cartoon Money",
    "img": "https://cdn.dexscreener.com/cms/images/2bajn2a05AdQGV-4?width=800&height=800&quality=95&format=auto",
-   "score": 10,
+   "score": 9,
    "unknown": 1,
    "answers": [
     1,
@@ -59,13 +59,13 @@
     1,
     1,
     1,
-    1,
+    0,
     1,
     null
    ],
-   "liq": 212250,
-   "vol": 224839,
-   "mcap": 3433786,
+   "liq": 214401,
+   "vol": 237246,
+   "mcap": 3501757,
    "holders": 2795,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1795082874211
+   "scannedAt": 1795084480261
   }
  ]
 }
