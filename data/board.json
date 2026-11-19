@@ -1,8 +1,8 @@
 {
- "updatedAt": 1795104570768,
+ "updatedAt": 1795106128575,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 45,
+ "scanned": 44,
  "items": [
   {
    "ca": "0x83860f7Ab345ddc30581B0093e4BE5A06A010C15",
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 1295443,
-   "vol": 32690780,
-   "mcap": 105684420,
+   "liq": 932188,
+   "vol": 34460288,
+   "mcap": 54306941,
    "holders": 34012,
    "createdAt": 1794998337000,
    "handle": null,
@@ -38,7 +38,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x1bec7bbf0de6409290f016a58782c803a81cb510",
-   "scannedAt": 1795104495618
+   "scannedAt": 1795106043656
   },
   {
    "ca": "ejrz94zR4A2ScS8LdvRaQih2xUxaE2ydreqUNKmpump",
@@ -51,103 +51,31 @@
    "answers": [
     1,
     1,
+    1,
+    1,
+    1,
+    1,
+    1,
     null,
     null,
-    1,
-    1,
-    1,
-    1,
-    1,
     1,
     1,
     null
    ],
-   "liq": 234935,
-   "vol": 8315871,
-   "mcap": 7116122,
-   "holders": 41243,
+   "liq": 225382,
+   "vol": 8306348,
+   "mcap": 6545320,
+   "holders": 29884,
    "createdAt": 1793977195000,
    "handle": "ANTSIPO",
    "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/af5cn9mu1y8coh68xkbypsjxxdk1lbnxgo76dpprrolb",
-   "scannedAt": 1795104533744
-  },
-  {
-   "ca": "0x79E4c36c462A3a4FB17b0ba96Fbf85034279268b",
-   "chain": "ethereum",
-   "sym": "CHUNKEE",
-   "name": "Chunkee The Manatee",
-   "img": "https://cdn.dexscreener.com/cms/images/x8FH1IA2qDAVVqGR?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 224392,
-   "vol": 839340,
-   "mcap": 7179938,
-   "holders": 427,
-   "createdAt": 1794820379000,
-   "handle": "chunkeeoneth",
-   "launchpad": null,
-   "flags": 0,
-   "sources": [
-    "GoPlus"
-   ],
-   "url": "https://dexscreener.com/ethereum/0x9f18bbe510638739300a9af7be797b56f9ffe5457eff76bcd3a8758f2c6acbed",
-   "scannedAt": 1795104497037
-  },
-  {
-   "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
-   "chain": "solana",
-   "sym": "CBUCKS",
-   "name": "Cartoon Money",
-   "img": "https://cdn.dexscreener.com/cms/images/2bajn2a05AdQGV-4?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    null
-   ],
-   "liq": 208133,
-   "vol": 182899,
-   "mcap": 3299162,
-   "holders": 2791,
-   "createdAt": 1791311393000,
-   "handle": "cartoonmoney_ai",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
+   "flags": 1,
    "sources": [
     "GoPlus",
     "RugCheck"
    ],
-   "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1795104498724
+   "url": "https://dexscreener.com/solana/af5cn9mu1y8coh68xkbypsjxxdk1lbnxgo76dpprrolb",
+   "scannedAt": 1795106045687
   },
   {
    "ca": "0x7d03759E5B41E36899833cb2E008455d69A24444",
@@ -171,9 +99,9 @@
     0,
     null
    ],
-   "liq": 91598,
-   "vol": 24325,
-   "mcap": 160142,
+   "liq": 91460,
+   "vol": 34534,
+   "mcap": 159683,
    "holders": 73390,
    "createdAt": 1757345211000,
    "handle": "PricelessBSC_",
@@ -183,7 +111,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x3dc2878f9f60476dbbb18af7531fbe1a603c8dc0",
-   "scannedAt": 1795104503128
+   "scannedAt": 1795106051100
   }
  ]
 }
