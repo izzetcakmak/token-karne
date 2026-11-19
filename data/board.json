@@ -1,9 +1,46 @@
 {
- "updatedAt": 1795122499009,
+ "updatedAt": 1795124143754,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 44,
+ "scanned": 45,
  "items": [
+  {
+   "ca": "ejrz94zR4A2ScS8LdvRaQih2xUxaE2ydreqUNKmpump",
+   "chain": "solana",
+   "sym": "ANTS",
+   "name": "Anthropic",
+   "img": "https://cdn.dexscreener.com/cms/images/LXnrPq28_YENcXhY?width=800&height=800&quality=95&format=auto",
+   "score": 11,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 240531,
+   "vol": 8230857,
+   "mcap": 7529348,
+   "holders": 29884,
+   "createdAt": 1793977195000,
+   "handle": "ANTSIPO",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/af5cn9mu1y8coh68xkbypsjxxdk1lbnxgo76dpprrolb",
+   "scannedAt": 1795124054462
+  },
   {
    "ca": "0x7d03759E5B41E36899833cb2E008455d69A24444",
    "chain": "bsc",
@@ -26,10 +63,10 @@
     1,
     null
    ],
-   "liq": 88729,
-   "vol": 67822,
-   "mcap": 151921,
-   "holders": 73417,
+   "liq": 88237,
+   "vol": 68569,
+   "mcap": 151103,
+   "holders": 73426,
    "createdAt": 1757345211000,
    "handle": "PricelessBSC_",
    "launchpad": null,
@@ -38,44 +75,44 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x3dc2878f9f60476dbbb18af7531fbe1a603c8dc0",
-   "scannedAt": 1795122422694
+   "scannedAt": 1795124052737
   },
   {
-   "ca": "ejrz94zR4A2ScS8LdvRaQih2xUxaE2ydreqUNKmpump",
+   "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
    "chain": "solana",
-   "sym": "ANTS",
-   "name": "Anthropic",
-   "img": "https://cdn.dexscreener.com/cms/images/LXnrPq28_YENcXhY?width=800&height=800&quality=95&format=auto",
+   "sym": "CBUCKS",
+   "name": "Cartoon Money",
+   "img": "https://cdn.dexscreener.com/cms/images/2bajn2a05AdQGV-4?width=800&height=800&quality=95&format=auto",
    "score": 9,
-   "unknown": 3,
+   "unknown": 1,
    "answers": [
     1,
     1,
     1,
     1,
+    0,
     1,
     1,
     1,
-    null,
-    null,
     1,
+    0,
     1,
     null
    ],
-   "liq": 246422,
-   "vol": 8231574,
-   "mcap": 7876032,
-   "holders": 29884,
-   "createdAt": 1793977195000,
-   "handle": "ANTSIPO",
+   "liq": 216719,
+   "vol": 148114,
+   "mcap": 3571620,
+   "holders": 2791,
+   "createdAt": 1791311393000,
+   "handle": "cartoonmoney_ai",
    "launchpad": "Pump.Fun",
-   "flags": 1,
+   "flags": 0,
    "sources": [
     "GoPlus",
     "RugCheck"
    ],
-   "url": "https://dexscreener.com/solana/af5cn9mu1y8coh68xkbypsjxxdk1lbnxgo76dpprrolb",
-   "scannedAt": 1795122424769
+   "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
+   "scannedAt": 1795124104894
   },
   {
    "ca": "0x83860f7Ab345ddc30581B0093e4BE5A06A010C15",
@@ -99,10 +136,10 @@
     1,
     null
    ],
-   "liq": 84367,
-   "vol": 38213945,
-   "mcap": 430766,
-   "holders": 48649,
+   "liq": 59918,
+   "vol": 38231706,
+   "mcap": 217011,
+   "holders": 49050,
    "createdAt": 1794998337000,
    "handle": null,
    "launchpad": null,
@@ -111,7 +148,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x1bec7bbf0de6409290f016a58782c803a81cb510",
-   "scannedAt": 1795122426235
+   "scannedAt": 1795124056015
   }
  ]
 }
