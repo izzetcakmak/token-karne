@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795091905798,
+ "updatedAt": 1795093763035,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 291590,
-   "vol": 6604897,
-   "mcap": 11105352,
+   "liq": 290552,
+   "vol": 6682797,
+   "mcap": 10949044,
    "holders": 22073,
    "createdAt": 1793977195000,
    "handle": "ANTSIPO",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/af5cn9mu1y8coh68xkbypsjxxdk1lbnxgo76dpprrolb",
-   "scannedAt": 1795091822800
+   "scannedAt": 1795093677740
   },
   {
    "ca": "0x83860f7Ab345ddc30581B0093e4BE5A06A010C15",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 942871,
-   "vol": 22114181,
-   "mcap": 58829257,
+   "liq": 816004,
+   "vol": 23407560,
+   "mcap": 43746030,
    "holders": 17849,
    "createdAt": 1794998337000,
    "handle": null,
@@ -75,7 +75,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x1bec7bbf0de6409290f016a58782c803a81cb510",
-   "scannedAt": 1795091821010
+   "scannedAt": 1795093679173
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -99,9 +99,9 @@
     1,
     null
    ],
-   "liq": 215476,
-   "vol": 220005,
-   "mcap": 3535774,
+   "liq": 213170,
+   "vol": 193178,
+   "mcap": 3460169,
    "holders": 2795,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -112,80 +112,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1795091825248
-  },
-  {
-   "ca": "0x77F7Eb8E3328eAdC0ED5adfEC549842011111111",
-   "chain": "bsc",
-   "sym": "WRADR",
-   "name": "WRADR",
-   "img": "https://cdn.dexscreener.com/cms/images/it2eb1cOeLR0Q0Yr?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 3,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    null,
-    null,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 174906,
-   "vol": 288093,
-   "mcap": 29835079,
-   "holders": 7956,
-   "createdAt": 1794818080000,
-   "handle": "WRADR_OFFICIAL",
-   "launchpad": null,
-   "flags": 0,
-   "sources": [
-    "GoPlus"
-   ],
-   "url": "https://dexscreener.com/bsc/0xb2b4936d19173bf31a4a734ff396011b61423d44",
-   "scannedAt": 1795091891547
-  },
-  {
-   "ca": "9rbKkz2BDQBVgZmrHY6d7PTq2ge91gkpEyE4y9PPpump",
-   "chain": "solana",
-   "sym": "Leonida",
-   "name": "The State of Leonida",
-   "img": "https://cdn.dexscreener.com/cms/images/ed_ugSV242BZEFXZ?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    0,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 101173,
-   "vol": 1532054,
-   "mcap": 1704091,
-   "holders": 8246,
-   "createdAt": 1794964937000,
-   "handle": "TheLeonidaX",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/6ecx5lm5dinvma1xwmeumj6abzl3g1xx4t5rxqxelzdn",
-   "scannedAt": 1795091881742
+   "scannedAt": 1795093680599
   }
  ]
 }
