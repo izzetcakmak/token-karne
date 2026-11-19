@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795088150294,
+ "updatedAt": 1795090321021,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 44,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 867667,
-   "vol": 20104850,
-   "mcap": 50395590,
+   "liq": 871787,
+   "vol": 21227787,
+   "mcap": 50528343,
    "holders": 10829,
    "createdAt": 1794998337000,
    "handle": null,
@@ -38,7 +38,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x1bec7bbf0de6409290f016a58782c803a81cb510",
-   "scannedAt": 1795088059366
+   "scannedAt": 1795090236313
   },
   {
    "ca": "ejrz94zR4A2ScS8LdvRaQih2xUxaE2ydreqUNKmpump",
@@ -62,9 +62,9 @@
     1,
     null
    ],
-   "liq": 303601,
-   "vol": 5678021,
-   "mcap": 12128534,
+   "liq": 328057,
+   "vol": 6347448,
+   "mcap": 14018701,
    "holders": 22073,
    "createdAt": 1793977195000,
    "handle": "ANTSIPO",
@@ -75,7 +75,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/af5cn9mu1y8coh68xkbypsjxxdk1lbnxgo76dpprrolb",
-   "scannedAt": 1795088057915
+   "scannedAt": 1795090238965
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -99,9 +99,9 @@
     1,
     null
    ],
-   "liq": 216355,
-   "vol": 232062,
-   "mcap": 3564911,
+   "liq": 217036,
+   "vol": 230432,
+   "mcap": 3586896,
    "holders": 2795,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -112,7 +112,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1795088061637
+   "scannedAt": 1795090240380
+  },
+  {
+   "ca": "9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump",
+   "chain": "solana",
+   "sym": "DIGS",
+   "name": "AiDiglet",
+   "img": "https://cdn.dexscreener.com/cms/images/njwaE8gbx_dMOMA2?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 63030,
+   "vol": 1178109,
+   "mcap": 387268,
+   "holders": 2741,
+   "createdAt": 1793190770000,
+   "handle": "aidiglet",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/3mxdjdz1gae5hzic4dj4unldxj5dbcc9jssyq55mfykg",
+   "scannedAt": 1795090262556
   }
  ]
 }
