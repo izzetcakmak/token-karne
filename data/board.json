@@ -1,8 +1,8 @@
 {
- "updatedAt": 1795174541561,
+ "updatedAt": 1795176709665,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 43,
+ "scanned": 42,
  "items": [
   {
    "ca": "ejrz94zR4A2ScS8LdvRaQih2xUxaE2ydreqUNKmpump",
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 180545,
-   "vol": 3244218,
-   "mcap": 4255402,
+   "liq": 175191,
+   "vol": 2542175,
+   "mcap": 4037611,
    "holders": 30946,
    "createdAt": 1793977195000,
    "handle": "ANTSIPO",
@@ -39,7 +39,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/af5cn9mu1y8coh68xkbypsjxxdk1lbnxgo76dpprrolb",
-   "scannedAt": 1795174455050
+   "scannedAt": 1795176632600
+  },
+  {
+   "ca": "HoqJaoes6yfL8YEsHGfENwVKT7LrAPy97ZDg9hmBu4Ep",
+   "chain": "solana",
+   "sym": "THUG",
+   "name": "THUG LIFE INC",
+   "img": "https://cdn.dexscreener.com/cms/images/cpwN9PngZrT6f8Tj?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 30612,
+   "vol": 36420,
+   "mcap": 125708,
+   "holders": 1433,
+   "createdAt": 1793878087000,
+   "handle": "_thuglife_inc",
+   "launchpad": null,
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/djgcy9jup8tzwyxlrb9gtv1rijbdwupfswy57qibt8oq",
+   "scannedAt": 1795176636488
   }
  ]
 }
