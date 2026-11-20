@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795135630945,
+ "updatedAt": 1795136943985,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 231084,
-   "vol": 8151646,
-   "mcap": 6922078,
+   "liq": 236195,
+   "vol": 8140131,
+   "mcap": 7221864,
    "holders": 29884,
    "createdAt": 1793977195000,
    "handle": "ANTSIPO",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/af5cn9mu1y8coh68xkbypsjxxdk1lbnxgo76dpprrolb",
-   "scannedAt": 1795135529062
+   "scannedAt": 1795136864274
   },
   {
    "ca": "0x7d03759E5B41E36899833cb2E008455d69A24444",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 95941,
-   "vol": 76105,
-   "mcap": 177577,
+   "liq": 95776,
+   "vol": 76280,
+   "mcap": 177262,
    "holders": 73433,
    "createdAt": 1757345211000,
    "handle": "PricelessBSC_",
@@ -75,7 +75,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x3dc2878f9f60476dbbb18af7531fbe1a603c8dc0",
-   "scannedAt": 1795135578372
+   "scannedAt": 1795136865877
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -99,10 +99,10 @@
     1,
     null
    ],
-   "liq": 217574,
-   "vol": 125949,
-   "mcap": 3599216,
-   "holders": 2791,
+   "liq": 219905,
+   "vol": 124712,
+   "mcap": 3675865,
+   "holders": 2795,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
    "launchpad": "Pump.Fun",
@@ -112,7 +112,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1795135531972
+   "scannedAt": 1795136867894
   }
  ]
 }
