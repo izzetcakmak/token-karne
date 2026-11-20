@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795136943985,
+ "updatedAt": 1795138665908,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -10,8 +10,8 @@
    "sym": "ANTS",
    "name": "Anthropic",
    "img": "https://cdn.dexscreener.com/cms/images/LXnrPq28_YENcXhY?width=800&height=800&quality=95&format=auto",
-   "score": 11,
-   "unknown": 1,
+   "score": 9,
+   "unknown": 3,
    "answers": [
     1,
     1,
@@ -20,62 +20,26 @@
     1,
     1,
     1,
-    1,
-    1,
+    null,
+    null,
     1,
     1,
     null
    ],
-   "liq": 236195,
-   "vol": 8140131,
-   "mcap": 7221864,
+   "liq": 238013,
+   "vol": 8129301,
+   "mcap": 7320239,
    "holders": 29884,
    "createdAt": 1793977195000,
    "handle": "ANTSIPO",
    "launchpad": "Pump.Fun",
-   "flags": 0,
+   "flags": 1,
    "sources": [
     "GoPlus",
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/af5cn9mu1y8coh68xkbypsjxxdk1lbnxgo76dpprrolb",
-   "scannedAt": 1795136864274
-  },
-  {
-   "ca": "0x7d03759E5B41E36899833cb2E008455d69A24444",
-   "chain": "bsc",
-   "sym": "priceless",
-   "name": "priceless",
-   "img": "https://cdn.dexscreener.com/cms/images/6RackrQPX19fEOB8?width=800&height=800&quality=95&format=auto",
-   "score": 10,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 95776,
-   "vol": 76280,
-   "mcap": 177262,
-   "holders": 73433,
-   "createdAt": 1757345211000,
-   "handle": "PricelessBSC_",
-   "launchpad": null,
-   "flags": 0,
-   "sources": [
-    "GoPlus"
-   ],
-   "url": "https://dexscreener.com/bsc/0x3dc2878f9f60476dbbb18af7531fbe1a603c8dc0",
-   "scannedAt": 1795136865877
+   "scannedAt": 1795138576368
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -99,9 +63,9 @@
     1,
     null
    ],
-   "liq": 219905,
-   "vol": 124712,
-   "mcap": 3675865,
+   "liq": 224974,
+   "vol": 133012,
+   "mcap": 3843521,
    "holders": 2795,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -112,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1795136867894
+   "scannedAt": 1795138580596
   }
  ]
 }
