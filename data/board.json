@@ -1,8 +1,8 @@
 {
- "updatedAt": 1795169344060,
+ "updatedAt": 1795170957966,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 45,
+ "scanned": 44,
  "items": [
   {
    "ca": "ejrz94zR4A2ScS8LdvRaQih2xUxaE2ydreqUNKmpump",
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 184506,
-   "vol": 4106523,
-   "mcap": 4445762,
+   "liq": 177090,
+   "vol": 3923592,
+   "mcap": 4102527,
    "holders": 30735,
    "createdAt": 1793977195000,
    "handle": "ANTSIPO",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/af5cn9mu1y8coh68xkbypsjxxdk1lbnxgo76dpprrolb",
-   "scannedAt": 1795169266048
+   "scannedAt": 1795170871073
   }
  ]
 }
