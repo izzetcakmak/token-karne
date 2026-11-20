@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795206939509,
+ "updatedAt": 1795208873007,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,10 +26,10 @@
     1,
     null
    ],
-   "liq": 178013,
-   "vol": 416591,
-   "mcap": 4365649,
-   "holders": 30946,
+   "liq": 182312,
+   "vol": 410713,
+   "mcap": 4636564,
+   "holders": 30882,
    "createdAt": 1793977195000,
    "handle": "ANTSIPO",
    "launchpad": "Pump.Fun",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/af5cn9mu1y8coh68xkbypsjxxdk1lbnxgo76dpprrolb",
-   "scannedAt": 1795206839587
+   "scannedAt": 1795208801175
   }
  ]
 }
