@@ -1,9 +1,46 @@
 {
- "updatedAt": 1795149337395,
+ "updatedAt": 1795151338511,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
  "items": [
+  {
+   "ca": "ejrz94zR4A2ScS8LdvRaQih2xUxaE2ydreqUNKmpump",
+   "chain": "solana",
+   "sym": "ANTS",
+   "name": "Anthropic",
+   "img": "https://cdn.dexscreener.com/cms/images/LXnrPq28_YENcXhY?width=800&height=800&quality=95&format=auto",
+   "score": 11,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 206882,
+   "vol": 7897994,
+   "mcap": 5598782,
+   "holders": 30735,
+   "createdAt": 1793977195000,
+   "handle": "ANTSIPO",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/af5cn9mu1y8coh68xkbypsjxxdk1lbnxgo76dpprrolb",
+   "scannedAt": 1795151262639
+  },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
    "chain": "solana",
@@ -26,9 +63,9 @@
     1,
     null
    ],
-   "liq": 228814,
-   "vol": 150091,
-   "mcap": 3972786,
+   "liq": 245928,
+   "vol": 165381,
+   "mcap": 4581420,
    "holders": 2795,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -39,44 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1795149256032
-  },
-  {
-   "ca": "ejrz94zR4A2ScS8LdvRaQih2xUxaE2ydreqUNKmpump",
-   "chain": "solana",
-   "sym": "ANTS",
-   "name": "Anthropic",
-   "img": "https://cdn.dexscreener.com/cms/images/LXnrPq28_YENcXhY?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 3,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null,
-    null,
-    1,
-    1,
-    null
-   ],
-   "liq": 209548,
-   "vol": 8021961,
-   "mcap": 5726803,
-   "holders": 30735,
-   "createdAt": 1793977195000,
-   "handle": "ANTSIPO",
-   "launchpad": "Pump.Fun",
-   "flags": 1,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/af5cn9mu1y8coh68xkbypsjxxdk1lbnxgo76dpprrolb",
-   "scannedAt": 1795149254510
+   "scannedAt": 1795151261125
   }
  ]
 }
