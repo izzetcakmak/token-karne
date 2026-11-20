@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795201630888,
+ "updatedAt": 1795203342391,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 44,
@@ -10,11 +10,11 @@
    "sym": "ANTS",
    "name": "Anthropic",
    "img": "https://cdn.dexscreener.com/cms/images/LXnrPq28_YENcXhY?width=800&height=800&quality=95&format=auto",
-   "score": 11,
+   "score": 10,
    "unknown": 1,
    "answers": [
     1,
-    1,
+    0,
     1,
     1,
     1,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 178818,
-   "vol": 432957,
-   "mcap": 4390569,
+   "liq": 178261,
+   "vol": 429794,
+   "mcap": 4416537,
    "holders": 30946,
    "createdAt": 1793977195000,
    "handle": "ANTSIPO",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/af5cn9mu1y8coh68xkbypsjxxdk1lbnxgo76dpprrolb",
-   "scannedAt": 1795201560788
+   "scannedAt": 1795203248554
   }
  ]
 }
