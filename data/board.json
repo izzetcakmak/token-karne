@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795210510633,
+ "updatedAt": 1795212481839,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 186759,
-   "vol": 401332,
-   "mcap": 4844605,
+   "liq": 188412,
+   "vol": 401207,
+   "mcap": 4852636,
    "holders": 30882,
    "createdAt": 1793977195000,
    "handle": "ANTSIPO",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/af5cn9mu1y8coh68xkbypsjxxdk1lbnxgo76dpprrolb",
-   "scannedAt": 1795210421323
+   "scannedAt": 1795212387298
   }
  ]
 }
