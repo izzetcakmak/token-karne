@@ -1,45 +1,9 @@
 {
- "updatedAt": 1795140713622,
+ "updatedAt": 1795142133984,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
  "items": [
-  {
-   "ca": "0x7d03759E5B41E36899833cb2E008455d69A24444",
-   "chain": "bsc",
-   "sym": "priceless",
-   "name": "priceless",
-   "img": "https://cdn.dexscreener.com/cms/images/6RackrQPX19fEOB8?width=800&height=800&quality=95&format=auto",
-   "score": 10,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 94366,
-   "vol": 75906,
-   "mcap": 174347,
-   "holders": 73436,
-   "createdAt": 1757345211000,
-   "handle": "PricelessBSC_",
-   "launchpad": null,
-   "flags": 0,
-   "sources": [
-    "GoPlus"
-   ],
-   "url": "https://dexscreener.com/bsc/0x3dc2878f9f60476dbbb18af7531fbe1a603c8dc0",
-   "scannedAt": 1795140675428
-  },
   {
    "ca": "ejrz94zR4A2ScS8LdvRaQih2xUxaE2ydreqUNKmpump",
    "chain": "solana",
@@ -62,9 +26,9 @@
     1,
     null
    ],
-   "liq": 229484,
-   "vol": 8117443,
-   "mcap": 6911959,
+   "liq": 232375,
+   "vol": 8105217,
+   "mcap": 7096739,
    "holders": 30735,
    "createdAt": 1793977195000,
    "handle": "ANTSIPO",
@@ -75,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/af5cn9mu1y8coh68xkbypsjxxdk1lbnxgo76dpprrolb",
-   "scannedAt": 1795140622728
+   "scannedAt": 1795142041872
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -99,9 +63,9 @@
     1,
     null
    ],
-   "liq": 215063,
-   "vol": 139454,
-   "mcap": 3516453,
+   "liq": 214005,
+   "vol": 140588,
+   "mcap": 3482288,
    "holders": 2795,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -112,7 +76,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1795140625158
+   "scannedAt": 1795142044554
+  },
+  {
+   "ca": "HoqJaoes6yfL8YEsHGfENwVKT7LrAPy97ZDg9hmBu4Ep",
+   "chain": "solana",
+   "sym": "THUG",
+   "name": "THUG LIFE INC",
+   "img": "https://cdn.dexscreener.com/cms/images/cpwN9PngZrT6f8Tj?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 31368,
+   "vol": 49327,
+   "mcap": 130872,
+   "holders": 1423,
+   "createdAt": 1793878087000,
+   "handle": "_thuglife_inc",
+   "launchpad": null,
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/djgcy9jup8tzwyxlrb9gtv1rijbdwupfswy57qibt8oq",
+   "scannedAt": 1795142101345
   }
  ]
 }
