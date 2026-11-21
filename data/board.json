@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795282530557,
+ "updatedAt": 1795284583408,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 44,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 225795,
-   "vol": 183168,
-   "mcap": 3847741,
+   "liq": 223144,
+   "vol": 177999,
+   "mcap": 3758218,
    "holders": 2832,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1795282435985
+   "scannedAt": 1795284474014
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 190052,
-   "vol": 490769,
-   "mcap": 2386095,
+   "liq": 184682,
+   "vol": 475369,
+   "mcap": 2229332,
    "holders": 12231,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1795282444489
+   "scannedAt": 1795284476665
   },
   {
    "ca": "KMifrkYmDdAKtVXAVBEPEQxJ7qP2iLgUcfZjUZipump",
@@ -89,31 +89,30 @@
    "answers": [
     1,
     1,
-    1,
-    1,
-    1,
-    1,
-    1,
     null,
     null,
+    1,
+    1,
+    1,
+    1,
+    1,
     1,
     1,
     null
    ],
-   "liq": 39296,
-   "vol": 1477300,
-   "mcap": 219929,
-   "holders": 36993,
+   "liq": 36275,
+   "vol": 1480305,
+   "mcap": 188466,
+   "holders": 56213,
    "createdAt": 1793717354000,
    "handle": "ramdefender",
    "launchpad": "Pump.Fun",
-   "flags": 1,
+   "flags": 0,
    "sources": [
-    "GoPlus",
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/gz15vwspy9kfynkrmpkokp2h9yygvbovoxjsgwsjcvfk",
-   "scannedAt": 1795282438698
+   "scannedAt": 1795284478380
   }
  ]
 }
