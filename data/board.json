@@ -1,8 +1,8 @@
 {
- "updatedAt": 1795289705153,
+ "updatedAt": 1795291674806,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 44,
+ "scanned": 45,
  "items": [
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 220842,
-   "vol": 170373,
-   "mcap": 3682059,
+   "liq": 221209,
+   "vol": 164236,
+   "mcap": 3694055,
    "holders": 2832,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1795289632747
+   "scannedAt": 1795291607670
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 185911,
-   "vol": 463112,
-   "mcap": 2312087,
+   "liq": 186507,
+   "vol": 456959,
+   "mcap": 2313571,
    "holders": 12180,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -76,7 +76,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1795289634210
+   "scannedAt": 1795291609062
+  },
+  {
+   "ca": "Fn95NtGXWPaJXc4N5y9rVkUq1NwZbjBNJzPVvNRLpump",
+   "chain": "solana",
+   "sym": "SHIT",
+   "name": "Ah Shit, Here We Go Again",
+   "img": "https://cdn.dexscreener.com/cms/images/4R9NrUISc9GFycyG?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 113764,
+   "vol": 3060391,
+   "mcap": 1618455,
+   "holders": 17109,
+   "createdAt": 1794958720000,
+   "handle": "AhShitMemeCoin",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/d1lxpkfpbqr1ywvgwyqsed93czdz8ha7s9g7yb8lmffe",
+   "scannedAt": 1795291623423
   }
  ]
 }
