@@ -1,46 +1,9 @@
 {
- "updatedAt": 1795278923711,
+ "updatedAt": 1795280844755,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 44,
+ "scanned": 43,
  "items": [
-  {
-   "ca": "KMifrkYmDdAKtVXAVBEPEQxJ7qP2iLgUcfZjUZipump",
-   "chain": "solana",
-   "sym": "RAMBO",
-   "name": "RAMBO",
-   "img": "https://cdn.dexscreener.com/cms/images/XISzZm6eem7k59zw?width=800&height=800&quality=95&format=auto",
-   "score": 11,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 38599,
-   "vol": 1477553,
-   "mcap": 213674,
-   "holders": 36993,
-   "createdAt": 1793717354000,
-   "handle": "ramdefender",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/gz15vwspy9kfynkrmpkokp2h9yygvbovoxjsgwsjcvfk",
-   "scannedAt": 1795278856102
-  },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
    "chain": "solana",
@@ -63,9 +26,9 @@
     1,
     null
    ],
-   "liq": 224167,
-   "vol": 165501,
-   "mcap": 3794605,
+   "liq": 227485,
+   "vol": 183826,
+   "mcap": 3903998,
    "holders": 2832,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -76,7 +39,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1795278854707
+   "scannedAt": 1795280759919
+  },
+  {
+   "ca": "KMifrkYmDdAKtVXAVBEPEQxJ7qP2iLgUcfZjUZipump",
+   "chain": "solana",
+   "sym": "RAMBO",
+   "name": "RAMBO",
+   "img": "https://cdn.dexscreener.com/cms/images/XISzZm6eem7k59zw?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 3,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null,
+    null,
+    1,
+    1,
+    null
+   ],
+   "liq": 39153,
+   "vol": 1476784,
+   "mcap": 218397,
+   "holders": 36993,
+   "createdAt": 1793717354000,
+   "handle": "ramdefender",
+   "launchpad": "Pump.Fun",
+   "flags": 1,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/gz15vwspy9kfynkrmpkokp2h9yygvbovoxjsgwsjcvfk",
+   "scannedAt": 1795280757882
   }
  ]
 }
