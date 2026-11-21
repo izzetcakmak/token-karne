@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795271694506,
+ "updatedAt": 1795273639750,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 38710,
-   "vol": 1484171,
-   "mcap": 214391,
+   "liq": 38574,
+   "vol": 1482564,
+   "mcap": 212684,
    "holders": 36993,
    "createdAt": 1793717354000,
    "handle": "ramdefender",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/gz15vwspy9kfynkrmpkokp2h9yygvbovoxjsgwsjcvfk",
-   "scannedAt": 1795271630063
+   "scannedAt": 1795273567956
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 221695,
-   "vol": 174962,
-   "mcap": 3712810,
+   "liq": 221064,
+   "vol": 171900,
+   "mcap": 3691649,
    "holders": 2832,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -76,44 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1795271628650
-  },
-  {
-   "ca": "9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump",
-   "chain": "solana",
-   "sym": "DIGS",
-   "name": "AiDiglet",
-   "img": "https://cdn.dexscreener.com/cms/images/njwaE8gbx_dMOMA2?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 55002,
-   "vol": 667797,
-   "mcap": 266453,
-   "holders": 4673,
-   "createdAt": 1793190770000,
-   "handle": "aidiglet",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/3mxdjdz1gae5hzic4dj4unldxj5dbcc9jssyq55mfykg",
-   "scannedAt": 1795271640365
+   "scannedAt": 1795273569597
   }
  ]
 }
