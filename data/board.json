@@ -1,53 +1,16 @@
 {
- "updatedAt": 1795252150995,
+ "updatedAt": 1795253738511,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 45,
+ "scanned": 44,
  "items": [
-  {
-   "ca": "KMifrkYmDdAKtVXAVBEPEQxJ7qP2iLgUcfZjUZipump",
-   "chain": "solana",
-   "sym": "RAMBO",
-   "name": "RAMBO",
-   "img": "https://cdn.dexscreener.com/cms/images/XISzZm6eem7k59zw?width=800&height=800&quality=95&format=auto",
-   "score": 11,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 124101,
-   "vol": 1286572,
-   "mcap": 2247675,
-   "holders": 36993,
-   "createdAt": 1793717354000,
-   "handle": "ramdefender",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/gz15vwspy9kfynkrmpkokp2h9yygvbovoxjsgwsjcvfk",
-   "scannedAt": 1795252069812
-  },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
    "chain": "solana",
    "sym": "CBUCKS",
    "name": "Cartoon Money",
    "img": "https://cdn.dexscreener.com/cms/images/2bajn2a05AdQGV-4?width=800&height=800&quality=95&format=auto",
-   "score": 10,
+   "score": 9,
    "unknown": 1,
    "answers": [
     1,
@@ -59,13 +22,13 @@
     1,
     1,
     1,
-    1,
+    0,
     1,
     null
    ],
-   "liq": 210751,
-   "vol": 153678,
-   "mcap": 3362030,
+   "liq": 210499,
+   "vol": 157755,
+   "mcap": 3353723,
    "holders": 2832,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -76,7 +39,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1795252071742
+   "scannedAt": 1795253649308
+  },
+  {
+   "ca": "KMifrkYmDdAKtVXAVBEPEQxJ7qP2iLgUcfZjUZipump",
+   "chain": "solana",
+   "sym": "RAMBO",
+   "name": "RAMBO",
+   "img": "https://cdn.dexscreener.com/cms/images/XISzZm6eem7k59zw?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 3,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null,
+    null,
+    1,
+    1,
+    null
+   ],
+   "liq": 38195,
+   "vol": 1385246,
+   "mcap": 218467,
+   "holders": 36993,
+   "createdAt": 1793717354000,
+   "handle": "ramdefender",
+   "launchpad": "Pump.Fun",
+   "flags": 1,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/gz15vwspy9kfynkrmpkokp2h9yygvbovoxjsgwsjcvfk",
+   "scannedAt": 1795253647594
   }
  ]
 }
