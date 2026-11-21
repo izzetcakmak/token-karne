@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795257342305,
+ "updatedAt": 1795259225024,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 44,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 37774,
-   "vol": 1492996,
-   "mcap": 210908,
+   "liq": 38152,
+   "vol": 1490746,
+   "mcap": 215813,
    "holders": 36993,
    "createdAt": 1793717354000,
    "handle": "ramdefender",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/gz15vwspy9kfynkrmpkokp2h9yygvbovoxjsgwsjcvfk",
-   "scannedAt": 1795257255456
+   "scannedAt": 1795259154696
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 218963,
-   "vol": 161673,
-   "mcap": 3624247,
+   "liq": 217080,
+   "vol": 161131,
+   "mcap": 3563343,
    "holders": 2832,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1795257257674
+   "scannedAt": 1795259156117
   }
  ]
 }
