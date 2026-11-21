@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795244932870,
+ "updatedAt": 1795246521100,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 210224,
-   "vol": 195794,
-   "mcap": 3345552,
+   "liq": 213075,
+   "vol": 178493,
+   "mcap": 3435813,
    "holders": 2832,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1795244851040
+   "scannedAt": 1795246443581
   }
  ]
 }
