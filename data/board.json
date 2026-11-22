@@ -1,8 +1,8 @@
 {
- "updatedAt": 1795374448944,
+ "updatedAt": 1795376102052,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 43,
+ "scanned": 44,
  "items": [
   {
    "ca": "8s11PkgQt4ZzdZ7oo84hK5t9HG1EvdgAjcg4W7Lpump",
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 226920,
-   "vol": 3716972,
-   "mcap": 6171049,
+   "liq": 226409,
+   "vol": 3715573,
+   "mcap": 6147032,
    "holders": 30476,
    "createdAt": 1793460971000,
    "handle": "BL0B0nS0L",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/hr9qopjxcuak38rxdpzduufhdak2bfjtoxbfqzvn2ewu",
-   "scannedAt": 1795374346750
+   "scannedAt": 1795376030120
   },
   {
    "ca": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
@@ -47,8 +47,8 @@
    "sym": "DESSA",
    "name": "Dessa",
    "img": "https://cdn.dexscreener.com/cms/images/HmECRYytNn0hGid_?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 3,
+   "score": 11,
+   "unknown": 1,
    "answers": [
     1,
     1,
@@ -57,26 +57,26 @@
     1,
     1,
     1,
-    null,
-    null,
+    1,
+    1,
     1,
     1,
     null
    ],
-   "liq": 157414,
-   "vol": 1439150,
-   "mcap": 2910837,
+   "liq": 157570,
+   "vol": 1440889,
+   "mcap": 2919935,
    "holders": 43836,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
    "launchpad": "Pump.Fun",
-   "flags": 1,
+   "flags": 0,
    "sources": [
     "GoPlus",
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1795374349607
+   "scannedAt": 1795376031561
   }
  ]
 }
