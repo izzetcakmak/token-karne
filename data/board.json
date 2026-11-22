@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795336513472,
+ "updatedAt": 1795338548690,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 43,
@@ -10,52 +10,15 @@
    "sym": "BLOB",
    "name": "BLOB",
    "img": "https://cdn.dexscreener.com/cms/images/BFrtXt796DJWyUst?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 3,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null,
-    null,
-    1,
-    1,
-    null
-   ],
-   "liq": 298885,
-   "vol": 632061,
-   "mcap": 11216984,
-   "holders": 27011,
-   "createdAt": 1793460971000,
-   "handle": "BL0B0nS0L",
-   "launchpad": "Pump.Fun",
-   "flags": 1,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/hr9qopjxcuak38rxdpzduufhdak2bfjtoxbfqzvn2ewu",
-   "scannedAt": 1795336430427
-  },
-  {
-   "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
-   "chain": "solana",
-   "sym": "GATO",
-   "name": "GTA6CAT",
-   "img": "https://cdn.dexscreener.com/cms/images/-8CCNt5h1g4Fnvqj?width=800&height=800&quality=95&format=auto",
-   "score": 9,
+   "score": 11,
    "unknown": 1,
    "answers": [
     1,
     1,
     1,
     1,
-    0,
-    0,
+    1,
+    1,
     1,
     1,
     1,
@@ -63,20 +26,20 @@
     1,
     null
    ],
-   "liq": 195417,
-   "vol": 297114,
-   "mcap": 2731393,
-   "holders": 12081,
-   "createdAt": 1787660841000,
-   "handle": "TheGTA6cat",
+   "liq": 314564,
+   "vol": 988360,
+   "mcap": 12345656,
+   "holders": 27011,
+   "createdAt": 1793460971000,
+   "handle": "BL0B0nS0L",
    "launchpad": "Pump.Fun",
    "flags": 0,
    "sources": [
     "GoPlus",
     "RugCheck"
    ],
-   "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1795336432686
+   "url": "https://dexscreener.com/solana/hr9qopjxcuak38rxdpzduufhdak2bfjtoxbfqzvn2ewu",
+   "scannedAt": 1795338479750
   },
   {
    "ca": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
@@ -84,13 +47,13 @@
    "sym": "DESSA",
    "name": "Dessa",
    "img": "https://cdn.dexscreener.com/cms/images/HmECRYytNn0hGid_?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 3,
+   "score": 11,
+   "unknown": 1,
    "answers": [
     1,
     1,
-    null,
-    null,
+    1,
+    1,
     1,
     1,
     1,
@@ -100,19 +63,20 @@
     1,
     null
    ],
-   "liq": 135742,
-   "vol": 625423,
-   "mcap": 2236717,
-   "holders": 69288,
+   "liq": 139172,
+   "vol": 632227,
+   "mcap": 2346145,
+   "holders": 43140,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
    "launchpad": "Pump.Fun",
    "flags": 0,
    "sources": [
+    "GoPlus",
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1795336434126
+   "scannedAt": 1795338482985
   }
  ]
 }
