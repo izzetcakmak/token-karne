@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795356478518,
+ "updatedAt": 1795358142325,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 44,
@@ -10,8 +10,8 @@
    "sym": "BLOB",
    "name": "BLOB",
    "img": "https://cdn.dexscreener.com/cms/images/BFrtXt796DJWyUst?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 3,
+   "score": 11,
+   "unknown": 1,
    "answers": [
     1,
     1,
@@ -20,26 +20,26 @@
     1,
     1,
     1,
-    null,
-    null,
+    1,
+    1,
     1,
     1,
     null
    ],
-   "liq": 363871,
-   "vol": 2503729,
-   "mcap": 16124299,
+   "liq": 387788,
+   "vol": 2639754,
+   "mcap": 18288662,
    "holders": 30476,
    "createdAt": 1793460971000,
    "handle": "BL0B0nS0L",
    "launchpad": "Pump.Fun",
-   "flags": 1,
+   "flags": 0,
    "sources": [
     "GoPlus",
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/hr9qopjxcuak38rxdpzduufhdak2bfjtoxbfqzvn2ewu",
-   "scannedAt": 1795356391747
+   "scannedAt": 1795358045144
   },
   {
    "ca": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
@@ -47,8 +47,8 @@
    "sym": "DESSA",
    "name": "Dessa",
    "img": "https://cdn.dexscreener.com/cms/images/HmECRYytNn0hGid_?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 3,
+   "score": 11,
+   "unknown": 1,
    "answers": [
     1,
     1,
@@ -57,26 +57,26 @@
     1,
     1,
     1,
-    null,
-    null,
+    1,
+    1,
     1,
     1,
     null
    ],
-   "liq": 168993,
-   "vol": 962498,
-   "mcap": 3406532,
+   "liq": 167507,
+   "vol": 1078567,
+   "mcap": 3339950,
    "holders": 43836,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
    "launchpad": "Pump.Fun",
-   "flags": 1,
+   "flags": 0,
    "sources": [
     "GoPlus",
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1795356394029
+   "scannedAt": 1795358046635
   }
  ]
 }
