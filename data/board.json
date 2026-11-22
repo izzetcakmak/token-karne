@@ -1,8 +1,8 @@
 {
- "updatedAt": 1795332926270,
+ "updatedAt": 1795335002399,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 45,
+ "scanned": 43,
  "items": [
   {
    "ca": "8s11PkgQt4ZzdZ7oo84hK5t9HG1EvdgAjcg4W7Lpump",
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 254756,
-   "vol": 304913,
-   "mcap": 8266236,
+   "liq": 270222,
+   "vol": 483590,
+   "mcap": 9268512,
    "holders": 27011,
    "createdAt": 1793460971000,
    "handle": "BL0B0nS0L",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/hr9qopjxcuak38rxdpzduufhdak2bfjtoxbfqzvn2ewu",
-   "scannedAt": 1795332844408
+   "scannedAt": 1795334935012
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 189348,
-   "vol": 292245,
-   "mcap": 2490027,
+   "liq": 194558,
+   "vol": 296411,
+   "mcap": 2722831,
    "holders": 12081,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1795332842555
+   "scannedAt": 1795334936459
   },
   {
    "ca": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
@@ -89,31 +89,67 @@
    "answers": [
     1,
     1,
-    1,
-    1,
-    1,
-    1,
-    1,
     null,
     null,
+    1,
+    1,
+    1,
+    1,
+    1,
     1,
     1,
     null
    ],
-   "liq": 137104,
-   "vol": 611440,
-   "mcap": 2300771,
-   "holders": 43140,
+   "liq": 136996,
+   "vol": 618621,
+   "mcap": 2296090,
+   "holders": 69262,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
    "launchpad": "Pump.Fun",
-   "flags": 1,
+   "flags": 0,
+   "sources": [
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
+   "scannedAt": 1795334937841
+  },
+  {
+   "ca": "4Ye6Y6Vaic8cyPdfW2f9PcLhXkysBtSmV84G8X7spump",
+   "chain": "solana",
+   "sym": "greg",
+   "name": "greg",
+   "img": "https://cdn.dexscreener.com/cms/images/btLfLvheJKNWf0ss?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 74887,
+   "vol": 858231,
+   "mcap": 318395,
+   "holders": 1954,
+   "createdAt": 1794364063000,
+   "handle": "cultofgreg",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
    "sources": [
     "GoPlus",
     "RugCheck"
    ],
-   "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1795332840520
+   "url": "https://dexscreener.com/solana/4s8cabvgadhopkkbitjdqz4tfqxkuczhwdfy8hlvubdq",
+   "scannedAt": 1795334942539
   }
  ]
 }
