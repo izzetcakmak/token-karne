@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795363720080,
+ "updatedAt": 1795365325223,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 44,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 400269,
-   "vol": 3008521,
-   "mcap": 19317775,
+   "liq": 431357,
+   "vol": 3075639,
+   "mcap": 22386115,
    "holders": 30476,
    "createdAt": 1793460971000,
    "handle": "BL0B0nS0L",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/hr9qopjxcuak38rxdpzduufhdak2bfjtoxbfqzvn2ewu",
-   "scannedAt": 1795363648851
+   "scannedAt": 1795365252068
   },
   {
    "ca": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 171545,
-   "vol": 1308769,
-   "mcap": 3467109,
+   "liq": 164849,
+   "vol": 1385767,
+   "mcap": 3193104,
    "holders": 43836,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
@@ -76,44 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1795363650460
-  },
-  {
-   "ca": "4Ye6Y6Vaic8cyPdfW2f9PcLhXkysBtSmV84G8X7spump",
-   "chain": "solana",
-   "sym": "greg",
-   "name": "greg",
-   "img": "https://cdn.dexscreener.com/cms/images/btLfLvheJKNWf0ss?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 73246,
-   "vol": 759491,
-   "mcap": 309483,
-   "holders": 1868,
-   "createdAt": 1794364063000,
-   "handle": "cultofgreg",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/4s8cabvgadhopkkbitjdqz4tfqxkuczhwdfy8hlvubdq",
-   "scannedAt": 1795363680237
+   "scannedAt": 1795365253676
   }
  ]
 }
