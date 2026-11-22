@@ -1,8 +1,8 @@
 {
- "updatedAt": 1795347330752,
+ "updatedAt": 1795349475370,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 43,
+ "scanned": 44,
  "items": [
   {
    "ca": "8s11PkgQt4ZzdZ7oo84hK5t9HG1EvdgAjcg4W7Lpump",
@@ -10,8 +10,8 @@
    "sym": "BLOB",
    "name": "BLOB",
    "img": "https://cdn.dexscreener.com/cms/images/BFrtXt796DJWyUst?width=800&height=800&quality=95&format=auto",
-   "score": 11,
-   "unknown": 1,
+   "score": 9,
+   "unknown": 3,
    "answers": [
     1,
     1,
@@ -20,26 +20,26 @@
     1,
     1,
     1,
-    1,
-    1,
+    null,
+    null,
     1,
     1,
     null
    ],
-   "liq": 364611,
-   "vol": 1757542,
-   "mcap": 16195934,
+   "liq": 317920,
+   "vol": 1913206,
+   "mcap": 12319236,
    "holders": 27011,
    "createdAt": 1793460971000,
    "handle": "BL0B0nS0L",
    "launchpad": "Pump.Fun",
-   "flags": 0,
+   "flags": 1,
    "sources": [
     "GoPlus",
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/hr9qopjxcuak38rxdpzduufhdak2bfjtoxbfqzvn2ewu",
-   "scannedAt": 1795347237038
+   "scannedAt": 1795349387022
   },
   {
    "ca": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 150653,
-   "vol": 678563,
-   "mcap": 2705927,
+   "liq": 147587,
+   "vol": 701461,
+   "mcap": 2599302,
    "holders": 43140,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
@@ -76,44 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1795347239873
-  },
-  {
-   "ca": "9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump",
-   "chain": "solana",
-   "sym": "DIGS",
-   "name": "AiDiglet",
-   "img": "https://cdn.dexscreener.com/cms/images/njwaE8gbx_dMOMA2?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 59900,
-   "vol": 735648,
-   "mcap": 299969,
-   "holders": 3723,
-   "createdAt": 1793190770000,
-   "handle": "aidiglet",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/3mxdjdz1gae5hzic4dj4unldxj5dbcc9jssyq55mfykg",
-   "scannedAt": 1795347241713
+   "scannedAt": 1795349389249
   }
  ]
 }
