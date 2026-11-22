@@ -1,15 +1,15 @@
 {
- "updatedAt": 1795331333517,
+ "updatedAt": 1795332926270,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
  "items": [
   {
-   "ca": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
+   "ca": "8s11PkgQt4ZzdZ7oo84hK5t9HG1EvdgAjcg4W7Lpump",
    "chain": "solana",
-   "sym": "DESSA",
-   "name": "Dessa",
-   "img": "https://cdn.dexscreener.com/cms/images/HmECRYytNn0hGid_?width=800&height=800&quality=95&format=auto",
+   "sym": "BLOB",
+   "name": "BLOB",
+   "img": "https://cdn.dexscreener.com/cms/images/BFrtXt796DJWyUst?width=800&height=800&quality=95&format=auto",
    "score": 11,
    "unknown": 1,
    "answers": [
@@ -26,20 +26,20 @@
     1,
     null
    ],
-   "liq": 129198,
-   "vol": 601008,
-   "mcap": 2047476,
-   "holders": 43140,
-   "createdAt": 1793019918000,
-   "handle": "DessaOnSOL",
+   "liq": 254756,
+   "vol": 304913,
+   "mcap": 8266236,
+   "holders": 27011,
+   "createdAt": 1793460971000,
+   "handle": "BL0B0nS0L",
    "launchpad": "Pump.Fun",
    "flags": 0,
    "sources": [
     "GoPlus",
     "RugCheck"
    ],
-   "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1795331257103
+   "url": "https://dexscreener.com/solana/hr9qopjxcuak38rxdpzduufhdak2bfjtoxbfqzvn2ewu",
+   "scannedAt": 1795332844408
   },
   {
    "ca": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 189772,
-   "vol": 291191,
-   "mcap": 2425525,
+   "liq": 189348,
+   "vol": 292245,
+   "mcap": 2490027,
    "holders": 12081,
    "createdAt": 1787660841000,
    "handle": "TheGTA6cat",
@@ -76,7 +76,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m",
-   "scannedAt": 1795331259194
+   "scannedAt": 1795332842555
+  },
+  {
+   "ca": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
+   "chain": "solana",
+   "sym": "DESSA",
+   "name": "Dessa",
+   "img": "https://cdn.dexscreener.com/cms/images/HmECRYytNn0hGid_?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 3,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null,
+    null,
+    1,
+    1,
+    null
+   ],
+   "liq": 137104,
+   "vol": 611440,
+   "mcap": 2300771,
+   "holders": 43140,
+   "createdAt": 1793019918000,
+   "handle": "DessaOnSOL",
+   "launchpad": "Pump.Fun",
+   "flags": 1,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
+   "scannedAt": 1795332840520
   }
  ]
 }
