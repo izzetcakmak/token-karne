@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795397860215,
+ "updatedAt": 1795399963689,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -10,8 +10,8 @@
    "sym": "DESSA",
    "name": "Dessa",
    "img": "https://cdn.dexscreener.com/cms/images/HmECRYytNn0hGid_?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 3,
+   "score": 11,
+   "unknown": 1,
    "answers": [
     1,
     1,
@@ -20,26 +20,63 @@
     1,
     1,
     1,
-    null,
-    null,
+    1,
+    1,
     1,
     1,
     null
    ],
-   "liq": 162678,
-   "vol": 1768639,
-   "mcap": 3065151,
+   "liq": 141406,
+   "vol": 2039428,
+   "mcap": 2320657,
    "holders": 44434,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
    "launchpad": "Pump.Fun",
-   "flags": 1,
+   "flags": 0,
    "sources": [
     "GoPlus",
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1795397772670
+   "scannedAt": 1795399894109
+  },
+  {
+   "ca": "FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump",
+   "chain": "solana",
+   "sym": "HOGE",
+   "name": "Hogecoin",
+   "img": "https://cdn.dexscreener.com/cms/images/tPozLf116uby0gu3?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 116746,
+   "vol": 315862,
+   "mcap": 535267,
+   "holders": 3620,
+   "createdAt": 1794725770000,
+   "handle": "hogecoinpump",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/7cnc9ggegzeffk8flxiyuhdtmeefpqzond56u1mxhnor",
+   "scannedAt": 1795399895528
   }
  ]
 }
