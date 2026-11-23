@@ -1,8 +1,8 @@
 {
- "updatedAt": 1795451800453,
+ "updatedAt": 1795453714026,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 45,
+ "scanned": 44,
  "items": [
   {
    "ca": "PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump",
@@ -10,8 +10,8 @@
    "sym": "BRUH",
    "name": "The Bruhvengers",
    "img": "https://cdn.dexscreener.com/cms/images/Y_n6IxPbU1FTLt2f?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 3,
+   "score": 11,
+   "unknown": 1,
    "answers": [
     1,
     1,
@@ -20,26 +20,26 @@
     1,
     1,
     1,
-    null,
-    null,
+    1,
+    1,
     1,
     1,
     null
    ],
-   "liq": 227082,
-   "vol": 385794,
-   "mcap": 8202063,
+   "liq": 222411,
+   "vol": 382963,
+   "mcap": 7956118,
    "holders": 12854,
    "createdAt": 1794025843000,
    "handle": "bruhvengersfun",
    "launchpad": "Pump.Fun",
-   "flags": 1,
+   "flags": 0,
    "sources": [
     "GoPlus",
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/ehpzesdxtymvwz1iy5nt3lrnjy1xbc1kgqspl1kqnyiv",
-   "scannedAt": 1795451686284
+   "scannedAt": 1795453632407
   },
   {
    "ca": "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 152278,
-   "vol": 405197,
-   "mcap": 1945961,
+   "liq": 152244,
+   "vol": 407310,
+   "mcap": 1967042,
    "holders": 2221,
    "createdAt": 1793128408000,
    "handle": "dogwifjob_sol",
@@ -76,43 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/hauvbmnthcfmg9srxmvz1gaxnpu955hkpdsasc2cx4c8",
-   "scannedAt": 1795451688149
-  },
-  {
-   "ca": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
-   "chain": "solana",
-   "sym": "DESSA",
-   "name": "Dessa",
-   "img": "https://cdn.dexscreener.com/cms/images/HmECRYytNn0hGid_?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 3,
-   "answers": [
-    1,
-    1,
-    null,
-    null,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 148757,
-   "vol": 1273380,
-   "mcap": 2356650,
-   "holders": 72042,
-   "createdAt": 1793019918000,
-   "handle": "DessaOnSOL",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1795451689843
+   "scannedAt": 1795453634132
   }
  ]
 }
