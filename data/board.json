@@ -1,8 +1,8 @@
 {
- "updatedAt": 1795440936152,
+ "updatedAt": 1795442973126,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 43,
+ "scanned": 42,
  "items": [
   {
    "ca": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
@@ -10,8 +10,8 @@
    "sym": "DESSA",
    "name": "Dessa",
    "img": "https://cdn.dexscreener.com/cms/images/HmECRYytNn0hGid_?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 3,
+   "score": 11,
+   "unknown": 1,
    "answers": [
     1,
     1,
@@ -20,26 +20,26 @@
     1,
     1,
     1,
-    null,
-    null,
+    1,
+    1,
     1,
     1,
     null
    ],
-   "liq": 135666,
-   "vol": 1783453,
-   "mcap": 2041259,
+   "liq": 146520,
+   "vol": 1602097,
+   "mcap": 2262957,
    "holders": 44278,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
    "launchpad": "Pump.Fun",
-   "flags": 1,
+   "flags": 0,
    "sources": [
     "GoPlus",
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1795440837730
+   "scannedAt": 1795442902035
   },
   {
    "ca": "Jd3NCawdFiDNWpLiTtsMqoeoBMjC1ZQMrMScRVzpump",
@@ -47,8 +47,8 @@
    "sym": "NOHR",
    "name": "NO HUMAN",
    "img": "https://cdn.dexscreener.com/cms/images/InrYyi7PacmJey2x?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 3,
+   "score": 11,
+   "unknown": 1,
    "answers": [
     1,
     1,
@@ -57,26 +57,62 @@
     1,
     1,
     1,
-    null,
-    null,
+    1,
+    1,
     1,
     1,
     null
    ],
-   "liq": 64901,
-   "vol": 664754,
-   "mcap": 754813,
+   "liq": 67985,
+   "vol": 758854,
+   "mcap": 783813,
    "holders": 5272,
    "createdAt": 1795274416000,
    "handle": "nohrfun",
    "launchpad": "Pump.Fun",
-   "flags": 1,
+   "flags": 0,
    "sources": [
     "GoPlus",
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/fbqxu5ezpbbv4vktfd83qperygcotcvqzrtabsxhqs2m",
-   "scannedAt": 1795440840183
+   "scannedAt": 1795442903581
+  },
+  {
+   "ca": "0xc6aCf921FD47757230A05D6d05b686479CDFc87C",
+   "chain": "ethereum",
+   "sym": "CLAUDIA",
+   "name": "Claudia",
+   "img": "https://cdn.dexscreener.com/cms/images/uFDt7CfTGUiB7BUM?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 132020,
+   "vol": 1746978,
+   "mcap": 2452203,
+   "holders": 793,
+   "createdAt": 1795306715000,
+   "handle": "ClaudiaMemeETH",
+   "launchpad": null,
+   "flags": 0,
+   "sources": [
+    "GoPlus"
+   ],
+   "url": "https://dexscreener.com/ethereum/0xc745bafe87aa0dac53f21e94a62f9d4e40e9f5f7de607976cf535f3ce704aef0",
+   "scannedAt": 1795442952264
   }
  ]
 }
