@@ -1,8 +1,8 @@
 {
- "updatedAt": 1795455329857,
+ "updatedAt": 1795457437177,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 44,
+ "scanned": 45,
  "items": [
   {
    "ca": "PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump",
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 222230,
-   "vol": 384559,
-   "mcap": 8006620,
+   "liq": 220789,
+   "vol": 385422,
+   "mcap": 7919178,
    "holders": 12854,
    "createdAt": 1794025843000,
    "handle": "bruhvengersfun",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/ehpzesdxtymvwz1iy5nt3lrnjy1xbc1kgqspl1kqnyiv",
-   "scannedAt": 1795455246248
+   "scannedAt": 1795457338106
   },
   {
    "ca": "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 151565,
-   "vol": 411007,
-   "mcap": 1964057,
+   "liq": 150779,
+   "vol": 409417,
+   "mcap": 1947529,
    "holders": 2221,
    "createdAt": 1793128408000,
    "handle": "dogwifjob_sol",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/hauvbmnthcfmg9srxmvz1gaxnpu955hkpdsasc2cx4c8",
-   "scannedAt": 1795455248775
+   "scannedAt": 1795457339621
   }
  ]
 }
