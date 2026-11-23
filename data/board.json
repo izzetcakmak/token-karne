@@ -1,9 +1,46 @@
 {
- "updatedAt": 1795462566293,
+ "updatedAt": 1795464505061,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
  "items": [
+  {
+   "ca": "7cFiqdT46zs7ooHWLFiLSaSQKLMibtokh9dBinsspump",
+   "chain": "solana",
+   "sym": "UCASH",
+   "name": "Umbra Cash",
+   "img": "https://cdn.dexscreener.com/cms/images/P-SyG8Pw8NHzj2jL?width=800&height=800&quality=95&format=auto",
+   "score": 10,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 75064,
+   "vol": 4557897,
+   "mcap": 814899,
+   "holders": 10758,
+   "createdAt": 1795346103000,
+   "handle": "UmbraCashSol",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/4h7r5jzaq6pgnjfud12aeuqjrqygwz2yhpsra6sh1rxt",
+   "scannedAt": 1795464483242
+  },
   {
    "ca": "PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump",
    "chain": "solana",
@@ -26,9 +63,9 @@
     1,
     null
    ],
-   "liq": 219793,
-   "vol": 386367,
-   "mcap": 7909902,
+   "liq": 221108,
+   "vol": 386849,
+   "mcap": 7998578,
    "holders": 12854,
    "createdAt": 1794025843000,
    "handle": "bruhvengersfun",
@@ -39,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/ehpzesdxtymvwz1iy5nt3lrnjy1xbc1kgqspl1kqnyiv",
-   "scannedAt": 1795462475019
+   "scannedAt": 1795464423168
   },
   {
    "ca": "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump",
@@ -63,9 +100,9 @@
     1,
     null
    ],
-   "liq": 148834,
-   "vol": 409162,
-   "mcap": 1912128,
+   "liq": 147984,
+   "vol": 405761,
+   "mcap": 1888751,
    "holders": 2184,
    "createdAt": 1793128408000,
    "handle": "dogwifjob_sol",
@@ -76,7 +113,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/hauvbmnthcfmg9srxmvz1gaxnpu955hkpdsasc2cx4c8",
-   "scannedAt": 1795462477535
+   "scannedAt": 1795464425128
   }
  ]
 }
