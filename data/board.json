@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795473340263,
+ "updatedAt": 1795475312724,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -10,11 +10,11 @@
    "sym": "BRUH",
    "name": "The Bruhvengers",
    "img": "https://cdn.dexscreener.com/cms/images/Y_n6IxPbU1FTLt2f?width=800&height=800&quality=95&format=auto",
-   "score": 10,
+   "score": 11,
    "unknown": 1,
    "answers": [
     1,
-    0,
+    1,
     1,
     1,
     1,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 219050,
-   "vol": 401603,
-   "mcap": 7949691,
+   "liq": 224116,
+   "vol": 410142,
+   "mcap": 8331556,
    "holders": 13484,
    "createdAt": 1794025843000,
    "handle": "bruhvengersfun",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/ehpzesdxtymvwz1iy5nt3lrnjy1xbc1kgqspl1kqnyiv",
-   "scannedAt": 1795473243748
+   "scannedAt": 1795475242613
   },
   {
    "ca": "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 144038,
-   "vol": 380606,
-   "mcap": 1812366,
+   "liq": 142496,
+   "vol": 377910,
+   "mcap": 1776584,
    "holders": 2184,
    "createdAt": 1793128408000,
    "handle": "dogwifjob_sol",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/hauvbmnthcfmg9srxmvz1gaxnpu955hkpdsasc2cx4c8",
-   "scannedAt": 1795473246312
+   "scannedAt": 1795475244026
   }
  ]
 }
