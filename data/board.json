@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795426660022,
+ "updatedAt": 1795428559731,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 43,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 120669,
-   "vol": 1809852,
-   "mcap": 1624206,
+   "liq": 126906,
+   "vol": 1822436,
+   "mcap": 1800270,
    "holders": 44278,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1795426592931
+   "scannedAt": 1795428484746
   },
   {
    "ca": "Jd3NCawdFiDNWpLiTtsMqoeoBMjC1ZQMrMScRVzpump",
@@ -47,8 +47,8 @@
    "sym": "NOHR",
    "name": "NO HUMAN",
    "img": "https://cdn.dexscreener.com/cms/images/InrYyi7PacmJey2x?width=800&height=800&quality=95&format=auto",
-   "score": 11,
-   "unknown": 1,
+   "score": 9,
+   "unknown": 3,
    "answers": [
     1,
     1,
@@ -57,26 +57,26 @@
     1,
     1,
     1,
-    1,
-    1,
+    null,
+    null,
     1,
     1,
     null
    ],
-   "liq": 99751,
-   "vol": 400699,
-   "mcap": 1785465,
+   "liq": 102497,
+   "vol": 425957,
+   "mcap": 1888528,
    "holders": 3311,
    "createdAt": 1795274416000,
    "handle": "nohrfun",
    "launchpad": "Pump.Fun",
-   "flags": 0,
+   "flags": 1,
    "sources": [
     "GoPlus",
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/fbqxu5ezpbbv4vktfd83qperygcotcvqzrtabsxhqs2m",
-   "scannedAt": 1795426591492
+   "scannedAt": 1795428486962
   },
   {
    "ca": "4npJ3avxnGhCzKbWQpLrQXAHsjWzKr4JqBsbu5Fspump",
@@ -100,10 +100,10 @@
     1,
     null
    ],
-   "liq": 80423,
-   "vol": 1283688,
-   "mcap": 1161705,
-   "holders": 11591,
+   "liq": 79113,
+   "vol": 1246488,
+   "mcap": 1128106,
+   "holders": 11553,
    "createdAt": 1795338409000,
    "handle": "cateballcoin",
    "launchpad": "Pump.Fun",
@@ -112,7 +112,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/ekexwkzqwea8rbv31kwjbyzse3sosgez1vrykvu6uy2w",
-   "scannedAt": 1795426594305
+   "scannedAt": 1795428488400
   }
  ]
 }
