@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795393337481,
+ "updatedAt": 1795395092651,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 44,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 168947,
-   "vol": 1525881,
-   "mcap": 3326224,
+   "liq": 167610,
+   "vol": 1572976,
+   "mcap": 3272153,
    "holders": 44434,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1795393269801
+   "scannedAt": 1795395022815
   }
  ]
 }
