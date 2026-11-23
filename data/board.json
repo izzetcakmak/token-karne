@@ -1,8 +1,8 @@
 {
- "updatedAt": 1795435953752,
+ "updatedAt": 1795437584365,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 44,
+ "scanned": 43,
  "items": [
   {
    "ca": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 123073,
-   "vol": 1809516,
-   "mcap": 1688629,
+   "liq": 124438,
+   "vol": 1801316,
+   "mcap": 1730556,
    "holders": 44278,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1795435865192
+   "scannedAt": 1795437516930
   },
   {
    "ca": "Jd3NCawdFiDNWpLiTtsMqoeoBMjC1ZQMrMScRVzpump",
@@ -47,8 +47,8 @@
    "sym": "NOHR",
    "name": "NO HUMAN",
    "img": "https://cdn.dexscreener.com/cms/images/InrYyi7PacmJey2x?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 3,
+   "score": 11,
+   "unknown": 1,
    "answers": [
     1,
     1,
@@ -57,26 +57,26 @@
     1,
     1,
     1,
-    null,
-    null,
+    1,
+    1,
     1,
     1,
     null
    ],
-   "liq": 93528,
-   "vol": 513279,
-   "mcap": 1566145,
+   "liq": 75507,
+   "vol": 579134,
+   "mcap": 1026906,
    "holders": 5272,
    "createdAt": 1795274416000,
    "handle": "nohrfun",
    "launchpad": "Pump.Fun",
-   "flags": 1,
+   "flags": 0,
    "sources": [
     "GoPlus",
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/fbqxu5ezpbbv4vktfd83qperygcotcvqzrtabsxhqs2m",
-   "scannedAt": 1795435867629
+   "scannedAt": 1795437518414
   }
  ]
 }
