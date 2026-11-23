@@ -1,15 +1,15 @@
 {
- "updatedAt": 1795414704635,
+ "updatedAt": 1795416686764,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
  "items": [
   {
-   "ca": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
+   "ca": "Jd3NCawdFiDNWpLiTtsMqoeoBMjC1ZQMrMScRVzpump",
    "chain": "solana",
-   "sym": "DESSA",
-   "name": "Dessa",
-   "img": "https://cdn.dexscreener.com/cms/images/HmECRYytNn0hGid_?width=800&height=800&quality=95&format=auto",
+   "sym": "NOHR",
+   "name": "NO HUMAN",
+   "img": "https://cdn.dexscreener.com/cms/images/InrYyi7PacmJey2x?width=800&height=800&quality=95&format=auto",
    "score": 11,
    "unknown": 1,
    "answers": [
@@ -26,20 +26,57 @@
     1,
     null
    ],
-   "liq": 124299,
-   "vol": 1838990,
-   "mcap": 1740478,
-   "holders": 44434,
-   "createdAt": 1793019918000,
-   "handle": "DessaOnSOL",
+   "liq": 111113,
+   "vol": 222164,
+   "mcap": 2254348,
+   "holders": 3311,
+   "createdAt": 1795274416000,
+   "handle": "nohrfun",
    "launchpad": "Pump.Fun",
    "flags": 0,
    "sources": [
     "GoPlus",
     "RugCheck"
    ],
+   "url": "https://dexscreener.com/solana/fbqxu5ezpbbv4vktfd83qperygcotcvqzrtabsxhqs2m",
+   "scannedAt": 1795416596641
+  },
+  {
+   "ca": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
+   "chain": "solana",
+   "sym": "DESSA",
+   "name": "Dessa",
+   "img": "https://cdn.dexscreener.com/cms/images/HmECRYytNn0hGid_?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 3,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null,
+    null,
+    1,
+    1,
+    null
+   ],
+   "liq": 123875,
+   "vol": 1821175,
+   "mcap": 1733641,
+   "holders": 44434,
+   "createdAt": 1793019918000,
+   "handle": "DessaOnSOL",
+   "launchpad": "Pump.Fun",
+   "flags": 1,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1795414633072
+   "scannedAt": 1795416595105
   }
  ]
 }
