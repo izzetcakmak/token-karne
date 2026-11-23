@@ -1,8 +1,8 @@
 {
- "updatedAt": 1795446564881,
+ "updatedAt": 1795448148181,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 44,
+ "scanned": 42,
  "items": [
   {
    "ca": "PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump",
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 226322,
-   "vol": 358175,
-   "mcap": 7991153,
+   "liq": 225912,
+   "vol": 363543,
+   "mcap": 7987963,
    "holders": 12854,
    "createdAt": 1794025843000,
    "handle": "bruhvengersfun",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/ehpzesdxtymvwz1iy5nt3lrnjy1xbc1kgqspl1kqnyiv",
-   "scannedAt": 1795446480451
+   "scannedAt": 1795448079429
   },
   {
    "ca": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 149500,
-   "vol": 1461413,
-   "mcap": 2334530,
+   "liq": 149974,
+   "vol": 1412528,
+   "mcap": 2356451,
    "holders": 44278,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
@@ -76,7 +76,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1795446478817
+   "scannedAt": 1795448080902
+  },
+  {
+   "ca": "Jd3NCawdFiDNWpLiTtsMqoeoBMjC1ZQMrMScRVzpump",
+   "chain": "solana",
+   "sym": "NOHR",
+   "name": "NO HUMAN",
+   "img": "https://cdn.dexscreener.com/cms/images/InrYyi7PacmJey2x?width=800&height=800&quality=95&format=auto",
+   "score": 10,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    null
+   ],
+   "liq": 87523,
+   "vol": 1123129,
+   "mcap": 1256574,
+   "holders": 5272,
+   "createdAt": 1795274416000,
+   "handle": "nohrfun",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/fbqxu5ezpbbv4vktfd83qperygcotcvqzrtabsxhqs2m",
+   "scannedAt": 1795448102439
   }
  ]
 }
