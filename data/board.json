@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795558111023,
+ "updatedAt": 1795559751010,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 66336,
-   "vol": 625124,
-   "mcap": 782154,
+   "liq": 67669,
+   "vol": 627302,
+   "mcap": 812096,
    "holders": 15436,
    "createdAt": 1795338409000,
    "handle": "cateballcoin",
@@ -39,43 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/ekexwkzqwea8rbv31kwjbyzse3sosgez1vrykvu6uy2w",
-   "scannedAt": 1795558022650
-  },
-  {
-   "ca": "0xE01A317003621D634B6E5fDFfF451f8DB4087777",
-   "chain": "bsc",
-   "sym": "羊羊",
-   "name": "羊羊",
-   "img": "https://cdn.dexscreener.com/cms/images/Bt5U9qmjptcAU74i?width=800&height=800&quality=95&format=auto",
-   "score": 10,
-   "unknown": 1,
-   "answers": [
-    1,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 87832,
-   "vol": 52481,
-   "mcap": 935081,
-   "holders": 7780,
-   "createdAt": 1795348882000,
-   "handle": "ckj1105",
-   "launchpad": null,
-   "flags": 0,
-   "sources": [
-    "GoPlus"
-   ],
-   "url": "https://dexscreener.com/bsc/0xa659c9431213a48f0f56661d979f92d46be059be",
-   "scannedAt": 1795558019081
+   "scannedAt": 1795559661016
   },
   {
    "ca": "Jd3NCawdFiDNWpLiTtsMqoeoBMjC1ZQMrMScRVzpump",
@@ -99,9 +63,9 @@
     1,
     null
    ],
-   "liq": 144014,
-   "vol": 564332,
-   "mcap": 3598987,
+   "liq": 145574,
+   "vol": 561545,
+   "mcap": 3660487,
    "holders": 5875,
    "createdAt": 1795274416000,
    "handle": "nohrfun",
@@ -112,44 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/fbqxu5ezpbbv4vktfd83qperygcotcvqzrtabsxhqs2m",
-   "scannedAt": 1795558017558
-  },
-  {
-   "ca": "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump",
-   "chain": "solana",
-   "sym": "JOB",
-   "name": "DogWifJob",
-   "img": "https://cdn.dexscreener.com/cms/images/x8ZkXi9L1J38qoCZ?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    1,
-    1,
-    0,
-    1,
-    null
-   ],
-   "liq": 139992,
-   "vol": 214632,
-   "mcap": 1764631,
-   "holders": 2157,
-   "createdAt": 1793128408000,
-   "handle": "dogwifjob_sol",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/hauvbmnthcfmg9srxmvz1gaxnpu955hkpdsasc2cx4c8",
-   "scannedAt": 1795558020686
+   "scannedAt": 1795559666063
   }
  ]
 }
