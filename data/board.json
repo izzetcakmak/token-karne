@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795536628767,
+ "updatedAt": 1795538149396,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 43,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 140640,
-   "vol": 578180,
-   "mcap": 3462647,
+   "liq": 142433,
+   "vol": 567956,
+   "mcap": 3541981,
    "holders": 4861,
    "createdAt": 1795274416000,
    "handle": "nohrfun",
@@ -39,43 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/fbqxu5ezpbbv4vktfd83qperygcotcvqzrtabsxhqs2m",
-   "scannedAt": 1795536540423
-  },
-  {
-   "ca": "0xE01A317003621D634B6E5fDFfF451f8DB4087777",
-   "chain": "bsc",
-   "sym": "羊羊",
-   "name": "羊羊",
-   "img": "https://cdn.dexscreener.com/cms/images/Bt5U9qmjptcAU74i?width=800&height=800&quality=95&format=auto",
-   "score": 10,
-   "unknown": 1,
-   "answers": [
-    1,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 90265,
-   "vol": 56538,
-   "mcap": 976125,
-   "holders": 7770,
-   "createdAt": 1795348882000,
-   "handle": "ckj1105",
-   "launchpad": null,
-   "flags": 0,
-   "sources": [
-    "GoPlus"
-   ],
-   "url": "https://dexscreener.com/bsc/0xa659c9431213a48f0f56661d979f92d46be059be",
-   "scannedAt": 1795536545633
+   "scannedAt": 1795538062416
   },
   {
    "ca": "4npJ3avxnGhCzKbWQpLrQXAHsjWzKr4JqBsbu5Fspump",
@@ -99,9 +63,9 @@
     1,
     null
    ],
-   "liq": 72473,
-   "vol": 624217,
-   "mcap": 947782,
+   "liq": 70913,
+   "vol": 625963,
+   "mcap": 905443,
    "holders": 14243,
    "createdAt": 1795338409000,
    "handle": "cateballcoin",
@@ -112,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/ekexwkzqwea8rbv31kwjbyzse3sosgez1vrykvu6uy2w",
-   "scannedAt": 1795536538979
+   "scannedAt": 1795538067702
   }
  ]
 }
