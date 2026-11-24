@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795512939145,
+ "updatedAt": 1795514967789,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 42,
@@ -10,44 +10,7 @@
    "sym": "NOHR",
    "name": "NO HUMAN",
    "img": "https://cdn.dexscreener.com/cms/images/InrYyi7PacmJey2x?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 3,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null,
-    null,
-    1,
-    1,
-    null
-   ],
-   "liq": 142976,
-   "vol": 1395963,
-   "mcap": 3481366,
-   "holders": 4861,
-   "createdAt": 1795274416000,
-   "handle": "nohrfun",
-   "launchpad": "Pump.Fun",
-   "flags": 1,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/fbqxu5ezpbbv4vktfd83qperygcotcvqzrtabsxhqs2m",
-   "scannedAt": 1795512854902
-  },
-  {
-   "ca": "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump",
-   "chain": "solana",
-   "sym": "JOB",
-   "name": "DogWifJob",
-   "img": "https://cdn.dexscreener.com/cms/images/x8ZkXi9L1J38qoCZ?width=800&height=800&quality=95&format=auto",
-   "score": 9,
+   "score": 11,
    "unknown": 1,
    "answers": [
     1,
@@ -55,28 +18,28 @@
     1,
     1,
     1,
-    0,
     1,
     1,
     1,
-    0,
+    1,
+    1,
     1,
     null
    ],
-   "liq": 141992,
-   "vol": 300716,
-   "mcap": 1789096,
-   "holders": 2162,
-   "createdAt": 1793128408000,
-   "handle": "dogwifjob_sol",
+   "liq": 143738,
+   "vol": 1364733,
+   "mcap": 3526238,
+   "holders": 4861,
+   "createdAt": 1795274416000,
+   "handle": "nohrfun",
    "launchpad": "Pump.Fun",
    "flags": 0,
    "sources": [
     "GoPlus",
     "RugCheck"
    ],
-   "url": "https://dexscreener.com/solana/hauvbmnthcfmg9srxmvz1gaxnpu955hkpdsasc2cx4c8",
-   "scannedAt": 1795512856526
+   "url": "https://dexscreener.com/solana/fbqxu5ezpbbv4vktfd83qperygcotcvqzrtabsxhqs2m",
+   "scannedAt": 1795514845138
   }
  ]
 }
