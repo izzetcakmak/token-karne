@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795494952814,
+ "updatedAt": 1795496968886,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 31879,
-   "vol": 5368931,
-   "mcap": 107937,
+   "liq": 33786,
+   "vol": 5261018,
+   "mcap": 161239,
    "holders": 20868,
    "createdAt": 1795346103000,
    "handle": "UmbraCashSol",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/4h7r5jzaq6pgnjfud12aeuqjrqygwz2yhpsra6sh1rxt",
-   "scannedAt": 1795494863257
+   "scannedAt": 1795496887451
   }
  ]
 }
