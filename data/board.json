@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795548921828,
+ "updatedAt": 1795550925310,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 44,
@@ -10,8 +10,8 @@
    "sym": "NOHR",
    "name": "NO HUMAN",
    "img": "https://cdn.dexscreener.com/cms/images/InrYyi7PacmJey2x?width=800&height=800&quality=95&format=auto",
-   "score": 11,
-   "unknown": 1,
+   "score": 9,
+   "unknown": 3,
    "answers": [
     1,
     1,
@@ -20,62 +20,26 @@
     1,
     1,
     1,
-    1,
-    1,
+    null,
+    null,
     1,
     1,
     null
    ],
-   "liq": 143625,
-   "vol": 566087,
-   "mcap": 3586930,
+   "liq": 140389,
+   "vol": 567212,
+   "mcap": 3440844,
    "holders": 5875,
    "createdAt": 1795274416000,
    "handle": "nohrfun",
    "launchpad": "Pump.Fun",
-   "flags": 0,
+   "flags": 1,
    "sources": [
     "GoPlus",
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/fbqxu5ezpbbv4vktfd83qperygcotcvqzrtabsxhqs2m",
-   "scannedAt": 1795548850159
-  },
-  {
-   "ca": "0xE01A317003621D634B6E5fDFfF451f8DB4087777",
-   "chain": "bsc",
-   "sym": "羊羊",
-   "name": "羊羊",
-   "img": "https://cdn.dexscreener.com/cms/images/Bt5U9qmjptcAU74i?width=800&height=800&quality=95&format=auto",
-   "score": 10,
-   "unknown": 1,
-   "answers": [
-    1,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 90399,
-   "vol": 52298,
-   "mcap": 978040,
-   "holders": 7777,
-   "createdAt": 1795348882000,
-   "handle": "ckj1105",
-   "launchpad": null,
-   "flags": 0,
-   "sources": [
-    "GoPlus"
-   ],
-   "url": "https://dexscreener.com/bsc/0xa659c9431213a48f0f56661d979f92d46be059be",
-   "scannedAt": 1795548875305
+   "scannedAt": 1795550835474
   },
   {
    "ca": "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump",
@@ -99,9 +63,9 @@
     1,
     null
    ],
-   "liq": 138737,
-   "vol": 197098,
-   "mcap": 1744577,
+   "liq": 138867,
+   "vol": 197942,
+   "mcap": 1753647,
    "holders": 2157,
    "createdAt": 1793128408000,
    "handle": "dogwifjob_sol",
@@ -112,43 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/hauvbmnthcfmg9srxmvz1gaxnpu955hkpdsasc2cx4c8",
-   "scannedAt": 1795548851639
-  },
-  {
-   "ca": "4npJ3avxnGhCzKbWQpLrQXAHsjWzKr4JqBsbu5Fspump",
-   "chain": "solana",
-   "sym": "cateball",
-   "name": "cateball",
-   "img": "https://cdn.dexscreener.com/cms/images/CqeuGDMb0H1A8PbR?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 3,
-   "answers": [
-    1,
-    1,
-    null,
-    null,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 63864,
-   "vol": 630011,
-   "mcap": 731707,
-   "holders": 12552,
-   "createdAt": 1795338409000,
-   "handle": "cateballcoin",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/ekexwkzqwea8rbv31kwjbyzse3sosgez1vrykvu6uy2w",
-   "scannedAt": 1795548853548
+   "scannedAt": 1795550839688
   }
  ]
 }
