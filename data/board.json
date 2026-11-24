@@ -1,53 +1,17 @@
 {
- "updatedAt": 1795541747265,
+ "updatedAt": 1795543863537,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
  "items": [
-  {
-   "ca": "0xE01A317003621D634B6E5fDFfF451f8DB4087777",
-   "chain": "bsc",
-   "sym": "羊羊",
-   "name": "羊羊",
-   "img": "https://cdn.dexscreener.com/cms/images/Bt5U9qmjptcAU74i?width=800&height=800&quality=95&format=auto",
-   "score": 10,
-   "unknown": 1,
-   "answers": [
-    1,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 90643,
-   "vol": 52491,
-   "mcap": 981293,
-   "holders": 7770,
-   "createdAt": 1795348882000,
-   "handle": "ckj1105",
-   "launchpad": null,
-   "flags": 0,
-   "sources": [
-    "GoPlus"
-   ],
-   "url": "https://dexscreener.com/bsc/0xa659c9431213a48f0f56661d979f92d46be059be",
-   "scannedAt": 1795541642199
-  },
   {
    "ca": "Jd3NCawdFiDNWpLiTtsMqoeoBMjC1ZQMrMScRVzpump",
    "chain": "solana",
    "sym": "NOHR",
    "name": "NO HUMAN",
    "img": "https://cdn.dexscreener.com/cms/images/InrYyi7PacmJey2x?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 3,
+   "score": 11,
+   "unknown": 1,
    "answers": [
     1,
     1,
@@ -56,26 +20,63 @@
     1,
     1,
     1,
-    null,
-    null,
+    1,
+    1,
     1,
     1,
     null
    ],
-   "liq": 140975,
-   "vol": 568281,
-   "mcap": 3447965,
+   "liq": 140794,
+   "vol": 568239,
+   "mcap": 3430647,
    "holders": 5875,
    "createdAt": 1795274416000,
    "handle": "nohrfun",
    "launchpad": "Pump.Fun",
-   "flags": 1,
+   "flags": 0,
    "sources": [
     "GoPlus",
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/fbqxu5ezpbbv4vktfd83qperygcotcvqzrtabsxhqs2m",
-   "scannedAt": 1795541637992
+   "scannedAt": 1795543749748
+  },
+  {
+   "ca": "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump",
+   "chain": "solana",
+   "sym": "JOB",
+   "name": "DogWifJob",
+   "img": "https://cdn.dexscreener.com/cms/images/x8ZkXi9L1J38qoCZ?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    null
+   ],
+   "liq": 138393,
+   "vol": 203687,
+   "mcap": 1727490,
+   "holders": 2157,
+   "createdAt": 1793128408000,
+   "handle": "dogwifjob_sol",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/hauvbmnthcfmg9srxmvz1gaxnpu955hkpdsasc2cx4c8",
+   "scannedAt": 1795543802908
   },
   {
    "ca": "4npJ3avxnGhCzKbWQpLrQXAHsjWzKr4JqBsbu5Fspump",
@@ -99,9 +100,9 @@
     1,
     null
    ],
-   "liq": 64590,
-   "vol": 630178,
-   "mcap": 747943,
+   "liq": 65866,
+   "vol": 631309,
+   "mcap": 774819,
    "holders": 15436,
    "createdAt": 1795338409000,
    "handle": "cateballcoin",
@@ -112,7 +113,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/ekexwkzqwea8rbv31kwjbyzse3sosgez1vrykvu6uy2w",
-   "scannedAt": 1795541640736
+   "scannedAt": 1795543751982
   }
  ]
 }
