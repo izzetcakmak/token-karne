@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795504159300,
+ "updatedAt": 1795505717592,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 44,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 145272,
-   "vol": 335606,
-   "mcap": 1846589,
+   "liq": 143565,
+   "vol": 331165,
+   "mcap": 1809902,
    "holders": 2162,
    "createdAt": 1793128408000,
    "handle": "dogwifjob_sol",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/hauvbmnthcfmg9srxmvz1gaxnpu955hkpdsasc2cx4c8",
-   "scannedAt": 1795504082695
+   "scannedAt": 1795505642204
   }
  ]
 }
