@@ -1,8 +1,8 @@
 {
- "updatedAt": 1795486310149,
+ "updatedAt": 1795487820473,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 44,
+ "scanned": 45,
  "items": [
   {
    "ca": "PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump",
@@ -10,11 +10,11 @@
    "sym": "BRUH",
    "name": "The Bruhvengers",
    "img": "https://cdn.dexscreener.com/cms/images/Y_n6IxPbU1FTLt2f?width=800&height=800&quality=95&format=auto",
-   "score": 10,
+   "score": 11,
    "unknown": 1,
    "answers": [
     1,
-    0,
+    1,
     1,
     1,
     1,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 217982,
-   "vol": 453274,
-   "mcap": 7937420,
+   "liq": 217406,
+   "vol": 459074,
+   "mcap": 7925506,
    "holders": 13484,
    "createdAt": 1794025843000,
    "handle": "bruhvengersfun",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/ehpzesdxtymvwz1iy5nt3lrnjy1xbc1kgqspl1kqnyiv",
-   "scannedAt": 1795486237556
+   "scannedAt": 1795487742922
   },
   {
    "ca": "7cFiqdT46zs7ooHWLFiLSaSQKLMibtokh9dBinsspump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 98924,
-   "vol": 5300227,
-   "mcap": 1361888,
+   "liq": 105178,
+   "vol": 5378723,
+   "mcap": 1535033,
    "holders": 20868,
    "createdAt": 1795346103000,
    "handle": "UmbraCashSol",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/4h7r5jzaq6pgnjfud12aeuqjrqygwz2yhpsra6sh1rxt",
-   "scannedAt": 1795486238962
+   "scannedAt": 1795487744571
   }
  ]
 }
