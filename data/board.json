@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795530943149,
+ "updatedAt": 1795532973967,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 43,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 139220,
-   "vol": 845451,
-   "mcap": 3332288,
+   "liq": 139438,
+   "vol": 710280,
+   "mcap": 3354355,
    "holders": 4861,
    "createdAt": 1795274416000,
    "handle": "nohrfun",
@@ -39,7 +39,43 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/fbqxu5ezpbbv4vktfd83qperygcotcvqzrtabsxhqs2m",
-   "scannedAt": 1795530845864
+   "scannedAt": 1795532884253
+  },
+  {
+   "ca": "4npJ3avxnGhCzKbWQpLrQXAHsjWzKr4JqBsbu5Fspump",
+   "chain": "solana",
+   "sym": "cateball",
+   "name": "cateball",
+   "img": "https://cdn.dexscreener.com/cms/images/CqeuGDMb0H1A8PbR?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 3,
+   "answers": [
+    1,
+    1,
+    null,
+    null,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 71200,
+   "vol": 623356,
+   "mcap": 904127,
+   "holders": 12475,
+   "createdAt": 1795338409000,
+   "handle": "cateballcoin",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/ekexwkzqwea8rbv31kwjbyzse3sosgez1vrykvu6uy2w",
+   "scannedAt": 1795532891384
   }
  ]
 }
