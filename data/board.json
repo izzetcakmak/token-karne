@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795476926521,
+ "updatedAt": 1795479542442,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -10,11 +10,11 @@
    "sym": "BRUH",
    "name": "The Bruhvengers",
    "img": "https://cdn.dexscreener.com/cms/images/Y_n6IxPbU1FTLt2f?width=800&height=800&quality=95&format=auto",
-   "score": 11,
+   "score": 10,
    "unknown": 1,
    "answers": [
     1,
-    1,
+    0,
     1,
     1,
     1,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 222181,
-   "vol": 417818,
-   "mcap": 8175480,
+   "liq": 219684,
+   "vol": 428456,
+   "mcap": 8025980,
    "holders": 13484,
    "createdAt": 1794025843000,
    "handle": "bruhvengersfun",
@@ -39,7 +39,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/ehpzesdxtymvwz1iy5nt3lrnjy1xbc1kgqspl1kqnyiv",
-   "scannedAt": 1795476855914
+   "scannedAt": 1795479473517
+  },
+  {
+   "ca": "7cFiqdT46zs7ooHWLFiLSaSQKLMibtokh9dBinsspump",
+   "chain": "solana",
+   "sym": "UCASH",
+   "name": "Umbra Cash",
+   "img": "https://cdn.dexscreener.com/cms/images/P-SyG8Pw8NHzj2jL?width=800&height=800&quality=95&format=auto",
+   "score": 10,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 96335,
+   "vol": 5163263,
+   "mcap": 1307225,
+   "holders": 20868,
+   "createdAt": 1795346103000,
+   "handle": "UmbraCashSol",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/4h7r5jzaq6pgnjfud12aeuqjrqygwz2yhpsra6sh1rxt",
+   "scannedAt": 1795479481139
   },
   {
    "ca": "BAKsQrynzwadyACDMsg3J5R8a4CTvj1u7kEYyjq7pump",
@@ -63,9 +100,9 @@
     1,
     null
    ],
-   "liq": 65355,
-   "vol": 1383529,
-   "mcap": 746735,
+   "liq": 69173,
+   "vol": 1386343,
+   "mcap": 835622,
    "holders": 6915,
    "createdAt": 1795383742000,
    "handle": "CopiumMemeX",
@@ -76,44 +113,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/8rjw3dbbzfzkyf5tinesjqpyjtepzg8dz7dnb2sebupp",
-   "scannedAt": 1795476902187
-  },
-  {
-   "ca": "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump",
-   "chain": "solana",
-   "sym": "JOB",
-   "name": "DogWifJob",
-   "img": "https://cdn.dexscreener.com/cms/images/x8ZkXi9L1J38qoCZ?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    1,
-    1,
-    0,
-    1,
-    null
-   ],
-   "liq": 142735,
-   "vol": 377233,
-   "mcap": 1779536,
-   "holders": 2184,
-   "createdAt": 1793128408000,
-   "handle": "dogwifjob_sol",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/hauvbmnthcfmg9srxmvz1gaxnpu955hkpdsasc2cx4c8",
-   "scannedAt": 1795476857353
+   "scannedAt": 1795479475311
   }
  ]
 }
