@@ -1,9 +1,46 @@
 {
- "updatedAt": 1795559751010,
+ "updatedAt": 1795561663481,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
  "items": [
+  {
+   "ca": "Jd3NCawdFiDNWpLiTtsMqoeoBMjC1ZQMrMScRVzpump",
+   "chain": "solana",
+   "sym": "NOHR",
+   "name": "NO HUMAN",
+   "img": "https://cdn.dexscreener.com/cms/images/InrYyi7PacmJey2x?width=800&height=800&quality=95&format=auto",
+   "score": 11,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 143848,
+   "vol": 560216,
+   "mcap": 3563098,
+   "holders": 5875,
+   "createdAt": 1795274416000,
+   "handle": "nohrfun",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/fbqxu5ezpbbv4vktfd83qperygcotcvqzrtabsxhqs2m",
+   "scannedAt": 1795561566419
+  },
   {
    "ca": "4npJ3avxnGhCzKbWQpLrQXAHsjWzKr4JqBsbu5Fspump",
    "chain": "solana",
@@ -26,9 +63,9 @@
     1,
     null
    ],
-   "liq": 67669,
-   "vol": 627302,
-   "mcap": 812096,
+   "liq": 68297,
+   "vol": 627183,
+   "mcap": 823879,
    "holders": 15436,
    "createdAt": 1795338409000,
    "handle": "cateballcoin",
@@ -39,44 +76,43 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/ekexwkzqwea8rbv31kwjbyzse3sosgez1vrykvu6uy2w",
-   "scannedAt": 1795559661016
+   "scannedAt": 1795561564900
   },
   {
-   "ca": "Jd3NCawdFiDNWpLiTtsMqoeoBMjC1ZQMrMScRVzpump",
-   "chain": "solana",
-   "sym": "NOHR",
-   "name": "NO HUMAN",
-   "img": "https://cdn.dexscreener.com/cms/images/InrYyi7PacmJey2x?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 3,
+   "ca": "0xE01A317003621D634B6E5fDFfF451f8DB4087777",
+   "chain": "bsc",
+   "sym": "羊羊",
+   "name": "羊羊",
+   "img": "https://cdn.dexscreener.com/cms/images/Bt5U9qmjptcAU74i?width=800&height=800&quality=95&format=auto",
+   "score": 10,
+   "unknown": 1,
    "answers": [
     1,
+    0,
     1,
     1,
     1,
     1,
     1,
     1,
-    null,
-    null,
+    1,
     1,
     1,
     null
    ],
-   "liq": 145574,
-   "vol": 561545,
-   "mcap": 3660487,
-   "holders": 5875,
-   "createdAt": 1795274416000,
-   "handle": "nohrfun",
-   "launchpad": "Pump.Fun",
-   "flags": 1,
+   "liq": 88728,
+   "vol": 52447,
+   "mcap": 946272,
+   "holders": 7777,
+   "createdAt": 1795348882000,
+   "handle": "ckj1105",
+   "launchpad": null,
+   "flags": 0,
    "sources": [
-    "GoPlus",
-    "RugCheck"
+    "GoPlus"
    ],
-   "url": "https://dexscreener.com/solana/fbqxu5ezpbbv4vktfd83qperygcotcvqzrtabsxhqs2m",
-   "scannedAt": 1795559666063
+   "url": "https://dexscreener.com/bsc/0xa659c9431213a48f0f56661d979f92d46be059be",
+   "scannedAt": 1795561611563
   }
  ]
 }
