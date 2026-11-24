@@ -1,9 +1,45 @@
 {
- "updatedAt": 1795509386863,
+ "updatedAt": 1795511395887,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 43,
+ "scanned": 42,
  "items": [
+  {
+   "ca": "Jd3NCawdFiDNWpLiTtsMqoeoBMjC1ZQMrMScRVzpump",
+   "chain": "solana",
+   "sym": "NOHR",
+   "name": "NO HUMAN",
+   "img": "https://cdn.dexscreener.com/cms/images/InrYyi7PacmJey2x?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 3,
+   "answers": [
+    1,
+    1,
+    null,
+    null,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 142407,
+   "vol": 1417460,
+   "mcap": 3451577,
+   "holders": 8568,
+   "createdAt": 1795274416000,
+   "handle": "nohrfun",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/fbqxu5ezpbbv4vktfd83qperygcotcvqzrtabsxhqs2m",
+   "scannedAt": 1795511318159
+  },
   {
    "ca": "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump",
    "chain": "solana",
@@ -26,9 +62,9 @@
     1,
     null
    ],
-   "liq": 141970,
-   "vol": 314829,
-   "mcap": 1781803,
+   "liq": 141156,
+   "vol": 306721,
+   "mcap": 1767046,
    "holders": 2162,
    "createdAt": 1793128408000,
    "handle": "dogwifjob_sol",
@@ -39,7 +75,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/hauvbmnthcfmg9srxmvz1gaxnpu955hkpdsasc2cx4c8",
-   "scannedAt": 1795509302951
+   "scannedAt": 1795511315063
   }
  ]
 }
