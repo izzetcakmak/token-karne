@@ -1,8 +1,8 @@
 {
- "updatedAt": 1795516600723,
+ "updatedAt": 1795518534989,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 42,
+ "scanned": 41,
  "items": [
   {
    "ca": "Jd3NCawdFiDNWpLiTtsMqoeoBMjC1ZQMrMScRVzpump",
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 144192,
-   "vol": 1342924,
-   "mcap": 3549378,
+   "liq": 144634,
+   "vol": 1315605,
+   "mcap": 3583728,
    "holders": 4861,
    "createdAt": 1795274416000,
    "handle": "nohrfun",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/fbqxu5ezpbbv4vktfd83qperygcotcvqzrtabsxhqs2m",
-   "scannedAt": 1795516501845
+   "scannedAt": 1795518454631
   }
  ]
 }
