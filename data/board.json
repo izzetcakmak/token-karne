@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795514967789,
+ "updatedAt": 1795516600723,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 42,
@@ -10,8 +10,8 @@
    "sym": "NOHR",
    "name": "NO HUMAN",
    "img": "https://cdn.dexscreener.com/cms/images/InrYyi7PacmJey2x?width=800&height=800&quality=95&format=auto",
-   "score": 11,
-   "unknown": 1,
+   "score": 9,
+   "unknown": 3,
    "answers": [
     1,
     1,
@@ -20,26 +20,26 @@
     1,
     1,
     1,
-    1,
-    1,
+    null,
+    null,
     1,
     1,
     null
    ],
-   "liq": 143738,
-   "vol": 1364733,
-   "mcap": 3526238,
+   "liq": 144192,
+   "vol": 1342924,
+   "mcap": 3549378,
    "holders": 4861,
    "createdAt": 1795274416000,
    "handle": "nohrfun",
    "launchpad": "Pump.Fun",
-   "flags": 0,
+   "flags": 1,
    "sources": [
     "GoPlus",
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/fbqxu5ezpbbv4vktfd83qperygcotcvqzrtabsxhqs2m",
-   "scannedAt": 1795514845138
+   "scannedAt": 1795516501845
   }
  ]
 }
