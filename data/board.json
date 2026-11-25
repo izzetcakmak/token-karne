@@ -1,8 +1,8 @@
 {
- "updatedAt": 1795620974288,
+ "updatedAt": 1795623075812,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 42,
+ "scanned": 43,
  "items": [
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 248816,
-   "vol": 323426,
-   "mcap": 4618515,
+   "liq": 253471,
+   "vol": 327981,
+   "mcap": 4791898,
    "holders": 2883,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1795620896262
+   "scannedAt": 1795622988828
   },
   {
    "ca": "0x2D81A59dF5bEe318d74F47F25c04313443B4f183",
@@ -63,10 +63,10 @@
     1,
     null
    ],
-   "liq": 155050,
-   "vol": 879176,
-   "mcap": 147828,
-   "holders": 1379,
+   "liq": 162735,
+   "vol": 895261,
+   "mcap": 163923,
+   "holders": 1329,
    "createdAt": 1795452341000,
    "handle": "Ignis_bnb",
    "launchpad": null,
@@ -75,7 +75,44 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x7a88ca451215c92fbccd4efb15424a67bf40ebf2",
-   "scannedAt": 1795620898012
+   "scannedAt": 1795622990399
+  },
+  {
+   "ca": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
+   "chain": "solana",
+   "sym": "DESSA",
+   "name": "Dessa",
+   "img": "https://cdn.dexscreener.com/cms/images/HmECRYytNn0hGid_?width=800&height=800&quality=95&format=auto",
+   "score": 10,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    null
+   ],
+   "liq": 81537,
+   "vol": 444372,
+   "mcap": 769510,
+   "holders": 42799,
+   "createdAt": 1793019918000,
+   "handle": "DessaOnSOL",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
+   "scannedAt": 1795623003084
   }
  ]
 }
