@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795624544373,
+ "updatedAt": 1795626501913,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 42,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 258187,
-   "vol": 329742,
-   "mcap": 4969358,
+   "liq": 268084,
+   "vol": 337032,
+   "mcap": 5353201,
    "holders": 2883,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -39,43 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1795624468484
-  },
-  {
-   "ca": "0x2D81A59dF5bEe318d74F47F25c04313443B4f183",
-   "chain": "bsc",
-   "sym": "IGNIS",
-   "name": "IGNIS",
-   "img": "https://cdn.dexscreener.com/cms/images/ITb7UZshNRb1DLcZ?width=800&height=800&quality=95&format=auto",
-   "score": 10,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 166295,
-   "vol": 897216,
-   "mcap": 171102,
-   "holders": 1329,
-   "createdAt": 1795452341000,
-   "handle": "Ignis_bnb",
-   "launchpad": null,
-   "flags": 0,
-   "sources": [
-    "GoPlus"
-   ],
-   "url": "https://dexscreener.com/bsc/0x7a88ca451215c92fbccd4efb15424a67bf40ebf2",
-   "scannedAt": 1795624469870
+   "scannedAt": 1795626372081
   },
   {
    "ca": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
@@ -99,9 +63,9 @@
     1,
     null
    ],
-   "liq": 79865,
-   "vol": 472170,
-   "mcap": 735139,
+   "liq": 82966,
+   "vol": 482549,
+   "mcap": 791822,
    "holders": 42799,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
@@ -112,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1795624471271
+   "scannedAt": 1795626380309
   }
  ]
 }
