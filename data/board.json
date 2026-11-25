@@ -1,45 +1,44 @@
 {
- "updatedAt": 1795574250216,
+ "updatedAt": 1795576240209,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 45,
+ "scanned": 44,
  "items": [
   {
-   "ca": "Jd3NCawdFiDNWpLiTtsMqoeoBMjC1ZQMrMScRVzpump",
-   "chain": "solana",
-   "sym": "NOHR",
-   "name": "NO HUMAN",
-   "img": "https://cdn.dexscreener.com/cms/images/InrYyi7PacmJey2x?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 3,
+   "ca": "0xE01A317003621D634B6E5fDFfF451f8DB4087777",
+   "chain": "bsc",
+   "sym": "羊羊",
+   "name": "羊羊",
+   "img": "https://cdn.dexscreener.com/cms/images/Bt5U9qmjptcAU74i?width=800&height=800&quality=95&format=auto",
+   "score": 10,
+   "unknown": 1,
    "answers": [
     1,
+    0,
     1,
     1,
     1,
     1,
     1,
     1,
-    null,
-    null,
+    1,
     1,
     1,
     null
    ],
-   "liq": 146113,
-   "vol": 561542,
-   "mcap": 3745318,
-   "holders": 5875,
-   "createdAt": 1795274416000,
-   "handle": "nohrfun",
-   "launchpad": "Pump.Fun",
-   "flags": 1,
+   "liq": 88772,
+   "vol": 49890,
+   "mcap": 960376,
+   "holders": 8090,
+   "createdAt": 1795348882000,
+   "handle": "ckj1105",
+   "launchpad": null,
+   "flags": 0,
    "sources": [
-    "GoPlus",
-    "RugCheck"
+    "GoPlus"
    ],
-   "url": "https://dexscreener.com/solana/fbqxu5ezpbbv4vktfd83qperygcotcvqzrtabsxhqs2m",
-   "scannedAt": 1795574163487
+   "url": "https://dexscreener.com/bsc/0xa659c9431213a48f0f56661d979f92d46be059be",
+   "scannedAt": 1795576201804
   }
  ]
 }
