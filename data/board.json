@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795633656552,
+ "updatedAt": 1795635328811,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 270581,
-   "vol": 347792,
-   "mcap": 5451120,
+   "liq": 271478,
+   "vol": 350013,
+   "mcap": 5486379,
    "holders": 2883,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1795633567731
+   "scannedAt": 1795635236397
   },
   {
    "ca": "0x2D81A59dF5bEe318d74F47F25c04313443B4f183",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 179854,
-   "vol": 914926,
-   "mcap": 187696,
+   "liq": 178828,
+   "vol": 916333,
+   "mcap": 185242,
    "holders": 1593,
    "createdAt": 1795452341000,
    "handle": "Ignis_bnb",
@@ -75,7 +75,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x7a88ca451215c92fbccd4efb15424a67bf40ebf2",
-   "scannedAt": 1795633569352
+   "scannedAt": 1795635238168
   },
   {
    "ca": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
@@ -99,9 +99,9 @@
     1,
     null
    ],
-   "liq": 78940,
-   "vol": 501175,
-   "mcap": 697493,
+   "liq": 81550,
+   "vol": 501289,
+   "mcap": 734521,
    "holders": 42799,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
@@ -112,7 +112,43 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1795633571038
+   "scannedAt": 1795635239863
+  },
+  {
+   "ca": "PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump",
+   "chain": "solana",
+   "sym": "BRUH",
+   "name": "The Bruhvengers",
+   "img": "https://cdn.dexscreener.com/cms/images/Y_n6IxPbU1FTLt2f?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 3,
+   "answers": [
+    1,
+    1,
+    null,
+    null,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 203804,
+   "vol": 125878,
+   "mcap": 6978755,
+   "holders": 16185,
+   "createdAt": 1794025843000,
+   "handle": "bruhvengersfun",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/ehpzesdxtymvwz1iy5nt3lrnjy1xbc1kgqspl1kqnyiv",
+   "scannedAt": 1795635269182
   }
  ]
 }
