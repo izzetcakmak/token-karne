@@ -1,8 +1,8 @@
 {
- "updatedAt": 1795610414705,
+ "updatedAt": 1795612151491,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 44,
+ "scanned": 43,
  "items": [
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 262235,
-   "vol": 299438,
-   "mcap": 5129077,
+   "liq": 264483,
+   "vol": 299180,
+   "mcap": 5216296,
    "holders": 2883,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -39,7 +39,43 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1795610345748
+   "scannedAt": 1795612075621
+  },
+  {
+   "ca": "0x2D81A59dF5bEe318d74F47F25c04313443B4f183",
+   "chain": "bsc",
+   "sym": "IGNIS",
+   "name": "IGNIS",
+   "img": "https://cdn.dexscreener.com/cms/images/ITb7UZshNRb1DLcZ?width=800&height=800&quality=95&format=auto",
+   "score": 10,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 177608,
+   "vol": 760987,
+   "mcap": 177828,
+   "holders": 1312,
+   "createdAt": 1795452341000,
+   "handle": "Ignis_bnb",
+   "launchpad": null,
+   "flags": 0,
+   "sources": [
+    "GoPlus"
+   ],
+   "url": "https://dexscreener.com/bsc/0x7a88ca451215c92fbccd4efb15424a67bf40ebf2",
+   "scannedAt": 1795612084333
   }
  ]
 }
