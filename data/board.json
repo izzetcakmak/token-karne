@@ -1,8 +1,8 @@
 {
- "updatedAt": 1795635328811,
+ "updatedAt": 1795637338915,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 45,
+ "scanned": 44,
  "items": [
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -26,10 +26,10 @@
     1,
     null
    ],
-   "liq": 271478,
-   "vol": 350013,
-   "mcap": 5486379,
-   "holders": 2883,
+   "liq": 270499,
+   "vol": 348337,
+   "mcap": 5447300,
+   "holders": 2903,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
    "launchpad": "Pump.Fun",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1795635236397
+   "scannedAt": 1795637244452
   },
   {
    "ca": "0x2D81A59dF5bEe318d74F47F25c04313443B4f183",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 178828,
-   "vol": 916333,
-   "mcap": 185242,
+   "liq": 179287,
+   "vol": 917358,
+   "mcap": 189089,
    "holders": 1593,
    "createdAt": 1795452341000,
    "handle": "Ignis_bnb",
@@ -75,7 +75,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x7a88ca451215c92fbccd4efb15424a67bf40ebf2",
-   "scannedAt": 1795635238168
+   "scannedAt": 1795637245840
   },
   {
    "ca": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
@@ -99,10 +99,10 @@
     1,
     null
    ],
-   "liq": 81550,
-   "vol": 501289,
-   "mcap": 734521,
-   "holders": 42799,
+   "liq": 80095,
+   "vol": 501883,
+   "mcap": 711167,
+   "holders": 39107,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
    "launchpad": "Pump.Fun",
@@ -112,7 +112,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1795635239863
+   "scannedAt": 1795637247238
   },
   {
    "ca": "PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump",
@@ -136,10 +136,10 @@
     1,
     null
    ],
-   "liq": 203804,
-   "vol": 125878,
-   "mcap": 6978755,
-   "holders": 16185,
+   "liq": 202175,
+   "vol": 125537,
+   "mcap": 6891135,
+   "holders": 16196,
    "createdAt": 1794025843000,
    "handle": "bruhvengersfun",
    "launchpad": "Pump.Fun",
@@ -148,7 +148,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/ehpzesdxtymvwz1iy5nt3lrnjy1xbc1kgqspl1kqnyiv",
-   "scannedAt": 1795635269182
+   "scannedAt": 1795637248630
   }
  ]
 }
