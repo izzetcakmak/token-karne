@@ -1,46 +1,9 @@
 {
- "updatedAt": 1795568953240,
+ "updatedAt": 1795570644845,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 44,
+ "scanned": 45,
  "items": [
-  {
-   "ca": "Jd3NCawdFiDNWpLiTtsMqoeoBMjC1ZQMrMScRVzpump",
-   "chain": "solana",
-   "sym": "NOHR",
-   "name": "NO HUMAN",
-   "img": "https://cdn.dexscreener.com/cms/images/InrYyi7PacmJey2x?width=800&height=800&quality=95&format=auto",
-   "score": 11,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 145828,
-   "vol": 561528,
-   "mcap": 3691258,
-   "holders": 5875,
-   "createdAt": 1795274416000,
-   "handle": "nohrfun",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/fbqxu5ezpbbv4vktfd83qperygcotcvqzrtabsxhqs2m",
-   "scannedAt": 1795568873358
-  },
   {
    "ca": "4npJ3avxnGhCzKbWQpLrQXAHsjWzKr4JqBsbu5Fspump",
    "chain": "solana",
@@ -63,9 +26,9 @@
     1,
     null
    ],
-   "liq": 68998,
-   "vol": 627629,
-   "mcap": 844978,
+   "liq": 63346,
+   "vol": 643557,
+   "mcap": 713048,
    "holders": 15436,
    "createdAt": 1795338409000,
    "handle": "cateballcoin",
@@ -76,7 +39,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/ekexwkzqwea8rbv31kwjbyzse3sosgez1vrykvu6uy2w",
-   "scannedAt": 1795568874804
+   "scannedAt": 1795570573225
+  },
+  {
+   "ca": "Jd3NCawdFiDNWpLiTtsMqoeoBMjC1ZQMrMScRVzpump",
+   "chain": "solana",
+   "sym": "NOHR",
+   "name": "NO HUMAN",
+   "img": "https://cdn.dexscreener.com/cms/images/InrYyi7PacmJey2x?width=800&height=800&quality=95&format=auto",
+   "score": 10,
+   "unknown": 1,
+   "answers": [
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 144100,
+   "vol": 561511,
+   "mcap": 3602721,
+   "holders": 5875,
+   "createdAt": 1795274416000,
+   "handle": "nohrfun",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/fbqxu5ezpbbv4vktfd83qperygcotcvqzrtabsxhqs2m",
+   "scannedAt": 1795570571510
   },
   {
    "ca": "0xE01A317003621D634B6E5fDFfF451f8DB4087777",
@@ -100,9 +100,9 @@
     1,
     null
    ],
-   "liq": 87781,
-   "vol": 50500,
-   "mcap": 939978,
+   "liq": 88464,
+   "vol": 50052,
+   "mcap": 947290,
    "holders": 8089,
    "createdAt": 1795348882000,
    "handle": "ckj1105",
@@ -112,7 +112,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0xa659c9431213a48f0f56661d979f92d46be059be",
-   "scannedAt": 1795568911246
+   "scannedAt": 1795570574912
   }
  ]
 }
