@@ -1,8 +1,8 @@
 {
- "updatedAt": 1795623075812,
+ "updatedAt": 1795624544373,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 43,
+ "scanned": 42,
  "items": [
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 253471,
-   "vol": 327981,
-   "mcap": 4791898,
+   "liq": 258187,
+   "vol": 329742,
+   "mcap": 4969358,
    "holders": 2883,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1795622988828
+   "scannedAt": 1795624468484
   },
   {
    "ca": "0x2D81A59dF5bEe318d74F47F25c04313443B4f183",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 162735,
-   "vol": 895261,
-   "mcap": 163923,
+   "liq": 166295,
+   "vol": 897216,
+   "mcap": 171102,
    "holders": 1329,
    "createdAt": 1795452341000,
    "handle": "Ignis_bnb",
@@ -75,7 +75,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x7a88ca451215c92fbccd4efb15424a67bf40ebf2",
-   "scannedAt": 1795622990399
+   "scannedAt": 1795624469870
   },
   {
    "ca": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
@@ -99,9 +99,9 @@
     1,
     null
    ],
-   "liq": 81537,
-   "vol": 444372,
-   "mcap": 769510,
+   "liq": 79865,
+   "vol": 472170,
+   "mcap": 735139,
    "holders": 42799,
    "createdAt": 1793019918000,
    "handle": "DessaOnSOL",
@@ -112,7 +112,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
-   "scannedAt": 1795623003084
+   "scannedAt": 1795624471271
   }
  ]
 }
