@@ -1,8 +1,8 @@
 {
- "updatedAt": 1795638967894,
+ "updatedAt": 1795640953332,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 44,
+ "scanned": 45,
  "items": [
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 265578,
-   "vol": 349746,
-   "mcap": 5252058,
+   "liq": 258099,
+   "vol": 362113,
+   "mcap": 4962249,
    "holders": 2903,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -39,7 +39,43 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1795638869028
+   "scannedAt": 1795640859929
+  },
+  {
+   "ca": "PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump",
+   "chain": "solana",
+   "sym": "BRUH",
+   "name": "The Bruhvengers",
+   "img": "https://cdn.dexscreener.com/cms/images/Y_n6IxPbU1FTLt2f?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 3,
+   "answers": [
+    1,
+    1,
+    null,
+    null,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 204803,
+   "vol": 128527,
+   "mcap": 7051565,
+   "holders": 16216,
+   "createdAt": 1794025843000,
+   "handle": "bruhvengersfun",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/ehpzesdxtymvwz1iy5nt3lrnjy1xbc1kgqspl1kqnyiv",
+   "scannedAt": 1795640904569
   }
  ]
 }
