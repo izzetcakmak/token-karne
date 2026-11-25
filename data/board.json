@@ -1,44 +1,45 @@
 {
- "updatedAt": 1795576240209,
+ "updatedAt": 1795577834453,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 44,
  "items": [
   {
-   "ca": "0xE01A317003621D634B6E5fDFfF451f8DB4087777",
-   "chain": "bsc",
-   "sym": "羊羊",
-   "name": "羊羊",
-   "img": "https://cdn.dexscreener.com/cms/images/Bt5U9qmjptcAU74i?width=800&height=800&quality=95&format=auto",
-   "score": 10,
+   "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
+   "chain": "solana",
+   "sym": "CBUCKS",
+   "name": "Cartoon Money",
+   "img": "https://cdn.dexscreener.com/cms/images/2bajn2a05AdQGV-4?width=800&height=800&quality=95&format=auto",
+   "score": 9,
    "unknown": 1,
    "answers": [
+    1,
+    1,
+    1,
     1,
     0,
     1,
     1,
     1,
     1,
-    1,
-    1,
-    1,
-    1,
+    0,
     1,
     null
    ],
-   "liq": 88772,
-   "vol": 49890,
-   "mcap": 960376,
-   "holders": 8090,
-   "createdAt": 1795348882000,
-   "handle": "ckj1105",
-   "launchpad": null,
+   "liq": 279397,
+   "vol": 155287,
+   "mcap": 5824347,
+   "holders": 2817,
+   "createdAt": 1791311393000,
+   "handle": "cartoonmoney_ai",
+   "launchpad": "Pump.Fun",
    "flags": 0,
    "sources": [
-    "GoPlus"
+    "GoPlus",
+    "RugCheck"
    ],
-   "url": "https://dexscreener.com/bsc/0xa659c9431213a48f0f56661d979f92d46be059be",
-   "scannedAt": 1795576201804
+   "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
+   "scannedAt": 1795577761448
   }
  ]
 }
