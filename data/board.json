@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795734510953,
+ "updatedAt": 1795736152255,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -10,11 +10,11 @@
    "sym": "CBUCKS",
    "name": "Cartoon Money",
    "img": "https://cdn.dexscreener.com/cms/images/2bajn2a05AdQGV-4?width=800&height=800&quality=95&format=auto",
-   "score": 10,
+   "score": 9,
    "unknown": 1,
    "answers": [
     1,
-    1,
+    0,
     1,
     1,
     0,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 294028,
-   "vol": 233912,
-   "mcap": 6396643,
+   "liq": 295038,
+   "vol": 251439,
+   "mcap": 6435174,
    "holders": 3020,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1795734420044
+   "scannedAt": 1795736039074
   }
  ]
 }
