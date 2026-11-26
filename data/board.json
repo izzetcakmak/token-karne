@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795669747588,
+ "updatedAt": 1795671384375,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -10,8 +10,8 @@
    "sym": "BRUH",
    "name": "The Bruhvengers",
    "img": "https://cdn.dexscreener.com/cms/images/Y_n6IxPbU1FTLt2f?width=800&height=800&quality=95&format=auto",
-   "score": 11,
-   "unknown": 1,
+   "score": 9,
+   "unknown": 3,
    "answers": [
     1,
     1,
@@ -20,26 +20,26 @@
     1,
     1,
     1,
-    1,
-    1,
+    null,
+    null,
     1,
     1,
     null
    ],
-   "liq": 264855,
-   "vol": 936714,
-   "mcap": 11526105,
+   "liq": 265543,
+   "vol": 940593,
+   "mcap": 11562214,
    "holders": 14150,
    "createdAt": 1794025843000,
    "handle": "bruhvengersfun",
    "launchpad": "Pump.Fun",
-   "flags": 0,
+   "flags": 1,
    "sources": [
     "GoPlus",
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/ehpzesdxtymvwz1iy5nt3lrnjy1xbc1kgqspl1kqnyiv",
-   "scannedAt": 1795669667725
+   "scannedAt": 1795671278544
   }
  ]
 }
