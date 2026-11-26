@@ -1,8 +1,8 @@
 {
- "updatedAt": 1795660603610,
+ "updatedAt": 1795662626637,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 44,
+ "scanned": 45,
  "items": [
   {
    "ca": "PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump",
@@ -10,36 +10,36 @@
    "sym": "BRUH",
    "name": "The Bruhvengers",
    "img": "https://cdn.dexscreener.com/cms/images/Y_n6IxPbU1FTLt2f?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 3,
+   "score": 10,
+   "unknown": 1,
    "answers": [
     1,
+    0,
     1,
     1,
     1,
     1,
     1,
     1,
-    null,
-    null,
+    1,
     1,
     1,
     null
    ],
-   "liq": 237884,
-   "vol": 480904,
-   "mcap": 9361866,
+   "liq": 239931,
+   "vol": 542081,
+   "mcap": 9548552,
    "holders": 14150,
    "createdAt": 1794025843000,
    "handle": "bruhvengersfun",
    "launchpad": "Pump.Fun",
-   "flags": 1,
+   "flags": 0,
    "sources": [
     "GoPlus",
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/ehpzesdxtymvwz1iy5nt3lrnjy1xbc1kgqspl1kqnyiv",
-   "scannedAt": 1795660514255
+   "scannedAt": 1795662548094
   }
  ]
 }
