@@ -1,8 +1,8 @@
 {
- "updatedAt": 1795676999493,
+ "updatedAt": 1795678554322,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 45,
+ "scanned": 44,
  "items": [
   {
    "ca": "PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump",
@@ -10,11 +10,11 @@
    "sym": "BRUH",
    "name": "The Bruhvengers",
    "img": "https://cdn.dexscreener.com/cms/images/Y_n6IxPbU1FTLt2f?width=800&height=800&quality=95&format=auto",
-   "score": 11,
+   "score": 10,
    "unknown": 1,
    "answers": [
     1,
-    1,
+    0,
     1,
     1,
     1,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 255325,
-   "vol": 959035,
-   "mcap": 10777896,
+   "liq": 256258,
+   "vol": 966620,
+   "mcap": 10815619,
    "holders": 14150,
    "createdAt": 1794025843000,
    "handle": "bruhvengersfun",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/ehpzesdxtymvwz1iy5nt3lrnjy1xbc1kgqspl1kqnyiv",
-   "scannedAt": 1795676912088
+   "scannedAt": 1795678435509
   },
   {
    "ca": "9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 61373,
-   "vol": 953568,
-   "mcap": 259176,
+   "liq": 61387,
+   "vol": 950063,
+   "mcap": 258240,
    "holders": 5881,
    "createdAt": 1793190770000,
    "handle": "aidiglet",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/3mxdjdz1gae5hzic4dj4unldxj5dbcc9jssyq55mfykg",
-   "scannedAt": 1795676913790
+   "scannedAt": 1795678437110
   }
  ]
 }
