@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795774142024,
+ "updatedAt": 1795775736122,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 191515,
-   "vol": 1101456,
-   "mcap": 5725621,
+   "liq": 188161,
+   "vol": 1091135,
+   "mcap": 5535808,
    "holders": 16629,
    "createdAt": 1794025843000,
    "handle": "bruhvengersfun",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/ehpzesdxtymvwz1iy5nt3lrnjy1xbc1kgqspl1kqnyiv",
-   "scannedAt": 1795774068235
+   "scannedAt": 1795775654336
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 319462,
-   "vol": 337328,
-   "mcap": 7522558,
+   "liq": 315842,
+   "vol": 339135,
+   "mcap": 7352772,
    "holders": 3055,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1795774064953
+   "scannedAt": 1795775656107
   },
   {
    "ca": "0x908D541584e0Cad3915965ca36f50bCB052E1Da7",
@@ -101,7 +101,7 @@
     null
    ],
    "liq": 228678,
-   "vol": 126,
+   "vol": 122,
    "mcap": 114696,
    "holders": 7,
    "createdAt": 1792609383000,
@@ -112,44 +112,7 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x091218d137b591dd8ea4088aac9bfa92e6a5b083",
-   "scannedAt": 1795774066708
-  },
-  {
-   "ca": "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump",
-   "chain": "solana",
-   "sym": "JOB",
-   "name": "DogWifJob",
-   "img": "https://cdn.dexscreener.com/cms/images/x8ZkXi9L1J38qoCZ?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    0,
-    1,
-    1,
-    1,
-    0,
-    1,
-    null
-   ],
-   "liq": 145818,
-   "vol": 421830,
-   "mcap": 1763310,
-   "holders": 2161,
-   "createdAt": 1793128408000,
-   "handle": "dogwifjob_sol",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/hauvbmnthcfmg9srxmvz1gaxnpu955hkpdsasc2cx4c8",
-   "scannedAt": 1795774084165
+   "scannedAt": 1795775657593
   }
  ]
 }
