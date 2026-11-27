@@ -1,46 +1,9 @@
 {
- "updatedAt": 1795749033098,
+ "updatedAt": 1795750584376,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 45,
+ "scanned": 43,
  "items": [
-  {
-   "ca": "PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump",
-   "chain": "solana",
-   "sym": "BRUH",
-   "name": "The Bruhvengers",
-   "img": "https://cdn.dexscreener.com/cms/images/Y_n6IxPbU1FTLt2f?width=800&height=800&quality=95&format=auto",
-   "score": 11,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 233742,
-   "vol": 1147288,
-   "mcap": 8700720,
-   "holders": 16244,
-   "createdAt": 1794025843000,
-   "handle": "bruhvengersfun",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/ehpzesdxtymvwz1iy5nt3lrnjy1xbc1kgqspl1kqnyiv",
-   "scannedAt": 1795748955248
-  },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
    "chain": "solana",
@@ -63,9 +26,9 @@
     1,
     null
    ],
-   "liq": 307996,
-   "vol": 286007,
-   "mcap": 7009048,
+   "liq": 309546,
+   "vol": 289675,
+   "mcap": 7079046,
    "holders": 3055,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -76,7 +39,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1795748956714
+   "scannedAt": 1795750487895
+  },
+  {
+   "ca": "PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump",
+   "chain": "solana",
+   "sym": "BRUH",
+   "name": "The Bruhvengers",
+   "img": "https://cdn.dexscreener.com/cms/images/Y_n6IxPbU1FTLt2f?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 3,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null,
+    null,
+    1,
+    1,
+    null
+   ],
+   "liq": 224420,
+   "vol": 1203959,
+   "mcap": 7970478,
+   "holders": 16244,
+   "createdAt": 1794025843000,
+   "handle": "bruhvengersfun",
+   "launchpad": "Pump.Fun",
+   "flags": 1,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/ehpzesdxtymvwz1iy5nt3lrnjy1xbc1kgqspl1kqnyiv",
+   "scannedAt": 1795750485085
   }
  ]
 }
