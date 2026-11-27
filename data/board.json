@@ -1,46 +1,9 @@
 {
- "updatedAt": 1795792142379,
+ "updatedAt": 1795793780887,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 42,
  "items": [
-  {
-   "ca": "PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump",
-   "chain": "solana",
-   "sym": "BRUH",
-   "name": "The Bruhvengers",
-   "img": "https://cdn.dexscreener.com/cms/images/Y_n6IxPbU1FTLt2f?width=800&height=800&quality=95&format=auto",
-   "score": 11,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 180786,
-   "vol": 1041199,
-   "mcap": 5289568,
-   "holders": 16629,
-   "createdAt": 1794025843000,
-   "handle": "bruhvengersfun",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/ehpzesdxtymvwz1iy5nt3lrnjy1xbc1kgqspl1kqnyiv",
-   "scannedAt": 1795792051942
-  },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
    "chain": "solana",
@@ -63,9 +26,9 @@
     1,
     null
    ],
-   "liq": 304920,
-   "vol": 361583,
-   "mcap": 6851445,
+   "liq": 303262,
+   "vol": 364863,
+   "mcap": 6777080,
    "holders": 3157,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -76,43 +39,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1795792050335
+   "scannedAt": 1795793683585
   },
   {
-   "ca": "0x6345cc8066fa47F785A14e7c80461F4243BF6666",
-   "chain": "bsc",
-   "sym": "FIONA",
-   "name": "Fiona the Hippo",
-   "img": "https://cdn.dexscreener.com/cms/images/sswMFicOysv1o_US?width=800&height=800&quality=95&format=auto",
+   "ca": "PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump",
+   "chain": "solana",
+   "sym": "BRUH",
+   "name": "The Bruhvengers",
+   "img": "https://cdn.dexscreener.com/cms/images/Y_n6IxPbU1FTLt2f?width=800&height=800&quality=95&format=auto",
    "score": 9,
-   "unknown": 1,
+   "unknown": 3,
    "answers": [
     1,
-    0,
     1,
     1,
     1,
     1,
     1,
-    0,
     1,
+    null,
+    null,
     1,
     1,
     null
    ],
-   "liq": 42759,
-   "vol": 80058,
-   "mcap": 53950,
-   "holders": 462,
-   "createdAt": 1795513882000,
-   "handle": "FionaHippoBNB",
-   "launchpad": null,
-   "flags": 0,
+   "liq": 181679,
+   "vol": 1008457,
+   "mcap": 5271778,
+   "holders": 18211,
+   "createdAt": 1794025843000,
+   "handle": "bruhvengersfun",
+   "launchpad": "Pump.Fun",
+   "flags": 1,
    "sources": [
-    "GoPlus"
+    "GoPlus",
+    "RugCheck"
    ],
-   "url": "https://dexscreener.com/bsc/0xf01a135cd482e793e0590beb5711b129a72ba8b0",
-   "scannedAt": 1795792119090
+   "url": "https://dexscreener.com/solana/ehpzesdxtymvwz1iy5nt3lrnjy1xbc1kgqspl1kqnyiv",
+   "scannedAt": 1795793681173
   }
  ]
 }
