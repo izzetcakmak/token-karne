@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795779382569,
+ "updatedAt": 1795781561447,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 44,
@@ -26,10 +26,10 @@
     1,
     null
    ],
-   "liq": 309726,
-   "vol": 340820,
-   "mcap": 7071287,
-   "holders": 3055,
+   "liq": 307992,
+   "vol": 342585,
+   "mcap": 6993089,
+   "holders": 3157,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
    "launchpad": "Pump.Fun",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1795779292963
+   "scannedAt": 1795781458174
   },
   {
    "ca": "PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 186895,
-   "vol": 1065658,
-   "mcap": 5472318,
+   "liq": 188214,
+   "vol": 1052892,
+   "mcap": 5558889,
    "holders": 16629,
    "createdAt": 1794025843000,
    "handle": "bruhvengersfun",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/ehpzesdxtymvwz1iy5nt3lrnjy1xbc1kgqspl1kqnyiv",
-   "scannedAt": 1795779290627
+   "scannedAt": 1795781460625
   }
  ]
 }
