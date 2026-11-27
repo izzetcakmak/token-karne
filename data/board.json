@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795760068557,
+ "updatedAt": 1795761802459,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -10,44 +10,7 @@
    "sym": "BRUH",
    "name": "The Bruhvengers",
    "img": "https://cdn.dexscreener.com/cms/images/Y_n6IxPbU1FTLt2f?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 3,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null,
-    null,
-    1,
-    1,
-    null
-   ],
-   "liq": 186579,
-   "vol": 1169404,
-   "mcap": 5477747,
-   "holders": 16629,
-   "createdAt": 1794025843000,
-   "handle": "bruhvengersfun",
-   "launchpad": "Pump.Fun",
-   "flags": 1,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/ehpzesdxtymvwz1iy5nt3lrnjy1xbc1kgqspl1kqnyiv",
-   "scannedAt": 1795759976882
-  },
-  {
-   "ca": "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump",
-   "chain": "solana",
-   "sym": "JOB",
-   "name": "DogWifJob",
-   "img": "https://cdn.dexscreener.com/cms/images/x8ZkXi9L1J38qoCZ?width=800&height=800&quality=95&format=auto",
-   "score": 9,
+   "score": 11,
    "unknown": 1,
    "answers": [
     1,
@@ -55,28 +18,28 @@
     1,
     1,
     1,
-    0,
     1,
     1,
     1,
-    0,
+    1,
+    1,
     1,
     null
    ],
-   "liq": 150761,
-   "vol": 379185,
-   "mcap": 1899743,
-   "holders": 2161,
-   "createdAt": 1793128408000,
-   "handle": "dogwifjob_sol",
+   "liq": 187459,
+   "vol": 1173285,
+   "mcap": 5540894,
+   "holders": 16629,
+   "createdAt": 1794025843000,
+   "handle": "bruhvengersfun",
    "launchpad": "Pump.Fun",
    "flags": 0,
    "sources": [
     "GoPlus",
     "RugCheck"
    ],
-   "url": "https://dexscreener.com/solana/hauvbmnthcfmg9srxmvz1gaxnpu955hkpdsasc2cx4c8",
-   "scannedAt": 1795759978800
+   "url": "https://dexscreener.com/solana/ehpzesdxtymvwz1iy5nt3lrnjy1xbc1kgqspl1kqnyiv",
+   "scannedAt": 1795761710320
   }
  ]
 }
