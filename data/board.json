@@ -1,23 +1,23 @@
 {
- "updatedAt": 1795770555964,
+ "updatedAt": 1795772151690,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 44,
  "items": [
   {
-   "ca": "PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump",
+   "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
    "chain": "solana",
-   "sym": "BRUH",
-   "name": "The Bruhvengers",
-   "img": "https://cdn.dexscreener.com/cms/images/Y_n6IxPbU1FTLt2f?width=800&height=800&quality=95&format=auto",
-   "score": 11,
+   "sym": "CBUCKS",
+   "name": "Cartoon Money",
+   "img": "https://cdn.dexscreener.com/cms/images/2bajn2a05AdQGV-4?width=800&height=800&quality=95&format=auto",
+   "score": 10,
    "unknown": 1,
    "answers": [
     1,
     1,
     1,
     1,
-    1,
+    0,
     1,
     1,
     1,
@@ -26,20 +26,20 @@
     1,
     null
    ],
-   "liq": 189822,
-   "vol": 1118803,
-   "mcap": 5628288,
-   "holders": 16629,
-   "createdAt": 1794025843000,
-   "handle": "bruhvengersfun",
+   "liq": 324311,
+   "vol": 318156,
+   "mcap": 7752134,
+   "holders": 3055,
+   "createdAt": 1791311393000,
+   "handle": "cartoonmoney_ai",
    "launchpad": "Pump.Fun",
    "flags": 0,
    "sources": [
     "GoPlus",
     "RugCheck"
    ],
-   "url": "https://dexscreener.com/solana/ehpzesdxtymvwz1iy5nt3lrnjy1xbc1kgqspl1kqnyiv",
-   "scannedAt": 1795770481015
+   "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
+   "scannedAt": 1795772069927
   },
   {
    "ca": "0x908D541584e0Cad3915965ca36f50bCB052E1Da7",
@@ -63,9 +63,9 @@
     0,
     null
    ],
-   "liq": 228660,
+   "liq": 228678,
    "vol": 131,
-   "mcap": 114687,
+   "mcap": 114696,
    "holders": 7,
    "createdAt": 1792609383000,
    "handle": "carbonxdefi",
@@ -75,7 +75,44 @@
     "GoPlus"
    ],
    "url": "https://dexscreener.com/bsc/0x091218d137b591dd8ea4088aac9bfa92e6a5b083",
-   "scannedAt": 1795770482512
+   "scannedAt": 1795772066123
+  },
+  {
+   "ca": "PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump",
+   "chain": "solana",
+   "sym": "BRUH",
+   "name": "The Bruhvengers",
+   "img": "https://cdn.dexscreener.com/cms/images/Y_n6IxPbU1FTLt2f?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 3,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null,
+    null,
+    1,
+    1,
+    null
+   ],
+   "liq": 188386,
+   "vol": 1112844,
+   "mcap": 5532433,
+   "holders": 16629,
+   "createdAt": 1794025843000,
+   "handle": "bruhvengersfun",
+   "launchpad": "Pump.Fun",
+   "flags": 1,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/ehpzesdxtymvwz1iy5nt3lrnjy1xbc1kgqspl1kqnyiv",
+   "scannedAt": 1795772064360
   }
  ]
 }
