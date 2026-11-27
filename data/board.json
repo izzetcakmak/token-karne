@@ -1,9 +1,46 @@
 {
- "updatedAt": 1795793780887,
+ "updatedAt": 1795795752782,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 42,
+ "scanned": 44,
  "items": [
+  {
+   "ca": "PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump",
+   "chain": "solana",
+   "sym": "BRUH",
+   "name": "The Bruhvengers",
+   "img": "https://cdn.dexscreener.com/cms/images/Y_n6IxPbU1FTLt2f?width=800&height=800&quality=95&format=auto",
+   "score": 11,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    null
+   ],
+   "liq": 168700,
+   "vol": 981726,
+   "mcap": 4516566,
+   "holders": 18211,
+   "createdAt": 1794025843000,
+   "handle": "bruhvengersfun",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/ehpzesdxtymvwz1iy5nt3lrnjy1xbc1kgqspl1kqnyiv",
+   "scannedAt": 1795795673977
+  },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
    "chain": "solana",
@@ -26,9 +63,9 @@
     1,
     null
    ],
-   "liq": 303262,
-   "vol": 364863,
-   "mcap": 6777080,
+   "liq": 304834,
+   "vol": 367429,
+   "mcap": 6847035,
    "holders": 3157,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -39,44 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1795793683585
-  },
-  {
-   "ca": "PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump",
-   "chain": "solana",
-   "sym": "BRUH",
-   "name": "The Bruhvengers",
-   "img": "https://cdn.dexscreener.com/cms/images/Y_n6IxPbU1FTLt2f?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 3,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null,
-    null,
-    1,
-    1,
-    null
-   ],
-   "liq": 181679,
-   "vol": 1008457,
-   "mcap": 5271778,
-   "holders": 18211,
-   "createdAt": 1794025843000,
-   "handle": "bruhvengersfun",
-   "launchpad": "Pump.Fun",
-   "flags": 1,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/ehpzesdxtymvwz1iy5nt3lrnjy1xbc1kgqspl1kqnyiv",
-   "scannedAt": 1795793681173
+   "scannedAt": 1795795672550
   }
  ]
 }
