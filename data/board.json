@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795840560154,
+ "updatedAt": 1795842526234,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 44,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 174765,
-   "vol": 551960,
-   "mcap": 4854762,
+   "liq": 180893,
+   "vol": 493400,
+   "mcap": 5210495,
    "holders": 18552,
    "createdAt": 1794025843000,
    "handle": "bruhvengersfun",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/ehpzesdxtymvwz1iy5nt3lrnjy1xbc1kgqspl1kqnyiv",
-   "scannedAt": 1795840454269
+   "scannedAt": 1795842442319
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 287160,
-   "vol": 296162,
-   "mcap": 6073068,
+   "liq": 292069,
+   "vol": 285374,
+   "mcap": 6280329,
    "holders": 3175,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -76,7 +76,44 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1795840455946
+   "scannedAt": 1795842444577
+  },
+  {
+   "ca": "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump",
+   "chain": "solana",
+   "sym": "JOB",
+   "name": "DogWifJob",
+   "img": "https://cdn.dexscreener.com/cms/images/x8ZkXi9L1J38qoCZ?width=800&height=800&quality=95&format=auto",
+   "score": 9,
+   "unknown": 1,
+   "answers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    null
+   ],
+   "liq": 174130,
+   "vol": 559172,
+   "mcap": 2547252,
+   "holders": 2206,
+   "createdAt": 1793128408000,
+   "handle": "dogwifjob_sol",
+   "launchpad": "Pump.Fun",
+   "flags": 0,
+   "sources": [
+    "GoPlus",
+    "RugCheck"
+   ],
+   "url": "https://dexscreener.com/solana/hauvbmnthcfmg9srxmvz1gaxnpu955hkpdsasc2cx4c8",
+   "scannedAt": 1795842480265
   }
  ]
 }
