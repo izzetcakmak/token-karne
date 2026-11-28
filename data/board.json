@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795858545866,
+ "updatedAt": 1795860489662,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 181919,
-   "vol": 442795,
-   "mcap": 5296954,
+   "liq": 179141,
+   "vol": 446372,
+   "mcap": 5132743,
    "holders": 18552,
    "createdAt": 1794025843000,
    "handle": "bruhvengersfun",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/ehpzesdxtymvwz1iy5nt3lrnjy1xbc1kgqspl1kqnyiv",
-   "scannedAt": 1795858455562
+   "scannedAt": 1795860417599
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 293303,
-   "vol": 239454,
-   "mcap": 6332025,
+   "liq": 293532,
+   "vol": 211675,
+   "mcap": 6342033,
    "holders": 3175,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1795858457775
+   "scannedAt": 1795860419374
   },
   {
    "ca": "EwUVBpdM5vw1CJHRMSLywzVjyQSJZpy6qboxEPBKpump",
@@ -100,9 +100,9 @@
     1,
     null
    ],
-   "liq": 33188,
-   "vol": 67537,
-   "mcap": 194494,
+   "liq": 33846,
+   "vol": 69859,
+   "mcap": 201836,
    "holders": 738,
    "createdAt": 1794689998000,
    "handle": "pumpmassol",
@@ -113,7 +113,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b1mjhdyip3t6uqyhoipj1hza1g3yxjbvfysnjucb5cgd",
-   "scannedAt": 1795858501849
+   "scannedAt": 1795860420868
   }
  ]
 }
