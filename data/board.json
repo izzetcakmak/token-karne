@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795860489662,
+ "updatedAt": 1795862128126,
  "threshold": 9,
  "minAgeH": 24,
  "scanned": 45,
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 179141,
-   "vol": 446372,
-   "mcap": 5132743,
+   "liq": 183944,
+   "vol": 451615,
+   "mcap": 5419906,
    "holders": 18552,
    "createdAt": 1794025843000,
    "handle": "bruhvengersfun",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/ehpzesdxtymvwz1iy5nt3lrnjy1xbc1kgqspl1kqnyiv",
-   "scannedAt": 1795860417599
+   "scannedAt": 1795862046388
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 293532,
-   "vol": 211675,
-   "mcap": 6342033,
+   "liq": 294127,
+   "vol": 201992,
+   "mcap": 6367382,
    "holders": 3175,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -76,44 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1795860419374
-  },
-  {
-   "ca": "EwUVBpdM5vw1CJHRMSLywzVjyQSJZpy6qboxEPBKpump",
-   "chain": "solana",
-   "sym": "PumpMas",
-   "name": "PumpMas",
-   "img": "https://cdn.dexscreener.com/cms/images/TjESd9TNidpILheQ?width=800&height=800&quality=95&format=auto",
-   "score": 9,
-   "unknown": 1,
-   "answers": [
-    1,
-    1,
-    1,
-    1,
-    0,
-    0,
-    1,
-    1,
-    1,
-    1,
-    1,
-    null
-   ],
-   "liq": 33846,
-   "vol": 69859,
-   "mcap": 201836,
-   "holders": 738,
-   "createdAt": 1794689998000,
-   "handle": "pumpmassol",
-   "launchpad": "Pump.Fun",
-   "flags": 0,
-   "sources": [
-    "GoPlus",
-    "RugCheck"
-   ],
-   "url": "https://dexscreener.com/solana/b1mjhdyip3t6uqyhoipj1hza1g3yxjbvfysnjucb5cgd",
-   "scannedAt": 1795860420868
+   "scannedAt": 1795862048356
   }
  ]
 }
