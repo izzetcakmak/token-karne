@@ -1,8 +1,8 @@
 {
- "updatedAt": 1795836908461,
+ "updatedAt": 1795838973930,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 45,
+ "scanned": 44,
  "items": [
   {
    "ca": "PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump",
@@ -26,9 +26,9 @@
     1,
     null
    ],
-   "liq": 171011,
-   "vol": 777555,
-   "mcap": 4655197,
+   "liq": 172633,
+   "vol": 633097,
+   "mcap": 4735637,
    "holders": 18552,
    "createdAt": 1794025843000,
    "handle": "bruhvengersfun",
@@ -39,7 +39,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/ehpzesdxtymvwz1iy5nt3lrnjy1xbc1kgqspl1kqnyiv",
-   "scannedAt": 1795836828562
+   "scannedAt": 1795838887070
   },
   {
    "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
@@ -63,9 +63,9 @@
     1,
     null
    ],
-   "liq": 286599,
-   "vol": 311238,
-   "mcap": 6049584,
+   "liq": 284331,
+   "vol": 302896,
+   "mcap": 5955039,
    "holders": 3175,
    "createdAt": 1791311393000,
    "handle": "cartoonmoney_ai",
@@ -76,7 +76,7 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1795836830026
+   "scannedAt": 1795838888732
   }
  ]
 }
