@@ -1,8 +1,8 @@
 {
- "updatedAt": 1795826850252,
+ "updatedAt": 1795828204079,
  "threshold": 9,
  "minAgeH": 24,
- "scanned": 44,
+ "scanned": 45,
  "items": [
   {
    "ca": "PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump",
@@ -26,10 +26,10 @@
     1,
     null
    ],
-   "liq": 173713,
-   "vol": 878538,
-   "mcap": 4795985,
-   "holders": 18211,
+   "liq": 173899,
+   "vol": 873166,
+   "mcap": 4800039,
+   "holders": 18552,
    "createdAt": 1794025843000,
    "handle": "bruhvengersfun",
    "launchpad": "Pump.Fun",
@@ -39,17 +39,18 @@
     "RugCheck"
    ],
    "url": "https://dexscreener.com/solana/ehpzesdxtymvwz1iy5nt3lrnjy1xbc1kgqspl1kqnyiv",
-   "scannedAt": 1795826776821
+   "scannedAt": 1795828081510
   },
   {
-   "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
+   "ca": "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump",
    "chain": "solana",
-   "sym": "CBUCKS",
-   "name": "Cartoon Money",
-   "img": "https://cdn.dexscreener.com/cms/images/2bajn2a05AdQGV-4?width=800&height=800&quality=95&format=auto",
-   "score": 10,
+   "sym": "JOB",
+   "name": "DogWifJob",
+   "img": "https://cdn.dexscreener.com/cms/images/x8ZkXi9L1J38qoCZ?width=800&height=800&quality=95&format=auto",
+   "score": 9,
    "unknown": 1,
    "answers": [
+    1,
     1,
     1,
     1,
@@ -58,25 +59,24 @@
     1,
     1,
     1,
-    1,
-    1,
+    0,
     1,
     null
    ],
-   "liq": 288529,
-   "vol": 371713,
-   "mcap": 6131205,
-   "holders": 3175,
-   "createdAt": 1791311393000,
-   "handle": "cartoonmoney_ai",
+   "liq": 176185,
+   "vol": 543747,
+   "mcap": 2601058,
+   "holders": 2206,
+   "createdAt": 1793128408000,
+   "handle": "dogwifjob_sol",
    "launchpad": "Pump.Fun",
    "flags": 0,
    "sources": [
     "GoPlus",
     "RugCheck"
    ],
-   "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
-   "scannedAt": 1795826778814
+   "url": "https://dexscreener.com/solana/hauvbmnthcfmg9srxmvz1gaxnpu955hkpdsasc2cx4c8",
+   "scannedAt": 1795828140390
   }
  ]
 }
